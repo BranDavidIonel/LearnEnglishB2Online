@@ -1,0 +1,128 @@
+{
+  "id": "b1-u04",
+  "level": "B1",
+  "order": 4,
+  "title": "It had all gone wrong",
+  "titleRo": "Totul o luase razna",
+  "emoji": "🚨",
+  "goalRo": "La final vei putea să povestești o întâmplare din trecut — un incident pe producție sau o pățanie în călătorie — folosind past simple, past continuous și past perfect.",
+  "vocab": [
+    { "en": "outage", "ro": "întrerupere (a unui serviciu), pană", "pos": "noun", "ipa": "/ˈaʊ.tɪdʒ/", "emoji": "🔌", "ex": "The outage lasted forty minutes.", "exRo": "Întreruperea a durat patruzeci de minute." },
+    { "en": "crash", "ro": "a se bloca, a cădea (despre un program)", "pos": "verb", "ipa": "/kræʃ/", "emoji": "💥", "ex": "The app crashed when too many users logged in.", "exRo": "Aplicația a căzut când s-au logat prea mulți utilizatori." },
+    { "en": "roll back", "ro": "a reveni la versiunea anterioară", "pos": "verb", "ipa": "/ˌrəʊl ˈbæk/", "emoji": "⏪", "ex": "We rolled back the update and the errors stopped.", "exRo": "Am revenit la versiunea anterioară și erorile s-au oprit." },
+    { "en": "backup", "ro": "copie de siguranță, backup", "pos": "noun", "ipa": "/ˈbæk.ʌp/", "emoji": "💾", "ex": "Luckily, we had a backup from the night before.", "exRo": "Din fericire, aveam un backup din noaptea dinainte." },
+    { "en": "on call", "ro": "de gardă (disponibil pentru urgențe)", "pos": "phrase", "ipa": "/ˌɒn ˈkɔːl/", "emoji": "📟", "ex": "I was on call that weekend.", "exRo": "Eram de gardă în weekendul acela." },
+    { "en": "hotfix", "ro": "corecție urgentă (hotfix)", "pos": "noun", "ipa": "/ˈhɒt.fɪks/", "emoji": "🩹", "ex": "She deployed a hotfix at two in the morning.", "exRo": "A făcut deploy la un hotfix la două noaptea." },
+    { "en": "realise", "ro": "a-și da seama", "pos": "verb", "ipa": "/ˈrɪə.laɪz/", "emoji": "💡", "ex": "I realised that I had forgotten my charger.", "exRo": "Mi-am dat seama că îmi uitasem încărcătorul." },
+    { "en": "suddenly", "ro": "deodată, brusc", "pos": "adv", "ipa": "/ˈsʌd.ən.li/", "emoji": "⚡", "ex": "Suddenly, all the screens went black.", "exRo": "Deodată, toate ecranele s-au înnegrit." },
+    { "en": "eventually", "ro": "în cele din urmă (NU „eventual”)", "pos": "adv", "ipa": "/ɪˈven.tʃu.ə.li/", "emoji": "🏁", "ex": "We eventually found the cause of the bug.", "exRo": "În cele din urmă am găsit cauza bug-ului." },
+    { "en": "luckily", "ro": "din fericire", "pos": "adv", "ipa": "/ˈlʌk.ɪ.li/", "emoji": "🍀", "ex": "Luckily, nobody lost any data.", "exRo": "Din fericire, nimeni nu a pierdut date." },
+    { "en": "miss a flight", "ro": "a pierde zborul", "pos": "phrase", "ipa": "/ˌmɪs ə ˈflaɪt/", "emoji": "🛫", "ex": "We missed our flight because of the traffic.", "exRo": "Am pierdut zborul din cauza traficului." },
+    { "en": "boarding pass", "ro": "carte de îmbarcare", "pos": "noun", "ipa": "/ˈbɔː.dɪŋ ˌpɑːs/", "emoji": "🎫", "wiki": "Boarding pass", "ex": "Have your boarding pass ready at the gate.", "exRo": "Ține cartea de îmbarcare pregătită la poartă." },
+    { "en": "delayed", "ro": "întârziat", "pos": "adj", "ipa": "/dɪˈleɪd/", "emoji": "🕰️", "ex": "Our train was delayed by two hours.", "exRo": "Trenul nostru a avut o întârziere de două ore." },
+    { "en": "run out of", "ro": "a rămâne fără", "pos": "verb", "ipa": "/ˌrʌn ˈaʊt əv/", "emoji": "🪫", "ex": "My phone ran out of battery at the airport.", "exRo": "Telefonul meu a rămas fără baterie la aeroport." },
+    { "en": "turn out", "ro": "a se dovedi", "pos": "verb", "ipa": "/ˌtɜːn ˈaʊt/", "emoji": "🔍", "ex": "It turned out that the problem was a missing semicolon.", "exRo": "S-a dovedit că problema era un punct și virgulă lipsă." },
+    { "en": "stranded", "ro": "blocat (undeva, fără transport)", "pos": "adj", "ipa": "/ˈstræn.dɪd/", "emoji": "🏝️", "ex": "Hundreds of passengers were stranded at the airport.", "exRo": "Sute de pasageri au rămas blocați în aeroport." },
+    { "en": "connecting flight", "ro": "zbor de legătură", "pos": "noun", "ipa": "/kəˌnek.tɪŋ ˈflaɪt/", "emoji": "🔗", "ex": "I had only forty minutes for my connecting flight.", "exRo": "Aveam doar patruzeci de minute pentru zborul de legătură." }
+  ],
+  "grammar": {
+    "title": "Past perfect and narrative tenses",
+    "titleRo": "Past perfect și timpurile narative",
+    "sections": [
+      {
+        "headingRo": "Past simple: firul principal al poveștii",
+        "textRo": "Evenimentele principale, în ordinea în care s-au întâmplat, le spunem la **past simple**: întâi asta, apoi asta.",
+        "examples": [
+          { "en": "The app crashed, we checked the logs and we rolled back the update.", "ro": "Aplicația a căzut, am verificat logurile și am revenit la versiunea anterioară." },
+          { "en": "I landed in Munich and ran to the next gate.", "ro": "Am aterizat la München și am alergat la următoarea poartă." }
+        ]
+      },
+      {
+        "headingRo": "Past continuous: fundalul și acțiunea întreruptă",
+        "textRo": "**was/were + -ing** descrie ce era în desfășurare când s-a întâmplat altceva (fundalul scenei). Acțiunea scurtă care „întrerupe” este la past simple. Cu **while** folosim de obicei past continuous, cu **when** de obicei past simple.",
+        "examples": [
+          { "en": "I was watching a film when the alert came.", "ro": "Mă uitam la un film când a venit alerta." },
+          { "en": "While we were waiting at the gate, it started to snow.", "ro": "În timp ce așteptam la poartă, a început să ningă." }
+        ]
+      },
+      {
+        "headingRo": "Past perfect: „trecutul trecutului”",
+        "textRo": "**had + participiul trecut** (had left, had forgotten). Îl folosim pentru o acțiune care s-a întâmplat **înaintea** altui moment din trecut. Seamănă cu mai-mult-ca-perfectul din română („plecase”, „uitasem”), dar în engleză îl folosim mult mai des, și în vorbire.",
+        "table": {
+          "headers": ["Propoziție", "Ce înțelegem"],
+          "rows": [
+            ["When I got to the gate, the plane left.", "Am ajuns, apoi avionul a plecat (l-am văzut plecând)."],
+            ["When I got to the gate, the plane had left.", "Avionul plecase deja înainte să ajung."]
+          ]
+        },
+        "examples": [
+          { "en": "I realised that I had left my passport at the hotel.", "ro": "Mi-am dat seama că îmi lăsasem pașaportul la hotel." },
+          { "en": "Nobody had made a backup for a week.", "ro": "Nimeni nu făcuse backup de o săptămână." }
+        ]
+      },
+      {
+        "headingRo": "Cuvinte care leagă povestea",
+        "textRo": "**when, while, as soon as, by the time** (până când), **before, after, then, suddenly, luckily, eventually** (în cele din urmă). Cu **by the time** folosim aproape mereu past perfect.",
+        "examples": [
+          { "en": "By the time the client called, we had fixed the problem.", "ro": "Până să sune clientul, rezolvaserăm problema." },
+          { "en": "Eventually, the airline found us a hotel.", "ro": "În cele din urmă, compania aeriană ne-a găsit un hotel." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "**eventually** este un „prieten fals”: înseamnă „în cele din urmă”, nu „eventual” (care se traduce prin **possibly**).",
+      "În română vorbită folosim rar „plecase”, „uitasem”, dar în engleză past perfect este normal: **The plane had already left.**",
+      "Nu folosi past perfect pentru toate acțiunile din trecut — doar pentru cea care s-a întâmplat **înainte** de momentul poveștii.",
+      "Forma scurtă **I'd** poate însemna „I had” (I'd left) sau „I would” (I'd like) — contextul îți spune care e."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "A doua zi după incident",
+    "lines": [
+      { "speaker": "Elena", "en": "I saw the messages this morning. What happened last night?", "ro": "Am văzut mesajele azi-dimineață. Ce s-a întâmplat aseară?" },
+      { "speaker": "Andrei", "en": "I was on call. I was having dinner when the alerts started. The whole CRM was down.", "ro": "Eram de gardă. Luam cina când au început alertele. Tot CRM-ul era căzut." },
+      { "speaker": "Elena", "en": "Oh no. Had someone deployed something?", "ro": "Vai. Făcuse cineva vreun deploy?" },
+      { "speaker": "Andrei", "en": "Yes. Paul had released a new version at six, just before he left the office.", "ro": "Da. Paul lansase o versiune nouă la șase, chiar înainte să plece de la birou." },
+      { "speaker": "Elena", "en": "Classic. So what did you do?", "ro": "Clasic. Și ce ai făcut?" },
+      { "speaker": "Andrei", "en": "I rolled back the update, but the errors didn't stop. It turned out that the migration had changed a table.", "ro": "Am revenit la versiunea anterioară, dar erorile nu s-au oprit. S-a dovedit că migrarea modificase un tabel." },
+      { "speaker": "Elena", "en": "And how did you fix it?", "ro": "Și cum ai rezolvat?" },
+      { "speaker": "Andrei", "en": "Luckily, we had a backup from the afternoon. I restored it and eventually everything worked again.", "ro": "Din fericire, aveam un backup de după-amiază. L-am restaurat și în cele din urmă totul a funcționat din nou." },
+      { "speaker": "Elena", "en": "What time did you go to bed?", "ro": "La ce oră te-ai culcat?" },
+      { "speaker": "Andrei", "en": "Around three. By then I had written the incident report too.", "ro": "Pe la trei. Până atunci scrisesem și raportul de incident." }
+    ]
+  },
+  "reading": {
+    "title": "The longest trip to Amsterdam",
+    "text": "Last spring, Andrei flew to Amsterdam to meet a new client. He had booked a cheap ticket with a connecting flight in Munich, and he had only fifty minutes between the two flights. \"No problem,\" he thought.\n\nThe first flight was delayed because of fog in Cluj. While the passengers were waiting on the plane, Andrei was checking the time every five minutes. When they finally landed in Munich, he ran through the airport with his laptop bag. But by the time he got to the gate, the plane to Amsterdam had already left.\n\nThere were no more flights that evening, so he was stranded in Munich. To make things worse, his phone had run out of battery, and he had written the client's number only in his phone. He found a charger in a café and sent the client an apologetic email.\n\nEventually, the airline gave him a hotel room and a seat on the first flight in the morning. It turned out that the client wasn't upset at all. \"It happens to everyone,\" she wrote. Andrei signed the contract the next day, but he has never booked a fifty-minute connection again.",
+    "textRo": "Primăvara trecută, Andrei a zburat la Amsterdam ca să se întâlnească cu un client nou. Își rezervase un bilet ieftin cu zbor de legătură la München și avea doar cincizeci de minute între cele două zboruri. „Nicio problemă”, s-a gândit el.\n\nPrimul zbor a avut întârziere din cauza ceții din Cluj. În timp ce pasagerii așteptau în avion, Andrei se uita la ceas la fiecare cinci minute. Când au aterizat în sfârșit la München, a alergat prin aeroport cu geanta de laptop. Dar până să ajungă la poartă, avionul spre Amsterdam plecase deja.\n\nNu mai erau zboruri în seara aceea, așa că a rămas blocat la München. Ca să fie și mai rău, telefonul lui rămăsese fără baterie, iar numărul clientei îl avea notat doar în telefon. A găsit un încărcător într-o cafenea și i-a trimis clientei un e-mail în care își cerea scuze.\n\nÎn cele din urmă, compania aeriană i-a dat o cameră de hotel și un loc la primul zbor de dimineață. S-a dovedit că clienta nu era deloc supărată. „I se întâmplă oricui”, a scris ea. Andrei a semnat contractul a doua zi, dar de atunci nu a mai rezervat niciodată o legătură de cincizeci de minute.",
+    "questions": [
+      { "type": "mc", "q": "Why was the first flight delayed?", "options": ["Because of a strike", "Because of fog", "Because of a technical problem", "Because Andrei was late"], "answer": 1, "explainRo": "„The first flight was delayed because of fog in Cluj.”" },
+      { "type": "mc", "q": "What had happened when Andrei got to the gate in Munich?", "options": ["The plane was boarding.", "The gate had changed.", "The plane had already left.", "The flight had been cancelled."], "answer": 2, "explainRo": "„by the time he got to the gate, the plane to Amsterdam had already left” — avionul plecase înainte să ajungă el." },
+      { "type": "mc", "q": "Why couldn't Andrei call the client?", "options": ["His phone had no battery.", "He had lost his phone.", "The client had changed her number.", "The café had no signal."], "answer": 0, "explainRo": "„his phone had run out of battery” și numărul era doar în telefon." },
+      { "type": "mc", "q": "How did the client react?", "options": ["She cancelled the meeting.", "She was very angry.", "She asked for a discount.", "She was not upset."], "answer": 3, "explainRo": "„the client wasn't upset at all”." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["outage", "întrerupere"], ["luckily", "din fericire"], ["eventually", "în cele din urmă"], ["delayed", "întârziat"], ["boarding pass", "carte de îmbarcare"]] },
+    { "type": "mc", "q": "I ___ a film when the server alert came.", "options": ["watched", "was watching", "had watched"], "answer": 1, "explainRo": "Acțiunea de fundal, întreruptă de alertă, este la past continuous." },
+    { "type": "mc", "q": "When we got to the gate, the plane ___. We were too late.", "options": ["already left", "had already left", "has already left"], "answer": 1, "explainRo": "Avionul plecase înainte de sosirea noastră → past perfect." },
+    { "type": "mc", "q": "I ___ to Japan before that business trip.", "options": ["had never been", "have never been", "never am"], "answer": 0, "explainRo": "Experiența este raportată la un moment din trecut (before that trip) → past perfect." },
+    { "type": "mc", "q": "While I ___ the database, the power went off.", "options": ["was updating", "updated", "had updated"], "answer": 0, "explainRo": "După „while” folosim past continuous pentru acțiunea în desfășurare." },
+    { "type": "mc", "q": "We waited for six hours, but ___ the airline found us a hotel.", "options": ["actually", "currently", "eventually"], "answer": 2, "explainRo": "„eventually” = în cele din urmă, după mult timp sau multe probleme." },
+    { "type": "mc", "q": "The new version had a serious bug, so we ___ to the previous one.", "options": ["rolled back", "ran out", "turned out"], "answer": 0, "explainRo": "„roll back” = a reveni la versiunea anterioară." },
+    { "type": "mc", "q": "My first flight was ___, so I missed my connecting flight.", "options": ["stranded", "delayed", "on call"], "answer": 1, "explainRo": "„delayed” = întârziat; de aceea a pierdut legătura." },
+    { "type": "mc", "q": "It ___ that the bug was in a third-party library.", "options": ["rolled back", "crashed", "turned out"], "answer": 2, "explainRo": "„It turned out that…” = s-a dovedit că…" },
+    { "type": "fill", "q": "By the time the client called, we ___ (fix) the problem.", "answers": ["had fixed", "'d fixed", "had already fixed", "'d already fixed"], "explainRo": "„By the time” + acțiune terminată înainte → past perfect." },
+    { "type": "fill", "q": "I was sleeping when my phone ___ (ring).", "answers": ["rang"], "explainRo": "Acțiunea scurtă care întrerupe este la past simple; „ring” este neregulat: rang." },
+    { "type": "fill", "q": "When the server crashed, we realised that nobody ___ (make) a backup for a week.", "answers": ["had made", "'d made"], "explainRo": "Backup-ul (lipsă) ține de perioada dinaintea căderii → past perfect." },
+    { "type": "fill", "q": "We ran ___ of time and couldn't finish the demo.", "answers": ["out"], "explainRo": "„run out of” = a rămâne fără ceva." },
+    { "type": "order", "words": ["The", "server", "crashed", "while", "I", "was", "sleeping."], "ro": "Serverul a căzut în timp ce dormeam.", "explainRo": "Acțiunea scurtă la past simple, fundalul cu while + past continuous." },
+    { "type": "order", "words": ["I", "realised", "that", "I", "had", "left", "my", "passport."], "ro": "Mi-am dat seama că îmi lăsasem pașaportul.", "explainRo": "Acțiunea mai veche (lăsarea pașaportului) este la past perfect: had left." },
+    { "type": "order", "words": ["Luckily,", "we", "had", "a", "recent", "backup."], "ro": "Din fericire, aveam un backup recent.", "explainRo": "Adverbul „Luckily,” deschide propoziția, urmat de subiect și verb." },
+    { "type": "translate", "ro": "Când am ajuns la aeroport, avionul plecase deja.", "answers": ["When I arrived at the airport, the plane had already left.", "When I got to the airport, the plane had already left.", "When I reached the airport, the plane had already left.", "When I arrived at the airport, the flight had already left.", "When I got to the airport, the flight had already left.", "When we arrived at the airport, the plane had already left.", "When we got to the airport, the plane had already left."], "explainRo": "„plecase” = mai-mult-ca-perfect → past perfect: had already left." },
+    { "type": "translate", "ro": "În cele din urmă, am rezolvat problema.", "answers": ["Eventually, we fixed the problem.", "Eventually, we solved the problem.", "Eventually, I fixed the problem.", "Eventually, I solved the problem.", "In the end, we fixed the problem.", "In the end, we solved the problem.", "In the end, I fixed the problem.", "In the end, I solved the problem.", "We eventually fixed the problem.", "We eventually solved the problem.", "I eventually fixed the problem.", "I eventually solved the problem.", "Finally, we fixed the problem.", "Finally, I fixed the problem.", "Finally, we solved the problem.", "Finally, I solved the problem."], "explainRo": "„În cele din urmă” = eventually / in the end; acțiunea principală stă la past simple." },
+    { "type": "listen", "audio": "I was on call that night.", "answers": ["I was on call that night."], "ro": "Eram de gardă în noaptea aceea.", "explainRo": "„on call” = de gardă, disponibil pentru urgențe." },
+    { "type": "listen", "audio": "We had run out of time.", "answers": ["We had run out of time.", "We'd run out of time."], "ro": "Rămăseserăm fără timp.", "explainRo": "Past perfect al lui „run out of”: had run out of (run este neregulat: run – ran – run)." }
+  ],
+  "video": { "youtubeId": "7Mni3yDpIWo", "title": "Past Simple and Past Perfect - Tenses in English (English with Ronnie · engVid)" }
+}

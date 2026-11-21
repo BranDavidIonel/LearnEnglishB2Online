@@ -1,0 +1,17 @@
+{
+  "unit": "b1-u10",
+  "questions": [
+    {"type":"mc","q":"I use an app ___ translates restaurant menus from a photo.","options":["who","which","where"],"answer":1,"explainRo":"Pentru lucruri (an app) folosim which (sau that)."},
+    {"type":"mc","q":"Our client is in New York, so the ___ makes calls difficult: when it's 6 p.m. here, it's 11 a.m. there.","options":["culture shock","rent","time difference"],"answer":2,"explainRo":"„time difference” = diferența de fus orar dintre două locuri."},
+    {"type":"mc","q":"These days I ___ work from a café near my flat — it's quieter than the office.","options":["usually","used to","use to"],"answer":0,"explainRo":"Pentru obiceiuri din prezent folosim usually; used to este doar pentru trecut."},
+    {"type":"mc","q":"My sister keeps ___ me when I'm going to visit her in Madrid.","options":["to ask","ask","asking"],"answer":2,"explainRo":"După keep folosim forma -ing: keeps asking."},
+    {"type":"mc","q":"Our team leader, ___ lives in Berlin, works with us remotely.","options":["that","who","which"],"answer":1,"explainRo":"Informație în plus, între virgule, despre o persoană → who (niciodată that)."},
+    {"type":"fill","q":"My brother has lived ___ for ten years — first in Italy, and now in Canada.","answers":["abroad","overseas"],"explainRo":"„abroad” = în străinătate (fără „in” înainte)."},
+    {"type":"fill","q":"We look forward to ___ (work) with you on the new project.","answers":["working"],"explainRo":"În „look forward to”, „to” este prepoziție, deci urmează -ing."},
+    {"type":"fill","q":"After a year in London, I still haven't got used to ___ (drive) on the left.","answers":["driving"],"explainRo":"„get used to” (a se obișnui cu) este urmat de -ing."},
+    {"type":"order","words":["The","colleague","who","found","the","bug","is","on","holiday."],"ro":"Colegul care a găsit bug-ul este în concediu.","explainRo":"Pentru persoane folosim who: the colleague who…"},
+    {"type":"order","words":["I'm","planning","to","visit","Japan","next","spring."],"ro":"Plănuiesc să vizitez Japonia la primăvară.","explainRo":"După plan folosim to + verb: planning to visit."},
+    {"type":"listen","audio":"The tram we took was full of tourists.","answers":["The tram we took was full of tourists."],"ro":"Tramvaiul cu care am mers era plin de turiști.","explainRo":"Pronumele relativ poate lipsi când nu este subiect: the tram (that) we took."},
+    {"type":"translate","ro":"Pe vremuri plăteam o chirie foarte mare.","answers":["I used to pay a very high rent.","I used to pay very high rent.","I used to pay a really high rent.","I used to pay really high rent.","I used to pay a lot of rent.","I used to pay a lot for rent.","We used to pay a very high rent.","We used to pay very high rent.","We used to pay a really high rent.","We used to pay really high rent.","We used to pay a lot of rent.","We used to pay a lot for rent.","My rent used to be very high.","Our rent used to be very high."],"explainRo":"„Pe vremuri” + un obicei din trecut = used to + verb."}
+  ]
+}

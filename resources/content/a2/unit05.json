@@ -1,0 +1,125 @@
+{
+  "id": "a2-u05",
+  "level": "A2",
+  "order": 5,
+  "title": "What are you doing on Friday?",
+  "titleRo": "Ce faci vineri?",
+  "emoji": "📅",
+  "goalRo": "La final vei putea să vorbești despre planurile tale și să stabilești întâlniri cu colegii și clienții, folosind be going to și prezentul continuu.",
+  "vocab": [
+    { "en": "schedule", "ro": "program, orar", "pos": "noun", "ipa": "/ˈʃedʒ.uːl/", "emoji": "🗓️", "ex": "My schedule is very full this week.", "exRo": "Programul meu e foarte plin săptămâna aceasta." },
+    { "en": "appointment", "ro": "programare (la medic etc.)", "pos": "noun", "ipa": "/əˈpɔɪnt.mənt/", "emoji": "🩺", "ex": "I have a dentist appointment on Thursday.", "exRo": "Am o programare la dentist joi." },
+    { "en": "deadline", "ro": "termen limită", "pos": "noun", "ipa": "/ˈded.laɪn/", "emoji": "⏰", "ex": "The deadline for the project is next Friday.", "exRo": "Termenul limită pentru proiect este vinerea viitoare." },
+    { "en": "the day after tomorrow", "ro": "poimâine", "pos": "phrase", "ipa": "/ðə ˌdeɪ ˌɑːf.tə təˈmɒr.əʊ/", "emoji": "📆", "ex": "We're flying to Rome the day after tomorrow.", "exRo": "Zburăm la Roma poimâine." },
+    { "en": "book", "ro": "a rezerva", "pos": "verb", "ipa": "/bʊk/", "emoji": "🏨", "ex": "I'm going to book a hotel room for the conference.", "exRo": "O să rezerv o cameră de hotel pentru conferință." },
+    { "en": "cancel", "ro": "a anula", "pos": "verb", "ipa": "/ˈkæn.səl/", "emoji": "❌", "ex": "The client cancelled the meeting this morning.", "exRo": "Clientul a anulat ședința în dimineața aceasta." },
+    { "en": "arrange", "ro": "a stabili, a organiza", "pos": "verb", "ipa": "/əˈreɪndʒ/", "emoji": "🤝", "ex": "Let's arrange a meeting for next week.", "exRo": "Hai să stabilim o întâlnire săptămâna viitoare." },
+    { "en": "available", "ro": "disponibil, liber", "pos": "adj", "ipa": "/əˈveɪ.lə.bəl/", "emoji": "🟢", "ex": "Are you available on Monday afternoon?", "exRo": "Ești disponibil luni după-amiază?" },
+    { "en": "video call", "ro": "apel video", "pos": "noun", "ipa": "/ˈvɪd.i.əʊ ˌkɔːl/", "emoji": "📹", "ex": "We're having a video call with the client at ten.", "exRo": "Avem un apel video cu clientul la zece." },
+    { "en": "agenda", "ro": "ordinea de zi", "pos": "noun", "ipa": "/əˈdʒen.də/", "emoji": "📋", "ex": "I'm going to send you the agenda for the meeting.", "exRo": "O să-ți trimit ordinea de zi pentru ședință." },
+    { "en": "invite", "ro": "a invita", "pos": "verb", "ipa": "/ɪnˈvaɪt/", "emoji": "✉️", "ex": "They invited me to their wedding in June.", "exRo": "M-au invitat la nunta lor în iunie." },
+    { "en": "conference", "ro": "conferință", "pos": "noun", "ipa": "/ˈkɒn.fər.əns/", "emoji": "🎤", "ex": "I'm going to a tech conference in Berlin.", "exRo": "Merg la o conferință de tehnologie la Berlin." },
+    { "en": "remind", "ro": "a reaminti", "pos": "verb", "ipa": "/rɪˈmaɪnd/", "emoji": "🔔", "ex": "Can you remind me about the meeting tomorrow?", "exRo": "Poți să-mi amintești mâine de ședință?" },
+    { "en": "presentation", "ro": "prezentare", "pos": "noun", "ipa": "/ˌprez.ənˈteɪ.ʃən/", "emoji": "📊", "ex": "She's giving a presentation to the client on Monday.", "exRo": "Ea ține o prezentare pentru client luni." },
+    { "en": "launch", "ro": "a lansa", "pos": "verb", "ipa": "/lɔːntʃ/", "emoji": "🎉", "ex": "We're going to launch the new app in March.", "exRo": "O să lansăm noua aplicație în martie." },
+    { "en": "soon", "ro": "curând", "pos": "adv", "ipa": "/suːn/", "emoji": "⌛", "ex": "I'm going to start a new job soon.", "exRo": "O să încep curând un job nou." }
+  ],
+  "grammar": {
+    "title": "Be going to and the present continuous for the future",
+    "titleRo": "Be going to și prezentul continuu pentru viitor",
+    "sections": [
+      {
+        "headingRo": "Be going to – intenții și planuri",
+        "textRo": "Folosim **am/is/are + going to + verb** pentru ceva ce **am decis deja** să facem: I'm going to learn Python. Seamănă cu românescul „o să...” sau „am de gând să...”. Verbul de după going to stă la forma de bază.",
+        "table": {
+          "headers": ["Afirmativ", "Negativ", "Întrebare"],
+          "rows": [
+            ["I'm going to call him.", "I'm not going to call him.", "Am I going to call him?"],
+            ["She's going to book a hotel.", "She isn't going to book a hotel.", "Is she going to book a hotel?"],
+            ["They're going to launch the app.", "They aren't going to launch the app.", "Are they going to launch the app?"]
+          ]
+        },
+        "examples": [
+          { "en": "I'm going to learn Python this year.", "ro": "Anul acesta o să învăț Python." },
+          { "en": "We aren't going to work this weekend.", "ro": "Nu o să lucrăm weekendul acesta." },
+          { "en": "Are you going to invite the whole team?", "ro": "O să inviți toată echipa?" }
+        ]
+      },
+      {
+        "headingRo": "Prezentul continuu pentru întâlniri stabilite",
+        "textRo": "Când ceva e deja **programat** (în calendar, cu oră și cu alte persoane), folosim **prezentul continuu** – timpul pe care îl știi deja de la A1: I'm meeting the client at 3 p.m. Și în română spunem la prezent: „Mâine mă văd cu clientul.” De obicei adăugăm un cuvânt de timp: tomorrow, on Friday, next week.",
+        "examples": [
+          { "en": "I'm meeting the client tomorrow at ten.", "ro": "Mâine la zece mă întâlnesc cu clientul." },
+          { "en": "She's flying to Madrid on Thursday.", "ro": "Ea zboară la Madrid joi." },
+          { "en": "What are you doing on Saturday evening?", "ro": "Ce faci sâmbătă seara?" }
+        ]
+      },
+      {
+        "headingRo": "Care e diferența?",
+        "textRo": "**going to** = intenție, decizie (poate fără detalii încă). **Prezent continuu** = aranjament fix, cu ora și locul stabilite. Deseori ambele sunt corecte, deci nu te stresa! Cuvinte utile: **tonight, tomorrow, the day after tomorrow, next week, soon**.",
+        "examples": [
+          { "en": "I'm going to look for a new job.", "ro": "O să-mi caut un job nou." },
+          { "en": "I'm having a job interview on Tuesday at nine.", "ro": "Marți la nouă am un interviu de angajare." },
+          { "en": "We're going to launch the app soon.", "ro": "O să lansăm aplicația curând." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu uita verbul **to be**: **I'm going to** call, nu „I going to call”.",
+      "După **going to** urmează verbul la forma de bază: going to **book**, nu „going to booking”.",
+      "„Mâine mă întâlnesc cu clientul” → **I'm meeting the client tomorrow**, nu „I meet the client tomorrow”.",
+      "Pentru a merge undeva poți spune simplu **I'm going to Vienna next week** – nu e nevoie de „going to go”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Stabilim o întâlnire cu clienta",
+    "lines": [
+      { "speaker": "Laura", "en": "Hi Andrei, it's Laura from Green Hotels. Are you available this week? We need to talk about the CRM.", "ro": "Bună, Andrei, sunt Laura de la Green Hotels. Ești disponibil săptămâna aceasta? Trebuie să vorbim despre CRM." },
+      { "speaker": "Andrei", "en": "Hi Laura! Let me check my schedule... I'm meeting another client tomorrow morning, but I'm free in the afternoon.", "ro": "Bună, Laura! Stai să mă uit în program... Mâine dimineață mă întâlnesc cu alt client, dar după-amiază sunt liber." },
+      { "speaker": "Laura", "en": "Tomorrow afternoon is difficult. I'm flying to Madrid at four.", "ro": "Mâine după-amiază e greu. Zbor la Madrid la ora patru." },
+      { "speaker": "Andrei", "en": "What about the day after tomorrow?", "ro": "Ce zici de poimâine?" },
+      { "speaker": "Laura", "en": "Thursday? Yes, that's fine. Let's arrange a video call at ten.", "ro": "Joi? Da, e în regulă. Hai să stabilim un apel video la zece." },
+      { "speaker": "Andrei", "en": "Perfect. I'm going to send you an invitation and the agenda today.", "ro": "Perfect. O să-ți trimit astăzi o invitație și ordinea de zi." },
+      { "speaker": "Laura", "en": "Great. What are you going to show us?", "ro": "Super. Ce o să ne arăți?" },
+      { "speaker": "Andrei", "en": "I'm going to give a short presentation of the new features.", "ro": "O să țin o scurtă prezentare a noilor funcții." },
+      { "speaker": "Laura", "en": "Wonderful. Our team is going to love it. See you on Thursday!", "ro": "Minunat. Echipei noastre o să-i placă mult. Ne vedem joi!" }
+    ]
+  },
+  "reading": {
+    "title": "A busy week",
+    "text": "Next week is going to be very busy for Andrei. On Monday morning, he is meeting his team to talk about a new project. In the afternoon, he has a dentist appointment – he can't cancel it again!\n\nOn Tuesday and Wednesday, he is working on the hotel CRM. The deadline is Wednesday evening, so he isn't going to see his friends this week.\n\nOn Thursday at ten, he is having a video call with Laura, his client. He is going to show her the new features. On Friday, he is flying to Berlin for a tech conference. He booked the hotel last month.\n\nAndrei is tired, but he is happy. After the conference, he is going to take a few days off and relax.",
+    "textRo": "Săptămâna viitoare va fi foarte aglomerată pentru Andrei. Luni dimineață se întâlnește cu echipa lui ca să vorbească despre un proiect nou. După-amiază are programare la dentist – nu o poate anula din nou!\n\nMarți și miercuri lucrează la CRM-ul pentru hotel. Termenul limită este miercuri seara, așa că săptămâna aceasta nu o să se vadă cu prietenii.\n\nJoi la zece are un apel video cu Laura, clienta lui. O să-i arate noile funcții. Vineri zboară la Berlin pentru o conferință de tehnologie. A rezervat hotelul luna trecută.\n\nAndrei e obosit, dar fericit. După conferință, o să-și ia câteva zile libere și o să se relaxeze.",
+    "questions": [
+      { "type": "mc", "q": "What is Andrei doing on Monday afternoon?", "options": ["Meeting his team", "Going to the dentist", "Flying to Berlin", "Having a video call"], "answer": 1, "explainRo": "„In the afternoon, he has a dentist appointment.”" },
+      { "type": "mc", "q": "When is the deadline for the hotel CRM?", "options": ["Monday morning", "Thursday at ten", "Wednesday evening", "Friday"], "answer": 2, "explainRo": "„The deadline is Wednesday evening.”" },
+      { "type": "mc", "q": "Why is Andrei going to Berlin?", "options": ["For a tech conference", "For a holiday", "To meet Laura", "To see his friends"], "answer": 0, "explainRo": "„He is flying to Berlin for a tech conference.”" },
+      { "type": "mc", "q": "What is he going to do after the conference?", "options": ["Work on a new project", "Book a hotel", "Call his client", "Take a few days off"], "answer": 3, "explainRo": "„He is going to take a few days off and relax.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["deadline", "termen limită"], ["appointment", "programare"], ["schedule", "program"], ["agenda", "ordinea de zi"], ["conference", "conferință"]] },
+    { "type": "mc", "q": "I'm ___ to learn Python this year.", "options": ["go", "going", "goes", "went"], "answer": 1, "explainRo": "Structura este am/is/are + going to + verb." },
+    { "type": "mc", "q": "She ___ going to book the hotel tonight.", "options": ["are", "am", "is", "be"], "answer": 2, "explainRo": "Cu she folosim is: she is (she's) going to." },
+    { "type": "mc", "q": "___ you going to call the client?", "options": ["Do", "Are", "Is", "Did"], "answer": 1, "explainRo": "La întrebare inversăm: Are you going to...?" },
+    { "type": "mc", "q": "I can't come to the party on Saturday. I ___ my parents in Sibiu.", "options": ["visit", "am visiting", "visited", "visits"], "answer": 1, "explainRo": "Pentru un aranjament stabilit în viitor folosim prezentul continuu: I'm visiting." },
+    { "type": "mc", "q": "We aren't going to ___ the app this month.", "options": ["launching", "launched", "launch", "launches"], "answer": 2, "explainRo": "După going to verbul stă la forma de bază: launch." },
+    { "type": "mc", "q": "I'm sorry, I'm not ___ on Monday. What about Tuesday?", "options": ["available", "busy", "cancel", "soon"], "answer": 0, "explainRo": "Not available = nu sunt disponibil; de aceea propun marți." },
+    { "type": "mc", "q": "The client is ill, so he wants to ___ the meeting.", "options": ["book", "remind", "cancel", "invite"], "answer": 2, "explainRo": "Cancel = a anula. Clientul e bolnav, deci anulează ședința." },
+    { "type": "mc", "q": "Today is Wednesday, so Friday is ___.", "options": ["tomorrow", "the day after tomorrow", "yesterday", "next week"], "answer": 1, "explainRo": "Miercuri → joi (tomorrow) → vineri (the day after tomorrow, poimâine)." },
+    { "type": "fill", "q": "They ___ (not / go) to work tomorrow. It's a holiday.", "answers": ["aren't going", "are not going", "aren't going to go", "are not going to go"], "explainRo": "Negativ la prezentul continuu cu sens de viitor: aren't going." },
+    { "type": "fill", "q": "I'm ___ to send you the agenda today.", "answers": ["going"], "explainRo": "I'm going to + verb = o să..." },
+    { "type": "fill", "q": "What ___ you doing on Friday evening?", "answers": ["are"], "explainRo": "Întrebare la prezentul continuu: What are you doing...?" },
+    { "type": "fill", "q": "He ___ (fly) to Berlin on Friday. He has the ticket.", "answers": ["is flying", "'s flying", "is going to fly", "'s going to fly"], "explainRo": "Are deja biletul, deci e un aranjament: is flying (sau is going to fly)." },
+    { "type": "listen", "audio": "Are you available on Monday?", "answers": ["Are you available on Monday?"], "ro": "Ești disponibil luni?", "explainRo": "Available = disponibil; cu zilele săptămânii folosim on." },
+    { "type": "listen", "audio": "I'm going to book a hotel.", "answers": ["I'm going to book a hotel.", "I am going to book a hotel."], "ro": "O să rezerv un hotel.", "explainRo": "I'm going to + book – un plan decis deja." },
+    { "type": "order", "words": ["I'm", "going", "to", "learn", "English", "this", "year."], "ro": "O să învăț engleză anul acesta.", "explainRo": "I'm + going to + verb + complement + timp." },
+    { "type": "order", "words": ["We're", "meeting", "the", "client", "on", "Thursday."], "ro": "Ne întâlnim cu clientul joi.", "explainRo": "Prezentul continuu pentru o întâlnire stabilită: We're meeting..." },
+    { "type": "order", "words": ["Are", "you", "going", "to", "cancel", "the", "meeting?"], "ro": "O să anulezi ședința?", "explainRo": "Întrebarea: Are + subiect + going to + verb?" },
+    { "type": "translate", "ro": "O să rezerv un hotel pentru conferință.", "answers": ["I'm going to book a hotel for the conference.", "I am going to book a hotel for the conference.", "I'll book a hotel for the conference.", "I will book a hotel for the conference."], "explainRo": "„O să rezerv” = I'm going to book – un plan decis." },
+    { "type": "translate", "ro": "Ce faci sâmbătă seara?", "answers": ["What are you doing on Saturday evening?", "What are you doing on Saturday night?", "What are you doing Saturday evening?", "What are you doing Saturday night?"], "explainRo": "Întrebăm despre planuri cu prezentul continuu: What are you doing...?" }
+  ],
+  "video": {
+    "youtubeId": "OlyYE6USuO0",
+    "title": "Easy English 29 - Talking about the future (Easy English)"
+  }
+}

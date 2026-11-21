@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u05",
+  "questions": [
+    { "type": "mc", "q": "Our developers ___ going to fix the bug today.", "options": ["is", "are", "am", "be"], "answer": 1, "explainRo": "Developers este la plural, deci folosim are going to." },
+    { "type": "mc", "q": "I'm going to ___ my grandmother this weekend.", "options": ["visit", "visiting", "visited", "visits"], "answer": 0, "explainRo": "După going to verbul stă la forma de bază: visit." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["The team going to finish the project in May.", "The team is going finish the project in May.", "The team is going to finish the project in May."], "answer": 2, "explainRo": "Avem nevoie și de to be (is), și de to: is going to + verb." },
+    { "type": "mc", "q": "Sorry, I can't meet you on Tuesday – I have a doctor's ___ at eleven.", "options": ["agenda", "deadline", "conference", "appointment"], "answer": 3, "explainRo": "Appointment = programare (la medic, la dentist)." },
+    { "type": "mc", "q": "The ___ for the new website is Friday, so we're working late this week.", "options": ["deadline", "schedule", "appointment", "agenda"], "answer": 0, "explainRo": "Deadline = termen limită; de aceea lucrăm până târziu săptămâna aceasta." },
+    { "type": "fill", "q": "My brother ___ (get) married in June!", "answers": ["is getting", "'s getting", "is going to get", "'s going to get"], "explainRo": "Nunta e deja stabilită, deci folosim prezentul continuu: is getting (sau is going to get)." },
+    { "type": "fill", "q": "Mark ___ (not / cancel) his trip to Japan. He really wants to go.", "answers": ["isn't going to cancel", "is not going to cancel", "'s not going to cancel", "isn't cancelling", "is not cancelling", "'s not cancelling", "isn't canceling", "is not canceling"], "explainRo": "Negația cu going to: isn't going to + verbul la forma de bază." },
+    { "type": "fill", "q": "We want to ___ a table for four at eight o'clock.", "answers": ["book", "reserve"], "explainRo": "Book = a rezerva (o masă, o cameră de hotel, un bilet)." },
+    { "type": "order", "words": ["Where", "are", "you", "going", "on", "holiday", "this", "year?"], "ro": "Unde mergi în vacanță anul acesta?", "explainRo": "Prezentul continuu pentru planuri: Where are you going...? (fără „going to go”)." },
+    { "type": "order", "words": ["Who", "is", "going", "to", "send", "the", "agenda?"], "ro": "Cine o să trimită ordinea de zi?", "explainRo": "Întrebare cu going to: Who + is going to + verb?" },
+    { "type": "listen", "audio": "Are you coming to the party on Friday?", "answers": ["Are you coming to the party on Friday?"], "ro": "Vii la petrecere vineri?", "explainRo": "Prezentul continuu (Are you coming...?) întreabă despre un plan stabilit." },
+    { "type": "translate", "ro": "Când o să lansați aplicația?", "answers": ["When are you going to launch the app?", "When are you launching the app?", "When will you launch the app?", "When are you going to launch the application?", "When are you launching the application?", "When will you launch the application?"], "explainRo": "„O să lansați” = are you going to launch: întrebare despre un plan." }
+  ]
+}

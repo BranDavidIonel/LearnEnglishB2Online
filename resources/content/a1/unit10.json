@@ -1,0 +1,135 @@
+{
+  "id": "a1-u10",
+  "level": "A1",
+  "order": 10,
+  "title": "My first trip abroad",
+  "titleRo": "Prima mea călătorie în străinătate",
+  "emoji": "✈️",
+  "goalRo": "La final vei putea să povestești o călătorie: unde ai fost, cum a fost și ce ai făcut ieri sau săptămâna trecută.",
+  "vocab": [
+    { "en": "airport", "ro": "aeroport", "pos": "noun", "ipa": "/ˈeəpɔːt/", "emoji": "🛫", "wiki": "Airport", "ex": "I arrived at the airport at four.", "exRo": "Am ajuns la aeroport la patru." },
+    { "en": "flight", "ro": "zbor", "pos": "noun", "ipa": "/flaɪt/", "emoji": "🛬", "ex": "The flight was very long.", "exRo": "Zborul a fost foarte lung." },
+    { "en": "passport", "ro": "pașaport", "pos": "noun", "ipa": "/ˈpɑːspɔːt/", "emoji": "🛂", "wiki": "Passport", "ex": "Can I see your passport, please?", "exRo": "Pot să vă văd pașaportul, vă rog?" },
+    { "en": "ticket", "ro": "bilet", "pos": "noun", "ipa": "/ˈtɪkɪt/", "emoji": "🎫", "ex": "I booked the ticket online.", "exRo": "Am rezervat biletul online." },
+    { "en": "suitcase", "ro": "valiză", "pos": "noun", "ipa": "/ˈsuːtkeɪs/", "emoji": "🧳", "wiki": "Suitcase", "ex": "My suitcase is very heavy.", "exRo": "Valiza mea este foarte grea." },
+    { "en": "plane", "ro": "avion", "pos": "noun", "ipa": "/pleɪn/", "emoji": "✈️", "wiki": "Airplane", "ex": "The plane landed at half past seven.", "exRo": "Avionul a aterizat la șapte și jumătate." },
+    { "en": "taxi", "ro": "taxi", "pos": "noun", "ipa": "/ˈtæksi/", "emoji": "🚕", "wiki": "Taxi", "ex": "We waited for a taxi.", "exRo": "Am așteptat un taxi." },
+    { "en": "hotel", "ro": "hotel", "pos": "noun", "ipa": "/həʊˈtel/", "emoji": "🏨", "wiki": "Hotel", "ex": "The hotel was small but nice.", "exRo": "Hotelul era mic, dar drăguț." },
+    { "en": "receptionist", "ro": "recepționer / recepționeră", "pos": "noun", "ipa": "/rɪˈsepʃənɪst/", "emoji": "🛎️", "wiki": "Receptionist", "ex": "The receptionist was very friendly.", "exRo": "Recepționera a fost foarte amabilă." },
+    { "en": "check in", "ro": "a face check-in (a se caza / a se înregistra)", "pos": "verb", "ipa": "/ˌtʃek ˈɪn/", "emoji": "🗝️", "ex": "We checked in at ten o'clock.", "exRo": "Ne-am cazat la ora zece." },
+    { "en": "trip", "ro": "călătorie / excursie", "pos": "noun", "ipa": "/trɪp/", "emoji": "🗺️", "ex": "It was a great trip!", "exRo": "A fost o călătorie grozavă!" },
+    { "en": "beach", "ro": "plajă", "pos": "noun", "ipa": "/biːtʃ/", "emoji": "🏖️", "wiki": "Beach", "ex": "We were at the beach all day.", "exRo": "Am fost la plajă toată ziua." },
+    { "en": "yesterday", "ro": "ieri", "pos": "adv", "ipa": "/ˈjestədeɪ/", "emoji": "⏪", "ex": "Yesterday I worked from home.", "exRo": "Ieri am lucrat de acasă." },
+    { "en": "last week", "ro": "săptămâna trecută", "pos": "phrase", "ipa": "/ˌlɑːst ˈwiːk/", "emoji": "🗓️", "ex": "I was in London last week.", "exRo": "Am fost la Londra săptămâna trecută." },
+    { "en": "arrive", "ro": "a ajunge / a sosi", "pos": "verb", "ipa": "/əˈraɪv/", "emoji": "📍", "ex": "The plane arrived late.", "exRo": "Avionul a sosit cu întârziere." },
+    { "en": "visit", "ro": "a vizita", "pos": "verb", "ipa": "/ˈvɪzɪt/", "emoji": "🏛️", "ex": "We visited a museum yesterday.", "exRo": "Ieri am vizitat un muzeu." },
+    { "en": "stay", "ro": "a sta (a fi cazat)", "pos": "verb", "ipa": "/steɪ/", "emoji": "🛏️", "ex": "I stayed at a hotel near the station.", "exRo": "Am stat la un hotel lângă gară." },
+    { "en": "tired", "ro": "obosit", "pos": "adj", "ipa": "/ˈtaɪəd/", "emoji": "🥱", "ex": "I was very tired after the flight.", "exRo": "Eram foarte obosit după zbor." }
+  ],
+  "grammar": {
+    "title": "was / were + past simple of regular verbs",
+    "titleRo": "was / were și trecutul verbelor regulate",
+    "sections": [
+      {
+        "headingRo": "was și were = am fost / eram",
+        "textRo": "**Was** și **were** sunt trecutul lui **am / is / are**. Folosim **was** cu I, he, she, it și **were** cu you, we, they. În română le traducem cu „am fost”, „era”, „erau” — în engleză e o singură formă pentru ambele.",
+        "table": {
+          "headers": ["Prezent", "Trecut", "Negativ", "Întrebare"],
+          "rows": [["I am", "I was", "I wasn't", "Was I...?"], ["he / she / it is", "he was", "he wasn't", "Was he...?"], ["you / we / they are", "we were", "we weren't", "Were we...?"]]
+        },
+        "examples": [
+          { "en": "I was in London last week.", "ro": "Am fost la Londra săptămâna trecută." },
+          { "en": "The hotel wasn't expensive.", "ro": "Hotelul nu era scump." },
+          { "en": "Were you tired? — Yes, I was.", "ro": "Erai obosit? — Da." }
+        ]
+      },
+      {
+        "headingRo": "Trecutul verbelor regulate: -ed",
+        "textRo": "Pentru majoritatea verbelor, trecutul se face simplu: adaugi **-ed**. Și, vestea cea mai bună: forma este **aceeași pentru toate persoanele** (I worked, she worked, they worked). Fără -s, fără alte terminații!",
+        "examples": [
+          { "en": "I worked from home yesterday.", "ro": "Ieri am lucrat de acasă." },
+          { "en": "She visited the client's office.", "ro": "Ea a vizitat biroul clientului." },
+          { "en": "We waited for a taxi.", "ro": "Am așteptat un taxi." }
+        ]
+      },
+      {
+        "headingRo": "Cum scriem forma cu -ed",
+        "textRo": "Verb terminat în **-e**: adaugi doar **-d** (arrive → arrive**d**). Consoană + **y** → **-ied** (study → stud**ied**), dar vocală + y rămâne (stay → stay**ed**). La unele verbe scurte dublezi consoana (stop → sto**pped**). Pronunție: **-ed** se citește /ɪd/ doar după t sau d (wait**ed**, visit**ed**); în rest se aude doar /t/ sau /d/ (work**ed** = /wɜːkt/).",
+        "table": {
+          "headers": ["Regulă", "Verb", "Trecut"],
+          "rows": [["+ ed", "work", "worked"], ["+ d", "arrive", "arrived"], ["consoană + y → ied", "study", "studied"], ["vocală + y → yed", "stay", "stayed"], ["dublăm consoana", "stop", "stopped"]]
+        },
+        "examples": [
+          { "en": "The plane arrived at seven.", "ro": "Avionul a sosit la șapte." },
+          { "en": "I stayed at a small hotel.", "ro": "Am stat la un hotel mic." }
+        ]
+      },
+      {
+        "headingRo": "Când? yesterday, last week, ago",
+        "textRo": "Cuvinte care arată trecutul: **yesterday** (ieri), **last night** (aseară), **last week** (săptămâna trecută), **last year** (anul trecut), **two days ago** (acum două zile). Atenție: spunem **last week**, fără „the” și fără „in”.",
+        "examples": [
+          { "en": "We arrived two days ago.", "ro": "Am sosit acum două zile." },
+          { "en": "I called the client last night.", "ro": "L-am sunat pe client aseară." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu „Yesterday I visit my client”, ci **Yesterday I visited my client**.",
+      "Nu „We was”, ci **We were**; nu „I were”, ci **I was**.",
+      "Nu „in the last week”, ci simplu **last week**.",
+      "Nu pronunța „work-ed” cu „e”: se spune /wɜːkt/. /ɪd/ apare doar după t sau d: waited, visited."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La recepția hotelului",
+    "lines": [
+      { "speaker": "Receptionist", "en": "Good evening! Welcome to the City Hotel.", "ro": "Bună seara! Bine ați venit la City Hotel." },
+      { "speaker": "Andrei", "en": "Good evening. I booked a room for three nights. My name is Andrei Popescu.", "ro": "Bună seara. Am rezervat o cameră pentru trei nopți. Numele meu este Andrei Popescu." },
+      { "speaker": "Receptionist", "en": "Yes, Mr Popescu. Can I see your passport, please?", "ro": "Da, domnule Popescu. Pot să vă văd pașaportul, vă rog?" },
+      { "speaker": "Andrei", "en": "Here you are.", "ro": "Poftiți." },
+      { "speaker": "Receptionist", "en": "Thank you. How was your flight?", "ro": "Mulțumesc. Cum a fost zborul?" },
+      { "speaker": "Andrei", "en": "It was long. The plane arrived late, and I waited for a taxi for an hour.", "ro": "A fost lung. Avionul a sosit cu întârziere și am așteptat un taxi o oră." },
+      { "speaker": "Receptionist", "en": "Oh no! I'm sorry.", "ro": "Vai! Îmi pare rău." },
+      { "speaker": "Andrei", "en": "It's OK. But I'm very tired now!", "ro": "E în regulă. Dar acum sunt foarte obosit!" },
+      { "speaker": "Receptionist", "en": "Of course. Your room number is 215. Here's your key. Enjoy your stay!", "ro": "Desigur. Numărul camerei este 215. Poftiți cheia. Ședere plăcută!" },
+      { "speaker": "Andrei", "en": "Thank you very much!", "ro": "Mulțumesc mult!" }
+    ]
+  },
+  "reading": {
+    "title": "My first business trip",
+    "text": "Last week I was in London for my first business trip. I was very nervous!\n\nOn Monday, my flight was at six o'clock in the morning. I arrived at the airport at four. The plane landed in London at half past seven. I waited for a taxi and I checked in at the hotel at ten.\n\nThe hotel was small but very nice. In the afternoon I visited the client's office and we talked about the new CRM. On Tuesday I walked in Hyde Park and I visited the British Museum. It was a great trip!",
+    "textRo": "Săptămâna trecută am fost la Londra în prima mea călătorie de afaceri. Eram foarte emoționat!\n\nLuni, zborul meu era la ora șase dimineața. Am ajuns la aeroport la patru. Avionul a aterizat la Londra la șapte și jumătate. Am așteptat un taxi și m-am cazat la hotel la zece.\n\nHotelul era mic, dar foarte drăguț. După-amiaza am vizitat biroul clientului și am vorbit despre noul CRM. Marți m-am plimbat prin Hyde Park și am vizitat British Museum. A fost o călătorie grozavă!",
+    "questions": [
+      { "type": "mc", "q": "When was Andrei in London?", "options": ["Yesterday.", "Last week.", "Last year."], "answer": 1, "explainRo": "Textul spune: „Last week I was in London”." },
+      { "type": "mc", "q": "What time was his flight?", "options": ["At four.", "At half past seven.", "At six.", "At ten."], "answer": 2, "explainRo": "Textul spune: „my flight was at six o'clock in the morning”." },
+      { "type": "mc", "q": "The hotel was ___.", "options": ["big and new", "small but very nice", "very bad"], "answer": 1, "explainRo": "Textul spune: „The hotel was small but very nice”." },
+      { "type": "mc", "q": "On Tuesday, Andrei visited ___.", "options": ["the British Museum", "the client's office", "the airport"], "answer": 0, "explainRo": "Textul spune: „On Tuesday I walked in Hyde Park and I visited the British Museum”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "Yesterday I ___ very tired.", "options": ["was", "were", "am"], "answer": 0, "explainRo": "Trecut + **I** → **was**." },
+    { "type": "mc", "q": "We ___ in Rome last week.", "options": ["was", "were", "are"], "answer": 1, "explainRo": "Trecut + **we** → **were**." },
+    { "type": "mc", "q": "___ the hotel nice? — Yes, it was.", "options": ["Were", "Is", "Was"], "answer": 2, "explainRo": "The hotel = it, iar răspunsul e la trecut → **Was**." },
+    { "type": "mc", "q": "They ___ at the hotel. They were at the beach.", "options": ["wasn't", "weren't", "aren't"], "answer": 1, "explainRo": "Trecut + **they** la negativ → **weren't**." },
+    { "type": "mc", "q": "Last week I ___ my grandparents.", "options": ["visits", "visit", "visited"], "answer": 2, "explainRo": "„Last week” = trecut → **visited**." },
+    { "type": "mc", "q": "The plane ___ late yesterday.", "options": ["arrives", "arrived", "arriveed"], "answer": 1, "explainRo": "**Arrive** se termină în -e, deci adăugăm doar **-d**: arrived." },
+    { "type": "mc", "q": "Which sentence is about the past?", "options": ["I stay at a hotel.", "I'm staying at a hotel.", "I stayed at a hotel."], "answer": 2, "explainRo": "Terminația **-ed** arată trecutul: stayed." },
+    { "type": "mc", "q": "„Valiză” în engleză este:", "options": ["suitcase", "passport", "ticket", "flight"], "answer": 0, "explainRo": "**Suitcase** = valiză; **passport** = pașaport." },
+    { "type": "fill", "q": "Yesterday I ___ from home. (work)", "answers": ["worked"], "explainRo": "Trecutul regulat: work + **-ed** = worked." },
+    { "type": "fill", "q": "She ___ at a nice hotel last week. (stay)", "answers": ["stayed"], "explainRo": "Vocală + y rămâne: stay → **stayed**." },
+    { "type": "fill", "q": "We ___ English last night. (study)", "answers": ["studied"], "explainRo": "Consoană + y → **-ied**: studied." },
+    { "type": "fill", "q": "Were you tired after the flight? — Yes, I ___.", "answers": ["was"], "explainRo": "Răspunsul scurt cu **I** la trecut: **Yes, I was.**" },
+    { "type": "order", "words": ["I", "was", "in", "London", "last", "week."], "ro": "Am fost la Londra săptămâna trecută.", "explainRo": "Expresia de timp **last week** stă de obicei la final." },
+    { "type": "order", "words": ["The", "taxi", "arrived", "at", "the", "hotel."], "ro": "Taxiul a ajuns la hotel.", "explainRo": "Subiect + verb la trecut (-ed) + loc." },
+    { "type": "order", "words": ["Were", "you", "at", "the", "airport", "yesterday?"], "ro": "Ai fost ieri la aeroport?", "explainRo": "Întrebarea: **Were** + you + ...?" },
+    { "type": "translate", "ro": "Am fost la Paris anul trecut.", "answers": ["I was in Paris last year.", "Last year I was in Paris."], "explainRo": "„Am fost” = **I was**; anul trecut = **last year**." },
+    { "type": "translate", "ro": "Ei au așteptat un taxi.", "answers": ["They waited for a taxi.", "They waited for a cab."], "explainRo": "Wait + **-ed** = waited; „a aștepta ceva” = **wait for**." },
+    { "type": "listen", "audio": "We visited the museum yesterday.", "answers": ["We visited the museum yesterday."], "ro": "Ieri am vizitat muzeul.", "explainRo": "În **visited** se aude /ɪd/, pentru că verbul se termină în t." },
+    { "type": "listen", "audio": "The hotel was very nice.", "answers": ["The hotel was very nice."], "ro": "Hotelul a fost foarte frumos.", "explainRo": "The hotel = it → **was**." },
+    { "type": "match", "pairs": [["airport", "aeroport"], ["passport", "pașaport"], ["beach", "plajă"], ["yesterday", "ieri"], ["tired", "obosit"]] }
+  ],
+  "video": {
+    "youtubeId": "yHNOHXFbP78",
+    "title": "Talking about your childhood 🧒🧸👶 Real Easy English (BBC Learning English)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u10",
+  "questions": [
+    { "type": "mc", "q": "I ___ at the dentist yesterday morning.", "options": ["were", "was", "am"], "answer": 1, "explainRo": "Cu **I** folosim **was** la trecut, nu „were”." },
+    { "type": "mc", "q": "„___ the tickets expensive?” — „No, they weren't.”", "options": ["Was", "Did", "Were"], "answer": 2, "explainRo": "Tickets este la plural, deci întrebarea la trecut începe cu **Were**." },
+    { "type": "mc", "q": "It's a small book with your photo and your name. You need it to travel to another country. It's your ___.", "options": ["ticket", "suitcase", "taxi", "passport"], "answer": 3, "explainRo": "Pașaportul (**passport**) are poza și numele tău și îți trebuie ca să intri în altă țară." },
+    { "type": "mc", "q": "Yesterday the taxi ___ in front of the wrong hotel!", "options": ["stopped", "stoped", "stops"], "answer": 0, "explainRo": "Yesterday cere trecutul, iar la stop dublăm consoana: **stopped**." },
+    { "type": "mc", "q": "Last night we ___ a funny film.", "options": ["watch", "watched", "are watching", "watches"], "answer": 1, "explainRo": "**Last night** arată trecutul, deci verbul primește **-ed**: watched." },
+    { "type": "fill", "q": "The meeting was long, but we ___ tired. (not / be)", "answers": ["weren't", "were not"], "explainRo": "Cu **we** folosim **were**, iar negația este **weren't**." },
+    { "type": "fill", "q": "I ___ to call the client, but he was busy. (try)", "answers": ["tried"], "explainRo": "Consoană + y devine **-ied** la trecut: try → **tried**." },
+    { "type": "fill", "q": "Our ___ to Madrid was two hours late. (zbor)", "answers": ["flight"], "explainRo": "Zbor = **flight** (avionul este plane)." },
+    { "type": "order", "words": ["We", "worked", "on", "the", "new", "app", "until", "midnight."], "ro": "Am lucrat la aplicația nouă până la miezul nopții.", "explainRo": "Trecutul lui work este **worked**, la fel pentru toate persoanele (we worked)." },
+    { "type": "order", "words": ["Was", "the", "hotel", "near", "the", "beach?"], "ro": "Hotelul era aproape de plajă?", "explainRo": "În întrebare **was** trece înaintea subiectului: **Was the hotel...?**" },
+    { "type": "listen", "audio": "The receptionist carried my suitcase to my room.", "answers": ["The receptionist carried my suitcase to my room."], "ro": "Recepționerul mi-a dus valiza în cameră.", "explainRo": "Carry devine **carried** (consoană + y → -ied); **suitcase** = valiză." },
+    { "type": "translate", "ro": "Am terminat proiectul acum două zile.", "answers": ["I finished the project two days ago.", "Two days ago I finished the project."], "explainRo": "Trecutul lui finish este **finished**, iar „acum două zile” = **two days ago** (ago stă la final)." }
+  ]
+}

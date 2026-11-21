@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u07",
+  "questions": [
+    { "type": "mc", "q": "Have you ever ___ a horror film at the cinema?", "options": ["saw", "see", "seen", "seeing"], "answer": 2, "explainRo": "Present perfect = have + participiul trecut, iar participiul lui see este seen." },
+    { "type": "mc", "q": "Ten users tested our app and gave us some useful ___.", "options": ["databases", "feedback", "awards", "versions"], "answer": 1, "explainRo": "Feedback = părerile oamenilor despre munca ta." },
+    { "type": "mc", "q": "I ___ been to a football match. Is it fun?", "options": ["has never", "haven't never", "am never", "have never"], "answer": 3, "explainRo": "Cu never verbul rămâne afirmativ (fără dublă negație), iar cu I folosim have." },
+    { "type": "mc", "q": "We keep the names and phone numbers of all our customers in a ___.", "options": ["database", "portfolio", "version", "skill"], "answer": 0, "explainRo": "Database = bază de date, locul în care păstrăm informațiile despre clienți." },
+    { "type": "listen", "audio": "Our team has just won an award!", "answers": ["Our team has just won an award!", "Our team's just won an award!"], "ro": "Echipa noastră tocmai a câștigat un premiu!", "explainRo": "Has just + participiu = tocmai s-a întâmplat; award = premiu." },
+    { "type": "fill", "q": "It's 10 p.m., and I haven't had dinner ___.", "answers": ["yet"], "explainRo": "Yet stă la sfârșitul propozițiilor negative și înseamnă „încă”." },
+    { "type": "order", "words": ["Has", "your", "dad", "ever", "sent", "an", "emoji?"], "ro": "Tatăl tău a trimis vreodată un emoji?", "explainRo": "Întrebarea despre experiențe: Has + subiect + ever + participiu (sent)." },
+    { "type": "fill", "q": "Do you have any ___ with online shops? – Yes, I've built two.", "answers": ["experience"], "explainRo": "Experience = experiență; aici e nenumărabil, deci any experience, fără -s." },
+    { "type": "mc", "q": "My sister ___ to Canada last year.", "options": ["has moved", "have moved", "moved", "moves"], "answer": 2, "explainRo": "Last year este un moment precis din trecut, așa că folosim past simple, nu present perfect." },
+    { "type": "order", "words": ["Has", "the", "client", "paid", "for", "the", "website", "yet?"], "ro": "A plătit clientul deja pentru site?", "explainRo": "În întrebări yet stă la final și se traduce cu „deja”." },
+    { "type": "fill", "q": "Oh no, we're late! The bus ___ (just / leave).", "answers": ["has just left", "'s just left"], "explainRo": "The bus = it, deci has; just stă între has și participiu, iar participiul lui leave este left." },
+    { "type": "translate", "ro": "Ai văzut deja filmul?", "answers": ["Have you seen the film yet?", "Have you already seen the film?", "Have you seen the film already?", "Have you seen the movie yet?", "Have you already seen the movie?", "Have you seen the movie already?"], "explainRo": "În întrebări, „deja” se traduce de obicei cu yet, pus la sfârșitul propoziției." }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "a2-u07",
+  "level": "A2",
+  "order": 7,
+  "title": "Have you ever built an app?",
+  "titleRo": "Ai construit vreodată o aplicație?",
+  "emoji": "🏆",
+  "goalRo": "La final vei putea să vorbești despre experiența ta de lucru și despre proiectele tale folosind present perfect cu ever, never, just, already și yet.",
+  "vocab": [
+    { "en": "experience", "ro": "experiență", "pos": "noun", "ipa": "/ɪkˈspɪə.ri.əns/", "emoji": "🧑‍💻", "ex": "I have five years of experience in web development.", "exRo": "Am cinci ani de experiență în dezvoltare web." },
+    { "en": "portfolio", "ro": "portofoliu", "pos": "noun", "ipa": "/pɔːtˈfəʊ.li.əʊ/", "emoji": "🗃️", "ex": "You can see my best projects in my online portfolio.", "exRo": "Poți vedea cele mai bune proiecte ale mele în portofoliul meu online." },
+    { "en": "skill", "ro": "abilitate, competență", "pos": "noun", "ipa": "/skɪl/", "emoji": "🛠️", "ex": "Good communication is an important skill for a developer.", "exRo": "Comunicarea bună este o abilitate importantă pentru un programator." },
+    { "en": "fix", "ro": "a repara, a rezolva", "pos": "verb", "ipa": "/fɪks/", "emoji": "🔧", "ex": "I've fixed the bug on the login page.", "exRo": "Am rezolvat bugul de pe pagina de autentificare." },
+    { "en": "update", "ro": "actualizare", "pos": "noun", "ipa": "/ˈʌp.deɪt/", "emoji": "🆕", "ex": "The new update has a lot of new features.", "exRo": "Noua actualizare are multe funcții noi." },
+    { "en": "database", "ro": "bază de date", "pos": "noun", "ipa": "/ˈdeɪ.tə.beɪs/", "emoji": "🗄️", "ex": "All our clients are in this database.", "exRo": "Toți clienții noștri sunt în această bază de date." },
+    { "en": "feedback", "ro": "feedback, păreri", "pos": "noun", "ipa": "/ˈfiːd.bæk/", "emoji": "🗣️", "ex": "The client has sent us some very good feedback.", "exRo": "Clientul ne-a trimis un feedback foarte bun." },
+    { "en": "award", "ro": "premiu", "pos": "noun", "ipa": "/əˈwɔːd/", "emoji": "🥇", "ex": "Our app won an award last year.", "exRo": "Aplicația noastră a câștigat un premiu anul trecut." },
+    { "en": "already", "ro": "deja", "pos": "adv", "ipa": "/ɔːlˈred.i/", "emoji": "✅", "ex": "I've already sent the email.", "exRo": "Am trimis deja e-mailul." },
+    { "en": "yet", "ro": "încă (în negații); deja (în întrebări)", "pos": "adv", "ipa": "/jet/", "emoji": "⏳", "ex": "I haven't finished the report yet.", "exRo": "Încă n-am terminat raportul." },
+    { "en": "just", "ro": "tocmai", "pos": "adv", "ipa": "/dʒʌst/", "emoji": "⚡", "ex": "She's just arrived at the office.", "exRo": "Ea tocmai a ajuns la birou." },
+    { "en": "ever", "ro": "vreodată", "pos": "adv", "ipa": "/ˈev.ə/", "emoji": "❓", "ex": "Have you ever worked with a foreign client?", "exRo": "Ai lucrat vreodată cu un client din străinătate?" },
+    { "en": "have been to", "ro": "a fi fost (undeva, și a te fi întors)", "pos": "phrase", "ipa": "/hæv ˈbiːn tuː/", "emoji": "🌐", "ex": "I've been to London three times.", "exRo": "Am fost la Londra de trei ori." },
+    { "en": "test", "ro": "a testa", "pos": "verb", "ipa": "/test/", "emoji": "🧪", "ex": "Have you tested the new version?", "exRo": "Ai testat noua versiune?" },
+    { "en": "upload", "ro": "a încărca (online)", "pos": "verb", "ipa": "/ʌpˈləʊd/", "emoji": "⬆️", "ex": "I've uploaded the photos to the website.", "exRo": "Am încărcat pozele pe site." },
+    { "en": "version", "ro": "versiune", "pos": "noun", "ipa": "/ˈvɜː.ʃən/", "emoji": "🔢", "ex": "The first version of the app was very simple.", "exRo": "Prima versiune a aplicației era foarte simplă." },
+    { "en": "programming language", "ro": "limbaj de programare", "pos": "noun", "ipa": "/ˈprəʊ.ɡræm.ɪŋ ˌlæŋ.ɡwɪdʒ/", "emoji": "⌨️", "ex": "Python is my favourite programming language.", "exRo": "Python este limbajul meu de programare preferat." }
+  ],
+  "grammar": {
+    "title": "Present perfect: ever, never, just, already, yet",
+    "titleRo": "Present perfect: ever, never, just, already, yet",
+    "sections": [
+      {
+        "headingRo": "Ce este present perfect?",
+        "textRo": "Se formează cu **have / has + participiul trecut** (a treia formă a verbului). La verbele regulate, participiul este tot forma cu **-ed** (work → worked). Cele neregulate au o formă proprie, pe care o înveți ca pe trecut. Îl folosim pentru **experiențe** și pentru acțiuni din trecut care contează **acum**, fără să spunem **când** exact s-au întâmplat. În română îl traducem de obicei cu perfectul compus: „Am lucrat cu React.”",
+        "table": {
+          "headers": ["Infinitiv", "Past simple", "Participiu (V3)"],
+          "rows": [
+            ["work", "worked", "worked"],
+            ["be", "was / were", "been"],
+            ["do", "did", "done"],
+            ["see", "saw", "seen"],
+            ["write", "wrote", "written"],
+            ["build", "built", "built"],
+            ["make", "made", "made"],
+            ["take", "took", "taken"],
+            ["send", "sent", "sent"],
+            ["go", "went", "gone / been"]
+          ]
+        },
+        "examples": [
+          { "en": "I've worked with React and Vue.", "ro": "Am lucrat cu React și Vue." },
+          { "en": "She has built three apps for restaurants.", "ro": "Ea a construit trei aplicații pentru restaurante." },
+          { "en": "We haven't seen the new design.", "ro": "Nu am văzut noul design." }
+        ]
+      },
+      {
+        "headingRo": "Ever și never – experiențe de viață",
+        "textRo": "**Have you ever...?** = Ai ... vreodată? Răspunsurile scurte: **Yes, I have. / No, I haven't.** **Never** = niciodată, iar verbul rămâne afirmativ: I've **never** been to Japan (nu „I haven't never”). Atenție: **been to** = am fost undeva (și m-am întors).",
+        "examples": [
+          { "en": "Have you ever worked from another country? – Yes, I have.", "ro": "Ai lucrat vreodată din altă țară? – Da." },
+          { "en": "I've never used this programming language.", "ro": "Nu am folosit niciodată acest limbaj de programare." },
+          { "en": "Has he ever been to the USA? – No, he hasn't.", "ro": "A fost vreodată în SUA? – Nu." }
+        ]
+      },
+      {
+        "headingRo": "Just, already, yet",
+        "textRo": "**just** = tocmai, acum puțin timp: I've just fixed the bug. **already** = deja, mai devreme decât ne așteptam: She's already sent the email. **yet** = încă / deja, la **finalul** negațiilor și întrebărilor: I haven't tested it yet. Have you finished yet? Just și already stau între have și participiu.",
+        "examples": [
+          { "en": "I've just uploaded the new version.", "ro": "Tocmai am încărcat noua versiune." },
+          { "en": "The client has already paid.", "ro": "Clientul a plătit deja." },
+          { "en": "Have you replied to Mark yet? – Not yet.", "ro": "I-ai răspuns deja lui Mark? – Încă nu." }
+        ]
+      },
+      {
+        "headingRo": "Present perfect sau past simple?",
+        "textRo": "Când spui **când** exact (yesterday, last year, in 2020, two days ago), folosești **past simple**: I worked in London in 2020. Fără un moment precis, vorbind despre experiență → **present perfect**: I've worked in London. E una dintre cele mai importante diferențe din engleză, așa că nu te grăbi!",
+        "examples": [
+          { "en": "I've built a lot of websites. I built my first one in 2018.", "ro": "Am construit multe site-uri. Pe primul l-am construit în 2018." },
+          { "en": "Have you ever been to Vienna? – Yes, I went there last summer.", "ro": "Ai fost vreodată la Viena? – Da, am fost acolo vara trecută." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „I have worked there in 2020”. Cu un moment precis din trecut folosim past simple: **I worked there in 2020.**",
+      "Nu folosi două negații: **I've never seen it**, nu „I haven't never seen it”.",
+      "**Yet** stă la sfârșitul propoziției: I haven't finished **yet**.",
+      "Pentru he / she / it folosim **has**: She **has** (She's) fixed the bug."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "O discuție cu o clientă nouă",
+    "lines": [
+      { "speaker": "Sarah", "en": "So, Andrei, have you ever built a CRM?", "ro": "Deci, Andrei, ai construit vreodată un CRM?" },
+      { "speaker": "Andrei", "en": "Yes, I have. I've built three CRMs for small companies.", "ro": "Da. Am construit trei CRM-uri pentru firme mici." },
+      { "speaker": "Sarah", "en": "Great. Have you ever worked with hotels?", "ro": "Super. Ai lucrat vreodată cu hoteluri?" },
+      { "speaker": "Andrei", "en": "Yes. Last year I made a booking app for a hotel in Brașov.", "ro": "Da. Anul trecut am făcut o aplicație de rezervări pentru un hotel din Brașov." },
+      { "speaker": "Sarah", "en": "Can I see some of your work?", "ro": "Pot să văd ceva din munca ta?" },
+      { "speaker": "Andrei", "en": "Of course. I've just uploaded my new projects to my portfolio. I'll send you the link.", "ro": "Sigur. Tocmai mi-am încărcat proiectele noi în portofoliu. Îți trimit linkul." },
+      { "speaker": "Sarah", "en": "Thanks. Have you seen our old system yet?", "ro": "Mulțumesc. Ai văzut deja sistemul nostru vechi?" },
+      { "speaker": "Andrei", "en": "Not yet. I haven't got the password yet.", "ro": "Încă nu. Încă n-am primit parola." },
+      { "speaker": "Sarah", "en": "Oh, sorry! I've forgotten about it. I'll send it today.", "ro": "Vai, scuze! Am uitat de ea. Ți-o trimit azi." }
+    ]
+  },
+  "reading": {
+    "title": "About me",
+    "text": "Hi, I'm Andrei, a freelance web developer from Cluj. I've worked in IT for six years.\n\nI started my career at a small startup in 2019. There, I learned PHP and JavaScript, and I worked on my first big database.\n\nI've built more than twenty websites and apps. I've made online shops, booking systems and three CRMs. My clients have been hotels, restaurants and small factories. Last year, one of my apps won an award for the best local business app.\n\nI've never worked for a big international company, but I've worked with clients from five countries. I've just finished a project for a hotel in Vienna, and I've already started a new one.\n\nI haven't learned Python yet, but it's on my list for this year. Do you need a reliable developer? Send me a message!",
+    "textRo": "Bună, sunt Andrei, programator web freelancer din Cluj. Lucrez în IT de șase ani.\n\nMi-am început cariera la un startup mic în 2019. Acolo am învățat PHP și JavaScript și am lucrat la prima mea bază de date mare.\n\nAm construit peste douăzeci de site-uri și aplicații. Am făcut magazine online, sisteme de rezervări și trei CRM-uri. Clienții mei au fost hoteluri, restaurante și fabrici mici. Anul trecut, una dintre aplicațiile mele a câștigat un premiu pentru cea mai bună aplicație pentru afaceri locale.\n\nNu am lucrat niciodată pentru o firmă internațională mare, dar am lucrat cu clienți din cinci țări. Tocmai am terminat un proiect pentru un hotel din Viena și am început deja unul nou.\n\nÎncă nu am învățat Python, dar e pe lista mea pentru anul acesta. Ai nevoie de un programator de încredere? Trimite-mi un mesaj!",
+    "questions": [
+      { "type": "mc", "q": "Andrei has worked in IT for ___.", "options": ["two years", "six years", "twenty years", "five years"], "answer": 1, "explainRo": "„I've worked in IT for six years.”" },
+      { "type": "mc", "q": "What happened last year?", "options": ["He started his career.", "He learned Python.", "One of his apps won an award.", "He moved to Vienna."], "answer": 2, "explainRo": "„Last year, one of my apps won an award.” – un moment precis, deci past simple." },
+      { "type": "mc", "q": "Which sentence is true?", "options": ["He has worked for a big international company.", "He has never had clients from other countries.", "He has built only one CRM.", "He has worked with clients from five countries."], "answer": 3, "explainRo": "„I've worked with clients from five countries.”" },
+      { "type": "mc", "q": "What hasn't Andrei done yet?", "options": ["Learned Python", "Finished the Vienna project", "Started a new project", "Built online shops"], "answer": 0, "explainRo": "„I haven't learned Python yet.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["skill", "abilitate"], ["database", "bază de date"], ["award", "premiu"], ["upload", "a încărca"], ["feedback", "păreri"]] },
+    { "type": "mc", "q": "Have you ever ___ to London?", "options": ["went", "was", "been", "go"], "answer": 2, "explainRo": "Have you ever been to...? – participiul lui be este been." },
+    { "type": "mc", "q": "She ___ just fixed the bug.", "options": ["have", "has", "is", "did"], "answer": 1, "explainRo": "Cu she folosim has + participiu: She has just fixed..." },
+    { "type": "mc", "q": "I've ___ seen this film. It's my first time!", "options": ["never", "ever", "already", "yet"], "answer": 0, "explainRo": "E prima dată, deci nu l-am văzut niciodată: never." },
+    { "type": "mc", "q": "I haven't finished the report ___.", "options": ["already", "just", "yet", "never"], "answer": 2, "explainRo": "În negații, yet (încă) stă la sfârșitul propoziției." },
+    { "type": "mc", "q": "We ___ the app last week.", "options": ["have launched", "launched", "has launched", "launch"], "answer": 1, "explainRo": "Last week este un moment precis din trecut, deci past simple." },
+    { "type": "mc", "q": "___ you ever worked with a foreign client? – Yes, I have.", "options": ["Did", "Do", "Has", "Have"], "answer": 3, "explainRo": "Have you ever + participiu? Răspunsul „Yes, I have” confirmă." },
+    { "type": "mc", "q": "My online ___ shows all my best projects.", "options": ["skill", "portfolio", "version", "award"], "answer": 1, "explainRo": "Portfolio = colecția cu cele mai bune lucrări ale tale." },
+    { "type": "mc", "q": "Python and Java are ___.", "options": ["programming languages", "databases", "versions", "skills"], "answer": 0, "explainRo": "Python și Java sunt limbaje de programare." },
+    { "type": "fill", "q": "I've already ___ (write) the email to the client.", "answers": ["written"], "explainRo": "Write este neregulat: write – wrote – written." },
+    { "type": "fill", "q": "He has never ___ (be) to the USA.", "answers": ["been"], "explainRo": "Participiul lui be este been: has never been to..." },
+    { "type": "fill", "q": "We haven't tested the new version ___.", "answers": ["yet"], "explainRo": "Yet stă la finalul unei negații la present perfect." },
+    { "type": "fill", "q": "I ___ (just / upload) the photos. Look!", "answers": ["have just uploaded", "'ve just uploaded"], "explainRo": "Have + just + participiu: I have just uploaded." },
+    { "type": "listen", "audio": "Have you ever been to Italy?", "answers": ["Have you ever been to Italy?"], "ro": "Ai fost vreodată în Italia?", "explainRo": "Have you ever been to...? – întrebare despre experiență." },
+    { "type": "listen", "audio": "I've just fixed the bug.", "answers": ["I've just fixed the bug.", "I have just fixed the bug."], "ro": "Tocmai am rezolvat bugul.", "explainRo": "I've = I have; just = tocmai." },
+    { "type": "order", "words": ["I", "have", "never", "worked", "with", "React."], "ro": "Nu am lucrat niciodată cu React.", "explainRo": "Never stă între have și participiu." },
+    { "type": "order", "words": ["Have", "you", "tested", "the", "new", "version", "yet?"], "ro": "Ai testat deja noua versiune?", "explainRo": "În întrebări, yet stă la final." },
+    { "type": "order", "words": ["She", "has", "already", "uploaded", "the", "files."], "ro": "Ea a încărcat deja fișierele.", "explainRo": "Already stă între has și participiu." },
+    { "type": "translate", "ro": "Am terminat deja proiectul.", "answers": ["I've already finished the project.", "I have already finished the project.", "I've finished the project already.", "I have finished the project already."], "explainRo": "Have + already + participiu: I've already finished." },
+    { "type": "translate", "ro": "Nu am fost niciodată în Japonia.", "answers": ["I've never been to Japan.", "I have never been to Japan."], "explainRo": "Never + been to; verbul rămâne afirmativ (nu „haven't never”)." }
+  ],
+  "video": {
+    "youtubeId": "6xl8PD9gbF8",
+    "title": "Have you ever lived abroad? | Easy English 40 (Easy English)"
+  }
+}

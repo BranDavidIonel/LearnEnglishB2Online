@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u02",
+  "questions": [
+    { "type": "mc", "q": "Radu ___ answer my email yesterday. Maybe he was busy.", "options": ["didn't", "doesn't", "wasn't"], "answer": 0, "explainRo": "Negația la trecut este didn't + verbul la forma de bază (answer)." },
+    { "type": "mc", "q": "My parents bought their first car thirty years ___.", "options": ["last", "before", "ago"], "answer": 2, "explainRo": "„Acum treizeci de ani” = thirty years ago; ago stă după perioada de timp." },
+    { "type": "mc", "q": "___ you at the office on Monday? – No, I was at home.", "options": ["Did", "Were", "Was", "Do"], "answer": 1, "explainRo": "Cu verbul to be la trecut nu folosim did: Were you...?" },
+    { "type": "mc", "q": "Victor worked very hard at the company, and last month he got a ___. Now he is a team leader.", "options": ["degree", "course", "colleague", "promotion"], "answer": 3, "explainRo": "Promotion = promovare: acum Victor conduce o echipă." },
+    { "type": "mc", "q": "Why did your sister ___ Bucharest?", "options": ["left", "leave", "leaving", "leaves"], "answer": 1, "explainRo": "După did verbul stă la forma de bază: leave, nu left." },
+    { "type": "fill", "q": "We ___ (not / see) the sea on our holiday. It rained every day!", "answers": ["didn't see", "did not see"], "explainRo": "După didn't verbul rămâne la forma de bază: didn't see, nu „didn't saw”." },
+    { "type": "fill", "q": "When ___ your brother graduate from university?", "answers": ["did"], "explainRo": "Întrebare la trecut: When + did + subiect + verbul la forma de bază." },
+    { "type": "fill", "q": "My grandfather ___ (grow up) on a farm near Sibiu.", "answers": ["grew up"], "explainRo": "Grow up este neregulat: grow up → grew up (a crește, a copilări)." },
+    { "type": "order", "words": ["Did", "they", "hire", "a", "junior", "developer?"], "ro": "Au angajat un programator junior?", "explainRo": "Did + subiect + verbul la forma de bază (hire)." },
+    { "type": "order", "words": ["We", "met", "at", "a", "concert", "ten", "years", "ago."], "ro": "Ne-am cunoscut la un concert acum zece ani.", "explainRo": "Ago stă după perioada de timp: ten years ago." },
+    { "type": "listen", "audio": "My colleagues didn't come to the party.", "answers": ["My colleagues didn't come to the party.", "My colleagues did not come to the party."], "ro": "Colegii mei nu au venit la petrecere.", "explainRo": "Didn't come: după didn't verbul rămâne la forma de bază (come, nu came)." },
+    { "type": "translate", "ro": "Când ai absolvit liceul?", "answers": ["When did you graduate from high school?", "When did you finish high school?"], "explainRo": "Întrebare la trecut: When did you + graduate from (nu uita de from)." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pet",
+  "name": "B1 Preliminary (PET)",
+  "level": "B1",
+  "aboutRo": "**B1 Preliminary** (fostul PET) este examenul Cambridge care arată că poți folosi engleza în situații de zi cu zi: la serviciu, în călătorii, în e-mailuri și conversații simple cu clienți sau colegi. Corespunde nivelului **B1** din Cadrul European Comun de Referință.\n\nExamenul are **patru probe**: Reading (45 de minute), Writing (45 de minute), Listening (aproximativ 30 de minute) și Speaking (12–17 minute, de obicei în pereche cu alt candidat). Fiecare probă valorează **25%** din nota finală.\n\nRezultatul se dă pe **Cambridge English Scale**: între **140 și 170** de puncte primești certificatul B1 (de la 160 în sus, cu mențiunea Grade A, care corespunde nivelului B2). Între 120 și 139 primești un certificat de nivel A2. Certificatul **nu expiră** și este recunoscut de mulți angajatori și universități.\n\n**Sfaturi practice:** citește cu atenție toată întrebarea, nu doar cuvintele cheie, pentru că distractorii apar adesea în text. La Writing, respectă numărul de cuvinte și răspunde la toate punctele. La Speaking, vorbește cu partenerul tău, nu doar cu examinatorul.",
+  "papersRo": [
+    { "name": "Reading", "info": "45 min · 6 părți · 32 de întrebări" },
+    { "name": "Writing", "info": "45 min · 2 sarcini: e-mail (obligatoriu) + articol SAU poveste, aproximativ 100 de cuvinte fiecare" },
+    { "name": "Listening", "info": "aprox. 30 min · 4 părți · 25 de întrebări · fiecare înregistrare se aude de două ori" },
+    { "name": "Speaking", "info": "12–17 min · 4 părți · în pereche, cu doi examinatori" }
+  ]
+}

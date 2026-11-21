@@ -1,0 +1,17 @@
+{
+  "unit": "b1-u03",
+  "questions": [
+    {"type":"mc","q":"We finished the release at 3 a.m., so today everyone in the team is ___.","options":["outgoing","exhausted","patient"],"answer":1,"explainRo":"**Exhausted** = epuizat, foarte obosit — normal după o noapte de muncă."},
+    {"type":"mc","q":"My uncle smoked for thirty years, but he finally ___ smoking last year.","options":["took up","worked out","gave up"],"answer":2,"explainRo":"**Give up** = a renunța la ceva (gave up smoking = s-a lăsat de fumat)."},
+    {"type":"mc","q":"My neighbour ___ the piano since ten o'clock, and I can't sleep.","options":["has been playing","is playing","plays"],"answer":0,"explainRo":"Activitate care a început la ora zece și continuă și acum: present perfect continuous + since."},
+    {"type":"mc","q":"I ___ twelve emails to clients so far this morning.","options":["have been sending","send","have sent"],"answer":2,"explainRo":"Când spunem un număr (twelve emails), folosim present perfect simple, care pune accent pe rezultat."},
+    {"type":"mc","q":"Our company ___ this office building since 2015.","options":["has been owning","has owned","owns"],"answer":1,"explainRo":"**Own** este verb de stare, deci nu are formă continuă: has owned … since 2015."},
+    {"type":"listen","audio":"Have you been working overtime again?","answers":["Have you been working overtime again?"],"ro":"Iar ai făcut ore suplimentare?","explainRo":"Întrebarea la present perfect continuous: **Have you been** + -ing; overtime = ore suplimentare."},
+    {"type":"fill","q":"Slow down, please! I can't keep up ___ you.","answers":["with"],"explainRo":"**Keep up with** = a ține pasul cu cineva sau cu ceva."},
+    {"type":"fill","q":"Elena ___ (write) the documentation all day, and she still hasn't finished.","answers":["has been writing","'s been writing"],"explainRo":"Accent pe activitate și durată (all day), iar munca nu s-a terminat: has been writing."},
+    {"type":"fill","q":"We ___ (paint) the living room since breakfast, and we're only halfway.","answers":["have been painting","'ve been painting"],"explainRo":"Activitate începută dimineață și încă în desfășurare: have been painting + since."},
+    {"type":"order","words":["What","have","you","been","working","on","lately?"],"ro":"La ce ai lucrat în ultima vreme?","explainRo":"Întrebare despre o activitate din ultima perioadă: What have you been + -ing … lately?"},
+    {"type":"order","words":["The","printer","hasn't","been","working","since","Monday."],"ro":"Imprimanta nu mai funcționează de luni.","explainRo":"Negația la present perfect continuous: **hasn't been** + -ing, iar since arată momentul de început."},
+    {"type":"translate","ro":"Fratele meu învață să conducă de trei luni.","answers":["My brother has been learning to drive for three months.","My brother has been learning how to drive for three months.","My brother has been taking driving lessons for three months.","My brother's been learning to drive for three months.","My brother's been learning how to drive for three months.","My brother's been taking driving lessons for three months."],"explainRo":"Româna folosește prezentul („învață de trei luni”), engleza **has been learning … for three months**."}
+  ]
+}

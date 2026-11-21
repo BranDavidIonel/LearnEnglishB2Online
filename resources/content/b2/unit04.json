@@ -1,0 +1,138 @@
+{
+  "id": "b2-u04",
+  "level": "B2",
+  "order": 4,
+  "title": "Getting it done: ERP rollouts and outsourcing",
+  "titleRo": "Treaba făcută: implementări ERP și externalizare",
+  "emoji": "🏭",
+  "goalRo": "La final vei putea descrie procese de business, implementări ERP/CRM și servicii pe care le „dai la făcut”, folosind pasivul avansat ca un profesionist.",
+
+  "vocab": [
+    { "en": "outsource", "ro": "a externaliza (a da unei firme externe)", "pos": "verb", "ipa": "/ˈaʊt.sɔːs/", "emoji": "🌐", "ex": "Many companies outsource their IT support to Romania.", "exRo": "Multe companii își externalizează suportul IT în România." },
+    { "en": "vendor", "ro": "furnizor (de software sau servicii)", "pos": "noun", "ipa": "/ˈven.də/", "emoji": "🤝", "ex": "We compared three ERP vendors before making a decision.", "exRo": "Am comparat trei furnizori de ERP înainte să luăm o decizie." },
+    { "en": "implementation", "ro": "implementare", "pos": "noun", "ipa": "/ˌɪm.plɪ.menˈteɪ.ʃən/", "emoji": "🧩", "ex": "The implementation is expected to take nine months.", "exRo": "Se estimează că implementarea va dura nouă luni." },
+    { "en": "go-live", "ro": "momentul punerii în funcțiune (go-live)", "pos": "noun", "ipa": "/ˌɡəʊ ˈlaɪv/", "emoji": "🟢", "ex": "Nobody is allowed to take holiday in the week of the go-live.", "exRo": "Nimeni nu are voie să-și ia concediu în săptămâna punerii în funcțiune." },
+    { "en": "workflow", "ro": "flux de lucru", "pos": "noun", "ipa": "/ˈwɜːk.fləʊ/", "emoji": "🔁", "ex": "The new CRM changed the sales team's whole workflow.", "exRo": "Noul CRM a schimbat întregul flux de lucru al echipei de vânzări." },
+    { "en": "procurement", "ro": "achiziții (departamentul / procesul)", "pos": "noun", "ipa": "/prəˈkjʊə.mənt/", "emoji": "🛒", "ex": "Every purchase over 5,000 euros has to be approved by procurement.", "exRo": "Orice achiziție de peste 5.000 de euro trebuie aprobată de departamentul de achiziții." },
+    { "en": "bottleneck", "ro": "blocaj, punct de strangulare", "pos": "noun", "ipa": "/ˈbɒt.əl.nek/", "emoji": "🍾", "ex": "Manual approvals were the biggest bottleneck in the process.", "exRo": "Aprobările manuale erau cel mai mare blocaj din proces." },
+    { "en": "streamline", "ro": "a eficientiza, a simplifica", "pos": "verb", "ipa": "/ˈstriːm.laɪn/", "emoji": "🌊", "ex": "We streamlined the invoicing process and saved ten hours a week.", "exRo": "Am eficientizat procesul de facturare și am economisit zece ore pe săptămână." },
+    { "en": "in-house", "ro": "intern, realizat în firmă", "pos": "adj", "ipa": "/ˌɪn ˈhaʊs/", "emoji": "🏠", "ex": "We don't have an in-house IT team, so we hire freelancers.", "exRo": "Nu avem o echipă IT internă, așa că angajăm freelanceri." },
+    { "en": "supply chain", "ro": "lanț de aprovizionare", "pos": "noun", "ipa": "/səˈplaɪ ˌtʃeɪn/", "emoji": "⛓️", "ex": "The ERP gives us a clear view of the whole supply chain.", "exRo": "ERP-ul ne oferă o imagine clară asupra întregului lanț de aprovizionare." },
+    { "en": "compliance", "ro": "conformitate (cu legi și reglementări)", "pos": "noun", "ipa": "/kəmˈplaɪ.əns/", "emoji": "📜", "ex": "GDPR compliance is checked every year.", "exRo": "Conformitatea cu GDPR este verificată în fiecare an." },
+    { "en": "legacy system", "ro": "sistem vechi (moștenit)", "pos": "noun", "ipa": "/ˈleɡ.ə.si ˌsɪs.təm/", "emoji": "🏚️", "ex": "Their legacy system is said to be over twenty years old.", "exRo": "Se spune că sistemul lor vechi are peste douăzeci de ani." },
+    { "en": "customise", "ro": "a personaliza, a adapta", "pos": "verb", "ipa": "/ˈkʌs.tə.maɪz/", "emoji": "🎛️", "ex": "We had the reports customised for each department.", "exRo": "Am pus să se personalizeze rapoartele pentru fiecare departament." },
+    { "en": "audit", "ro": "audit; a audita", "pos": "noun", "ipa": "/ˈɔː.dɪt/", "emoji": "🧾", "ex": "The security audit found three serious problems.", "exRo": "Auditul de securitate a găsit trei probleme grave." },
+    { "en": "warehouse", "ro": "depozit", "pos": "noun", "ipa": "/ˈweə.haʊs/", "emoji": "📦", "wiki": "Warehouse", "ex": "The warehouse staff scan every pallet when it arrives.", "exRo": "Angajații din depozit scanează fiecare palet la sosire." },
+    { "en": "barcode scanner", "ro": "scaner de coduri de bare", "pos": "noun", "ipa": "/ˈbɑː.kəʊd ˌskæn.ə/", "emoji": "🔦", "wiki": "Barcode reader", "ex": "Each worker was given a barcode scanner connected to the ERP.", "exRo": "Fiecare angajat a primit un scaner de coduri de bare conectat la ERP." }
+  ],
+
+  "grammar": {
+    "title": "Advanced passive: have something done, it is said that…, he is said to…",
+    "titleRo": "Pasivul avansat: have something done, it is said that…, he is said to…",
+    "sections": [
+      {
+        "headingRo": "Have / get something done",
+        "textRo": "Folosim structura **have + obiect + participiu (V3)** când **altcineva** face ceva pentru noi, de obicei contra cost. În română spunem „mi-am tuns părul”, deși ne-a tuns frizerul – în engleză trebuie să spui clar: **I had my hair cut**. **Get** în loc de **have** este puțin mai informal. Aceeași structură descrie și **experiențe neplăcute**: *I had my laptop stolen at the airport.*",
+        "table": {
+          "headers": ["Activ (fac eu)", "Have something done (face altcineva)"],
+          "rows": [
+            ["I cleaned my car.", "I had my car cleaned."],
+            ["We are building a new website.", "We are having a new website built."],
+            ["They will translate the contract.", "We'll get the contract translated."]
+          ]
+        },
+        "examples": [
+          { "en": "We had the database migrated by an external vendor.", "ro": "Am pus un furnizor extern să ne migreze baza de date." },
+          { "en": "I need to get my suit dry-cleaned before the conference.", "ro": "Trebuie să-mi duc costumul la curățătorie înainte de conferință." },
+          { "en": "She had her phone stolen on the metro in Barcelona.", "ro": "I s-a furat telefonul la metrou în Barcelona." }
+        ]
+      },
+      {
+        "headingRo": "It is said / believed / expected that…",
+        "textRo": "Când nu contează cine spune ceva sau vrem să sunăm obiectiv (în rapoarte, știri, emailuri formale), folosim **It + is + said/believed/expected/reported/thought + that + propoziție**. E echivalentul românescului „se spune că…”, „se crede că…”, „se estimează că…”.",
+        "examples": [
+          { "en": "It is expected that the new ERP will cut costs by 15%.", "ro": "Se estimează că noul ERP va reduce costurile cu 15%." },
+          { "en": "It was reported that the vendor had lost several clients.", "ro": "S-a raportat că furnizorul pierduse mai mulți clienți." },
+          { "en": "It is widely believed that outsourcing saves money.", "ro": "Se crede pe scară largă că externalizarea economisește bani." }
+        ]
+      },
+      {
+        "headingRo": "Subiect + is said to + infinitiv",
+        "textRo": "Varianta mai elegantă pornește de la persoana sau lucrul despre care vorbim: **The vendor is said to be very reliable.** Atenție la forma infinitivului: **to + verb** (prezent), **to be + -ing** (acum, în desfășurare), **to have + V3** (trecut).",
+        "table": {
+          "headers": ["Ce exprimăm", "Formă", "Exemplu"],
+          "rows": [
+            ["prezent / general", "is said to + verb", "He is said to earn a lot."],
+            ["în desfășurare acum", "is said to be + -ing", "They are believed to be hiring."],
+            ["trecut", "is said to have + V3", "She is thought to have left."]
+          ]
+        },
+        "examples": [
+          { "en": "The project is expected to go live in March.", "ro": "Se așteaptă ca proiectul să intre în funcțiune în martie." },
+          { "en": "The company is reported to have outsourced its whole IT department.", "ro": "Se raportează că firma și-a externalizat tot departamentul IT." },
+          { "en": "Their developers are believed to be working on a new mobile app.", "ro": "Se crede că programatorii lor lucrează la o nouă aplicație mobilă." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "„M-am tuns” = **I had my hair cut** (te-a tuns altcineva). **I cut my hair** înseamnă că te-ai tuns singur.",
+      "Nu amesteca structurile: **It is said that he is rich** sau **He is said to be rich**, dar niciodată „He is said that he is rich”.",
+      "Pentru trecut folosește **to have + V3**: **The system is thought to have crashed at midnight**, nu „is thought to crashed”.",
+      "Ordinea contează: **have + obiect + V3**. „I had cut my hair” (past perfect) înseamnă altceva decât **I had my hair cut**."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Discuție cu un client despre implementarea ERP",
+    "lines": [
+      { "speaker": "Mr Novak", "en": "Our old system is said to be the slowest in the whole region. Everybody complains about it.", "ro": "Se spune că sistemul nostru vechi e cel mai lent din toată regiunea. Toată lumea se plânge de el." },
+      { "speaker": "Andrei", "en": "I'm not surprised. Legacy systems like that are usually the biggest bottleneck. Where do you lose the most time?", "ro": "Nu mă miră. Sistemele vechi de genul ăsta sunt de obicei cel mai mare blocaj. Unde pierdeți cel mai mult timp?" },
+      { "speaker": "Mr Novak", "en": "In the warehouse. Every order is still typed in by hand.", "ro": "În depozit. Fiecare comandă e încă introdusă de mână." },
+      { "speaker": "Andrei", "en": "Then I'd suggest having barcode scanners installed first. It's the quickest way to streamline the workflow.", "ro": "Atunci v-aș sugera să vă instalați mai întâi scanere de coduri de bare. E cea mai rapidă cale de a eficientiza fluxul de lucru." },
+      { "speaker": "Mr Novak", "en": "Makes sense. Should we do the data migration in-house or outsource it?", "ro": "Are sens. Ar trebui să facem migrarea datelor intern sau s-o externalizăm?" },
+      { "speaker": "Andrei", "en": "I'd have it done by our team. We'll have everything checked for compliance before the go-live.", "ro": "Aș lăsa-o pe seama echipei noastre. Vom verifica totul din punct de vedere al conformității înainte de punerea în funcțiune." },
+      { "speaker": "Mr Novak", "en": "And when is the system expected to be ready?", "ro": "Și când se estimează că va fi gata sistemul?" },
+      { "speaker": "Andrei", "en": "If procurement approves the budget this month, it should go live by early spring.", "ro": "Dacă departamentul de achiziții aprobă bugetul luna aceasta, ar trebui să intre în funcțiune până la începutul primăverii." }
+    ]
+  },
+
+  "reading": {
+    "title": "How a family business went digital",
+    "text": "Ten years ago, Petrescu Logistics was run almost entirely on paper. Orders were taken by phone, written in a notebook and typed into a legacy system that was said to crash every time it rained. Today the company is regarded as one of the most efficient distributors in western Romania. So what happened?\n\nThe turning point came when the owner's daughter, Ioana, joined the business. She had an audit carried out by an external consultant, and the results were shocking: the warehouse team spent almost half their day looking for products. It was estimated that the company was losing around 200,000 euros a year because of mistakes and delays.\n\nIoana decided not to build anything in-house. Instead, she had a modern ERP implemented by a vendor from Cluj and outsourced the IT support. Every pallet was given a barcode, every worker got a scanner, and the procurement process was customised so that orders above a certain value are approved automatically. The supply chain is now monitored in real time.\n\nThe implementation wasn't painless. Some older employees are said to have threatened to resign during the first month, and the go-live had to be postponed twice. But within a year, the main bottlenecks had disappeared. Delivery times are reported to have fallen by 40%, and customer complaints have almost stopped.\n\n\"People think digital transformation is about technology,\" Ioana says. \"It isn't. It's about getting your workflow right first and then having the software built around it.\"",
+    "textRo": "Acum zece ani, Petrescu Logistics funcționa aproape în întregime pe hârtie. Comenzile erau preluate la telefon, scrise într-un caiet și introduse într-un sistem vechi despre care se spunea că se blochează de fiecare dată când plouă. Astăzi firma este considerată unul dintre cei mai eficienți distribuitori din vestul României. Deci ce s-a întâmplat?\n\nPunctul de cotitură a venit când fiica proprietarului, Ioana, s-a alăturat afacerii. A comandat un audit unui consultant extern, iar rezultatele au fost șocante: echipa din depozit își petrecea aproape jumătate din zi căutând produse. S-a estimat că firma pierdea în jur de 200.000 de euro pe an din cauza greșelilor și întârzierilor.\n\nIoana a hotărât să nu construiască nimic intern. În schimb, a pus un furnizor din Cluj să implementeze un ERP modern și a externalizat suportul IT. Fiecare palet a primit un cod de bare, fiecare angajat a primit un scaner, iar procesul de achiziții a fost personalizat astfel încât comenzile peste o anumită valoare să fie aprobate automat. Lanțul de aprovizionare este acum monitorizat în timp real.\n\nImplementarea n-a fost lipsită de dureri. Se spune că unii angajați mai în vârstă au amenințat cu demisia în prima lună, iar punerea în funcțiune a trebuit amânată de două ori. Dar în decurs de un an, principalele blocaje dispăruseră. Se raportează că timpii de livrare au scăzut cu 40%, iar reclamațiile clienților aproape au încetat.\n\n„Oamenii cred că transformarea digitală ține de tehnologie”, spune Ioana. „Nu e așa. Ține de a-ți pune mai întâi fluxul de lucru la punct și abia apoi de a construi software-ul în jurul lui.”",
+    "questions": [
+      { "type": "mc", "q": "What did the external audit show?", "options": ["The legacy system was very secure.", "Warehouse staff wasted a lot of time looking for products.", "The company had too many vendors.", "Customers were happy with delivery times."], "answer": 1, "explainRo": "Auditul a arătat că echipa din depozit petrecea aproape jumătate din zi căutând produse." },
+      { "type": "mc", "q": "How was the new ERP built?", "options": ["By Ioana herself", "By the company's in-house IT team", "By the warehouse workers", "By a vendor from Cluj"], "answer": 3, "explainRo": "„She had a modern ERP implemented by a vendor from Cluj.”" },
+      { "type": "mc", "q": "What problem happened during the implementation?", "options": ["The go-live was postponed twice.", "The vendor went bankrupt.", "The scanners didn't work.", "The budget was cut by 40%."], "answer": 0, "explainRo": "„The go-live had to be postponed twice.”" },
+      { "type": "mc", "q": "What is Ioana's main message?", "options": ["Technology alone solves most problems.", "Older employees should not use ERPs.", "Fix the workflow first, then build software around it.", "It is cheaper to build everything in-house."], "answer": 2, "explainRo": "Ea spune că transformarea digitală înseamnă întâi un flux de lucru corect, apoi software construit în jurul lui." }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "I didn't fix the laptop myself – I ___ at a repair shop.", "options": ["had it fixed", "had fixed it", "fixed it", "have it fix"], "answer": 0, "explainRo": "**Have + obiect + V3** = altcineva a făcut acțiunea pentru mine." },
+    { "type": "mc", "q": "We're ___ the office painted next week, so we'll all work from home.", "options": ["painting", "having", "making", "doing"], "answer": 1, "explainRo": "**Be having something done** = cineva va face asta pentru noi (aranjament viitor)." },
+    { "type": "mc", "q": "It ___ that the merger will create 300 new jobs.", "options": ["is said to", "says", "is expected", "expects"], "answer": 2, "explainRo": "Structura impersonală: **It is expected that + propoziție**." },
+    { "type": "mc", "q": "The new CEO is said ___ for Google before joining us.", "options": ["to work", "working", "that he worked", "to have worked"], "answer": 3, "explainRo": "Pentru o acțiune din trecut folosim **is said to have + V3**." },
+    { "type": "mc", "q": "The vendor's developers are believed ___ on a new AI module right now.", "options": ["to be working", "to have worked", "that they work", "work"], "answer": 0, "explainRo": "Acțiune în desfășurare acum: **is believed to be + -ing**." },
+    { "type": "mc", "q": "Poor Dan! He ___ his wallet stolen on the way to the airport.", "options": ["got", "made", "did", "let"], "answer": 0, "explainRo": "**Get/have something + V3** descrie și o experiență neplăcută (ceva ce ți s-a întâmplat)." },
+    { "type": "mc", "q": "Manual approvals were slowing everything down. They were the main ___.", "options": ["vendor", "bottleneck", "go-live", "warehouse"], "answer": 1, "explainRo": "**Bottleneck** = punctul care încetinește tot procesul." },
+    { "type": "mc", "q": "We don't have the skills to do it ___, so we'll outsource it.", "options": ["legacy", "customise", "in-house", "compliance"], "answer": 2, "explainRo": "**In-house** = făcut în interiorul firmei, de propriii angajați." },
+    { "type": "mc", "q": "The new ERP helped us ___ the whole ordering process.", "options": ["outsource", "audit", "postpone", "streamline"], "answer": 3, "explainRo": "**Streamline** = a face un proces mai simplu și mai eficient." },
+    { "type": "fill", "q": "I need to get my car ___ (service) before our road trip to Croatia.", "answers": ["serviced"], "explainRo": "După **get + obiect** urmează participiul: **serviced**." },
+    { "type": "fill", "q": "It ___ (believe) that the old system was installed in 1998.", "answers": ["is believed", "'s believed", "was believed"], "explainRo": "Pasivul impersonal: **It is believed that…**" },
+    { "type": "fill", "q": "The project is expected to ___ (go) live in March.", "answers": ["go"], "explainRo": "După **is expected to** urmează infinitivul scurt: **go**." },
+    { "type": "order", "words": ["We", "had", "the", "contract", "translated", "into", "German."], "ro": "Am pus să se traducă contractul în germană.", "explainRo": "**Have + obiect + V3**: altcineva a tradus contractul." },
+    { "type": "order", "words": ["She", "is", "said", "to", "be", "an", "excellent", "negotiator."], "ro": "Se spune că e o negociatoare excelentă.", "explainRo": "**Subiect + is said to + infinitiv** – varianta personală a lui „se spune că”." },
+    { "type": "order", "words": ["It", "is", "expected", "that", "prices", "will", "rise."], "ro": "Se estimează că prețurile vor crește.", "explainRo": "**It is expected that + propoziție** – pasiv impersonal." },
+    { "type": "translate", "ro": "Mi-am tuns părul ieri.", "answers": ["I had my hair cut yesterday.", "I got my hair cut yesterday.", "Yesterday I had my hair cut.", "Yesterday I got my hair cut."], "explainRo": "Te-a tuns altcineva, deci: **I had/got my hair cut**." },
+    { "type": "translate", "ro": "Se spune că firma și-a externalizat suportul IT.", "answers": ["The company is said to have outsourced its IT support.", "It is said that the company has outsourced its IT support.", "It is said that the company outsourced its IT support.", "It's said that the company has outsourced its IT support.", "It's said that the company outsourced its IT support."], "explainRo": "Fie **It is said that…**, fie **The company is said to have + V3**." },
+    { "type": "listen", "audio": "We had the reports customised for each team.", "answers": ["We had the reports customised for each team.", "We had the reports customized for each team."], "ro": "Am pus să se personalizeze rapoartele pentru fiecare echipă.", "explainRo": "**Had + obiect + V3** – lucrul a fost făcut de altcineva." },
+    { "type": "listen", "audio": "The system is thought to have crashed overnight.", "answers": ["The system is thought to have crashed overnight."], "ro": "Se crede că sistemul s-a blocat peste noapte.", "explainRo": "**Is thought to have + V3** = se crede că s-a întâmplat ceva în trecut." },
+    { "type": "match", "pairs": [["outsource", "a externaliza (a da unei firme externe)"], ["vendor", "furnizor (de software sau servicii)"], ["supply chain", "lanț de aprovizionare"], ["compliance", "conformitate (cu legi și reglementări)"], ["legacy system", "sistem vechi (moștenit)"]] }
+  ],
+
+  "video": {
+    "youtubeId": "o0YOITIDdKY",
+    "title": "English Grammar - Causative (Adam · engVid)"
+  }
+}

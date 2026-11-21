@@ -1,0 +1,133 @@
+{
+  "id": "b1-u08",
+  "level": "B1",
+  "order": 8,
+  "title": "Invoices are generated automatically",
+  "titleRo": "Facturile sunt generate automat",
+  "emoji": "⚙️",
+  "goalRo": "La final vei putea să explici cum funcționează un CRM sau un ERP — ce se întâmplă cu datele, comenzile și facturile — folosind diateza pasivă la prezent, trecut, viitor și cu verbe modale.",
+  "vocab": [
+    { "en": "store", "ro": "a stoca, a păstra", "pos": "verb", "ipa": "/stɔːr/", "emoji": "🗄️", "ex": "All customer data is stored in the EU.", "exRo": "Toate datele clienților sunt stocate în UE." },
+    { "en": "generate", "ro": "a genera", "pos": "verb", "ipa": "/ˈdʒen.ər.eɪt/", "emoji": "🖨️", "ex": "The system generates a report every Monday.", "exRo": "Sistemul generează un raport în fiecare luni." },
+    { "en": "encrypt", "ro": "a cripta", "pos": "verb", "ipa": "/ɪnˈkrɪpt/", "emoji": "🔒", "ex": "Passwords are encrypted before they are saved.", "exRo": "Parolele sunt criptate înainte de a fi salvate." },
+    { "en": "database", "ro": "bază de date", "pos": "noun", "ipa": "/ˈdeɪ.tə.beɪs/", "emoji": "🛢️", "wiki": "Database", "ex": "The database has over a million records.", "exRo": "Baza de date are peste un milion de înregistrări." },
+    { "en": "record", "ro": "înregistrare (într-o bază de date)", "pos": "noun", "ipa": "/ˈrek.ɔːd/", "emoji": "📇", "ex": "Each customer has one record in the CRM.", "exRo": "Fiecare client are o singură înregistrare în CRM." },
+    { "en": "notification", "ro": "notificare", "pos": "noun", "ipa": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/", "emoji": "🔔", "ex": "A notification is sent when a new order arrives.", "exRo": "Se trimite o notificare când sosește o comandă nouă." },
+    { "en": "inventory", "ro": "stoc, inventar", "pos": "noun", "ipa": "/ˈɪn.vən.tər.i/", "emoji": "📦", "ex": "The inventory is updated after every sale.", "exRo": "Stocul este actualizat după fiecare vânzare." },
+    { "en": "purchase order", "ro": "comandă de achiziție (către furnizor)", "pos": "noun", "ipa": "/ˈpɜː.tʃəs ˌɔː.dər/", "emoji": "🛍️", "ex": "Purchase orders must be approved by a manager.", "exRo": "Comenzile de achiziție trebuie aprobate de un manager." },
+    { "en": "warehouse", "ro": "depozit", "pos": "noun", "ipa": "/ˈweə.haʊs/", "emoji": "🏬", "wiki": "Warehouse", "ex": "The products are packed in the warehouse.", "exRo": "Produsele sunt ambalate în depozit." },
+    { "en": "user role", "ro": "rol de utilizator", "pos": "noun", "ipa": "/ˈjuː.zər ˌrəʊl/", "emoji": "🎭", "ex": "Each user role has different permissions.", "exRo": "Fiecare rol de utilizator are permisiuni diferite." },
+    { "en": "automatically", "ro": "automat", "pos": "adv", "ipa": "/ˌɔː.təˈmæt.ɪ.kli/", "emoji": "🤖", "ex": "Backups are made automatically every night.", "exRo": "Backup-urile se fac automat în fiecare noapte." },
+    { "en": "sync", "ro": "a sincroniza", "pos": "verb", "ipa": "/sɪŋk/", "emoji": "🔄", "ex": "The app syncs with your calendar.", "exRo": "Aplicația se sincronizează cu calendarul tău." },
+    { "en": "trigger", "ro": "a declanșa", "pos": "verb", "ipa": "/ˈtrɪɡ.ər/", "emoji": "🎯", "ex": "A low stock level triggers an alert.", "exRo": "Un nivel scăzut al stocului declanșează o alertă." },
+    { "en": "audit log", "ro": "jurnal de activitate (cine ce a modificat)", "pos": "noun", "ipa": "/ˈɔː.dɪt ˌlɒɡ/", "emoji": "📜", "ex": "Every change is saved in the audit log.", "exRo": "Fiecare modificare este salvată în jurnalul de activitate." },
+    { "en": "data centre", "ro": "centru de date", "pos": "noun", "ipa": "/ˈdeɪ.tə ˌsen.tər/", "emoji": "🏭", "wiki": "Data center", "ex": "Our servers are kept in a data centre in Frankfurt.", "exRo": "Serverele noastre sunt ținute într-un centru de date din Frankfurt." },
+    { "en": "barcode", "ro": "cod de bare", "pos": "noun", "ipa": "/ˈbɑː.kəʊd/", "emoji": "🔖", "wiki": "Barcode", "ex": "Each box has a barcode on the side.", "exRo": "Fiecare cutie are un cod de bare pe lateral." },
+    { "en": "workflow", "ro": "flux de lucru", "pos": "noun", "ipa": "/ˈwɜːk.fləʊ/", "emoji": "🔀", "ex": "The new workflow saves us two hours a day.", "exRo": "Noul flux de lucru ne economisește două ore pe zi." }
+  ],
+  "grammar": {
+    "title": "The passive",
+    "titleRo": "Diateza pasivă",
+    "sections": [
+      {
+        "headingRo": "De ce folosim pasivul?",
+        "textRo": "Folosim pasivul când ne interesează **acțiunea sau rezultatul**, nu cine o face — de exemplu pentru că nu știm, nu contează sau e evident (sistemul, „cineva”). De aceea pasivul este peste tot în documentația tehnică. Forma: **be + participiul trecut** (stored, sent, made). În română folosim des „se” sau „este/sunt + participiu”: „datele se stochează” = **data is stored**.",
+        "examples": [
+          { "en": "The data is stored in the cloud.", "ro": "Datele sunt stocate (se stochează) în cloud." },
+          { "en": "Invoices are generated automatically.", "ro": "Facturile se generează automat." },
+          { "en": "The system was built in 2015.", "ro": "Sistemul a fost construit în 2015." }
+        ]
+      },
+      {
+        "headingRo": "Pasivul la diferite timpuri și cu modale",
+        "textRo": "Schimbăm doar verbul **be**; participiul rămâne același.",
+        "table": {
+          "headers": ["Timp", "Structură", "Exemplu"],
+          "rows": [
+            ["present simple", "am/is/are + V3", "Orders are packed in the warehouse."],
+            ["past simple", "was/were + V3", "The email was sent yesterday."],
+            ["future", "will be + V3", "The report will be generated tonight."],
+            ["present perfect", "has/have been + V3", "Your password has been changed."],
+            ["modale", "can/must/should be + V3", "Reports can be exported to Excel."]
+          ]
+        },
+        "examples": [
+          { "en": "Discounts over 20% must be approved by a manager.", "ro": "Reducerile de peste 20% trebuie aprobate de un manager." },
+          { "en": "The new feature will be added next month.", "ro": "Noua funcționalitate va fi adăugată luna viitoare." }
+        ]
+      },
+      {
+        "headingRo": "Cine face acțiunea? by…",
+        "textRo": "Dacă vrem să spunem cine face acțiunea, folosim **by**. Facem asta doar când informația este importantă sau nouă.",
+        "examples": [
+          { "en": "The purchase order was approved by the CFO.", "ro": "Comanda de achiziție a fost aprobată de directorul financiar." },
+          { "en": "This module was written by Ana.", "ro": "Acest modul a fost scris de Ana." }
+        ]
+      },
+      {
+        "headingRo": "Negații și întrebări",
+        "textRo": "Ca la verbul be: negația cu **not** (isn't, wasn't, won't be), întrebarea prin inversarea lui be cu subiectul.",
+        "examples": [
+          { "en": "Passwords aren't stored in plain text.", "ro": "Parolele nu sunt stocate ca text simplu." },
+          { "en": "Is the data encrypted?", "ro": "Datele sunt criptate?" },
+          { "en": "When was the invoice paid?", "ro": "Când a fost plătită factura?" }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu uita verbul **be**: nu „The data stored in the cloud”, ci **The data is stored in the cloud**.",
+      "Când traduci „se” din română, gândește-te la pasiv: „Rapoartele se trimit lunar” = **Reports are sent monthly**.",
+      "Învață participiile neregulate frecvente în IT: **sent, built, made, written, kept, done, chosen**.",
+      "**data** este de obicei tratat ca nenumărabil în IT: **the data is**, deși **the data are** este și el corect."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Clientul întreabă cum funcționează ERP-ul",
+    "lines": [
+      { "speaker": "Radu", "en": "So, what happens when a customer orders a sofa on our website?", "ro": "Deci, ce se întâmplă când un client comandă o canapea pe site-ul nostru?" },
+      { "speaker": "Andrei", "en": "The order is saved in the ERP, and the stock is checked automatically.", "ro": "Comanda este salvată în ERP, iar stocul este verificat automat." },
+      { "speaker": "Radu", "en": "And if the sofa isn't in stock?", "ro": "Și dacă canapeaua nu e pe stoc?" },
+      { "speaker": "Andrei", "en": "Then a purchase order is created for the factory. It must be approved by your production manager.", "ro": "Atunci se creează o comandă către fabrică. Trebuie aprobată de managerul vostru de producție." },
+      { "speaker": "Radu", "en": "OK. Who sends the invoice to the customer?", "ro": "Bine. Cine îi trimite factura clientului?" },
+      { "speaker": "Andrei", "en": "Nobody. The invoice is generated and sent by the system when the sofa leaves the warehouse.", "ro": "Nimeni. Factura este generată și trimisă de sistem când canapeaua iese din depozit." },
+      { "speaker": "Radu", "en": "That's great. Is our customer data safe?", "ro": "Grozav. Datele clienților noștri sunt în siguranță?" },
+      { "speaker": "Andrei", "en": "Yes. It's encrypted and stored in a data centre in Germany. Every change is recorded in the audit log.", "ro": "Da. Sunt criptate și stocate într-un centru de date din Germania. Fiecare modificare este înregistrată în jurnalul de activitate." },
+      { "speaker": "Radu", "en": "And when will the old system be switched off?", "ro": "Și când va fi oprit vechiul sistem?" },
+      { "speaker": "Andrei", "en": "After all the data has been migrated — probably in March.", "ro": "După ce toate datele au fost migrate — probabil în martie." }
+    ]
+  },
+  "reading": {
+    "title": "The life of an order",
+    "text": "Have you ever wondered what happens after you click \"Buy now\"? In a modern online shop, most of the work is done by software.\n\nFirst, your order is saved in the database, and your payment is checked by the bank. As soon as the payment is confirmed, the order is sent to the ERP system. There, the inventory is updated, and a notification is triggered for the warehouse team.\n\nIn the warehouse, your products are found and packed. Each box is given a barcode, which is scanned before it leaves the building. When the barcode is scanned, the status of your order is changed to \"Shipped\", and you receive an email with a tracking link.\n\nMeanwhile, an invoice is generated automatically and stored in the accounting module. If the stock of a product is too low, a purchase order is created for the supplier. Big orders can't be sent until they are approved by a manager.\n\nAll these steps are recorded in an audit log, so problems can be found quickly. Years ago, this workflow was done on paper by five or six people. Today, it is completed in a few minutes.",
+    "textRo": "V-ați întrebat vreodată ce se întâmplă după ce apăsați „Cumpără acum”? Într-un magazin online modern, cea mai mare parte a muncii este făcută de software.\n\nMai întâi, comanda voastră este salvată în baza de date, iar plata este verificată de bancă. Imediat ce plata este confirmată, comanda este trimisă către sistemul ERP. Acolo, stocul este actualizat și se declanșează o notificare pentru echipa din depozit.\n\nÎn depozit, produsele voastre sunt găsite și ambalate. Fiecare cutie primește un cod de bare, care este scanat înainte ca ea să iasă din clădire. Când codul de bare este scanat, starea comenzii voastre este schimbată în „Expediată”, iar voi primiți un e-mail cu un link de urmărire.\n\nÎntre timp, o factură este generată automat și stocată în modulul de contabilitate. Dacă stocul unui produs este prea mic, se creează o comandă de achiziție către furnizor. Comenzile mari nu pot fi trimise până nu sunt aprobate de un manager.\n\nToți acești pași sunt înregistrați într-un jurnal de activitate, astfel încât problemele pot fi găsite rapid. Cu ani în urmă, acest flux de lucru era făcut pe hârtie de cinci sau șase oameni. Astăzi, este finalizat în câteva minute.",
+    "questions": [
+      { "type": "mc", "q": "Who checks the payment?", "options": ["The warehouse team", "The bank", "The manager", "The customer"], "answer": 1, "explainRo": "„your payment is checked by the bank” — by arată cine face acțiunea." },
+      { "type": "mc", "q": "What happens when the barcode is scanned?", "options": ["The invoice is paid.", "A purchase order is created.", "The order status is changed to \"Shipped\".", "The box is opened."], "answer": 2, "explainRo": "„the status of your order is changed to \"Shipped\"”." },
+      { "type": "mc", "q": "When is a purchase order created?", "options": ["When the stock of a product is too low", "When a customer pays", "Every Monday", "When a manager asks for it"], "answer": 0, "explainRo": "„If the stock of a product is too low, a purchase order is created for the supplier.”" },
+      { "type": "mc", "q": "How was this workflow done years ago?", "options": ["By robots", "By the bank", "By one programmer", "On paper by several people"], "answer": 3, "explainRo": "„this workflow was done on paper by five or six people” — pasiv la trecut." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["warehouse", "depozit"], ["database", "bază de date"], ["barcode", "cod de bare"], ["inventory", "stoc"], ["workflow", "flux de lucru"]] },
+    { "type": "mc", "q": "All invoices ___ automatically at the end of the month.", "options": ["generate", "are generated", "generated"], "answer": 1, "explainRo": "Facturile nu se generează singure — sunt generate de sistem: are + V3." },
+    { "type": "mc", "q": "The data ___ in a data centre in Frankfurt.", "options": ["is stored", "stores", "storing"], "answer": 0, "explainRo": "Pasiv la present simple: is + stored." },
+    { "type": "mc", "q": "This module ___ by Ana last year.", "options": ["is written", "was written", "wrote"], "answer": 1, "explainRo": "„last year” → pasiv la past simple: was written." },
+    { "type": "mc", "q": "The new version ___ next Monday.", "options": ["will release", "will be released", "is releasing"], "answer": 1, "explainRo": "Versiunea nu se lansează singură → pasiv la viitor: will be released." },
+    { "type": "mc", "q": "Discounts over 20% must ___ by a manager.", "options": ["be approved", "approve", "approved"], "answer": 0, "explainRo": "Pasiv cu modal: must + be + V3." },
+    { "type": "mc", "q": "Passwords ___ in plain text. They are always encrypted.", "options": ["don't store", "isn't stored", "aren't stored"], "answer": 2, "explainRo": "Subiect la plural (passwords) + pasiv negativ: aren't stored." },
+    { "type": "mc", "q": "When the stock is low, a ___ is sent to the supplier.", "options": ["purchase order", "barcode", "audit log"], "answer": 0, "explainRo": "Comanda trimisă furnizorului se numește purchase order." },
+    { "type": "mc", "q": "Every change is saved in the ___, so we always know who changed what.", "options": ["workflow", "audit log", "warehouse"], "answer": 1, "explainRo": "„audit log” = jurnalul care arată cine ce a modificat." },
+    { "type": "fill", "q": "Reports can ___ (export) to Excel.", "answers": ["be exported"], "explainRo": "Pasiv cu modal: can + be + V3." },
+    { "type": "fill", "q": "The email ___ (send) to the client yesterday.", "answers": ["was sent"], "explainRo": "„yesterday” → pasiv la past simple; „send” este neregulat: sent." },
+    { "type": "fill", "q": "Orders ___ (pack) in the warehouse every morning.", "answers": ["are packed"], "explainRo": "Acțiune obișnuită, subiect la plural → are + packed." },
+    { "type": "fill", "q": "The app ___ (sync) with your phone automatically.", "answers": ["syncs", "will sync"], "explainRo": "Aici aplicația face acțiunea, deci folosim activul: syncs." },
+    { "type": "order", "words": ["The", "data", "is", "encrypted", "before", "it", "is", "sent."], "ro": "Datele sunt criptate înainte de a fi trimise.", "explainRo": "Două verbe la pasiv, present simple: is encrypted, is sent." },
+    { "type": "order", "words": ["This", "feature", "will", "be", "added", "next", "month."], "ro": "Această funcționalitate va fi adăugată luna viitoare.", "explainRo": "Pasiv la viitor: will + be + V3." },
+    { "type": "order", "words": ["Was", "the", "invoice", "paid", "on", "time?"], "ro": "A fost plătită factura la timp?", "explainRo": "Întrebare la pasiv: Was + subiect + V3." },
+    { "type": "translate", "ro": "Datele sunt stocate în cloud.", "answers": ["The data is stored in the cloud.", "Data is stored in the cloud.", "The data are stored in the cloud.", "Data are stored in the cloud."], "explainRo": "Pasiv la prezent: is/are + stored." },
+    { "type": "translate", "ro": "Factura a fost trimisă ieri.", "answers": ["The invoice was sent yesterday.", "The invoice was sent out yesterday.", "Yesterday the invoice was sent."], "explainRo": "„a fost trimisă” + ieri → pasiv la past simple: was sent." },
+    { "type": "listen", "audio": "Invoices are generated automatically.", "answers": ["Invoices are generated automatically."], "ro": "Facturile sunt generate automat.", "explainRo": "Pasiv la present simple: are generated." },
+    { "type": "listen", "audio": "The barcode is scanned in the warehouse.", "answers": ["The barcode is scanned in the warehouse."], "ro": "Codul de bare este scanat în depozit.", "explainRo": "Pasiv: is + scanned (cu dublarea lui n)." }
+  ],
+  "video": { "youtubeId": "nqSD7LB8HVY", "title": "Using PASSIVE in English to avoid responsibility (English with Emma · engVid)" }
+}

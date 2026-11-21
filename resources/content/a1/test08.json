@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u08",
+  "questions": [
+    { "type": "mc", "q": "My new colleague ___ write code in five languages!", "options": ["cans", "can", "can to"], "answer": 1, "explainRo": "**Can** are aceeași formă la toate persoanele și e urmat de verb fără „to”." },
+    { "type": "mc", "q": "„Can you see my screen now?” — „No, I ___.”", "options": ["don't", "not", "can't"], "answer": 2, "explainRo": "La o întrebare cu **Can** răspundem scurt tot cu can: **No, I can't**." },
+    { "type": "mc", "q": "Maria loves music. In her free time she ___.", "options": ["plays football", "fixes bugs", "rides a bike", "plays the guitar"], "answer": 3, "explainRo": "**Play the guitar** = a cânta la chitară, singura activitate legată de muzică." },
+    { "type": "mc", "q": "My boss ___ takes a holiday. He works all the time!", "options": ["never", "doesn't never", "don't never"], "answer": 0, "explainRo": "**Never** este deja negativ, deci nu mai punem doesn't: **never takes**." },
+    { "type": "mc", "q": "„___ do you call your mum?” — „Every day.”", "options": ["What", "How often", "Where", "How many"], "answer": 1, "explainRo": "Cât de des = **How often**, iar „Every day” arată frecvența." },
+    { "type": "fill", "q": "My grandma is 80, but she ___ a smartphone! (can / use)", "answers": ["can use"], "explainRo": "După **can** verbul stă la forma de bază, fără „to” și fără -s: **can use**." },
+    { "type": "fill", "q": "My little brother ___ hungry! (always / be)", "answers": ["is always", "'s always"], "explainRo": "Cu verbul **to be**, adverbul stă după el: **is always**." },
+    { "type": "fill", "q": "I can't ___, so I always take the bus to work. (a conduce)", "answers": ["drive"], "explainRo": "A conduce (mașina) = **drive**; după can't verbul rămâne la forma de bază." },
+    { "type": "order", "words": ["My", "dad", "often", "rides", "his", "bike", "to", "work."], "ro": "Tatăl meu merge des cu bicicleta la serviciu.", "explainRo": "**Often** stă înaintea verbului principal: often rides." },
+    { "type": "order", "words": ["Can", "you", "call", "me", "after", "lunch?"], "ro": "Mă poți suna după prânz?", "explainRo": "În întrebare **can** trece la început, înaintea subiectului: **Can you...?**" },
+    { "type": "listen", "audio": "I sometimes take photos for our website.", "answers": ["I sometimes take photos for our website."], "ro": "Uneori fac fotografii pentru site-ul nostru.", "explainRo": "**Sometimes** stă înaintea verbului; **take photos** = a face fotografii." },
+    { "type": "translate", "ro": "Clientul meu nu răspunde niciodată la telefon.", "answers": ["My client never answers the phone.", "My client never answers his phone.", "My client never answers her phone.", "My client never picks up the phone."], "explainRo": "**Never** este deja negativ, deci nu adăugăm „doesn't”: My client **never answers**." }
+  ]
+}

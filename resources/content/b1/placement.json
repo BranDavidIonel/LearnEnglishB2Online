@@ -1,0 +1,17 @@
+{
+  "level": "B1",
+  "questions": [
+    { "type": "mc", "q": "Our app ___ an invoice to every customer at the end of the month.", "options": ["send", "sends", "is sending", "sending"], "answer": 1, "explainRo": "Acțiune repetată, regulată → present simple, cu -s la persoana a III-a." },
+    { "type": "mc", "q": "Sorry, I can't talk now. I ___ a bug on the live server.", "options": ["fix", "fixed", "am fixing", "have fixed"], "answer": 2, "explainRo": "Acțiune în desfășurare chiar acum → present continuous." },
+    { "type": "mc", "q": "She has worked for this company ___ 2020.", "options": ["for", "since", "ago", "from"], "answer": 1, "explainRo": "2020 este punctul de început, deci since + present perfect." },
+    { "type": "mc", "q": "I ___ for this bug since nine o'clock, and I still can't find it.", "options": ["have been looking", "look", "am looking", "looked"], "answer": 0, "explainRo": "Activitate începută în trecut și încă în desfășurare, cu since → present perfect continuous." },
+    { "type": "mc", "q": "When I got to the gate, the plane ___, so I had to wait for the next one.", "options": ["has already left", "had already left", "already leaves", "is already leaving"], "answer": 1, "explainRo": "Avionul plecase înainte de sosirea mea → past perfect." },
+    { "type": "mc", "q": "I'll send you the estimate as soon as I ___ the requirements.", "options": ["get", "will get", "got", "would get"], "answer": 0, "explainRo": "După „as soon as”, viitorul se exprimă cu present simple." },
+    { "type": "mc", "q": "You ___ come to the meeting tomorrow — it's optional.", "options": ["mustn't", "don't have to", "can't", "aren't allowed to"], "answer": 1, "explainRo": "Opțional = nu e necesar → don't have to (mustn't ar însemna interdicție)." },
+    { "type": "mc", "q": "She's been in meetings since eight this morning. She ___ be exhausted.", "options": ["can't", "must", "mustn't", "has"], "answer": 1, "explainRo": "Deducție aproape sigură pe baza dovezilor → must." },
+    { "type": "mc", "q": "If I ___ you, I would ask the client for a higher rate.", "options": ["will be", "am", "had been", "were"], "answer": 3, "explainRo": "Sfat cu condiționalul II: If I were you, I would…" },
+    { "type": "mc", "q": "All our customer data ___ in a data centre in Germany.", "options": ["stores", "is stored", "is storing", "has stored"], "answer": 1, "explainRo": "Datele nu se stochează singure → pasiv la present simple: is stored." },
+    { "type": "mc", "q": "The client asked me where ___.", "options": ["the server was", "was the server", "is the server", "did the server be"], "answer": 0, "explainRo": "În întrebarea raportată ordinea este subiect + verb, iar timpul se mută în trecut." },
+    { "type": "mc", "q": "Thank you for your offer. I'm looking forward to ___ from you.", "options": ["hear", "to hear", "hearing", "heard"], "answer": 2, "explainRo": "„look forward to” este urmat de -ing, pentru că „to” este prepoziție." }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "level": "B1",
+  "scenarios": [
+    {
+      "id": "b1-s01",
+      "emoji": "🏨",
+      "title": "Checking in at a hotel",
+      "titleRo": "Check-in la hotel",
+      "youRo": "Ești Andrei și ai ajuns seara la un hotel din Porto, unde vei sta o săptămână și vei lucra de la distanță.",
+      "partner": "Receptionist",
+      "turns": [
+        {
+          "say": "Good evening! Welcome to the Riverside Hotel. How can I help you?",
+          "sayRo": "Bună seara! Bine ați venit la hotelul Riverside. Cu ce vă pot ajuta?",
+          "hintRo": "Salută și spune că ai rezervat o cameră.",
+          "answers": ["Good evening. I've booked a room for this week.", "Hi, I booked a room online last week.", "Hello. I have a room booked under my name."],
+          "keywords": ["booked"]
+        },
+        {
+          "say": "Of course. Can I see your passport or ID card, please?",
+          "sayRo": "Desigur. Pot să văd pașaportul sau buletinul, vă rog?",
+          "hintRo": "Dă-i documentul și întreabă dacă micul dejun este inclus.",
+          "answers": ["Sure, here you are. Is breakfast included?", "Here's my passport. Is breakfast included in the price?", "Of course, here it is. By the way, is breakfast included?"],
+          "keywords": ["breakfast included"]
+        },
+        {
+          "say": "Yes, breakfast is served in the restaurant every morning. Would you like a room with a view of the river?",
+          "sayRo": "Da, micul dejun se servește în restaurant în fiecare dimineață. Doriți o cameră cu vedere la râu?",
+          "hintRo": "Spune că ai prefera o cameră liniștită, pentru că trebuie să lucrezi.",
+          "answers": ["I'd prefer a quiet room, because I need to work.", "Actually, a quiet room would be better. I have to work in the evenings.", "If possible, I'd like a quiet room. I'm working during my stay."],
+          "keywords": ["quiet room"]
+        },
+        {
+          "say": "No problem. Your room is on the top floor and it's very quiet. Do you need anything else?",
+          "sayRo": "Nicio problemă. Camera dumneavoastră e la ultimul etaj și e foarte liniștită. Mai aveți nevoie de ceva?",
+          "hintRo": "Întreabă care este parola de internet și dacă conexiunea e rapidă.",
+          "answers": ["What's the password for the internet? Is the connection fast?", "Could you tell me the password? I need a fast connection for video calls.", "Yes, what's the password? And is the internet fast enough for work?"],
+          "keywords": ["password"]
+        },
+        {
+          "say": "It's on the card with your key, and the connection is very fast. Is this your first time in Porto?",
+          "sayRo": "E pe cartonașul cu cheia, iar conexiunea e foarte rapidă. Sunteți pentru prima dată în Porto?",
+          "hintRo": "Spune că nu, ai mai fost acum câțiva ani, cu niște prieteni.",
+          "answers": ["No, I've been here once before, with some friends.", "Actually, no. I came here a few years ago with friends.", "It's my second time. I visited with my friends a few years ago."],
+          "keywords": ["friends"]
+        },
+        {
+          "say": "Welcome back, then! If you need a taxi or a restaurant recommendation, just call reception.",
+          "sayRo": "Atunci, bine ați revenit! Dacă aveți nevoie de un taxi sau de o recomandare de restaurant, sunați la recepție.",
+          "hintRo": "Întreabă dacă îți poate recomanda acum un restaurant bun cu mâncare locală, prin apropiere.",
+          "answers": ["Thanks. Could you recommend a good local restaurant nearby?", "Great. Is there a nice restaurant with local food near here?", "Actually, can you recommend a restaurant near the hotel? Something local."],
+          "keywords": ["restaurant", "local"]
+        },
+        {
+          "say": "Try Casa Ribeira, just two minutes from here. Their fish is excellent. Shall I book a table for you?",
+          "sayRo": "Încercați Casa Ribeira, la doar două minute de aici. Peștele lor e excelent. Să vă rezerv o masă?",
+          "hintRo": "Acceptă și spune că ai vrea masa pentru diseară.",
+          "answers": ["Yes, please. A table for tonight would be perfect.", "That would be great. Could you book one for tonight?", "Yes, please. I'd love to have dinner there tonight."],
+          "keywords": ["tonight"]
+        }
+      ],
+      "closing": "Done! Your table is booked. Enjoy your stay!"
+    },
+    {
+      "id": "b1-s02",
+      "emoji": "🤝",
+      "title": "Talking to a potential client",
+      "titleRo": "Discuție cu un potențial client",
+      "youRo": "Ești la un eveniment pentru antreprenori și vorbești cu proprietara unei mici agenții de turism, care ar putea avea nevoie de serviciile tale.",
+      "partner": "Agency owner",
+      "turns": [
+        {
+          "say": "Hi there! I don't think we've met. I run a small travel agency. And you?",
+          "sayRo": "Salut! Nu cred că ne cunoaștem. Am o mică agenție de turism. Tu?",
+          "hintRo": "Spune că îți pare bine și că ești programator freelance.",
+          "answers": ["Nice to meet you. I'm a freelance developer.", "Hi! I work as a freelance developer, mostly for small companies.", "Pleased to meet you. I'm a freelance software developer."],
+          "keywords": ["freelance", "developer"]
+        },
+        {
+          "say": "Interesting! What kind of software do you build?",
+          "sayRo": "Interesant! Ce fel de software faci?",
+          "hintRo": "Spune că faci mai ales sisteme CRM și aplicații web pentru firme mici.",
+          "answers": ["Mostly CRM systems and web apps for small businesses.", "I usually build CRM systems and web applications for small companies.", "I build CRM systems, and sometimes web apps, for small firms."],
+          "keywords": ["crm"]
+        },
+        {
+          "say": "And what are you working on at the moment?",
+          "sayRo": "Și la ce lucrezi în momentul ăsta?",
+          "hintRo": "Spune că acum faci un sistem de rezervări pentru o școală de limbi străine.",
+          "answers": ["At the moment I'm building a booking system for a language school.", "I'm currently working on a booking system for a language school.", "Right now I'm developing an online booking system for a language school."],
+          "keywords": ["booking system", "language school"]
+        },
+        {
+          "say": "That sounds useful. We still manage all our bookings in spreadsheets, and it's a nightmare.",
+          "sayRo": "Sună util. Noi încă ținem toate rezervările în tabele Excel și e un coșmar.",
+          "hintRo": "Spune că înțelegi și întreabă câți oameni lucrează în agenție.",
+          "answers": ["I understand. How many people work in your agency?", "I know what you mean. How many people are on your team?", "That's very common. How many people do you have in the agency?"],
+          "keywords": ["how many people"]
+        },
+        {
+          "say": "There are six of us, and we're opening a second office this year.",
+          "sayRo": "Suntem șase și deschidem un al doilea birou anul acesta.",
+          "hintRo": "Spune că un CRM simplu le-ar putea economisi mult timp.",
+          "answers": ["A simple CRM could save you a lot of time.", "I think a simple CRM would save your team a lot of time.", "In that case, a simple CRM might save you lots of time."],
+          "keywords": ["simple crm", "save"]
+        },
+        {
+          "say": "Maybe. But I'm not very technical. Do you explain things in simple words?",
+          "sayRo": "Poate. Dar nu mă pricep la tehnică. Explici lucrurile pe înțelesul tuturor?",
+          "hintRo": "Liniștește-o: spune că explici mereu lucrurile simplu, fără termeni tehnici.",
+          "answers": ["Of course. I always explain things in simple words.", "Yes, don't worry. I always try to explain everything simply.", "Absolutely. I always avoid technical words with my clients."],
+          "keywords": ["always"]
+        },
+        {
+          "say": "Great. Do you have a website where I can see your work?",
+          "sayRo": "Super. Ai un site unde pot să-ți văd lucrările?",
+          "hintRo": "Spune că îi trimiți pe e-mail un link către portofoliul tău.",
+          "answers": ["Yes, I'll email you a link to my portfolio.", "Sure. I can send you my portfolio by email.", "I do. Give me your email and I'll send you my portfolio."],
+          "keywords": ["portfolio"]
+        }
+      ],
+      "closing": "Perfect. Here's my card. Let's talk next week!"
+    },
+    {
+      "id": "b1-s03",
+      "emoji": "🎙️",
+      "title": "A job interview on video",
+      "titleRo": "Un interviu de angajare video",
+      "youRo": "Ai un interviu video cu o firmă olandeză care caută un programator pentru un contract de lungă durată, de la distanță.",
+      "partner": "Interviewer",
+      "turns": [
+        {
+          "say": "Hi Andrei, thanks for joining us. Can you hear me OK?",
+          "sayRo": "Bună, Andrei, mulțumim că ni te-ai alăturat. Mă auzi bine?",
+          "hintRo": "Confirmă că o auzi bine și mulțumește pentru invitație.",
+          "answers": ["Yes, I can hear you well. Thanks for inviting me.", "Yes, perfectly. Thank you for the invitation.", "I can hear you clearly, yes. Thanks for having me."],
+          "keywords": ["yes"]
+        },
+        {
+          "say": "Great. So, tell me a bit about your experience.",
+          "sayRo": "Super. Deci, spune-mi puțin despre experiența ta.",
+          "hintRo": "Spune că lucrezi ca programator de mulți ani și că în ultima vreme ai lucrat ca freelancer.",
+          "answers": ["I've been a developer for many years. Recently I've worked as a freelancer.", "I've worked as a developer for many years, mostly as a freelancer lately.", "I've been in software development for many years, and recently I've been freelancing."],
+          "keywords": ["for many years"]
+        },
+        {
+          "say": "Have you ever worked with an ERP system?",
+          "sayRo": "Ai lucrat vreodată cu un sistem ERP?",
+          "hintRo": "Spune că da, acum câțiva ani ai lucrat la un ERP pentru o fabrică.",
+          "answers": ["Yes, I have. I worked on an ERP for a factory a few years ago.", "Yes. A few years ago I built an ERP module for a factory.", "Yes, a few years ago. My team created an ERP for a big factory."],
+          "keywords": ["yes", "erp", "factory"]
+        },
+        {
+          "say": "What was your biggest achievement on that project?",
+          "sayRo": "Care a fost cea mai mare realizare a ta în acel proiect?",
+          "hintRo": "Spune că ai construit un modul de depozit care i-a economisit clientului multe ore de muncă.",
+          "answers": ["I built a warehouse module that saved the client hours of work.", "My warehouse module saved the client many hours every week.", "I created a warehouse module, and it saved them a lot of hours."],
+          "keywords": ["warehouse module", "saved"]
+        },
+        {
+          "say": "Impressive. And what would you say is your biggest weakness?",
+          "sayRo": "Impresionant. Și care ai spune că este cel mai mare punct slab al tău?",
+          "hintRo": "Recunoaște sincer că uneori îți asumi prea multă muncă, dar că înveți să refuzi.",
+          "answers": ["Sometimes I take on too much work, but I'm learning to say no.", "Honestly, I sometimes take on too many projects. I'm learning to say no.", "I take on too much sometimes. Now I'm learning to say no to clients."],
+          "keywords": ["take on", "say no"]
+        },
+        {
+          "say": "That's honest. Why do you want to work with our company?",
+          "sayRo": "E un răspuns sincer. De ce vrei să lucrezi cu firma noastră?",
+          "hintRo": "Spune că îți plac produsele lor și că vrei să lucrezi într-o echipă internațională.",
+          "answers": ["I like your products, and I want to work with an international team.", "I really like what you build, and I'd love to join an international team.", "Your products are great, and working in an international team would be exciting."],
+          "keywords": ["international team"]
+        },
+        {
+          "say": "Thank you. Do you have any questions for us?",
+          "sayRo": "Mulțumesc. Ai vreo întrebare pentru noi?",
+          "hintRo": "Întreabă cum arată o zi obișnuită în echipa lor.",
+          "answers": ["Yes. What does a typical day look like in your team?", "I do. Could you describe a typical day for the team?", "Yes, actually. What's a typical day like for your developers?"],
+          "keywords": ["typical day"]
+        }
+      ],
+      "closing": "Good question! Every morning we start with a short call…"
+    },
+    {
+      "id": "b1-s04",
+      "emoji": "🧳",
+      "title": "My suitcase didn't arrive",
+      "titleRo": "Valiza mea n-a sosit",
+      "youRo": "Ai aterizat pentru o întâlnire cu un client, dar valiza ta nu a apărut pe bandă. Mergi la biroul companiei aeriene.",
+      "partner": "Airline agent",
+      "turns": [
+        {
+          "say": "Hello, how can I help you?",
+          "sayRo": "Bună ziua, cu ce vă pot ajuta?",
+          "hintRo": "Spune că valiza ta nu a sosit.",
+          "answers": ["Hi, my suitcase didn't arrive.", "Hello. I'm afraid my suitcase hasn't arrived.", "Good morning. My suitcase wasn't on the belt."],
+          "keywords": ["suitcase"]
+        },
+        {
+          "say": "I'm sorry to hear that. Which flight were you on?",
+          "sayRo": "Îmi pare rău să aud asta. Cu ce zbor ați venit?",
+          "hintRo": "Spune că ai venit cu zborul de dimineață și că ai avut o escală.",
+          "answers": ["I was on the morning flight. I had a connecting flight.", "I came on the morning flight, with a connection.", "The morning flight. I changed planes on the way."],
+          "keywords": ["morning flight"]
+        },
+        {
+          "say": "I see. Was the connection very short?",
+          "sayRo": "Înțeleg. Legătura a fost foarte scurtă?",
+          "hintRo": "Spune că da: primul zbor a avut întârziere și aproape ai pierdut legătura.",
+          "answers": ["Yes. My first flight was delayed, and I almost missed the connection.", "Very short. The first flight was delayed, so I nearly missed my next flight.", "Yes, the first flight was delayed. I had to run to the gate."],
+          "keywords": ["delayed"]
+        },
+        {
+          "say": "That's probably why. Your bag is probably still at the other airport. Can you describe it?",
+          "sayRo": "Probabil de aceea. Bagajul e probabil încă pe celălalt aeroport. Îl puteți descrie?",
+          "hintRo": "Descrie valiza: mare, albastră, cu un abțibild pe o parte.",
+          "answers": ["It's a big blue suitcase with a sticker on the side.", "It's large and blue, and there's a sticker on the side.", "A big blue one, with a small sticker on the side."],
+          "keywords": ["blue", "sticker"]
+        },
+        {
+          "say": "Thank you. What was inside? Anything valuable?",
+          "sayRo": "Mulțumesc. Ce era înăuntru? Ceva de valoare?",
+          "hintRo": "Spune că laptopul e la tine, dar că îți pusesei în valiză costumul pentru întâlnirea cu clientul.",
+          "answers": ["My laptop is with me, but my suit was in the suitcase.", "Not really. But I had packed my suit for a client meeting.", "Luckily my laptop is with me. But I'd packed my suit in it."],
+          "keywords": ["suit"]
+        },
+        {
+          "say": "Oh dear. When is your meeting?",
+          "sayRo": "Vai. Când este întâlnirea?",
+          "hintRo": "Spune că întâlnirea e mâine dimineață și întreabă când va ajunge valiza.",
+          "answers": ["It's tomorrow morning. When will my suitcase arrive?", "Tomorrow morning. When do you think the bag will get here?", "The meeting is tomorrow morning, so when will it arrive?"],
+          "keywords": ["tomorrow morning"]
+        },
+        {
+          "say": "It should arrive on the evening flight. We can deliver it to your hotel tonight.",
+          "sayRo": "Ar trebui să sosească cu zborul de seară. Vi-l putem livra la hotel diseară.",
+          "hintRo": "Mulțumește, spune că stai la un hotel lângă gară și întreabă dacă te vor suna înainte.",
+          "answers": ["Thank you. I'm staying at a hotel near the station. Will you call me first?", "Great, thanks. My hotel is near the station. Could someone call me before?", "That's perfect. I'm at a hotel by the station. Will the driver phone me?"],
+          "keywords": ["hotel", "station"]
+        }
+      ],
+      "closing": "Of course, the driver will call you. I'm very sorry for the trouble."
+    },
+    {
+      "id": "b1-s05",
+      "emoji": "🗓️",
+      "title": "Planning the project timeline",
+      "titleRo": "Planificarea calendarului proiectului",
+      "youRo": "O firmă de transport vrea un portal online pentru clienții ei. Discuți cu managerul lor despre termene și etape.",
+      "partner": "Client",
+      "turns": [
+        {
+          "say": "So, when do you think the customer portal will be ready?",
+          "sayRo": "Deci, când crezi că va fi gata portalul pentru clienți?",
+          "hintRo": "Spune că nu poți da o dată exactă până nu vezi toate cerințele.",
+          "answers": ["I can't give you an exact date until I see all the requirements.", "It's hard to say before I've seen all the requirements.", "I'll know more when I get the full list of requirements."],
+          "keywords": ["requirements"]
+        },
+        {
+          "say": "Fair enough. I'll send you the full list tomorrow. What happens after that?",
+          "sayRo": "Corect. Îți trimit lista completă mâine. Ce urmează după aceea?",
+          "hintRo": "Spune că, imediat ce primești lista, îi trimiți o estimare și un roadmap.",
+          "answers": ["As soon as I get the list, I'll send you an estimate and a roadmap.", "When I receive it, I'll prepare an estimate and a roadmap for you.", "I'll send you a roadmap and an estimate as soon as I have it."],
+          "keywords": ["estimate", "roadmap"]
+        },
+        {
+          "say": "Our big deadline is the trade fair in the spring. We're launching the portal there.",
+          "sayRo": "Termenul nostru mare este târgul din primăvară. Acolo lansăm portalul.",
+          "hintRo": "Întreabă-l politicos ce funcționalități sunt cele mai importante pentru târg.",
+          "answers": ["Could you tell me which features are most important for the fair?", "OK. Which features are the most important for you?", "Would you mind telling me which features matter most?"],
+          "keywords": ["features", "most"]
+        },
+        {
+          "say": "Online tracking and invoices. The chat feature is nice, but it isn't urgent.",
+          "sayRo": "Urmărirea online și facturile. Chat-ul e drăguț, dar nu e urgent.",
+          "hintRo": "Propune ca chat-ul să fie adăugat în a doua versiune, după lansare.",
+          "answers": ["Then let's add the chat in the second version, after the launch.", "I suggest we leave the chat for the second version.", "We could add the chat later, in the second version."],
+          "keywords": ["chat", "second version"]
+        },
+        {
+          "say": "Good idea. How often will we see your progress?",
+          "sayRo": "Bună idee. Cât de des vom vedea progresul tău?",
+          "hintRo": "Spune că îi vei arăta un demo la sfârșitul fiecărui sprint.",
+          "answers": ["I'll show you a demo at the end of every sprint.", "After each sprint, you'll see a short demo.", "We're going to have a demo at the end of each sprint."],
+          "keywords": ["demo", "sprint"]
+        },
+        {
+          "say": "Perfect. And what if we fall behind schedule?",
+          "sayRo": "Perfect. Și dacă rămânem în urmă cu planul?",
+          "hintRo": "Spune că îl anunți imediat și că veți decide împreună ce amânați.",
+          "answers": ["I'll tell you immediately, and we'll decide together what to move.", "If that happens, I'll let you know at once and we'll choose together what to postpone.", "I'll warn you straight away, and we can decide together what to leave out."],
+          "keywords": ["together"]
+        },
+        {
+          "say": "Sounds good. Shall we have a kick-off meeting next week?",
+          "sayRo": "Sună bine. Facem o ședință de început săptămâna viitoare?",
+          "hintRo": "Acceptă și întreabă dacă marțea îi convine.",
+          "answers": ["Yes, let's do that. Does Tuesday work for you?", "Great idea. Would Tuesday be OK for you?", "Sure. Are you free on Tuesday?"],
+          "keywords": ["tuesday"]
+        }
+      ],
+      "closing": "Tuesday is perfect. I'll send you an invitation."
+    },
+    {
+      "id": "b1-s06",
+      "emoji": "⚙️",
+      "title": "Explaining how the CRM works",
+      "titleRo": "Explici cum funcționează CRM-ul",
+      "youRo": "Prezinți noul CRM managerei de vânzări a unei reprezentanțe auto. Ea vrea să înțeleagă ce se întâmplă cu datele.",
+      "partner": "Sales manager",
+      "turns": [
+        {
+          "say": "So where is all our customer data kept?",
+          "sayRo": "Deci, unde sunt ținute toate datele clienților noștri?",
+          "hintRo": "Spune că datele sunt stocate pe servere securizate în Europa.",
+          "answers": ["It's stored on secure servers in Europe.", "All your data is stored on secure servers in Europe.", "Everything is kept on secure servers in Europe."],
+          "keywords": ["secure servers", "europe"]
+        },
+        {
+          "say": "And is it safe? We have a lot of personal information.",
+          "sayRo": "Și e în siguranță? Avem multe informații personale.",
+          "hintRo": "Spune că totul e criptat și că se face backup în fiecare noapte.",
+          "answers": ["Yes, everything is encrypted, and backups are made every night.", "It's very safe. The data is encrypted and backed up every night.", "Don't worry. It's all encrypted, and we make a backup every night."],
+          "keywords": ["encrypted", "every night"]
+        },
+        {
+          "say": "What happens when someone fills in the contact form on our website?",
+          "sayRo": "Ce se întâmplă când cineva completează formularul de contact de pe site?",
+          "hintRo": "Spune că se creează automat un contact nou și că un agent de vânzări primește o notificare.",
+          "answers": ["A new contact is created automatically, and a sales agent gets a notification.", "The contact is added automatically, and your sales team is notified.", "The system creates the contact automatically and sends a notification to sales."],
+          "keywords": ["automatically"]
+        },
+        {
+          "say": "Can invoices be sent from the CRM too?",
+          "sayRo": "Se pot trimite și facturi din CRM?",
+          "hintRo": "Spune că da: factura este generată și trimisă de sistem când comanda este confirmată.",
+          "answers": ["Yes, invoices are generated and sent when the order is confirmed.", "Yes. When an order is confirmed, the invoice is sent automatically.", "Sure. The system generates the invoice and sends it once the order is confirmed."],
+          "keywords": ["confirmed"]
+        },
+        {
+          "say": "Who can see the prices? Our sales agents shouldn't see the profit margins.",
+          "sayRo": "Cine poate vedea prețurile? Agenții noștri de vânzări n-ar trebui să vadă marjele de profit.",
+          "hintRo": "Explică faptul că fiecare rol are permisiuni diferite și că marjele pot fi ascunse.",
+          "answers": ["Each user role has different permissions, so the margins can be hidden.", "That's no problem. The margins can be hidden for sales agents.", "Permissions depend on the user role, and margins can be hidden from agents."],
+          "keywords": ["margins", "hidden"]
+        },
+        {
+          "say": "And what if someone deletes a customer by mistake?",
+          "sayRo": "Și dacă cineva șterge un client din greșeală?",
+          "hintRo": "Spune că fiecare modificare este înregistrată și că datele pot fi restaurate.",
+          "answers": ["Every change is recorded, so the data can be restored.", "Don't worry, it can be restored. Every change is saved in a log.", "All changes are recorded, and deleted customers can be restored."],
+          "keywords": ["restored"]
+        },
+        {
+          "say": "That's reassuring. When can my team start using it?",
+          "sayRo": "E liniștitor. Când poate echipa mea să înceapă să-l folosească?",
+          "hintRo": "Spune că pot începe după ce datele vechi sunt migrate, probabil luna viitoare.",
+          "answers": ["After the old data is migrated, probably next month.", "Your team can start next month, when the old data has been migrated.", "Probably next month. First, the old data has to be migrated."],
+          "keywords": ["migrated", "next month"]
+        }
+      ],
+      "closing": "Great. I'll tell the team to get ready."
+    },
+    {
+      "id": "b1-s07",
+      "emoji": "💰",
+      "title": "Talking about the price",
+      "titleRo": "Discuția despre preț",
+      "youRo": "Un client a primit oferta ta pentru un magazin online și te sună pentru că i se pare prea scumpă.",
+      "partner": "Client",
+      "turns": [
+        {
+          "say": "I've looked at your quote. To be honest, it's more than we expected.",
+          "sayRo": "M-am uitat la oferta ta. Sincer, e mai mult decât ne așteptam.",
+          "hintRo": "Mulțumește-i că a citit oferta și întreabă care este bugetul lor.",
+          "answers": ["Thanks for reading it. What budget did you have in mind?", "I understand. Can I ask what your budget is?", "Thank you for looking at it. What's your budget for this project?"],
+          "keywords": ["budget"]
+        },
+        {
+          "say": "We were thinking of something about twenty percent lower.",
+          "sayRo": "Ne gândeam la ceva cu vreo douăzeci la sută mai puțin.",
+          "hintRo": "Spune că poți reduce prețul doar dacă renunțați la câteva funcționalități.",
+          "answers": ["I can lower the price if we remove some features.", "That's possible, but only if we cut some features.", "If we reduce the number of features, I can offer a lower price."],
+          "keywords": ["features"]
+        },
+        {
+          "say": "Which features would you remove?",
+          "sayRo": "La ce funcționalități ai renunța?",
+          "hintRo": "Propune să scoateți rapoartele avansate și să le adăugați mai târziu.",
+          "answers": ["We could remove the advanced reports and add them later.", "I'd suggest leaving out the advanced reports. We can add them later.", "The advanced reports. If you need them later, we'll add them."],
+          "keywords": ["advanced reports", "later"]
+        },
+        {
+          "say": "Hmm. What if we paid part of it in advance? Would that help?",
+          "sayRo": "Hmm. Dar dacă am plăti o parte în avans? Ar ajuta?",
+          "hintRo": "Spune că, dacă plătesc o parte în avans, le poți face o mică reducere.",
+          "answers": ["If you paid part of it upfront, I could give you a small discount.", "Yes. If you pay a part upfront, I'll offer you a small discount.", "I could offer a small discount if part of the payment is upfront."],
+          "keywords": ["small discount", "upfront"]
+        },
+        {
+          "say": "And will there be any extra costs later, like hosting?",
+          "sayRo": "Și vor fi costuri în plus mai târziu, de exemplu pentru găzduire?",
+          "hintRo": "Spune că găzduirea și mentenanța se plătesc separat, în fiecare lună.",
+          "answers": ["Yes, hosting and maintenance are paid monthly, separately.", "Hosting and maintenance are separate, and you pay them every month.", "There's a small monthly fee for hosting and maintenance."],
+          "keywords": ["hosting", "maintenance"]
+        },
+        {
+          "say": "What happens if we're not happy with the result?",
+          "sayRo": "Ce se întâmplă dacă nu suntem mulțumiți de rezultat?",
+          "hintRo": "Spune că, dacă ceva nu e în regulă, îl corectezi gratuit.",
+          "answers": ["If you're not happy with something, I'll fix it for free.", "If a part isn't right, I'll correct it for free.", "Then I'll fix the problems for free, of course."],
+          "keywords": ["for free"]
+        },
+        {
+          "say": "OK, that sounds fair. Can you send me an updated quote?",
+          "sayRo": "Bine, pare corect. Îmi poți trimite o ofertă actualizată?",
+          "hintRo": "Spune că îi trimiți oferta nouă până mâine seară.",
+          "answers": ["Sure, I'll send you the updated quote by tomorrow evening.", "Of course. You'll have the new quote by tomorrow evening.", "No problem. I'll email it to you by tomorrow evening."],
+          "keywords": ["tomorrow evening"]
+        }
+      ],
+      "closing": "Great. I think we have a deal."
+    },
+    {
+      "id": "b1-s08",
+      "emoji": "📞",
+      "title": "What did the client say?",
+      "titleRo": "Ce a spus clientul?",
+      "youRo": "Tocmai ai vorbit la telefon cu un client nemulțumit. Colega ta, managerul de proiect, te întreabă ce s-a întâmplat.",
+      "partner": "Project manager",
+      "turns": [
+        {
+          "say": "How was the call with the client? He sounded angry in his email.",
+          "sayRo": "Cum a fost apelul cu clientul? Părea supărat în e-mail.",
+          "hintRo": "Spune că a fost supărat la început, dar că s-a calmat.",
+          "answers": ["He was angry at first, but he calmed down.", "At the beginning he was upset, but then he calmed down.", "He was quite angry, but he calmed down in the end."],
+          "keywords": ["calmed down"]
+        },
+        {
+          "say": "What did he say exactly?",
+          "sayRo": "Ce a spus mai exact?",
+          "hintRo": "Spune că a zis că rapoartele sunt prea lente.",
+          "answers": ["He said that the reports were too slow.", "He told me the reports were too slow.", "He complained that the reports were too slow."],
+          "keywords": ["reports", "too slow"]
+        },
+        {
+          "say": "Too slow? Did he say which reports?",
+          "sayRo": "Prea lente? A spus care rapoarte?",
+          "hintRo": "Spune că a zis că e vorba de raportul lunar de vânzări.",
+          "answers": ["He said it was the monthly sales report.", "Yes, he told me it was the monthly sales report.", "He mentioned the monthly sales report."],
+          "keywords": ["monthly sales report"]
+        },
+        {
+          "say": "OK. Did he ask for anything?",
+          "sayRo": "Bine. A cerut ceva?",
+          "hintRo": "Spune că te-a întrebat dacă puteți rezolva problema până la sfârșitul săptămânii.",
+          "answers": ["He asked if we could fix it by the end of the week.", "He asked me whether we could fix it by the end of the week.", "Yes, he wanted to know if we could fix it by the end of the week."],
+          "keywords": ["fix", "end of the week"]
+        },
+        {
+          "say": "And what did you tell him?",
+          "sayRo": "Și tu ce i-ai spus?",
+          "hintRo": "Spune că i-ai zis că verifici și că revii cu un răspuns azi.",
+          "answers": ["I told him I would check and get back to him today.", "I said I'd look into it and get back to him today.", "I promised to get back to him today, after I check it."],
+          "keywords": ["get back to him", "today"]
+        },
+        {
+          "say": "Good. Did he mention anything else?",
+          "sayRo": "Bine. A mai pomenit ceva?",
+          "hintRo": "Spune că a zis că echipa lui va începe să folosească aplicația mobilă luna viitoare.",
+          "answers": ["He said his team would start using the mobile app next month.", "He mentioned that his team was going to use the mobile app next month.", "Yes, he told me they'd start using the mobile app next month."],
+          "keywords": ["mobile app", "next month"]
+        },
+        {
+          "say": "Fine. Can you look at the report today?",
+          "sayRo": "Bine. Te poți uita azi la raport?",
+          "hintRo": "Spune că te uiți acum și că problema ar putea fi o interogare lentă în baza de date.",
+          "answers": ["Sure, I'll look at it now. It might be a slow database query.", "Yes, I'm starting now. I think it might be a slow query.", "Of course. It might be a slow query in the database."],
+          "keywords": ["might be", "slow"]
+        }
+      ],
+      "closing": "Great, thanks. Keep me posted."
+    }
+  ],
+  "phrases": [
+    {
+      "topic": "On the phone with a client",
+      "topicRo": "La telefon cu un client",
+      "emoji": "📞",
+      "items": [
+        { "en": "Hi, is now a good time to talk?", "ro": "Bună, e un moment potrivit să vorbim?" },
+        { "en": "Sorry, could you speak a bit more slowly?", "ro": "Scuze, ați putea vorbi puțin mai rar?" },
+        { "en": "Sorry, you're breaking up a little.", "ro": "Scuze, vă aud cu întreruperi." },
+        { "en": "Could you repeat that, please?", "ro": "Ați putea repeta, vă rog?" },
+        { "en": "I'm calling about the invoice you sent.", "ro": "Vă sun în legătură cu factura pe care ați trimis-o." },
+        { "en": "Let me check and get back to you.", "ro": "Lăsați-mă să verific și revin cu un răspuns." },
+        { "en": "Can I call you back in a few minutes?", "ro": "Vă pot suna înapoi în câteva minute?" },
+        { "en": "I'll send you a summary by email.", "ro": "Vă trimit un rezumat pe e-mail." },
+        { "en": "Thanks for your time today.", "ro": "Mulțumesc pentru timpul acordat azi." },
+        { "en": "Is there anything else I can help with?", "ro": "Vă mai pot ajuta cu ceva?" }
+      ]
+    },
+    {
+      "topic": "In a meeting",
+      "topicRo": "Într-o ședință",
+      "emoji": "🗣️",
+      "items": [
+        { "en": "Shall we get started?", "ro": "Începem?" },
+        { "en": "Could you share your screen, please?", "ro": "Ați putea să partajați ecranul, vă rog?" },
+        { "en": "What exactly do you mean by that?", "ro": "Ce vreți să spuneți mai exact prin asta?" },
+        { "en": "I'm not sure I agree with that.", "ro": "Nu sunt sigur că sunt de acord cu asta." },
+        { "en": "That's a good point.", "ro": "E o observație bună." },
+        { "en": "Can we come back to this later?", "ro": "Putem reveni la asta mai târziu?" },
+        { "en": "Let's go through the requirements one by one.", "ro": "Hai să trecem prin cerințe una câte una." },
+        { "en": "Who is in charge of this task?", "ro": "Cine răspunde de această sarcină?" },
+        { "en": "Let me sum up what we've decided.", "ro": "Să rezum ce am hotărât." },
+        { "en": "I'll follow up with the action items.", "ro": "Revin cu lista de sarcini." }
+      ]
+    },
+    {
+      "topic": "Deadlines and progress",
+      "topicRo": "Termene și progres",
+      "emoji": "⏰",
+      "items": [
+        { "en": "We're on schedule so far.", "ro": "Până acum suntem în grafic." },
+        { "en": "We're a little behind schedule.", "ro": "Suntem puțin în urmă cu planul." },
+        { "en": "I've been working on it since Monday.", "ro": "Lucrez la asta de luni." },
+        { "en": "The first version will be ready next week.", "ro": "Prima versiune va fi gata săptămâna viitoare." },
+        { "en": "I'll let you know as soon as it's done.", "ro": "Vă anunț imediat ce e gata." },
+        { "en": "I'm afraid that deadline isn't realistic.", "ro": "Mă tem că termenul acela nu e realist." },
+        { "en": "We've finished the login and the dashboard.", "ro": "Am terminat login-ul și dashboard-ul." },
+        { "en": "I need a few more days for testing.", "ro": "Am nevoie de încă câteva zile pentru testare." },
+        { "en": "Could we move the deadline a little?", "ro": "Am putea muta puțin termenul?" },
+        { "en": "We're going to deploy on Friday.", "ro": "Vom face deploy vineri." }
+      ]
+    },
+    {
+      "topic": "Prices and offers",
+      "topicRo": "Prețuri și oferte",
+      "emoji": "💰",
+      "items": [
+        { "en": "I'll send you a quote by tomorrow.", "ro": "Vă trimit o ofertă de preț până mâine." },
+        { "en": "My price depends on the scope.", "ro": "Prețul meu depinde de sfera proiectului." },
+        { "en": "Is that within your budget?", "ro": "Se încadrează în bugetul dumneavoastră?" },
+        { "en": "If you pay upfront, I can offer a discount.", "ro": "Dacă plătiți în avans, vă pot oferi o reducere." },
+        { "en": "The price includes support for the first month.", "ro": "Prețul include suport pentru prima lună." },
+        { "en": "That's the best price I can offer.", "ro": "Acesta e cel mai bun preț pe care vi-l pot oferi." },
+        { "en": "Would you like to pay monthly?", "ro": "Ați dori să plătiți lunar?" },
+        { "en": "Extra features will cost extra.", "ro": "Funcționalitățile suplimentare costă în plus." },
+        { "en": "Let's find a compromise.", "ro": "Hai să găsim un compromis." },
+        { "en": "It's a fair price for this kind of work.", "ro": "E un preț corect pentru acest tip de muncă." }
+      ]
+    },
+    {
+      "topic": "Explaining a problem",
+      "topicRo": "Explicarea unei probleme",
+      "emoji": "🐞",
+      "items": [
+        { "en": "The app crashes when you upload a big file.", "ro": "Aplicația se blochează când încarci un fișier mare." },
+        { "en": "It turned out to be a small setting.", "ro": "S-a dovedit a fi o mică setare." },
+        { "en": "We rolled back to the previous version.", "ro": "Am revenit la versiunea anterioară." },
+        { "en": "Don't worry, no data was lost.", "ro": "Nu vă faceți griji, nu s-au pierdut date." },
+        { "en": "I can't reproduce the bug on my laptop.", "ro": "Nu pot reproduce bug-ul pe laptopul meu." },
+        { "en": "It must be a problem with the server.", "ro": "Trebuie să fie o problemă cu serverul." },
+        { "en": "Could you send me a screenshot?", "ro": "Mi-ați putea trimite o captură de ecran?" },
+        { "en": "When did you first notice the problem?", "ro": "Când ați observat prima dată problema?" },
+        { "en": "The fix will be live this afternoon.", "ro": "Corecția va fi activă în după-amiaza asta." },
+        { "en": "Sorry for the trouble, it's working again now.", "ro": "Scuze pentru neplăcere, acum funcționează din nou." }
+      ]
+    },
+    {
+      "topic": "Travelling",
+      "topicRo": "În călătorie",
+      "emoji": "🧳",
+      "items": [
+        { "en": "I have a reservation for tonight.", "ro": "Am o rezervare pentru diseară." },
+        { "en": "Could I leave my bags here until the evening?", "ro": "Pot să-mi las bagajele aici până seara?" },
+        { "en": "Is breakfast included in the price?", "ro": "Micul dejun este inclus în preț?" },
+        { "en": "My flight has been delayed.", "ro": "Zborul meu a fost amânat." },
+        { "en": "How do I get to the old town from here?", "ro": "Cum ajung de aici în orașul vechi?" },
+        { "en": "Is it within walking distance?", "ro": "Se poate ajunge pe jos?" },
+        { "en": "Could we have the bill, please?", "ro": "Ne puteți aduce nota, vă rog?" },
+        { "en": "I think there's a mistake on the bill.", "ro": "Cred că e o greșeală în notă." },
+        { "en": "Where can I get a taxi?", "ro": "De unde pot lua un taxi?" },
+        { "en": "What would you recommend?", "ro": "Ce ne-ați recomanda?" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "What do you do for a living?",
+      "qRo": "Cu ce te ocupi?",
+      "starters": ["I'm a…", "I work as…"],
+      "sample": "I'm a freelance software developer from Cluj. I build CRM and ERP systems for small companies, so I spend most of my day writing code and talking to clients about what they need."
+    },
+    {
+      "q": "What does a typical working day look like for you?",
+      "qRo": "Cum arată o zi obișnuită de lucru pentru tine?",
+      "starters": ["I usually start…", "Most days, I…"],
+      "sample": "I usually start work at nine with a coffee and my emails. In the morning I write code, because I can focus better. After lunch I have calls with clients, and I normally finish around six."
+    },
+    {
+      "q": "What are you working on at the moment?",
+      "qRo": "La ce lucrezi în prezent?",
+      "starters": ["At the moment I'm…", "These days I'm…"],
+      "sample": "At the moment I'm building an online ordering system for a chain of bakeries. I'm also learning a new framework in the evenings, because more and more clients want mobile apps."
+    },
+    {
+      "q": "How long have you been a developer, and how did you start?",
+      "qRo": "De cât timp ești programator și cum ai început?",
+      "starters": ["I've been a developer for…", "I started when…"],
+      "sample": "I've been a developer for about eight years. I started at a small agency, where I built websites for hotels. Later I moved to a company that made ERP software, and last year I became a freelancer."
+    },
+    {
+      "q": "What have you been doing lately to relax?",
+      "qRo": "Ce-ai mai făcut în ultima vreme ca să te relaxezi?",
+      "starters": ["Lately I've been…", "I've just taken up…"],
+      "sample": "Lately I've been going climbing with a friend every Sunday. I've also been trying to stop working after six. It isn't always easy, but I've been sleeping much better since I started."
+    },
+    {
+      "q": "Tell me about a trip you really enjoyed.",
+      "qRo": "Povestește-mi despre o călătorie care ți-a plăcut foarte mult.",
+      "starters": ["A few years ago, I went…", "My favourite trip was…"],
+      "sample": "A few years ago, I went to Lisbon with some friends. We walked a lot, ate amazing fish and took the old trams up the hills. I had never seen such a beautiful city before."
+    },
+    {
+      "q": "What are your plans for the next year?",
+      "qRo": "Ce planuri ai pentru anul viitor?",
+      "starters": ["I'm going to…", "I'd like to…"],
+      "sample": "I'm going to find two or three bigger clients, because I want a more stable income. I'm also planning to take an English course, and if everything goes well, I'll travel to Japan in the autumn."
+    },
+    {
+      "q": "What's the most difficult problem you've had at work?",
+      "qRo": "Care a fost cea mai grea problemă pe care ai avut-o la muncă?",
+      "starters": ["Once, when I was…", "The hardest problem was…"],
+      "sample": "Once, a client's online shop crashed on a Friday night. A colleague had deployed a new version just before he left. I rolled it back, restored a backup and finally went to bed at three in the morning."
+    },
+    {
+      "q": "What would you do if a client asked for a big discount?",
+      "qRo": "Ce ai face dacă un client ți-ar cere o reducere mare?",
+      "starters": ["If that happened, I would…", "First, I'd…"],
+      "sample": "If a client asked for a big discount, I wouldn't just lower my price. I would suggest a compromise, for example fewer features or a longer timeline. If they paid upfront, I could give them a small discount."
+    },
+    {
+      "q": "How do you explain technical things to clients who aren't technical?",
+      "qRo": "Cum le explici lucrurile tehnice clienților care nu se pricep la tehnică?",
+      "starters": ["I try to…", "I usually use…"],
+      "sample": "I try to avoid technical words and use examples from their business. Instead of talking about databases, I explain where their invoices are stored and who can see them. I also show a demo whenever I can."
+    },
+    {
+      "q": "What would you change about your job if you could?",
+      "qRo": "Ce ai schimba la munca ta dacă ai putea?",
+      "starters": ["If I could, I would…", "I'd probably…"],
+      "sample": "If I could, I would spend less time on emails and more time on real development. I'd also like to work with a small team, because sometimes freelancing feels a bit lonely."
+    },
+    {
+      "q": "Would you like to live and work abroad? Why or why not?",
+      "qRo": "Ți-ar plăcea să trăiești și să lucrezi în străinătate? De ce da sau de ce nu?",
+      "starters": ["I'd love to, because…", "I'm not sure, because…"],
+      "sample": "I'd love to try it for a year or two. Living in a city where people speak English every day would improve my language a lot. But I'd miss my family and friends, so I don't think I would stay forever."
+    }
+  ]
+}

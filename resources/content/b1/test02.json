@@ -1,0 +1,17 @@
+{
+  "unit": "b1-u02",
+  "questions": [
+    {"type":"mc","q":"You don't need a university ___ for this job — your experience is enough.","options":["salary","degree","weakness","employer"],"answer":1,"explainRo":"**Degree** = diplomă universitară; a university degree este diploma de facultate."},
+    {"type":"mc","q":"Have you ever ___ to Iceland?","options":["be","was","been"],"answer":2,"explainRo":"Pentru experiențe de viață folosim present perfect: have + **been** (participiul lui be)."},
+    {"type":"mc","q":"Our company has used this ERP ___ 2016.","options":["since","for","from"],"answer":0,"explainRo":"**Since** + momentul de început (2016); for merge cu o durată, iar „from” nu se folosește aici."},
+    {"type":"mc","q":"We ___ to Greece last summer — the beaches were amazing.","options":["have gone","went","have been"],"answer":1,"explainRo":"„Last summer” este un moment precis și terminat, deci past simple: went."},
+    {"type":"mc","q":"Teodora ___ last week: she didn't like her new boss, so she left the company.","options":["resigned","got promoted","applied"],"answer":0,"explainRo":"**Resign** = a demisiona, adică a pleca din firmă din proprie inițiativă."},
+    {"type":"listen","audio":"What was your biggest achievement last year?","answers":["What was your biggest achievement last year?"],"ro":"Care a fost cea mai mare realizare a ta anul trecut?","explainRo":"Cu **last year** (perioadă terminată) folosim past simple: What was…?"},
+    {"type":"fill","q":"My brother ___ (never / fly) on a plane.","answers":["has never flown","'s never flown"],"explainRo":"Experiență de viață → present perfect cu never: has never **flown** (fly – flew – flown)."},
+    {"type":"fill","q":"My cousin is applying ___ a job at the airport.","answers":["for"],"explainRo":"Verbul este **apply for** = a candida la un post."},
+    {"type":"fill","q":"My parents ___ (know) our neighbours since 1995.","answers":["have known","'ve known"],"explainRo":"A început în 1995 și continuă și acum: present perfect + since (nu „know since”)."},
+    {"type":"order","words":["Has","the","client","signed","the","contract","yet?"],"ro":"A semnat clientul contractul?","explainRo":"În întrebările la present perfect, **yet** stă la finalul propoziției."},
+    {"type":"order","words":["I","got","my","first","job","ten","years","ago."],"ro":"Mi-am luat primul job acum zece ani.","explainRo":"Moment precis din trecut → past simple; **ago** stă după durată: ten years ago."},
+    {"type":"translate","ro":"Locuim în acest oraș din 2018.","answers":["We have lived in this city since 2018.","We have lived in this town since 2018.","We've lived in this city since 2018.","We've lived in this town since 2018.","We have been living in this city since 2018.","We have been living in this town since 2018.","We've been living in this city since 2018.","We've been living in this town since 2018."],"explainRo":"În română folosim prezentul („locuim din”), dar în engleză spunem **have lived … since 2018**."}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u06",
+  "questions": [
+    { "type": "mc", "q": "Don't buy a new laptop now. I think laptops ___ cheaper in January.", "options": ["will are", "will be", "will to be", "will being"], "answer": 1, "explainRo": "După will verbul stă la forma de bază, fără „to”: will be." },
+    { "type": "mc", "q": "Sorry, I ___ be at the party on Saturday. I'm working.", "options": ["won't", "willn't", "don't", "not will"], "answer": 0, "explainRo": "Negativul lui will este won't (will not); forma „willn't” nu există." },
+    { "type": "mc", "q": "I got your email, but there's no ___. Can you send the PDF again?", "options": ["inbox", "reply", "attachment", "robot"], "answer": 2, "explainRo": "Attachment este fișierul atașat la un e-mail, iar aici PDF-ul lipsește." },
+    { "type": "mc", "q": "To ___ your booking, please click the link in this email.", "options": ["replace", "promise", "forward", "confirm"], "answer": 3, "explainRo": "Confirm = a confirma; ți se cere să confirmi rezervarea cu un clic pe link." },
+    { "type": "listen", "audio": "I'll forward you the email from the hotel.", "answers": ["I'll forward you the email from the hotel.", "I will forward you the email from the hotel."], "ro": "Îți trimit mai departe e-mailul de la hotel.", "explainRo": "I'll + verb arată o ofertă făcută pe loc, iar forward = a trimite mai departe un e-mail." },
+    { "type": "mc", "q": "– This jacket is only 30 euros! – Great! ___ it.", "options": ["I take", "I'll take", "I'm take", "I taking"], "answer": 1, "explainRo": "Decizia e luată chiar acum, în magazin, așa că folosim I'll, nu prezentul „I take”." },
+    { "type": "fill", "q": "Sorry, I'm driving. I'll ___ to your message later.", "answers": ["reply", "respond"], "explainRo": "Reply to = a răspunde la un mesaj; după I'll verbul rămâne la forma de bază." },
+    { "type": "order", "words": ["Will", "you", "check", "my", "code,", "please?"], "ro": "Îmi verifici, te rog, codul?", "explainRo": "Will you + verb + please? este o cerere prietenoasă." },
+    { "type": "fill", "q": "– Will you be at home on Sunday? – No, I ___. I'm going to the mountains.", "answers": ["won't", "will not"], "explainRo": "La o întrebare cu will, răspunsul scurt negativ este No, I won't." },
+    { "type": "order", "words": ["I'll", "check", "my", "inbox", "after", "lunch."], "ro": "Îmi verific căsuța de mesaje după prânz.", "explainRo": "I'll + verb la forma de bază arată o decizie; inbox = căsuța de mesaje primite." },
+    { "type": "fill", "q": "The client ___ (probably / not / reply) today. He's on holiday.", "answers": ["probably won't reply", "probably will not reply", "will probably not reply"], "explainRo": "Probably stă înainte de won't: The client probably won't reply." },
+    { "type": "translate", "ro": "Cred că o să-ți placă hotelul.", "answers": ["I think you'll like the hotel.", "I think you will like the hotel.", "I think that you'll like the hotel.", "I think that you will like the hotel.", "I think you're going to like the hotel.", "I think you are going to like the hotel.", "I think that you're going to like the hotel.", "I think that you are going to like the hotel."], "explainRo": "Pentru o predicție după I think folosim will + verb: I think you'll like the hotel." }
+  ]
+}

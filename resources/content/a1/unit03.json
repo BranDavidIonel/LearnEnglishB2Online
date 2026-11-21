@@ -1,0 +1,132 @@
+{
+  "id": "a1-u03",
+  "level": "A1",
+  "order": 3,
+  "title": "My family and my team",
+  "titleRo": "Familia mea și echipa mea",
+  "emoji": "👨‍👩‍👧",
+  "goalRo": "La final vei putea să vorbești despre familia ta, prietenii tăi și colegii din echipă și să spui ce ai.",
+  "vocab": [
+    { "en": "mother", "ro": "mamă", "pos": "noun", "ipa": "/ˈmʌðə/", "emoji": "👩", "ex": "My mother is a doctor.", "exRo": "Mama mea este medic." },
+    { "en": "father", "ro": "tată", "pos": "noun", "ipa": "/ˈfɑːðə/", "emoji": "👨", "ex": "His father is from Brașov.", "exRo": "Tatăl lui este din Brașov." },
+    { "en": "brother", "ro": "frate", "pos": "noun", "ipa": "/ˈbrʌðə/", "emoji": "👦", "ex": "I've got a brother. His name is Radu.", "exRo": "Am un frate. Numele lui este Radu." },
+    { "en": "sister", "ro": "soră", "pos": "noun", "ipa": "/ˈsɪstə/", "emoji": "👧", "ex": "Ana's sister is a designer.", "exRo": "Sora Anei este designer." },
+    { "en": "wife", "ro": "soție", "pos": "noun", "ipa": "/waɪf/", "emoji": "👰", "ex": "Elena is my wife. She's a teacher.", "exRo": "Elena este soția mea. Este profesoară." },
+    { "en": "husband", "ro": "soț", "pos": "noun", "ipa": "/ˈhʌzbənd/", "emoji": "🤵", "ex": "Her husband is an engineer.", "exRo": "Soțul ei este inginer." },
+    { "en": "son", "ro": "fiu", "pos": "noun", "ipa": "/sʌn/", "emoji": "👶", "ex": "Our son is six years old.", "exRo": "Fiul nostru are șase ani." },
+    { "en": "daughter", "ro": "fiică", "pos": "noun", "ipa": "/ˈdɔːtə/", "emoji": "👧", "ex": "They've got two daughters.", "exRo": "Ei au două fiice." },
+    { "en": "parents", "ro": "părinți", "pos": "noun", "ipa": "/ˈpeərənts/", "emoji": "👪", "ex": "My parents are from Iași.", "exRo": "Părinții mei sunt din Iași." },
+    { "en": "grandparents", "ro": "bunici", "pos": "noun", "ipa": "/ˈɡrænpeərənts/", "emoji": "👴", "ex": "Her grandparents are 80 years old.", "exRo": "Bunicii ei au 80 de ani." },
+    { "en": "team", "ro": "echipă", "pos": "noun", "ipa": "/tiːm/", "emoji": "🧑‍🤝‍🧑", "ex": "Our team is small but great.", "exRo": "Echipa noastră este mică, dar grozavă." },
+    { "en": "boss", "ro": "șef / șefă", "pos": "noun", "ipa": "/bɒs/", "emoji": "🧑‍💼", "ex": "Our boss is very friendly.", "exRo": "Șeful nostru este foarte prietenos." },
+    { "en": "teammate", "ro": "coleg de echipă", "pos": "noun", "ipa": "/ˈtiːmmeɪt/", "emoji": "🤜", "ex": "Ana is my teammate.", "exRo": "Ana este colega mea de echipă." },
+    { "en": "best friend", "ro": "cel mai bun prieten", "pos": "noun", "ipa": "/ˌbest ˈfrend/", "emoji": "🫂", "ex": "Vlad is my best friend.", "exRo": "Vlad este cel mai bun prieten al meu." },
+    { "en": "dog", "ro": "câine", "pos": "noun", "ipa": "/dɒɡ/", "emoji": "🐶", "wiki": "Dog", "ex": "Paul has got a big dog.", "exRo": "Paul are un câine mare." },
+    { "en": "cat", "ro": "pisică", "pos": "noun", "ipa": "/kæt/", "emoji": "🐱", "wiki": "Cat", "ex": "I've got a cat. Her name is Luna.", "exRo": "Am o pisică. Numele ei este Luna." }
+  ],
+  "grammar": {
+    "title": "my, your, his, her... / 's / have got",
+    "titleRo": "Adjective posesive, „'s” și „have got”",
+    "sections": [
+      {
+        "headingRo": "Adjectivele posesive: my, your, his...",
+        "textRo": "Ele arată **al cui** este ceva și stau mereu **înaintea** substantivului: **my** laptop (laptopul meu). Vestea bună: ele **nu se schimbă** după gen sau număr. În română spunem „fratele meu”, „sora mea”, „părinții mei”, dar în engleză e mereu **my**: my brother, my sister, my parents.",
+        "table": {
+          "headers": ["Pronume", "Posesiv", "Exemplu"],
+          "rows": [["I", "my", "my brother"], ["you", "your", "your sister"], ["he", "his", "his wife"], ["she", "her", "her husband"], ["it", "its", "its name"], ["we", "our", "our team"], ["they", "their", "their boss"]]
+        },
+        "examples": [
+          { "en": "My sister is a teacher.", "ro": "Sora mea este profesoară." },
+          { "en": "Our boss is from Germany.", "ro": "Șeful nostru este din Germania." },
+          { "en": "Their parents are in Spain.", "ro": "Părinții lor sunt în Spania." }
+        ]
+      },
+      {
+        "headingRo": "his sau her?",
+        "textRo": "Aici greșesc mulți români! Alegem **his** sau **her** după **persoana care are** lucrul, nu după lucrul în sine. Dacă Andrei are o soră: **his** sister (sora **lui**). Dacă Ana are un frate: **her** brother (fratele **ei**).",
+        "examples": [
+          { "en": "Andrei has got a sister. Her name is Maria. His sister is a student.", "ro": "Andrei are o soră. Numele ei este Maria. Sora lui este studentă." },
+          { "en": "Ana has got a brother. Her brother is a developer.", "ro": "Ana are un frate. Fratele ei este programator." }
+        ]
+      },
+      {
+        "headingRo": "Posesivul cu 's",
+        "textRo": "Ca să spui „fratele Anei” sau „laptopul lui Andrei”, pui **'s** după numele persoanei: **Ana's** brother, **Andrei's** laptop. Ordinea este inversă față de română: întâi **proprietarul**, apoi **lucrul**.",
+        "examples": [
+          { "en": "Ana's brother is a developer.", "ro": "Fratele Anei este programator." },
+          { "en": "Paul's dog is very friendly.", "ro": "Câinele lui Paul este foarte prietenos." },
+          { "en": "Mark is Jake's boss.", "ro": "Mark este șeful lui Jake." }
+        ]
+      },
+      {
+        "headingRo": "have got / has got (a avea)",
+        "textRo": "**Have got** înseamnă „a avea” (familie, lucruri, animale). Cu **he, she, it** folosim **has got**. Forma scurtă: I've got, she's got. Negația: **haven't got / hasn't got**. Întrebarea: **Have you got...?** — Yes, I have. / No, I haven't. Atenție: **she's got** = she **has** got (nu „she is”).",
+        "table": {
+          "headers": ["Persoană", "Afirmativ", "Negativ", "Întrebare"],
+          "rows": [["I / you / we / they", "have got ('ve got)", "haven't got", "Have you got...?"], ["he / she / it", "has got ('s got)", "hasn't got", "Has she got...?"]]
+        },
+        "examples": [
+          { "en": "I've got two brothers.", "ro": "Am doi frați." },
+          { "en": "She hasn't got a cat.", "ro": "Ea nu are pisică." },
+          { "en": "Have you got children? — Yes, I have.", "ro": "Ai copii? — Da." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „the brother of Ana”. Natural este **Ana's brother**.",
+      "**His** = al lui, **her** = al ei — depinde de cine are, nu de ce are: Ana and **her** brother.",
+      "Nu „He have got”, ci **He has got** / **He's got**.",
+      "Nu confunda **its** (al lui/ei, pentru lucruri) cu **it's** (= it is)."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "O poză pe birou",
+    "lines": [
+      { "speaker": "Ioana", "en": "Who's the woman in the photo, Andrei?", "ro": "Cine e femeia din poză, Andrei?" },
+      { "speaker": "Andrei", "en": "She's my wife, Elena. She's a teacher.", "ro": "Este soția mea, Elena. Este profesoară." },
+      { "speaker": "Ioana", "en": "She's lovely! And the boy?", "ro": "E drăguță! Și băiatul?" },
+      { "speaker": "Andrei", "en": "He's our son, Matei. He's six.", "ro": "E fiul nostru, Matei. Are șase ani." },
+      { "speaker": "Ioana", "en": "And the dog? What's his name?", "ro": "Și câinele? Cum îl cheamă?" },
+      { "speaker": "Andrei", "en": "His name is Rex. He's Matei's best friend! Have you got children, Ioana?", "ro": "Îl cheamă Rex. E cel mai bun prieten al lui Matei! Tu ai copii, Ioana?" },
+      { "speaker": "Ioana", "en": "No, I haven't. But I've got a cat. Her name is Luna.", "ro": "Nu. Dar am o pisică. O cheamă Luna." },
+      { "speaker": "Andrei", "en": "Luna! It's a beautiful name.", "ro": "Luna! E un nume frumos." }
+    ]
+  },
+  "reading": {
+    "title": "My team",
+    "text": "I'm Ioana and I'm a developer in Bucharest. I've got a great team!\n\nOur boss is Mihai. He's 40. His wife is from Spain and they've got two daughters.\n\nAna is my teammate. She's a designer. Her brother is a developer too, in London.\n\nPaul is our tester. He hasn't got children, but he's got a big dog, Max. Paul's dog is the team's favourite!\n\nAnd me? I've got a cat. Her name is Luna.",
+    "textRo": "Sunt Ioana și sunt programatoare în București. Am o echipă grozavă!\n\nȘeful nostru este Mihai. Are 40 de ani. Soția lui este din Spania și au două fiice.\n\nAna este colega mea de echipă. Este designer. Și fratele ei este programator, la Londra.\n\nPaul este testerul nostru. Nu are copii, dar are un câine mare, Max. Câinele lui Paul este preferatul echipei!\n\nȘi eu? Eu am o pisică. O cheamă Luna.",
+    "questions": [
+      { "type": "mc", "q": "Mihai is ___.", "options": ["Ioana's brother", "the boss", "a designer"], "answer": 1, "explainRo": "Textul spune: „Our boss is Mihai”." },
+      { "type": "mc", "q": "Mihai's wife is from ___.", "options": ["Spain", "London", "Bucharest"], "answer": 0, "explainRo": "Textul spune: „His wife is from Spain”." },
+      { "type": "mc", "q": "Ana's brother is ___.", "options": ["a designer", "a tester", "a developer"], "answer": 2, "explainRo": "Textul spune: „Her brother is a developer too”." },
+      { "type": "mc", "q": "Has Paul got children?", "options": ["Yes, he has.", "Yes, he is.", "No, he isn't.", "No, he hasn't."], "answer": 3, "explainRo": "Textul spune: „He hasn't got children”, iar răspunsul scurt este „No, he hasn't”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "I've got a sister. ___ name is Maria.", "options": ["His", "Her", "Its"], "answer": 1, "explainRo": "Sora este femeie, deci „numele ei” = **her** name." },
+    { "type": "mc", "q": "Andrei has got a brother. ___ name is Radu.", "options": ["Her", "Their", "His"], "answer": 2, "explainRo": "Fratele este bărbat, deci „numele lui” = **his** name." },
+    { "type": "mc", "q": "We're a team. ___ boss is from Germany.", "options": ["Our", "Their", "Your"], "answer": 0, "explainRo": "We → **our** (al nostru)." },
+    { "type": "mc", "q": "___ laptop is new.", "options": ["Anas", "Ana's", "Ana"], "answer": 1, "explainRo": "Posesia se arată cu **'s**: Ana's laptop = laptopul Anei." },
+    { "type": "mc", "q": "She ___ got two children.", "options": ["have", "is", "has"], "answer": 2, "explainRo": "Cu **she** folosim **has got**." },
+    { "type": "mc", "q": "___ you got a dog? — Yes, I have.", "options": ["Have", "Has", "Are"], "answer": 0, "explainRo": "Cu **you** întrebarea este **Have you got...?**" },
+    { "type": "mc", "q": "„Fiică” în engleză este:", "options": ["son", "sister", "wife", "daughter"], "answer": 3, "explainRo": "**Daughter** = fiică, **son** = fiu." },
+    { "type": "mc", "q": "My mother and my father are my ___.", "options": ["grandparents", "parents", "teammates"], "answer": 1, "explainRo": "Mama și tata = **parents** (părinți). **Grandparents** = bunici." },
+    { "type": "fill", "q": "They ___ got a big house in Cluj.", "answers": ["have", "'ve"], "explainRo": "Cu **they** folosim **have got**." },
+    { "type": "fill", "q": "He ___ got a car, but he's got a bike. (not / have)", "answers": ["hasn't", "has not"], "explainRo": "Cu **he** negația este **hasn't got**." },
+    { "type": "fill", "q": "Elena is ___ wife. (Andrei)", "answers": ["Andrei's", "Andrei’s"], "explainRo": "Soția lui Andrei = **Andrei's** wife (numele + 's)." },
+    { "type": "fill", "q": "Mark and Lisa are clients. ___ company is in London.", "answers": ["Their"], "explainRo": "Mark și Lisa = they → **their** (al lor)." },
+    { "type": "order", "words": ["My", "sister", "has", "got", "a", "cat."], "ro": "Sora mea are o pisică.", "explainRo": "Sister = she, deci **has got**." },
+    { "type": "order", "words": ["Have", "you", "got", "a", "brother?"], "ro": "Ai un frate?", "explainRo": "Întrebarea: Have + you + got + ...?" },
+    { "type": "order", "words": ["Our", "boss", "is", "from", "Germany."], "ro": "Șeful nostru este din Germania.", "explainRo": "Posesivul **our** stă înaintea substantivului." },
+    { "type": "translate", "ro": "Fratele Anei este programator.", "answers": ["Ana's brother is a developer.", "Ana's brother is a programmer.", "Ana’s brother is a developer.", "Ana’s brother is a programmer."], "explainRo": "Fratele Anei = **Ana's brother** (întâi proprietarul)." },
+    { "type": "translate", "ro": "Am o soră.", "answers": ["I have got a sister.", "I've got a sister.", "I have a sister."], "explainRo": "„A avea” = **have got** (sau simplu **have**)." },
+    { "type": "listen", "audio": "Her name is Luna.", "answers": ["Her name is Luna."], "ro": "Numele ei este Luna.", "explainRo": "**Her** = al ei." },
+    { "type": "listen", "audio": "We've got a great team.", "answers": ["We've got a great team.", "We have got a great team."], "ro": "Avem o echipă grozavă.", "explainRo": "**We've got** = we have got." },
+    { "type": "match", "pairs": [["mother", "mamă"], ["husband", "soț"], ["son", "fiu"], ["boss", "șef"], ["dog", "câine"]] }
+  ],
+  "video": {
+    "youtubeId": "v9EU41cuhHY",
+    "title": "How to describe your family: Easy English Conversations 💬 Episode 15 (BBC Learning English)"
+  }
+}

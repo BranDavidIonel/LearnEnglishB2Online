@@ -1,0 +1,132 @@
+{
+  "id": "b1-u09",
+  "level": "B1",
+  "order": 9,
+  "title": "She said it was urgent",
+  "titleRo": "A spus că e urgent",
+  "emoji": "📞",
+  "goalRo": "La final vei putea să relatezi ce a spus, ce a întrebat sau ce a cerut un client sau un coleg — în e-mailuri, apeluri și feedback — folosind vorbirea indirectă.",
+  "vocab": [
+    { "en": "feedback", "ro": "feedback, păreri", "pos": "noun", "ipa": "/ˈfiːd.bæk/", "emoji": "💬", "ex": "The client gave us very positive feedback.", "exRo": "Clientul ne-a dat un feedback foarte pozitiv." },
+    { "en": "complaint", "ro": "reclamație, plângere", "pos": "noun", "ipa": "/kəmˈpleɪnt/", "emoji": "😠", "ex": "We received three complaints about the new design.", "exRo": "Am primit trei reclamații despre noul design." },
+    { "en": "reply", "ro": "a răspunde (la un mesaj)", "pos": "verb", "ipa": "/rɪˈplaɪ/", "emoji": "↪️", "ex": "Please reply to this email by Friday.", "exRo": "Vă rog să răspundeți la acest e-mail până vineri." },
+    { "en": "get back to", "ro": "a reveni cu un răspuns (cuiva)", "pos": "verb", "ipa": "/ˌɡet ˈbæk tə/", "emoji": "🔙", "ex": "I'll check and get back to you tomorrow.", "exRo": "Verific și revin cu un răspuns mâine." },
+    { "en": "forward", "ro": "a redirecționa (un e-mail)", "pos": "verb", "ipa": "/ˈfɔː.wəd/", "emoji": "📤", "ex": "Could you forward me the client's email?", "exRo": "Poți să-mi redirecționezi e-mailul clientului?" },
+    { "en": "attachment", "ro": "atașament", "pos": "noun", "ipa": "/əˈtætʃ.mənt/", "emoji": "📎", "ex": "I've sent you the contract as an attachment.", "exRo": "Ți-am trimis contractul ca atașament." },
+    { "en": "urgent", "ro": "urgent", "pos": "adj", "ipa": "/ˈɜː.dʒənt/", "emoji": "🚑", "ex": "Sorry to call so late, but it's urgent.", "exRo": "Scuze că sun atât de târziu, dar e urgent." },
+    { "en": "misunderstanding", "ro": "neînțelegere, confuzie", "pos": "noun", "ipa": "/ˌmɪs.ʌn.dəˈstæn.dɪŋ/", "emoji": "😕", "ex": "There was a misunderstanding about the deadline.", "exRo": "A existat o neînțelegere în privința termenului." },
+    { "en": "mention", "ro": "a menționa, a pomeni", "pos": "verb", "ipa": "/ˈmen.ʃən/", "emoji": "☝️", "ex": "She mentioned that the app was slow on her phone.", "exRo": "A menționat că aplicația mergea greu pe telefonul ei." },
+    { "en": "insist", "ro": "a insista", "pos": "verb", "ipa": "/ɪnˈsɪst/", "emoji": "✊", "ex": "He insisted that the bug was our fault.", "exRo": "A insistat că bug-ul era vina noastră." },
+    { "en": "remind", "ro": "a aminti (cuiva să facă ceva)", "pos": "verb", "ipa": "/rɪˈmaɪnd/", "emoji": "🎗️", "ex": "Can you remind me to call the client at four?", "exRo": "Poți să-mi amintești să sun clientul la patru?" },
+    { "en": "CC", "ro": "a pune în copie (la e-mail)", "pos": "verb", "ipa": "/ˌsiːˈsiː/", "emoji": "👀", "ex": "Please CC my manager on your reply.", "exRo": "Vă rog să-l puneți în copie pe managerul meu când răspundeți." },
+    { "en": "voicemail", "ro": "mesagerie vocală, mesaj vocal", "pos": "noun", "ipa": "/ˈvɔɪs.meɪl/", "emoji": "📳", "ex": "I left him a voicemail this morning.", "exRo": "I-am lăsat un mesaj vocal azi-dimineață." },
+    { "en": "hang up", "ro": "a închide (telefonul)", "pos": "verb", "ipa": "/ˌhæŋ ˈʌp/", "emoji": "📵", "ex": "Please don't hang up — I'll check the order now.", "exRo": "Vă rog nu închideți — verific comanda acum." },
+    { "en": "out of office", "ro": "absent din birou (mesaj automat)", "pos": "phrase", "ipa": "/ˌaʊt əv ˈɒf.ɪs/", "emoji": "🏖️", "ex": "I got an out-of-office reply — she's on holiday until Monday.", "exRo": "Am primit un răspuns automat — e în concediu până luni." },
+    { "en": "regarding", "ro": "referitor la, în legătură cu", "pos": "prep", "ipa": "/rɪˈɡɑː.dɪŋ/", "emoji": "📌", "ex": "I'm writing regarding your last invoice.", "exRo": "Vă scriu în legătură cu ultima dumneavoastră factură." },
+    { "en": "satisfied", "ro": "mulțumit, satisfăcut", "pos": "adj", "ipa": "/ˈsæt.ɪs.faɪd/", "emoji": "😊", "ex": "Most users are satisfied with the new version.", "exRo": "Majoritatea utilizatorilor sunt mulțumiți de noua versiune." }
+  ],
+  "grammar": {
+    "title": "Reported speech: statements, questions and requests",
+    "titleRo": "Vorbirea indirectă: afirmații, întrebări și rugăminți",
+    "sections": [
+      {
+        "headingRo": "say sau tell?",
+        "textRo": "**tell** este urmat de persoană: **tell someone (that)…**. **say** NU are persoana imediat după el: **say (that)…** sau **say to someone**. „that” este opțional.",
+        "examples": [
+          { "en": "She told me (that) the app was slow.", "ro": "Mi-a spus că aplicația merge greu." },
+          { "en": "She said (that) the app was slow.", "ro": "A spus că aplicația merge greu." }
+        ]
+      },
+      {
+        "headingRo": "Afirmații: un timp „mai în urmă”",
+        "textRo": "Când verbul de raportare este la trecut (said, told), verbul din ce raportăm se mută de obicei **un pas în trecut**. În română păstrăm timpul („a spus că e ocupat”), dar în engleză îl schimbăm. Se schimbă și pronumele și expresiile de timp: today → **that day**, tomorrow → **the next day**, yesterday → **the day before**.",
+        "table": {
+          "headers": ["Vorbire directă", "Vorbire indirectă"],
+          "rows": [
+            ["\"I'm busy.\"", "He said he was busy."],
+            ["\"We're testing the app.\"", "They said they were testing the app."],
+            ["\"I'll send the files.\"", "She said she would send the files."],
+            ["\"I can't come.\"", "He said he couldn't come."],
+            ["\"I've finished.\" / \"I finished.\"", "She said she had finished."]
+          ]
+        },
+        "examples": [
+          { "en": "\"The demo is great.\" → The client said the demo was great.", "ro": "„Demo-ul e grozav.” → Clientul a spus că demo-ul e grozav." },
+          { "en": "\"I'll call you tomorrow.\" → He said he would call me the next day.", "ro": "„Te sun mâine.” → A spus că mă sună a doua zi." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări raportate",
+        "textRo": "În întrebarea raportată, ordinea cuvintelor devine ca la **afirmație** (subiect + verb) și **dispar do/does/did** și semnul întrebării. Întrebările cu da/nu se raportează cu **if** sau **whether**; cele cu cuvânt interogativ își păstrează cuvântul (where, when, how much…).",
+        "examples": [
+          { "en": "\"Where do you work?\" → She asked me where I worked.", "ro": "„Unde lucrezi?” → M-a întrebat unde lucrez." },
+          { "en": "\"Can you finish by Friday?\" → He asked if we could finish by Friday.", "ro": "„Puteți termina până vineri?” → A întrebat dacă putem termina până vineri." },
+          { "en": "\"How much does it cost?\" → They asked how much it cost.", "ro": "„Cât costă?” → Au întrebat cât costă." }
+        ]
+      },
+      {
+        "headingRo": "Rugăminți și instrucțiuni",
+        "textRo": "Pentru rugăminți și ordine folosim **ask / tell + persoană + (not) to + verb**. Negația este **not to**, nu „to not” și nici „don't”.",
+        "examples": [
+          { "en": "\"Please call me back.\" → He asked me to call him back.", "ro": "„Te rog sună-mă înapoi.” → M-a rugat să-l sun înapoi." },
+          { "en": "\"Don't change the design.\" → She told us not to change the design.", "ro": "„Nu schimbați designul.” → Ne-a spus să nu schimbăm designul." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „He said me”. Corect: **He told me** sau **He said to me**.",
+      "Nu păstra ordinea de întrebare: nu „She asked me where was the file”, ci **She asked me where the file was**.",
+      "Dacă un lucru este încă adevărat sau verbul de raportare este la prezent, nu e nevoie să schimbi timpul: **She says she is busy.**",
+      "„M-a rugat să…” = **He asked me to…**, nu „He asked me that I…”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "După apelul cu clienta",
+    "lines": [
+      { "speaker": "Elena", "en": "How was the call with Laura? Was she satisfied with the demo?", "ro": "Cum a fost apelul cu Laura? A fost mulțumită de demo?" },
+      { "speaker": "Andrei", "en": "Mostly, yes. She said the order form was really easy to use.", "ro": "În mare, da. A spus că formularul de comandă e foarte ușor de folosit." },
+      { "speaker": "Elena", "en": "Great! Did she have any complaints?", "ro": "Super! A avut vreo reclamație?" },
+      { "speaker": "Andrei", "en": "Just one. She told me the menu page was too slow on her phone.", "ro": "Doar una. Mi-a spus că pagina cu meniul merge prea greu pe telefonul ei." },
+      { "speaker": "Elena", "en": "Hmm, the images are probably too big. What else did she ask?", "ro": "Hmm, probabil imaginile sunt prea mari. Ce a mai întrebat?" },
+      { "speaker": "Andrei", "en": "She asked if we could add online payments before Christmas.", "ro": "A întrebat dacă putem adăuga plățile online înainte de Crăciun." },
+      { "speaker": "Elena", "en": "Before Christmas? That wasn't in the scope. What did you tell her?", "ro": "Înainte de Crăciun? Asta nu era în sfera proiectului. Ce i-ai spus?" },
+      { "speaker": "Andrei", "en": "I told her I would check with you and get back to her by Friday.", "ro": "I-am spus că verific cu tine și revin cu un răspuns până vineri." },
+      { "speaker": "Elena", "en": "Good answer. Can you forward me her email so I can look at the details?", "ro": "Bun răspuns. Poți să-mi redirecționezi e-mailul ei ca să mă uit la detalii?" },
+      { "speaker": "Andrei", "en": "Sure. She also asked me to CC her accountant on all invoices.", "ro": "Sigur. M-a rugat și să-i pun contabilul în copie la toate facturile." }
+    ]
+  },
+  "reading": {
+    "title": "The angry Monday call",
+    "text": "Last Monday, I got a voicemail from Mr Ionescu, one of our oldest clients. He said it was urgent and asked me to call him back immediately.\n\nWhen I called, he was very angry. He told me that his team couldn't log in to the CRM and that they were losing customers. He insisted that the problem had started after our update on Friday. I asked him when exactly the problem had started, and he said he didn't know. Then I asked if his team had changed their passwords recently. He said that they hadn't changed anything.\n\nI promised him that I would get back to him within an hour, and he hung up. I checked the logs immediately. It turned out that his company's IT department had changed the network settings on Friday evening. So it was a misunderstanding, not a bug in our software.\n\nI wrote him a polite email regarding the problem, and I CCed his IT manager. I explained what had happened and what they needed to change. Two hours later, Mr Ionescu replied. He said that everything was working again and thanked us for the quick help. He even mentioned that he was satisfied with our support.",
+    "textRo": "Lunea trecută am primit un mesaj vocal de la domnul Ionescu, unul dintre cei mai vechi clienți ai noștri. A spus că e urgent și m-a rugat să-l sun înapoi imediat.\n\nCând l-am sunat, era foarte supărat. Mi-a spus că echipa lui nu se poate loga în CRM și că pierd clienți. A insistat că problema începuse după actualizarea noastră de vineri. L-am întrebat când exact începuse problema și a spus că nu știe. Apoi l-am întrebat dacă echipa lui își schimbase recent parolele. A spus că nu schimbaseră nimic.\n\nI-am promis că revin cu un răspuns într-o oră, iar el a închis. Am verificat imediat logurile. S-a dovedit că departamentul IT al firmei lui schimbase setările de rețea vineri seara. Așadar a fost o neînțelegere, nu un bug în software-ul nostru.\n\nI-am scris un e-mail politicos referitor la problemă și l-am pus în copie pe managerul lor de IT. Am explicat ce se întâmplase și ce trebuiau să schimbe. Două ore mai târziu, domnul Ionescu a răspuns. A spus că totul funcționează din nou și ne-a mulțumit pentru ajutorul rapid. A menționat chiar că este mulțumit de suportul nostru.",
+    "questions": [
+      { "type": "mc", "q": "What did Mr Ionescu ask in his voicemail?", "options": ["He asked for a discount.", "He asked the writer to call him back.", "He asked for a new password.", "He asked to cancel the contract."], "answer": 1, "explainRo": "„asked me to call him back immediately” — rugăminte raportată: ask + persoană + to + verb." },
+      { "type": "mc", "q": "What did Mr Ionescu insist?", "options": ["That his team had changed their passwords", "That he didn't need the CRM", "That the problem had started after the Friday update", "That the IT department was responsible"], "answer": 2, "explainRo": "„He insisted that the problem had started after our update on Friday.”" },
+      { "type": "mc", "q": "What was the real cause of the problem?", "options": ["The client's IT department had changed the network settings.", "There was a bug in the update.", "The servers were down.", "The team had forgotten their passwords."], "answer": 0, "explainRo": "„his company's IT department had changed the network settings on Friday evening”." },
+      { "type": "mc", "q": "What did Mr Ionescu say in his reply?", "options": ["That he wanted a refund", "That he was still angry", "That he would change provider", "That everything was working again"], "answer": 3, "explainRo": "„He said that everything was working again” — afirmație raportată cu was." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["complaint", "reclamație"], ["attachment", "atașament"], ["urgent", "urgent"], ["hang up", "a închide telefonul"], ["satisfied", "mulțumit"]] },
+    { "type": "mc", "q": "She ___ me that the invoice was wrong.", "options": ["said", "told", "asked"], "answer": 1, "explainRo": "Cu persoana imediat după verb folosim tell: told me." },
+    { "type": "mc", "q": "Last week, Tom said he ___ too busy to meet that day.", "options": ["is", "was", "will"], "answer": 1, "explainRo": "Situația ține de trecut („that day”) → present simple devine past simple: was." },
+    { "type": "mc", "q": "She asked me where ___.", "options": ["I worked", "did I work", "do I work"], "answer": 0, "explainRo": "În întrebarea raportată ordinea este subiect + verb, fără did." },
+    { "type": "mc", "q": "The client asked ___ we could finish by Friday.", "options": ["that", "if", "what"], "answer": 1, "explainRo": "Întrebare cu da/nu raportată → if (sau whether)." },
+    { "type": "mc", "q": "My manager told me ___ late again.", "options": ["not be", "to not being", "not to be"], "answer": 2, "explainRo": "Instrucțiune negativă raportată: tell + persoană + not to + verb." },
+    { "type": "mc", "q": "Yesterday Ana said, \"I'm working from home today.\" → Yesterday Ana said she ___ from home that day.", "options": ["is working", "was working", "works"], "answer": 1, "explainRo": "Present continuous devine past continuous: was working." },
+    { "type": "mc", "q": "I'm out of the office this week, but I'll ___ you on Monday.", "options": ["hang up", "get back to", "remind"], "answer": 1, "explainRo": "„get back to someone” = a reveni cu un răspuns." },
+    { "type": "mc", "q": "I've sent you the contract as an ___.", "options": ["voicemail", "complaint", "attachment"], "answer": 2, "explainRo": "Fișierul trimis împreună cu un e-mail este un attachment (atașament)." },
+    { "type": "fill", "q": "\"I'm tired.\" → He said he ___ tired.", "answers": ["was"], "explainRo": "am/is devine was în vorbirea indirectă." },
+    { "type": "fill", "q": "\"Where is the server?\" → She asked me where the server ___.", "answers": ["was"], "explainRo": "Ordinea de afirmație (the server was) și timpul mutat în trecut." },
+    { "type": "fill", "q": "\"Please call me back.\" → He asked me ___ call him back.", "answers": ["to"], "explainRo": "Rugăminte raportată: ask + persoană + to + verb." },
+    { "type": "fill", "q": "Could you ___ me to send the invoice tomorrow? I always forget.", "answers": ["remind"], "explainRo": "„remind someone to do something” = a-i aminti cuiva să facă ceva." },
+    { "type": "order", "words": ["She", "told", "me", "that", "she", "was", "busy."], "ro": "Mi-a spus că e ocupată.", "explainRo": "tell + persoană + that + propoziție cu timpul mutat în trecut." },
+    { "type": "order", "words": ["He", "asked", "if", "the", "app", "worked", "offline."], "ro": "A întrebat dacă aplicația funcționează offline.", "explainRo": "Întrebare da/nu raportată: if + subiect + verb (fără does)." },
+    { "type": "order", "words": ["The", "client", "asked", "us", "to", "call", "back."], "ro": "Clientul ne-a rugat să sunăm înapoi.", "explainRo": "ask + persoană + to + verb." },
+    { "type": "translate", "ro": "Mi-a spus că e ocupat.", "answers": ["He told me he was busy.", "He told me that he was busy.", "He said to me that he was busy.", "He said to me he was busy.", "She told me she was busy.", "She told me that she was busy."], "explainRo": "„Mi-a spus” = told me; în engleză timpul se mută în trecut: was busy." },
+    { "type": "translate", "ro": "M-a întrebat unde lucrez.", "answers": ["He asked me where I worked.", "She asked me where I worked.", "He asked me where I work.", "She asked me where I work.", "He asked where I worked.", "She asked where I worked."], "explainRo": "Întrebare raportată: asked me where + subiect + verb, fără did." },
+    { "type": "listen", "audio": "She said the demo was great.", "answers": ["She said the demo was great.", "She said that the demo was great."], "ro": "A spus că demo-ul e grozav.", "explainRo": "„said” fără persoană după el; is devine was." },
+    { "type": "listen", "audio": "He asked me to forward the email.", "answers": ["He asked me to forward the email."], "ro": "M-a rugat să redirecționez e-mailul.", "explainRo": "ask + persoană + to + verb: asked me to forward." }
+  ],
+  "video": { "youtubeId": "cetrtFDN2Zg", "title": "Reported Speech: The Grammar Gameshow Episode 25 (BBC Learning English)" }
+}

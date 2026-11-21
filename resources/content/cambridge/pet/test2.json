@@ -1,0 +1,591 @@
+{
+  "id": "pet-test2",
+  "title": "Simulare 2",
+  "reading": {
+    "minutes": 45,
+    "parts": [
+      {
+        "title": "Part 1",
+        "instructionsRo": "Citește fiecare text scurt și alege varianta care spune același lucru ca textul.",
+        "questions": [
+          {
+            "type": "mc",
+            "text": "**HOTEL GUESTS**\n\nBreakfast is served from 7 to 10 am in the Garden Room. Guests leaving before 7 am can order a breakfast bag from reception the night before.",
+            "q": "What does the notice say?",
+            "options": ["Breakfast bags can be collected from reception at 7 am.", "Guests who leave early cannot have breakfast.", "Guests who need breakfast before 7 must ask for it the previous evening."],
+            "answer": 2,
+            "explainRo": "Cine pleacă înainte de ora 7 poate comanda un pachet cu mic dejun de la recepție cu o seară înainte. Deci și cei care pleacă devreme pot mânca, iar ora 7 este începutul micului dejun obișnuit."
+          },
+          {
+            "type": "mc",
+            "text": "**Jo:** Mike – the printer on our floor is broken again, and IT say it won't be fixed until Wednesday. Until then, use the one on the third floor, but you'll need to get the code from Sara first.",
+            "q": "What should Mike do?",
+            "options": ["ask IT to repair the printer", "get a code before using a different printer", "wait until Wednesday to print his documents"],
+            "answer": 1,
+            "explainRo": "Jo îi spune lui Mike să folosească imprimanta de la etajul trei, dar mai întâi să ia codul de la Sara. Departamentul IT știe deja de problemă, iar Mike nu trebuie să aștepte până miercuri."
+          },
+          {
+            "type": "mc",
+            "text": "**QUIET COACH**\n\nPlease keep phone calls and conversations to a minimum. If you use headphones, make sure the volume is low enough that other passengers cannot hear them.",
+            "q": "What does the notice say?",
+            "options": ["You may listen to music if other people can't hear it.", "Mobile phones are not allowed in this coach.", "Passengers must not speak at all."],
+            "answer": 0,
+            "explainRo": "Căștile sunt permise dacă volumul este destul de mic încât ceilalți să nu audă. Apelurile și conversațiile nu sunt interzise, doar trebuie reduse la minimum („to a minimum”)."
+          },
+          {
+            "type": "mc",
+            "text": "**From:** Lotus Yoga Studio\n\nBecause of the public holiday, Monday's class will move to Wednesday at the usual time. If you can't make it, you're welcome to join Friday's class instead, or we can add an extra lesson at the end of the course.",
+            "q": "What does the email say?",
+            "options": ["Monday's class is cancelled and will not be replaced.", "Students who can't come on Wednesday have other choices.", "Wednesday's class will start at a different time."],
+            "answer": 1,
+            "explainRo": "Cine nu poate veni miercuri poate merge vineri sau poate primi o lecție în plus la final, deci are alte variante. Ora rămâne aceeași („at the usual time”), iar cursul nu se pierde."
+          },
+          {
+            "type": "mc",
+            "text": "**FOR SALE**\n\nMountain bike, two years old, hardly used. Original price £600 – yours for £250. Collection only. Call Dave after 6 pm.",
+            "q": "What do we learn about the bike?",
+            "options": ["The seller will deliver it in the evening.", "It has been ridden a lot.", "The buyer will have to pick it up."],
+            "answer": 2,
+            "explainRo": "„Collection only” înseamnă că bicicleta trebuie ridicată de cumpărător; nu se livrează. „Hardly used” înseamnă aproape nefolosită, iar „after 6 pm” se referă la ora la care îl poți suna pe Dave."
+          }
+        ]
+      },
+      {
+        "title": "Part 2",
+        "instructionsRo": "Cinci persoane caută cazare pentru o vacanță. Citește descrierile celor opt locuri (A–H) și alege varianta potrivită pentru fiecare persoană.",
+        "text": "**A Seaview Family Resort**\nRight on a sandy beach, with a kids' club for children aged 4 to 12 and a large pool. All meals are included, so parents can really switch off and nobody has to cook.\n\n**B Harbour Apartments**\nJust a five-minute walk from the beach, these modern apartments have fully equipped kitchens and are ideal for families who like to prepare their own food. Supermarket next door.\n\n**C Old Mill Cottage**\nA peaceful stone cottage in a quiet valley, with a modern kitchen, fast fibre broadband and a separate study with a large desk. Minimum stay: one week.\n\n**D Forest Cabins**\nEscape from the modern world! Our cabins have small kitchens and wood-burning stoves, but no Wi-Fi or TV – the perfect place for a real digital detox.\n\n**E City Hostel Central**\nIn the heart of the old town, with bars, clubs and restaurants on the doorstep. Rooms for up to eight people mean prices are the lowest in the city.\n\n**F Grand Lake Hotel**\nRelax in our peaceful gardens and enjoy dinner in our award-winning restaurant. There is a lift to all floors, and ground-floor rooms are also available on request.\n\n**G The Castle Inn**\nStay in a sixteenth-century building full of history. Our restaurant is famous throughout the region. Please note that rooms can only be reached by narrow stairs.\n\n**H Peak Trek Lodge**\nA mountain lodge where guided walks with our experienced team are included in the price every day. Guests eat together at long tables in the evening, so people travelling on their own soon make friends.",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "Andrei and his wife want a beach holiday with their six-year-old son. They want activities for him, and they don't want to cook.",
+            "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+            "answer": 0,
+            "explainRo": "A este chiar pe plajă, are club pentru copii de 4–12 ani și include toate mesele. B este aproape de plajă, dar acolo îți gătești singur."
+          },
+          {
+            "type": "mc",
+            "q": "Elena wants somewhere quiet in the countryside where she can work online for two weeks. She needs a good internet connection and a proper desk, and she likes cooking for herself.",
+            "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+            "answer": 2,
+            "explainRo": "C este liniștit, la țară, are internet rapid, birou și bucătărie, iar sejurul minim de o săptămână nu e o problemă pentru două săptămâni. D nu are Wi-Fi."
+          },
+          {
+            "type": "mc",
+            "q": "Six university friends want the cheapest possible place to stay in a city centre, close to the nightlife. They are happy to share a room.",
+            "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+            "answer": 4,
+            "explainRo": "E este în centrul vechi, lângă baruri și cluburi, are camere de până la opt persoane și cele mai mici prețuri din oraș."
+          },
+          {
+            "type": "mc",
+            "q": "Mr and Mrs Brown are retired and want a peaceful hotel with excellent food. Mr Brown has a bad knee and cannot climb stairs.",
+            "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+            "answer": 5,
+            "explainRo": "F este liniștit, are restaurant premiat, lift și camere la parter. G are și el un restaurant faimos, dar camerele se pot accesa doar pe scări înguste."
+          },
+          {
+            "type": "mc",
+            "q": "Lena is travelling alone and wants to try hiking for the first time. She would like an expert to show her the way, and she hopes to meet other people.",
+            "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+            "answer": 7,
+            "explainRo": "La H drumețiile cu ghid sunt incluse zilnic, iar cina la mese comune îi ajută pe cei care călătoresc singuri să-și facă prieteni."
+          }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "instructionsRo": "Citește textul și alege varianta corectă (A, B, C sau D) pentru fiecare întrebare.",
+        "text": "**The garden on the roof**\n\nWhen Tom Barker started working for an insurance company in Bristol, the first thing he noticed was not his desk or his new colleagues but the empty roof outside the sixth-floor window. 'It was just grey concrete,' he remembers. 'Every lunchtime I looked at it and thought what a waste of space it was.'\n\nTom had grown up on a farm, and although he enjoyed his office job, he missed being outdoors. After a few months, he wrote to the company's managers suggesting they turn the roof into a garden for staff. He didn't expect a reply. 'To be honest, I thought they'd just ignore it,' he says. Instead, he was invited to a meeting, where the managers asked him to find out how much it would cost and whether the roof was strong enough.\n\nThat turned out to be the most complicated part. Engineers had to check the building, and it took nearly a year to get permission from the city council. Tom admits there were moments when he almost gave up. 'Lots of colleagues said it was a great idea, but very few actually offered to help at that stage,' he says.\n\nThings changed once the first plants arrived. Suddenly, people from every department wanted to be involved. Today, around forty employees take turns looking after the vegetables, herbs and fruit trees, and there is a waiting list to join. The vegetables are used in the staff restaurant, and anything left over is given to a local food bank.\n\nFor Tom, however, the food is not the most important result. 'People who had worked on the same floor for years without speaking now chat while they're watering the tomatoes,' he says. 'And several colleagues have told me they feel less stressed since they started spending their lunch breaks up here.'\n\nThe company's directors are delighted too, and other businesses in the city have asked Tom for advice. His message to them is simple: don't wait for the perfect plan. 'Start with a few pots. If people enjoy it, the rest will follow.'",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "What did Tom think when he first saw the roof?",
+            "options": ["It reminded him of the farm where he grew up.", "It looked dangerous.", "He wanted his desk to be moved next to it.", "It was a waste of space."],
+            "answer": 3,
+            "explainRo": "Tom spune: „I... thought what a waste of space it was”. Ferma este menționată ca să explice de ce îi lipsea natura, nu pentru că acoperișul i-ar fi amintit de ea."
+          },
+          {
+            "type": "mc",
+            "q": "How did Tom feel when he sent his suggestion to the managers?",
+            "options": ["sure that they would agree", "doubtful that they would answer", "worried that he might lose his job", "annoyed that nobody had thought of it before"],
+            "answer": 1,
+            "explainRo": "„He didn't expect a reply... I thought they'd just ignore it” arată că se îndoia că va primi răspuns."
+          },
+          {
+            "type": "mc",
+            "q": "What was the most difficult part of the project?",
+            "options": ["finding enough money", "getting official permission", "persuading colleagues to look after the plants", "choosing what to grow"],
+            "answer": 1,
+            "explainRo": "Cea mai complicată parte („the most complicated part”) a fost verificarea clădirii și obținerea aprobării, care a durat aproape un an. Lipsa de ajutor de la colegi a fost o problemă doar la început și nu este numită cea mai grea."
+          },
+          {
+            "type": "mc",
+            "q": "What happens to the food from the garden?",
+            "options": ["It is cooked in the staff restaurant, and any extra goes to people who need it.", "It is sold to employees at low prices.", "All of it is given to a local food bank.", "The volunteers take it home."],
+            "answer": 0,
+            "explainRo": "Legumele sunt folosite în restaurantul angajaților, iar ce rămâne merge la o bancă de alimente. Doar surplusul este donat, nu toată recolta."
+          },
+          {
+            "type": "mc",
+            "q": "What does Tom think is the most important result of the garden?",
+            "options": ["The company has saved money on food.", "Other businesses have asked for his advice.", "Colleagues have become closer and more relaxed.", "The directors have given him a promotion."],
+            "answer": 2,
+            "explainRo": "Tom spune că mâncarea nu este cel mai important rezultat; mai important e că oamenii vorbesc între ei și sunt mai puțin stresați. Faptul că alte firme îi cer sfatul este doar o informație în plus."
+          }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "instructionsRo": "Din text lipsesc cinci propoziții. Alege din listă propoziția potrivită pentru fiecare spațiu. Trei propoziții nu se potrivesc nicăieri.",
+        "text": "**Working the night shift**\n\nMost people are asleep when Maria Costa's working day begins. For the past three years, she has worked as a night receptionist at a busy hotel near the airport, starting at ten in the evening and finishing at seven the next morning. **(16)** ___\n\n'People imagine that nights are quiet,' she says, 'but that's rarely true.' Flights arrive at all hours, and guests who have been travelling for twenty hours are not always in the best mood. **(17)** ___ Over time, Maria has learnt that a calm voice and a cup of tea solve most problems. 'Arguing never helps,' she laughs. 'I tried it once, in my first week, and I've regretted it ever since.'\n\nBetween midnight and three o'clock, there is usually a short break in arrivals. Maria uses this time to prepare bills for guests who are leaving early and to check the bookings for the next day. **(18)** ___ Once, she spent an hour helping a businessman find a pharmacy that was open all night. Another time, a family arrived at three in the morning with a booking for the wrong month, and she had to find them beds in another hotel.\n\nThe hardest part of the job, she says, is not the work itself but sleeping during the day. **(19)** ___ She has thick curtains in her bedroom and switches off her phone, but her neighbours' noise still wakes her up sometimes. These days she sticks to a strict routine: bed at eight in the morning, up at three in the afternoon, even on her days off.\n\nSo why does she do it? Partly for the money, as night staff earn about twenty per cent more. But mainly because she enjoys the independence. **(20)** ___ 'At night, I'm the person who makes the decisions,' she says. 'I like that responsibility.'",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "(16)",
+            "options": ["Most guests check in during the afternoon, so the evenings are easy.", "Her body never seems to believe it's night-time when the sun is shining.", "It sounds exhausting, but she says she wouldn't change it for a day job.", "She is hoping to find a job with normal hours soon.", "Some of them get angry if their room isn't ready or their booking has been lost.", "During the day, there's always a manager around to tell her what to do.", "She often uses this quiet time to have a short sleep.", "However, there is always something unexpected to deal with."],
+            "answer": 2,
+            "explainRo": "După descrierea programului de noapte, propoziția spune că, deși e obositor, Maria nu l-ar schimba, iar finalul textului explică de ce. Varianta „hoping to find a job with normal hours” contrazice finalul."
+          },
+          {
+            "type": "mc",
+            "q": "(17)",
+            "options": ["Most guests check in during the afternoon, so the evenings are easy.", "Her body never seems to believe it's night-time when the sun is shining.", "It sounds exhausting, but she says she wouldn't change it for a day job.", "She is hoping to find a job with normal hours soon.", "Some of them get angry if their room isn't ready or their booking has been lost.", "During the day, there's always a manager around to tell her what to do.", "She often uses this quiet time to have a short sleep.", "However, there is always something unexpected to deal with."],
+            "answer": 4,
+            "explainRo": "„Some of them” se referă la oaspeții obosiți, iar propoziția următoare, despre vocea calmă și ceai, arată cum rezolvă Maria aceste situații."
+          },
+          {
+            "type": "mc",
+            "q": "(18)",
+            "options": ["Most guests check in during the afternoon, so the evenings are easy.", "Her body never seems to believe it's night-time when the sun is shining.", "It sounds exhausting, but she says she wouldn't change it for a day job.", "She is hoping to find a job with normal hours soon.", "Some of them get angry if their room isn't ready or their booking has been lost.", "During the day, there's always a manager around to tell her what to do.", "She often uses this quiet time to have a short sleep.", "However, there is always something unexpected to deal with."],
+            "answer": 7,
+            "explainRo": "„However” contrastează pauza de după miezul nopții cu situațiile neașteptate, iar „Once, she spent an hour...” este exemplul. Textul spune deja ce face Maria în pauză, deci nu doarme."
+          },
+          {
+            "type": "mc",
+            "q": "(19)",
+            "options": ["Most guests check in during the afternoon, so the evenings are easy.", "Her body never seems to believe it's night-time when the sun is shining.", "It sounds exhausting, but she says she wouldn't change it for a day job.", "She is hoping to find a job with normal hours soon.", "Some of them get angry if their room isn't ready or their booking has been lost.", "During the day, there's always a manager around to tell her what to do.", "She often uses this quiet time to have a short sleep.", "However, there is always something unexpected to deal with."],
+            "answer": 1,
+            "explainRo": "Propoziția explică de ce somnul de zi este greu: corpul nu „crede” că e noapte când e soare. Apoi textul descrie ce face ea pentru asta: draperii groase, telefonul închis."
+          },
+          {
+            "type": "mc",
+            "q": "(20)",
+            "options": ["Most guests check in during the afternoon, so the evenings are easy.", "Her body never seems to believe it's night-time when the sun is shining.", "It sounds exhausting, but she says she wouldn't change it for a day job.", "She is hoping to find a job with normal hours soon.", "Some of them get angry if their room isn't ready or their booking has been lost.", "During the day, there's always a manager around to tell her what to do.", "She often uses this quiet time to have a short sleep.", "However, there is always something unexpected to deal with."],
+            "answer": 5,
+            "explainRo": "Ziua există mereu un manager care decide; noaptea decide ea. Asta explică „independence” și citatul „At night, I'm the person who makes the decisions”."
+          }
+        ]
+      },
+      {
+        "title": "Part 5",
+        "instructionsRo": "Citește textul și alege cuvântul potrivit (A, B, C sau D) pentru fiecare spațiu.",
+        "text": "**The rise of street food**\n\nStreet food is **(21)** ___ more popular than ever. In many cities, markets that **(22)** ___ dishes from all over the world have become a favourite place to meet friends. One reason is price: a meal from a food truck usually costs much less than one in a restaurant. Another is choice: in a **(23)** ___ minutes you can walk from Thai noodles to Mexican tacos.\n\nFor young chefs, street food is also a good way to **(24)** ___ a business without spending a fortune. Instead of renting an expensive restaurant, they can test their ideas, find out what customers like and **(25)** ___ their menus. In fact, some of today's best-known restaurants **(26)** ___ as small food stalls.",
+        "questions": [
+          { "type": "mc", "q": "(21)", "options": ["yet", "now", "still", "ever"], "answer": 1, "explainRo": "„Street food is now more popular than ever” = acum este mai populară ca niciodată. „Yet” se folosește în negații și întrebări, iar „still more popular than ever” nu are sens." },
+          { "type": "mc", "q": "(22)", "options": ["offer", "give", "show", "present"], "answer": 0, "explainRo": "Piețele „offer dishes” = oferă (au de vânzare) mâncăruri. „Give” ar însemna că le dau gratis, iar „show / present” nu se folosesc așa pentru mâncare de vânzare." },
+          { "type": "mc", "q": "(23)", "options": ["little", "few", "couple", "several"], "answer": 1, "explainRo": "„In a few minutes” = în câteva minute. „A little” merge cu substantive nenumărabile, „a couple” ar avea nevoie de „of”, iar „several” nu se folosește după „a”." },
+          { "type": "mc", "q": "(24)", "options": ["make", "take", "set", "start"], "answer": 3, "explainRo": "„Start a business” = a începe o afacere. „Set” ar avea nevoie de „up” (set up a business), iar „make / take a business” nu sunt corecte." },
+          { "type": "mc", "q": "(25)", "options": ["improve", "increase", "raise", "grow"], "answer": 0, "explainRo": "„Improve their menus” = își îmbunătățesc meniurile. „Increase”, „raise” și „grow” se referă la creșterea unei cantități, nu la calitate." },
+          { "type": "mc", "q": "(26)", "options": ["founded", "began", "created", "produced"], "answer": 1, "explainRo": "„Began as small food stalls” = au început ca niște tarabe mici. „Founded”, „created” și „produced” au nevoie de un complement sau de forma pasivă." }
+        ]
+      },
+      {
+        "title": "Part 6",
+        "instructionsRo": "Citește e-mailul și scrie UN singur cuvânt potrivit în fiecare spațiu.",
+        "text": "**Hi Kate,**\n\nSorry I haven't written **(27)** ___ ages – I've been really busy because I moved flat last week! The new place is much bigger **(28)** ___ my old one, and it's only ten minutes from work, **(29)** ___ I can walk there every morning. The only problem is that the kitchen is tiny.\n\nI'm still unpacking, but I'd love you to come and see it. Are you free **(30)** ___ Saturday? We could have lunch in the park **(31)** ___ is just opposite my building. Let me know if you can come – and if you don't mind, could you bring **(32)** ___ of your amazing cakes?\n\nLove,\nSophie",
+        "questions": [
+          { "type": "fill", "q": "**(27)** ___", "answers": ["for"], "explainRo": "„For ages” = de mult timp; cu present perfect folosim „for” + o perioadă de timp." },
+          { "type": "fill", "q": "**(28)** ___", "answers": ["than"], "explainRo": "După comparativ (bigger) urmează „than”: much bigger than my old one." },
+          { "type": "fill", "q": "**(29)** ___", "answers": ["so"], "explainRo": "„So” introduce o consecință: e aproape de serviciu, DECI pot merge pe jos." },
+          { "type": "fill", "q": "**(30)** ___", "answers": ["on", "this", "next"], "explainRo": "„Are you free on Saturday?” (cu „on” pentru zile). Sunt corecte și „this Saturday” sau „next Saturday”." },
+          { "type": "fill", "q": "**(31)** ___", "answers": ["which", "that"], "explainRo": "Pronumele relativ pentru lucruri este „which” sau „that”: the park which is opposite." },
+          { "type": "fill", "q": "**(32)** ___", "answers": ["one", "some"], "explainRo": "„One of your cakes” (una dintre prăjituri) sau „some of your cakes” (câteva dintre prăjituri); amândouă sunt corecte înainte de „of”." }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "minutes": 30,
+    "parts": [
+      {
+        "title": "Part 1",
+        "instructionsRo": "Vei asculta șapte înregistrări scurte. Pentru fiecare întrebare, alege răspunsul corect.",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "When is the woman's appointment?",
+            "options": ["at ten past nine", "at quarter to eleven", "at half past two"],
+            "answer": 1,
+            "audio": [
+              { "s": "Man", "en": "Good morning, Smile Dental Clinic." },
+              { "s": "Woman", "en": "Hello, I'd like to see the dentist as soon as possible, please. I've broken a tooth." },
+              { "s": "Man", "en": "Let me see. We've got ten past nine tomorrow morning." },
+              { "s": "Woman", "en": "I'm afraid I start work at nine. Is there anything in the afternoon?" },
+              { "s": "Man", "en": "Half past two on Thursday, or quarter to eleven on Friday morning." },
+              { "s": "Woman", "en": "I've got a meeting all Thursday afternoon, but Friday's my day off, so that's perfect." }
+            ],
+            "explainRo": "Femeia alege vineri, la 10:45, pentru că vineri are liber. La 9:10 este deja la serviciu, iar joi după-amiază are ședință."
+          },
+          {
+            "type": "mc",
+            "q": "What has the man left behind?",
+            "options": ["his passport", "his phone", "his laptop charger"],
+            "answer": 2,
+            "audio": [
+              { "s": "Woman", "en": "Have you got everything for the trip? Passport?" },
+              { "s": "Man", "en": "Yes, it's in my jacket. And the tickets are on my phone." },
+              { "s": "Woman", "en": "What about your laptop? You've got that presentation on Monday." },
+              { "s": "Man", "en": "The laptop's in my bag, but oh no, the charger's still plugged in under my desk at the office. I'll have to buy one at the airport." }
+            ],
+            "explainRo": "Încărcătorul a rămas la birou, sub masă. Pașaportul este în geacă, iar biletele sunt pe telefon, deci are și telefonul."
+          },
+          {
+            "type": "mc",
+            "q": "How will the woman get to the airport?",
+            "options": ["by taxi", "by car", "by bus"],
+            "answer": 1,
+            "audio": [
+              { "s": "Man", "en": "Are you getting a taxi to the airport tomorrow?" },
+              { "s": "Woman", "en": "I looked, but it's about sixty pounds at that time of the morning. I thought about the bus, but it takes an hour and a half." },
+              { "s": "Man", "en": "So what are you going to do?" },
+              { "s": "Woman", "en": "My brother offered to drive me, so I'm going with him. I'll buy him lunch to say thank you." }
+            ],
+            "explainRo": "Fratele ei o duce cu mașina. Taxiul este prea scump, iar autobuzul durează prea mult."
+          },
+          {
+            "type": "mc",
+            "q": "Where will the meeting take place?",
+            "options": ["in room twelve", "in room fourteen", "in the room next to reception"],
+            "answer": 2,
+            "audio": [
+              { "s": "Woman", "en": "Is the client meeting still in room twelve?" },
+              { "s": "Man", "en": "No, somebody else booked twelve, so it was moved to room fourteen on the second floor." },
+              { "s": "Woman", "en": "But the lift's out of order, and one of the clients uses a wheelchair." },
+              { "s": "Man", "en": "Good point. Let's use the small meeting room on the ground floor, next to reception. I'll change the booking now." }
+            ],
+            "explainRo": "Ședința se mută în sala de lângă recepție, la parter, pentru că liftul nu funcționează. Sala 12 este ocupată, iar sala 14 este la etajul doi."
+          },
+          {
+            "type": "mc",
+            "q": "What is the woman going to cook tonight?",
+            "options": ["fish", "a curry", "pasta"],
+            "answer": 1,
+            "audio": [
+              { "s": "Man", "en": "What are we having tonight? Your famous fish?" },
+              { "s": "Woman", "en": "I was going to, but then I remembered Tom's coming, and he doesn't eat fish." },
+              { "s": "Man", "en": "Pasta, then? Everyone likes pasta." },
+              { "s": "Woman", "en": "We had it yesterday. No, I'll do a vegetable curry. Tom loves spicy food." }
+            ],
+            "explainRo": "Femeia va găti un curry cu legume. Peștele nu merge pentru că Tom nu mănâncă pește, iar paste au mâncat ieri."
+          },
+          {
+            "type": "mc",
+            "q": "What is the man's job now?",
+            "options": ["a tour guide", "a teacher", "a nurse"],
+            "answer": 0,
+            "audio": [
+              { "s": "Woman", "en": "So you were a teacher before, weren't you?" },
+              { "s": "Man", "en": "That's right, for ten years. Then I decided I wanted a change, so I trained as a nurse." },
+              { "s": "Woman", "en": "And you work in a hospital now?" },
+              { "s": "Man", "en": "No, I never actually worked as one. A friend offered me a job showing tourists around the city, and I've been doing that for two years now. I love it." }
+            ],
+            "explainRo": "Acum este ghid turistic de doi ani. A fost profesor înainte, iar ca asistent medical s-a calificat, dar n-a lucrat niciodată."
+          },
+          {
+            "type": "mc",
+            "q": "What was the weather like on the man's holiday?",
+            "options": ["hot and sunny", "rainy", "cloudy"],
+            "answer": 0,
+            "audio": [
+              { "s": "Woman", "en": "Welcome back! Did it rain all week, like the forecast said?" },
+              { "s": "Man", "en": "Not at all, it was the opposite. Apart from one cloudy afternoon, we had blue skies every day. In fact, it was almost too hot to go out at lunchtime." }
+            ],
+            "explainRo": "A fost soare și foarte cald în fiecare zi, cu excepția unei după-amiezi înnorate. Ploaia apăruse doar în prognoză."
+          }
+        ]
+      },
+      {
+        "title": "Part 2",
+        "instructionsRo": "Vei asculta șase conversații scurte. Pentru fiecare întrebare, alege răspunsul corect.",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "You will hear two friends talking about a restaurant. What didn't the man like about it?",
+            "options": ["the food", "the service", "the prices"],
+            "answer": 1,
+            "audio": [
+              { "s": "Woman", "en": "How was that new Italian place? I've heard it's quite expensive." },
+              { "s": "Man", "en": "Actually, it was reasonable for the quality. The pizza was the best I've had in years. But we waited forty minutes just to order, and nobody said sorry. I'm not sure I'd go back." }
+            ],
+            "explainRo": "Bărbatul s-a plâns de servire: au așteptat 40 de minute ca să comande și nimeni nu și-a cerut scuze. Mâncarea a fost excelentă, iar prețurile rezonabile."
+          },
+          {
+            "type": "mc",
+            "q": "You will hear a woman talking about her new phone. How does she feel about it?",
+            "options": ["She wishes she hadn't bought it.", "She is very impressed with the camera.", "She thinks it was good value for money."],
+            "answer": 0,
+            "audio": [
+              { "s": "Man", "en": "Is that the new phone? What's it like?" },
+              { "s": "Woman", "en": "Well, the battery lasts for ages, and the camera's OK, nothing special. But it's so big that it doesn't fit in any of my pockets. Honestly, I should have kept my old one and saved the money." }
+            ],
+            "explainRo": "„I should have kept my old one” arată că regretă cumpărătura. Camera este doar „OK, nothing special”, iar ea crede că ar fi trebuit să economisească banii."
+          },
+          {
+            "type": "mc",
+            "q": "You will hear two colleagues talking about a training day. What do they agree about?",
+            "options": ["The trainer didn't know enough about the subject.", "It was longer than necessary.", "The content was too difficult."],
+            "answer": 1,
+            "audio": [
+              { "s": "Woman", "en": "The trainer clearly knew her stuff, and some of the tips were really useful. But a whole day? It could easily have been done in a morning." },
+              { "s": "Man", "en": "Exactly. By three o'clock everyone was just looking at their phones. Half a day would have been plenty." }
+            ],
+            "explainRo": "Amândoi spun că jumătate de zi ar fi fost suficientă, deci training-ul a fost prea lung. Femeia spune că instructoarea știa bine subiectul."
+          },
+          {
+            "type": "mc",
+            "q": "You will hear a man telling a friend about a trip he cancelled. Why did he cancel it?",
+            "options": ["The flight prices went up.", "He wasn't feeling well.", "He had to stay for work."],
+            "answer": 2,
+            "audio": [
+              { "s": "Woman", "en": "I thought you were going to Lisbon this week. Were you ill?" },
+              { "s": "Man", "en": "No, I'm fine, and I'd already booked really cheap flights. But my boss asked me to stay, because our biggest client wants the new system ready by Friday. I'll go next month instead." }
+            ],
+            "explainRo": "Șeful i-a cerut să rămână din cauza unui proiect pentru cel mai mare client. Nu a fost bolnav, iar biletele erau deja cumpărate ieftin."
+          },
+          {
+            "type": "mc",
+            "q": "You will hear two friends talking about learning the guitar. What does the woman suggest?",
+            "options": ["watching more online videos", "having a few lessons with a teacher", "practising for longer every day"],
+            "answer": 1,
+            "audio": [
+              { "s": "Man", "en": "I've been learning the guitar from online videos for three months, but my fingers still hurt and it sounds terrible." },
+              { "s": "Woman", "en": "You're probably holding it wrong. Videos are fine later, but at the start you really need someone to watch you. Why don't you book a few lessons with a real teacher? Then you won't learn bad habits." }
+            ],
+            "explainRo": "Ea îi recomandă câteva lecții cu un profesor adevărat, care să-l urmărească. Videoclipurile sunt utile doar mai târziu."
+          },
+          {
+            "type": "mc",
+            "q": "You will hear a boy talking to his mother about his exam results. How does he feel?",
+            "options": ["surprised", "disappointed", "nervous"],
+            "answer": 0,
+            "audio": [
+              { "s": "Woman", "en": "So? Don't keep me waiting. How did you do?" },
+              { "s": "Man", "en": "I honestly can't believe it, Mum. I was sure I'd failed maths, I nearly didn't even open the email. But I got a B! I had to read it three times." }
+            ],
+            "explainRo": "Băiatul era sigur că a picat la matematică și nu-i vine să creadă că a luat B, deci este surprins. Nu este dezamăgit, iar emoțiile au fost înainte să citească e-mailul."
+          }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "instructionsRo": "Vei asculta o știre la radio despre un festival. Completează notițele cu unul sau două cuvinte sau cu un număr.",
+        "audio": [
+          { "s": "Man", "en": "And now some news for anyone planning to visit the Riverside Summer Festival this year." },
+          { "s": "Man", "en": "The festival used to last three days, but because it was so popular last summer, this year it's been extended to four days, from Thursday to Sunday. Events will start at ten o'clock each morning and go on until eleven at night." },
+          { "s": "Man", "en": "The biggest change is the location of the main stage. Last year it was in Central Park, but the grass was badly damaged, so this time all the big concerts will take place in the old harbour, right by the water." },
+          { "s": "Man", "en": "As always, most events are free, including the concerts and the street theatre. The only thing you'll need a ticket for is the boat trips along the river, which are always very popular. If you're bringing young children, there's also a family area with games and face painting near the museum, and that's free as well." },
+          { "s": "Man", "en": "Tickets for those can no longer be bought online, as the website has already sold out. However, a limited number will be available every morning at the tourist information centre, so get there early." },
+          { "s": "Man", "en": "On Sunday night, the festival will end with fireworks at midnight. In previous years there was a closing concert, but the organisers decided to try something different." },
+          { "s": "Man", "en": "Finally, please don't come by car. The city centre car parks will be closed all weekend. Instead, there'll be a free shuttle bus every ten minutes from the railway station." }
+        ],
+        "questions": [
+          { "type": "fill", "q": "Length of the festival this year: **(14)** ___ days", "answers": ["four", "4"], "explainRo": "Anul acesta festivalul durează patru zile, de joi până duminică. Trei zile dura în trecut." },
+          { "type": "fill", "q": "Location of the main stage: the old **(15)** ___", "answers": ["harbour", "harbor"], "explainRo": "Concertele mari vor avea loc în vechiul port („the old harbour”). Central Park a fost locul de anul trecut." },
+          { "type": "fill", "q": "You need a ticket only for the **(16)** ___", "answers": ["boat trips", "boat trip", "boats"], "explainRo": "Singurul eveniment cu bilet sunt plimbările cu barca pe râu. Concertele și teatrul stradal sunt gratuite." },
+          { "type": "fill", "q": "Buy tickets every morning at the **(17)** ___", "answers": ["tourist information centre", "tourist information center", "tourist information office", "tourist information", "information centre", "information center"], "explainRo": "Biletele se cumpără dimineața de la centrul de informare turistică. Pe site s-au epuizat deja." },
+          { "type": "fill", "q": "The festival ends on Sunday with **(18)** ___ at midnight", "answers": ["fireworks", "fire works", "firework"], "explainRo": "Festivalul se încheie cu artificii la miezul nopții. Concertul de închidere era tradiția din anii trecuți." },
+          { "type": "fill", "q": "Visitors should use the free **(19)** ___ from the railway station", "answers": ["shuttle bus", "shuttle", "bus", "shuttle buses"], "explainRo": "Parcările vor fi închise, așa că vizitatorii trebuie să folosească autobuzul-navetă gratuit („free shuttle bus”) de la gară." }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "instructionsRo": "Vei asculta un interviu cu un prezentator de meteo. Alege răspunsul corect pentru fiecare întrebare.",
+        "audio": [
+          { "s": "Interviewer", "en": "My guest today is Mark Ellis, who presents the weather on national television. Mark, thanks for coming in." },
+          { "s": "Mark", "en": "My pleasure." },
+          { "s": "Interviewer", "en": "How did you first become interested in the weather?" },
+          { "s": "Mark", "en": "People often assume it was because of my dad, who was a pilot. He did talk about clouds a lot, and I found it interesting. But what really did it was a storm when I was nine. It destroyed half our garden in one night, and I remember thinking, how can something invisible like wind be so powerful? I started reading everything I could find about it." },
+          { "s": "Interviewer", "en": "And you went on to study meteorology at university." },
+          { "s": "Mark", "en": "Yes, and I have to say it was a shock. I'd always been good at science at school, but the amount of maths was far more than I'd expected. In my first year, I seriously thought about changing to geography. Luckily, a lecturer helped me a lot, and by the second year I'd started to really enjoy it." },
+          { "s": "Interviewer", "en": "What's the hardest part of presenting on television?" },
+          { "s": "Mark", "en": "Most people think it must be the nerves, standing in front of a camera. I was terrified at first, but you get used to that surprisingly quickly. The early mornings aren't fun either, but again, you adapt. What's really difficult is taking a huge amount of complicated information and explaining it clearly in about ninety seconds. Deciding what to leave out is the real skill." },
+          { "s": "Interviewer", "en": "Do you actually prepare the forecast yourself?" },
+          { "s": "Mark", "en": "Partly, yes. I work with a team of meteorologists. We start at four in the morning, study the computer models together and agree on the main message for the day. After that, I write my own script. Nobody gives me words to read, which is something viewers are often surprised to hear." },
+          { "s": "Interviewer", "en": "What happens when the forecast is wrong?" },
+          { "s": "Mark", "en": "Oh, people let me know! I get messages on social media saying I ruined their barbecue. When I started, I used to take it very personally and lose sleep over it. These days, I accept it's part of the job. The atmosphere is incredibly complex, and our forecasts are right about nine times out of ten, which is actually very good." },
+          { "s": "Interviewer", "en": "How has forecasting changed since you started?" },
+          { "s": "Mark", "en": "Enormously. Computers are so much more powerful now. Twenty years ago, a forecast for five days ahead wasn't very reliable. Today, a five-day forecast is as accurate as a two-day forecast was back then. Funnily enough, though, people don't seem to trust us any more than before." },
+          { "s": "Interviewer", "en": "Finally, what would you say to a young person who wants to do your job?" },
+          { "s": "Mark", "en": "Well, you'll need maths and physics, no question. But don't forget the other half of the job. Join a drama club, give talks at school, practise explaining things to your friends. The best scientists in the world aren't much use on television if nobody understands them." }
+        ],
+        "questions": [
+          { "type": "mc", "q": "What first made Mark interested in the weather?", "options": ["his father's job as a pilot", "a storm he experienced as a child", "a book he read at school"], "answer": 1, "explainRo": "Mark spune că oamenii cred că a fost tatăl lui, dar furtuna de când avea nouă ani a fost momentul decisiv („what really did it”). Cărțile le-a citit după aceea." },
+          { "type": "mc", "q": "What does Mark say about his university course?", "options": ["It involved more maths than he had expected.", "He changed to geography in his first year.", "He enjoyed it from the very beginning."], "answer": 0, "explainRo": "Cantitatea de matematică a fost „far more than I'd expected”. S-a gândit doar să treacă la geografie, dar n-a făcut-o, și a început să-i placă abia din anul doi." },
+          { "type": "mc", "q": "According to Mark, what is the most difficult part of presenting the weather?", "options": ["getting up very early", "feeling nervous in front of the camera", "making complicated information short and clear"], "answer": 2, "explainRo": "„What's really difficult is... explaining it clearly in about ninety seconds.” Spune că emoțiile și trezitul devreme sunt lucruri cu care te obișnuiești." },
+          { "type": "mc", "q": "How does Mark feel now when a forecast is wrong?", "options": ["He still worries about it at night.", "He sees it as a normal part of the job.", "He thinks the computer models are to blame."], "answer": 1, "explainRo": "„These days, I accept it's part of the job.” Nu mai dormea liniștit doar la început, iar despre computere nu spune că ar fi vinovate." },
+          { "type": "mc", "q": "What does Mark say has changed in forecasting?", "options": ["Forecasts are now reliable further into the future.", "People trust weather forecasts more than before.", "Fewer presenters are needed on television."], "answer": 0, "explainRo": "Acum o prognoză pe cinci zile este la fel de exactă ca una pe două zile acum 20 de ani. Mark spune explicit că oamenii nu au mai multă încredere decât înainte." },
+          { "type": "mc", "q": "What is Mark's main advice for young people who want to do his job?", "options": ["Study geography as well as physics.", "Try to get work experience at a TV station.", "Develop communication skills, not only science."], "answer": 2, "explainRo": "Mark spune că e nevoie de matematică și fizică, dar insistă pe „the other half of the job”: club de teatru, prezentări, explicat lucruri altora. Adică abilitățile de comunicare." }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "minutes": 45,
+    "tasks": [
+      {
+        "title": "Part 1 — Email",
+        "task": "Read this email from your English-speaking colleague Sam and the notes you have made.\n\n> **From:** Sam\n>\n> As you know, Mark, our team leader, is leaving the company at the end of the month. We're organising a surprise party for him. **Can you come on Friday the 28th?** *(← Yes, but…)*\n>\n> **What do you think we should buy him as a present?** *(← Suggest…)*\n>\n> We need some help to get everything ready. **Could you do something?** *(← Offer…)*\n>\n> **Where do you think we should have the party?** *(← Recommend…)*\n>\n> Thanks,\n> Sam\n\nWrite your email to Sam using **all the notes**. Write about **100 words**.",
+        "taskRo": "Răspunzi unui coleg care organizează o petrecere de rămas-bun pentru șeful echipei. Trebuie să acoperi toate cele 4 notițe: că vii, dar cu o condiție; ce cadou propui; cu ce te oferi să ajuți; unde recomanzi să fie petrecerea. Această sarcină este obligatorie la examen.",
+        "minWords": 100,
+        "maxWords": 120,
+        "checklistRo": [
+          "Am răspuns la toate cele 4 notițe, inclusiv la „Yes, but…” (am adăugat o problemă sau o condiție)",
+          "Am folosit un salut și o încheiere potrivite pentru un coleg (Hi Sam / Best, Cheers)",
+          "Am făcut sugestii cu „How about…?”, „Why don't we…?”, „I think we should…”",
+          "M-am oferit să ajut cu „I could…” sau „I'd be happy to…”",
+          "Am dat câte un motiv pentru cadou și pentru locul petrecerii",
+          "Am scris aproximativ 100 de cuvinte, fără să trec mult peste limită"
+        ],
+        "model": "Hi Sam,\n\nWhat a great idea! Yes, I can come on the 28th, but I've got a client call until six, so I might be a bit late.\n\nAs for a present, why don't we buy Mark a good coffee machine? He's always complaining about the one in the office!\n\nI'd be happy to help. I could collect money from the team and order the present online, and I can also make a short video with messages from everyone.\n\nI think we should have the party at the Italian restaurant near the office. It has a private room and everyone can walk there.\n\nCheers,\nAndrei",
+        "usefulPhrases": [
+          { "en": "What a great idea!", "ro": "Ce idee grozavă!" },
+          { "en": "Yes, I can come, but…", "ro": "Da, pot să vin, dar…" },
+          { "en": "Why don't we buy him…?", "ro": "De ce nu i-am cumpăra…?" },
+          { "en": "I'd be happy to help with…", "ro": "Aș fi bucuros să ajut cu…" },
+          { "en": "I could…", "ro": "Aș putea să…" },
+          { "en": "I think we should… because…", "ro": "Cred că ar trebui să… pentru că…" }
+        ]
+      },
+      {
+        "title": "Part 2 — Article",
+        "task": "You see this announcement in an English-language magazine.\n\n> **Articles wanted!**\n>\n> **Technology and me**\n>\n> Which piece of technology couldn't you live without, and why? Is there any technology you would like to use less?\n>\n> Write an article answering these questions. The best articles will appear in our next issue.\n\nWrite your **article** in about **100 words**.",
+        "taskRo": "Scrii un articol despre un obiect tehnologic fără de care nu poți trăi și despre o tehnologie pe care ai vrea s-o folosești mai puțin. La examen alegi fie acest articol, fie povestea (Part 3), nu pe amândouă.",
+        "minWords": 100,
+        "maxWords": 120,
+        "checklistRo": [
+          "Articolul are un titlu interesant",
+          "Am răspuns la ambele întrebări: ce tehnologie nu pot lăsa și ce aș folosi mai puțin",
+          "Am explicat motivele cu exemple concrete din viața mea",
+          "Am vorbit direct cu cititorul (de exemplu: „What about you?”)",
+          "Am folosit cuvinte de legătură (however, on the other hand, that's why)",
+          "Am scris aproximativ 100 de cuvinte, în 3–4 paragrafe"
+        ],
+        "model": "My laptop and me: a love story\n\nI'm a software developer, so the one thing I really couldn't live without is my laptop. I use it to write code, talk to clients all over Europe and even learn English in the evenings. Without it, I would literally lose my job!\n\nHowever, there is one piece of technology I would like to use less: my smartphone. I check it far too often, even during dinner with my family, and it's usually for nothing important.\n\nThat's why I've started leaving my phone in another room at weekends. It's harder than it sounds! What about you? Which gadget controls your life?",
+        "usefulPhrases": [
+          { "en": "The one thing I couldn't live without is…", "ro": "Singurul lucru fără de care n-aș putea trăi este…" },
+          { "en": "I use it to…", "ro": "Îl folosesc ca să…" },
+          { "en": "Without it, I would…", "ro": "Fără el, aș…" },
+          { "en": "However, there is one thing I'd like to use less:…", "ro": "Totuși, este un lucru pe care aș vrea să-l folosesc mai puțin:…" },
+          { "en": "That's why I've started…", "ro": "De aceea am început să…" },
+          { "en": "What about you?", "ro": "Dar tu?" }
+        ]
+      },
+      {
+        "title": "Part 3 — Story",
+        "task": "Your English teacher has asked you to write a story.\n\nYour story must begin with this sentence:\n\n> **It was the last train of the night, and the carriage was completely empty.**\n\nWrite your **story** in about **100 words**.",
+        "taskRo": "Scrii o poveste care începe cu propoziția dată. Folosește timpurile trecute și construiește o mică surpriză sau tensiune. La examen alegi fie povestea, fie articolul (Part 2), nu pe amândouă.",
+        "minWords": 100,
+        "maxWords": 120,
+        "checklistRo": [
+          "Am început exact cu propoziția dată",
+          "Am folosit past simple și past continuous (I was looking out of the window when…)",
+          "Am creat tensiune sau o surpriză și am dat un final clar",
+          "Am folosit cuvinte de timp și de legătură (suddenly, a moment later, finally)",
+          "Am descris sentimentele personajului (nervous, relieved, amazed)",
+          "Am scris aproximativ 100 de cuvinte"
+        ],
+        "model": "It was the last train of the night, and the carriage was completely empty. Emma was looking out of the dark window when she noticed a small black bag under the seat opposite.\n\nShe felt nervous. Should she call the guard? Slowly, she opened it. Inside, there was a wallet, a laptop and an old photo of a smiling family.\n\nAt the next station, Emma gave the bag to the station manager. A week later, she received a letter. The owner was a doctor who had been travelling home after a long shift. Inside the envelope there was a thank-you card and two tickets to a concert.",
+        "usefulPhrases": [
+          { "en": "She was looking out of the window when…", "ro": "Se uita pe fereastră când…" },
+          { "en": "She felt nervous / relieved.", "ro": "Se simțea agitată / ușurată." },
+          { "en": "Slowly, she…", "ro": "Încet, ea…" },
+          { "en": "At the next station, …", "ro": "La stația următoare, …" },
+          { "en": "A week later, …", "ro": "O săptămână mai târziu, …" },
+          { "en": "To her surprise, …", "ro": "Spre surprinderea ei, …" }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "minutes": 12,
+    "tasks": [
+      {
+        "title": "Part 1 — Interview",
+        "infoRo": "Examinatorul îți pune întrebări despre viața de zi cu zi. Durează 2–3 minute. Răspunde în 2–3 propoziții, cu un motiv sau un exemplu, și folosește timpul potrivit (de exemplu past simple când ești întrebat despre weekendul trecut).",
+        "prompts": [
+          "Can you tell us something about your family?",
+          "How do you usually get to work or school?",
+          "What did you do last weekend?",
+          "Do you prefer cooking at home or eating out? Why?",
+          "What's your favourite time of year?"
+        ],
+        "usefulPhrases": [
+          { "en": "There are three of us in my family: …", "ro": "Suntem trei în familie: …" },
+          { "en": "I usually… but sometimes…", "ro": "De obicei… dar uneori…" },
+          { "en": "Last weekend, I went to… and we…", "ro": "Weekendul trecut am fost la… și am…" },
+          { "en": "I'd rather… because…", "ro": "Aș prefera să… pentru că…" },
+          { "en": "My favourite time of year is… because…", "ro": "Perioada mea preferată din an este… pentru că…" },
+          { "en": "It depends, really.", "ro": "Depinde, sincer." }
+        ],
+        "model": "There are three of us in my family: my wife, Elena, who's a teacher, our six-year-old son, Matei, and me. I usually work from home, so I don't need to travel, but when I go to the office I take the bus because parking in the centre is terrible. Last weekend, we visited my parents in the countryside. We had a big lunch in the garden and my son played with their dog all afternoon. I'd say I prefer cooking at home, because it's cheaper and healthier, but we sometimes go out for pizza on Fridays. My favourite time of year is autumn, because the colours in the forest are beautiful and it isn't too hot."
+      },
+      {
+        "title": "Part 2 — Describe a photo",
+        "infoRo": "Descrii singur o fotografie aproximativ un minut. Spune unde sunt oamenii, ce fac, cum arată locul și ce crezi că simt. Folosește present continuous pentru acțiuni (They're working…) și expresii de presupunere (They might be…).",
+        "prompts": [
+          "Now I'd like you to talk on your own about something. Here is your photograph. It shows people at work.",
+          "Please tell us what you can see in the photograph."
+        ],
+        "wiki": "Open plan",
+        "sceneRo": "Fotografia arată un birou mare, deschis, cu multe mese lungi și calculatoare. Mai mulți oameni lucrează la monitoare, unii vorbesc între ei, iar prin ferestrele mari intră lumina zilei.",
+        "usefulPhrases": [
+          { "en": "This photo shows…", "ro": "Această fotografie arată…" },
+          { "en": "They're sitting at long desks and…", "ro": "Stau la mese lungi și…" },
+          { "en": "They might be working on…", "ro": "S-ar putea să lucreze la…" },
+          { "en": "It seems to be a…", "ro": "Pare să fie un…" },
+          { "en": "The atmosphere looks…", "ro": "Atmosfera pare…" },
+          { "en": "Personally, I'd prefer to work in…", "ro": "Personal, aș prefera să lucrez într-un…" }
+        ],
+        "model": "This photo shows a large open-plan office. There are lots of long desks with computers on them, and quite a lot of people are working at their screens. Some of them are wearing headphones, so they might be concentrating on something difficult, or maybe they're on a call. On the left, two colleagues seem to be talking about something on a monitor. The office has big windows, so there's plenty of natural light, and it looks modern and clean. The atmosphere seems busy but calm. It might be a technology company. Personally, I like working from home, but I think this kind of office is good for teamwork."
+      },
+      {
+        "title": "Part 3 — Discussion task",
+        "infoRo": "Discuți cu partenerul tău aproximativ 2–3 minute despre o situație și câteva variante. Faceți propuneri, comparați variantele, cereți-vă părerea unul altuia și alegeți împreună una la final.",
+        "prompts": [
+          "A company wants to help its employees become healthier.",
+          "Here are some ideas: free gym membership, healthier food in the staff restaurant, walking meetings, desks you can stand at, a sports afternoon every week.",
+          "Talk together about how useful these ideas would be, and decide which one would help the most."
+        ],
+        "usefulPhrases": [
+          { "en": "Let's start with…", "ro": "Hai să începem cu…" },
+          { "en": "I think… would be really useful because…", "ro": "Cred că… ar fi foarte util pentru că…" },
+          { "en": "The problem with… is that…", "ro": "Problema cu… este că…" },
+          { "en": "Don't you think…?", "ro": "Nu crezi că…?" },
+          { "en": "You've got a point there.", "ro": "Ai dreptate în privința asta." },
+          { "en": "So, have we decided? I think… is the best.", "ro": "Deci, am decis? Cred că… este cel mai bun." }
+        ],
+        "model": "A: Let's start with the free gym membership. It sounds great, but the problem is that a lot of people never actually go.\nB: That's true. I think healthier food in the staff restaurant would help more people, because everyone has to eat every day.\nA: Good point. What about walking meetings? They're a nice idea, but not if it's raining!\nB: Ha, yes. And standing desks are good for your back, but they're quite expensive for the company.\nA: The sports afternoon could be fun, and it's good for team spirit. Don't you think so?\nB: Maybe, but not everyone likes sport. So, have we decided?\nA: I'd say the healthier food, because it helps everyone without extra effort.\nB: I agree. Let's choose that."
+      },
+      {
+        "title": "Part 4 — Discussion",
+        "infoRo": "Examinatorul vă pune întrebări generale legate de sănătate și muncă. Exprimă-ți părerea, explică de ce și dă exemple; poți să fii de acord sau nu cu partenerul tău. Durează aproximativ 3 minute.",
+        "prompts": [
+          "Do you think people today are healthier than people in the past?",
+          "Is it the company's job to look after its employees' health?",
+          "What do you do to relax after a busy day?",
+          "Do you think working from home is good or bad for people's health?",
+          "How can young people be encouraged to do more sport?"
+        ],
+        "usefulPhrases": [
+          { "en": "I'm not sure, but I think…", "ro": "Nu sunt sigur, dar cred că…" },
+          { "en": "In some ways… but in other ways…", "ro": "Din unele puncte de vedere… dar din altele…" },
+          { "en": "The main reason is that…", "ro": "Principalul motiv este că…" },
+          { "en": "I agree with what you said about…", "ro": "Sunt de acord cu ce ai spus despre…" },
+          { "en": "From my own experience, …", "ro": "Din experiența mea, …" },
+          { "en": "That's a difficult question.", "ro": "E o întrebare grea." }
+        ],
+        "model": "That's a difficult question. In some ways, people today are healthier, because we have better doctors and we know more about food. But in other ways, we're less healthy, because many of us sit in front of a computer all day. I think companies should help a little, for example by offering healthy food, but in the end your health is your own responsibility. From my own experience, working from home has good and bad sides. I don't waste time travelling, so I have more time to cook and go cycling. On the other hand, some days I hardly leave my desk, so I have to remind myself to take breaks."
+      }
+    ]
+  }
+}

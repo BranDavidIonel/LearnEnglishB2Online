@@ -1,0 +1,17 @@
+{
+  "unit": "b1-u08",
+  "questions": [
+    {"type":"mc","q":"Breakfast ___ from 7 to 10 in the hotel restaurant.","options":["serves","is served","served"],"answer":1,"explainRo":"Micul dejun nu servește, ci este servit → pasiv: is + served."},
+    {"type":"mc","q":"At the supermarket, the cashier scans the ___ on every product.","options":["barcode","workflow","record"],"answer":0,"explainRo":"„barcode” = codul de bare care se scanează la casă."},
+    {"type":"mc","q":"The bug ___ by a user last night, and we fixed it this morning.","options":["reported","is reported","was reported"],"answer":2,"explainRo":"Acțiune terminată în trecut (last night), la pasiv: was + reported."},
+    {"type":"mc","q":"Every night, the whole ___ is copied to a backup server, so no customer data is lost.","options":["warehouse","database","barcode"],"answer":1,"explainRo":"„database” = baza de date în care sunt păstrate datele clienților."},
+    {"type":"mc","q":"Sorry, your flight ___ because of the storm. We'll put you on the next one.","options":["has been cancelled","has cancelled","is cancelling"],"answer":0,"explainRo":"Zborul nu anulează el însuși, este anulat: pasiv la present perfect → has been cancelled."},
+    {"type":"fill","q":"You don't need to click 'Save' — your changes are saved ___ every minute.","answers":["automatically"],"explainRo":"„automatically” = automat, fără să faci tu nimic."},
+    {"type":"fill","q":"Liquids over 100 ml can't ___ (take) on the plane.","answers":["be taken"],"explainRo":"Pasiv cu verb modal: can't + be + participiu (taken)."},
+    {"type":"fill","q":"Your new laptop ___ (deliver) to the office tomorrow morning.","answers":["will be delivered","is going to be delivered","is being delivered"],"explainRo":"Viitor la pasiv: will be + participiu (delivered)."},
+    {"type":"order","words":["My","wallet","was","stolen","on","the","metro."],"ro":"Mi s-a furat portofelul în metrou.","explainRo":"Pasiv la trecut: was + participiul neregulat stolen."},
+    {"type":"order","words":["Has","the","contract","been","signed","yet?"],"ro":"A fost semnat deja contractul?","explainRo":"Întrebare la present perfect pasiv: Has + subiect + been + participiu."},
+    {"type":"listen","audio":"The new workflow was designed by our project manager.","answers":["The new workflow was designed by our project manager."],"ro":"Noul flux de lucru a fost creat de managerul nostru de proiect.","explainRo":"Pasiv la trecut (was designed), cu „by” pentru cine a făcut acțiunea."},
+    {"type":"translate","ro":"În acest hotel se vorbesc engleza și germana.","answers":["English and German are spoken in this hotel.","In this hotel, English and German are spoken.","English and German are spoken at this hotel.","At this hotel, English and German are spoken.","German and English are spoken in this hotel.","In this hotel, German and English are spoken.","German and English are spoken at this hotel.","At this hotel, German and English are spoken.","They speak English and German in this hotel.","In this hotel, they speak English and German.","They speak English and German at this hotel.","At this hotel, they speak English and German."],"explainRo":"„Se vorbesc” se traduce cu pasivul: are spoken (participiul lui speak)."}
+  ]
+}

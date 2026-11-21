@@ -1,0 +1,132 @@
+{
+  "id": "b1-u01",
+  "level": "B1",
+  "order": 1,
+  "title": "What I do and who I am",
+  "titleRo": "Ce fac și cine sunt",
+  "emoji": "💼",
+  "goalRo": "La final vei putea să descrii munca ta, firma și produsul vostru, precum și personalitatea ta, alegând corect între present simple și present continuous.",
+  "vocab": [
+    { "en": "be in charge of", "ro": "a răspunde de, a coordona", "pos": "phrase", "ipa": "/bi ɪn ˈtʃɑːdʒ əv/", "emoji": "🧑‍✈️", "ex": "Elena is in charge of the payments module.", "exRo": "Elena răspunde de modulul de plăți." },
+    { "en": "colleague", "ro": "coleg, colegă", "pos": "noun", "ipa": "/ˈkɒl.iːɡ/", "emoji": "🤝", "ex": "My colleagues and I have lunch together on Fridays.", "exRo": "Eu și colegii mei luăm prânzul împreună vinerea." },
+    { "en": "customer", "ro": "client (care cumpără)", "pos": "noun", "ipa": "/ˈkʌs.tə.mər/", "emoji": "🛒", "ex": "Our customers want a mobile version of the app.", "exRo": "Clienții noștri vor o versiune mobilă a aplicației." },
+    { "en": "feature", "ro": "funcționalitate", "pos": "noun", "ipa": "/ˈfiː.tʃər/", "emoji": "✨", "ex": "The export feature is very popular with accountants.", "exRo": "Funcționalitatea de export este foarte populară printre contabili." },
+    { "en": "maintain", "ro": "a întreține", "pos": "verb", "ipa": "/meɪnˈteɪn/", "emoji": "🔧", "ex": "I maintain three old websites for a local hotel.", "exRo": "Întrețin trei site-uri vechi pentru un hotel local." },
+    { "en": "reliable", "ro": "de încredere", "pos": "adj", "ipa": "/rɪˈlaɪ.ə.bəl/", "emoji": "🛡️", "ex": "She is a reliable developer: she never misses a deadline.", "exRo": "Este o programatoare de încredere: nu ratează niciodată un termen." },
+    { "en": "hard-working", "ro": "harnic, muncitor", "pos": "adj", "ipa": "/ˌhɑːdˈwɜː.kɪŋ/", "emoji": "🐝", "ex": "Our new intern is hard-working and curious.", "exRo": "Noul nostru stagiar este harnic și curios." },
+    { "en": "outgoing", "ro": "sociabil, deschis", "pos": "adj", "ipa": "/ˌaʊtˈɡəʊ.ɪŋ/", "emoji": "🥳", "ex": "Mark is very outgoing and talks to everyone at conferences.", "exRo": "Mark este foarte sociabil și vorbește cu toată lumea la conferințe." },
+    { "en": "easy-going", "ro": "relaxat, ușor de abordat", "pos": "adj", "ipa": "/ˌiː.ziˈɡəʊ.ɪŋ/", "emoji": "😌", "ex": "My manager is easy-going, so I can ask her anything.", "exRo": "Șefa mea e o persoană relaxată, așa că o pot întreba orice." },
+    { "en": "headquarters", "ro": "sediu central", "pos": "noun", "ipa": "/ˌhedˈkwɔː.təz/", "emoji": "🏢", "ex": "The company's headquarters are in Bucharest.", "exRo": "Sediul central al firmei este în București." },
+    { "en": "startup", "ro": "startup, firmă nouă", "pos": "noun", "ipa": "/ˈstɑːt.ʌp/", "emoji": "🚀", "ex": "He works for a startup that builds booking software.", "exRo": "Lucrează la un startup care face software de rezervări." },
+    { "en": "deal with", "ro": "a se ocupa de, a rezolva", "pos": "verb", "ipa": "/ˈdiːl wɪð/", "emoji": "📥", "ex": "I deal with customer complaints every morning.", "exRo": "Mă ocup de reclamațiile clienților în fiecare dimineață." },
+    { "en": "set up", "ro": "a înființa, a configura", "pos": "verb", "ipa": "/ˌset ˈʌp/", "emoji": "⚙️", "ex": "We are setting up a new server for the client.", "exRo": "Configurăm un server nou pentru client." },
+    { "en": "currently", "ro": "în prezent, momentan", "pos": "adv", "ipa": "/ˈkʌr.ənt.li/", "emoji": "⏳", "ex": "We are currently looking for a designer.", "exRo": "Momentan căutăm un designer." },
+    { "en": "patient", "ro": "răbdător", "pos": "adj", "ipa": "/ˈpeɪ.ʃənt/", "emoji": "🧘", "ex": "You need to be patient with new users.", "exRo": "Trebuie să fii răbdător cu utilizatorii noi." },
+    { "en": "own", "ro": "a deține, a avea în proprietate", "pos": "verb", "ipa": "/əʊn/", "emoji": "🔑", "ex": "My uncle owns two restaurants in Sibiu.", "exRo": "Unchiul meu deține două restaurante în Sibiu." },
+    { "en": "workload", "ro": "volum de muncă", "pos": "noun", "ipa": "/ˈwɜːk.ləʊd/", "emoji": "📚", "ex": "My workload is heavy this month.", "exRo": "Volumul meu de muncă este mare luna aceasta." }
+  ],
+  "grammar": {
+    "title": "Present simple vs present continuous; stative verbs",
+    "titleRo": "Present simple vs present continuous; verbele de stare",
+    "sections": [
+      {
+        "headingRo": "Present simple: rutine, fapte, situații permanente",
+        "textRo": "Folosim **present simple** pentru lucruri care sunt valabile în general: obiceiuri, programul tău, fapte despre firmă sau produs. Cuvinte-semnal: **usually, always, often, every day, on Mondays**. Nu uita de **-s** la persoana a III-a singular (he works, it sends).",
+        "examples": [
+          { "en": "I work for a company that builds ERP software.", "ro": "Lucrez la o firmă care face software ERP." },
+          { "en": "Our app sends an invoice at the end of every month.", "ro": "Aplicația noastră trimite o factură la sfârșitul fiecărei luni." },
+          { "en": "She usually starts work at nine.", "ro": "De obicei începe lucrul la nouă." }
+        ]
+      },
+      {
+        "headingRo": "Present continuous: acum și „în perioada asta”",
+        "textRo": "Folosim **present continuous** (am/is/are + verb-ing) pentru acțiuni care se întâmplă chiar acum, dar și pentru situații **temporare** din perioada actuală, chiar dacă nu le faci exact în acest moment. Cuvinte-semnal: **now, at the moment, currently, this week, these days**.",
+        "examples": [
+          { "en": "I can't talk now — I'm fixing a bug.", "ro": "Nu pot vorbi acum — repar un bug." },
+          { "en": "This month I'm working from home.", "ro": "Luna aceasta lucrez de acasă." },
+          { "en": "We're currently testing the new version.", "ro": "În prezent testăm noua versiune." }
+        ]
+      },
+      {
+        "headingRo": "Verbele de stare (stative verbs)",
+        "textRo": "Unele verbe descriu **stări**, nu acțiuni: gânduri, sentimente, posesie, simțuri. De obicei NU le folosim la forma continuă, chiar dacă vorbim despre „acum”.",
+        "table": {
+          "headers": ["Categorie", "Verbe", "Exemplu"],
+          "rows": [
+            ["gândire", "know, understand, believe, remember, mean", "I understand the problem."],
+            ["sentimente", "like, love, hate, want, need, prefer", "The client wants a demo."],
+            ["posesie", "own, have, belong", "This laptop belongs to Dan."],
+            ["altele", "seem, cost, depend", "It depends on the budget."]
+          ]
+        },
+        "examples": [
+          { "en": "I know the answer.", "ro": "Știu răspunsul." },
+          { "en": "This plan seems expensive.", "ro": "Planul acesta pare scump." }
+        ]
+      },
+      {
+        "headingRo": "Verbe cu două sensuri",
+        "textRo": "Câteva verbe pot fi și de stare, și de acțiune, cu sensuri diferite. **think** = a crede (stare) / a se gândi (acțiune). **have** = a avea (stare) / a lua masa, a avea o ședință (acțiune).",
+        "examples": [
+          { "en": "I think your idea is great.", "ro": "Cred că ideea ta e grozavă." },
+          { "en": "I'm thinking about changing jobs.", "ro": "Mă gândesc să-mi schimb locul de muncă." },
+          { "en": "We have two offices. / We're having a meeting now.", "ro": "Avem două birouri. / Avem o ședință acum." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "În română avem un singur prezent („lucrez”), așa că trebuie să te întrebi: e o rutină/un fapt (**I work**) sau ceva ce se întâmplă acum/temporar (**I'm working**)?",
+      "Nu spune „I am knowing” sau „I am wanting”. Corect: **I know**, **I want**.",
+      "„Ce faci?” ca salut este **How are you?**, dar „Ce faci (acum)?” este **What are you doing?**, iar „Cu ce te ocupi?” este **What do you do?**.",
+      "Verbele de stare rămân la present simple chiar și cu „now”: **I need help now** (nu „I am needing”)."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La un eveniment de networking",
+    "lines": [
+      { "speaker": "Laura", "en": "Hi, I'm Laura. I own a small chain of bakeries. What do you do?", "ro": "Bună, sunt Laura. Dețin un mic lanț de brutării. Tu cu ce te ocupi?" },
+      { "speaker": "Andrei", "en": "Nice to meet you. I'm a freelance developer. I build CRM and ERP systems for small businesses.", "ro": "Încântat. Sunt programator freelance. Construiesc sisteme CRM și ERP pentru firme mici." },
+      { "speaker": "Laura", "en": "Interesting! Are you working on anything exciting at the moment?", "ro": "Interesant! Lucrezi la ceva captivant în momentul ăsta?" },
+      { "speaker": "Andrei", "en": "Yes, I'm currently setting up an online ordering system for a restaurant in Cluj.", "ro": "Da, momentan configurez un sistem de comenzi online pentru un restaurant din Cluj." },
+      { "speaker": "Laura", "en": "That sounds useful. We still deal with orders by phone, and it takes ages.", "ro": "Sună util. Noi încă ne ocupăm de comenzi la telefon și durează o veșnicie." },
+      { "speaker": "Andrei", "en": "I understand. Most of my clients have the same problem at the beginning.", "ro": "Înțeleg. Majoritatea clienților mei au aceeași problemă la început." },
+      { "speaker": "Laura", "en": "Do you work alone, or do you have a team?", "ro": "Lucrezi singur sau ai o echipă?" },
+      { "speaker": "Andrei", "en": "Usually alone, but this month I'm working with a designer because my workload is quite heavy.", "ro": "De obicei singur, dar luna asta lucrez cu o designeriță, pentru că am un volum mare de muncă." },
+      { "speaker": "Laura", "en": "Great. I think we need to talk. Do you have a business card?", "ro": "Super. Cred că trebuie să vorbim. Ai o carte de vizită?" }
+    ]
+  },
+  "reading": {
+    "title": "A developer in Cluj",
+    "text": "Andrei is a software developer from Cluj. He works for a small startup that builds CRM software for dental clinics. The company has twelve employees, and its headquarters are in an old building near the city centre. Andrei is in charge of the reporting module, so he deals with charts, dashboards and exports every day.\n\nUsually, Andrei starts work at nine and finishes at five. He prefers working in the office because he likes his colleagues and the coffee is free. This month, however, he is working from home, because builders are repairing the roof of the office.\n\nAt the moment, the team is preparing a new version of the app. Customers want a mobile version, so Andrei is learning a new framework in the evenings. It isn't easy, but he believes it is a good investment.\n\nHis manager says Andrei is reliable and patient. He doesn't panic when something breaks, and he always explains technical problems in simple words. Outside work, he is quite outgoing: he plays football on Saturdays, and he is currently planning a hiking trip with his friends.",
+    "textRo": "Andrei este programator din Cluj. Lucrează la un mic startup care face software CRM pentru clinici stomatologice. Firma are doisprezece angajați, iar sediul central se află într-o clădire veche lângă centrul orașului. Andrei răspunde de modulul de rapoarte, așa că se ocupă zilnic de grafice, dashboard-uri și exporturi.\n\nDe obicei, Andrei începe lucrul la nouă și termină la cinci. Preferă să lucreze la birou pentru că îi plac colegii și cafeaua e gratuită. Luna aceasta însă lucrează de acasă, pentru că niște muncitori repară acoperișul biroului.\n\nÎn momentul de față, echipa pregătește o nouă versiune a aplicației. Clienții vor o versiune mobilă, așa că Andrei învață seara un framework nou. Nu e ușor, dar crede că e o investiție bună.\n\nȘeful lui spune că Andrei e de încredere și răbdător. Nu intră în panică atunci când se strică ceva și explică mereu problemele tehnice în cuvinte simple. În afara serviciului, este destul de sociabil: joacă fotbal sâmbăta, iar în prezent plănuiește o drumeție cu prietenii.",
+    "questions": [
+      { "type": "mc", "q": "What does Andrei's company build?", "options": ["Mobile games for children", "CRM software for dental clinics", "Websites for restaurants", "Accounting software for banks"], "answer": 1, "explainRo": "Textul spune: „builds CRM software for dental clinics”." },
+      { "type": "mc", "q": "Why is Andrei working from home this month?", "options": ["He is ill.", "He prefers it.", "Builders are repairing the office roof.", "The company closed the office."], "answer": 2, "explainRo": "Este o situație temporară: „builders are repairing the roof of the office”." },
+      { "type": "mc", "q": "What is Andrei doing in the evenings these days?", "options": ["He is learning a new framework.", "He is playing football.", "He is working for another client.", "He is writing reports."], "answer": 0, "explainRo": "„Andrei is learning a new framework in the evenings” — acțiune temporară, deci present continuous." },
+      { "type": "mc", "q": "Which sentence about Andrei is NOT true?", "options": ["He is patient.", "He explains problems simply.", "He plays football on Saturdays.", "He panics when something breaks."], "answer": 3, "explainRo": "Textul spune exact opusul: „He doesn't panic when something breaks”." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["colleague", "coleg"], ["reliable", "de încredere"], ["headquarters", "sediu central"], ["workload", "volum de muncă"], ["outgoing", "sociabil"]] },
+    { "type": "mc", "q": "Andrei usually ___ work at nine.", "options": ["starts", "is starting", "start"], "answer": 0, "explainRo": "„usually” arată o rutină, deci present simple cu -s la persoana a III-a." },
+    { "type": "mc", "q": "Sorry, I can't come to the phone. I ___ with a client.", "options": ["talk", "am talking", "talks"], "answer": 1, "explainRo": "Acțiunea se petrece chiar acum, deci present continuous." },
+    { "type": "mc", "q": "I ___ what you mean.", "options": ["am understanding", "understands", "understand"], "answer": 2, "explainRo": "„understand” este verb de stare, deci nu îl folosim la forma continuă." },
+    { "type": "mc", "q": "This laptop ___ to the company, not to me.", "options": ["belongs", "is belonging", "belong"], "answer": 0, "explainRo": "„belong” exprimă posesia, deci este verb de stare și stă la present simple." },
+    { "type": "mc", "q": "We ___ about moving to a bigger office, but we haven't decided yet.", "options": ["think", "are thinking", "thinks"], "answer": 1, "explainRo": "„think about” = a se gândi la (acțiune în desfășurare), deci forma continuă." },
+    { "type": "mc", "q": "Maria is very ___: she talks to everyone at parties.", "options": ["patient", "reliable", "hard-working", "outgoing"], "answer": 3, "explainRo": "„outgoing” descrie o persoană sociabilă, care vorbește ușor cu oamenii." },
+    { "type": "mc", "q": "Our ___ is in Berlin, but we also have small offices in Iași and Brașov.", "options": ["workload", "headquarters", "feature", "customer"], "answer": 1, "explainRo": "„headquarters” înseamnă sediul central al unei firme." },
+    { "type": "mc", "q": "Elena is ___ the payments module, so ask her about it.", "options": ["in charge of", "dealing", "setting"], "answer": 0, "explainRo": "„be in charge of” = a răspunde de ceva." },
+    { "type": "fill", "q": "She ___ (work) from home this week because her office is closed.", "answers": ["is working", "'s working"], "explainRo": "„this week” + situație temporară → present continuous." },
+    { "type": "fill", "q": "Our CRM ___ (send) an automatic reminder every Monday.", "answers": ["sends"], "explainRo": "„every Monday” arată o acțiune repetată, deci present simple cu -s." },
+    { "type": "fill", "q": "I ___ (not / know) the answer, sorry.", "answers": ["don't know", "do not know"], "explainRo": "„know” este verb de stare, iar negația la present simple se face cu don't." },
+    { "type": "fill", "q": "Support agents deal ___ customer complaints every day.", "answers": ["with"], "explainRo": "Verbul frazal este „deal with” = a se ocupa de." },
+    { "type": "order", "words": ["What", "are", "you", "working", "on", "right", "now?"], "ro": "La ce lucrezi chiar acum?", "explainRo": "Întrebare la present continuous: What + are + you + verb-ing; prepoziția „on” rămâne lângă verb." },
+    { "type": "order", "words": ["My", "colleague", "doesn't", "like", "long", "meetings."], "ro": "Colegului meu nu-i plac ședințele lungi.", "explainRo": "„like” este verb de stare, iar negația la persoana a III-a se face cu doesn't." },
+    { "type": "order", "words": ["We", "usually", "deploy", "on", "Thursday", "afternoons."], "ro": "De obicei facem deploy joi după-amiaza.", "explainRo": "Adverbul de frecvență „usually” stă înaintea verbului principal." },
+    { "type": "translate", "ro": "Săptămâna aceasta lucrez la o aplicație nouă.", "answers": ["I'm working on a new app this week.", "I am working on a new app this week.", "This week I'm working on a new app.", "This week I am working on a new app.", "I'm working on a new application this week.", "I am working on a new application this week.", "This week I'm working on a new application.", "This week I am working on a new application."], "explainRo": "Situație temporară („săptămâna aceasta”) → present continuous; „a lucra la” = work on." },
+    { "type": "translate", "ro": "Ea nu înțelege problema.", "answers": ["She doesn't understand the problem.", "She does not understand the problem."], "explainRo": "„understand” este verb de stare, deci present simple: she doesn't understand." },
+    { "type": "listen", "audio": "He is very reliable and patient.", "answers": ["He is very reliable and patient.", "He's very reliable and patient."], "ro": "Este foarte de încredere și răbdător.", "explainRo": "„reliable” = de încredere, „patient” = răbdător." },
+    { "type": "listen", "audio": "We are setting up a new server.", "answers": ["We are setting up a new server.", "We're setting up a new server."], "ro": "Configurăm un server nou.", "explainRo": "„set up” la present continuous: we are setting up." }
+  ],
+  "video": { "youtubeId": "OsW5sV3GMDM", "title": "Present Simple and Present Continuous: The Grammar Gameshow Episode 1 (BBC Learning English)" }
+}

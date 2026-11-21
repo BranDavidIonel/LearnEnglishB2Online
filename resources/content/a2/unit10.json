@@ -1,0 +1,146 @@
+{
+  "id": "a2-u10",
+  "level": "A2",
+  "order": 10,
+  "title": "Let's work together!",
+  "titleRo": "Hai să lucrăm împreună!",
+  "emoji": "🤝",
+  "goalRo": "La final vei putea să vorbești cu un client nou despre serviciile tale, folosind propoziții cu if, adverbe de mod și cuvinte ca something, anyone sau nobody.",
+  "vocab": [
+    { "en": "freelancer", "ro": "freelancer, liber-profesionist", "pos": "noun", "ipa": "/ˈfriː.lɑːn.sə/", "emoji": "💼", "ex": "As a freelancer, I choose my own clients.", "exRo": "Ca freelancer, îmi aleg singur clienții." },
+    { "en": "self-employed", "ro": "care lucrează pe cont propriu", "pos": "adj", "ipa": "/ˌself.ɪmˈplɔɪd/", "emoji": "🙋", "ex": "My sister is self-employed. She has her own design studio.", "exRo": "Sora mea lucrează pe cont propriu. Are propriul studio de design." },
+    { "en": "hourly rate", "ro": "tarif pe oră", "pos": "noun", "ipa": "/ˌaʊə.li ˈreɪt/", "emoji": "⏲️", "ex": "My hourly rate is 40 euros.", "exRo": "Tariful meu pe oră este de 40 de euro." },
+    { "en": "invoice", "ro": "factură", "pos": "noun", "ipa": "/ˈɪn.vɔɪs/", "emoji": "🧾", "wiki": "Invoice", "ex": "I'll send you the invoice at the end of the month.", "exRo": "Îți trimit factura la sfârșitul lunii." },
+    { "en": "budget", "ro": "buget", "pos": "noun", "ipa": "/ˈbʌdʒ.ɪt/", "emoji": "🏦", "ex": "What is your budget for the new website?", "exRo": "Care este bugetul tău pentru noul site?" },
+    { "en": "carefully", "ro": "cu atenție", "pos": "adv", "ipa": "/ˈkeə.fəl.i/", "emoji": "🔍", "ex": "Please read the contract carefully.", "exRo": "Te rog să citești cu atenție contractul." },
+    { "en": "clearly", "ro": "clar", "pos": "adv", "ipa": "/ˈklɪə.li/", "emoji": "🗣️", "ex": "He explains technical things very clearly.", "exRo": "El explică foarte clar lucrurile tehnice." },
+    { "en": "politely", "ro": "politicos", "pos": "adv", "ipa": "/pəˈlaɪt.li/", "emoji": "🙂", "ex": "Always answer clients politely, even when they are angry.", "exRo": "Răspunde-le mereu politicos clienților, chiar și când sunt supărați." },
+    { "en": "easily", "ro": "ușor, cu ușurință", "pos": "adv", "ipa": "/ˈiː.zəl.i/", "emoji": "👌", "ex": "With the new CRM, you can easily find any client.", "exRo": "Cu noul CRM, poți găsi ușor orice client." },
+    { "en": "contract", "ro": "contract", "pos": "noun", "ipa": "/ˈkɒn.trækt/", "emoji": "📝", "ex": "We signed the contract yesterday.", "exRo": "Am semnat contractul ieri." },
+    { "en": "work from home", "ro": "a lucra de acasă", "pos": "phrase", "ipa": "/ˌwɜːk frəm ˈhəʊm/", "emoji": "🏡", "ex": "I work from home three days a week.", "exRo": "Lucrez de acasă trei zile pe săptămână." },
+    { "en": "earn", "ro": "a câștiga (bani)", "pos": "verb", "ipa": "/ɜːn/", "emoji": "💶", "ex": "Freelancers can earn more, but it isn't always easy.", "exRo": "Freelancerii pot câștiga mai mult, dar nu e mereu ușor." },
+    { "en": "discuss", "ro": "a discuta", "pos": "verb", "ipa": "/dɪˈskʌs/", "emoji": "💭", "ex": "Let's discuss the details on Monday.", "exRo": "Hai să discutăm detaliile luni." },
+    { "en": "trust", "ro": "a avea încredere în", "pos": "verb", "ipa": "/trʌst/", "emoji": "🫱", "ex": "If clients trust you, they will come back.", "exRo": "Dacă clienții au încredere în tine, se vor întoarce." },
+    { "en": "business card", "ro": "carte de vizită", "pos": "noun", "ipa": "/ˈbɪz.nɪs ˌkɑːd/", "emoji": "📇", "wiki": "Business card", "ex": "Here's my business card. Call me anytime.", "exRo": "Poftim cartea mea de vizită. Sună-mă oricând." },
+    { "en": "recommend", "ro": "a recomanda", "pos": "verb", "ipa": "/ˌrek.əˈmend/", "emoji": "⭐", "ex": "Can you recommend a good accountant?", "exRo": "Îmi poți recomanda un contabil bun?" }
+  ],
+  "grammar": {
+    "title": "First conditional, adverbs of manner, something / anyone / nobody",
+    "titleRo": "Condiționalul de tip 1, adverbele de mod, something / anyone / nobody",
+    "sections": [
+      {
+        "headingRo": "First conditional: If + prezent, will + verb",
+        "textRo": "Folosim **first conditional** pentru situații **reale și posibile** în viitor: **If** you sign the contract today, I**'ll** start on Monday. Atenție, aici engleza e diferită de română: după **if** folosim **prezentul**, nu viitorul! În română putem spune „Dacă vei semna...”, dar în engleză: If you **sign** (niciodată „if you will sign”). Ordinea se poate inversa – atunci nu mai punem virgulă: I'll start on Monday if you sign today.",
+        "table": {
+          "headers": ["Partea cu if (prezent)", "Rezultatul (will / won't)"],
+          "rows": [
+            ["If you need help,", "I'll call you."],
+            ["If the client doesn't pay,", "we won't continue."],
+            ["If it rains,", "we'll stay at home."]
+          ]
+        },
+        "examples": [
+          { "en": "If you send me the details, I'll prepare an offer.", "ro": "Dacă îmi trimiți detaliile, îți pregătesc o ofertă." },
+          { "en": "If the budget is small, we'll start with a simple version.", "ro": "Dacă bugetul e mic, vom începe cu o versiune simplă." },
+          { "en": "You'll miss the train if you don't hurry.", "ro": "Pierzi trenul dacă nu te grăbești." }
+        ]
+      },
+      {
+        "headingRo": "Adverbe de mod: cum facem ceva",
+        "textRo": "Adverbele de mod răspund la întrebarea **cum?** Majoritatea se formează adăugând **-ly** la adjectiv: careful → carefully, clear → clearly, quick → quickly. Atenție la scriere: easy → **easily**, polite → **politely**. Câteva sunt neregulate: good → **well**, fast → **fast**, hard → **hard**. Adverbul stă de obicei după verb sau după complement: He speaks English **well**.",
+        "table": {
+          "headers": ["Adjectiv", "Adverb"],
+          "rows": [
+            ["careful", "carefully"],
+            ["clear", "clearly"],
+            ["quick", "quickly"],
+            ["easy", "easily"],
+            ["good", "well"],
+            ["fast", "fast"],
+            ["hard", "hard"]
+          ]
+        },
+        "examples": [
+          { "en": "She is a careful driver. She drives carefully.", "ro": "Ea este o șoferiță atentă. Conduce cu atenție." },
+          { "en": "He works hard and answers emails quickly.", "ro": "Muncește din greu și răspunde repede la e-mailuri." },
+          { "en": "You speak English very well!", "ro": "Vorbești engleză foarte bine!" }
+        ]
+      },
+      {
+        "headingRo": "Something, anyone, nobody...",
+        "textRo": "**some-** (something, someone / somebody, somewhere) → în propoziții **afirmative**. **any-** (anything, anyone / anybody, anywhere) → în **negații** și **întrebări**. **no-** (nothing, no one / nobody, nowhere) → cu verbul la **afirmativ**, pentru că au deja sens negativ. În română spunem „Nu știe nimeni” (dublă negație), dar în engleză: **Nobody knows** sau **I don't know anyone** – niciodată „I don't know nobody”.",
+        "table": {
+          "headers": ["", "Afirmativ", "Negativ / Întrebare", "Sens negativ"],
+          "rows": [
+            ["lucruri", "something", "anything", "nothing"],
+            ["persoane", "someone / somebody", "anyone / anybody", "no one / nobody"],
+            ["locuri", "somewhere", "anywhere", "nowhere"]
+          ]
+        },
+        "examples": [
+          { "en": "We need something for our sales team.", "ro": "Avem nevoie de ceva pentru echipa de vânzări." },
+          { "en": "Is there anyone in the meeting room?", "ro": "E cineva în sala de ședințe?" },
+          { "en": "Nobody likes our old system.", "ro": "Nimănui nu-i place sistemul nostru vechi." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „If you will call me...”. După if folosim prezentul: **If you call me, I'll answer.**",
+      "Nu folosi două negații: **I don't know anything** sau **I know nothing**, nu „I don't know nothing”.",
+      "„Bine” ca adverb = **well**, nu „good”: She works **well**. (Dar: She is a **good** developer.)",
+      "Adverbul nu stă între verb și complement: **He speaks English clearly**, nu „He speaks clearly English”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Prima discuție cu o posibilă clientă",
+    "lines": [
+      { "speaker": "Helen", "en": "So you're a developer? Do you work for a company?", "ro": "Deci ești programator? Lucrezi pentru o firmă?" },
+      { "speaker": "Andrei", "en": "No, I'm a freelancer. I build CRM and ERP systems for small businesses.", "ro": "Nu, sunt freelancer. Construiesc sisteme CRM și ERP pentru firme mici." },
+      { "speaker": "Helen", "en": "Interesting! We need something for our sales team. Nobody likes our old system.", "ro": "Interesant! Avem nevoie de ceva pentru echipa de vânzări. Nimănui nu-i place sistemul nostru vechi." },
+      { "speaker": "Andrei", "en": "What's the problem with it?", "ro": "Care e problema cu el?" },
+      { "speaker": "Helen", "en": "It's slow, and we can't find anything easily.", "ro": "E lent și nu găsim nimic ușor în el." },
+      { "speaker": "Andrei", "en": "I understand. If you send me some details, I'll prepare an offer for you.", "ro": "Înțeleg. Dacă îmi trimiți câteva detalii, îți pregătesc o ofertă." },
+      { "speaker": "Helen", "en": "Great. What's your hourly rate?", "ro": "Super. Care e tariful tău pe oră?" },
+      { "speaker": "Andrei", "en": "It depends on the project. If the budget is small, we'll start with a simple version.", "ro": "Depinde de proiect. Dacă bugetul e mic, vom începe cu o versiune simplă." },
+      { "speaker": "Helen", "en": "That sounds good. Do you have a business card?", "ro": "Sună bine. Ai o carte de vizită?" },
+      { "speaker": "Andrei", "en": "Here you are. Call me anytime – I'll be happy to discuss it.", "ro": "Poftim. Sună-mă oricând – voi fi bucuros să discutăm." }
+    ]
+  },
+  "reading": {
+    "title": "Life as a freelancer",
+    "text": "Two years ago, Diana quit her job and became a freelancer. Now she is self-employed and builds websites for small shops and restaurants.\n\n'Freelancing is great, but it isn't easy,' she says. 'If you don't find clients, you won't earn any money. And nobody pays you for your holidays!'\n\nDiana has some simple rules. She always answers emails quickly and politely. She explains her prices clearly, and she never starts work without a contract. 'If a client doesn't sign a contract, I won't start. It's safer for everyone.'\n\nHow does she find clients? 'Most of them come from recommendations. If you do your job well, your clients will recommend you to someone else.'\n\nDiana works from home most days. 'Sometimes I miss my colleagues,' she says, 'but I love my freedom.'",
+    "textRo": "Acum doi ani, Diana și-a dat demisia și a devenit freelancer. Acum lucrează pe cont propriu și face site-uri pentru magazine mici și restaurante.\n\n„Să fii freelancer e grozav, dar nu e ușor”, spune ea. „Dacă nu găsești clienți, nu câștigi niciun ban. Și nimeni nu te plătește pentru concedii!”\n\nDiana are câteva reguli simple. Răspunde mereu repede și politicos la e-mailuri. Își explică prețurile clar și nu începe niciodată lucrul fără contract. „Dacă un client nu semnează contractul, nu încep. E mai sigur pentru toată lumea.”\n\nCum își găsește clienții? „Cei mai mulți vin din recomandări. Dacă îți faci treaba bine, clienții te vor recomanda altcuiva.”\n\nDiana lucrează de acasă în majoritatea zilelor. „Uneori îmi lipsesc colegii”, spune ea, „dar îmi iubesc libertatea.”",
+    "questions": [
+      { "type": "mc", "q": "What does Diana do?", "options": ["She works for a big company.", "She builds websites as a freelancer.", "She owns a restaurant.", "She is a project manager."], "answer": 1, "explainRo": "„She is self-employed and builds websites for small shops and restaurants.”" },
+      { "type": "mc", "q": "What does Diana never do?", "options": ["Answer emails quickly", "Work from home", "Start work without a contract", "Explain her prices"], "answer": 2, "explainRo": "„She never starts work without a contract.”" },
+      { "type": "mc", "q": "Where do most of her clients come from?", "options": ["Recommendations", "Social media", "Her old job", "Adverts"], "answer": 0, "explainRo": "„Most of them come from recommendations.”" },
+      { "type": "mc", "q": "What does she sometimes miss?", "options": ["Her freedom", "Her old salary", "Holidays", "Her colleagues"], "answer": 3, "explainRo": "„Sometimes I miss my colleagues.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["invoice", "factură"], ["budget", "buget"], ["earn", "a câștiga"], ["trust", "a avea încredere"], ["business card", "carte de vizită"]] },
+    { "type": "mc", "q": "If the client ___ the contract, we'll start on Monday.", "options": ["signs", "will sign", "signed", "sign"], "answer": 0, "explainRo": "După if folosim prezentul: if the client signs." },
+    { "type": "mc", "q": "If it rains tomorrow, we ___ at home.", "options": ["stayed", "'ll stay", "staying", "stays"], "answer": 1, "explainRo": "În partea cu rezultatul folosim will: we'll stay." },
+    { "type": "mc", "q": "She speaks English very ___.", "options": ["good", "well", "nice", "clear"], "answer": 1, "explainRo": "Adverbul lui good este well." },
+    { "type": "mc", "q": "Please read the contract ___.", "options": ["careful", "care", "carefully", "more careful"], "answer": 2, "explainRo": "Ne trebuie un adverb (cum citești?): careful + ly = carefully." },
+    { "type": "mc", "q": "There isn't ___ in the meeting room. It's empty.", "options": ["someone", "nobody", "anyone", "no one"], "answer": 2, "explainRo": "În negații folosim any-: There isn't anyone." },
+    { "type": "mc", "q": "___ called you while you were out. I don't know his name.", "options": ["Anybody", "Somebody", "Nobody", "Anything"], "answer": 1, "explainRo": "Propoziție afirmativă despre o persoană necunoscută: Somebody." },
+    { "type": "mc", "q": "I'm hungry, but there's ___ in the fridge.", "options": ["nothing", "anything", "something", "nobody"], "answer": 0, "explainRo": "Verbul e afirmativ (there's), deci pentru sens negativ folosim nothing." },
+    { "type": "mc", "q": "As a freelancer, I charge 40 euros per hour. That's my ___.", "options": ["budget", "invoice", "contract", "hourly rate"], "answer": 3, "explainRo": "Hourly rate = tarif pe oră." },
+    { "type": "fill", "q": "If you ___ (need) help, call me.", "answers": ["need"], "explainRo": "După if folosim prezentul simplu: if you need." },
+    { "type": "fill", "q": "If we ___ (not / finish) today, we'll work on Saturday.", "answers": ["don't finish", "do not finish"], "explainRo": "După if – prezent, chiar și la negativ: if we don't finish." },
+    { "type": "fill", "q": "He drives very ___ (careful).", "answers": ["carefully"], "explainRo": "Ne trebuie un adverb: careful → carefully." },
+    { "type": "fill", "q": "I don't know ___ in this city. Can you help me?", "answers": ["anyone", "anybody"], "explainRo": "În negații folosim anyone / anybody." },
+    { "type": "listen", "audio": "If you call me, I'll answer.", "answers": ["If you call me, I'll answer.", "If you call me, I will answer."], "ro": "Dacă mă suni, îți răspund.", "explainRo": "If + prezent (call), will + verb (I'll answer)." },
+    { "type": "listen", "audio": "Nobody knows the password.", "answers": ["Nobody knows the password."], "ro": "Nimeni nu știe parola.", "explainRo": "Nobody + verb afirmativ (knows), fără altă negație." },
+    { "type": "order", "words": ["If", "you", "sign", "today,", "we'll", "start", "tomorrow."], "ro": "Dacă semnezi azi, începem mâine.", "explainRo": "If + prezent, virgulă, apoi will + verb." },
+    { "type": "order", "words": ["She", "explains", "the", "prices", "very", "clearly."], "ro": "Ea explică prețurile foarte clar.", "explainRo": "Adverbul de mod stă după complement: the prices very clearly." },
+    { "type": "order", "words": ["I", "didn't", "see", "anything", "strange."], "ro": "N-am văzut nimic ciudat.", "explainRo": "În negații folosim anything." },
+    { "type": "translate", "ro": "Dacă plouă, rămân acasă.", "answers": ["If it rains, I'll stay at home.", "If it rains, I will stay at home.", "If it rains, I'll stay home.", "If it rains, I will stay home.", "I'll stay at home if it rains.", "I will stay at home if it rains.", "I'll stay home if it rains.", "I will stay home if it rains."], "explainRo": "If + prezent (rains), apoi will + verb (I'll stay)." },
+    { "type": "translate", "ro": "Nu cunosc pe nimeni aici.", "answers": ["I don't know anyone here.", "I don't know anybody here.", "I do not know anyone here.", "I do not know anybody here.", "I know nobody here.", "I know no one here."], "explainRo": "O singură negație: I don't know anyone sau I know nobody." }
+  ],
+  "video": {
+    "youtubeId": "ttUbJjKBncQ",
+    "title": "Conditionals: zero & first conditionals (English Grammar) (English with Ronnie · engVid)"
+  }
+}

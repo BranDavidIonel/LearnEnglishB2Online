@@ -1,0 +1,127 @@
+{
+  "id": "a2-u06",
+  "level": "A2",
+  "order": 6,
+  "title": "I'll send you the link",
+  "titleRo": "Îți trimit linkul",
+  "emoji": "📧",
+  "goalRo": "La final vei putea să scrii un e-mail simplu unui client, să faci oferte și promisiuni și să faci predicții despre viitor cu will și won't.",
+  "vocab": [
+    { "en": "attach", "ro": "a atașa", "pos": "verb", "ipa": "/əˈtætʃ/", "emoji": "📎", "ex": "I'll attach the file to the email.", "exRo": "Atașez fișierul la e-mail." },
+    { "en": "attachment", "ro": "atașament, fișier atașat", "pos": "noun", "ipa": "/əˈtætʃ.mənt/", "emoji": "🗂️", "ex": "Please open the attachment and read the offer.", "exRo": "Te rog să deschizi atașamentul și să citești oferta." },
+    { "en": "reply", "ro": "a răspunde (la un mesaj)", "pos": "verb", "ipa": "/rɪˈplaɪ/", "emoji": "💬", "ex": "I'll reply to your email this afternoon.", "exRo": "Îți răspund la e-mail în după-amiaza aceasta." },
+    { "en": "link", "ro": "link, legătură", "pos": "noun", "ipa": "/lɪŋk/", "emoji": "🔗", "ex": "Click on the link to join the meeting.", "exRo": "Apasă pe link ca să intri în ședință." },
+    { "en": "offer", "ro": "ofertă", "pos": "noun", "ipa": "/ˈɒf.ə/", "emoji": "📄", "ex": "Thank you for your offer. We'll think about it.", "exRo": "Vă mulțumim pentru ofertă. Ne vom gândi." },
+    { "en": "promise", "ro": "a promite", "pos": "verb", "ipa": "/ˈprɒm.ɪs/", "emoji": "🤞", "ex": "I promise I'll finish it today.", "exRo": "Îți promit că o termin azi." },
+    { "en": "probably", "ro": "probabil", "pos": "adv", "ipa": "/ˈprɒb.ə.bli/", "emoji": "🤔", "ex": "It will probably rain tomorrow.", "exRo": "Probabil va ploua mâine." },
+    { "en": "I'll get back to you", "ro": "revin eu cu un răspuns", "pos": "phrase", "ipa": "/aɪl ˌɡet ˈbæk tə juː/", "emoji": "📞", "ex": "I'm not sure about the price. I'll get back to you tomorrow.", "exRo": "Nu sunt sigur de preț. Revin mâine cu un răspuns." },
+    { "en": "best regards", "ro": "cu stimă, toate cele bune (la finalul unui e-mail)", "pos": "phrase", "ipa": "/ˌbest rɪˈɡɑːdz/", "emoji": "✍️", "ex": "Best regards, Andrei", "exRo": "Cu stimă, Andrei" },
+    { "en": "inbox", "ro": "căsuța de mesaje primite", "pos": "noun", "ipa": "/ˈɪn.bɒks/", "emoji": "📥", "ex": "I have 200 emails in my inbox!", "exRo": "Am 200 de e-mailuri în inbox!" },
+    { "en": "robot", "ro": "robot", "pos": "noun", "ipa": "/ˈrəʊ.bɒt/", "emoji": "🤖", "wiki": "Robot", "ex": "In the future, robots will clean our houses.", "exRo": "În viitor, roboții ne vor face curat în casă." },
+    { "en": "artificial intelligence", "ro": "inteligență artificială", "pos": "noun", "ipa": "/ˌɑː.tɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/", "emoji": "🧠", "ex": "Artificial intelligence will change the way we work.", "exRo": "Inteligența artificială va schimba felul în care lucrăm." },
+    { "en": "self-driving car", "ro": "mașină autonomă (fără șofer)", "pos": "noun", "ipa": "/ˌself.draɪ.vɪŋ ˈkɑː/", "emoji": "🚘", "wiki": "Self-driving car", "ex": "Will we all have self-driving cars in 2040?", "exRo": "Vom avea toți mașini autonome în 2040?" },
+    { "en": "replace", "ro": "a înlocui", "pos": "verb", "ipa": "/rɪˈpleɪs/", "emoji": "🔄", "ex": "AI won't replace good programmers.", "exRo": "Inteligența artificială nu-i va înlocui pe programatorii buni." },
+    { "en": "forward", "ro": "a redirecționa, a trimite mai departe", "pos": "verb", "ipa": "/ˈfɔː.wəd/", "emoji": "➡️", "ex": "I'll forward your email to my colleague.", "exRo": "Îi trimit e-mailul tău colegului meu." },
+    { "en": "confirm", "ro": "a confirma", "pos": "verb", "ipa": "/kənˈfɜːm/", "emoji": "✔️", "ex": "Can you confirm the time of the meeting?", "exRo": "Poți confirma ora ședinței?" },
+    { "en": "as soon as possible", "ro": "cât mai curând posibil", "pos": "phrase", "ipa": "/əz ˌsuːn əz ˈpɒs.ə.bəl/", "emoji": "⚡", "ex": "Please reply as soon as possible.", "exRo": "Te rog să răspunzi cât mai curând posibil." }
+  ],
+  "grammar": {
+    "title": "Will and won't",
+    "titleRo": "Will și won't",
+    "sections": [
+      {
+        "headingRo": "Will pentru predicții",
+        "textRo": "Folosim **will + verb** (forma scurtă **'ll**) pentru ce **credem** că se va întâmpla în viitor: Robots will do a lot of our work. Negativul este **won't** (will not). Will are aceeași formă pentru toate persoanele. Des îl folosim cu **I think**, **probably** și **maybe**: I think AI will help programmers.",
+        "table": {
+          "headers": ["Afirmativ", "Negativ", "Întrebare"],
+          "rows": [
+            ["I'll help you.", "I won't be late.", "Will you help me?"],
+            ["It'll rain.", "It won't rain.", "Will it rain?"],
+            ["They'll like it.", "They won't like it.", "Will they like it?"]
+          ]
+        },
+        "examples": [
+          { "en": "I think AI will help programmers.", "ro": "Cred că inteligența artificială îi va ajuta pe programatori." },
+          { "en": "Self-driving cars won't be cheap.", "ro": "Mașinile autonome nu vor fi ieftine." },
+          { "en": "Will people work from the beach in the future?", "ro": "Vor lucra oamenii de pe plajă în viitor?" }
+        ]
+      },
+      {
+        "headingRo": "Will pentru oferte și decizii spontane",
+        "textRo": "Când **te oferi** să faci ceva sau **decizi chiar acum**, în momentul vorbirii, folosești **I'll**. Diferența față de lecția trecută: **going to** = plan făcut dinainte; **I'll** = decizie luată pe loc. În română folosim des prezentul („Îți trimit eu linkul!”), dar în engleză e nevoie de **will**.",
+        "examples": [
+          { "en": "The file is too big? I'll send you a link.", "ro": "Fișierul e prea mare? Îți trimit un link." },
+          { "en": "Don't worry, I'll call the client.", "ro": "Nu-ți face griji, îl sun eu pe client." },
+          { "en": "It's cold in here. I'll close the window.", "ro": "E frig aici. Închid fereastra." }
+        ]
+      },
+      {
+        "headingRo": "Will pentru promisiuni și cereri",
+        "textRo": "**I'll / I won't** + promisiune: I'll finish it today, I promise. **Will you...?** este o cerere prietenoasă: Will you forward this email, please? Iar în e-mailuri vei folosi des **I'll get back to you** (revin cu un răspuns).",
+        "examples": [
+          { "en": "I won't forget, I promise.", "ro": "Nu uit, îți promit." },
+          { "en": "Will you forward this email to Mark, please?", "ro": "Îi trimiți, te rog, acest e-mail lui Mark?" },
+          { "en": "Thanks for your question. I'll get back to you soon.", "ro": "Mulțumesc pentru întrebare. Revin curând cu un răspuns." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "După **will** verbul e la forma de bază, fără „to”: **I'll send**, nu „I'll to send” sau „I'll sends”.",
+      "Negativul lui will este **won't**, nu „willn't”.",
+      "Pentru decizii luate pe loc nu folosim prezentul: „Sun eu!” = **I'll call!**, nu „I call!”.",
+      "**Probably** stă după will, dar înainte de won't: **It will probably rain. / It probably won't rain.**"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Un telefon de la client",
+    "lines": [
+      { "speaker": "Mark", "en": "Hi Andrei. I can't find your offer in my inbox.", "ro": "Bună, Andrei. Nu găsesc oferta ta în inbox." },
+      { "speaker": "Andrei", "en": "Oh, sorry! The attachment was probably too big. I'll send you a link.", "ro": "A, scuze! Probabil atașamentul a fost prea mare. Îți trimit un link." },
+      { "speaker": "Mark", "en": "Thanks. Will the price be the same as last year?", "ro": "Mulțumesc. Prețul va fi același ca anul trecut?" },
+      { "speaker": "Andrei", "en": "Yes, it will. And I promise the CRM will be ready in May.", "ro": "Da. Și îți promit că CRM-ul va fi gata în mai." },
+      { "speaker": "Mark", "en": "Great. My boss will probably have some questions.", "ro": "Super. Probabil șeful meu va avea câteva întrebări." },
+      { "speaker": "Andrei", "en": "No problem. I'll answer them as soon as possible.", "ro": "Nicio problemă. Le răspund cât mai curând posibil." },
+      { "speaker": "Mark", "en": "Will you also send the offer to our IT manager, please?", "ro": "Îi trimiți, te rog, oferta și managerului nostru de IT?" },
+      { "speaker": "Andrei", "en": "Of course. I'll do it right now.", "ro": "Sigur. O fac chiar acum." },
+      { "speaker": "Mark", "en": "Thanks. I'll confirm everything on Friday.", "ro": "Mulțumesc. Confirm totul vineri." },
+      { "speaker": "Andrei", "en": "Perfect. I'll wait for your email, then.", "ro": "Perfect. Atunci aștept e-mailul tău." }
+    ]
+  },
+  "reading": {
+    "title": "An email to a new client",
+    "text": "Subject: Your new booking app\n\nDear Ms Novak,\n\nThank you for your email and for your interest in our services. I'm happy to help you with your new booking app.\n\nI attached our offer to this email. You will find the price and the plan for the project there. I think the app will be ready in about three months. The first version won't have online payments, but we will add them later.\n\nI know you are busy, so I'll call you on Tuesday to answer your questions. Will 10 a.m. be OK for you? Please reply and confirm the time.\n\nI'm sure your customers will love the app!\n\nBest regards,\nAndrei Ionescu\nWeb developer",
+    "textRo": "Subiect: Noua dumneavoastră aplicație de rezervări\n\nStimată doamnă Novak,\n\nVă mulțumesc pentru e-mail și pentru interesul față de serviciile noastre. Mă bucur să vă ajut cu noua aplicație de rezervări.\n\nAm atașat oferta noastră la acest e-mail. Acolo veți găsi prețul și planul proiectului. Cred că aplicația va fi gata în aproximativ trei luni. Prima versiune nu va avea plăți online, dar le vom adăuga mai târziu.\n\nȘtiu că sunteți ocupată, așa că vă voi suna marți ca să vă răspund la întrebări. Ora 10 vă convine? Vă rog să-mi răspundeți și să confirmați ora.\n\nSunt sigur că clienților dumneavoastră le va plăcea foarte mult aplicația!\n\nCu stimă,\nAndrei Ionescu\nProgramator web",
+    "questions": [
+      { "type": "mc", "q": "Why is Andrei writing to Ms Novak?", "options": ["To send her an offer", "To ask for a job", "To cancel a meeting", "To ask for money"], "answer": 0, "explainRo": "„I attached our offer to this email.”" },
+      { "type": "mc", "q": "When will the app probably be ready?", "options": ["Next week", "In about three months", "In a year", "On Tuesday"], "answer": 1, "explainRo": "„I think the app will be ready in about three months.”" },
+      { "type": "mc", "q": "What won't the first version have?", "options": ["A booking system", "A price", "Online payments", "Customers"], "answer": 2, "explainRo": "„The first version won't have online payments.”" },
+      { "type": "mc", "q": "What will Andrei do on Tuesday?", "options": ["Send the offer", "Add online payments", "Visit Ms Novak", "Call Ms Novak"], "answer": 3, "explainRo": "„I'll call you on Tuesday to answer your questions.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["attachment", "atașament"], ["inbox", "căsuța de mesaje primite"], ["replace", "a înlocui"], ["confirm", "a confirma"], ["offer", "ofertă"]] },
+    { "type": "mc", "q": "I think robots ___ a lot of our jobs in the future.", "options": ["do", "will do", "doing", "are do"], "answer": 1, "explainRo": "O predicție despre viitor: will + verb." },
+    { "type": "mc", "q": "Don't worry, I ___ forget your birthday.", "options": ["won't", "will", "don't", "am not"], "answer": 0, "explainRo": "O promisiune la negativ: I won't (will not) forget." },
+    { "type": "mc", "q": "The file is too big? No problem, I ___ you a link.", "options": ["send", "'ll send", "sent", "sending"], "answer": 1, "explainRo": "O decizie luată pe loc: I'll send." },
+    { "type": "mc", "q": "___ you help me with this bug, please?", "options": ["Will", "Are", "Do", "Did"], "answer": 0, "explainRo": "Will you...? = o cerere prietenoasă pentru viitor." },
+    { "type": "mc", "q": "It will ___ rain tomorrow. Take an umbrella.", "options": ["probable", "maybe will", "probably"], "answer": 2, "explainRo": "Probably (adverb) stă după will: It will probably rain." },
+    { "type": "mc", "q": "Can you ___ this email to the IT team?", "options": ["replace", "forward", "attach", "promise"], "answer": 1, "explainRo": "Forward = a trimite mai departe un e-mail primit." },
+    { "type": "mc", "q": "At the end of a formal email you write: '___, Andrei'.", "options": ["As soon as possible", "I'll get back to you", "Dear", "Best regards"], "answer": 3, "explainRo": "Best regards este formula de încheiere a unui e-mail; Dear e la început." },
+    { "type": "mc", "q": "A car with no driver is a ___.", "options": ["self-driving car", "robot", "rented car"], "answer": 0, "explainRo": "Self-driving car = mașină autonomă, care merge fără șofer." },
+    { "type": "fill", "q": "I ___ call you tomorrow, I promise.", "answers": ["will", "'ll"], "explainRo": "Promisiune pentru viitor: I will (I'll) call you." },
+    { "type": "fill", "q": "Our clients ___ (not / like) the new prices next year.", "answers": ["won't like", "will not like", "aren't going to like", "are not going to like"], "explainRo": "Predicție negativă: won't (will not) + like." },
+    { "type": "fill", "q": "Please send me the file as soon ___ possible.", "answers": ["as"], "explainRo": "Expresia fixă este as soon as possible." },
+    { "type": "fill", "q": "___ AI replace programmers? – No, I don't think so.", "answers": ["Will"], "explainRo": "Întrebare-predicție despre viitor: Will + subiect + verb?" },
+    { "type": "listen", "audio": "I'll send you the link.", "answers": ["I'll send you the link.", "I will send you the link."], "ro": "Îți trimit linkul.", "explainRo": "I'll = I will; o ofertă făcută pe loc." },
+    { "type": "listen", "audio": "It won't take long.", "answers": ["It won't take long.", "It will not take long."], "ro": "Nu va dura mult.", "explainRo": "Won't = will not." },
+    { "type": "order", "words": ["I'll", "get", "back", "to", "you", "tomorrow."], "ro": "Revin mâine cu un răspuns.", "explainRo": "Expresia fixă I'll get back to you + timpul la final." },
+    { "type": "order", "words": ["I", "think", "AI", "will", "help", "programmers."], "ro": "Cred că inteligența artificială îi va ajuta pe programatori.", "explainRo": "I think + subiect + will + verb – o predicție." },
+    { "type": "order", "words": ["The", "app", "won't", "be", "ready", "in", "May."], "ro": "Aplicația nu va fi gata în mai.", "explainRo": "Won't + be – predicție negativă." },
+    { "type": "translate", "ro": "Îți promit că o să termin azi.", "answers": ["I promise I'll finish today.", "I promise I will finish today.", "I promise that I'll finish today.", "I promise that I will finish today.", "I promise I'll finish it today.", "I promise I will finish it today.", "I promise that I'll finish it today.", "I promise that I will finish it today."], "explainRo": "Promisiune: I promise + I'll (I will) + verb." },
+    { "type": "translate", "ro": "Probabil va ploua mâine.", "answers": ["It will probably rain tomorrow.", "It'll probably rain tomorrow.", "Tomorrow it will probably rain.", "It's probably going to rain tomorrow.", "It is probably going to rain tomorrow."], "explainRo": "Predicție: It will probably rain – probably stă după will." }
+  ],
+  "video": {
+    "youtubeId": "uRO9jRcF7Ek",
+    "title": "Will: The Grammar Gameshow Episode 17 (BBC Learning English)"
+  }
+}

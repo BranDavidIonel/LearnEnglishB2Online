@@ -1,0 +1,137 @@
+{
+  "id": "a2-u03",
+  "level": "A2",
+  "order": 3,
+  "title": "How much is it?",
+  "titleRo": "Cât costă?",
+  "emoji": "🛒",
+  "goalRo": "La final vei putea să cumperi lucruri în magazin și online și să vorbești despre cantități și prețuri cu much, many și a lot of.",
+  "vocab": [
+    { "en": "discount", "ro": "reducere", "pos": "noun", "ipa": "/ˈdɪs.kaʊnt/", "emoji": "🏷️", "ex": "There is a 20% discount on all laptops this week.", "exRo": "Săptămâna aceasta e o reducere de 20% la toate laptopurile." },
+    { "en": "receipt", "ro": "bon (fiscal), chitanță", "pos": "noun", "ipa": "/rɪˈsiːt/", "emoji": "🧾", "wiki": "Receipt", "ex": "Can I have the receipt, please?", "exRo": "Îmi puteți da bonul, vă rog?" },
+    { "en": "cash", "ro": "numerar, bani cash", "pos": "noun", "ipa": "/kæʃ/", "emoji": "💵", "wiki": "Cash", "ex": "Do you want to pay by card or in cash?", "exRo": "Vreți să plătiți cu cardul sau cash?" },
+    { "en": "credit card", "ro": "card de credit", "pos": "noun", "ipa": "/ˈkred.ɪt ˌkɑːd/", "emoji": "💳", "wiki": "Credit card", "ex": "I paid for the hotel with my credit card.", "exRo": "Am plătit hotelul cu cardul de credit." },
+    { "en": "change", "ro": "rest (bani)", "pos": "noun", "ipa": "/tʃeɪndʒ/", "emoji": "🪙", "ex": "Here is your change – three euros.", "exRo": "Poftiți restul – trei euro." },
+    { "en": "shopping cart", "ro": "coș de cumpărături (online)", "pos": "noun", "ipa": "/ˈʃɒp.ɪŋ ˌkɑːt/", "emoji": "🛒", "ex": "I have three items in my shopping cart.", "exRo": "Am trei produse în coșul de cumpărături." },
+    { "en": "delivery", "ro": "livrare", "pos": "noun", "ipa": "/dɪˈlɪv.ər.i/", "emoji": "🚚", "ex": "Delivery is free for orders over 100 lei.", "exRo": "Livrarea e gratuită pentru comenzi de peste 100 de lei." },
+    { "en": "place an order", "ro": "a plasa o comandă", "pos": "phrase", "ipa": "/ˌpleɪs ən ˈɔː.də/", "emoji": "📦", "ex": "I placed an order online yesterday.", "exRo": "Am plasat o comandă online ieri." },
+    { "en": "checkout", "ro": "casă (de marcat); finalizarea comenzii", "pos": "noun", "ipa": "/ˈtʃek.aʊt/", "emoji": "🧑‍💼", "ex": "There was a long queue at the checkout.", "exRo": "Era o coadă lungă la casă." },
+    { "en": "afford", "ro": "a-și permite (financiar)", "pos": "verb", "ipa": "/əˈfɔːd/", "emoji": "🤔", "ex": "I can't afford a new car this year.", "exRo": "Nu-mi permit o mașină nouă anul acesta." },
+    { "en": "size", "ro": "mărime", "pos": "noun", "ipa": "/saɪz/", "emoji": "📏", "ex": "Do you have this jacket in size M?", "exRo": "Aveți geaca aceasta în mărimea M?" },
+    { "en": "refund", "ro": "rambursare (a banilor)", "pos": "noun", "ipa": "/ˈriː.fʌnd/", "emoji": "↩️", "ex": "The headphones didn't work, so I asked for a refund.", "exRo": "Căștile nu mergeau, așa că am cerut banii înapoi." },
+    { "en": "bargain", "ro": "chilipir", "pos": "noun", "ipa": "/ˈbɑː.ɡɪn/", "emoji": "🤑", "ex": "Only 50 euros? That's a bargain!", "exRo": "Doar 50 de euro? E un chilipir!" },
+    { "en": "furniture", "ro": "mobilă (nenumărabil)", "pos": "noun", "ipa": "/ˈfɜː.nɪ.tʃə/", "emoji": "🛋️", "wiki": "Furniture", "ex": "We bought some new furniture for the office.", "exRo": "Am cumpărat mobilă nouă pentru birou." },
+    { "en": "headphones", "ro": "căști", "pos": "noun", "ipa": "/ˈhed.fəʊnz/", "emoji": "🎧", "wiki": "Headphones", "ex": "I need new headphones for my video calls.", "exRo": "Am nevoie de căști noi pentru apelurile video." },
+    { "en": "wallet", "ro": "portofel", "pos": "noun", "ipa": "/ˈwɒl.ɪt/", "emoji": "👛", "wiki": "Wallet", "ex": "There isn't much money in my wallet.", "exRo": "Nu sunt mulți bani în portofelul meu." },
+    { "en": "software", "ro": "software, programe (nenumărabil)", "pos": "noun", "ipa": "/ˈsɒft.weə/", "emoji": "💾", "ex": "We don't need much software, just a good CRM.", "exRo": "Nu avem nevoie de mult software, doar de un CRM bun." }
+  ],
+  "grammar": {
+    "title": "Countable and uncountable nouns: much, many, a lot of",
+    "titleRo": "Substantive numărabile și nenumărabile: much, many, a lot of",
+    "sections": [
+      {
+        "headingRo": "Numărabile și nenumărabile",
+        "textRo": "Substantivele **numărabile** au plural și le poți număra: one laptop, two laptops. Cele **nenumărabile** nu au plural și nu folosesc a/an: **money, water, time, information, furniture, software, advice**. Atenție: unele sunt numărabile în română, dar nu în engleză! „Informații”, „mobile”, „sfaturi” – în engleză: **information, furniture, advice**, fără -s. Cu nenumărabilele verbul este la singular: **The information is correct.**",
+        "table": {
+          "headers": ["Numărabile", "Nenumărabile"],
+          "rows": [
+            ["a phone / two phones", "money"],
+            ["a coin / five coins", "cash"],
+            ["a chair / ten chairs", "furniture"],
+            ["an app / three apps", "software"],
+            ["a bottle / two bottles", "water"]
+          ]
+        },
+        "examples": [
+          { "en": "I bought two chairs and a desk.", "ro": "Am cumpărat două scaune și un birou." },
+          { "en": "We need some new furniture.", "ro": "Avem nevoie de mobilă nouă." },
+          { "en": "The information on this website is very useful.", "ro": "Informațiile de pe acest site sunt foarte utile." }
+        ]
+      },
+      {
+        "headingRo": "Much, many și a lot of",
+        "textRo": "**many** + substantive numărabile la plural (many apps). **much** + substantive nenumărabile (much money). În propoziții **afirmative** spunem de obicei **a lot of** – merge cu ambele: a lot of apps, a lot of money. **Much** și **many** apar mai ales în **negații** și **întrebări**: I don't have much time. Are there many people?",
+        "table": {
+          "headers": ["", "Numărabile", "Nenumărabile"],
+          "rows": [
+            ["Afirmativ", "a lot of apps", "a lot of money"],
+            ["Negativ", "not many apps", "not much money"],
+            ["Întrebare", "How many apps?", "How much money?"]
+          ]
+        },
+        "examples": [
+          { "en": "There are a lot of people in the shop.", "ro": "Sunt mulți oameni în magazin." },
+          { "en": "We don't have many clients in Germany.", "ro": "Nu avem mulți clienți în Germania." },
+          { "en": "I didn't spend much money last month.", "ro": "Nu am cheltuit mulți bani luna trecută." }
+        ]
+      },
+      {
+        "headingRo": "How much? How many?",
+        "textRo": "**How many** + plural = câți/câte: How many items are in your cart? **How much** + nenumărabil = cât/câtă: How much time do we have? Și cea mai utilă întrebare la cumpărături: **How much is it? / How much does it cost?** = Cât costă?",
+        "examples": [
+          { "en": "How many laptops do you need?", "ro": "Câte laptopuri vă trebuie?" },
+          { "en": "How much is this backpack?", "ro": "Cât costă rucsacul acesta?" },
+          { "en": "How much does delivery cost?", "ro": "Cât costă livrarea?" }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „many money”. Banii sunt nenumărabili: **much money / a lot of money**.",
+      "„Informații” = **information**, fără -s: „some information”, nu „informations”.",
+      "„Am cumpărat o mobilă nouă” se spune **I bought some new furniture** sau **a new piece of furniture**.",
+      "„Cât costă?” = **How much is it?** sau **How much does it cost?**, nu „How many costs?”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "În magazinul de electronice",
+    "lines": [
+      { "speaker": "Andrei", "en": "Hi! How much are these headphones?", "ro": "Bună ziua! Cât costă căștile acestea?" },
+      { "speaker": "Assistant", "en": "They're 80 euros, but there's a 25% discount today.", "ro": "Costă 80 de euro, dar azi e o reducere de 25%." },
+      { "speaker": "Andrei", "en": "So they're 60 euros? That's a bargain!", "ro": "Deci costă 60 de euro? E un chilipir!" },
+      { "speaker": "Assistant", "en": "Yes, and they're very popular. We don't have many left.", "ro": "Da, și se vând foarte bine. Nu mai avem multe." },
+      { "speaker": "Andrei", "en": "Great, I want them. Can I pay by credit card?", "ro": "Super, le vreau. Pot plăti cu cardul de credit?" },
+      { "speaker": "Assistant", "en": "Of course. Card or cash, it's no problem.", "ro": "Sigur. Cu cardul sau cash, nu e nicio problemă." },
+      { "speaker": "Andrei", "en": "Card, please. Oh, and do you sell office furniture?", "ro": "Cu cardul, vă rog. A, și vindeți mobilă de birou?" },
+      { "speaker": "Assistant", "en": "Not much here, but we have a lot of chairs online, with free delivery.", "ro": "Aici nu prea, dar avem multe scaune online, cu livrare gratuită." },
+      { "speaker": "Andrei", "en": "Perfect. Can I have the receipt, please?", "ro": "Perfect. Îmi dați bonul, vă rog?" },
+      { "speaker": "Assistant", "en": "Here you are. And here's your card. Have a nice day!", "ro": "Poftiți. Și cardul dumneavoastră. O zi bună!" }
+    ]
+  },
+  "reading": {
+    "title": "Shopping online",
+    "text": "Last week, Ioana wanted new headphones for her video calls. She didn't have much time, so she didn't go to the shops. She looked online.\n\nThere were a lot of headphones on the website, and many of them had a discount. She read some reviews and put two pairs in her shopping cart. Then she checked the prices again. One pair was 90 euros – she couldn't afford it. The other pair was only 35 euros. What a bargain!\n\nShe went to the checkout, paid by credit card and placed the order. The delivery was free and fast: the headphones arrived two days later. But there was a problem. They were too small. Ioana sent them back and got a full refund.",
+    "textRo": "Săptămâna trecută, Ioana voia căști noi pentru apelurile ei video. Nu avea mult timp, așa că nu a mers prin magazine. S-a uitat online.\n\nPe site erau multe căști, iar multe dintre ele aveau reducere. A citit câteva recenzii și a pus două perechi în coșul de cumpărături. Apoi a verificat din nou prețurile. O pereche costa 90 de euro – nu și-o permitea. Cealaltă pereche costa doar 35 de euro. Ce chilipir!\n\nA mers la finalizarea comenzii, a plătit cu cardul de credit și a plasat comanda. Livrarea a fost gratuită și rapidă: căștile au sosit două zile mai târziu. Dar a apărut o problemă. Erau prea mici. Ioana le-a trimis înapoi și și-a primit toți banii înapoi.",
+    "questions": [
+      { "type": "mc", "q": "Why didn't Ioana go to the shops?", "options": ["She didn't have much money.", "She didn't have much time.", "The shops were closed.", "She was ill."], "answer": 1, "explainRo": "„She didn't have much time, so she didn't go to the shops.”" },
+      { "type": "mc", "q": "How much were the headphones she bought?", "options": ["35 euros", "90 euros", "25 euros"], "answer": 0, "explainRo": "Perechea de 90 de euro era prea scumpă; a cumpărat-o pe cea de 35 de euro." },
+      { "type": "mc", "q": "How long did the delivery take?", "options": ["One week", "One day", "Two days", "Five days"], "answer": 2, "explainRo": "„The headphones arrived two days later.”" },
+      { "type": "mc", "q": "What was the problem with the headphones?", "options": ["They didn't work.", "They were expensive.", "They were the wrong colour.", "They were too small."], "answer": 3, "explainRo": "„They were too small.” – erau prea mici." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["receipt", "bon fiscal"], ["wallet", "portofel"], ["discount", "reducere"], ["delivery", "livrare"], ["refund", "rambursare"]] },
+    { "type": "mc", "q": "How ___ apps do you use every day?", "options": ["much", "many", "lot"], "answer": 1, "explainRo": "Apps este numărabil la plural, deci How many." },
+    { "type": "mc", "q": "How ___ money did you spend?", "options": ["many", "lot of", "much"], "answer": 2, "explainRo": "Money este nenumărabil, deci How much." },
+    { "type": "mc", "q": "We need some new ___ for the office.", "options": ["furniture", "furnitures", "a furniture"], "answer": 0, "explainRo": "Furniture este nenumărabil: nu are plural și nu folosește a." },
+    { "type": "mc", "q": "I don't have ___ time today.", "options": ["many", "much", "a"], "answer": 1, "explainRo": "Time este nenumărabil, iar în negații folosim much." },
+    { "type": "mc", "q": "There are ___ people in the shop today.", "options": ["a lot of", "much", "a lot"], "answer": 0, "explainRo": "În afirmații folosim a lot of (cu of înaintea substantivului)." },
+    { "type": "mc", "q": "Only 20 euros for this jacket? That's a ___!", "options": ["receipt", "bargain", "refund", "change"], "answer": 1, "explainRo": "Bargain = chilipir, ceva foarte ieftin pentru calitatea lui." },
+    { "type": "mc", "q": "Here's your ___ – two euros and fifty cents.", "options": ["discount", "size", "change", "checkout"], "answer": 2, "explainRo": "Change = restul pe care îl primești când plătești cash." },
+    { "type": "mc", "q": "I'm sorry, I can't ___ a new laptop this month.", "options": ["refund", "pay", "spend", "afford"], "answer": 3, "explainRo": "Can't afford = nu-mi permit (financiar)." },
+    { "type": "fill", "q": "How ___ is this backpack? – It's 45 euros.", "answers": ["much"], "explainRo": "Pentru preț întrebăm How much is it?" },
+    { "type": "fill", "q": "We don't have ___ chairs in the office, only four.", "answers": ["many", "a lot of"], "explainRo": "Chairs este numărabil la plural, iar în negații folosim many (sau a lot of)." },
+    { "type": "fill", "q": "I placed an ___ online and the delivery was fast.", "answers": ["order"], "explainRo": "Place an order = a plasa o comandă." },
+    { "type": "fill", "q": "There ___ (be) a lot of information on this website.", "answers": ["is"], "explainRo": "Information este nenumărabil, deci verbul e la singular: is." },
+    { "type": "listen", "audio": "How much does it cost?", "answers": ["How much does it cost?"], "ro": "Cât costă?", "explainRo": "How much does it cost? – întrebarea standard pentru preț." },
+    { "type": "listen", "audio": "Can I pay in cash?", "answers": ["Can I pay in cash?"], "ro": "Pot plăti cash?", "explainRo": "Pay in cash = a plăti cu bani gheață; pay by card = cu cardul." },
+    { "type": "order", "words": ["How", "many", "items", "are", "in", "your", "cart?"], "ro": "Câte produse sunt în coșul tău?", "explainRo": "How many + substantiv la plural + are..." },
+    { "type": "order", "words": ["I", "don't", "have", "much", "money", "this", "month."], "ro": "Nu am mulți bani luna aceasta.", "explainRo": "Money este nenumărabil: not much money." },
+    { "type": "order", "words": ["She", "bought", "a", "lot", "of", "furniture."], "ro": "Ea a cumpărat multă mobilă.", "explainRo": "În afirmații: a lot of + substantiv nenumărabil." },
+    { "type": "translate", "ro": "Cât costă căștile acestea?", "answers": ["How much are these headphones?", "How much do these headphones cost?"], "explainRo": "Headphones este la plural, deci How much are... sau How much do... cost?" },
+    { "type": "translate", "ro": "Nu avem mult timp.", "answers": ["We don't have much time.", "We do not have much time.", "We haven't got much time.", "We have not got much time.", "We don't have a lot of time.", "We do not have a lot of time."], "explainRo": "Time este nenumărabil, deci în negație: not much time." }
+  ],
+  "video": {
+    "youtubeId": "uQIuZ6YJ760",
+    "title": "MUCH or MANY or A LOT OF??? Countable and Uncountable Nouns! (English with Lucy)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u03",
+  "questions": [
+    { "type": "mc", "q": "Maria is at the airport with ___ husband.", "options": ["her", "his", "their"], "answer": 0, "explainRo": "Soțul este al Mariei (o femeie), deci folosim **her** — contează cine are, nu ce are." },
+    { "type": "mc", "q": "Sara is Tom's wife. Tom is Sara's ___.", "options": ["brother", "son", "father", "husband"], "answer": 3, "explainRo": "Bărbatul cu care este căsătorită o femeie este **husband** (soț)." },
+    { "type": "fill", "q": "Ben is my ___ (coleg de echipă). He's a great designer.", "answers": ["teammate", "team mate", "team-mate"], "explainRo": "**Teammate** = coleg de echipă." },
+    { "type": "mc", "q": "Our client ___ got a big company in Germany.", "options": ["have", "has", "are"], "answer": 1, "explainRo": "Our client = he/she, deci folosim **has got**." },
+    { "type": "mc", "q": "The hotel is nice, but ___ restaurant is very small.", "options": ["it's", "his", "its"], "answer": 2, "explainRo": "Pentru lucruri folosim **its** (al lui / al ei); **it's** înseamnă „it is”." },
+    { "type": "fill", "q": "___ husband is a pilot. (Laura)", "answers": ["Laura's", "Laura’s"], "explainRo": "Soțul Laurei = **Laura's husband** (numele + 's, apoi persoana)." },
+    { "type": "mc", "q": "Has your sister got a car? — No, she ___.", "options": ["isn't", "haven't", "hasn't"], "answer": 2, "explainRo": "La întrebarea **Has she got...?** răspundem scurt cu **has / hasn't**: No, she hasn't." },
+    { "type": "fill", "q": "Sorry, I ___ got your phone number. (not / have)", "answers": ["haven't", "have not"], "explainRo": "Cu **I** negația este **haven't got** / **have not got**." },
+    { "type": "order", "words": ["Have", "your", "parents", "got", "a", "dog?"], "ro": "Părinții tăi au un câine?", "explainRo": "Întrebarea: **Have** + subiect (your parents) + **got** + ...?" },
+    { "type": "order", "words": ["My", "sister's", "husband", "is", "a", "doctor."], "ro": "Soțul surorii mele este medic.", "explainRo": "Întâi proprietarul cu 's (**my sister's**), apoi persoana (**husband**)." },
+    { "type": "listen", "audio": "Her son hasn't got a phone.", "answers": ["Her son hasn't got a phone.", "Her son has not got a phone."], "ro": "Fiul ei nu are telefon.", "explainRo": "**Her** = al ei; son = he, deci negația este **hasn't got**." },
+    { "type": "translate", "ro": "Bunicii lui Sorin au un câine și o pisică.", "answers": ["Sorin's grandparents have got a dog and a cat.", "Sorin's grandparents have a dog and a cat.", "Sorin’s grandparents have got a dog and a cat.", "Sorin’s grandparents have a dog and a cat."], "explainRo": "Bunicii lui Sorin = **Sorin's grandparents**; sunt mai mulți (they), deci **have got**, nu „has got”." }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "a1-u05",
+  "level": "A1",
+  "order": 5,
+  "title": "A day in my life",
+  "titleRo": "O zi din viața mea",
+  "emoji": "⏰",
+  "goalRo": "La final vei putea să descrii rutina ta zilnică și o zi de muncă și să spui cât e ceasul.",
+  "vocab": [
+    { "en": "get up", "ro": "a se trezi / a se da jos din pat", "pos": "verb", "ipa": "/ˌɡet ˈʌp/", "emoji": "🛏️", "ex": "I get up at seven o'clock.", "exRo": "Mă trezesc la ora șapte." },
+    { "en": "have breakfast", "ro": "a lua micul dejun", "pos": "phrase", "ipa": "/hæv ˈbrekfəst/", "emoji": "🥐", "ex": "We have breakfast at half past seven.", "exRo": "Luăm micul dejun la șapte și jumătate." },
+    { "en": "take a shower", "ro": "a face duș", "pos": "phrase", "ipa": "/ˌteɪk ə ˈʃaʊə/", "emoji": "🚿", "ex": "She takes a shower in the morning.", "exRo": "Ea face duș dimineața." },
+    { "en": "go to work", "ro": "a merge la serviciu", "pos": "phrase", "ipa": "/ˌɡəʊ tə ˈwɜːk/", "emoji": "🚌", "ex": "He goes to work by bus.", "exRo": "El merge la serviciu cu autobuzul." },
+    { "en": "start work", "ro": "a începe lucrul", "pos": "phrase", "ipa": "/ˌstɑːt ˈwɜːk/", "emoji": "▶️", "ex": "I start work at nine.", "exRo": "Încep lucrul la nouă." },
+    { "en": "check emails", "ro": "a verifica e-mailurile", "pos": "phrase", "ipa": "/ˌtʃek ˈiːmeɪlz/", "emoji": "📨", "ex": "I check my emails with a coffee.", "exRo": "Îmi verific e-mailurile cu o cafea în mână." },
+    { "en": "write code", "ro": "a scrie cod", "pos": "phrase", "ipa": "/ˌraɪt ˈkəʊd/", "emoji": "👨‍💻", "ex": "Andrei writes code every day.", "exRo": "Andrei scrie cod în fiecare zi." },
+    { "en": "meeting", "ro": "ședință / întâlnire", "pos": "noun", "ipa": "/ˈmiːtɪŋ/", "emoji": "📅", "ex": "The team has a meeting at ten.", "exRo": "Echipa are o ședință la zece." },
+    { "en": "have lunch", "ro": "a lua prânzul", "pos": "phrase", "ipa": "/hæv ˈlʌntʃ/", "emoji": "🥗", "ex": "We have lunch at one o'clock.", "exRo": "Luăm prânzul la ora unu." },
+    { "en": "finish work", "ro": "a termina lucrul", "pos": "phrase", "ipa": "/ˌfɪnɪʃ ˈwɜːk/", "emoji": "🏁", "ex": "She finishes work at five.", "exRo": "Ea termină lucrul la cinci." },
+    { "en": "go home", "ro": "a merge acasă", "pos": "phrase", "ipa": "/ˌɡəʊ ˈhəʊm/", "emoji": "🏠", "ex": "Then I go home.", "exRo": "Apoi merg acasă." },
+    { "en": "have dinner", "ro": "a lua cina", "pos": "phrase", "ipa": "/hæv ˈdɪnə/", "emoji": "🍽️", "ex": "We have dinner at seven with the children.", "exRo": "Luăm cina la șapte cu copiii." },
+    { "en": "go to bed", "ro": "a merge la culcare", "pos": "phrase", "ipa": "/ˌɡəʊ tə ˈbed/", "emoji": "😴", "ex": "I go to bed at eleven.", "exRo": "Mă culc la unsprezece." },
+    { "en": "o'clock", "ro": "ora fixă (ex. ora opt)", "pos": "adv", "ipa": "/əˈklɒk/", "emoji": "🕗", "ex": "It's eight o'clock.", "exRo": "Este ora opt." },
+    { "en": "half past", "ro": "și jumătate", "pos": "phrase", "ipa": "/ˈhɑːf pɑːst/", "emoji": "🕦", "ex": "It's half past eleven.", "exRo": "Este unsprezece și jumătate." },
+    { "en": "quarter past", "ro": "și un sfert", "pos": "phrase", "ipa": "/ˈkwɔːtə pɑːst/", "emoji": "🕒", "ex": "The meeting is at quarter past ten.", "exRo": "Ședința este la zece și un sfert." },
+    { "en": "quarter to", "ro": "fără un sfert", "pos": "phrase", "ipa": "/ˈkwɔːtə tə/", "emoji": "🕘", "ex": "It's quarter to nine.", "exRo": "Este nouă fără un sfert." },
+    { "en": "every day", "ro": "în fiecare zi", "pos": "phrase", "ipa": "/ˌevri ˈdeɪ/", "emoji": "📆", "ex": "I drink coffee every day.", "exRo": "Beau cafea în fiecare zi." }
+  ],
+  "grammar": {
+    "title": "Present simple (affirmative) + telling the time",
+    "titleRo": "Prezentul simplu (afirmativ) și ora",
+    "sections": [
+      {
+        "headingRo": "Când folosim prezentul simplu?",
+        "textRo": "Folosim **present simple** pentru lucruri pe care le facem **în mod obișnuit**: rutine, obiceiuri, programul de lucru. Gândește-te la cuvinte ca **every day** (în fiecare zi), **in the morning** (dimineața), **in the evening** (seara).",
+        "examples": [
+          { "en": "I work from home.", "ro": "Lucrez de acasă." },
+          { "en": "We start work at nine every day.", "ro": "Începem lucrul la nouă în fiecare zi." },
+          { "en": "They have lunch in the office.", "ro": "Ei iau prânzul la birou." }
+        ]
+      },
+      {
+        "headingRo": "Regula de aur: he / she / it + -s",
+        "textRo": "Verbul rămâne la fel pentru I, you, we, they. Doar la **he, she, it** adaugi **-s**: I work → she work**s**. Asta e cea mai importantă regulă a lecției!",
+        "table": {
+          "headers": ["Persoană", "work", "write"],
+          "rows": [["I / you / we / they", "work", "write"], ["he / she / it", "works", "writes"]]
+        },
+        "examples": [
+          { "en": "I write code. Ana writes code too.", "ro": "Eu scriu cod. Și Ana scrie cod." },
+          { "en": "My boss starts work at eight.", "ro": "Șeful meu începe lucrul la opt." }
+        ]
+      },
+      {
+        "headingRo": "Cum scriem forma cu -s",
+        "textRo": "După -sh, -ch, -ss, -x, -o adaugi **-es**: finish → finish**es**, watch → watch**es**, go → go**es**. Consoană + **y** devine **-ies**: study → stud**ies**. Și verbul **have** devine **has**: she **has** lunch.",
+        "table": {
+          "headers": ["Verb", "he / she / it"],
+          "rows": [["go", "goes"], ["finish", "finishes"], ["watch", "watches"], ["study", "studies"], ["have", "has"]]
+        },
+        "examples": [
+          { "en": "She goes to work by bus.", "ro": "Ea merge la serviciu cu autobuzul." },
+          { "en": "He has a meeting at ten.", "ro": "El are o ședință la zece." },
+          { "en": "Ioana finishes work at five.", "ro": "Ioana termină lucrul la cinci." }
+        ]
+      },
+      {
+        "headingRo": "Cât e ceasul?",
+        "textRo": "Întrebăm: **What time is it?** Pentru ora fixă: **It's nine o'clock**. Pentru minute folosim **past** (și) și **to** (fără): **quarter past nine** (9:15), **half past nine** (9:30), **quarter to ten** (9:45). Varianta simplă, ca la ceasul digital, e și ea corectă: **It's nine thirty**. Pentru „la ora...” folosim **at**: at seven o'clock.",
+        "table": {
+          "headers": ["Ora", "Engleză"],
+          "rows": [["9:00", "nine o'clock"], ["9:15", "quarter past nine"], ["9:20", "twenty past nine"], ["9:30", "half past nine / nine thirty"], ["9:45", "quarter to ten"], ["9:50", "ten to ten"]]
+        },
+        "examples": [
+          { "en": "What time is it? — It's half past two.", "ro": "Cât e ceasul? — E două și jumătate." },
+          { "en": "The call is at quarter to four.", "ro": "Apelul este la patru fără un sfert." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu uita **-s** la he/she/it: nu „He work”, ci **He works**.",
+      "Nu „she haves”, ci **she has**.",
+      "Ora se spune cu **at**: **at** eight o'clock (nu „in eight” sau „on eight”).",
+      "**Half past eight** = opt și jumătate (8:30), exact ca în română."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Small talk înainte de un apel cu un client",
+    "lines": [
+      { "speaker": "Mark", "en": "So, Andrei, tell me about your work day.", "ro": "Deci, Andrei, povestește-mi despre o zi de lucru." },
+      { "speaker": "Andrei", "en": "Well, I get up at seven. I check my emails at half past seven.", "ro": "Păi, mă trezesc la șapte. Îmi verific e-mailurile la șapte și jumătate." },
+      { "speaker": "Mark", "en": "Wow, early! I get up at nine.", "ro": "Uau, devreme! Eu mă trezesc la nouă." },
+      { "speaker": "Andrei", "en": "I start work at eight. I write code in the morning.", "ro": "Încep lucrul la opt. Dimineața scriu cod." },
+      { "speaker": "Mark", "en": "My team has a meeting every day at quarter past nine.", "ro": "Echipa mea are ședință în fiecare zi la nouă și un sfert." },
+      { "speaker": "Andrei", "en": "We have a meeting at ten. Then I have lunch at one.", "ro": "Noi avem ședință la zece. Apoi iau prânzul la unu." },
+      { "speaker": "Mark", "en": "And you finish work at five?", "ro": "Și termini lucrul la cinci?" },
+      { "speaker": "Andrei", "en": "Yes. Then I go home and I play with my son.", "ro": "Da. Apoi merg acasă și mă joc cu fiul meu." }
+    ]
+  },
+  "reading": {
+    "title": "Ioana's work day",
+    "text": "Ioana is a developer in Bucharest. Every day, she gets up at half past six. She takes a shower and has breakfast: coffee and toast.\n\nShe goes to work by bus. She starts work at eight o'clock. First, she checks her emails. Then she writes code. The team has a meeting at quarter past ten.\n\nIoana has lunch with Ana at one. She finishes work at five and goes home. She has dinner at seven and goes to bed at eleven.",
+    "textRo": "Ioana este programatoare în București. În fiecare zi se trezește la șase și jumătate. Face duș și ia micul dejun: cafea și pâine prăjită.\n\nMerge la serviciu cu autobuzul. Începe lucrul la ora opt. Mai întâi își verifică e-mailurile. Apoi scrie cod. Echipa are o ședință la zece și un sfert.\n\nIoana ia prânzul cu Ana la unu. Termină lucrul la cinci și merge acasă. Ia cina la șapte și se culcă la unsprezece.",
+    "questions": [
+      { "type": "mc", "q": "Ioana gets up at ___.", "options": ["6:00", "6:30", "7:30"], "answer": 1, "explainRo": "„Half past six” = 6:30." },
+      { "type": "mc", "q": "The team meeting is at ___.", "options": ["10:15", "10:45", "10:30", "11:15"], "answer": 0, "explainRo": "„Quarter past ten” = 10:15." },
+      { "type": "mc", "q": "Ioana has lunch with ___.", "options": ["Mihai", "Paul", "Ana"], "answer": 2, "explainRo": "Textul spune: „Ioana has lunch with Ana at one”." },
+      { "type": "mc", "q": "She goes to bed at ___.", "options": ["ten", "nine", "eleven"], "answer": 2, "explainRo": "Textul spune: „goes to bed at eleven”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "She ___ at seven o'clock.", "options": ["get up", "gets up", "getting up"], "answer": 1, "explainRo": "Cu **she** verbul primește **-s**: gets up." },
+    { "type": "mc", "q": "I ___ code every day.", "options": ["write", "writes", "am write"], "answer": 0, "explainRo": "Cu **I** verbul rămâne neschimbat: write." },
+    { "type": "mc", "q": "Andrei ___ to work by bus.", "options": ["go", "gos", "goes"], "answer": 2, "explainRo": "**Go** la he/she/it devine **goes**." },
+    { "type": "mc", "q": "My boss ___ a meeting every day.", "options": ["have", "has", "haves"], "answer": 1, "explainRo": "**Have** la he/she/it devine **has**." },
+    { "type": "mc", "q": "It's 8:30. It's ___.", "options": ["eight o'clock", "half past seven", "half past eight"], "answer": 2, "explainRo": "8:30 = **half past eight** (opt și jumătate)." },
+    { "type": "mc", "q": "It's 9:15. It's ___.", "options": ["quarter to nine", "quarter past nine", "nine fifty"], "answer": 1, "explainRo": "9:15 = **quarter past nine** (nouă și un sfert)." },
+    { "type": "mc", "q": "It's 10:45. It's ___.", "options": ["quarter to eleven", "quarter past ten", "quarter to ten"], "answer": 0, "explainRo": "10:45 = **quarter to eleven** (unsprezece fără un sfert)." },
+    { "type": "mc", "q": "We have lunch ___ one o'clock.", "options": ["in", "on", "at"], "answer": 2, "explainRo": "Cu ora folosim **at**: at one o'clock." },
+    { "type": "mc", "q": "„A lua micul dejun” în engleză este:", "options": ["have dinner", "have breakfast", "have lunch", "go to bed"], "answer": 1, "explainRo": "**Breakfast** = micul dejun, **lunch** = prânz, **dinner** = cină." },
+    { "type": "fill", "q": "He ___ (finish) work at five.", "answers": ["finishes"], "explainRo": "După -sh adăugăm **-es**: finishes." },
+    { "type": "fill", "q": "Ana ___ (study) English in the evening.", "answers": ["studies"], "explainRo": "Consoană + y → **-ies**: studies." },
+    { "type": "fill", "q": "They ___ (check) their emails in the morning.", "answers": ["check"], "explainRo": "Cu **they** verbul rămâne fără -s." },
+    { "type": "order", "words": ["She", "starts", "work", "at", "nine", "o'clock."], "ro": "Ea începe lucrul la ora nouă.", "explainRo": "Subiect + verb cu -s + complement + at + oră." },
+    { "type": "order", "words": ["I", "go", "to", "bed", "at", "eleven."], "ro": "Mă culc la unsprezece.", "explainRo": "„Go to bed” este o expresie fixă: a merge la culcare." },
+    { "type": "order", "words": ["What", "time", "is", "it?"], "ro": "Cât e ceasul?", "explainRo": "Întrebarea pentru oră este **What time is it?**" },
+    { "type": "translate", "ro": "El bea cafea în fiecare zi.", "answers": ["He drinks coffee every day.", "Every day he drinks coffee."], "explainRo": "Cu **he** verbul primește -s: drinks." },
+    { "type": "translate", "ro": "Este ora trei și jumătate.", "answers": ["It's half past three.", "It is half past three.", "It's three thirty.", "It is three thirty."], "explainRo": "Trei și jumătate = **half past three** sau **three thirty**." },
+    { "type": "listen", "audio": "He gets up at seven o'clock.", "answers": ["He gets up at seven o'clock.", "He gets up at 7 o'clock."], "ro": "El se trezește la ora șapte.", "explainRo": "Fii atent la **-s** din „gets”." },
+    { "type": "listen", "audio": "We have a meeting every day.", "answers": ["We have a meeting every day."], "ro": "Avem o ședință în fiecare zi.", "explainRo": "Cu **we** folosim **have**, nu „has”." },
+    { "type": "match", "pairs": [["get up", "a se trezi"], ["go home", "a merge acasă"], ["meeting", "ședință"], ["every day", "în fiecare zi"], ["have dinner", "a lua cina"]] }
+  ],
+  "video": {
+    "youtubeId": "ecF1y2bI2T4",
+    "title": "Learn How To Talk About Your Daily Routine in English by Watching Me Act Out Mine (Bob the Canadian)"
+  }
+}

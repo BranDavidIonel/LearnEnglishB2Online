@@ -1,0 +1,17 @@
+{
+  "level": "A1",
+  "questions": [
+    { "type": "mc", "q": "I ___ a developer.", "options": ["is", "are", "am", "be"], "answer": 2, "explainRo": "Cu **I** verbul „to be” este **am**." },
+    { "type": "mc", "q": "___ you from Romania? — Yes, I am.", "options": ["Is", "Are", "Do", "Am"], "answer": 1, "explainRo": "Cu **you** întrebarea începe cu **Are**." },
+    { "type": "mc", "q": "She's ___ engineer.", "options": ["an", "a", "am", "is"], "answer": 0, "explainRo": "**Engineer** începe cu sunet de vocală, deci folosim **an**." },
+    { "type": "mc", "q": "Ana has got a brother. ___ name is Radu.", "options": ["Her", "His", "Its", "Their"], "answer": 1, "explainRo": "Fratele este bărbat, deci „numele lui” = **his** name." },
+    { "type": "mc", "q": "Look at ___ chairs over there!", "options": ["this", "these", "that", "those"], "answer": 3, "explainRo": "Plural și departe („over there”) → **those**." },
+    { "type": "mc", "q": "My boss ___ work at eight o'clock every day.", "options": ["start", "starts", "starting", "is start"], "answer": 1, "explainRo": "La present simple, cu he/she/it verbul primește **-s**: starts." },
+    { "type": "mc", "q": "It's 9:45. It's ___.", "options": ["quarter past nine", "quarter to nine", "quarter to ten", "half past nine"], "answer": 2, "explainRo": "9:45 = **quarter to ten** (zece fără un sfert)." },
+    { "type": "mc", "q": "___ your client like coffee?", "options": ["Do", "Is", "Does", "Are"], "answer": 2, "explainRo": "Your client = he/she, deci întrebarea începe cu **Does**." },
+    { "type": "mc", "q": "Are there ___ supermarkets near the hotel?", "options": ["any", "some", "a", "an"], "answer": 0, "explainRo": "În întrebări, cu plural, folosim **any**." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["I can to swim.", "I always am late.", "She can speak English.", "He cans drive."], "answer": 2, "explainRo": "După **can** vine verbul simplu, fără „to” și fără „-s”: She can speak English." },
+    { "type": "mc", "q": "Look! It ___ outside.", "options": ["rains", "is raining", "rain", "raining"], "answer": 1, "explainRo": "„Look!” arată că se întâmplă acum → present continuous: **is raining**." },
+    { "type": "mc", "q": "Last week we ___ at a small hotel near the beach.", "options": ["stay", "are staying", "stayed", "stays"], "answer": 2, "explainRo": "„Last week” = trecut → **stayed** (verb regulat + -ed)." }
+  ]
+}

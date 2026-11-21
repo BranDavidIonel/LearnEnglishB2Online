@@ -1,0 +1,140 @@
+{
+  "id": "b2-u09",
+  "level": "B2",
+  "order": 9,
+  "title": "What really matters is…: presenting and arguing",
+  "titleRo": "Ce contează cu adevărat este…: prezentări și argumentare",
+  "emoji": "🎙️",
+  "goalRo": "La final vei putea susține o prezentare și un punct de vedere despre teme globale, legând ideile cu conectori de contrast și cauză și punând accentul unde trebuie.",
+
+  "vocab": [
+    { "en": "key takeaway", "ro": "ideea principală de reținut", "pos": "noun", "ipa": "/ˌkiː ˈteɪk.ə.weɪ/", "emoji": "🔑", "ex": "The key takeaway from today's talk is simple: automate early.", "exRo": "Ideea principală a prezentării de azi e simplă: automatizează din timp." },
+    { "en": "counterargument", "ro": "contraargument", "pos": "noun", "ipa": "/ˈkaʊn.tərˌɑːɡ.jə.mənt/", "emoji": "🔄", "ex": "A strong presentation also answers the most obvious counterargument.", "exRo": "O prezentare solidă răspunde și celui mai evident contraargument." },
+    { "en": "back up", "ro": "a susține (cu dovezi)", "pos": "verb", "ipa": "/ˌbæk ˈʌp/", "emoji": "📊", "ex": "Can you back up that claim with real numbers?", "exRo": "Poți susține afirmația asta cu cifre reale?" },
+    { "en": "evidence", "ro": "dovezi", "pos": "noun", "ipa": "/ˈev.ɪ.dəns/", "emoji": "🔬", "ex": "There is plenty of evidence that remote teams can be productive.", "exRo": "Există numeroase dovezi că echipele la distanță pot fi productive." },
+    { "en": "bear in mind", "ro": "a ține cont de, a nu uita", "pos": "phrase", "ipa": "/ˌbeər ɪn ˈmaɪnd/", "emoji": "🧠", "ex": "Bear in mind that our audience isn't technical.", "exRo": "Ține cont că publicul nostru nu e tehnic." },
+    { "en": "sustainability", "ro": "sustenabilitate", "pos": "noun", "ipa": "/səˌsteɪ.nəˈbɪl.ə.ti/", "emoji": "♻️", "ex": "More and more clients ask about the sustainability of our hosting.", "exRo": "Tot mai mulți clienți întreabă despre sustenabilitatea serviciilor noastre de hosting." },
+    { "en": "carbon footprint", "ro": "amprentă de carbon", "pos": "noun", "ipa": "/ˌkɑː.bən ˈfʊt.prɪnt/", "emoji": "👣", "ex": "Flying to every meeting increases your carbon footprint.", "exRo": "Dacă zbori la fiecare întâlnire, îți crește amprenta de carbon." },
+    { "en": "renewable energy", "ro": "energie regenerabilă", "pos": "noun", "ipa": "/rɪˌnjuː.ə.bəl ˈen.ə.dʒi/", "emoji": "⚡", "ex": "The data centre runs entirely on renewable energy.", "exRo": "Centrul de date funcționează în întregime cu energie regenerabilă." },
+    { "en": "brain drain", "ro": "exodul creierelor", "pos": "noun", "ipa": "/ˈbreɪn ˌdreɪn/", "emoji": "✈️", "ex": "Remote work has slowed down the brain drain from Romania.", "exRo": "Munca la distanță a încetinit exodul creierelor din România." },
+    { "en": "misinformation", "ro": "dezinformare, informații false", "pos": "noun", "ipa": "/ˌmɪs.ɪn.fəˈmeɪ.ʃən/", "emoji": "📰", "ex": "Misinformation spreads faster than the truth on social media.", "exRo": "Informațiile false se răspândesc mai repede decât adevărul pe rețelele sociale." },
+    { "en": "digital divide", "ro": "decalaj digital", "pos": "noun", "ipa": "/ˌdɪdʒ.ɪ.təl dɪˈvaɪd/", "emoji": "🌐", "ex": "The digital divide between cities and villages is still huge.", "exRo": "Decalajul digital dintre orașe și sate este încă uriaș." },
+    { "en": "inequality", "ro": "inegalitate", "pos": "noun", "ipa": "/ˌɪn.ɪˈkwɒl.ə.ti/", "emoji": "📉", "ex": "Technology can reduce inequality, but it can also increase it.", "exRo": "Tehnologia poate reduce inegalitatea, dar o poate și accentua." },
+    { "en": "address", "ro": "a aborda, a trata (o problemă)", "pos": "verb", "ipa": "/əˈdres/", "emoji": "🎯", "ex": "Our next update addresses the most common complaints.", "exRo": "Următoarea noastră actualizare abordează cele mai frecvente reclamații." },
+    { "en": "controversial", "ro": "controversat", "pos": "adj", "ipa": "/ˌkɒn.trəˈvɜː.ʃəl/", "emoji": "🌶️", "ex": "Using AI to screen job candidates is still controversial.", "exRo": "Folosirea AI-ului pentru selecția candidaților este încă un subiect controversat." },
+    { "en": "wind turbine", "ro": "turbină eoliană", "pos": "noun", "ipa": "/ˈwɪnd ˌtɜː.baɪn/", "emoji": "🌬️", "wiki": "Wind turbine", "ex": "Dobrogea has hundreds of wind turbines.", "exRo": "Dobrogea are sute de turbine eoliene." },
+    { "en": "solar panel", "ro": "panou solar", "pos": "noun", "ipa": "/ˌsəʊ.lə ˈpæn.əl/", "emoji": "☀️", "wiki": "Solar panel", "ex": "We put solar panels on the roof of our office last year.", "exRo": "Anul trecut am pus panouri solare pe acoperișul biroului." }
+  ],
+
+  "grammar": {
+    "title": "Linkers of contrast and cause; emphasis with cleft sentences and inversion",
+    "titleRo": "Conectori de contrast și cauză; emfaza cu propoziții scindate și inversiune",
+    "sections": [
+      {
+        "headingRo": "Contrast și concesie",
+        "textRo": "**Although / even though / though** sunt urmate de o **propoziție** (subiect + verb). **Despite / in spite of** sunt urmate de un **substantiv**, de **-ing** sau de **the fact that**. **However, nevertheless, nonetheless** leagă două propoziții separate și stau de obicei la început, urmate de virgulă. **Whereas / while** compară două fapte opuse. Atenție: în română spunem „deși…, totuși”, dar în engleză nu punem *but* după *although*.",
+        "table": {
+          "headers": ["Conector", "Ce urmează", "Exemplu"],
+          "rows": [
+            ["although / even though", "propoziție", "Although it was expensive, they bought it."],
+            ["despite / in spite of", "substantiv / -ing", "Despite the price, they bought it."],
+            ["however / nevertheless", "propoziție nouă", "It was expensive. However, they bought it."],
+            ["whereas / while", "propoziție (contrast)", "I prefer Python, whereas she prefers Java."]
+          ]
+        },
+        "examples": [
+          { "en": "Even though the demo crashed, the client signed the contract.", "ro": "Deși demonstrația s-a blocat, clientul a semnat contractul." },
+          { "en": "Despite having little experience, she gave an excellent talk.", "ro": "În ciuda experienței reduse, a ținut o prezentare excelentă." },
+          { "en": "Cities have fast internet, whereas many villages still don't.", "ro": "Orașele au internet rapid, în timp ce multe sate încă nu au." }
+        ]
+      },
+      {
+        "headingRo": "Cauză și rezultat",
+        "textRo": "**Because of / due to / owing to** + **substantiv**: *due to the strike*. **Because / as / since** + **propoziție**: *as the flight was cancelled*. Pentru rezultat folosim **therefore, consequently, as a result** (mai formale decât *so*). **Due to** apare foarte des în emailuri și anunțuri: *Due to technical problems, the service is unavailable.*",
+        "examples": [
+          { "en": "Due to the high demand, we are hiring two more developers.", "ro": "Din cauza cererii mari, angajăm încă doi programatori." },
+          { "en": "As the client is in Canada, we usually meet in the evening.", "ro": "Cum clientul este în Canada, de obicei ne întâlnim seara." },
+          { "en": "Energy prices rose sharply. As a result, many factories cut production.", "ro": "Prețurile la energie au crescut brusc. Drept urmare, multe fabrici au redus producția." }
+        ]
+      },
+      {
+        "headingRo": "Emfaza: propoziții scindate și inversiune",
+        "textRo": "Ca să scoatem în evidență o idee într-o prezentare, folosim **propoziții scindate (cleft sentences)**: **It is/was + X + that/who…** (*It was the price that convinced them*) sau **What + subiect + verb + is/was…** (*What we need is better data*). **Inversiunea** după expresii negative sau restrictive – **Never, Rarely, Not only, Only then, Under no circumstances** – inversează subiectul și auxiliarul, ca la întrebări: *Never have I seen such a fast growth.* Sună formal și dramatic, perfect pentru prezentări.",
+        "table": {
+          "headers": ["Neutru", "Cu emfază"],
+          "rows": [
+            ["The price convinced them.", "It was the price that convinced them."],
+            ["We need more time.", "What we need is more time."],
+            ["I have never seen such results.", "Never have I seen such results."],
+            ["It is cheap and it is also fast.", "Not only is it cheap, but it is also fast."]
+          ]
+        },
+        "examples": [
+          { "en": "What surprised me most was the audience's reaction.", "ro": "Ce m-a surprins cel mai mult a fost reacția publicului." },
+          { "en": "It is small businesses that suffer most from bad software.", "ro": "Micile afaceri sunt cele care suferă cel mai mult din cauza software-ului prost." },
+          { "en": "Not only does solar energy reduce costs, but it also cuts emissions.", "ro": "Energia solară nu doar reduce costurile, ci și scade emisiile." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „despite of”. Corect: **despite** sau **in spite of**.",
+      "Nu combina **although** cu **but**: „Although it was late, but we continued” e greșit. Corect: **Although it was late, we continued.**",
+      "După **despite** nu poate urma direct o propoziție: **Despite the fact that it rained…**, nu „Despite it rained…”.",
+      "La inversiune ai nevoie de auxiliar: **Rarely do we see this**, nu „Rarely we see this”."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Repetiție înaintea unei prezentări",
+    "lines": [
+      { "speaker": "Irina", "en": "Let's hear your opening. Remember, the audience is mostly non-technical.", "ro": "Hai să auzim începutul. Ține minte, publicul e în mare parte non-tehnic." },
+      { "speaker": "Andrei", "en": "OK. 'Although Romania has excellent developers, many small businesses still run on paper.'", "ro": "Bine. „Deși România are programatori excelenți, multe afaceri mici încă funcționează pe hârtie.”" },
+      { "speaker": "Irina", "en": "Good. Can you back that up with evidence?", "ro": "Bine. Poți susține asta cu dovezi?" },
+      { "speaker": "Andrei", "en": "Yes, there's a slide with survey data. Due to the digital divide, rural firms are three times less likely to use a CRM.", "ro": "Da, am un slide cu date dintr-un sondaj. Din cauza decalajului digital, firmele din mediul rural folosesc de trei ori mai rar un CRM." },
+      { "speaker": "Irina", "en": "Nice. But what about the obvious counterargument – that software is too expensive for them?", "ro": "Frumos. Dar ce faci cu contraargumentul evident – că software-ul e prea scump pentru ei?" },
+      { "speaker": "Andrei", "en": "I'll say: 'It isn't the price that stops them – it's the fear of change.' Then I show the case study.", "ro": "O să spun: „Nu prețul îi oprește – ci frica de schimbare.” Apoi arăt studiul de caz." },
+      { "speaker": "Irina", "en": "Strong. And finish with one clear key takeaway, not five.", "ro": "Puternic. Și încheie cu o singură idee principală clară, nu cu cinci." },
+      { "speaker": "Andrei", "en": "Got it: 'What small businesses need isn't more technology, but simpler technology.'", "ro": "Am înțeles: „Ceea ce le trebuie micilor afaceri nu e mai multă tehnologie, ci tehnologie mai simplă.”" }
+    ]
+  },
+
+  "reading": {
+    "title": "Can remote work stop the brain drain?",
+    "text": "For decades, Romania has been losing its brightest young people. Doctors, engineers and programmers left for Germany, the UK or the US because of higher salaries and better opportunities. Economists called it a classic brain drain, and few believed it could be reversed.\n\nThe pandemic, however, changed the picture. Suddenly, a developer in Brașov could work for a company in Amsterdam without moving. Not only did this allow people to earn Western salaries, but it also meant they could stay close to their families. In some mountain towns, coworking spaces opened for the first time, and young professionals began to return.\n\nCritics point out that the effect is limited. Although remote work benefits highly skilled workers, it does little for nurses or teachers, whose jobs cannot be done online. Moreover, the digital divide remains a serious problem: while big cities enjoy some of the fastest internet speeds in Europe, many villages still have unreliable connections. As a result, the benefits are distributed very unequally, which may even increase inequality.\n\nThere is also a counterargument from the companies' side. Despite the lower costs, some employers are now asking staff to return to the office, claiming that innovation suffers when teams never meet.\n\nSo what is the answer? What the evidence suggests is that remote work alone will not solve the problem. It is investment in infrastructure, schools and local businesses that will decide whether people stay. Remote work has opened the door; whether it stays open depends on everyone else.",
+    "textRo": "De zeci de ani, România își pierde cei mai străluciți tineri. Medici, ingineri și programatori au plecat în Germania, Marea Britanie sau SUA din cauza salariilor mai mari și a oportunităților mai bune. Economiștii au numit fenomenul un exod clasic al creierelor și puțini credeau că poate fi inversat.\n\nPandemia a schimbat însă imaginea. Dintr-odată, un programator din Brașov putea lucra pentru o companie din Amsterdam fără să se mute. Asta nu doar le-a permis oamenilor să câștige salarii occidentale, ci a însemnat și că puteau rămâne aproape de familiile lor. În unele orășele de munte s-au deschis pentru prima dată spații de coworking, iar tinerii profesioniști au început să se întoarcă.\n\nCriticii subliniază că efectul este limitat. Deși munca la distanță îi avantajează pe lucrătorii foarte calificați, ea ajută prea puțin asistentele sau profesorii, ale căror meserii nu pot fi practicate online. Mai mult, decalajul digital rămâne o problemă serioasă: în timp ce marile orașe se bucură de unele dintre cele mai rapide conexiuni la internet din Europa, multe sate au încă conexiuni nesigure. Drept urmare, beneficiile sunt distribuite foarte inegal, ceea ce ar putea chiar să accentueze inegalitatea.\n\nExistă și un contraargument din partea companiilor. În ciuda costurilor mai mici, unii angajatori le cer acum angajaților să revină la birou, susținând că inovația are de suferit atunci când echipele nu se întâlnesc niciodată.\n\nAșadar, care este răspunsul? Ceea ce sugerează dovezile este că munca la distanță singură nu va rezolva problema. Investițiile în infrastructură, școli și afaceri locale sunt cele care vor decide dacă oamenii rămân. Munca la distanță a deschis ușa; dacă aceasta va rămâne deschisă depinde de toți ceilalți.",
+    "questions": [
+      { "type": "mc", "q": "Why did many young Romanians leave the country in the past?", "options": ["Because of the pandemic", "Because of higher salaries and better opportunities abroad", "Because coworking spaces closed", "Because they wanted to work remotely"], "answer": 1, "explainRo": "Au plecat „because of higher salaries and better opportunities”." },
+      { "type": "mc", "q": "According to critics, who does remote work NOT help much?", "options": ["Programmers", "Engineers", "Nurses and teachers", "Young professionals in Brașov"], "answer": 2, "explainRo": "Munca la distanță „does little for nurses or teachers”." },
+      { "type": "mc", "q": "Why might remote work increase inequality?", "options": ["Its benefits are distributed very unequally.", "It reduces salaries in big cities.", "It forces people to move abroad.", "Companies pay remote workers less."], "answer": 0, "explainRo": "Beneficiile sunt distribuite foarte inegal din cauza decalajului digital." },
+      { "type": "mc", "q": "What is the author's main conclusion?", "options": ["Remote work has completely solved the brain drain.", "Companies should ban remote work.", "Young people should move to Amsterdam.", "Investment in infrastructure, schools and local businesses is essential."], "answer": 3, "explainRo": "„It is investment in infrastructure, schools and local businesses that will decide whether people stay.”" }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "___ the bad weather, our flight left on time.", "options": ["Although", "Despite", "However", "Even though"], "answer": 1, "explainRo": "După **despite** urmează un substantiv (the bad weather)." },
+    { "type": "mc", "q": "___ the client liked the design, he refused to pay the full price.", "options": ["In spite of", "Despite", "Even though", "Due to"], "answer": 2, "explainRo": "**Even though** este urmat de o propoziție completă (subiect + verb)." },
+    { "type": "mc", "q": "The project was very difficult. ___, we delivered it on time.", "options": ["Nevertheless", "Although", "Despite", "Whereas"], "answer": 0, "explainRo": "**Nevertheless** leagă două propoziții separate și stă la început, cu virgulă." },
+    { "type": "mc", "q": "The train was cancelled ___ a strike.", "options": ["because", "since", "although", "due to"], "answer": 3, "explainRo": "**Due to + substantiv**; *because* și *since* cer o propoziție." },
+    { "type": "mc", "q": "My brother loves big cities, ___ I prefer quiet villages.", "options": ["whereas", "despite", "therefore", "in spite of"], "answer": 0, "explainRo": "**Whereas** pune în contrast două fapte opuse." },
+    { "type": "mc", "q": "Never ___ such a successful product launch.", "options": ["I have seen", "have I seen", "I saw", "did I saw"], "answer": 1, "explainRo": "După **Never** la început urmează inversiunea: **auxiliar + subiect**." },
+    { "type": "mc", "q": "___ we need is a simpler interface, not more features.", "options": ["That", "Which", "What", "It"], "answer": 2, "explainRo": "Propoziție scindată cu **What**: *What we need is…*" },
+    { "type": "mc", "q": "It was the lack of training ___ caused most of the problems.", "options": ["what", "which it", "where", "that"], "answer": 3, "explainRo": "Structura **It was + X + that…** scoate în evidență cauza." },
+    { "type": "mc", "q": "Flying less is one of the easiest ways to reduce your ___.", "options": ["carbon footprint", "brain drain", "key takeaway", "digital divide"], "answer": 0, "explainRo": "**Carbon footprint** = cantitatea de CO₂ produsă de activitățile tale." },
+    { "type": "fill", "q": "Not only ___ the new system faster, but it is also cheaper.", "answers": ["is"], "explainRo": "După **Not only** la început folosim inversiunea: **is the new system**." },
+    { "type": "fill", "q": "In spite ___ the delays, the client was happy with the result.", "answers": ["of"], "explainRo": "Expresia completă este **in spite of**." },
+    { "type": "fill", "q": "Can you ___ up your argument with some real data?", "answers": ["back"], "explainRo": "**Back up** = a susține o afirmație cu dovezi." },
+    { "type": "order", "words": ["Although", "it", "was", "late,", "we", "kept", "working."], "ro": "Deși era târziu, am continuat să lucrăm.", "explainRo": "**Although + propoziție**, fără *but* în a doua parte." },
+    { "type": "order", "words": ["What", "surprised", "me", "was", "the", "price."], "ro": "Ce m-a surprins a fost prețul.", "explainRo": "Propoziție scindată cu **What…was**." },
+    { "type": "order", "words": ["Rarely", "do", "we", "see", "such", "good", "results."], "ro": "Rareori vedem rezultate atât de bune.", "explainRo": "După **Rarely** la început: inversiune cu **do**." },
+    { "type": "translate", "ro": "În ciuda prețului, au cumpărat sistemul.", "answers": ["Despite the price, they bought the system.", "In spite of the price, they bought the system.", "Despite the price they bought the system.", "They bought the system despite the price.", "They bought the system in spite of the price."], "explainRo": "„În ciuda” = **despite / in spite of** + substantiv." },
+    { "type": "translate", "ro": "Din cauza grevei, ședința a fost amânată.", "answers": ["Due to the strike, the meeting was postponed.", "Because of the strike, the meeting was postponed.", "Owing to the strike, the meeting was postponed.", "The meeting was postponed due to the strike.", "The meeting was postponed because of the strike.", "Due to the strike, the meeting was put off.", "Because of the strike, the meeting was put off."], "explainRo": "„Din cauza” + substantiv = **due to / because of / owing to**." },
+    { "type": "listen", "audio": "Bear in mind that the audience isn't technical.", "answers": ["Bear in mind that the audience isn't technical.", "Bear in mind that the audience is not technical."], "ro": "Ține cont că publicul nu e tehnic.", "explainRo": "**Bear in mind** = a ține cont de ceva." },
+    { "type": "listen", "audio": "It was the price that convinced them.", "answers": ["It was the price that convinced them."], "ro": "Prețul a fost cel care i-a convins.", "explainRo": "**It was + X + that…** scoate în evidență un element al propoziției." },
+    { "type": "match", "pairs": [["sustainability", "sustenabilitate"], ["counterargument", "contraargument"], ["controversial", "controversat"], ["inequality", "inegalitate"], ["address", "a aborda, a trata (o problemă)"]] }
+  ],
+
+  "video": {
+    "youtubeId": "UFuxlnUeGmg",
+    "title": "How to express opposing ideas in English: despite, although, nevertheless, in spite of... (English with Emma · engVid)"
+  }
+}

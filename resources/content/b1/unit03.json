@@ -1,0 +1,129 @@
+{
+  "id": "b1-u03",
+  "level": "B1",
+  "order": 3,
+  "title": "What have you been up to?",
+  "titleRo": "Ce-ai mai făcut în ultima vreme?",
+  "emoji": "🏗️",
+  "goalRo": "La final vei putea să vorbești despre proiecte în desfășurare, hobby-uri și stilul tău de viață, folosind present perfect continuous.",
+  "vocab": [
+    { "en": "refactor", "ro": "a refactoriza (a rescrie cod fără să schimbi ce face)", "pos": "verb", "ipa": "/ˌriːˈfæk.tər/", "emoji": "♻️", "ex": "We've been refactoring the login module all week.", "exRo": "Refactorizăm modulul de login de o săptămână." },
+    { "en": "migrate", "ro": "a migra, a muta (date, un sistem)", "pos": "verb", "ipa": "/maɪˈɡreɪt/", "emoji": "🚚", "ex": "We're migrating the customer data to a new database.", "exRo": "Migrăm datele clienților într-o bază de date nouă." },
+    { "en": "legacy code", "ro": "cod vechi, moștenit", "pos": "noun", "ipa": "/ˈleɡ.ə.si kəʊd/", "emoji": "🦖", "ex": "Nobody wants to touch the legacy code.", "exRo": "Nimeni nu vrea să se atingă de codul vechi." },
+    { "en": "progress", "ro": "progres", "pos": "noun", "ipa": "/ˈprəʊ.ɡres/", "emoji": "📶", "ex": "We've made good progress this week.", "exRo": "Am făcut progrese bune săptămâna aceasta." },
+    { "en": "exhausted", "ro": "epuizat, extenuat", "pos": "adj", "ipa": "/ɪɡˈzɔː.stɪd/", "emoji": "😩", "ex": "I'm exhausted because I've been working since six.", "exRo": "Sunt epuizat pentru că lucrez de la șase." },
+    { "en": "take up", "ro": "a se apuca de (un hobby)", "pos": "verb", "ipa": "/ˌteɪk ˈʌp/", "emoji": "🎸", "ex": "I took up the guitar last summer.", "exRo": "M-am apucat de chitară vara trecută." },
+    { "en": "work out", "ro": "a face sport, a se antrena", "pos": "verb", "ipa": "/ˌwɜːk ˈaʊt/", "emoji": "🏋️", "ex": "She works out at the gym before work.", "exRo": "Se antrenează la sală înainte de serviciu." },
+    { "en": "give up", "ro": "a renunța (la)", "pos": "verb", "ipa": "/ˌɡɪv ˈʌp/", "emoji": "🏳️", "ex": "He has given up coffee for a month.", "exRo": "A renunțat la cafea pentru o lună." },
+    { "en": "work-life balance", "ro": "echilibru între muncă și viața personală", "pos": "noun", "ipa": "/ˌwɜːk laɪf ˈbæl.əns/", "emoji": "⚖️", "ex": "Freelancing has improved my work-life balance.", "exRo": "Munca de freelancer mi-a îmbunătățit echilibrul dintre muncă și viața personală." },
+    { "en": "side project", "ro": "proiect personal (pe lângă job)", "pos": "noun", "ipa": "/ˈsaɪd ˌprɒdʒ.ekt/", "emoji": "🧪", "ex": "My side project is a small app for tracking expenses.", "exRo": "Proiectul meu personal e o aplicație mică pentru urmărirea cheltuielilor." },
+    { "en": "climbing", "ro": "escaladă, cățărare", "pos": "noun", "ipa": "/ˈklaɪ.mɪŋ/", "emoji": "🧗", "wiki": "Climbing", "ex": "I've been going climbing every Sunday.", "exRo": "Merg la cățărare în fiecare duminică." },
+    { "en": "sourdough", "ro": "pâine cu maia", "pos": "noun", "ipa": "/ˈsaʊə.dəʊ/", "emoji": "🍞", "wiki": "Sourdough", "ex": "My girlfriend has been baking sourdough at home.", "exRo": "Prietena mea face pâine cu maia acasă." },
+    { "en": "keep up with", "ro": "a ține pasul cu", "pos": "verb", "ipa": "/ˌkiːp ˈʌp wɪð/", "emoji": "🏃", "ex": "It's hard to keep up with all the new frameworks.", "exRo": "E greu să ții pasul cu toate framework-urile noi." },
+    { "en": "lately", "ro": "în ultima vreme", "pos": "adv", "ipa": "/ˈleɪt.li/", "emoji": "🗓️", "ex": "I've been sleeping badly lately.", "exRo": "Dorm prost în ultima vreme." },
+    { "en": "overtime", "ro": "ore suplimentare", "pos": "noun", "ipa": "/ˈəʊ.və.taɪm/", "emoji": "🌙", "ex": "The whole team has been doing overtime before the launch.", "exRo": "Toată echipa face ore suplimentare înainte de lansare." },
+    { "en": "struggle with", "ro": "a se chinui cu, a avea dificultăți cu", "pos": "verb", "ipa": "/ˈstrʌɡ.əl wɪð/", "emoji": "🥵", "ex": "I've been struggling with this error for two hours.", "exRo": "Mă chinui cu eroarea asta de două ore." },
+    { "en": "burnout", "ro": "epuizare (profesională), burnout", "pos": "noun", "ipa": "/ˈbɜːn.aʊt/", "emoji": "🔥", "ex": "Too much overtime can lead to burnout.", "exRo": "Prea multe ore suplimentare pot duce la burnout." }
+  ],
+  "grammar": {
+    "title": "Present perfect continuous",
+    "titleRo": "Present perfect continuous",
+    "sections": [
+      {
+        "headingRo": "Cum se formează",
+        "textRo": "**have/has + been + verb-ing**. Întrebarea: **Have you been…?** Negația: **haven't/hasn't been…**. Forma scurtă e foarte des folosită în vorbire: I've been, she's been.",
+        "table": {
+          "headers": ["Tip", "Exemplu"],
+          "rows": [
+            ["afirmativ", "I've been working on this bug since lunch."],
+            ["negativ", "She hasn't been sleeping well."],
+            ["întrebare", "How long have you been learning English?"]
+          ]
+        },
+        "examples": [
+          { "en": "We've been testing the app all morning.", "ro": "Testăm aplicația de toată dimineața." },
+          { "en": "Has he been working out lately?", "ro": "S-a antrenat în ultima vreme?" }
+        ]
+      },
+      {
+        "headingRo": "O activitate care a început în trecut și continuă",
+        "textRo": "Folosim acest timp pentru o activitate care a început în trecut și **încă se desfășoară**, mai ales cu **for, since, How long…?, all day, lately**. În română spunem la prezent: „lucrez la proiect de o lună”; în engleză: **I've been working on the project for a month**.",
+        "examples": [
+          { "en": "I've been learning Spanish since January.", "ro": "Învăț spaniolă din ianuarie." },
+          { "en": "They've been migrating the data for three days.", "ro": "Migrează datele de trei zile." },
+          { "en": "How long have you been waiting?", "ro": "De cât timp aștepți?" }
+        ]
+      },
+      {
+        "headingRo": "O activitate recentă cu rezultat vizibil",
+        "textRo": "Îl folosim și pentru o activitate care tocmai s-a terminat (sau aproape), când îi vedem **efectele acum**.",
+        "examples": [
+          { "en": "You look exhausted. Have you been working late?", "ro": "Arăți epuizat. Ai lucrat până târziu?" },
+          { "en": "The kitchen smells great — I've been baking sourdough.", "ro": "Bucătăria miroase grozav — am făcut pâine cu maia." }
+        ]
+      },
+      {
+        "headingRo": "Simple sau continuous?",
+        "textRo": "**Present perfect simple** se concentrează pe **rezultat sau cantitate** (câte, cât, gata). **Present perfect continuous** se concentrează pe **activitate și durată**. Verbele de stare (know, like, own, believe) rămân la forma simplă.",
+        "examples": [
+          { "en": "I've fixed five bugs today.", "ro": "Am rezolvat cinci bug-uri azi." },
+          { "en": "I've been fixing bugs all day.", "ro": "Toată ziua am rezolvat bug-uri." },
+          { "en": "I've known Mihai for ten years.", "ro": "Îl cunosc pe Mihai de zece ani." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu traduce cuvânt cu cuvânt „Învăț engleză de doi ani” ca „I learn English for two years”. Corect: **I've been learning English for two years**.",
+      "Nu spune „I've been knowing him for years”. „know” este verb de stare: **I've known him for years**.",
+      "Când spui un număr (three reports, five bugs), folosește forma simplă: **I've written three reports**, nu „I've been writing three reports”.",
+      "„What have you been up to?” este o întrebare foarte naturală pentru „Ce-ai mai făcut în ultima vreme?”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Doi prieteni se revăd la o cafea",
+    "lines": [
+      { "speaker": "Mihai", "en": "Andrei! I haven't seen you for ages. What have you been up to?", "ro": "Andrei! Nu te-am văzut de o veșnicie. Ce-ai mai făcut?" },
+      { "speaker": "Andrei", "en": "Work, mostly. I've been migrating an old ERP system for a client since March.", "ro": "Mai mult am muncit. Din martie migrez un sistem ERP vechi pentru un client." },
+      { "speaker": "Mihai", "en": "Since March? That sounds painful.", "ro": "Din martie? Sună dureros." },
+      { "speaker": "Andrei", "en": "It is. The legacy code is a mess, so I've been refactoring half of it.", "ro": "Chiar e. Codul vechi e un haos, așa că am refactorizat jumătate din el." },
+      { "speaker": "Mihai", "en": "You need a break, man. Have you been doing anything for fun?", "ro": "Ai nevoie de o pauză, frate. Ai făcut ceva și de plăcere?" },
+      { "speaker": "Andrei", "en": "Actually, yes. I've taken up climbing. I've been going twice a week.", "ro": "De fapt, da. M-am apucat de cățărare. Merg de două ori pe săptămână." },
+      { "speaker": "Mihai", "en": "Nice! I've been working out too, but I keep giving up after two weeks.", "ro": "Frumos! Și eu m-am antrenat, dar tot renunț după două săptămâni." },
+      { "speaker": "Andrei", "en": "Come with me on Sunday. Climbing is much more fun than the gym.", "ro": "Vino cu mine duminică. Cățăratul e mult mai distractiv decât sala." }
+    ]
+  },
+  "reading": {
+    "title": "Busy, tired and happy",
+    "text": "Cristina is a backend developer at a logistics company in Timișoara. For the last four months, her team has been migrating an old warehouse system to the cloud. The original software is twenty years old, and nobody has written any documentation for it. Cristina has been reading the legacy code line by line, and she has been struggling with strange database tables named T1, T2 and T3.\n\nThe team has made good progress, but the work hasn't been easy. They have been doing a lot of overtime lately, and last month Cristina felt close to burnout. She decided to change something.\n\nShe has been working from home on Fridays since May, and she has taken up two new hobbies. Every Saturday morning she goes climbing with a friend, and she has been baking sourdough bread at home. \"Baking is the opposite of programming,\" she says. \"You can't refactor bread.\"\n\nHer work-life balance has improved a lot. She has been sleeping better, and she has even started a small side project: an app that reminds her to stop working at six.",
+    "textRo": "Cristina este programatoare backend la o firmă de logistică din Timișoara. În ultimele patru luni, echipa ei migrează în cloud un sistem vechi de gestiune a depozitului. Software-ul original are douăzeci de ani și nimeni nu a scris vreo documentație pentru el. Cristina citește codul vechi rând cu rând și se chinuie cu niște tabele ciudate din baza de date, numite T1, T2 și T3.\n\nEchipa a făcut progrese bune, dar munca nu a fost ușoară. În ultima vreme au făcut multe ore suplimentare, iar luna trecută Cristina a fost aproape de burnout. A hotărât să schimbe ceva.\n\nDin mai lucrează de acasă vinerea și s-a apucat de două hobby-uri noi. În fiecare sâmbătă dimineață merge la cățărare cu o prietenă și face acasă pâine cu maia. „Să faci pâine e opusul programării”, spune ea. „Nu poți refactoriza pâinea.”\n\nEchilibrul dintre muncă și viața personală s-a îmbunătățit mult. Doarme mai bine și a început chiar un mic proiect personal: o aplicație care îi amintește să se oprească din lucru la ora șase.",
+    "questions": [
+      { "type": "mc", "q": "What has Cristina's team been doing for the last four months?", "options": ["Writing documentation", "Migrating an old system to the cloud", "Building a mobile app", "Hiring new developers"], "answer": 1, "explainRo": "„her team has been migrating an old warehouse system to the cloud”." },
+      { "type": "mc", "q": "Why is the work difficult?", "options": ["The team is too small.", "The client changes the requirements.", "The old code has no documentation.", "The cloud is too expensive."], "answer": 2, "explainRo": "„nobody has written any documentation for it” — codul nu are documentație." },
+      { "type": "mc", "q": "Which change has Cristina NOT made?", "options": ["She has stopped doing overtime completely.", "She works from home on Fridays.", "She has taken up climbing.", "She bakes sourdough bread."], "answer": 0, "explainRo": "Textul nu spune că a renunțat complet la orele suplimentare; celelalte schimbări apar în text." },
+      { "type": "mc", "q": "What does her side project do?", "options": ["It tracks her climbing routes.", "It reminds her to stop working at six.", "It shares bread recipes.", "It reads legacy code."], "answer": 1, "explainRo": "„an app that reminds her to stop working at six”." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["exhausted", "epuizat"], ["lately", "în ultima vreme"], ["overtime", "ore suplimentare"], ["give up", "a renunța"], ["progress", "progres"]] },
+    { "type": "mc", "q": "I ___ for this bug since 10 a.m.", "options": ["look", "have been looking", "am looking"], "answer": 1, "explainRo": "Activitate începută la 10 și încă în desfășurare, cu since → present perfect continuous." },
+    { "type": "mc", "q": "How long ___ English?", "options": ["have you been learning", "are you learning", "do you learn"], "answer": 0, "explainRo": "„How long” pentru o activitate care continuă până acum → present perfect continuous." },
+    { "type": "mc", "q": "I ___ Mihai for ten years.", "options": ["have been knowing", "have known", "know"], "answer": 1, "explainRo": "„know” este verb de stare, deci present perfect simple, nu forma continuă." },
+    { "type": "mc", "q": "She ___ three reports today.", "options": ["has written", "has been writing", "writes"], "answer": 0, "explainRo": "Când numărăm rezultatul (three reports), folosim present perfect simple." },
+    { "type": "mc", "q": "You look exhausted. You ___ too much overtime lately.", "options": ["have been doing", "do", "will do"], "answer": 0, "explainRo": "„lately” + activitate repetată cu efect vizibil acum → present perfect continuous." },
+    { "type": "mc", "q": "I ___ yoga last year, and now I do it three times a week.", "options": ["gave up", "worked out", "took up"], "answer": 2, "explainRo": "„take up” = a se apuca de un hobby; la past simple: took up." },
+    { "type": "mc", "q": "We're ___ all the data from the old server to the cloud.", "options": ["refactoring", "migrating", "giving up"], "answer": 1, "explainRo": "„migrate” = a muta date sau un sistem dintr-un loc în altul." },
+    { "type": "mc", "q": "It's hard to ___ all the new JavaScript frameworks.", "options": ["keep up with", "take up", "work out"], "answer": 0, "explainRo": "„keep up with” = a ține pasul cu ceva." },
+    { "type": "fill", "q": "They ___ (work) on the new module since Monday.", "answers": ["have been working", "'ve been working"], "explainRo": "since Monday + activitate în desfășurare → have been working." },
+    { "type": "fill", "q": "How long have you been ___ (wait)?", "answers": ["waiting"], "explainRo": "După „have been” urmează verbul cu -ing." },
+    { "type": "fill", "q": "She has ___ (struggle) with this database for hours.", "answers": ["been struggling"], "explainRo": "has + been + verb-ing; „struggle” pierde -e: struggling." },
+    { "type": "fill", "q": "I've ___ up sugar, and I feel much better.", "answers": ["given"], "explainRo": "„give up” la present perfect: have given up (rezultatul contează)." },
+    { "type": "order", "words": ["I've", "been", "learning", "Spanish", "since", "January."], "ro": "Învăț spaniolă din ianuarie.", "explainRo": "have been + -ing, iar since + momentul de început stă la final." },
+    { "type": "order", "words": ["How", "long", "have", "you", "been", "working", "out?"], "ro": "De cât timp faci sport?", "explainRo": "How long + have + subiect + been + -ing; particula „out” rămâne după verb." },
+    { "type": "order", "words": ["She", "has", "been", "refactoring", "the", "legacy", "code."], "ro": "Refactorizează codul vechi (de ceva vreme).", "explainRo": "Structura este has + been + verb-ing + complement." },
+    { "type": "translate", "ro": "Aștept de o oră.", "answers": ["I've been waiting for an hour.", "I have been waiting for an hour.", "I've been waiting for one hour.", "I have been waiting for one hour."], "explainRo": "În română prezent, în engleză present perfect continuous + for." },
+    { "type": "translate", "ro": "De cât timp lucrezi la acest proiect?", "answers": ["How long have you been working on this project?", "How long have you worked on this project?", "How long have you been working on this project for?"], "explainRo": "„De cât timp” = How long + present perfect continuous; „a lucra la” = work on." },
+    { "type": "listen", "audio": "I've been working out a lot lately.", "answers": ["I've been working out a lot lately.", "I have been working out a lot lately."], "ro": "M-am antrenat mult în ultima vreme.", "explainRo": "„lately” se folosește des cu present perfect continuous." },
+    { "type": "listen", "audio": "We have made good progress this week.", "answers": ["We have made good progress this week.", "We've made good progress this week."], "ro": "Am făcut progrese bune săptămâna aceasta.", "explainRo": "Colocația corectă este „make progress”, nu „do progress”." }
+  ],
+  "video": { "youtubeId": "Ttr7DowBUBk", "title": "Learn English Tenses: The Present Perfect Continuous (The Present Perfect Progressive) (Bob the Canadian)" }
+}

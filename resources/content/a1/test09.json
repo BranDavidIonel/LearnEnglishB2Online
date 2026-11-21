@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u09",
+  "questions": [
+    { "type": "mc", "q": "My cat ___ on my laptop right now!", "options": ["sleeping", "is sleeping", "sleeps"], "answer": 1, "explainRo": "Pentru ce se întâmplă chiar acum folosim **is + verb-ing**; fără „is” forma e greșită." },
+    { "type": "mc", "q": "Wait for me! I'm ___!", "options": ["comeing", "comming", "coming"], "answer": 2, "explainRo": "La verbele terminate în -e, „e” dispare înainte de -ing: come → **coming**." },
+    { "type": "mc", "q": "There's no sun today and the sky is grey. It's ___.", "options": ["cloudy", "sunny", "hot"], "answer": 0, "explainRo": "Cer gri, fără soare = **cloudy** (înnorat)." },
+    { "type": "mc", "q": "Every Friday our team ___ pizza for lunch.", "options": ["is having", "has", "having"], "answer": 1, "explainRo": "**Every Friday** arată un obicei, deci folosim present simple: **has**." },
+    { "type": "mc", "q": "„Where's the meeting room?” — „Sorry, I ___.”", "options": ["am not knowing", "not know", "don't know"], "answer": 2, "explainRo": "**Know** nu se folosește de obicei cu -ing, deci spunem **I don't know**." },
+    { "type": "fill", "q": "Dan ___ his emails right now. He's on the beach! (not / check)", "answers": ["isn't checking", "is not checking", "'s not checking"], "explainRo": "Negația la present continuous: **isn't + verb-ing** → isn't checking." },
+    { "type": "fill", "q": "Can you ___ the screen? I want to see your code. (a partaja)", "answers": ["share"], "explainRo": "A partaja ecranul = **share the screen**, foarte util într-un apel video." },
+    { "type": "fill", "q": "Look! That man is ___ for the bus. (run)", "answers": ["running"], "explainRo": "La verbele scurte consoană-vocală-consoană dublăm ultima literă: run → **running**." },
+    { "type": "order", "words": ["Why", "are", "you", "wearing", "shoes", "in", "the", "pool?"], "ro": "De ce porți pantofi în piscină?", "explainRo": "Întrebarea: cuvânt de întrebare + **are** + subiect + **verb-ing**." },
+    { "type": "order", "words": ["Who", "is", "using", "my", "headphones?"], "ro": "Cine folosește căștile mele?", "explainRo": "**Who** este subiectul, deci după el vine direct **is + verb-ing**." },
+    { "type": "listen", "audio": "It's very cold, so I'm wearing two jackets.", "answers": ["It's very cold, so I'm wearing two jackets.", "It is very cold, so I am wearing two jackets."], "ro": "E foarte frig, așa că port două geci.", "explainRo": "**Cold** = frig; **I'm wearing** = port acum (present continuous)." },
+    { "type": "translate", "ro": "Plouă acum, așa că lucrez de acasă.", "answers": ["It's raining now, so I'm working from home.", "It is raining now, so I am working from home.", "It's raining right now, so I'm working from home.", "It is raining right now, so I am working from home.", "It's raining at the moment, so I'm working from home.", "It is raining at the moment, so I am working from home.", "Now it's raining, so I'm working from home.", "Now it is raining, so I am working from home.", "It's raining, so I'm working from home.", "It is raining, so I am working from home.", "It's raining now, so I'm working at home.", "It is raining now, so I am working at home."], "explainRo": "Pentru ce se întâmplă acum spunem **It's raining** și **I'm working**, nu „It rains” sau „I work”." }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "a2-u09",
+  "level": "A2",
+  "order": 9,
+  "title": "I was working when the internet stopped",
+  "titleRo": "Lucram când s-a oprit internetul",
+  "emoji": "⚡",
+  "goalRo": "La final vei putea să povestești o problemă sau o întâmplare, spunând ce se petrecea în momentul în care s-a întâmplat ceva.",
+  "vocab": [
+    { "en": "crash", "ro": "a se bloca, a „crăpa” (despre un program)", "pos": "verb", "ipa": "/kræʃ/", "emoji": "💥", "ex": "The app crashed when I clicked the button.", "exRo": "Aplicația s-a blocat când am apăsat butonul." },
+    { "en": "power cut", "ro": "pană de curent", "pos": "noun", "ipa": "/ˈpaʊə ˌkʌt/", "emoji": "🔌", "wiki": "Power outage", "ex": "There was a power cut, and I lost my work.", "exRo": "A fost o pană de curent și mi-am pierdut munca." },
+    { "en": "freeze", "ro": "a îngheța, a se bloca (trecut: froze)", "pos": "verb", "ipa": "/friːz/", "emoji": "🥶", "ex": "My screen froze during the video call.", "exRo": "Mi s-a blocat ecranul în timpul apelului video." },
+    { "en": "suddenly", "ro": "deodată, brusc", "pos": "adv", "ipa": "/ˈsʌd.ən.li/", "emoji": "❗", "ex": "I was reading when suddenly the lights went off.", "exRo": "Citeam când deodată s-a stins lumina." },
+    { "en": "while", "ro": "în timp ce", "pos": "conj", "ipa": "/waɪl/", "emoji": "⏱️", "ex": "While I was cooking, my friend called.", "exRo": "În timp ce găteam, m-a sunat un prieten." },
+    { "en": "error message", "ro": "mesaj de eroare", "pos": "noun", "ipa": "/ˈer.ə ˌmes.ɪdʒ/", "emoji": "⚠️", "wiki": "Error message", "ex": "I saw a strange error message on the screen.", "exRo": "Am văzut un mesaj de eroare ciudat pe ecran." },
+    { "en": "back up", "ro": "a face o copie de siguranță (backup)", "pos": "verb", "ipa": "/ˌbæk ˈʌp/", "emoji": "📀", "ex": "Luckily, I backed up all my files yesterday.", "exRo": "Din fericire, mi-am făcut ieri backup la toate fișierele." },
+    { "en": "restart", "ro": "a reporni", "pos": "verb", "ipa": "/ˌriːˈstɑːt/", "emoji": "🔁", "ex": "I restarted the laptop, and it worked again.", "exRo": "Am repornit laptopul și a mers din nou." },
+    { "en": "connection", "ro": "conexiune", "pos": "noun", "ipa": "/kəˈnek.ʃən/", "emoji": "📶", "ex": "The internet connection in the hotel was very slow.", "exRo": "Conexiunea la internet din hotel era foarte lentă." },
+    { "en": "server", "ro": "server", "pos": "noun", "ipa": "/ˈsɜː.və/", "emoji": "🖥️", "wiki": "Server (computing)", "ex": "The server stopped while we were testing the app.", "exRo": "Serverul s-a oprit în timp ce testam aplicația." },
+    { "en": "storm", "ro": "furtună", "pos": "noun", "ipa": "/stɔːm/", "emoji": "⛈️", "wiki": "Storm", "ex": "There was a big storm last night.", "exRo": "Azi-noapte a fost o furtună mare." },
+    { "en": "accident", "ro": "accident", "pos": "noun", "ipa": "/ˈæk.sɪ.dənt/", "emoji": "🚑", "ex": "He had an accident while he was riding his bike.", "exRo": "A avut un accident în timp ce mergea cu bicicleta." },
+    { "en": "break down", "ro": "a se strica, a se defecta (trecut: broke down)", "pos": "verb", "ipa": "/ˌbreɪk ˈdaʊn/", "emoji": "🚧", "ex": "Our car broke down on the way to the airport.", "exRo": "Ni s-a stricat mașina în drum spre aeroport." },
+    { "en": "spill", "ro": "a vărsa (un lichid)", "pos": "verb", "ipa": "/spɪl/", "emoji": "🫗", "ex": "I spilled coffee on my keyboard!", "exRo": "Am vărsat cafea pe tastatură!" },
+    { "en": "ring", "ro": "a suna (telefonul) (trecut: rang)", "pos": "verb", "ipa": "/rɪŋ/", "emoji": "📞", "ex": "The phone rang while I was having a shower.", "exRo": "Telefonul a sunat în timp ce făceam duș." },
+    { "en": "fall", "ro": "a cădea (trecut: fell)", "pos": "verb", "ipa": "/fɔːl/", "emoji": "🍂", "ex": "She fell while she was running for the bus.", "exRo": "Ea a căzut în timp ce alerga după autobuz." },
+    { "en": "luckily", "ro": "din fericire", "pos": "adv", "ipa": "/ˈlʌk.əl.i/", "emoji": "🍀", "ex": "My laptop fell, but luckily it still works.", "exRo": "Mi-a căzut laptopul, dar din fericire încă merge." }
+  ],
+  "grammar": {
+    "title": "Past continuous and past simple: when and while",
+    "titleRo": "Trecutul continuu și trecutul simplu: when și while",
+    "sections": [
+      {
+        "headingRo": "Past continuous: ce se petrecea",
+        "textRo": "Se formează cu **was / were + verb-ing**. Arată o acțiune **în desfășurare** la un moment din trecut: At ten o'clock I was working. În română folosim de obicei **imperfectul**: „lucram”, „dormeam”, „vorbeau”. Ai deja tot ce-ți trebuie: was/were de la A1 și forma -ing de la prezentul continuu!",
+        "table": {
+          "headers": ["Afirmativ", "Negativ", "Întrebare"],
+          "rows": [
+            ["I was working.", "I wasn't working.", "Was I working?"],
+            ["She was sleeping.", "She wasn't sleeping.", "Was she sleeping?"],
+            ["They were talking.", "They weren't talking.", "Were they talking?"]
+          ]
+        },
+        "examples": [
+          { "en": "At 9 p.m. I was watching a film.", "ro": "La ora 21 mă uitam la un film." },
+          { "en": "We weren't working at that time.", "ro": "Nu lucram la ora aceea." },
+          { "en": "What were you doing at ten?", "ro": "Ce făceai la zece?" }
+        ]
+      },
+      {
+        "headingRo": "When și while: o acțiune o întrerupe pe alta",
+        "textRo": "Acțiunea **lungă** (fundalul) → **past continuous**. Acțiunea **scurtă**, care o întrerupe → **past simple**. De obicei: **when** + past simple, **while** + past continuous. Exact ca în română: „Lucram (imperfect) când s-a oprit (perfect compus) curentul.”",
+        "examples": [
+          { "en": "I was coding when the power went off.", "ro": "Programam când s-a luat curentul." },
+          { "en": "While I was coding, the power went off.", "ro": "În timp ce programam, s-a luat curentul." },
+          { "en": "The phone rang when we were having dinner.", "ro": "Telefonul a sunat când luam cina." }
+        ]
+      },
+      {
+        "headingRo": "Două acțiuni în paralel",
+        "textRo": "Când două acțiuni lungi se petreceau **în același timp**, folosim past continuous pentru amândouă, de obicei cu **while**. E fundalul perfect pentru o poveste!",
+        "examples": [
+          { "en": "While I was testing the app, my colleague was fixing the design.", "ro": "În timp ce eu testam aplicația, colegul meu repara designul." },
+          { "en": "It was raining, and we were walking to the hotel.", "ro": "Ploua și noi mergeam spre hotel." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu folosi past continuous pentru acțiunea scurtă: nu „I was cooking when the phone was ringing”, ci **I was cooking when the phone rang**.",
+      "Nu uita **was / were**: **I was working**, nu „I working”.",
+      "Cu verbe ca **know, like, want** nu folosim de obicei forma -ing: **I knew the answer**, nu „I was knowing”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Ce s-a întâmplat cu demo-ul?",
+    "lines": [
+      { "speaker": "Mark", "en": "Andrei, what happened yesterday? You disappeared from the video call!", "ro": "Andrei, ce s-a întâmplat ieri? Ai dispărut din apelul video!" },
+      { "speaker": "Andrei", "en": "I'm so sorry. I was showing you the new features when the power went off.", "ro": "Îmi pare foarte rău. Îți arătam noile funcții când s-a luat curentul." },
+      { "speaker": "Mark", "en": "A power cut? Really?", "ro": "O pană de curent? Serios?" },
+      { "speaker": "Andrei", "en": "Yes. There was a big storm, and a tree fell on the electric cables in my street.", "ro": "Da. Era o furtună mare și un copac a căzut peste cablurile electrice de pe strada mea." },
+      { "speaker": "Mark", "en": "Oh no! Were you working on our project at the time?", "ro": "Vai, nu! Lucrai la proiectul nostru în momentul acela?" },
+      { "speaker": "Andrei", "en": "Yes, I was. Luckily, I backed up everything before the call.", "ro": "Da. Din fericire, făcusem backup la tot înainte de apel." },
+      { "speaker": "Mark", "en": "That's good. What were you doing when the power came back?", "ro": "Bine. Ce făceai când a revenit curentul?" },
+      { "speaker": "Andrei", "en": "I was sitting in the dark with a candle! Then I restarted the laptop and sent you an email.", "ro": "Stăteam pe întuneric cu o lumânare! Apoi am repornit laptopul și ți-am trimis un e-mail." },
+      { "speaker": "Mark", "en": "Yes, I got it. Let's try the demo again tomorrow.", "ro": "Da, l-am primit. Hai să încercăm din nou demo-ul mâine." }
+    ]
+  },
+  "reading": {
+    "title": "What a day!",
+    "text": "Last summer, Ana was on holiday in Italy with her husband. One morning, they were driving to Rome when their car broke down on the motorway. It was very hot, and they didn't have much water.\n\nWhile her husband was calling for help, Ana was looking for a café on her phone. Suddenly, her phone died – the battery was empty!\n\nThey waited for two hours. Finally, a mechanic arrived. While he was fixing the car, it started to rain. Ana laughed: 'What a day!'\n\nThey got to the hotel late in the evening. While they were checking in, the receptionist told them about a small restaurant near the hotel. They had a fantastic dinner there. 'In the end, it was a great day,' says Ana.",
+    "textRo": "Vara trecută, Ana era în vacanță în Italia cu soțul ei. Într-o dimineață, mergeau cu mașina spre Roma când li s-a stricat mașina pe autostradă. Era foarte cald și nu aveau multă apă.\n\nÎn timp ce soțul ei suna după ajutor, Ana căuta o cafenea pe telefon. Deodată, telefonul i s-a închis – bateria era descărcată!\n\nAu așteptat două ore. În sfârșit, a venit un mecanic. În timp ce el repara mașina, a început să plouă. Ana a râs: „Ce zi!”\n\nAu ajuns la hotel târziu seara. În timp ce se cazau, recepționerul le-a povestit despre un restaurant mic de lângă hotel. Au luat acolo o cină fantastică. „Până la urmă, a fost o zi grozavă”, spune Ana.",
+    "questions": [
+      { "type": "mc", "q": "What happened while they were driving to Rome?", "options": ["They had an accident.", "Their car broke down.", "It started to snow.", "They lost their phone."], "answer": 1, "explainRo": "„They were driving to Rome when their car broke down.”" },
+      { "type": "mc", "q": "What was Ana doing when her phone died?", "options": ["She was calling for help.", "She was driving.", "She was looking for a café.", "She was having dinner."], "answer": 2, "explainRo": "„Ana was looking for a café on her phone. Suddenly, her phone died.”" },
+      { "type": "mc", "q": "What happened while the mechanic was fixing the car?", "options": ["It started to rain.", "The battery died.", "They found a café.", "They called the hotel."], "answer": 0, "explainRo": "„While he was fixing the car, it started to rain.”" },
+      { "type": "mc", "q": "How did the day end?", "options": ["Badly, with a storm", "At the mechanic's", "In the car", "With a fantastic dinner"], "answer": 3, "explainRo": "„They had a fantastic dinner there.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["storm", "furtună"], ["restart", "a reporni"], ["connection", "conexiune"], ["suddenly", "brusc"], ["luckily", "din fericire"]] },
+    { "type": "mc", "q": "What were you doing at 9 p.m.? – I ___ TV.", "options": ["watch", "was watching", "am watching", "were watching"], "answer": 1, "explainRo": "Acțiune în desfășurare la un moment din trecut: I was watching." },
+    { "type": "mc", "q": "They ___ dinner when the lights went out.", "options": ["were having", "was having", "have", "are having"], "answer": 0, "explainRo": "Acțiunea lungă, cu they: were having." },
+    { "type": "mc", "q": "I was coding when my laptop suddenly ___.", "options": ["was crashing", "crashed", "crash", "crashes"], "answer": 1, "explainRo": "Acțiunea scurtă, care o întrerupe pe cea lungă, e la past simple: crashed." },
+    { "type": "mc", "q": "___ I was waiting for the bus, I met an old friend.", "options": ["During", "Then", "While", "Because"], "answer": 2, "explainRo": "While + past continuous = în timp ce." },
+    { "type": "mc", "q": "What ___ you doing when I called you?", "options": ["was", "did", "were", "are"], "answer": 2, "explainRo": "Cu you folosim were: What were you doing?" },
+    { "type": "mc", "q": "She wasn't ___ when the boss came in.", "options": ["work", "worked", "works", "working"], "answer": 3, "explainRo": "Past continuous: was/wasn't + verb-ing." },
+    { "type": "mc", "q": "There was no electricity for three hours. It was a ___.", "options": ["power cut", "storm", "server", "connection"], "answer": 0, "explainRo": "Power cut = pană de curent." },
+    { "type": "mc", "q": "I ___ coffee on my keyboard! Now it doesn't work.", "options": ["fell", "rang", "spilled", "froze"], "answer": 2, "explainRo": "Spill = a vărsa un lichid." },
+    { "type": "fill", "q": "I ___ (sleep) when the phone rang.", "answers": ["was sleeping"], "explainRo": "Acțiunea lungă întreruptă: was + sleeping." },
+    { "type": "fill", "q": "While we ___ (talk), the internet stopped.", "answers": ["were talking"], "explainRo": "While + past continuous: were talking." },
+    { "type": "fill", "q": "He was walking to the office when he ___ (fall) on the ice.", "answers": ["fell"], "explainRo": "Acțiunea scurtă e la past simple; fall este neregulat: fall → fell." },
+    { "type": "fill", "q": "The screen froze ___ I was writing an email.", "answers": ["while", "when"], "explainRo": "While (sau when) introduce acțiunea lungă la past continuous." },
+    { "type": "listen", "audio": "I was working when the internet stopped.", "answers": ["I was working when the internet stopped."], "ro": "Lucram când s-a oprit internetul.", "explainRo": "Acțiunea lungă (was working) + acțiunea scurtă (stopped)." },
+    { "type": "listen", "audio": "What were you doing at ten?", "answers": ["What were you doing at ten?", "What were you doing at 10?"], "ro": "Ce făceai la ora zece?", "explainRo": "Întrebare la past continuous: What were you doing?" },
+    { "type": "order", "words": ["I", "was", "driving", "when", "my", "car", "broke", "down."], "ro": "Conduceam când mi s-a stricat mașina.", "explainRo": "Past continuous + when + past simple." },
+    { "type": "order", "words": ["While", "she", "was", "cooking,", "the", "phone", "rang."], "ro": "În timp ce gătea, a sunat telefonul.", "explainRo": "While + past continuous, apoi acțiunea scurtă la past simple." },
+    { "type": "order", "words": ["They", "weren't", "listening", "to", "the", "manager."], "ro": "Nu îl ascultau pe manager.", "explainRo": "Negativ la past continuous: weren't + verb-ing." },
+    { "type": "translate", "ro": "Lucram când s-a oprit curentul.", "answers": ["I was working when the power went off.", "I was working when the electricity went off.", "I was working when the power went out.", "I was working when the electricity went out.", "I was working when the power stopped.", "I was working when the electricity stopped.", "I was working when there was a power cut."], "explainRo": "„Lucram” = I was working (acțiunea lungă); „s-a oprit” = past simple." },
+    { "type": "translate", "ro": "Ce făceai ieri la ora opt?", "answers": ["What were you doing yesterday at eight?", "What were you doing at eight yesterday?", "What were you doing yesterday at 8?", "What were you doing at 8 yesterday?", "What were you doing yesterday at eight o'clock?", "What were you doing at eight o'clock yesterday?"], "explainRo": "„Ce făceai” = What were you doing – past continuous." }
+  ],
+  "video": {
+    "youtubeId": "MGLedoA3SSE",
+    "title": "The Past Continuous Tense: The Grammar Gameshow Episode 9 (BBC Learning English)"
+  }
+}

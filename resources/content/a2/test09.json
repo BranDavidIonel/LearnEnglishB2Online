@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u09",
+  "questions": [
+    { "type": "mc", "q": "My kids ___ playing in the garden when it started to rain.", "options": ["was", "were", "are", "did"], "answer": 1, "explainRo": "Past continuous la plural: were + -ing (my kids = they)." },
+    { "type": "mc", "q": "At 7 a.m. yesterday, I ___ for the train.", "options": ["waiting", "am waiting", "was waiting", "were waiting"], "answer": 2, "explainRo": "Acțiune în desfășurare la o oră din trecut: I was + -ing (nu uita de was)." },
+    { "type": "mc", "q": "My laptop was very slow, so I ___ it. Now it works fine.", "options": ["spilled", "fell", "rang", "restarted"], "answer": 3, "explainRo": "Restart = a reporni un calculator sau un program." },
+    { "type": "mc", "q": "I couldn't join the video call because my internet ___ wasn't working.", "options": ["connection", "accident", "power cut", "storm"], "answer": 0, "explainRo": "Connection = conexiune; fără conexiune la internet nu poți intra în apel." },
+    { "type": "listen", "audio": "My laptop crashed while I was giving a presentation.", "answers": ["My laptop crashed while I was giving a presentation."], "ro": "Mi s-a blocat laptopul în timp ce țineam o prezentare.", "explainRo": "While + past continuous pentru acțiunea lungă, iar crashed (past simple) este acțiunea scurtă." },
+    { "type": "fill", "q": "We were walking along the beach when it suddenly ___ (start) to rain.", "answers": ["started"], "explainRo": "Acțiunea scurtă care o întrerupe pe cea lungă stă la past simple: started." },
+    { "type": "order", "words": ["Were", "you", "working", "when", "the", "client", "called?"], "ro": "Lucrai când a sunat clientul?", "explainRo": "Întrebarea la past continuous: Were + you + -ing, iar acțiunea scurtă (called) e la past simple." },
+    { "type": "fill", "q": "Sorry, I ___ (not / listen). Can you repeat the question?", "answers": ["wasn't listening", "was not listening"], "explainRo": "Negativul la past continuous: wasn't + verb-ing." },
+    { "type": "mc", "q": "The teacher asked a question. I ___ the answer, but I didn't say anything.", "options": ["was knowing", "knew", "were knowing", "know"], "answer": 1, "explainRo": "Know nu se folosește de obicei cu -ing, așa că spunem I knew, nu „I was knowing”." },
+    { "type": "order", "words": ["The", "lights", "went", "off", "while", "we", "were", "eating."], "ro": "S-a stins lumina în timp ce mâncam.", "explainRo": "While + past continuous pentru fundal (we were eating), iar acțiunea scurtă stă la past simple (went off)." },
+    { "type": "fill", "q": "At midnight, I was working, and my cat ___ (sleep) on my keyboard.", "answers": ["was sleeping"], "explainRo": "Două acțiuni lungi în același timp stau amândouă la past continuous: was sleeping." },
+    { "type": "translate", "ro": "Ce făceai când a început furtuna?", "answers": ["What were you doing when the storm started?", "What were you doing when the storm began?"], "explainRo": "„Ce făceai” (acțiune în desfășurare) = What were you doing, iar „a început” (acțiune scurtă) = started, la past simple." }
+  ]
+}

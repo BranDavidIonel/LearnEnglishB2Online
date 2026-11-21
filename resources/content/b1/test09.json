@@ -1,0 +1,17 @@
+{
+  "unit": "b1-u09",
+  "questions": [
+    {"type":"mc","q":"The receptionist ___ that our room wasn't ready yet.","options":["told","said","asked"],"answer":1,"explainRo":"„told” cere persoana imediat după el (told us); fără persoană folosim said."},
+    {"type":"mc","q":"The soup was cold and the waiter was rude, so we made a ___ to the manager.","options":["complaint","reply","voicemail"],"answer":0,"explainRo":"„complaint” = reclamație, când nu ești mulțumit de ceva."},
+    {"type":"mc","q":"We thought the call was at 10, but the client thought it was at 11 — it was just a ___.","options":["voicemail","feedback","misunderstanding"],"answer":2,"explainRo":"„misunderstanding” = neînțelegere, când doi oameni înțeleg lucruri diferite."},
+    {"type":"mc","q":"On Monday, our designer said she ___ finish the new logo the next day.","options":["is","would","will"],"answer":1,"explainRo":"În vorbirea indirectă will devine would (iar tomorrow devine the next day)."},
+    {"type":"mc","q":"At passport control, the officer asked me how long ___ in Canada.","options":["was I staying","did I stay","I was staying"],"answer":2,"explainRo":"În întrebarea raportată ordinea este ca la afirmație: subiect + verb (I was staying)."},
+    {"type":"fill","q":"Sorry I didn't ___ to your message — I was on a plane all day.","answers":["reply","respond"],"explainRo":"„reply to” = a răspunde la un mesaj."},
+    {"type":"fill","q":"\"We can't open the file.\" → Last week the client said they ___ open the file, but now everything works.","answers":["couldn't","could not"],"explainRo":"În vorbirea indirectă can't devine couldn't (un pas în trecut)."},
+    {"type":"fill","q":"\"Please don't park in front of our garage.\" → Our neighbour asked us ___ park in front of their garage.","answers":["not to"],"explainRo":"Rugăminte negativă: asked + persoană + not to + verb."},
+    {"type":"order","words":["The","client","told","us","the","price","was","too","high."],"ro":"Clientul ne-a spus că prețul era prea mare.","explainRo":"„told” + persoană (us), iar is devine was în vorbirea indirectă."},
+    {"type":"order","words":["They","asked","us","what","time","the","museum","opened."],"ro":"Ne-au întrebat la ce oră se deschide muzeul.","explainRo":"Întrebare raportată: fără „did”, cu ordinea subiect + verb (the museum opened)."},
+    {"type":"listen","audio":"He said he would get back to me.","answers":["He said he would get back to me.","He said he'd get back to me."],"ro":"A spus că va reveni cu un răspuns.","explainRo":"will devine would în vorbirea indirectă; „get back to” = a reveni cu un răspuns."},
+    {"type":"translate","ro":"M-a rugat să-i trimit din nou atașamentul.","answers":["He asked me to send him the attachment again.","He asked me to send the attachment to him again.","He asked me to send the attachment again.","He asked me to resend the attachment.","She asked me to send her the attachment again.","She asked me to send the attachment to her again.","She asked me to send the attachment again.","She asked me to resend the attachment."],"explainRo":"„M-a rugat să…” = asked me to + verb (nu „asked me that I…”)."}
+  ]
+}

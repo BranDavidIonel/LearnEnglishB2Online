@@ -1,0 +1,130 @@
+{
+  "id": "b2-u05",
+  "level": "B2",
+  "order": 5,
+  "title": "It must have been the cache: what went wrong?",
+  "titleRo": "Sigur a fost de la cache: ce a mers prost?",
+  "emoji": "🕵️",
+  "goalRo": "La final vei putea face deducții despre trecut, vei putea discuta cauzele unei probleme tehnice și vei putea critica (politicos) ce ar fi trebuit făcut altfel.",
+
+  "vocab": [
+    { "en": "troubleshoot", "ro": "a depista și a rezolva probleme", "pos": "verb", "ipa": "/ˈtrʌb.əl.ʃuːt/", "emoji": "🔧", "ex": "I spent the whole morning troubleshooting the payment module.", "exRo": "Mi-am petrecut toată dimineața depistând problema din modulul de plăți." },
+    { "en": "outage", "ro": "cădere, întrerupere (a unui serviciu)", "pos": "noun", "ipa": "/ˈaʊ.tɪdʒ/", "emoji": "⛔", "ex": "The outage lasted two hours and affected all our clients.", "exRo": "Căderea a durat două ore și i-a afectat pe toți clienții noștri." },
+    { "en": "roll back", "ro": "a reveni la versiunea anterioară", "pos": "verb", "ipa": "/ˌrəʊl ˈbæk/", "emoji": "⏪", "ex": "We rolled back the update as soon as the errors started.", "exRo": "Am revenit la versiunea anterioară imediat ce au apărut erorile." },
+    { "en": "misconfigured", "ro": "configurat greșit", "pos": "adj", "ipa": "/ˌmɪs.kənˈfɪɡ.əd/", "emoji": "⚠️", "ex": "A misconfigured firewall blocked all incoming emails.", "exRo": "Un firewall configurat greșit a blocat toate emailurile primite." },
+    { "en": "log file", "ro": "fișier de jurnal (log)", "pos": "noun", "ipa": "/ˈlɒɡ ˌfaɪl/", "emoji": "📄", "ex": "The log file shows that the server restarted at 3 a.m.", "exRo": "Fișierul de log arată că serverul a repornit la 3 dimineața." },
+    { "en": "stack trace", "ro": "lista apelurilor la momentul erorii (stack trace)", "pos": "noun", "ipa": "/ˈstæk ˌtreɪs/", "emoji": "🧱", "ex": "Can you send me the full stack trace, not just the error message?", "exRo": "Îmi poți trimite tot stack trace-ul, nu doar mesajul de eroare?" },
+    { "en": "hotfix", "ro": "corecție urgentă (hotfix)", "pos": "noun", "ipa": "/ˈhɒt.fɪks/", "emoji": "🩹", "ex": "We deployed a hotfix within an hour of the bug report.", "exRo": "Am lansat o corecție urgentă la o oră după raportarea bug-ului." },
+    { "en": "reproduce", "ro": "a reproduce (o eroare)", "pos": "verb", "ipa": "/ˌriː.prəˈdjuːs/", "emoji": "🔁", "ex": "I can't reproduce the bug on my machine.", "exRo": "Nu pot reproduce bug-ul pe calculatorul meu." },
+    { "en": "downtime", "ro": "timp de nefuncționare", "pos": "noun", "ipa": "/ˈdaʊn.taɪm/", "emoji": "💤", "ex": "Every minute of downtime costs the shop real money.", "exRo": "Fiecare minut de nefuncționare costă magazinul bani reali." },
+    { "en": "glitch", "ro": "defecțiune minoră, eroare temporară", "pos": "noun", "ipa": "/ɡlɪtʃ/", "emoji": "👾", "ex": "A small glitch sent the same invoice to a client three times.", "exRo": "O mică eroare a trimis aceeași factură unui client de trei ori." },
+    { "en": "overlook", "ro": "a scăpa din vedere, a trece cu vederea", "pos": "verb", "ipa": "/ˌəʊ.vəˈlʊk/", "emoji": "🙈", "ex": "We must have overlooked this case during testing.", "exRo": "Probabil ne-a scăpat cazul ăsta la testare." },
+    { "en": "typo", "ro": "greșeală de tastare", "pos": "noun", "ipa": "/ˈtaɪ.pəʊ/", "emoji": "⌨️", "ex": "One typo in the config file took the whole site down.", "exRo": "O singură greșeală de tastare în fișierul de configurare a picat tot site-ul." },
+    { "en": "jump to conclusions", "ro": "a trage concluzii pripite", "pos": "phrase", "ipa": "/ˌdʒʌmp tə kənˈkluː.ʒənz/", "emoji": "🦘", "ex": "Let's not jump to conclusions – it might not be the database.", "exRo": "Să nu tragem concluzii pripite – s-ar putea să nu fie de la baza de date." },
+    { "en": "slip through the cracks", "ro": "a scăpa neobservat", "pos": "phrase", "ipa": "/ˌslɪp θruː ðə ˈkræks/", "emoji": "🕳️", "ex": "The client's request slipped through the cracks during the holidays.", "exRo": "Cererea clientului a scăpat neobservată în timpul sărbătorilor." },
+    { "en": "router", "ro": "router", "pos": "noun", "ipa": "/ˈruː.tə/", "emoji": "📡", "wiki": "Router (computing)", "ex": "The hotel router must have been restarted overnight.", "exRo": "Probabil routerul hotelului a fost repornit peste noapte." },
+    { "en": "boarding pass", "ro": "carte de îmbarcare", "pos": "noun", "ipa": "/ˈbɔː.dɪŋ ˌpɑːs/", "emoji": "🎫", "wiki": "Boarding pass", "ex": "I can't find my boarding pass – I must have left it at the hotel.", "exRo": "Nu-mi găsesc cartea de îmbarcare – probabil am lăsat-o la hotel." }
+  ],
+
+  "grammar": {
+    "title": "Modals of past deduction and criticism",
+    "titleRo": "Verbe modale pentru deducții și critici despre trecut",
+    "sections": [
+      {
+        "headingRo": "Must have / can't have: aproape sigur",
+        "textRo": "Când tragem o concluzie logică despre trecut, folosim **modal + have + participiu (V3)**. **Must have** = sunt aproape sigur că s-a întâmplat (în română: „trebuie să fi…”, „sigur a…”). **Can't have / couldn't have** = sunt aproape sigur că **nu** s-a întâmplat („nu se poate să fi…”). Atenție: negația lui *must have* în acest sens **nu** este *mustn't have*, ci **can't have**.",
+        "table": {
+          "headers": ["Cât de sigur sunt?", "Formă", "Exemplu"],
+          "rows": [
+            ["≈ 95% da", "must have + V3", "He must have forgotten."],
+            ["≈ 50% (posibil)", "might / may / could have + V3", "He might have forgotten."],
+            ["≈ 95% nu", "can't / couldn't have + V3", "He can't have forgotten."]
+          ]
+        },
+        "examples": [
+          { "en": "The site is back up, so someone must have restarted the server.", "ro": "Site-ul merge din nou, deci cineva trebuie să fi repornit serverul." },
+          { "en": "She can't have received my email – she replied to the old one.", "ro": "Nu se poate să-mi fi primit emailul – a răspuns la cel vechi." },
+          { "en": "You must have been working all night. You look exhausted!", "ro": "Trebuie să fi lucrat toată noaptea. Arăți epuizat!" }
+        ]
+      },
+      {
+        "headingRo": "Might / may / could have: e posibil",
+        "textRo": "Când nu suntem siguri, folosim **might have**, **may have** sau **could have + V3** („se poate să fi…”, „poate că…”). Sunt practic echivalente; *may have* sună puțin mai formal. Pentru o acțiune în desfășurare folosim forma continuă: **might have been + -ing**.",
+        "examples": [
+          { "en": "The bug might have been introduced in the last release.", "ro": "Se poate ca bug-ul să fi apărut în ultima versiune." },
+          { "en": "He may have missed the meeting because of the time difference.", "ro": "Poate că a ratat ședința din cauza diferenței de fus orar." },
+          { "en": "The client could have been using an old browser.", "ro": "Se poate ca clientul să fi folosit un browser vechi." }
+        ]
+      },
+      {
+        "headingRo": "Should have / shouldn't have: critică și regret",
+        "textRo": "**Should have + V3** = ar fi trebuit să faci ceva, dar nu ai făcut. **Shouldn't have + V3** = n-ar fi trebuit să faci, dar ai făcut. Folosim aceste forme pentru a critica (pe noi sau pe alții) sau pentru a exprima un regret. **Could have + V3** poate însemna și „ai fi putut” – o posibilitate pe care n-ai folosit-o: *You could have told me!*",
+        "examples": [
+          { "en": "We should have tested the update on the staging server first.", "ro": "Ar fi trebuit să testăm actualizarea întâi pe serverul de test." },
+          { "en": "You shouldn't have deployed on a Friday afternoon.", "ro": "N-ar fi trebuit să faci deploy vineri după-amiază." },
+          { "en": "You could have warned me that the client was angry!", "ro": "Ai fi putut să mă avertizezi că era supărat clientul!" }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Pentru deducții negative folosește **can't have**, nu „mustn't have”: **He can't have seen it**.",
+      "După modal vine mereu **have**, nu *had*: **She must have left**, nu „She must had left”.",
+      "În vorbire, *should have* sună ca „should've”, dar nu scrie niciodată „should of”.",
+      "„Trebuia să-mi spui!” (reproș) = **You should have told me!**, nu „You had to tell me”."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Investigarea unei căderi a site-ului",
+    "lines": [
+      { "speaker": "Maria", "en": "The client's online shop was down for two hours last night. What happened?", "ro": "Magazinul online al clientului a fost picat două ore aseară. Ce s-a întâmplat?" },
+      { "speaker": "Andrei", "en": "I'm still troubleshooting, but it must have started after the 11 p.m. deploy.", "ro": "Încă investighez, dar sigur a început după deploy-ul de la 23:00." },
+      { "speaker": "Maria", "en": "Could it have been the hosting provider? They had an outage last month.", "ro": "Să fi fost de la firma de hosting? Au avut o cădere luna trecută." },
+      { "speaker": "Andrei", "en": "It can't have been them – their status page shows no problems. The log file points to our payment module.", "ro": "Nu se poate să fi fost ei – pagina lor de status nu arată nicio problemă. Fișierul de log indică modulul nostru de plăți." },
+      { "speaker": "Maria", "en": "So someone might have changed the configuration?", "ro": "Deci se poate ca cineva să fi schimbat configurația?" },
+      { "speaker": "Andrei", "en": "Exactly. There's a typo in the API key. We should have used environment variables instead of editing it by hand.", "ro": "Exact. E o greșeală de tastare în cheia API. Ar fi trebuit să folosim variabile de mediu, nu s-o modificăm de mână." },
+      { "speaker": "Maria", "en": "And why didn't anyone get an alert? Somebody should have noticed.", "ro": "Și de ce n-a primit nimeni o alertă? Cineva ar fi trebuit să observe." },
+      { "speaker": "Andrei", "en": "The alerts must have been switched off during maintenance. I've rolled back the change and added it to our checklist.", "ro": "Probabil alertele au fost oprite în timpul mentenanței. Am revenit la versiunea anterioară și am adăugat asta în lista noastră de verificare." }
+    ]
+  },
+
+  "reading": {
+    "title": "The mystery of the disappearing orders",
+    "text": "On a quiet Monday morning, a furniture company called Andrei in a panic. Over the weekend, about thirty online orders had simply vanished from their CRM. Customers had paid, received confirmation emails and then heard nothing. \"Someone must have deleted them,\" the sales manager insisted. \"Maybe a hacker.\"\n\nAndrei didn't want to jump to conclusions. A hacker could have deleted the orders, of course, but it seemed unlikely: nothing else was missing, and nobody had logged in from an unknown location. He tried to reproduce the problem by placing a test order. It appeared in the CRM perfectly. Whatever had happened, it couldn't have been a permanent bug.\n\nThe log files told a different story. Every missing order had been placed between 2 and 4 a.m. on Sunday – exactly when the company's IT contractor was moving the database to a new server. During those two hours, the website must have been sending orders to the old database, which was then switched off. The data hadn't been deleted at all; it had been saved in the wrong place.\n\nWithin an hour, Andrei had recovered all thirty orders from a backup of the old server and deployed a hotfix. The real problem, however, wasn't technical. The migration should have been announced in advance, and the shop should have been put into maintenance mode. Nobody had thought of it, so the warning slipped through the cracks.\n\nThe sales manager apologised for blaming hackers. \"I suppose I shouldn't have panicked,\" she admitted. \"But you could have warned us that migrations were so dangerous!\"",
+    "textRo": "Într-o luni dimineață liniștită, o firmă de mobilă l-a sunat pe Andrei în panică. Peste weekend, în jur de treizeci de comenzi online dispăruseră pur și simplu din CRM-ul lor. Clienții plătiseră, primiseră emailuri de confirmare și apoi nu mai auziseră nimic. „Sigur le-a șters cineva”, insista directoarea de vânzări. „Poate un hacker.”\n\nAndrei nu voia să tragă concluzii pripite. Un hacker ar fi putut șterge comenzile, desigur, dar părea puțin probabil: nu lipsea nimic altceva și nimeni nu se logase dintr-o locație necunoscută. A încercat să reproducă problema plasând o comandă de test. A apărut perfect în CRM. Orice s-ar fi întâmplat, nu putea fi un bug permanent.\n\nFișierele de log spuneau o altă poveste. Fiecare comandă lipsă fusese plasată duminică între 2 și 4 dimineața – exact când firma externă de IT muta baza de date pe un server nou. În acele două ore, site-ul trebuie să fi trimis comenzile către vechea bază de date, care a fost apoi oprită. Datele nu fuseseră deloc șterse; fuseseră salvate în locul greșit.\n\nÎn decurs de o oră, Andrei recuperase toate cele treizeci de comenzi dintr-un backup al vechiului server și lansase o corecție urgentă. Adevărata problemă însă nu era tehnică. Migrarea ar fi trebuit anunțată din timp, iar magazinul ar fi trebuit trecut în modul de mentenanță. Nimeni nu se gândise la asta, așa că avertismentul a scăpat neobservat.\n\nDirectoarea de vânzări și-a cerut scuze că i-a învinovățit pe hackeri. „Cred că n-ar fi trebuit să intru în panică”, a recunoscut ea. „Dar ai fi putut să ne avertizezi că migrările sunt atât de periculoase!”",
+    "questions": [
+      { "type": "mc", "q": "What did the sales manager think had happened?", "options": ["The customers had cancelled their orders.", "A hacker had deleted the orders.", "Andrei had made a mistake.", "The emails had gone to spam."], "answer": 1, "explainRo": "Ea insista că „someone must have deleted them… Maybe a hacker.”" },
+      { "type": "mc", "q": "Why did Andrei think a permanent bug was unlikely?", "options": ["His test order appeared in the CRM correctly.", "The IT contractor told him so.", "The customers had received their furniture.", "There were no log files."], "answer": 0, "explainRo": "Comanda lui de test a apărut perfect în CRM, deci nu putea fi un bug permanent." },
+      { "type": "mc", "q": "Where had the missing orders actually gone?", "options": ["To a hacker's server", "To the customers' spam folders", "To the old database that was switched off", "Nowhere – they were never placed"], "answer": 2, "explainRo": "Site-ul trimitea comenzile spre vechea bază de date, care a fost apoi oprită." },
+      { "type": "mc", "q": "According to the text, what should have happened before the migration?", "options": ["The CRM should have been replaced.", "The sales manager should have called a hacker.", "Customers should have paid by bank transfer.", "The shop should have been put into maintenance mode."], "answer": 3, "explainRo": "„The shop should have been put into maintenance mode.”" }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "The lights are off and nobody answers. They ___ home already.", "options": ["must have gone", "can't have gone", "should have gone", "must go"], "answer": 0, "explainRo": "Dovezile arată clar o concluzie pozitivă despre trecut: **must have + V3**." },
+    { "type": "mc", "q": "He ___ the report – he was on a plane all day without Wi-Fi.", "options": ["must have sent", "should have sent", "can't have sent", "might send"], "answer": 2, "explainRo": "Era imposibil, deci folosim **can't have + V3**." },
+    { "type": "mc", "q": "I'm not sure why the client didn't reply. She ___ been on holiday.", "options": ["can't have", "might have", "would", "must"], "answer": 1, "explainRo": "Nu suntem siguri, e doar o posibilitate: **might have + V3**." },
+    { "type": "mc", "q": "We lost all the data. We ___ a backup before the migration!", "options": ["must have made", "might have made", "can't have made", "should have made"], "answer": 3, "explainRo": "Critică/regret: **should have + V3** = ar fi trebuit să facem, dar n-am făcut." },
+    { "type": "mc", "q": "You ___ told the client the price before we agreed on it. Now he's angry.", "options": ["shouldn't have", "can't have", "mustn't have", "needn't"], "answer": 0, "explainRo": "**Shouldn't have + V3** critică o acțiune care a avut loc, dar nu trebuia." },
+    { "type": "mc", "q": "Your eyes are red. You ___ staring at the screen for hours.", "options": ["must be", "can't have been", "must have been", "should have"], "answer": 2, "explainRo": "Deducție despre o acțiune continuă din trecut: **must have been + -ing**." },
+    { "type": "mc", "q": "Before we roll back, let's ___ the bug on the test server.", "options": ["overlook", "reproduce", "jump", "outage"], "answer": 1, "explainRo": "**Reproduce a bug** = a face eroarea să apară din nou, ca s-o studiem." },
+    { "type": "mc", "q": "One missing letter in the password – just a ___, but it blocked the whole system.", "options": ["router", "hotfix", "downtime", "typo"], "answer": 3, "explainRo": "**Typo** = greșeală de tastare." },
+    { "type": "mc", "q": "The site was down for six hours. That much ___ is unacceptable for an online shop.", "options": ["downtime", "stack trace", "boarding pass", "glitch"], "answer": 0, "explainRo": "**Downtime** = perioada în care un sistem nu funcționează." },
+    { "type": "fill", "q": "I can't find my boarding pass. I must ___ (leave) it at the hotel.", "answers": ["have left"], "explainRo": "Deducție despre trecut: **must have + V3** – have left." },
+    { "type": "fill", "q": "You ___ have deployed on a Friday evening – now we're all working this weekend!", "answers": ["shouldn't", "should not"], "explainRo": "Critică pentru ceva ce s-a făcut: **shouldn't have + V3**." },
+    { "type": "fill", "q": "The error happened again, so the hotfix can't have ___ (work).", "answers": ["worked"], "explainRo": "După **can't have** urmează participiul: **worked**." },
+    { "type": "order", "words": ["She", "might", "have", "missed", "the", "train."], "ro": "Se poate să fi pierdut trenul.", "explainRo": "**Might have + V3** = posibilitate despre trecut." },
+    { "type": "order", "words": ["We", "should", "have", "tested", "it", "more", "carefully."], "ro": "Ar fi trebuit să-l testăm mai atent.", "explainRo": "**Should have + V3** = critică sau regret." },
+    { "type": "order", "words": ["Someone", "must", "have", "changed", "the", "password."], "ro": "Cineva trebuie să fi schimbat parola.", "explainRo": "**Must have + V3** = deducție aproape sigură." },
+    { "type": "translate", "ro": "Nu se poate să fi uitat ședința.", "answers": ["He can't have forgotten the meeting.", "She can't have forgotten the meeting.", "He cannot have forgotten the meeting.", "She cannot have forgotten the meeting.", "He couldn't have forgotten the meeting.", "She couldn't have forgotten the meeting.", "You can't have forgotten the meeting.", "They can't have forgotten the meeting.", "I can't have forgotten the meeting.", "We can't have forgotten the meeting."], "explainRo": "„Nu se poate să fi…” = **can't have + V3**." },
+    { "type": "translate", "ro": "Ar fi trebuit să mă suni.", "answers": ["You should have called me.", "You should've called me.", "You should have phoned me.", "You should have rung me.", "You ought to have called me."], "explainRo": "Reproș despre trecut: **should have + V3**." },
+    { "type": "listen", "audio": "The router must have been restarted.", "answers": ["The router must have been restarted."], "ro": "Probabil routerul a fost repornit.", "explainRo": "Forma pasivă a deducției: **must have been + V3**." },
+    { "type": "listen", "audio": "Let's not jump to conclusions.", "answers": ["Let's not jump to conclusions.", "Let us not jump to conclusions."], "ro": "Să nu tragem concluzii pripite.", "explainRo": "**Jump to conclusions** = a decide prea repede, fără dovezi." },
+    { "type": "match", "pairs": [["outage", "cădere, întrerupere (a unui serviciu)"], ["roll back", "a reveni la versiunea anterioară"], ["hotfix", "corecție urgentă (hotfix)"], ["overlook", "a scăpa din vedere, a trece cu vederea"], ["glitch", "defecțiune minoră, eroare temporară"]] }
+  ],
+
+  "video": {
+    "youtubeId": "hBogiz8JWWo",
+    "title": "An Introduction to Past Modals: must have, should have, would have, and could have (Bob the Canadian)"
+  }
+}

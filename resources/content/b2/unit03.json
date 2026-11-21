@@ -1,0 +1,138 @@
+{
+  "id": "b2-u03",
+  "level": "B2",
+  "order": 3,
+  "title": "If only we had known: the project post-mortem",
+  "titleRo": "Dacă am fi știut: analiza de după proiect",
+  "emoji": "🔄",
+  "goalRo": "La final vei putea vorbi despre decizii și regrete, vei putea analiza ce a mers prost într-un proiect și vei putea imagina cum ar fi arătat lucrurile altfel.",
+
+  "vocab": [
+    { "en": "post-mortem", "ro": "analiză retrospectivă (după un proiect sau incident)", "pos": "noun", "ipa": "/ˌpəʊst ˈmɔː.təm/", "emoji": "🔎", "ex": "We hold a post-mortem after every major release.", "exRo": "Facem o analiză retrospectivă după fiecare lansare importantă." },
+    { "en": "lessons learned", "ro": "lecții învățate", "pos": "noun", "ipa": "/ˌles.ənz ˈlɜːnd/", "emoji": "📝", "ex": "The main lessons learned are listed at the end of the report.", "exRo": "Principalele lecții învățate sunt enumerate la sfârșitul raportului." },
+    { "en": "hindsight", "ro": "privire retrospectivă, „acum, după ce știm”", "pos": "noun", "ipa": "/ˈhaɪnd.saɪt/", "emoji": "👀", "ex": "With hindsight, we should have tested the import earlier.", "exRo": "Privind acum înapoi, ar fi trebuit să testăm importul mai devreme." },
+    { "en": "regret", "ro": "a regreta; regret", "pos": "verb", "ipa": "/rɪˈɡret/", "emoji": "😔", "ex": "I regret not learning English when I was younger.", "exRo": "Regret că n-am învățat engleză când eram mai tânăr." },
+    { "en": "scope creep", "ro": "extinderea necontrolată a cerințelor", "pos": "noun", "ipa": "/ˈskəʊp ˌkriːp/", "emoji": "🐛", "ex": "Scope creep turned a two-month project into a six-month one.", "exRo": "Extinderea necontrolată a cerințelor a transformat un proiect de două luni într-unul de șase." },
+    { "en": "cut corners", "ro": "a lucra superficial, a sări peste pași importanți", "pos": "phrase", "ipa": "/ˌkʌt ˈkɔː.nəz/", "emoji": "✂️", "ex": "If we cut corners on security, we'll pay for it later.", "exRo": "Dacă facem rabat la securitate, vom plăti pentru asta mai târziu." },
+    { "en": "underestimate", "ro": "a subestima", "pos": "verb", "ipa": "/ˌʌn.dərˈes.tɪ.meɪt/", "emoji": "📉", "ex": "We underestimated how long the data migration would take.", "exRo": "Am subestimat cât va dura migrarea datelor." },
+    { "en": "go over budget", "ro": "a depăși bugetul", "pos": "phrase", "ipa": "/ˌɡəʊ ˌəʊ.və ˈbʌdʒ.ɪt/", "emoji": "💸", "ex": "The project went over budget by twenty per cent.", "exRo": "Proiectul a depășit bugetul cu douăzeci la sută." },
+    { "en": "trade-off", "ro": "compromis (între două avantaje)", "pos": "noun", "ipa": "/ˈtreɪd.ɒf/", "emoji": "⚖️", "ex": "There's always a trade-off between speed and quality.", "exRo": "Există mereu un compromis între viteză și calitate." },
+    { "en": "root cause", "ro": "cauza principală, cauza de fond", "pos": "noun", "ipa": "/ˌruːt ˈkɔːz/", "emoji": "🌳", "ex": "The root cause of the outage was an expired certificate.", "exRo": "Cauza principală a căderii a fost un certificat expirat." },
+    { "en": "second-guess", "ro": "a pune mereu la îndoială (o decizie)", "pos": "verb", "ipa": "/ˌsek.ənd ˈɡes/", "emoji": "🤔", "ex": "Stop second-guessing every decision you made.", "exRo": "Nu mai pune la îndoială fiecare decizie pe care ai luat-o." },
+    { "en": "pay off", "ro": "a da roade, a merita", "pos": "verb", "ipa": "/ˌpeɪ ˈɒf/", "emoji": "🎯", "ex": "All those evenings of studying finally paid off.", "exRo": "Toate serile acelea de studiu au dat în sfârșit roade." },
+    { "en": "missed opportunity", "ro": "ocazie ratată", "pos": "noun", "ipa": "/ˌmɪst ˌɒp.əˈtʃuː.nə.ti/", "emoji": "🚪", "ex": "Not going to the conference was a missed opportunity.", "exRo": "Faptul că n-am mers la conferință a fost o ocazie ratată." },
+    { "en": "gut feeling", "ro": "presimțire, instinct", "pos": "noun", "ipa": "/ˈɡʌt ˌfiː.lɪŋ/", "emoji": "🫃", "ex": "I had a gut feeling that the client wouldn't pay on time.", "exRo": "Aveam presimțirea că clientul nu va plăti la timp." },
+    { "en": "make the most of", "ro": "a profita la maximum de", "pos": "phrase", "ipa": "/ˌmeɪk ðə ˈməʊst əv/", "emoji": "🌟", "ex": "Make the most of your time in Lisbon – it goes by quickly.", "exRo": "Profită la maximum de timpul petrecut în Lisabona – trece repede." },
+    { "en": "dilemma", "ro": "dilemă", "pos": "noun", "ipa": "/daɪˈlem.ə/", "emoji": "🔱", "ex": "I faced a dilemma: accept the big client or keep my free weekends.", "exRo": "Am avut o dilemă: să accept clientul mare sau să-mi păstrez weekendurile libere." }
+  ],
+
+  "grammar": {
+    "title": "Second, third and mixed conditionals; wish / if only",
+    "titleRo": "Condiționalele de tip 2, 3 și mixte; wish / if only",
+    "sections": [
+      {
+        "headingRo": "Recapitulare: condiționalul 2 și 3",
+        "textRo": "**Condiționalul 2** vorbește despre o situație imaginară în prezent sau viitor: *If I had more time, I would learn Rust* (dacă aș avea…). **Condiționalul 3** vorbește despre un trecut imaginar, care nu se mai poate schimba: *If we had tested the code, we wouldn't have lost the data* (dacă am fi testat…). În română ambele folosesc „dacă aș / dacă aș fi”, dar în engleză diferența de timp este obligatorie.",
+        "table": {
+          "headers": ["Tip", "Propoziția cu if", "Propoziția principală"],
+          "rows": [
+            ["2 (prezent imaginar)", "if + past simple", "would + verb"],
+            ["3 (trecut imaginar)", "if + past perfect", "would have + V3"],
+            ["Mixt: trecut → prezent", "if + past perfect", "would + verb"],
+            ["Mixt: prezent → trecut", "if + past simple", "would have + V3"]
+          ]
+        },
+        "examples": [
+          { "en": "If I were you, I'd ask for a deposit before starting.", "ro": "Dacă aș fi în locul tău, aș cere un avans înainte să încep." },
+          { "en": "If we had written a clear contract, the client wouldn't have asked for so many extras.", "ro": "Dacă am fi scris un contract clar, clientul n-ar fi cerut atâtea extra." }
+        ]
+      },
+      {
+        "headingRo": "Condiționalele mixte",
+        "textRo": "Uneori cauza și efectul sunt în timpuri diferite. **Trecut → prezent**: o decizie din trecut are urmări acum: *If I had learnt English at school, I would have more international clients now.* **Prezent → trecut**: o trăsătură permanentă explică ceva din trecut: *If I were more organised, I wouldn't have missed the deadline last week.* Gândește-te întâi: când a avut loc fiecare parte?",
+        "examples": [
+          { "en": "If we hadn't chosen that framework, we wouldn't be stuck with it now.", "ro": "Dacă n-am fi ales framework-ul acela, n-am fi blocați cu el acum." },
+          { "en": "If she weren't so good at negotiating, we wouldn't have won that contract.", "ro": "Dacă n-ar fi atât de bună la negociere, n-am fi câștigat contractul acela." },
+          { "en": "If I had taken that job in Berlin, I would be living in Germany now.", "ro": "Dacă aș fi acceptat jobul acela din Berlin, acum aș locui în Germania." }
+        ]
+      },
+      {
+        "headingRo": "Wish și if only: dorințe și regrete",
+        "textRo": "**Wish / if only + past simple** = aș vrea ca prezentul să fie altfel: *I wish I had more time.* **Wish / if only + past perfect** = regret pentru trecut: *I wish I had saved the file.* **Wish + would** = vrem ca altcineva (sau ceva) să-și schimbe comportamentul, adesea cu iritare: *I wish the client would answer my emails.* **If only** este mai emoțional decât *I wish*.",
+        "table": {
+          "headers": ["Structură", "Sens", "Exemplu"],
+          "rows": [
+            ["wish + past simple", "regret despre prezent", "I wish I spoke German."],
+            ["wish + past perfect", "regret despre trecut", "I wish I hadn't signed it."],
+            ["wish + would", "iritare, dorință de schimbare", "I wish he would stop interrupting."]
+          ]
+        },
+        "examples": [
+          { "en": "I wish I didn't have to work this weekend.", "ro": "Aș vrea să nu fiu nevoit să lucrez în weekendul ăsta." },
+          { "en": "If only I had backed up my laptop!", "ro": "Măcar de mi-aș fi făcut backup la laptop!" },
+          { "en": "I wish my neighbours would stop drilling at 8 a.m.", "ro": "Aș vrea ca vecinii să nu mai găurească pereții la 8 dimineața." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu pune **would** în propoziția cu **if**: **If I had known**, nu „If I would have known”.",
+      "„Aș fi vrut să știu” = **I wish I had known**, nu „I wish I would have known”.",
+      "Nu folosi **wish + would** despre tine însuți: **I wish I could swim** (nu „I wish I would swim”).",
+      "În engleza îngrijită spunem **If I were you** și **I wish I were**, chiar și la persoana I."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Ședința de după un proiect ratat",
+    "lines": [
+      { "speaker": "Elena", "en": "OK, let's start the post-mortem. Why did we miss the deadline by a month?", "ro": "Bine, să începem analiza. De ce am întârziat cu o lună?" },
+      { "speaker": "Radu", "en": "Honestly, scope creep. If we had said no to the extra reports, we would have delivered on time.", "ro": "Sincer, extinderea cerințelor. Dacă am fi refuzat rapoartele în plus, am fi livrat la timp." },
+      { "speaker": "Elena", "en": "Agreed. I wish I had pushed back harder in that meeting.", "ro": "De acord. Aș fi vrut să mă fi opus mai ferm în ședința aceea." },
+      { "speaker": "Radu", "en": "And we underestimated the data migration. If the old system weren't such a mess, it wouldn't have taken three weeks.", "ro": "Și am subestimat migrarea datelor. Dacă vechiul sistem n-ar fi un asemenea haos, n-ar fi durat trei săptămâni." },
+      { "speaker": "Elena", "en": "True. In hindsight, we should have audited the database before giving an estimate.", "ro": "Adevărat. Privind înapoi, ar fi trebuit să verificăm baza de date înainte să dăm o estimare." },
+      { "speaker": "Radu", "en": "If only the client would reply to emails faster – we lost days waiting for answers.", "ro": "Măcar dacă clientul ar răspunde mai repede la emailuri – am pierdut zile întregi așteptând răspunsuri." },
+      { "speaker": "Elena", "en": "Let's put that in the lessons learned: one contact person with a 24-hour reply time.", "ro": "Hai să trecem asta la lecții învățate: o singură persoană de contact, cu răspuns în 24 de ore." },
+      { "speaker": "Radu", "en": "Good idea. If we had had that rule, we'd probably be on a new project by now.", "ro": "Bună idee. Dacă am fi avut regula asta, probabil am lucra deja la un proiect nou." }
+    ]
+  },
+
+  "reading": {
+    "title": "What I'd do differently",
+    "text": "Last year I took on the biggest project of my freelance career: an ERP system for a furniture factory near Suceava. On paper it looked perfect – a generous budget, a friendly owner and twelve months to deliver. In reality it went over budget, ran four months late and nearly ended in a lawsuit. Here is my honest post-mortem.\n\nThe root cause was simple: I didn't define the scope. If I had written down exactly which modules were included, the owner couldn't have added a whole warehouse app in month five. I agreed because I didn't want to lose the client, and every small favour turned into weeks of extra work. Classic scope creep.\n\nSecondly, I cut corners on testing to save time. If I were a more patient person, I would have written proper tests from day one. Instead, every new feature broke two old ones, and I spent my evenings fixing bugs instead of resting. I still wish I hadn't missed my best friend's wedding because of a payroll bug.\n\nWas it all a mistake? Not really. The project paid off in other ways: the factory now recommends me to other manufacturers, and I'd never have learnt so much about inventory systems otherwise. If I hadn't taken that risk, I would probably still be building small websites today.\n\nMy lessons learned? Trust your gut feeling when a client keeps asking for \"just one more thing\". Put everything in writing. And remember that every shortcut is a trade-off – sooner or later, someone pays for it.",
+    "textRo": "Anul trecut am preluat cel mai mare proiect din cariera mea de freelancer: un sistem ERP pentru o fabrică de mobilă de lângă Suceava. Pe hârtie arăta perfect – un buget generos, un proprietar prietenos și douăsprezece luni pentru livrare. În realitate a depășit bugetul, a întârziat patru luni și aproape s-a terminat cu un proces. Iată analiza mea sinceră.\n\nCauza principală a fost simplă: nu am definit aria proiectului. Dacă aș fi scris exact ce module erau incluse, proprietarul n-ar fi putut adăuga în luna a cincea o întreagă aplicație pentru depozit. Am acceptat pentru că nu voiam să pierd clientul, iar fiecare mică favoare s-a transformat în săptămâni de muncă în plus. Extindere necontrolată a cerințelor, ca la carte.\n\nÎn al doilea rând, am făcut rabat la testare ca să câștig timp. Dacă aș fi o persoană mai răbdătoare, aș fi scris teste ca lumea din prima zi. În schimb, fiecare funcție nouă strica două vechi, iar eu îmi petreceam serile reparând bug-uri în loc să mă odihnesc. Încă regret că am ratat nunta celui mai bun prieten al meu din cauza unui bug la salarizare.\n\nA fost totul o greșeală? Nu chiar. Proiectul a dat roade în alte feluri: fabrica mă recomandă acum altor producători și altfel n-aș fi învățat niciodată atât de multe despre sistemele de gestiune a stocurilor. Dacă nu mi-aș fi asumat riscul acela, probabil că și astăzi aș construi site-uri mici.\n\nLecțiile mele? Ai încredere în instinct când un client tot cere „doar încă un lucru”. Pune totul în scris. Și ține minte că fiecare scurtătură e un compromis – mai devreme sau mai târziu, cineva plătește pentru ea.",
+    "questions": [
+      { "type": "mc", "q": "According to the author, what was the root cause of the problems?", "options": ["The owner refused to pay.", "The scope of the project was never defined.", "The budget was too small.", "The factory was too far away."], "answer": 1, "explainRo": "„The root cause was simple: I didn't define the scope.”" },
+      { "type": "mc", "q": "Why did the author agree to build the warehouse app?", "options": ["He didn't want to lose the client.", "It was included in the contract.", "He needed experience with warehouses.", "The owner offered to double the budget."], "answer": 0, "explainRo": "Textul spune: „I agreed because I didn't want to lose the client.”" },
+      { "type": "mc", "q": "What does the author regret on a personal level?", "options": ["Moving to Suceava", "Working with a friend", "Missing his best friend's wedding", "Building small websites"], "answer": 2, "explainRo": "„I still wish I hadn't missed my best friend's wedding…”" },
+      { "type": "mc", "q": "How did the project pay off in the end?", "options": ["He won a lawsuit against the factory.", "He got a bonus for finishing early.", "He decided to stop freelancing.", "He got recommendations and learnt a lot about inventory systems."], "answer": 3, "explainRo": "Fabrica îl recomandă altor producători și a învățat mult despre gestiunea stocurilor." }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "If I ___ you, I'd ask the client for a deposit.", "options": ["am", "were", "had been", "would be"], "answer": 1, "explainRo": "Condiționalul 2 folosește **past simple**; formal spunem **If I were you**." },
+    { "type": "mc", "q": "If we had tested the update, the site ___ down.", "options": ["wouldn't go", "won't go", "wouldn't have gone", "hadn't gone"], "answer": 2, "explainRo": "Condiționalul 3: **if + past perfect, would have + V3**." },
+    { "type": "mc", "q": "If I had accepted the job in Amsterdam, I ___ there now.", "options": ["will live", "would be living", "would have lived", "had lived"], "answer": 1, "explainRo": "Mixt trecut → prezent: decizia din trecut, urmarea **acum** – would + verb (aici forma continuă **would be living**)." },
+    { "type": "mc", "q": "If she weren't so careful, she ___ that mistake in the contract.", "options": ["wouldn't have noticed", "won't notice", "doesn't notice", "hadn't noticed"], "answer": 0, "explainRo": "Mixt prezent → trecut: o trăsătură permanentă (if + past simple) explică un fapt trecut (would have + V3)." },
+    { "type": "mc", "q": "I wish I ___ that email to the whole company. It was so embarrassing!", "options": ["didn't send", "wouldn't send", "haven't sent", "hadn't sent"], "answer": 3, "explainRo": "Regret despre trecut: **wish + past perfect**." },
+    { "type": "mc", "q": "I wish my colleague ___ stop eating crisps during video calls.", "options": ["would", "will", "had", "did"], "answer": 0, "explainRo": "**Wish + would** exprimă iritare față de comportamentul altcuiva." },
+    { "type": "mc", "q": "The ___ of the outage was a misconfigured firewall.", "options": ["trade-off", "root cause", "gut feeling", "hindsight"], "answer": 1, "explainRo": "**Root cause** = cauza principală a unei probleme." },
+    { "type": "mc", "q": "Every week the client asked for 'one small extra feature'. It was classic ___.", "options": ["dilemma", "missed opportunity", "lessons learned", "scope creep"], "answer": 3, "explainRo": "**Scope creep** = cerințele cresc mereu, fără control." },
+    { "type": "mc", "q": "Choosing a cheaper server is a ___: we save money, but the app will be slower.", "options": ["trade-off", "post-mortem", "milestone", "root cause"], "answer": 0, "explainRo": "**Trade-off** = compromis în care câștigi ceva și pierzi altceva." },
+    { "type": "fill", "q": "If I ___ (know) about the traffic, I would have taken the train.", "answers": ["had known", "'d known"], "explainRo": "În propoziția cu **if** la condiționalul 3 folosim **past perfect**." },
+    { "type": "fill", "q": "I wish I ___ (speak) German – the client in Vienna would love it.", "answers": ["spoke", "could speak"], "explainRo": "Dorință despre prezent: **wish + past simple** (sau **could**)." },
+    { "type": "fill", "q": "Months of networking finally ___ off: we signed three new clients.", "answers": ["paid"], "explainRo": "**Pay off** (trecut: **paid off**) = a da roade." },
+    { "type": "order", "words": ["If", "only", "I", "had", "saved", "the", "file!"], "ro": "Măcar de-aș fi salvat fișierul!", "explainRo": "**If only + past perfect** exprimă un regret puternic despre trecut." },
+    { "type": "order", "words": ["I", "wish", "I", "had", "more", "free", "time."], "ro": "Aș vrea să am mai mult timp liber.", "explainRo": "**Wish + past simple** = dorință despre prezent." },
+    { "type": "order", "words": ["We", "wouldn't", "have", "lost", "the", "client."], "ro": "N-am fi pierdut clientul.", "explainRo": "**Wouldn't have + V3** = rezultatul imaginar din condiționalul 3." },
+    { "type": "translate", "ro": "Dacă aș fi știut, te-aș fi ajutat.", "answers": ["If I had known, I would have helped you.", "If I'd known, I'd have helped you.", "If I had known, I'd have helped you.", "If I'd known, I would have helped you.", "I would have helped you if I had known.", "I'd have helped you if I'd known."], "explainRo": "Condiționalul 3: **if + had + V3, would have + V3**." },
+    { "type": "translate", "ro": "Aș vrea să nu fi acceptat proiectul acela.", "answers": ["I wish I hadn't accepted that project.", "I wish I had not accepted that project.", "I wish I hadn't taken that project.", "I wish I hadn't taken on that project.", "I wish I had not taken on that project."], "explainRo": "Regret despre trecut: **I wish + past perfect**." },
+    { "type": "listen", "audio": "With hindsight, we should have said no.", "answers": ["With hindsight, we should have said no.", "With hindsight we should've said no."], "ro": "Privind acum înapoi, ar fi trebuit să refuzăm.", "explainRo": "**With hindsight** introduce o judecată făcută după ce știm cum s-au terminat lucrurile." },
+    { "type": "listen", "audio": "If I were you, I wouldn't sign it.", "answers": ["If I were you, I wouldn't sign it.", "If I were you, I would not sign it."], "ro": "Dacă aș fi în locul tău, nu l-aș semna.", "explainRo": "**If I were you** este formula clasică pentru a da un sfat." },
+    { "type": "match", "pairs": [["hindsight", "privire retrospectivă, „acum, după ce știm”"], ["underestimate", "a subestima"], ["gut feeling", "presimțire, instinct"], ["missed opportunity", "ocazie ratată"], ["go over budget", "a depăși bugetul"]] }
+  ],
+
+  "video": {
+    "youtubeId": "So6JcJGdOKI",
+    "title": "All of the English Conditionals - Donuts and Diarrhea (Papa Teach Me)"
+  }
+}

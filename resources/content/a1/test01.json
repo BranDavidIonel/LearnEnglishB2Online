@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u01",
+  "questions": [
+    { "type": "mc", "q": "My phone is very old. ___ is slow.", "options": ["He", "They", "It"], "answer": 2, "explainRo": "Pentru lucruri (un telefon) folosim **it**." },
+    { "type": "mc", "q": "Your friend Mara says: „Hi! How are you?” You answer:", "options": ["My name is Mara.", "Fine, thank you!", "Goodbye!", "Nice to meet you."], "answer": 1, "explainRo": "La „How are you?” (Ce faci?) răspundem cu **Fine, thank you!** (Bine, mulțumesc!)." },
+    { "type": "fill", "q": "You ___ (to be) a great teacher, Mrs Lee!", "answers": ["are", "'re"], "explainRo": "Cu **you** folosim **are** (forma scurtă: you're)." },
+    { "type": "mc", "q": "Sarah and I are developers at the same company. We are ___.", "options": ["colleagues", "clients", "teachers"], "answer": 0, "explainRo": "Oamenii care lucrează în aceeași firmă sunt **colleagues** (colegi de muncă)." },
+    { "type": "fill", "q": "Hello! ___ am Victor, the new project manager.", "answers": ["I"], "explainRo": "În engleză pronumele este obligatoriu: **I am** (eu sunt), iar „I” se scrie mereu cu literă mare." },
+    { "type": "mc", "q": "Ana and Mihai are ___ in Bucharest.", "options": ["a doctors", "doctors", "a doctor"], "answer": 1, "explainRo": "La plural nu mai punem **a**: they are **doctors**." },
+    { "type": "fill", "q": "The taxi is here. ___ (la revedere), everyone!", "answers": ["Goodbye", "Bye", "Good-bye", "Good bye"], "explainRo": "Când pleci, spui **Goodbye** (la revedere)." },
+    { "type": "order", "words": ["We", "are", "freelancers", "from", "Bucharest."], "ro": "Suntem freelanceri din București.", "explainRo": "We + are; la plural nu punem „a” înaintea meseriei." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Is project manager at a bank.", "She is project manager at a bank.", "She a project manager at a bank.", "She is a project manager at a bank."], "answer": 3, "explainRo": "Avem nevoie de pronume (**she**), de verb (**is**) și de **a** înaintea meseriei." },
+    { "type": "order", "words": ["Maria", "and", "I", "are", "good", "friends."], "ro": "Maria și cu mine suntem prieteni buni.", "explainRo": "Maria and I = we, deci folosim **are**; în engleză spunem întâi cealaltă persoană, apoi **I**." },
+    { "type": "listen", "audio": "Good evening! We're the new teachers.", "answers": ["Good evening! We're the new teachers.", "Good evening! We are the new teachers.", "Good evening, we're the new teachers."], "ro": "Bună seara! Noi suntem profesorii cei noi.", "explainRo": "**Good evening** = bună seara, iar **we're** este forma scurtă de la „we are”." },
+    { "type": "translate", "ro": "Ea este medic și el este profesor.", "answers": ["She is a doctor and he is a teacher.", "She's a doctor and he's a teacher.", "She is a doctor, and he is a teacher."], "explainRo": "Ea = **she**, el = **he**; cu amândouă folosim **is** și punem **a** înaintea meseriei." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u04",
+  "questions": [
+    { "type": "mc", "q": "My laptop battery is low. Where is my ___?", "options": ["charger", "keyboard", "notebook"], "answer": 0, "explainRo": "**Charger** = încărcător; cu el încarci laptopul." },
+    { "type": "mc", "q": "My keys are in the ___.", "options": ["bag red", "red bag", "reds bag"], "answer": 1, "explainRo": "Culoarea stă înaintea substantivului și nu primește -s: **red bag**." },
+    { "type": "mc", "q": "Look at ___ people over there! They're from my team.", "options": ["this", "that", "those"], "answer": 2, "explainRo": "**People** este plural, iar „over there” înseamnă departe → **those**." },
+    { "type": "fill", "q": "Where is the @ on this ___ (tastatură)?", "answers": ["keyboard"], "explainRo": "**Keyboard** = tastatură." },
+    { "type": "mc", "q": "The text on the menu is very small. Where are my ___?", "options": ["headphones", "glasses", "keys"], "answer": 1, "explainRo": "Ca să citești un text mic ai nevoie de **glasses** (ochelari)." },
+    { "type": "fill", "q": "I love ___ white desk here. It's perfect for my laptop. (acest)", "answers": ["this"], "explainRo": "Un singur obiect, aproape („here”) → **this**." },
+    { "type": "mc", "q": "These ___ are for the meeting.", "options": ["sandwichs", "sandwichies", "sandwiches"], "answer": 2, "explainRo": "După -ch adăugăm **-es**: sandwich → sandwiches." },
+    { "type": "fill", "q": "Our app is for small ___. (company)", "answers": ["companies"], "explainRo": "Consoană + y → **-ies**: company → companies." },
+    { "type": "order", "words": ["Are", "those", "red", "headphones", "new?"], "ro": "Căștile acelea roșii sunt noi?", "explainRo": "În întrebare **are** vine primul, iar culoarea stă înaintea substantivului." },
+    { "type": "order", "words": ["That", "white", "laptop", "is", "Mihai's."], "ro": "Laptopul acela alb este al lui Mihai.", "explainRo": "That + culoare + substantiv + is; „al lui Mihai” = **Mihai's**." },
+    { "type": "listen", "audio": "Is that your blue notebook?", "answers": ["Is that your blue notebook?"], "ro": "Acela este carnețelul tău albastru?", "explainRo": "Un singur obiect, departe → **that**; culoarea (**blue**) stă înaintea substantivului." },
+    { "type": "translate", "ro": "Ochelarii aceștia negri sunt ai lui Sorin.", "answers": ["These black glasses are Sorin's.", "These black glasses are Sorin’s.", "These black glasses belong to Sorin."], "explainRo": "**Glasses** este plural și aproape → **these ... are**; culoarea vine înainte și nu primește -s." }
+  ]
+}

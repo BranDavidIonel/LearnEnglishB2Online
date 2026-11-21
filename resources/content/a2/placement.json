@@ -1,0 +1,17 @@
+{
+  "level": "A2",
+  "questions": [
+    { "type": "mc", "q": "Last summer we ___ to Greece.", "options": ["go", "went", "goed", "gone"], "answer": 1, "explainRo": "Go este neregulat: trecutul simplu este went." },
+    { "type": "mc", "q": "___ you work in London last year?", "options": ["Do", "Was", "Are", "Did"], "answer": 3, "explainRo": "Întrebare la trecut (last year) cu un verb obișnuit: Did + subiect + verb." },
+    { "type": "mc", "q": "How ___ money do you need?", "options": ["many", "lot", "much", "few"], "answer": 2, "explainRo": "Money este nenumărabil, deci How much." },
+    { "type": "mc", "q": "My new laptop is ___ than my old one.", "options": ["fast", "more fast", "faster", "fastest"], "answer": 2, "explainRo": "Fast are o silabă: comparativul este faster (+ than)." },
+    { "type": "mc", "q": "Bucharest is ___ city in Romania.", "options": ["the biggest", "the bigger", "most big", "biggest"], "answer": 0, "explainRo": "Superlativ: the + biggest (consoana g se dublează)." },
+    { "type": "mc", "q": "I can't come on Friday. I ___ a client in Iași.", "options": ["meet", "am meeting", "met", "meeting"], "answer": 1, "explainRo": "Pentru o întâlnire deja stabilită folosim prezentul continuu: I'm meeting." },
+    { "type": "mc", "q": "The file is too big? Don't worry, I ___ you a link.", "options": ["'ll send", "sent", "am send", "sending"], "answer": 0, "explainRo": "O decizie luată pe loc: I'll (I will) send." },
+    { "type": "mc", "q": "I've ___ been to Japan, but I'd love to go one day.", "options": ["ever", "never", "yet", "already"], "answer": 1, "explainRo": "Vrea să meargă cândva, deci nu a fost niciodată: I've never been." },
+    { "type": "mc", "q": "You ___ share your password with other people. It's dangerous.", "options": ["mustn't", "don't have to", "should", "have to"], "answer": 0, "explainRo": "E periculos, deci este interzis: mustn't." },
+    { "type": "mc", "q": "I ___ dinner when the phone rang.", "options": ["cook", "was cooking", "am cooking", "were cooking"], "answer": 1, "explainRo": "Acțiunea lungă, întreruptă de alta, e la past continuous: I was cooking." },
+    { "type": "mc", "q": "If the client ___ the contract, we'll start on Monday.", "options": ["will sign", "signs", "signed", "sign"], "answer": 1, "explainRo": "În first conditional, după if folosim prezentul: the client signs." },
+    { "type": "mc", "q": "There isn't ___ in the office. Everybody went home.", "options": ["nobody", "somebody", "anybody", "everybody"], "answer": 2, "explainRo": "În negații folosim any-: There isn't anybody (nu „isn't nobody”)." }
+  ]
+}

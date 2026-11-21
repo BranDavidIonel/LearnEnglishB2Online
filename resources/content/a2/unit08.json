@@ -1,0 +1,132 @@
+{
+  "id": "a2-u08",
+  "level": "A2",
+  "order": 8,
+  "title": "You should take a break",
+  "titleRo": "Ar trebui să iei o pauză",
+  "emoji": "🩺",
+  "goalRo": "La final vei putea să vorbești despre sănătate, să dai sfaturi și să explici regulile de la birou folosind must, have to și should.",
+  "vocab": [
+    { "en": "headache", "ro": "durere de cap", "pos": "noun", "ipa": "/ˈhed.eɪk/", "emoji": "🤕", "wiki": "Headache", "ex": "I have a terrible headache after eight hours at the computer.", "exRo": "Am o durere de cap groaznică după opt ore la calculator." },
+    { "en": "back pain", "ro": "durere de spate", "pos": "noun", "ipa": "/ˈbæk ˌpeɪn/", "emoji": "🪑", "wiki": "Back pain", "ex": "A lot of programmers have back pain.", "exRo": "Mulți programatori au dureri de spate." },
+    { "en": "sore throat", "ro": "durere în gât", "pos": "noun", "ipa": "/ˌsɔː ˈθrəʊt/", "emoji": "😷", "wiki": "Sore throat", "ex": "I can't talk much today. I have a sore throat.", "exRo": "Nu pot vorbi mult azi. Mă doare gâtul." },
+    { "en": "cough", "ro": "tuse", "pos": "noun", "ipa": "/kɒf/", "emoji": "🤧", "wiki": "Cough", "ex": "She has had a bad cough for a week.", "exRo": "Ea are o tuse urâtă de o săptămână." },
+    { "en": "fever", "ro": "febră", "pos": "noun", "ipa": "/ˈfiː.və/", "emoji": "🌡️", "wiki": "Fever", "ex": "You have a fever. You should stay in bed.", "exRo": "Ai febră. Ar trebui să stai în pat." },
+    { "en": "medicine", "ro": "medicament", "pos": "noun", "ipa": "/ˈmed.ɪ.sən/", "emoji": "💊", "wiki": "Medication", "ex": "You must take this medicine twice a day.", "exRo": "Trebuie să iei acest medicament de două ori pe zi." },
+    { "en": "pharmacy", "ro": "farmacie", "pos": "noun", "ipa": "/ˈfɑː.mə.si/", "emoji": "🏥", "wiki": "Pharmacy", "ex": "Is there a pharmacy near the hotel?", "exRo": "Este o farmacie lângă hotel?" },
+    { "en": "rest", "ro": "a se odihni", "pos": "verb", "ipa": "/rest/", "emoji": "🛌", "ex": "You should rest this weekend.", "exRo": "Ar trebui să te odihnești weekendul acesta." },
+    { "en": "take a break", "ro": "a lua o pauză", "pos": "phrase", "ipa": "/ˌteɪk ə ˈbreɪk/", "emoji": "☕", "ex": "Let's take a break and have a coffee.", "exRo": "Hai să luăm o pauză și să bem o cafea." },
+    { "en": "advice", "ro": "sfat, sfaturi (nenumărabil)", "pos": "noun", "ipa": "/ədˈvaɪs/", "emoji": "💡", "ex": "Can you give me some advice about my CV?", "exRo": "Îmi poți da câteva sfaturi despre CV-ul meu?" },
+    { "en": "rule", "ro": "regulă", "pos": "noun", "ipa": "/ruːl/", "emoji": "📜", "ex": "The most important rule here is: no food near the computers.", "exRo": "Cea mai importantă regulă aici este: fără mâncare lângă calculatoare." },
+    { "en": "dress code", "ro": "cod vestimentar", "pos": "noun", "ipa": "/ˈdres ˌkəʊd/", "emoji": "👔", "ex": "Our office doesn't have a strict dress code.", "exRo": "Biroul nostru nu are un cod vestimentar strict." },
+    { "en": "exercise", "ro": "a face mișcare, a face sport", "pos": "verb", "ipa": "/ˈek.sə.saɪz/", "emoji": "🏃", "ex": "I try to exercise three times a week.", "exRo": "Încerc să fac mișcare de trei ori pe săptămână." },
+    { "en": "stressed", "ro": "stresat", "pos": "adj", "ipa": "/strest/", "emoji": "😫", "ex": "I'm very stressed because of the deadline.", "exRo": "Sunt foarte stresat din cauza termenului limită." },
+    { "en": "sick leave", "ro": "concediu medical", "pos": "noun", "ipa": "/ˈsɪk ˌliːv/", "emoji": "🏠", "ex": "He's on sick leave this week.", "exRo": "El e în concediu medical săptămâna aceasta." },
+    { "en": "safety", "ro": "siguranță, securitate", "pos": "noun", "ipa": "/ˈseɪf.ti/", "emoji": "🦺", "ex": "For your safety, you must change your password every month.", "exRo": "Pentru siguranța ta, trebuie să-ți schimbi parola în fiecare lună." }
+  ],
+  "grammar": {
+    "title": "Must, have to and should",
+    "titleRo": "Must, have to și should",
+    "sections": [
+      {
+        "headingRo": "Should – sfaturi",
+        "textRo": "**should + verb** = „ar trebui să”. Îl folosim pentru **sfaturi** și păreri: You should drink more water. Negativul: **shouldn't** (nu ar trebui). Întrebarea: **Should I call a doctor?** Ca și will, should are aceeași formă pentru toate persoanele și **nu** are „to” după el.",
+        "examples": [
+          { "en": "You should take a break every hour.", "ro": "Ar trebui să iei o pauză în fiecare oră." },
+          { "en": "He shouldn't work so late.", "ro": "N-ar trebui să lucreze până așa târziu." },
+          { "en": "Should I go to the pharmacy?", "ro": "Ar trebui să merg la farmacie?" }
+        ]
+      },
+      {
+        "headingRo": "Must și have to – obligații",
+        "textRo": "Ambele înseamnă „trebuie (să)”. **must** = obligație pe care o simte vorbitorul sau reguli scrise: You must wear a badge. **have to / has to** = obligație venită din exterior (reguli, program, șef): I have to start work at nine. În vorbire, **have to** e mai des folosit. Atenție: la he/she/it → **has to**, iar trecutul este **had to** (must nu are trecut).",
+        "table": {
+          "headers": ["", "must", "have to"],
+          "rows": [
+            ["Afirmativ", "I must go.", "I have to go. / She has to go."],
+            ["Întrebare", "(rar) Must I go?", "Do I have to go? / Does she have to go?"],
+            ["Trecut", "—", "I had to go."]
+          ]
+        },
+        "examples": [
+          { "en": "I must call my mum tonight.", "ro": "Trebuie s-o sun pe mama diseară." },
+          { "en": "She has to finish the report today.", "ro": "Ea trebuie să termine raportul azi." },
+          { "en": "Yesterday we had to stay late at work.", "ro": "Ieri a trebuit să stăm până târziu la muncă." }
+        ]
+      },
+      {
+        "headingRo": "Mustn't sau don't have to?",
+        "textRo": "Aici e capcana! **mustn't** = este **interzis**: You mustn't share your password. **don't have to** = **nu e nevoie**, nu e obligatoriu: You don't have to come to the office on Fridays. În română ambele pot suna „nu trebuie”, dar în engleză înseamnă lucruri foarte diferite.",
+        "table": {
+          "headers": ["Formă", "Înțeles", "Exemplu"],
+          "rows": [
+            ["mustn't", "este interzis", "You mustn't smoke here."],
+            ["don't have to", "nu e necesar", "You don't have to wear a suit."],
+            ["shouldn't", "nu e o idee bună", "You shouldn't eat so much sugar."]
+          ]
+        },
+        "examples": [
+          { "en": "You mustn't use your phone while you drive.", "ro": "Nu ai voie să folosești telefonul când conduci." },
+          { "en": "You don't have to pay. It's free.", "ro": "Nu trebuie să plătești. E gratis." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „You must to go” sau „You should to rest”. După must și should nu punem to: **You must go. You should rest.**",
+      "„Nu trebuie să vii” poate însemna două lucruri: **You mustn't come** (e interzis) sau **You don't have to come** (nu e necesar). Gândește-te ce vrei să spui!",
+      "La persoana a III-a: **She has to work**, nu „She have to work”.",
+      "„Advice” e nenumărabil: **some advice / a piece of advice**, nu „an advice” sau „advices”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "O zi grea la birou",
+    "lines": [
+      { "speaker": "Sofia", "en": "Are you OK, Andrei? You look tired.", "ro": "Ești bine, Andrei? Arăți obosit." },
+      { "speaker": "Andrei", "en": "I have a headache, and my back hurts too.", "ro": "Mă doare capul și mă doare și spatele." },
+      { "speaker": "Sofia", "en": "You should take a break. You've worked for six hours without a break!", "ro": "Ar trebui să iei o pauză. Ai lucrat șase ore fără pauză!" },
+      { "speaker": "Andrei", "en": "I know, but I have to finish this feature today. The client is waiting.", "ro": "Știu, dar trebuie să termin funcția asta azi. Clientul așteaptă." },
+      { "speaker": "Sofia", "en": "You don't have to finish it today. The deadline is on Friday.", "ro": "Nu e nevoie s-o termini azi. Termenul limită e vineri." },
+      { "speaker": "Andrei", "en": "Really? Then maybe I should go to the pharmacy and buy some medicine.", "ro": "Serios? Atunci poate ar trebui să merg la farmacie să-mi cumpăr un medicament." },
+      { "speaker": "Sofia", "en": "Good idea. And you shouldn't sit at your desk all day. You should exercise more.", "ro": "Bună idee. Și n-ar trebui să stai la birou toată ziua. Ar trebui să faci mai multă mișcare." },
+      { "speaker": "Andrei", "en": "You're right. Do I have to tell the manager?", "ro": "Ai dreptate. Trebuie să-i spun managerului?" },
+      { "speaker": "Sofia", "en": "No, you don't. Just rest and drink a lot of water!", "ro": "Nu, nu e nevoie. Doar odihnește-te și bea multă apă!" }
+    ]
+  },
+  "reading": {
+    "title": "Office rules at BlueSoft",
+    "text": "Welcome to BlueSoft! Here are some important rules for new team members.\n\nSafety: You must wear your badge in the building. You mustn't share your password with other people, not even with your colleagues.\n\nWorking hours: You don't have to start at nine. You can start between eight and ten, but you have to work eight hours a day. On Fridays, you don't have to come to the office – you can work at home.\n\nDress code: There isn't a strict dress code. You don't have to wear a suit, but you should look clean and tidy when you meet clients.\n\nHealth: Programmers often sit for many hours. You should take a short break every hour and drink a lot of water. When you are ill, you must call your manager before ten, and you should stay at home. Don't come to the office with a fever!",
+    "textRo": "Bun venit la BlueSoft! Iată câteva reguli importante pentru noii membri ai echipei.\n\nSiguranță: Trebuie să porți ecusonul în clădire. Nu ai voie să-ți spui parola altor persoane, nici măcar colegilor.\n\nProgram de lucru: Nu e obligatoriu să începi la nouă. Poți începe între opt și zece, dar trebuie să lucrezi opt ore pe zi. Vinerea nu trebuie să vii la birou – poți lucra de acasă.\n\nCod vestimentar: Nu există un cod vestimentar strict. Nu e nevoie să porți costum, dar ar trebui să arăți curat și îngrijit când te întâlnești cu clienții.\n\nSănătate: Programatorii stau deseori jos multe ore. Ar trebui să iei o pauză scurtă în fiecare oră și să bei multă apă. Când ești bolnav, trebuie să-ți suni managerul înainte de ora zece și ar trebui să stai acasă. Nu veni la birou cu febră!",
+    "questions": [
+      { "type": "mc", "q": "What must you wear in the building?", "options": ["A suit", "A badge", "A uniform", "A tie"], "answer": 1, "explainRo": "„You must wear your badge in the building.”" },
+      { "type": "mc", "q": "On Fridays, employees ___.", "options": ["have to come to the office", "mustn't work", "don't have to come to the office", "have to wear a suit"], "answer": 2, "explainRo": "„On Fridays, you don't have to come to the office.”" },
+      { "type": "mc", "q": "What should programmers do every hour?", "options": ["Call the manager", "Change their password", "Go to the pharmacy", "Take a short break"], "answer": 3, "explainRo": "„You should take a short break every hour.”" },
+      { "type": "mc", "q": "When you are ill, you must ___.", "options": ["call your manager before ten", "come to the office", "send an email to the team", "see a doctor"], "answer": 0, "explainRo": "„You must call your manager before ten.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["headache", "durere de cap"], ["cough", "tuse"], ["fever", "febră"], ["pharmacy", "farmacie"], ["sick leave", "concediu medical"]] },
+    { "type": "mc", "q": "You look tired. You ___ go to bed early.", "options": ["should", "shouldn't", "mustn't", "don't have to"], "answer": 0, "explainRo": "Un sfat pentru cineva obosit: You should go to bed early." },
+    { "type": "mc", "q": "She ___ to start work at 8 a.m.", "options": ["have", "has", "must", "should"], "answer": 1, "explainRo": "Cu she folosim has to. Must și should nu au „to” după ele." },
+    { "type": "mc", "q": "You ___ share your password. It's dangerous!", "options": ["don't have to", "mustn't", "should", "have to"], "answer": 1, "explainRo": "E periculos, deci e interzis: mustn't." },
+    { "type": "mc", "q": "It's Saturday! I ___ get up early today.", "options": ["mustn't", "must", "don't have to", "have to"], "answer": 2, "explainRo": "Sâmbătă nu e necesar să te trezești devreme: don't have to." },
+    { "type": "mc", "q": "You ___ eat so much fast food. It isn't healthy.", "options": ["should", "shouldn't", "have to", "must"], "answer": 1, "explainRo": "Sfat negativ – nu e o idee bună: shouldn't." },
+    { "type": "mc", "q": "___ I have to wear a suit at the office?", "options": ["Do", "Must", "Should", "Am"], "answer": 0, "explainRo": "Întrebarea cu have to se face cu do: Do I have to...?" },
+    { "type": "mc", "q": "I can't talk much today. I have a ___.", "options": ["back pain", "medicine", "safety", "sore throat"], "answer": 3, "explainRo": "Sore throat = durere în gât; de aceea nu poți vorbi mult." },
+    { "type": "mc", "q": "Can you give me some ___? I don't know what to do.", "options": ["rule", "advices", "advice", "break"], "answer": 2, "explainRo": "Advice este nenumărabil: some advice, fără -s." },
+    { "type": "fill", "q": "He ___ (have to) work tomorrow.", "answers": ["has to"], "explainRo": "La persoana a III-a singular: he has to." },
+    { "type": "fill", "q": "You ___ (not / have to) bring your laptop. We have computers here.", "answers": ["don't have to", "do not have to"], "explainRo": "Nu e necesar, deci don't have to." },
+    { "type": "fill", "q": "I'm very stressed. I need to take a ___.", "answers": ["break"], "explainRo": "Take a break = a lua o pauză." },
+    { "type": "fill", "q": "Yesterday I ___ (have to) stay late at work.", "answers": ["had to"], "explainRo": "Trecutul lui have to este had to." },
+    { "type": "listen", "audio": "You should take a break.", "answers": ["You should take a break."], "ro": "Ar trebui să iei o pauză.", "explainRo": "Should + verb = un sfat." },
+    { "type": "listen", "audio": "You mustn't smoke here.", "answers": ["You mustn't smoke here.", "You must not smoke here."], "ro": "Nu ai voie să fumezi aici.", "explainRo": "Mustn't = este interzis; t-ul din mustn't se aude slab." },
+    { "type": "order", "words": ["You", "should", "drink", "more", "water."], "ro": "Ar trebui să bei mai multă apă.", "explainRo": "Should + verb la forma de bază, fără to." },
+    { "type": "order", "words": ["We", "have", "to", "wear", "a", "badge."], "ro": "Trebuie să purtăm un ecuson.", "explainRo": "Have to + verb – o regulă venită din exterior." },
+    { "type": "order", "words": ["You", "don't", "have", "to", "come", "on", "Friday."], "ro": "Nu e nevoie să vii vineri.", "explainRo": "Don't have to = nu e necesar." },
+    { "type": "translate", "ro": "Ar trebui să faci mai multă mișcare.", "answers": ["You should exercise more.", "You should do more exercise.", "You should get more exercise."], "explainRo": "Sfat: You should + exercise more." },
+    { "type": "translate", "ro": "Trebuie să termin asta azi.", "answers": ["I have to finish this today.", "I must finish this today.", "I've got to finish this today.", "I have got to finish this today.", "I need to finish this today."], "explainRo": "„Trebuie să” = have to sau must + verb." }
+  ],
+  "video": {
+    "youtubeId": "O-jJPd5ZYo4",
+    "title": "Modal Verbs: Have to and Must: The Grammar Gameshow Episode 5 (BBC Learning English)"
+  }
+}

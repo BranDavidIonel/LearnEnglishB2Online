@@ -1,0 +1,139 @@
+{
+  "id": "b2-u01",
+  "level": "B2",
+  "order": 1,
+  "title": "Looking back: my career path",
+  "titleRo": "Privind înapoi: parcursul meu profesional",
+  "emoji": "🧭",
+  "goalRo": "La final vei putea povesti fluent despre trecutul tău profesional, despre obiceiuri vechi și despre cum te-ai adaptat la munca la distanță.",
+
+  "vocab": [
+    { "en": "career path", "ro": "parcurs profesional", "pos": "noun", "ipa": "/kəˈrɪə pɑːθ/", "emoji": "🧭", "ex": "My career path has been anything but straightforward.", "exRo": "Parcursul meu profesional a fost orice, numai liniar nu." },
+    { "en": "remote work", "ro": "munca la distanță", "pos": "noun", "ipa": "/rɪˌməʊt ˈwɜːk/", "emoji": "🏡", "ex": "Remote work gave me more time with my family.", "exRo": "Munca la distanță mi-a dat mai mult timp cu familia." },
+    { "en": "commute", "ro": "navetă; a face naveta", "pos": "noun", "ipa": "/kəˈmjuːt/", "emoji": "🚌", "ex": "My daily commute used to take over an hour.", "exRo": "Naveta zilnică îmi lua pe vremuri peste o oră." },
+    { "en": "switch careers", "ro": "a schimba cariera", "pos": "phrase", "ipa": "/ˌswɪtʃ kəˈrɪəz/", "emoji": "🔀", "ex": "She switched careers at 35 and became a data analyst.", "exRo": "Și-a schimbat cariera la 35 de ani și a devenit analist de date." },
+    { "en": "job hunting", "ro": "căutarea unui loc de muncă", "pos": "noun", "ipa": "/ˈdʒɒb ˌhʌn.tɪŋ/", "emoji": "🔍", "ex": "Job hunting can be exhausting if you apply everywhere.", "exRo": "Căutarea unui loc de muncă poate fi epuizantă dacă aplici peste tot." },
+    { "en": "promotion", "ro": "promovare", "pos": "noun", "ipa": "/prəˈməʊ.ʃən/", "emoji": "📈", "ex": "He got a promotion after leading the CRM migration.", "exRo": "A fost promovat după ce a condus migrarea CRM-ului." },
+    { "en": "hands-on experience", "ro": "experiență practică", "pos": "noun", "ipa": "/ˌhændz ˈɒn ɪkˈspɪə.ri.əns/", "emoji": "🛠️", "ex": "Employers value hands-on experience more than certificates.", "exRo": "Angajatorii prețuiesc experiența practică mai mult decât certificatele." },
+    { "en": "self-taught", "ro": "autodidact", "pos": "adj", "ipa": "/ˌself ˈtɔːt/", "emoji": "📚", "ex": "Many great developers are completely self-taught.", "exRo": "Mulți programatori foarte buni sunt complet autodidacți." },
+    { "en": "burnout", "ro": "epuizare profesională (burnout)", "pos": "noun", "ipa": "/ˈbɜːn.aʊt/", "emoji": "🪫", "ex": "Working every weekend led to burnout.", "exRo": "Munca în fiecare weekend a dus la epuizare." },
+    { "en": "coworking space", "ro": "spațiu de coworking", "pos": "noun", "ipa": "/ˈkəʊ.wɜː.kɪŋ ˌspeɪs/", "emoji": "🏢", "wiki": "Coworking", "ex": "I rent a desk in a coworking space twice a week.", "exRo": "Închiriez un birou într-un spațiu de coworking de două ori pe săptămână." },
+    { "en": "time zone", "ro": "fus orar", "pos": "noun", "ipa": "/ˈtaɪm ˌzəʊn/", "emoji": "🌍", "ex": "Our client is in a different time zone, so we meet at 5 p.m.", "exRo": "Clientul nostru e în alt fus orar, așa că ne vedem la ora 17." },
+    { "en": "turning point", "ro": "punct de cotitură", "pos": "noun", "ipa": "/ˈtɜː.nɪŋ ˌpɔɪnt/", "emoji": "↪️", "ex": "Getting my first freelance client was a real turning point.", "exRo": "Primul client ca freelancer a fost un adevărat punct de cotitură." },
+    { "en": "look back on", "ro": "a privi în urmă la, a-și aminti de", "pos": "verb", "ipa": "/ˌlʊk ˈbæk ɒn/", "emoji": "🔙", "ex": "I look back on my first job with a smile.", "exRo": "Îmi amintesc cu zâmbetul pe buze de primul meu job." },
+    { "en": "settle in", "ro": "a se acomoda", "pos": "verb", "ipa": "/ˌset.əl ˈɪn/", "emoji": "🛋️", "ex": "It took me a few weeks to settle in at the new company.", "exRo": "Mi-au trebuit câteva săptămâni să mă acomodez la noua firmă." },
+    { "en": "nostalgic", "ro": "nostalgic", "pos": "adj", "ipa": "/nɒˈstæl.dʒɪk/", "emoji": "🥲", "ex": "Old photos of the office make me feel nostalgic.", "exRo": "Pozele vechi de la birou mă fac nostalgic." },
+    { "en": "flexible hours", "ro": "program flexibil", "pos": "noun", "ipa": "/ˌflek.sə.bəl ˈaʊəz/", "emoji": "⏰", "ex": "Flexible hours let me go to the gym in the morning.", "exRo": "Programul flexibil îmi permite să merg la sală dimineața." }
+  ],
+
+  "grammar": {
+    "title": "Narrative tenses; used to, would, be used to, get used to",
+    "titleRo": "Timpurile narative; used to, would, be used to, get used to",
+    "sections": [
+      {
+        "headingRo": "Cum povestim o întâmplare din trecut",
+        "textRo": "Când spunem o poveste, combinăm patru timpuri. **Past simple** duce povestea înainte (acțiunile principale). **Past continuous** descrie fundalul – ce era în desfășurare. **Past perfect** arată ce se întâmplase *înainte* de momentul poveștii. **Past perfect continuous** subliniază durata unei acțiuni care se desfășurase până la acel moment. În română folosim de obicei doar perfectul compus și imperfectul, așa că în engleză trebuie să fii mai precis cu ordinea evenimentelor.",
+        "table": {
+          "headers": ["Timp", "Formă", "Rol în poveste"],
+          "rows": [
+            ["Past simple", "I moved / I didn't move", "evenimentele principale"],
+            ["Past continuous", "I was working", "fundalul, acțiunea întreruptă"],
+            ["Past perfect", "I had finished", "ceva petrecut înainte"],
+            ["Past perfect continuous", "I had been working", "durata până la un moment din trecut"]
+          ]
+        },
+        "examples": [
+          { "en": "I was debugging the API when my phone rang.", "ro": "Depanam API-ul când mi-a sunat telefonul." },
+          { "en": "By the time the client replied, we had already finished the prototype.", "ro": "Până să răspundă clientul, terminaserăm deja prototipul." },
+          { "en": "She was exhausted because she had been working on the release all night.", "ro": "Era epuizată pentru că lucrase toată noaptea la lansare." }
+        ]
+      },
+      {
+        "headingRo": "Obiceiuri din trecut: used to și would",
+        "textRo": "**Used to + verb** exprimă obiceiuri sau stări din trecut care nu mai sunt valabile – ca imperfectul românesc „obișnuiam să…”. **Would + verb** se folosește tot pentru acțiuni repetate în trecut, mai ales în povești, dar **nu** și pentru stări (have, be, like, know, live). Spunem *I used to have a desk job*, nu *I would have a desk job*.",
+        "examples": [
+          { "en": "I used to work in an open-plan office.", "ro": "Pe vremuri lucram într-un birou open-space." },
+          { "en": "Every Friday we would order pizza and play table football.", "ro": "În fiecare vineri comandam pizza și jucam fotbal de masă." },
+          { "en": "Did you use to commute by train?", "ro": "Făceai naveta cu trenul pe vremuri?" }
+        ]
+      },
+      {
+        "headingRo": "Be used to / get used to + -ing",
+        "textRo": "Atenție, aici **to** este prepoziție, deci e urmat de **substantiv** sau de verb cu **-ing**. **Be used to** = a fi obișnuit cu ceva (o stare). **Get used to** = a se obișnui treptat cu ceva (un proces). Le poți folosi la orice timp: *I'll get used to it*, *I've got used to it*, *I wasn't used to it*.",
+        "table": {
+          "headers": ["Structură", "Sens", "Exemplu"],
+          "rows": [
+            ["used to + infinitiv", "obicei trecut", "I used to work late."],
+            ["be used to + -ing", "a fi obișnuit", "I'm used to working late."],
+            ["get used to + -ing", "a se obișnui", "I'm getting used to working late."]
+          ]
+        },
+        "examples": [
+          { "en": "I'm not used to speaking English in meetings yet.", "ro": "Încă nu sunt obișnuit să vorbesc engleză în ședințe." },
+          { "en": "You'll soon get used to the new time zone.", "ro": "Te vei obișnui curând cu noul fus orar." },
+          { "en": "It took him months to get used to working from home.", "ro": "I-au trebuit luni întregi să se obișnuiască să lucreze de acasă." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „I am used to work from home”. După **be/get used to** vine **-ing**: **I am used to working from home**.",
+      "„Used to” nu are formă de prezent. Pentru obiceiuri actuale folosește **usually**: **I usually start at nine**, nu „I use to start at nine”.",
+      "Nu folosi **would** pentru stări: **I used to live in Iași** (corect), nu „I would live in Iași”.",
+      "Nu înlocui past perfect cu past simple când ordinea contează: **When I arrived, the meeting had started** (începuse deja) ≠ **When I arrived, the meeting started** (a început atunci)."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Interviu informal cu un recrutor",
+    "lines": [
+      { "speaker": "Sarah", "en": "So, Andrei, how did you get into software development?", "ro": "Deci, Andrei, cum ai ajuns în dezvoltarea software?" },
+      { "speaker": "Andrei", "en": "Actually, I used to be an accountant. I'd spend my evenings watching coding tutorials.", "ro": "De fapt, am fost contabil. Îmi petreceam serile urmărind tutoriale de programare." },
+      { "speaker": "Sarah", "en": "Interesting! What made you switch careers in the end?", "ro": "Interesant! Ce te-a făcut până la urmă să-ți schimbi cariera?" },
+      { "speaker": "Andrei", "en": "I'd been building small tools for my team for a year, and one day my manager asked me to automate our invoicing.", "ro": "Construiam de un an mici unelte pentru echipa mea, iar într-o zi managerul m-a rugat să automatizez facturarea." },
+      { "speaker": "Sarah", "en": "So that was the turning point. And how do you find remote work now?", "ro": "Deci acela a fost punctul de cotitură. Și cum ți se pare acum munca la distanță?" },
+      { "speaker": "Andrei", "en": "I wasn't used to working alone at first, but I've got used to it. I rent a desk in a coworking space twice a week.", "ro": "La început nu eram obișnuit să lucrez singur, dar m-am obișnuit. Închiriez un birou într-un spațiu de coworking de două ori pe săptămână." },
+      { "speaker": "Sarah", "en": "Our team is spread across three time zones. Would that be a problem?", "ro": "Echipa noastră e răspândită în trei fusuri orare. Ar fi o problemă?" },
+      { "speaker": "Andrei", "en": "Not at all. My last client was in Canada, so I'm used to late calls.", "ro": "Deloc. Ultimul meu client era în Canada, așa că sunt obișnuit cu apelurile târzii." }
+    ]
+  },
+
+  "reading": {
+    "title": "From the bus to the cloud",
+    "text": "When Mihai started his first job in 2015, he used to commute for over an hour every day. He would leave home at seven, squeeze onto a crowded bus and spend the journey reading programming blogs on his phone. He had studied economics at university, but he had been teaching himself to code in the evenings for two years, so when a small software company in Cluj offered him a junior position, he accepted immediately.\n\nThe first months were tough. He wasn't used to working in a team, and he had never written automated tests before. However, his manager was patient, and he gradually settled in. By the time he got his first promotion, he had already built two modules for the company's CRM.\n\nThe real turning point came in 2020. Like millions of others, Mihai was sent home when the pandemic started. At first he found remote work strange: he missed his colleagues and kept working late into the night. He was heading for burnout when he decided to set clear boundaries and to work from a coworking space three days a week.\n\nToday Mihai works for a Dutch company and has flexible hours. He has got used to video calls across three time zones, and he can't imagine going back to a daily commute. When he looks back on his career path, he isn't nostalgic about the old office, but he does miss the jokes on the bus. \"I used to hate that journey,\" he laughs, \"but it's where I learnt half of what I know.\"",
+    "textRo": "Când Mihai și-a început primul job în 2015, făcea zilnic peste o oră pe drum. Pleca de acasă la șapte, se înghesuia într-un autobuz aglomerat și își petrecea drumul citind bloguri de programare pe telefon. Studiase economie la facultate, dar învăța singur programare seara de doi ani, așa că, atunci când o mică firmă de software din Cluj i-a oferit un post de junior, a acceptat imediat.\n\nPrimele luni au fost grele. Nu era obișnuit să lucreze în echipă și nu scrisese niciodată teste automate. Totuși, managerul lui a fost răbdător și treptat s-a acomodat. Până să primească prima promovare, construise deja două module pentru CRM-ul firmei.\n\nAdevăratul punct de cotitură a venit în 2020. Ca milioane de alți oameni, Mihai a fost trimis acasă când a început pandemia. La început, munca la distanță i s-a părut ciudată: îi lipseau colegii și lucra până târziu în noapte. Era pe drumul spre epuizare când a hotărât să-și stabilească limite clare și să lucreze trei zile pe săptămână dintr-un spațiu de coworking.\n\nAstăzi Mihai lucrează pentru o firmă olandeză și are program flexibil. S-a obișnuit cu apelurile video în trei fusuri orare și nu-și poate imagina să se întoarcă la naveta zilnică. Când privește în urmă la parcursul său profesional, nu e nostalgic după vechiul birou, dar chiar îi lipsesc glumele din autobuz. „Uram drumul ăla”, râde el, „dar acolo am învățat jumătate din ce știu.”",
+    "questions": [
+      { "type": "mc", "q": "What had Mihai studied at university?", "options": ["Computer science", "Economics", "Engineering", "Foreign languages"], "answer": 1, "explainRo": "Textul spune: „He had studied economics at university”." },
+      { "type": "mc", "q": "Why was he able to get a junior position?", "options": ["He had worked at a Dutch company before.", "He had written automated tests for years.", "He had been teaching himself to code for two years.", "His manager had been his teacher at university."], "answer": 2, "explainRo": "Învățase singur programare seara timp de doi ani („he had been teaching himself to code”)." },
+      { "type": "mc", "q": "What problem did Mihai have when he first started working from home?", "options": ["He worked too late and was close to burnout.", "His internet connection was too slow.", "He had to commute to Cluj twice a week.", "He didn't get on with his new manager."], "answer": 0, "explainRo": "Lucra până târziu în noapte și „was heading for burnout”." },
+      { "type": "mc", "q": "How does Mihai feel about his old commute now?", "options": ["He would like to go back to it.", "He is very nostalgic about it.", "He never thinks about it.", "He hated it, but he learnt a lot during it."], "answer": 3, "explainRo": "Spune că ura drumul, dar acolo a învățat jumătate din ce știe." }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "When I was a junior developer, I ___ stay in the office until nine every evening.", "options": ["would", "am used to", "get used to", "was used to"], "answer": 0, "explainRo": "**Would + verb** descrie o acțiune repetată în trecut, la fel ca „used to”." },
+    { "type": "mc", "q": "We ___ a small office in the city centre before we went fully remote.", "options": ["would have", "were having", "used to have", "got used to have"], "answer": 2, "explainRo": "„Have” (a avea) este o stare, deci folosim **used to**, nu „would”." },
+    { "type": "mc", "q": "Don't worry about the new framework. You'll soon get used to ___ it.", "options": ["use", "using", "used", "be using"], "answer": 1, "explainRo": "După **get used to** vine verbul cu **-ing**, pentru că „to” e prepoziție." },
+    { "type": "mc", "q": "When the client finally called, I ___ the bug for three hours.", "options": ["have been fixing", "was fixed", "fix", "had been fixing"], "answer": 3, "explainRo": "**Past perfect continuous** arată durata unei acțiuni până la un moment din trecut." },
+    { "type": "mc", "q": "I ___ the report when the power went off, so I lost everything.", "options": ["was writing", "had written", "used to write", "wrote"], "answer": 0, "explainRo": "Acțiunea în desfășurare întreruptă de alta se exprimă cu **past continuous**." },
+    { "type": "mc", "q": "After two years without a holiday, Elena suffered from ___ and had to take a month off.", "options": ["promotion", "turning point", "burnout", "flexible hours"], "answer": 2, "explainRo": "**Burnout** = epuizare cauzată de prea multă muncă." },
+    { "type": "mc", "q": "I taught myself to code from online courses. I'm completely ___.", "options": ["self-taught", "hands-on", "nostalgic", "remote"], "answer": 0, "explainRo": "**Self-taught** = autodidact, cineva care a învățat singur." },
+    { "type": "mc", "q": "It took me a couple of weeks to ___ at the new company, but now I feel at home.", "options": ["look back on", "settle in", "switch careers", "commute"], "answer": 1, "explainRo": "**Settle in** = a se acomoda într-un loc sau într-un job nou." },
+    { "type": "fill", "q": "By the time I joined the call, the client ___ (already / leave).", "answers": ["had already left", "'d already left"], "explainRo": "Clientul plecase înainte să intru eu, deci folosim **past perfect**: had already left." },
+    { "type": "fill", "q": "I'm not used to ___ (work) at night, so I'm really tired.", "answers": ["working"], "explainRo": "După **be used to** folosim forma **-ing**." },
+    { "type": "fill", "q": "She ___ (walk) to the station when her manager called her.", "answers": ["was walking"], "explainRo": "Acțiunea de fundal, în desfășurare, este la **past continuous**." },
+    { "type": "fill", "q": "Did you ___ (use) to work in an office before you went freelance?", "answers": ["use"], "explainRo": "La interogativ și negativ, după **did** scriem **use to**, fără -d." },
+    { "type": "order", "words": ["I", "used", "to", "commute", "for", "an", "hour", "every", "day."], "ro": "Pe vremuri făceam zilnic o oră pe drum.", "explainRo": "**Used to + verb** descrie un obicei din trecut care nu mai există." },
+    { "type": "order", "words": ["He", "had", "been", "working", "there", "for", "years."], "ro": "Lucra acolo de ani buni (până atunci).", "explainRo": "**Had been + -ing** arată o durată până la un moment din trecut." },
+    { "type": "order", "words": ["She", "is", "getting", "used", "to", "remote", "work."], "ro": "Se obișnuiește cu munca la distanță.", "explainRo": "**Get used to + substantiv** descrie un proces de adaptare în desfășurare." },
+    { "type": "translate", "ro": "M-am obișnuit să lucrez de acasă.", "answers": ["I've got used to working from home.", "I have got used to working from home.", "I've gotten used to working from home.", "I have gotten used to working from home.", "I got used to working from home.", "I'm used to working from home.", "I am used to working from home."], "explainRo": "„A se obișnui cu” = **get used to + -ing**; rezultatul este **be used to + -ing**." },
+    { "type": "translate", "ro": "Când eram student, obișnuiam să lucrez noaptea.", "answers": ["When I was a student, I used to work at night.", "When I was a student, I would work at night.", "I used to work at night when I was a student.", "When I was a student, I used to work at nights.", "When I was a student, I used to work during the night."], "explainRo": "Obiceiul din trecut se traduce cu **used to** (sau **would**) + verb." },
+    { "type": "listen", "audio": "He had never worked remotely before.", "answers": ["He had never worked remotely before.", "He'd never worked remotely before."], "ro": "Nu mai lucrase niciodată la distanță.", "explainRo": "**Had never + participiu** = nu mai făcuse niciodată ceva până atunci." },
+    { "type": "listen", "audio": "We would often stay late at the office.", "answers": ["We would often stay late at the office.", "We'd often stay late at the office."], "ro": "Rămâneam adesea până târziu la birou.", "explainRo": "**Would** descrie aici un obicei repetat din trecut." },
+    { "type": "match", "pairs": [["career path", "parcurs profesional"], ["burnout", "epuizare profesională (burnout)"], ["commute", "navetă; a face naveta"], ["time zone", "fus orar"], ["promotion", "promovare"]] }
+  ],
+
+  "video": {
+    "youtubeId": "w-0FSBudtd0",
+    "title": "USED TO / USE TO / BE USED TO / GET USED TO / WOULD DO - English Grammar Lesson (English with Lucy)"
+  }
+}

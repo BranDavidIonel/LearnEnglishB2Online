@@ -1,0 +1,139 @@
+{
+  "id": "b2-u10",
+  "level": "B2",
+  "order": 10,
+  "title": "Breaking the ice: networking like a native",
+  "titleRo": "Spargerea gheții: networking ca un vorbitor nativ",
+  "emoji": "🥂",
+  "goalRo": "La final vei putea face conversație la evenimente de networking, vei folosi expresii idiomatice și verbe frazale din business și vei alege corect articolele și cuantificatorii.",
+
+  "vocab": [
+    { "en": "break the ice", "ro": "a sparge gheața", "pos": "phrase", "ipa": "/ˌbreɪk ði ˈaɪs/", "emoji": "🧊", "ex": "A joke about the terrible coffee helped to break the ice.", "exRo": "O glumă despre cafeaua groaznică a ajutat la spargerea gheții." },
+    { "en": "touch base", "ro": "a lua legătura (pe scurt)", "pos": "phrase", "ipa": "/ˌtʌtʃ ˈbeɪs/", "emoji": "📲", "ex": "Let's touch base next week and see how the pilot is going.", "exRo": "Hai să luăm legătura săptămâna viitoare și să vedem cum merge proiectul pilot." },
+    { "en": "get the ball rolling", "ro": "a da startul, a pune lucrurile în mișcare", "pos": "phrase", "ipa": "/ˌɡet ðə ˌbɔːl ˈrəʊ.lɪŋ/", "emoji": "⚽", "ex": "To get the ball rolling, I'll send you a short questionnaire.", "exRo": "Ca să pornim treaba, vă trimit un scurt chestionar." },
+    { "en": "on the same page", "ro": "pe aceeași lungime de undă, de acord", "pos": "phrase", "ipa": "/ɒn ðə ˌseɪm ˈpeɪdʒ/", "emoji": "📖", "ex": "Before we start coding, let's make sure we're on the same page.", "exRo": "Înainte să începem să scriem cod, hai să ne asigurăm că suntem de acord." },
+    { "en": "think outside the box", "ro": "a gândi neconvențional", "pos": "phrase", "ipa": "/ˌθɪŋk ˌaʊt.saɪd ðə ˈbɒks/", "emoji": "📦", "ex": "With such a small budget, we'll have to think outside the box.", "exRo": "Cu un buget atât de mic, va trebui să gândim neconvențional." },
+    { "en": "ballpark figure", "ro": "cifră aproximativă, estimare grosieră", "pos": "noun", "ipa": "/ˈbɔːl.pɑːk ˌfɪɡ.ə/", "emoji": "🎯", "ex": "Can you give me a ballpark figure for a simple CRM?", "exRo": "Îmi poți da o cifră aproximativă pentru un CRM simplu?" },
+    { "en": "the bottom line", "ro": "esența, concluzia (și: profitul net)", "pos": "noun", "ipa": "/ðə ˌbɒt.əm ˈlaɪn/", "emoji": "💰", "ex": "The bottom line is that we can't finish it by May.", "exRo": "Esența e că nu-l putem termina până în mai." },
+    { "en": "a long shot", "ro": "o șansă mică, o încercare cu puțini sorți de izbândă", "pos": "phrase", "ipa": "/ə ˌlɒŋ ˈʃɒt/", "emoji": "🏹", "ex": "It's a long shot, but the CEO might reply to my message.", "exRo": "Sunt șanse mici, dar s-ar putea ca directorul general să-mi răspundă la mesaj." },
+    { "en": "reach out to", "ro": "a contacta, a lua legătura cu", "pos": "verb", "ipa": "/ˌriːtʃ ˈaʊt tuː/", "emoji": "🤙", "ex": "Feel free to reach out to me if you have any questions.", "exRo": "Nu ezitați să mă contactați dacă aveți întrebări." },
+    { "en": "come up with", "ro": "a veni cu (o idee, o soluție)", "pos": "verb", "ipa": "/ˌkʌm ˈʌp wɪð/", "emoji": "💭", "ex": "She came up with a brilliant name for the app.", "exRo": "A venit cu un nume genial pentru aplicație." },
+    { "en": "run into", "ro": "a da peste (cineva), a întâlni întâmplător", "pos": "verb", "ipa": "/ˌrʌn ˈɪn.tuː/", "emoji": "😲", "ex": "I ran into my old boss at the airport in Vienna.", "exRo": "Am dat peste fostul meu șef pe aeroportul din Viena." },
+    { "en": "catch up", "ro": "a recupera, a afla noutățile (unul de la altul)", "pos": "verb", "ipa": "/ˌkætʃ ˈʌp/", "emoji": "☕", "ex": "We should grab a coffee and catch up soon.", "exRo": "Ar trebui să bem o cafea și să ne povestim noutățile în curând." },
+    { "en": "strike up a conversation", "ro": "a intra în vorbă, a începe o conversație", "pos": "phrase", "ipa": "/ˌstraɪk ˌʌp ə ˌkɒn.vəˈseɪ.ʃən/", "emoji": "💬", "ex": "I struck up a conversation with the woman next to me on the plane.", "exRo": "Am intrat în vorbă cu femeia de lângă mine din avion." },
+    { "en": "business card", "ro": "carte de vizită", "pos": "noun", "ipa": "/ˈbɪz.nɪs ˌkɑːd/", "emoji": "📇", "wiki": "Business card", "ex": "I ran out of business cards in the first hour of the fair.", "exRo": "Am rămas fără cărți de vizită în prima oră a târgului." },
+    { "en": "networking event", "ro": "eveniment de networking", "pos": "noun", "ipa": "/ˈnet.wɜː.kɪŋ ɪˌvent/", "emoji": "🥂", "ex": "I met two of my best clients at a networking event.", "exRo": "Doi dintre cei mai buni clienți ai mei i-am cunoscut la un eveniment de networking." },
+    { "en": "small talk", "ro": "conversație lejeră (de complezență)", "pos": "noun", "ipa": "/ˈsmɔːl ˌtɔːk/", "emoji": "🌤️", "ex": "British people often use the weather for small talk.", "exRo": "Britanicii folosesc adesea vremea pentru conversații lejere." }
+  ],
+
+  "grammar": {
+    "title": "Phrasal verbs, idioms; articles and quantifiers",
+    "titleRo": "Verbe frazale, expresii idiomatice; articole și cuantificatori",
+    "sections": [
+      {
+        "headingRo": "Verbe frazale: unde pun obiectul?",
+        "textRo": "Unele verbe frazale sunt **separabile**: obiectul poate sta între verb și particulă sau după ea – *set up the meeting* / *set the meeting up*. Dar când obiectul este un **pronume** (it, them, him), el **trebuie** să stea la mijloc: *set it up*, nu „set up it”. Altele sunt **inseparabile** (*run into someone, look after*), iar cele din trei părți (*come up with, get on with, look forward to*) nu se despart niciodată.",
+        "table": {
+          "headers": ["Tip", "Exemplu corect", "Greșit"],
+          "rows": [
+            ["separabil + substantiv", "call back the client / call the client back", "—"],
+            ["separabil + pronume", "call him back", "call back him"],
+            ["inseparabil", "I ran into Maria.", "I ran Maria into."],
+            ["din trei părți", "We came up with a plan.", "We came up a plan with."]
+          ]
+        },
+        "examples": [
+          { "en": "The client called while you were out. Can you call her back?", "ro": "Clientul a sunat cât ai fost plecat. O poți suna înapoi?" },
+          { "en": "We need to come up with a better offer.", "ro": "Trebuie să venim cu o ofertă mai bună." },
+          { "en": "I'll set up a call and send you the link.", "ro": "Programez un apel și îți trimit linkul." }
+        ]
+      },
+      {
+        "headingRo": "Articolele: unde greșesc vorbitorii de română",
+        "textRo": "În română punem articol hotărât și când vorbim **în general**: „Clienții vor rezultate”, „Viața e scurtă”. În engleză, pentru generalizări cu substantive la plural sau nenumărabile folosim **articolul zero**: **Clients want results. Life is short.** Folosim **the** când știm exact despre ce e vorba, la superlative și la unele țări: **the UK, the Netherlands, the USA**. Profesiile cer **a/an**: *She's an engineer* (nu „She's engineer”). Atenție și la **go to work / be at home / go to bed** – fără articol.",
+        "examples": [
+          { "en": "Networking is important for freelancers.", "ro": "Networkingul este important pentru freelanceri." },
+          { "en": "The networking event in Cluj was the best I've been to.", "ro": "Evenimentul de networking din Cluj a fost cel mai bun la care am fost." },
+          { "en": "My sister is a doctor in the Netherlands.", "ro": "Sora mea e medic în Țările de Jos." }
+        ]
+      },
+      {
+        "headingRo": "Cuantificatori: few, a few, little, a little și alții",
+        "textRo": "**A few / a little** = câțiva, puțin (sens pozitiv – suficient). **Few / little** fără *a* = foarte puțini, prea puțin (sens negativ). **Few / a few** merg cu substantive numărabile, **little / a little** cu nenumărabile. În scrisul formal: **a large number of** + numărabile, **a great deal of** + nenumărabile. **Each** = fiecare luat separat; **both / either / neither** se referă la două lucruri; **none of** = niciunul dintre.",
+        "table": {
+          "headers": ["Numărabile (clients, ideas)", "Nenumărabile (time, money, advice)"],
+          "rows": [
+            ["a few / few", "a little / little"],
+            ["many / a large number of", "much / a great deal of"],
+            ["plenty of / a lot of", "plenty of / a lot of"]
+          ]
+        },
+        "examples": [
+          { "en": "I've got a few business cards left – do you want one?", "ro": "Mi-au mai rămas câteva cărți de vizită – vrei una?" },
+          { "en": "Few people know that the founder started in his garage.", "ro": "Puțini știu că fondatorul a început în garaj." },
+          { "en": "Neither of the two offers was good enough.", "ro": "Niciuna dintre cele două oferte nu a fost destul de bună." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Când obiectul e pronume, pune-l la mijloc: **turn it off**, **pick them up**, nu „turn off it”.",
+      "Pentru generalizări, fără **the**: **People love free trials**, nu „The people love free trials”.",
+      "**Advice, information, feedback, equipment** sunt nenumărabile: **some useful advice**, nu „an advice” sau „advices”.",
+      "Nu confunda: **I have little time** (prea puțin – mă plâng) cu **I have a little time** (puțin, dar destul – te pot ajuta)."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "La o conferință de tehnologie din Lisabona",
+    "lines": [
+      { "speaker": "Tom", "en": "Is this seat taken? These conferences always have too few chairs.", "ro": "E liber locul ăsta? La conferințele astea sunt mereu prea puține scaune." },
+      { "speaker": "Andrei", "en": "No, go ahead. And the coffee isn't great either – I think that's a tradition.", "ro": "Nu, poftim. Nici cafeaua nu e grozavă – cred că e o tradiție." },
+      { "speaker": "Tom", "en": "Ha! I'm Tom, by the way. I run a few hotels on the Algarve coast. What about you?", "ro": "Ha! Eu sunt Tom, apropo. Conduc câteva hoteluri pe coasta Algarve. Tu?" },
+      { "speaker": "Andrei", "en": "Andrei. I'm a developer from Romania – I build CRMs for small businesses. Hotels, actually, are a big part of it.", "ro": "Andrei. Sunt programator din România – construiesc CRM-uri pentru afaceri mici. De fapt, hotelurile sunt o parte importantă." },
+      { "speaker": "Tom", "en": "Really? We've been struggling with our booking data for ages. Could you give me a ballpark figure for something like that?", "ro": "Serios? Ne chinuim de mult cu datele despre rezervări. Mi-ai putea da o cifră aproximativă pentru așa ceva?" },
+      { "speaker": "Andrei", "en": "It depends on the integrations, but I can come up with a rough estimate after a short call.", "ro": "Depinde de integrări, dar pot veni cu o estimare aproximativă după un scurt apel." },
+      { "speaker": "Tom", "en": "Perfect. Here's my business card. Let's touch base next week.", "ro": "Perfect. Uite cartea mea de vizită. Hai să luăm legătura săptămâna viitoare." },
+      { "speaker": "Andrei", "en": "Great, I'll reach out on Monday to get the ball rolling. Enjoy the rest of the conference!", "ro": "Super, te contactez luni ca să punem lucrurile în mișcare. Să te bucuri de restul conferinței!" }
+    ]
+  },
+
+  "reading": {
+    "title": "Networking for people who hate networking",
+    "text": "Let's be honest: few developers enjoy networking events. The idea of walking into a room full of strangers, holding a glass of warm wine and trying to strike up a conversation is enough to make many of us stay at home with our laptops. And yet, a large number of freelance contracts are still signed because two people happened to talk at a conference.\n\nThe good news is that networking is a skill, not a talent. Here are a few tips that have worked for me.\n\nFirst, forget about selling. Nobody wants to hear a pitch in the first two minutes. Small talk exists for a reason: it helps people decide whether they like and trust you. Ask about the speaker they enjoyed most, the city they flew in from or the terrible coffee. Questions break the ice far better than clever opinions.\n\nSecond, listen more than you talk. When someone mentions a problem – \"our sales team hates the CRM\" – don't jump in with a solution straight away. Ask a little more. You'll learn what really matters to them, which is exactly what you'll need later.\n\nThird, follow up. Most people collect business cards and then do nothing with them. Send a short message the next day: \"Great to meet you – shall we touch base next week?\" It sounds simple, but very few people actually do it.\n\nThe bottom line? You don't need to become an extrovert. You need a little curiosity, a couple of good questions and the discipline to reach out afterwards. Even if most conversations lead nowhere, one of them might change your career.",
+    "textRo": "Să fim sinceri: puțini programatori se bucură de evenimentele de networking. Ideea de a intra într-o sală plină de străini, ținând în mână un pahar de vin cald și încercând să intri în vorbă cu cineva, e suficientă ca mulți dintre noi să rămânem acasă cu laptopurile. Și totuși, un număr mare de contracte de freelancing se semnează încă pentru că doi oameni au stat de vorbă din întâmplare la o conferință.\n\nVestea bună este că networkingul e o abilitate, nu un talent. Iată câteva sfaturi care au funcționat pentru mine.\n\nÎn primul rând, uită de vânzare. Nimeni nu vrea să audă o ofertă în primele două minute. Conversația lejeră există cu un motiv: îi ajută pe oameni să decidă dacă te plac și dacă au încredere în tine. Întreabă de vorbitorul care le-a plăcut cel mai mult, de orașul din care au venit cu avionul sau de cafeaua groaznică. Întrebările sparg gheața mult mai bine decât opiniile inteligente.\n\nÎn al doilea rând, ascultă mai mult decât vorbești. Când cineva menționează o problemă – „echipa noastră de vânzări urăște CRM-ul” – nu sări imediat cu o soluție. Mai întreabă puțin. Vei afla ce contează cu adevărat pentru ei, adică exact ce îți va trebui mai târziu.\n\nÎn al treilea rând, revino. Majoritatea oamenilor adună cărți de vizită și apoi nu fac nimic cu ele. Trimite un mesaj scurt a doua zi: „Mi-a făcut plăcere să te cunosc – luăm legătura săptămâna viitoare?” Sună simplu, dar foarte puțini oameni chiar o fac.\n\nConcluzia? Nu trebuie să devii extrovertit. Ai nevoie de puțină curiozitate, de câteva întrebări bune și de disciplina de a lua legătura după aceea. Chiar dacă majoritatea conversațiilor nu duc nicăieri, una dintre ele ți-ar putea schimba cariera.",
+    "questions": [
+      { "type": "mc", "q": "According to the author, why are networking events still important?", "options": ["Because the wine is free", "Because many contracts start with a conversation at a conference", "Because developers love meeting strangers", "Because laptops are not allowed"], "answer": 1, "explainRo": "„A large number of freelance contracts are still signed because two people happened to talk at a conference.”" },
+      { "type": "mc", "q": "What is the purpose of small talk, according to the text?", "options": ["To help people decide whether they like and trust you", "To sell your services quickly", "To show your clever opinions", "To avoid talking about work"], "answer": 0, "explainRo": "Small talk „helps people decide whether they like and trust you”." },
+      { "type": "mc", "q": "What should you do when someone mentions a problem?", "options": ["Offer a solution immediately", "Change the subject", "Give them your business card", "Ask more questions to understand it"], "answer": 3, "explainRo": "Autorul spune să nu sari imediat cu o soluție, ci să mai întrebi puțin („Ask a little more”)." },
+      { "type": "mc", "q": "What do very few people do after an event?", "options": ["Collect business cards", "Go home early", "Send a short follow-up message", "Talk about the coffee"], "answer": 2, "explainRo": "„Send a short message the next day… very few people actually do it.”" }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "The client called while you were at lunch. Please call ___.", "options": ["back him", "him back", "back to him", "him to back"], "answer": 1, "explainRo": "Cu un pronume, obiectul stă între verb și particulă: **call him back**." },
+    { "type": "mc", "q": "We need to ___ a solution before the meeting on Thursday.", "options": ["come up with", "run into", "catch up", "touch base"], "answer": 0, "explainRo": "**Come up with** = a veni cu o idee sau o soluție." },
+    { "type": "mc", "q": "___ clients don't read long proposals.", "options": ["The most", "Most of", "The most of", "Most"], "answer": 3, "explainRo": "Generalizare: **Most + substantiv**, fără *the* și fără *of*." },
+    { "type": "mc", "q": "Could you give me some ___ about my presentation?", "options": ["advices", "an advice", "advice", "few advice"], "answer": 2, "explainRo": "**Advice** este nenumărabil: *some advice*, fără plural și fără *an*." },
+    { "type": "mc", "q": "Don't worry, we have ___ time before the train leaves. Let's get a coffee.", "options": ["a little", "few", "a few", "little"], "answer": 0, "explainRo": "**A little** + nenumărabil, cu sens pozitiv: avem puțin timp, dar destul." },
+    { "type": "mc", "q": "Very ___ people came to the webinar, so we cancelled the second one.", "options": ["little", "few", "a little", "much"], "answer": 1, "explainRo": "**Few** + numărabil, cu sens negativ: foarte puțini." },
+    { "type": "mc", "q": "My brother lives in ___ and works as ___ architect.", "options": ["Netherlands / an", "the Netherlands / the", "the Netherlands / an", "Netherlands / —"], "answer": 2, "explainRo": "**The Netherlands** are mereu articol, iar profesiile cer **a/an**: *an architect*." },
+    { "type": "mc", "q": "Before we start, let's make sure we're all ___ about the deadline.", "options": ["a long shot", "on the same page", "the bottom line", "outside the box"], "answer": 1, "explainRo": "**On the same page** = de acord, având aceeași înțelegere." },
+    { "type": "mc", "q": "I wasn't expecting it, but I ___ my old university professor at the airport.", "options": ["came up with", "reached out to", "touched base", "ran into"], "answer": 3, "explainRo": "**Run into someone** = a întâlni pe cineva întâmplător." },
+    { "type": "fill", "q": "I told a joke about the queue for coffee to break the ___.", "answers": ["ice"], "explainRo": "Expresia fixă este **break the ice**." },
+    { "type": "fill", "q": "Feel free to reach ___ to me if you need anything else.", "answers": ["out"], "explainRo": "**Reach out to someone** = a contacta pe cineva." },
+    { "type": "fill", "q": "I don't know the exact price yet, but I can give you a ___ figure.", "answers": ["ballpark", "rough"], "explainRo": "**A ballpark figure** = o cifră aproximativă (sau *a rough figure*)." },
+    { "type": "order", "words": ["Let's", "touch", "base", "again", "next", "week."], "ro": "Hai să luăm din nou legătura săptămâna viitoare.", "explainRo": "**Touch base** = a lua legătura pe scurt." },
+    { "type": "order", "words": ["She", "came", "up", "with", "a", "great", "idea."], "ro": "A venit cu o idee grozavă.", "explainRo": "Verbele frazale din trei părți nu se despart: **came up with**." },
+    { "type": "order", "words": ["Neither", "of", "the", "offers", "was", "good", "enough."], "ro": "Niciuna dintre oferte nu a fost destul de bună.", "explainRo": "**Neither of + the + plural** – verbul stă de obicei la singular în engleza îngrijită." },
+    { "type": "translate", "ro": "Viața e prea scurtă pentru cafea proastă.", "answers": ["Life is too short for bad coffee.", "Life's too short for bad coffee."], "explainRo": "Generalizare cu substantiv nenumărabil: **Life**, fără *the*." },
+    { "type": "translate", "ro": "Am dat peste un fost coleg la conferință.", "answers": ["I ran into a former colleague at the conference.", "I ran into an old colleague at the conference.", "I bumped into a former colleague at the conference.", "I bumped into an old colleague at the conference.", "I ran into an ex-colleague at the conference.", "I bumped into an ex-colleague at the conference."], "explainRo": "„A da peste cineva” = **run into / bump into**." },
+    { "type": "listen", "audio": "The bottom line is that we need more clients.", "answers": ["The bottom line is that we need more clients.", "The bottom line is we need more clients."], "ro": "Esența e că avem nevoie de mai mulți clienți.", "explainRo": "**The bottom line is…** introduce concluzia esențială." },
+    { "type": "listen", "audio": "We should grab a coffee and catch up.", "answers": ["We should grab a coffee and catch up."], "ro": "Ar trebui să bem o cafea și să ne povestim noutățile.", "explainRo": "**Catch up** = a afla noutățile de la cineva pe care nu l-ai văzut de mult." },
+    { "type": "match", "pairs": [["break the ice", "a sparge gheața"], ["get the ball rolling", "a da startul, a pune lucrurile în mișcare"], ["think outside the box", "a gândi neconvențional"], ["strike up a conversation", "a intra în vorbă, a începe o conversație"], ["small talk", "conversație lejeră (de complezență)"]] }
+  ],
+
+  "video": {
+    "youtubeId": "4zCVYWtYKV8",
+    "title": "Improve your English conversation skills | 6 communication & small talk tips (with examples!) (English with Lucy)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u05",
+  "questions": [
+    { "type": "mc", "q": "Our designer ___ from home every Monday.", "options": ["work", "works", "is work"], "answer": 1, "explainRo": "Our designer = he/she, deci verbul primește **-s**: works." },
+    { "type": "mc", "q": "Your flight is at quarter to seven. That's ___.", "options": ["6:45", "7:15", "6:15"], "answer": 0, "explainRo": "**Quarter to seven** = șapte fără un sfert, adică 6:45." },
+    { "type": "mc", "q": "It's eleven at night and I'm very tired. Time to ___!", "options": ["get up", "start work", "have breakfast", "go to bed"], "answer": 3, "explainRo": "Seara târziu, când ești obosit, mergi la culcare: **go to bed**." },
+    { "type": "mc", "q": "Every evening, my son ___ cartoons.", "options": ["watchs", "watch", "watches"], "answer": 2, "explainRo": "După -ch adăugăm **-es** la he/she/it: watches." },
+    { "type": "mc", "q": "My wife ___ a yoga class at six.", "options": ["haves", "has", "have"], "answer": 1, "explainRo": "**Have** la he/she/it devine **has** (nu „haves”)." },
+    { "type": "fill", "q": "Our tester ___ (go) home at four on Fridays.", "answers": ["goes"], "explainRo": "După -o adăugăm **-es**: go → goes." },
+    { "type": "fill", "q": "After the gym, Radu ___ (take) a shower.", "answers": ["takes"], "explainRo": "„A face duș” = **take a shower**; cu he/she/it verbul primește -s: **takes**." },
+    { "type": "fill", "q": "My client ___ (fly) to London every month.", "answers": ["flies"], "explainRo": "Consoană + y → **-ies**: fly → flies." },
+    { "type": "order", "words": ["The", "meeting", "starts", "at", "quarter", "past", "two."], "ro": "Ședința începe la două și un sfert.", "explainRo": "The meeting = it, deci **starts**; ora se spune cu **at**." },
+    { "type": "order", "words": ["My", "father", "has", "breakfast", "at", "half", "past", "six."], "ro": "Tatăl meu ia micul dejun la șase și jumătate.", "explainRo": "Cu he folosim **has breakfast**; 6:30 = **half past six**." },
+    { "type": "listen", "audio": "He checks his emails at nine.", "answers": ["He checks his emails at nine.", "He checks his emails at 9.", "He checks his e-mails at nine.", "He checks his e-mails at 9."], "ro": "El își verifică e-mailurile la nouă.", "explainRo": "Cu **he** verbul primește **-s**: checks." },
+    { "type": "translate", "ro": "Șeful meu ia prânzul la unu fără un sfert.", "answers": ["My boss has lunch at quarter to one.", "My boss has lunch at a quarter to one.", "My boss has lunch at twelve forty-five.", "My boss has lunch at twelve forty five.", "My boss has lunch at 12:45.", "My boss has his lunch at quarter to one.", "My boss eats lunch at quarter to one.", "My boss eats lunch at a quarter to one."], "explainRo": "„A lua prânzul” = **have lunch**, iar cu he devine **has lunch**; 12:45 = **quarter to one**." }
+  ]
+}

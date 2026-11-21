@@ -1,0 +1,132 @@
+{
+  "id": "b1-u05",
+  "level": "B1",
+  "order": 5,
+  "title": "We'll go live when it's ready",
+  "titleRo": "Lansăm când e gata",
+  "emoji": "🗓️",
+  "goalRo": "La final vei putea să planifici un proiect: să vorbești despre termene, estimări și roadmap, folosind will, going to, present continuous pentru viitor și propoziții cu when, as soon as, until.",
+  "vocab": [
+    { "en": "deadline", "ro": "termen-limită", "pos": "noun", "ipa": "/ˈded.laɪn/", "emoji": "⏰", "ex": "The deadline for the first version is 30 June.", "exRo": "Termenul-limită pentru prima versiune este 30 iunie." },
+    { "en": "estimate", "ro": "estimare", "pos": "noun", "ipa": "/ˈes.tɪ.mət/", "emoji": "🧮", "ex": "I'll send you an estimate by Friday.", "exRo": "Îți trimit o estimare până vineri." },
+    { "en": "roadmap", "ro": "plan de dezvoltare, roadmap", "pos": "noun", "ipa": "/ˈrəʊd.mæp/", "emoji": "🗺️", "ex": "The roadmap shows our plans for the next six months.", "exRo": "Roadmap-ul arată planurile noastre pentru următoarele șase luni." },
+    { "en": "milestone", "ro": "etapă importantă, reper", "pos": "noun", "ipa": "/ˈmaɪl.stəʊn/", "emoji": "🚩", "ex": "The first milestone is a working login page.", "exRo": "Prima etapă importantă este o pagină de login funcțională." },
+    { "en": "launch", "ro": "a lansa; lansare", "pos": "verb", "ipa": "/lɔːntʃ/", "emoji": "🚀", "ex": "We're launching the mobile app in September.", "exRo": "Lansăm aplicația mobilă în septembrie." },
+    { "en": "scope", "ro": "aria (sfera) proiectului, ce include", "pos": "noun", "ipa": "/skəʊp/", "emoji": "🎯", "ex": "A mobile app is not in the scope of this project.", "exRo": "O aplicație mobilă nu intră în sfera acestui proiect." },
+    { "en": "sprint", "ro": "sprint (perioadă scurtă de lucru, de obicei 2 săptămâni)", "pos": "noun", "ipa": "/sprɪnt/", "emoji": "🏃‍♂️", "ex": "In the next sprint we're going to build the reports.", "exRo": "În următorul sprint vom construi rapoartele." },
+    { "en": "kick-off meeting", "ro": "ședință de început de proiect", "pos": "noun", "ipa": "/ˈkɪk.ɒf ˌmiː.tɪŋ/", "emoji": "⚽", "ex": "The kick-off meeting is on Monday at ten.", "exRo": "Ședința de început de proiect este luni la zece." },
+    { "en": "stakeholder", "ro": "parte interesată (persoană implicată în proiect)", "pos": "noun", "ipa": "/ˈsteɪkˌhəʊl.dər/", "emoji": "👥", "ex": "We'll show the demo to all the stakeholders.", "exRo": "Vom prezenta demo-ul tuturor părților interesate." },
+    { "en": "on schedule", "ro": "conform planului, în grafic", "pos": "phrase", "ipa": "/ɒn ˈʃedʒ.uːl/", "emoji": "✅", "ex": "Don't worry, we're still on schedule.", "exRo": "Nu-ți face griji, suntem încă în grafic." },
+    { "en": "fall behind", "ro": "a rămâne în urmă", "pos": "verb", "ipa": "/ˌfɔːl bɪˈhaɪnd/", "emoji": "🐢", "ex": "If we add more features, we'll fall behind.", "exRo": "Dacă adăugăm mai multe funcționalități, vom rămâne în urmă." },
+    { "en": "priority", "ro": "prioritate", "pos": "noun", "ipa": "/praɪˈɒr.ə.ti/", "emoji": "🥇", "ex": "Security is our top priority.", "exRo": "Securitatea este prioritatea noastră principală." },
+    { "en": "deliver", "ro": "a livra, a preda (o lucrare)", "pos": "verb", "ipa": "/dɪˈlɪv.ər/", "emoji": "📦", "ex": "We'll deliver the first module in May.", "exRo": "Vom livra primul modul în mai." },
+    { "en": "timeline", "ro": "calendar, cronologie (a proiectului)", "pos": "noun", "ipa": "/ˈtaɪm.laɪn/", "emoji": "📏", "ex": "The timeline is too tight for so many features.", "exRo": "Calendarul este prea strâns pentru atâtea funcționalități." },
+    { "en": "realistic", "ro": "realist", "pos": "adj", "ipa": "/ˌrɪəˈlɪs.tɪk/", "emoji": "🤔", "ex": "Is this deadline realistic?", "exRo": "Este realist acest termen?" },
+    { "en": "go live", "ro": "a intra în producție, a fi lansat public", "pos": "verb", "ipa": "/ˌɡəʊ ˈlaɪv/", "emoji": "🟢", "ex": "The new website will go live next Monday.", "exRo": "Noul site va fi lansat lunea viitoare." },
+    { "en": "in advance", "ro": "în avans, dinainte", "pos": "phrase", "ipa": "/ɪn ədˈvɑːns/", "emoji": "⏩", "ex": "Please tell me about holidays in advance.", "exRo": "Te rog să-mi spui dinainte despre concedii." }
+  ],
+  "grammar": {
+    "title": "Future forms and time clauses",
+    "titleRo": "Formele de viitor și propozițiile temporale",
+    "sections": [
+      {
+        "headingRo": "will: decizii pe loc, promisiuni, păreri",
+        "textRo": "Folosim **will** pentru o decizie luată **chiar în momentul vorbirii**, pentru promisiuni și oferte, și pentru predicții bazate pe părere (**I think, probably, I'm sure**).",
+        "examples": [
+          { "en": "The test failed? OK, I'll look at it now.", "ro": "Testul a picat? Bine, mă uit acum." },
+          { "en": "I promise I'll send the estimate tonight.", "ro": "Promit că trimit estimarea diseară." },
+          { "en": "I think the client will love the new dashboard.", "ro": "Cred că clientului o să-i placă noul dashboard." }
+        ]
+      },
+      {
+        "headingRo": "going to: planuri și semne clare",
+        "textRo": "**be going to + verb** arată o **intenție deja hotărâtă** înainte de momentul vorbirii sau o predicție pe baza unor **dovezi** pe care le vedem acum.",
+        "examples": [
+          { "en": "We're going to hire two more developers next year.", "ro": "Vom angaja încă doi programatori anul viitor (am hotărât deja)." },
+          { "en": "Look at all these bugs. We're going to miss the deadline!", "ro": "Uită-te la toate bug-urile astea. O să ratăm termenul!" }
+        ]
+      },
+      {
+        "headingRo": "Present continuous: aranjamente fixate",
+        "textRo": "Pentru ceva **deja aranjat**, cu oră, loc și alte persoane (e în calendar), folosim **present continuous**. Pentru orare oficiale (trenuri, zboruri) folosim **present simple**.",
+        "examples": [
+          { "en": "I'm meeting the client at three tomorrow.", "ro": "Mâine la trei mă întâlnesc cu clientul." },
+          { "en": "We're launching the app on 1 September.", "ro": "Lansăm aplicația pe 1 septembrie." },
+          { "en": "My flight leaves at 6:40.", "ro": "Zborul meu pleacă la 6:40." }
+        ]
+      },
+      {
+        "headingRo": "Propoziții temporale: when, as soon as, until, before, after",
+        "textRo": "După **when, as soon as, until, before, after** vorbim despre viitor cu **present simple**, nu cu will. Will apare doar în cealaltă parte a frazei. Atenție și la **until** (până când — acțiunea continuă) vs **by** (până la, cel târziu — termen-limită).",
+        "table": {
+          "headers": ["Conector", "Exemplu"],
+          "rows": [
+            ["when", "I'll call you when I finish."],
+            ["as soon as", "We'll deploy as soon as the tests pass."],
+            ["until", "We'll wait until the client replies."],
+            ["by (termen)", "Please send it by Friday."]
+          ]
+        },
+        "examples": [
+          { "en": "When the project goes live, we'll celebrate.", "ro": "Când proiectul va fi lansat, vom sărbători." },
+          { "en": "I won't start until I get the requirements.", "ro": "Nu încep până nu primesc cerințele." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „when I will finish”. În propoziția cu when/as soon as/until folosim prezentul: **when I finish**.",
+      "În română spunem „mâine mă întâlnesc cu clientul” — și în engleză poți folosi prezentul, dar **continuu**: **I'm meeting the client tomorrow**.",
+      "„Până vineri” ca termen-limită este **by Friday**, nu „until Friday”. **until Friday** înseamnă că acțiunea durează continuu până vineri.",
+      "Pentru o decizie spontană nu folosi going to: „The phone's ringing.” — „**I'll get it!**”"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Planificarea proiectului cu clienta",
+    "lines": [
+      { "speaker": "Laura", "en": "So, when will the online ordering system be ready?", "ro": "Deci, când va fi gata sistemul de comenzi online?" },
+      { "speaker": "Andrei", "en": "My estimate is ten weeks. We're going to work in two-week sprints.", "ro": "Estimarea mea este de zece săptămâni. Vom lucra în sprinturi de câte două săptămâni." },
+      { "speaker": "Laura", "en": "Ten weeks? I was hoping to launch before Christmas.", "ro": "Zece săptămâni? Speram să lansăm înainte de Crăciun." },
+      { "speaker": "Andrei", "en": "That's realistic if we keep the scope small. Online payments can come in the second version.", "ro": "E realist dacă păstrăm sfera proiectului restrânsă. Plățile online pot veni în a doua versiune." },
+      { "speaker": "Laura", "en": "OK. What's the first milestone?", "ro": "Bine. Care este prima etapă importantă?" },
+      { "speaker": "Andrei", "en": "A working menu and order form. I'll show you a demo as soon as it's ready.", "ro": "Un meniu și un formular de comandă funcționale. Îți arăt un demo imediat ce e gata." },
+      { "speaker": "Laura", "en": "Great. I'm meeting my shop managers on Thursday, so I'll tell them about the timeline.", "ro": "Super. Joi mă întâlnesc cu managerii magazinelor, așa că le spun despre calendar." },
+      { "speaker": "Andrei", "en": "Perfect. I'll send you the full roadmap by Wednesday.", "ro": "Perfect. Îți trimit roadmap-ul complet până miercuri." },
+      { "speaker": "Laura", "en": "And please tell me in advance if we start to fall behind.", "ro": "Și te rog să-mi spui dinainte dacă începem să rămânem în urmă." },
+      { "speaker": "Andrei", "en": "Of course. You'll get a short update at the end of every sprint.", "ro": "Desigur. Vei primi un scurt raport la finalul fiecărui sprint." }
+    ]
+  },
+  "reading": {
+    "title": "Roadmap for the new CRM",
+    "text": "Hi everyone,\n\nThanks for a great kick-off meeting yesterday. Here is the plan for the next three months.\n\nOur top priority is the contacts module, because the sales team needs it most. We're going to build it in the first two sprints. Ana is going to design the screens this week, and I'm meeting the sales manager on Friday to check the requirements.\n\nThe first milestone is on 15 March. By then, users will be able to import their contacts and search them. As soon as this part is ready, we'll show a demo to all the stakeholders. We won't start the reports module until they approve the contacts module.\n\nThe second milestone is the reports module, and we'll deliver it in April. If everything goes well, the new CRM will go live on 2 May. I think this timeline is realistic, but only if the scope doesn't change. If someone asks for new features, please send them to me, and I'll add them to the roadmap for the summer.\n\nI'll share the full plan in our project tool tomorrow. Let me know if you have any questions.\n\nBest,\nDaniel",
+    "textRo": "Bună tuturor,\n\nVă mulțumesc pentru ședința de început de ieri, a fost foarte bună. Iată planul pentru următoarele trei luni.\n\nPrioritatea noastră principală este modulul de contacte, pentru că echipa de vânzări are cea mai mare nevoie de el. Îl vom construi în primele două sprinturi. Ana va face designul ecranelor săptămâna aceasta, iar vineri mă întâlnesc cu managerul de vânzări ca să verific cerințele.\n\nPrima etapă importantă este pe 15 martie. Până atunci, utilizatorii vor putea să-și importe contactele și să le caute. Imediat ce această parte e gata, vom prezenta un demo tuturor părților interesate. Nu vom începe modulul de rapoarte până când nu aprobă ei modulul de contacte.\n\nA doua etapă importantă este modulul de rapoarte și îl vom livra în aprilie. Dacă totul merge bine, noul CRM va intra în producție pe 2 mai. Cred că acest calendar este realist, dar numai dacă sfera proiectului nu se schimbă. Dacă cineva cere funcționalități noi, vă rog să mi le trimiteți mie și le voi adăuga în roadmap-ul pentru vară.\n\nMâine voi publica planul complet în instrumentul nostru de proiect. Spuneți-mi dacă aveți întrebări.\n\nToate cele bune,\nDaniel",
+    "questions": [
+      { "type": "mc", "q": "Why is the contacts module the top priority?", "options": ["It is the easiest module.", "The sales team needs it most.", "The stakeholders asked for it.", "It is already finished."], "answer": 1, "explainRo": "„because the sales team needs it most”." },
+      { "type": "mc", "q": "What is Daniel doing on Friday?", "options": ["He's designing the screens.", "He's showing a demo.", "He's meeting the sales manager.", "He's going on holiday."], "answer": 2, "explainRo": "„I'm meeting the sales manager on Friday” — un aranjament fixat (present continuous)." },
+      { "type": "mc", "q": "When will the team start the reports module?", "options": ["After the stakeholders approve the contacts module", "On 15 March, before the demo", "In the summer", "On 2 May"], "answer": 0, "explainRo": "„We won't start the reports module until they approve the contacts module.”" },
+      { "type": "mc", "q": "What should people do with requests for new features?", "options": ["Add them to the current sprint", "Ignore them", "Discuss them at the kick-off meeting", "Send them to Daniel"], "answer": 3, "explainRo": "„please send them to me, and I'll add them to the roadmap for the summer”." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["deadline", "termen-limită"], ["estimate", "estimare"], ["priority", "prioritate"], ["milestone", "etapă importantă"], ["in advance", "în avans"]] },
+    { "type": "mc", "q": "A: The printer isn't working. B: Don't worry, I ___ look at it.", "options": ["'ll", "am going to", "am looking"], "answer": 0, "explainRo": "Decizie luată chiar acum, în momentul vorbirii → will ('ll)." },
+    { "type": "mc", "q": "I ___ the client at 3 p.m. tomorrow — it's in my calendar.", "options": ["meet", "am meeting", "met"], "answer": 1, "explainRo": "Aranjament fixat, cu oră și persoană → present continuous." },
+    { "type": "mc", "q": "I'll call you as soon as I ___ the estimate.", "options": ["will finish", "finish", "am going to finish"], "answer": 1, "explainRo": "După „as soon as” folosim present simple pentru viitor." },
+    { "type": "mc", "q": "We can't deploy ___ all the tests pass.", "options": ["until", "by", "since"], "answer": 0, "explainRo": "„until” = până când; nu facem deploy până nu trec testele." },
+    { "type": "mc", "q": "Please send me the invoice ___ Friday at the latest.", "options": ["until", "by", "since"], "answer": 1, "explainRo": "Pentru un termen-limită („cel târziu vineri”) folosim by." },
+    { "type": "mc", "q": "We decided last week: we ___ hire two more developers next year.", "options": ["would", "are going to", "have"], "answer": 1, "explainRo": "Plan hotărât dinainte → be going to." },
+    { "type": "mc", "q": "The ___ is the date when the work must be finished.", "options": ["estimate", "sprint", "scope", "deadline"], "answer": 3, "explainRo": "„deadline” = termenul-limită până la care trebuie terminată lucrarea." },
+    { "type": "mc", "q": "A mobile app is outside the ___ of this project, so it will cost extra.", "options": ["scope", "milestone", "stakeholder"], "answer": 0, "explainRo": "„scope” = ce include proiectul; ce e în afara lui se plătește separat." },
+    { "type": "fill", "q": "When the project ___ (go) live, we'll celebrate.", "answers": ["goes"], "explainRo": "După „when”, viitorul se exprimă cu present simple: goes." },
+    { "type": "fill", "q": "I think the client ___ (like) the new design.", "answers": ["will like", "'ll like"], "explainRo": "Predicție bazată pe părere (I think) → will." },
+    { "type": "fill", "q": "We are falling ___ because the client keeps changing the requirements.", "answers": ["behind"], "explainRo": "„fall behind” = a rămâne în urmă (față de plan)." },
+    { "type": "fill", "q": "Don't worry, I ___ (send) you the estimate tonight. I promise!", "answers": ["will send", "'ll send"], "explainRo": "Promisiunile se fac cu will." },
+    { "type": "order", "words": ["We", "are", "launching", "the", "new", "version", "next", "week."], "ro": "Lansăm noua versiune săptămâna viitoare.", "explainRo": "Aranjament fixat → present continuous: are launching." },
+    { "type": "order", "words": ["I'll", "call", "you", "when", "I", "get", "home."], "ro": "Te sun când ajung acasă.", "explainRo": "will în propoziția principală, present simple după when." },
+    { "type": "order", "words": ["Is", "the", "project", "still", "on", "schedule?"], "ro": "Mai este proiectul în grafic?", "explainRo": "Întrebare cu „to be”: Is + subiect; „on schedule” = conform planului." },
+    { "type": "translate", "ro": "Te sun imediat ce termin.", "answers": ["I'll call you as soon as I finish.", "I will call you as soon as I finish.", "I'll phone you as soon as I finish.", "I will phone you as soon as I finish.", "I'll call you as soon as I'm done.", "I will call you as soon as I'm done.", "I'll call you as soon as I've finished.", "I will call you as soon as I have finished.", "I'll call you as soon as I have finished."], "explainRo": "„imediat ce” = as soon as + present simple (nu „will finish”)." },
+    { "type": "translate", "ro": "Ne întâlnim cu clientul mâine.", "answers": ["We're meeting the client tomorrow.", "We are meeting the client tomorrow.", "We're meeting with the client tomorrow.", "We are meeting with the client tomorrow.", "We're going to meet the client tomorrow.", "We are going to meet the client tomorrow.", "We'll meet the client tomorrow.", "We will meet the client tomorrow.", "Tomorrow we're meeting the client.", "Tomorrow we are meeting the client."], "explainRo": "Pentru un aranjament stabilit, cea mai naturală formă este present continuous: We're meeting…" },
+    { "type": "listen", "audio": "The kick-off meeting is on Monday.", "answers": ["The kick-off meeting is on Monday.", "The kickoff meeting is on Monday."], "ro": "Ședința de început de proiect este luni.", "explainRo": "„kick-off meeting” = prima ședință a unui proiect." },
+    { "type": "listen", "audio": "We're going to go live in June.", "answers": ["We're going to go live in June.", "We are going to go live in June."], "ro": "Vom intra în producție în iunie.", "explainRo": "Plan hotărât → be going to + go live." }
+  ],
+  "video": { "youtubeId": "2LSBme2M4Qo", "title": "ALL Future Tenses in English! (Will, Going To, Be + ing & More) (Papa Teach Me)" }
+}

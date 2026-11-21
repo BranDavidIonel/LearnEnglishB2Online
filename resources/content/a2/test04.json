@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u04",
+  "questions": [
+    { "type": "mc", "q": "A train ticket is ___ than a plane ticket.", "options": ["cheaper", "more cheap", "cheapest"], "answer": 0, "explainRo": "Cheap are o singură silabă, deci comparativul este cheaper, fără more." },
+    { "type": "mc", "q": "My sister is two years older ___ me.", "options": ["that", "than", "like", "then"], "answer": 1, "explainRo": "După comparativ, „decât” = than." },
+    { "type": "mc", "q": "The new version of our app is ___ than the old one.", "options": ["gooder", "more good", "better", "best"], "answer": 2, "explainRo": "Good este neregulat: good → better → the best." },
+    { "type": "mc", "q": "My new laptop is only one kilo – it's really ___.", "options": ["heavy", "noisy", "crowded", "lightweight"], "answer": 3, "explainRo": "Lightweight = ușor ca greutate; un kilogram e foarte puțin pentru un laptop." },
+    { "type": "mc", "q": "Ana is ___ person in our team – she always finishes her work on time.", "options": ["the reliablest", "the most reliable", "more reliable", "most reliable"], "answer": 1, "explainRo": "Reliable este un adjectiv lung: the most reliable (nu uita de the)." },
+    { "type": "fill", "q": "Today is the ___ (hot) day of the year.", "answers": ["hottest"], "explainRo": "Hot se termină în consoană + vocală + consoană, deci dublăm t: the hottest." },
+    { "type": "fill", "q": "This little café makes the ___ (good) coffee in Brașov.", "answers": ["best"], "explainRo": "Good este neregulat: good → better → the best." },
+    { "type": "fill", "q": "My parents think small towns are ___ (safe) than big cities.", "answers": ["safer"], "explainRo": "Safe e un adjectiv scurt terminat în -e, deci adăugăm doar -r: safer." },
+    { "type": "order", "words": ["Which", "smartphone", "has", "the", "best", "battery?"], "ro": "Ce smartphone are cea mai bună baterie?", "explainRo": "The best = cel mai bun, superlativul neregulat al lui good." },
+    { "type": "order", "words": ["This", "laptop", "is", "more", "powerful", "than", "mine."], "ro": "Laptopul acesta e mai puternic decât al meu.", "explainRo": "Powerful este un adjectiv lung: more powerful + than." },
+    { "type": "listen", "audio": "Who is the best developer in your team?", "answers": ["Who is the best developer in your team?", "Who's the best developer in your team?"], "ro": "Cine e cel mai bun programator din echipa ta?", "explainRo": "The best = cel mai bun; după superlativ, pentru grup sau loc folosim in." },
+    { "type": "translate", "ro": "Care este cea mai populară aplicație din România?", "answers": ["What is the most popular app in Romania?", "What's the most popular app in Romania?", "Which is the most popular app in Romania?", "Which app is the most popular in Romania?", "What is the most popular application in Romania?", "What's the most popular application in Romania?", "Which is the most popular application in Romania?"], "explainRo": "Popular este un adjectiv lung: the most popular, iar „din România” = in Romania." }
+  ]
+}

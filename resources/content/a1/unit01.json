@@ -1,0 +1,133 @@
+{
+  "id": "a1-u01",
+  "level": "A1",
+  "order": 1,
+  "title": "Hello! I'm a developer",
+  "titleRo": "Salut! Sunt programator",
+  "emoji": "👋",
+  "goalRo": "La final vei putea să saluți pe cineva, să te prezinți și să spui ce meserie ai.",
+  "vocab": [
+    { "en": "hello", "ro": "salut / bună", "pos": "phrase", "ipa": "/həˈləʊ/", "emoji": "👋", "ex": "Hello! I'm Andrei.", "exRo": "Salut! Eu sunt Andrei." },
+    { "en": "goodbye", "ro": "la revedere", "pos": "phrase", "ipa": "/ɡʊdˈbaɪ/", "emoji": "🙋", "ex": "Goodbye, Emma! See you tomorrow.", "exRo": "La revedere, Emma! Ne vedem mâine." },
+    { "en": "good morning", "ro": "bună dimineața", "pos": "phrase", "ipa": "/ɡʊd ˈmɔːnɪŋ/", "emoji": "🌅", "ex": "Good morning, team!", "exRo": "Bună dimineața, echipă!" },
+    { "en": "good evening", "ro": "bună seara", "pos": "phrase", "ipa": "/ɡʊd ˈiːvnɪŋ/", "emoji": "🌆", "ex": "Good evening! I'm Mark, the client.", "exRo": "Bună seara! Eu sunt Mark, clientul." },
+    { "en": "name", "ro": "nume", "pos": "noun", "ipa": "/neɪm/", "emoji": "📛", "ex": "My name is Andrei.", "exRo": "Numele meu este Andrei." },
+    { "en": "nice to meet you", "ro": "îmi pare bine (de cunoștință)", "pos": "phrase", "ipa": "/naɪs tə ˈmiːt juː/", "emoji": "🤝", "ex": "Hi, I'm Emma. Nice to meet you!", "exRo": "Bună, eu sunt Emma. Îmi pare bine!" },
+    { "en": "how are you?", "ro": "ce faci? / cum ești?", "pos": "phrase", "ipa": "/haʊ ˈɑː juː/", "emoji": "🙂", "ex": "Hi, Tom! How are you?", "exRo": "Salut, Tom! Ce faci?" },
+    { "en": "fine", "ro": "bine", "pos": "adj", "ipa": "/faɪn/", "emoji": "👍", "ex": "I'm fine, thanks.", "exRo": "Sunt bine, mulțumesc." },
+    { "en": "developer", "ro": "programator / dezvoltator", "pos": "noun", "ipa": "/dɪˈveləpə/", "emoji": "👨‍💻", "ex": "I'm a web developer.", "exRo": "Sunt programator web." },
+    { "en": "teacher", "ro": "profesor / profesoară", "pos": "noun", "ipa": "/ˈtiːtʃə/", "emoji": "👩‍🏫", "wiki": "Teacher", "ex": "She's a teacher in Cluj.", "exRo": "Ea este profesoară în Cluj." },
+    { "en": "doctor", "ro": "doctor / medic", "pos": "noun", "ipa": "/ˈdɒktə/", "emoji": "👨‍⚕️", "wiki": "Medical doctor", "ex": "He's a doctor. He's very busy.", "exRo": "El este medic. Este foarte ocupat." },
+    { "en": "student", "ro": "student / elev", "pos": "noun", "ipa": "/ˈstjuːdənt/", "emoji": "🎓", "ex": "Ioana is a student.", "exRo": "Ioana este studentă." },
+    { "en": "project manager", "ro": "manager de proiect", "pos": "noun", "ipa": "/ˈprɒdʒekt ˌmænɪdʒə/", "emoji": "📋", "ex": "Emma is a project manager.", "exRo": "Emma este manager de proiect." },
+    { "en": "client", "ro": "client", "pos": "noun", "ipa": "/ˈklaɪənt/", "emoji": "💼", "ex": "Mark is a client from London.", "exRo": "Mark este un client din Londra." },
+    { "en": "colleague", "ro": "coleg / colegă (de muncă)", "pos": "noun", "ipa": "/ˈkɒliːɡ/", "emoji": "👥", "ex": "Dan and Radu are colleagues.", "exRo": "Dan și Radu sunt colegi." },
+    { "en": "freelancer", "ro": "freelancer (lucrează pe cont propriu)", "pos": "noun", "ipa": "/ˈfriːlɑːnsə/", "emoji": "🧑‍💻", "ex": "I'm a freelancer. I'm my own boss.", "exRo": "Sunt freelancer. Sunt propriul meu șef." }
+  ],
+  "grammar": {
+    "title": "The verb 'to be': am, is, are",
+    "titleRo": "Verbul „a fi”: am, is, are",
+    "sections": [
+      {
+        "headingRo": "Pronumele personale",
+        "textRo": "În engleză, **pronumele (eu, tu, el...) este obligatoriu**. În română putem spune doar „Sunt programator”, dar în engleză trebuie să spunem **I am** a developer. Atenție: **I** (eu) se scrie mereu cu literă mare. **You** înseamnă și „tu”, și „voi / dumneavoastră”. Pentru lucruri (un laptop, o aplicație) folosim **it**.",
+        "table": {
+          "headers": ["Engleză", "Română"],
+          "rows": [["I", "eu"], ["you", "tu / voi / dvs."], ["he", "el"], ["she", "ea"], ["it", "el / ea (pentru lucruri, animale)"], ["we", "noi"], ["they", "ei / ele"]]
+        },
+        "examples": [
+          { "en": "I am Andrei.", "ro": "Eu sunt Andrei." },
+          { "en": "She is a teacher.", "ro": "Ea este profesoară." },
+          { "en": "The app is new. It is fast.", "ro": "Aplicația este nouă. Este rapidă." }
+        ]
+      },
+      {
+        "headingRo": "am, is, are",
+        "textRo": "Verbul „a fi” are trei forme la prezent: **am** (doar cu I), **is** (cu he, she, it) și **are** (cu you, we, they). E simplu: doar trei forme, nu șase ca în română!",
+        "table": {
+          "headers": ["Persoană", "Formă lungă", "Formă scurtă"],
+          "rows": [["I", "I am", "I'm"], ["you", "you are", "you're"], ["he", "he is", "he's"], ["she", "she is", "she's"], ["it", "it is", "it's"], ["we", "we are", "we're"], ["they", "they are", "they're"]]
+        },
+        "examples": [
+          { "en": "You are very nice.", "ro": "Ești foarte drăguț." },
+          { "en": "We are a small team.", "ro": "Suntem o echipă mică." },
+          { "en": "They are from Cluj.", "ro": "Ei sunt din Cluj." }
+        ]
+      },
+      {
+        "headingRo": "Forma scurtă (contracția)",
+        "textRo": "Când vorbim, aproape mereu folosim **forma scurtă**: I'm, you're, he's, she's, it's, we're, they're. Apostroful (') ține locul literei care lipsește. Ambele forme sunt corecte, dar forma scurtă sună mai natural.",
+        "examples": [
+          { "en": "I'm a developer.", "ro": "Sunt programator." },
+          { "en": "He's a project manager.", "ro": "El este manager de proiect." },
+          { "en": "They're colleagues.", "ro": "Ei sunt colegi." }
+        ]
+      },
+      {
+        "headingRo": "Meserii: a developer",
+        "textRo": "Când spui ce meserie ai, pui **a** înaintea meseriei: I'm **a** developer. În română spunem „Sunt programator”, fără „un”, dar în engleză **a** este obligatoriu. La plural nu mai punem **a**: They are developers.",
+        "examples": [
+          { "en": "I'm a freelancer.", "ro": "Sunt freelancer." },
+          { "en": "She's a doctor.", "ro": "Ea este medic." },
+          { "en": "We're students.", "ro": "Suntem studenți." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu sări peste pronume! Nu „Am a developer”, ci **I am a developer** / **I'm a developer**.",
+      "Nu uita de **a** la meserii: nu „I'm developer”, ci **I'm a developer**.",
+      "„I” se scrie mereu cu literă mare, chiar și în mijlocul propoziției: Tom and **I** are colleagues.",
+      "**My name is...** este o expresie fixă foarte utilă pentru prezentare: My name is Andrei."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La un eveniment pentru programatori",
+    "lines": [
+      { "speaker": "Emma", "en": "Good morning! I'm Emma.", "ro": "Bună dimineața! Eu sunt Emma." },
+      { "speaker": "Andrei", "en": "Good morning, Emma! I'm Andrei. Nice to meet you.", "ro": "Bună dimineața, Emma! Eu sunt Andrei. Îmi pare bine." },
+      { "speaker": "Emma", "en": "Nice to meet you too. I'm a project manager.", "ro": "Și mie îmi pare bine. Sunt manager de proiect." },
+      { "speaker": "Andrei", "en": "Cool! I'm a web developer. I'm a freelancer.", "ro": "Super! Eu sunt programator web. Sunt freelancer." },
+      { "speaker": "Emma", "en": "Oh, great! Tom and Lisa are developers too. They're over there.", "ro": "A, grozav! Tom și Lisa sunt și ei programatori. Sunt acolo." },
+      { "speaker": "Andrei", "en": "Nice! How are you today, Emma?", "ro": "Frumos! Ce faci azi, Emma?" },
+      { "speaker": "Emma", "en": "I'm fine, thanks. And you?", "ro": "Sunt bine, mulțumesc. Tu?" },
+      { "speaker": "Andrei", "en": "I'm great, thank you!", "ro": "Sunt foarte bine, mulțumesc!" }
+    ]
+  },
+  "reading": {
+    "title": "Hello from Cluj",
+    "text": "Hello! My name is Andrei. I'm from Cluj, in Romania. I'm a web developer and I'm a freelancer.\n\nIoana is a friend from school. She's a doctor in Cluj. She's very busy, but she's happy.\n\nDan and Radu are colleagues. They're developers too. Dan is from Brașov and Radu is from Iași. We're a small team and we're good friends. I'm happy here!",
+    "textRo": "Salut! Numele meu este Andrei. Sunt din Cluj, din România. Sunt programator web și sunt freelancer.\n\nIoana este o prietenă din școală. Ea este medic în Cluj. Este foarte ocupată, dar este fericită.\n\nDan și Radu sunt colegi. Și ei sunt programatori. Dan este din Brașov, iar Radu este din Iași. Suntem o echipă mică și suntem prieteni buni. Sunt fericit aici!",
+    "questions": [
+      { "type": "mc", "q": "Andrei is ___.", "options": ["a teacher", "a web developer", "a doctor"], "answer": 1, "explainRo": "Textul spune: „I'm a web developer”." },
+      { "type": "mc", "q": "Ioana is ___.", "options": ["a doctor", "a student", "a developer"], "answer": 0, "explainRo": "Textul spune: „She's a doctor in Cluj”." },
+      { "type": "mc", "q": "Dan is from ___.", "options": ["Cluj", "Iași", "Brașov"], "answer": 2, "explainRo": "Textul spune: „Dan is from Brașov”." },
+      { "type": "mc", "q": "Dan, Radu and Andrei are ___.", "options": ["clients", "a small team", "students", "teachers"], "answer": 1, "explainRo": "Textul spune: „We're a small team”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "I ___ a developer.", "options": ["am", "is", "are"], "answer": 0, "explainRo": "Cu **I** folosim mereu **am**." },
+    { "type": "mc", "q": "She ___ a teacher.", "options": ["are", "is", "am"], "answer": 1, "explainRo": "Cu **she** (ea) folosim **is**." },
+    { "type": "mc", "q": "Tom and Lisa ___ developers.", "options": ["is", "am", "are"], "answer": 2, "explainRo": "Tom și Lisa = they (ei), deci folosim **are**." },
+    { "type": "mc", "q": "Emma is a project manager. ___ is from London.", "options": ["He", "It", "They", "She"], "answer": 3, "explainRo": "Emma este o femeie, deci folosim **she**." },
+    { "type": "mc", "q": "The laptop is new. ___ is fast.", "options": ["It", "He", "She"], "answer": 0, "explainRo": "Pentru lucruri (un laptop) folosim **it**." },
+    { "type": "mc", "q": "Cum spui „Îmi pare bine” când cunoști pe cineva?", "options": ["Good evening!", "Nice to meet you!", "Goodbye!"], "answer": 1, "explainRo": "**Nice to meet you** se spune când cunoști o persoană nouă." },
+    { "type": "mc", "q": "„Coleg de muncă” în engleză este:", "options": ["client", "student", "colleague", "freelancer"], "answer": 2, "explainRo": "**Colleague** = coleg de muncă. **Client** = client." },
+    { "type": "mc", "q": "It's 8 in the morning. You say: „___, team!”", "options": ["Good evening", "Goodbye", "Good morning"], "answer": 2, "explainRo": "Dimineața spunem **Good morning**." },
+    { "type": "fill", "q": "We ___ (to be) a small team.", "answers": ["are", "'re"], "explainRo": "Cu **we** folosim **are** (forma scurtă: we're)." },
+    { "type": "fill", "q": "He ___ (to be) a doctor.", "answers": ["is", "'s"], "explainRo": "Cu **he** folosim **is** (forma scurtă: he's)." },
+    { "type": "fill", "q": "I ___ (to be) from Romania.", "answers": ["am", "'m"], "explainRo": "Cu **I** folosim **am** (forma scurtă: I'm)." },
+    { "type": "order", "words": ["I", "am", "a", "web", "developer."], "ro": "Sunt programator web.", "explainRo": "Ordinea este: pronume + am + a + meserie." },
+    { "type": "order", "words": ["She", "is", "a", "project", "manager."], "ro": "Ea este manager de proiect.", "explainRo": "She + is + a + meserie." },
+    { "type": "order", "words": ["Nice", "to", "meet", "you", "too."], "ro": "Și mie îmi pare bine.", "explainRo": "Răspunsul la „Nice to meet you” este „Nice to meet you too”." },
+    { "type": "translate", "ro": "Ea este profesoară.", "answers": ["She is a teacher.", "She's a teacher."], "explainRo": "Ea = she, este = is, și nu uităm **a** înaintea meseriei." },
+    { "type": "translate", "ro": "Noi suntem colegi.", "answers": ["We are colleagues.", "We're colleagues."], "explainRo": "Noi = we, suntem = are; la plural nu punem „a”." },
+    { "type": "translate", "ro": "Eu sunt freelancer.", "answers": ["I am a freelancer.", "I'm a freelancer."], "explainRo": "În engleză trebuie pronumele **I** și articolul **a**." },
+    { "type": "listen", "audio": "I'm a developer.", "answers": ["I'm a developer.", "I am a developer."], "ro": "Sunt programator.", "explainRo": "„I'm” este forma scurtă de la „I am”." },
+    { "type": "listen", "audio": "Nice to meet you.", "answers": ["Nice to meet you."], "ro": "Îmi pare bine.", "explainRo": "O expresie pe care o spui când cunoști pe cineva." },
+    { "type": "match", "pairs": [["hello", "salut"], ["fine", "bine"], ["colleague", "coleg"], ["teacher", "profesor"], ["goodbye", "la revedere"]] }
+  ],
+  "video": {
+    "youtubeId": "LH57BAO9K88",
+    "title": "Basic English Grammar - TO BE verb (English with Ronnie · engVid)"
+  }
+}

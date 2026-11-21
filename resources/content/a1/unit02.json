@@ -1,0 +1,139 @@
+{
+  "id": "a1-u02",
+  "level": "A1",
+  "order": 2,
+  "title": "Where are you from?",
+  "titleRo": "De unde ești?",
+  "emoji": "🌍",
+  "goalRo": "La final vei putea să spui de unde ești, câți ani ai, să-ți dai numărul de telefon și adresa de e-mail și să-ți spui numele pe litere.",
+  "vocab": [
+    { "en": "country", "ro": "țară", "pos": "noun", "ipa": "/ˈkʌntri/", "emoji": "🗺️", "ex": "Romania is a beautiful country.", "exRo": "România este o țară frumoasă." },
+    { "en": "Romania", "ro": "România", "pos": "noun", "ipa": "/ruˈmeɪniə/", "emoji": "🇷🇴", "wiki": "Romania", "ex": "I'm from Romania.", "exRo": "Sunt din România." },
+    { "en": "Romanian", "ro": "român / românesc", "pos": "adj", "ipa": "/ruˈmeɪniən/", "emoji": "🇷🇴", "ex": "I'm Romanian. I'm from Iași.", "exRo": "Sunt român. Sunt din Iași." },
+    { "en": "Germany", "ro": "Germania", "pos": "noun", "ipa": "/ˈdʒɜːməni/", "emoji": "🇩🇪", "wiki": "Germany", "ex": "Lena is from Germany.", "exRo": "Lena este din Germania." },
+    { "en": "Spain", "ro": "Spania", "pos": "noun", "ipa": "/speɪn/", "emoji": "🇪🇸", "wiki": "Spain", "ex": "Carlos isn't from Italy. He's from Spain.", "exRo": "Carlos nu este din Italia. Este din Spania." },
+    { "en": "the USA", "ro": "SUA (Statele Unite)", "pos": "noun", "ipa": "/ðə ˌjuː es ˈeɪ/", "emoji": "🇺🇸", "wiki": "United States", "ex": "Jake is a client from the USA.", "exRo": "Jake este un client din SUA." },
+    { "en": "city", "ro": "oraș", "pos": "noun", "ipa": "/ˈsɪti/", "emoji": "🏙️", "ex": "Cluj is a big city.", "exRo": "Clujul este un oraș mare." },
+    { "en": "phone number", "ro": "număr de telefon", "pos": "noun", "ipa": "/ˈfəʊn ˌnʌmbə/", "emoji": "📞", "ex": "What's your phone number?", "exRo": "Care este numărul tău de telefon?" },
+    { "en": "email address", "ro": "adresă de e-mail", "pos": "noun", "ipa": "/ˈiːmeɪl əˌdres/", "emoji": "📧", "ex": "What's your email address?", "exRo": "Care este adresa ta de e-mail?" },
+    { "en": "years old", "ro": "ani (vârstă)", "pos": "phrase", "ipa": "/jɪəz ˈəʊld/", "emoji": "🎂", "ex": "I'm 30 years old.", "exRo": "Am 30 de ani." },
+    { "en": "surname", "ro": "nume de familie", "pos": "noun", "ipa": "/ˈsɜːneɪm/", "emoji": "🪪", "ex": "My surname is Popescu.", "exRo": "Numele meu de familie este Popescu." },
+    { "en": "how do you spell it?", "ro": "cum se scrie? (pe litere)", "pos": "phrase", "ipa": "/haʊ də jə ˈspel ɪt/", "emoji": "🔤", "ex": "Popescu? How do you spell it?", "exRo": "Popescu? Cum se scrie?" },
+    { "en": "at", "ro": "„a rond” (@ în adresa de e-mail)", "pos": "other", "ipa": "/æt/", "emoji": "📩", "ex": "It's andrei at gmail dot com.", "exRo": "Este andrei @ gmail punct com." },
+    { "en": "dot", "ro": "punct (în adrese web și e-mail)", "pos": "noun", "ipa": "/dɒt/", "emoji": "⚫", "ex": "The website is crm dot ro.", "exRo": "Site-ul este crm punct ro." },
+    { "en": "engineer", "ro": "inginer", "pos": "noun", "ipa": "/ˌendʒɪˈnɪə/", "emoji": "👷", "ex": "Lena is an engineer.", "exRo": "Lena este inginer." },
+    { "en": "designer", "ro": "designer", "pos": "noun", "ipa": "/dɪˈzaɪnə/", "emoji": "🎨", "ex": "Carlos is a web designer.", "exRo": "Carlos este designer web." }
+  ],
+  "grammar": {
+    "title": "'To be': negatives and questions, a/an, numbers",
+    "titleRo": "„A fi”: negații și întrebări, a/an, numere",
+    "sections": [
+      {
+        "headingRo": "Negația: am not, isn't, aren't",
+        "textRo": "Ca să spui „nu sunt / nu este”, pui **not** după verb. În vorbire folosim forme scurte: **I'm not**, **isn't** (= is not), **aren't** (= are not). Atenție: nu există „amn't” — spunem doar **I'm not**.",
+        "table": {
+          "headers": ["Formă lungă", "Formă scurtă"],
+          "rows": [["I am not", "I'm not"], ["you are not", "you aren't"], ["he / she / it is not", "he / she / it isn't"], ["we are not", "we aren't"], ["they are not", "they aren't"]]
+        },
+        "examples": [
+          { "en": "I'm not from Germany.", "ro": "Nu sunt din Germania." },
+          { "en": "She isn't a student.", "ro": "Ea nu este studentă." },
+          { "en": "They aren't developers.", "ro": "Ei nu sunt programatori." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări și răspunsuri scurte",
+        "textRo": "În română întrebarea e doar o intonație: „Ești programator?”. În engleză **schimbăm ordinea**: verbul trece în fața pronumelui: You are → **Are you**...? La răspunsul scurt repetăm verbul: **Yes, I am.** / **No, I'm not.** La „yes” folosim mereu forma lungă: Yes, she **is** (nu „Yes, she's”).",
+        "table": {
+          "headers": ["Întrebare", "Da", "Nu"],
+          "rows": [["Am I...?", "Yes, you are.", "No, you aren't."], ["Are you...?", "Yes, I am.", "No, I'm not."], ["Is he / she / it...?", "Yes, he is.", "No, he isn't."], ["Are they...?", "Yes, they are.", "No, they aren't."]]
+        },
+        "examples": [
+          { "en": "Are you a developer? — Yes, I am.", "ro": "Ești programator? — Da." },
+          { "en": "Is Lena from Spain? — No, she isn't.", "ro": "Lena este din Spania? — Nu." },
+          { "en": "Where are you from? — I'm from Romania.", "ro": "De unde ești? — Sunt din România." },
+          { "en": "How old are you? — I'm 30.", "ro": "Câți ani ai? — Am 30 de ani." }
+        ]
+      },
+      {
+        "headingRo": "a sau an?",
+        "textRo": "Amândouă înseamnă „un / o”. Folosim **an** înaintea unui cuvânt care începe cu **sunet de vocală** (a, e, i, o, u) și **a** în rest. Contează sunetul, nu litera, dar la început ține minte regula vocalelor.",
+        "examples": [
+          { "en": "He's an engineer.", "ro": "El este inginer." },
+          { "en": "It's an email address.", "ro": "Este o adresă de e-mail." },
+          { "en": "She's a designer.", "ro": "Ea este designer." }
+        ]
+      },
+      {
+        "headingRo": "Numerele 0–100",
+        "textRo": "De la 13 la 19 se adaugă **-teen** (thirteen, fourteen...). Zecile se termină în **-ty** (twenty, thirty, forty...). Numerele compuse se scriu cu cratimă: **twenty-five**, **forty-two**. Atenție la diferența de pronunție: thir**teen** (accent la final) și **thir**ty (accent la început). În numerele de telefon, 0 se citește adesea „oh”.",
+        "table": {
+          "headers": ["Număr", "Engleză", "Număr", "Engleză"],
+          "rows": [["0", "zero / oh", "13", "thirteen"], ["1", "one", "15", "fifteen"], ["2", "two", "20", "twenty"], ["3", "three", "30", "thirty"], ["5", "five", "40", "forty"], ["8", "eight", "50", "fifty"], ["10", "ten", "90", "ninety"], ["11", "eleven", "100", "one hundred"], ["12", "twelve", "25", "twenty-five"]]
+        },
+        "examples": [
+          { "en": "I'm thirty-two years old.", "ro": "Am treizeci și doi de ani." },
+          { "en": "My phone number is 0740 123 456.", "ro": "Numărul meu de telefon este 0740 123 456." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spunem „I have 30 years”. Corect: **I'm 30** sau **I'm 30 years old**.",
+      "La răspunsul scurt cu „yes” nu folosim forma scurtă: nu „Yes, I'm”, ci **Yes, I am**.",
+      "Nu există „I amn't”. Corect: **I'm not**.",
+      "Într-o adresă de e-mail, @ se citește **at**, iar punctul se citește **dot**: ana@crm.ro = „ana at crm dot ro”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La recepția unui spațiu de coworking",
+    "lines": [
+      { "speaker": "Sarah", "en": "Hello! What's your name, please?", "ro": "Bună ziua! Cum vă numiți, vă rog?" },
+      { "speaker": "Andrei", "en": "I'm Andrei Popescu.", "ro": "Sunt Andrei Popescu." },
+      { "speaker": "Sarah", "en": "Popescu? How do you spell it?", "ro": "Popescu? Cum se scrie?" },
+      { "speaker": "Andrei", "en": "P-O-P-E-S-C-U.", "ro": "P-O-P-E-S-C-U." },
+      { "speaker": "Sarah", "en": "Thank you. Are you a student?", "ro": "Mulțumesc. Sunteți student?" },
+      { "speaker": "Andrei", "en": "No, I'm not. I'm a developer. I'm from Romania.", "ro": "Nu. Sunt programator. Sunt din România." },
+      { "speaker": "Sarah", "en": "Great. What's your email address?", "ro": "Perfect. Care este adresa dumneavoastră de e-mail?" },
+      { "speaker": "Andrei", "en": "It's andrei.popescu at gmail dot com.", "ro": "Este andrei.popescu@gmail.com." },
+      { "speaker": "Sarah", "en": "And what's your phone number?", "ro": "Și care este numărul de telefon?" },
+      { "speaker": "Andrei", "en": "It's oh-seven-four-oh, one-two-three, four-five-six.", "ro": "Este 0740 123 456." }
+    ]
+  },
+  "reading": {
+    "title": "A new international team",
+    "text": "Hi! I'm Lena. I'm not from Romania. I'm from Germany. I'm 31 and I'm an engineer in Berlin.\n\nCarlos is a designer. He isn't German. He's from Spain, from Madrid. He's 26.\n\nJake is a client. He's from the USA, from Chicago. He isn't a developer. He's a manager. He's 45.\n\nAre we a team? Yes, we are! The project is a CRM app, and we're very happy.",
+    "textRo": "Bună! Sunt Lena. Nu sunt din România. Sunt din Germania. Am 31 de ani și sunt inginer în Berlin.\n\nCarlos este designer. Nu este german. Este din Spania, din Madrid. Are 26 de ani.\n\nJake este client. Este din SUA, din Chicago. Nu este programator. Este manager. Are 45 de ani.\n\nSuntem o echipă? Da! Proiectul este o aplicație CRM și suntem foarte fericiți.",
+    "questions": [
+      { "type": "mc", "q": "Lena is from ___.", "options": ["Romania", "Germany", "Spain"], "answer": 1, "explainRo": "Lena spune: „I'm from Germany”." },
+      { "type": "mc", "q": "How old is Carlos?", "options": ["He's 26.", "He's 31.", "He's 45.", "He's 62."], "answer": 0, "explainRo": "Textul spune despre Carlos: „He's 26”." },
+      { "type": "mc", "q": "Is Jake a developer?", "options": ["Yes, he is.", "No, he isn't.", "Yes, they are."], "answer": 1, "explainRo": "Textul spune: „He isn't a developer. He's a manager”." },
+      { "type": "mc", "q": "Jake is from ___.", "options": ["Spain", "Germany", "the USA"], "answer": 2, "explainRo": "Textul spune: „He's from the USA, from Chicago”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "I ___ from Spain. I'm from Romania.", "options": ["am not", "isn't", "aren't"], "answer": 0, "explainRo": "Cu **I** negația este **am not** (I'm not)." },
+    { "type": "mc", "q": "___ you a developer?", "options": ["Is", "Am", "Are"], "answer": 2, "explainRo": "Cu **you** folosim **are**, iar în întrebare verbul vine primul: Are you...?" },
+    { "type": "mc", "q": "Is she from Germany? — Yes, ___.", "options": ["she's", "she is", "she are"], "answer": 1, "explainRo": "La răspunsul scurt cu „yes” folosim forma lungă: **Yes, she is**." },
+    { "type": "mc", "q": "He's ___ engineer.", "options": ["a", "an", "am"], "answer": 1, "explainRo": "**Engineer** începe cu sunet de vocală, deci folosim **an**." },
+    { "type": "mc", "q": "She's ___ designer.", "options": ["a", "an", "is"], "answer": 0, "explainRo": "**Designer** începe cu consoană, deci folosim **a**." },
+    { "type": "mc", "q": "Which number is forty-five?", "options": ["14", "54", "40", "45"], "answer": 3, "explainRo": "**Forty** = 40, **five** = 5, deci forty-five = 45." },
+    { "type": "mc", "q": "In an email address, „@” is ___.", "options": ["dot", "at", "and"], "answer": 1, "explainRo": "Simbolul @ se citește **at**; punctul se citește **dot**." },
+    { "type": "mc", "q": "„Nume de familie” în engleză este:", "options": ["city", "country", "surname"], "answer": 2, "explainRo": "**Surname** = nume de familie. **Name** sau **first name** = prenume." },
+    { "type": "fill", "q": "They ___ from the USA. They're from Spain. (not / to be)", "answers": ["aren't", "are not"], "explainRo": "Cu **they** negația este **are not** / **aren't**." },
+    { "type": "fill", "q": "___ he from Spain? — Yes, he is.", "answers": ["Is"], "explainRo": "Cu **he** folosim **is**, pus la începutul întrebării." },
+    { "type": "fill", "q": "My email address is ana ___ gmail dot com.", "answers": ["at"], "explainRo": "Simbolul @ se citește **at**." },
+    { "type": "fill", "q": "I'm 30 years ___.", "answers": ["old"], "explainRo": "Vârsta se spune cu „to be”: **I'm 30 years old**." },
+    { "type": "order", "words": ["Where", "are", "you", "from?"], "ro": "De unde ești?", "explainRo": "Where + are + you + from? — „from” stă la final." },
+    { "type": "order", "words": ["She", "isn't", "a", "student."], "ro": "Ea nu este studentă.", "explainRo": "Negația: She + isn't + a + meserie." },
+    { "type": "order", "words": ["How", "old", "are", "you?"], "ro": "Câți ani ai?", "explainRo": "Vârsta se întreabă cu **How old are you?**" },
+    { "type": "translate", "ro": "Nu sunt din Germania.", "answers": ["I am not from Germany.", "I'm not from Germany."], "explainRo": "Nu sunt = **I'm not** / **I am not**." },
+    { "type": "translate", "ro": "Ai 25 de ani?", "answers": ["Are you 25?", "Are you 25 years old?", "Are you twenty-five?", "Are you twenty-five years old?", "Are you twenty five?", "Are you twenty five years old?"], "explainRo": "Vârsta se exprimă cu „to be”: **Are you 25?** (nu „Have you 25 years?”)." },
+    { "type": "listen", "audio": "I'm thirty-two years old.", "answers": ["I'm thirty-two years old.", "I am thirty-two years old.", "I'm 32 years old.", "I am 32 years old.", "I'm thirty two years old.", "I am thirty two years old."], "ro": "Am 32 de ani.", "explainRo": "Thirty = 30, two = 2, deci thirty-two = 32." },
+    { "type": "listen", "audio": "Where are you from?", "answers": ["Where are you from?"], "ro": "De unde ești?", "explainRo": "Cea mai frecventă întrebare când cunoști pe cineva din altă țară." },
+    { "type": "match", "pairs": [["country", "țară"], ["city", "oraș"], ["surname", "nume de familie"], ["engineer", "inginer"], ["phone number", "număr de telefon"]] }
+  ],
+  "video": {
+    "youtubeId": "31y2Bq1RYQA",
+    "title": "Saying where you're from: Easy English Conversations 💬 Episode 2 (BBC Learning English)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u06",
+  "questions": [
+    { "type": "mc", "q": "Our designer ___ use Windows. She has a Mac.", "options": ["don't", "doesn't", "isn't"], "answer": 1, "explainRo": "Our designer = she, deci negația este **doesn't** + verbul fără -s." },
+    { "type": "mc", "q": "Ioana doesn't want food, just a drink. She orders ___.", "options": ["a sandwich", "a salad", "a piece of cake", "an orange juice"], "answer": 3, "explainRo": "Ioana vrea doar ceva de băut, iar **orange juice** (suc de portocale) este singura băutură." },
+    { "type": "mc", "q": "„Do your kids like soup?” — „Yes, they ___.”", "options": ["do", "like", "does"], "answer": 0, "explainRo": "La o întrebare cu **Do** răspundem scurt cu **do**: Yes, they do (nu „Yes, they like”)." },
+    { "type": "mc", "q": "Radu hates ___ emails at the weekend.", "options": ["check", "checks", "checking"], "answer": 2, "explainRo": "După **like / love / hate** punem verbul cu **-ing**: hates checking." },
+    { "type": "mc", "q": "„Fiului meu îi place brânza.” (în general) = ___", "options": ["My son likes the cheese.", "My son likes cheese.", "To my son likes cheese."], "answer": 1, "explainRo": "Cel care simte este subiectul (**My son likes**), iar pentru mâncare în general nu punem „the”." },
+    { "type": "fill", "q": "My grandma ___ pizza. She says it isn't real food! (not / eat)", "answers": ["doesn't eat", "does not eat"], "explainRo": "Grandma = she, deci negația este **doesn't** + verbul fără -s: doesn't eat." },
+    { "type": "fill", "q": "The ___ is only in Italian. I don't understand it! (meniu)", "answers": ["menu"], "explainRo": "Meniul de la restaurant se numește **menu**." },
+    { "type": "fill", "q": "My parents love ___ in the park on Sundays. (walk)", "answers": ["walking", "to walk"], "explainRo": "După **love** punem verbul cu **-ing**: love walking (le place mult să se plimbe)." },
+    { "type": "order", "words": ["Does", "your", "client", "speak", "Romanian?"], "ro": "Clientul tău vorbește română?", "explainRo": "Întrebarea pentru he/she începe cu **Does**, iar verbul rămâne fără -s: speak." },
+    { "type": "order", "words": ["Our", "boss", "doesn't", "like", "long", "meetings."], "ro": "Șefului nostru nu-i plac ședințele lungi.", "explainRo": "Ordinea este subiect + **doesn't** + verb fără -s; adjectivul **long** stă înaintea substantivului." },
+    { "type": "listen", "audio": "Our waiter doesn't speak English.", "answers": ["Our waiter doesn't speak English.", "Our waiter does not speak English."], "ro": "Chelnerul nostru nu vorbește engleză.", "explainRo": "**Waiter** = chelner; după **doesn't** verbul speak nu mai are -s." },
+    { "type": "translate", "ro": "Clientului meu îi place să lucreze noaptea.", "answers": ["My client likes working at night.", "My client likes to work at night."], "explainRo": "În engleză cel care simte este subiectul (**My client likes**), iar după like punem verbul cu **-ing**." }
+  ]
+}

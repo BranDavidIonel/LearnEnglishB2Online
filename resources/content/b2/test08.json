@@ -1,0 +1,17 @@
+{
+  "unit": "b2-u08",
+  "questions": [
+    { "type": "mc", "q": "Please remember ___ the lights off when you leave the co-working space.", "options": ["turning", "to turn", "turn", "turned"], "answer": 1, "explainRo": "**Remember + to + infinitiv** = nu uita să faci ceva (acțiunea urmează)." },
+    { "type": "mc", "q": "My ___ was so bad that the physiotherapist told me to change my chair and sit up straight.", "options": ["resilience", "mindfulness", "posture", "screen time"], "answer": 2, "explainRo": "**Posture** = felul în care îți ții corpul; o postură greșită duce la dureri de spate." },
+    { "type": "mc", "q": "After six months without a single day off, I really need a week at the seaside to ___.", "options": ["set boundaries", "take a toll", "cut down on", "recharge my batteries"], "answer": 3, "explainRo": "**Recharge your batteries** = a te odihni ca să-ți recapeți energia." },
+    { "type": "order", "words": ["We", "managed", "to", "catch", "the", "last", "train."], "ro": "Am reușit să prindem ultimul tren.", "explainRo": "**Manage** este urmat de **to + infinitiv**: managed to catch." },
+    { "type": "listen", "audio": "Mindfulness helps me feel less overwhelmed at work.", "answers": ["Mindfulness helps me feel less overwhelmed at work."], "ro": "Mindfulness mă ajută să mă simt mai puțin copleșit la muncă.", "explainRo": "**Overwhelmed** = copleșit; **mindfulness** = atenție conștientă, care reduce stresul." },
+    { "type": "fill", "q": "Stop ___ (a amâna) and just send the invoice!", "answers": ["procrastinating"], "explainRo": "**Procrastinate** = a amâna din comoditate; după **stop** (= a nu mai face) folosim **-ing**." },
+    { "type": "fill", "q": "If you have any questions about the quote, don't hesitate ___ (contact) me.", "answers": ["to contact"], "explainRo": "**Hesitate** este urmat de **to + infinitiv**: don't hesitate to contact me." },
+    { "type": "mc", "q": "Accepting the job in Berlin would mean ___ my friends and family behind.", "options": ["to leave", "leave", "leaving", "left"], "answer": 2, "explainRo": "**Mean + -ing** = a implica; **mean + to + infinitiv** ar însemna „a avea intenția”." },
+    { "type": "order", "words": ["We", "stopped", "to", "take", "photos", "of", "the", "lake."], "ro": "Ne-am oprit să facem poze cu lacul.", "explainRo": "**Stop + to + infinitiv** = te oprești ca să faci altceva (aici, poze)." },
+    { "type": "fill", "q": "Our new CTO doesn't let anyone ___ (deploy) on Friday afternoons.", "answers": ["deploy"], "explainRo": "După **let + obiect** folosim infinitivul fără to: let anyone deploy." },
+    { "type": "mc", "q": "Try to avoid ___ meetings before 11 a.m. – that's your time for deep work.", "options": ["scheduling", "to schedule", "schedule"], "answer": 0, "explainRo": "**Avoid** este urmat mereu de **-ing**: avoid scheduling." },
+    { "type": "translate", "ro": "Aștept cu nerăbdare să lucrăm împreună.", "answers": ["I look forward to working with you.", "I'm looking forward to working with you.", "I am looking forward to working with you.", "I look forward to working together.", "I'm looking forward to working together.", "I am looking forward to working together.", "I really look forward to working with you.", "I'm really looking forward to working with you.", "I can't wait to work with you.", "I can't wait to work together."], "explainRo": "După **look forward to** urmează **-ing** (to e prepoziție): look forward to working, nu „to work”." }
+  ]
+}

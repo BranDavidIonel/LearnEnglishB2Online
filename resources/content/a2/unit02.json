@@ -1,0 +1,137 @@
+{
+  "id": "a2-u02",
+  "level": "A2",
+  "order": 2,
+  "title": "How did you start?",
+  "titleRo": "Cum ai început?",
+  "emoji": "🎓",
+  "goalRo": "La final vei putea să pui întrebări despre trecut, să spui ce nu ai făcut și să-ți povestești studiile și cariera folosind „ago”.",
+  "vocab": [
+    { "en": "grow up", "ro": "a crește, a copilări (trecut: grew up)", "pos": "verb", "ipa": "/ˌɡrəʊ ˈʌp/", "emoji": "🧒", "ex": "I grew up in a small town near Iași.", "exRo": "Am crescut într-un orășel lângă Iași." },
+    { "en": "graduate", "ro": "a absolvi (o școală, o facultate)", "pos": "verb", "ipa": "/ˈɡrædʒ.u.eɪt/", "emoji": "🎓", "ex": "She graduated from university in 2019.", "exRo": "Ea a absolvit facultatea în 2019." },
+    { "en": "degree", "ro": "diplomă universitară", "pos": "noun", "ipa": "/dɪˈɡriː/", "emoji": "📜", "ex": "He has a degree in economics.", "exRo": "El are o diplomă în economie." },
+    { "en": "computer science", "ro": "informatică", "pos": "noun", "ipa": "/kəmˌpjuː.tə ˈsaɪ.əns/", "emoji": "💻", "ex": "I studied computer science in Timișoara.", "exRo": "Am studiat informatica la Timișoara." },
+    { "en": "high school", "ro": "liceu", "pos": "noun", "ipa": "/ˈhaɪ ˌskuːl/", "emoji": "🏫", "ex": "After high school, I moved to Bucharest.", "exRo": "După liceu, m-am mutat în București." },
+    { "en": "move", "ro": "a se muta", "pos": "verb", "ipa": "/muːv/", "emoji": "📦", "ex": "We moved to Cluj five years ago.", "exRo": "Ne-am mutat în Cluj acum cinci ani." },
+    { "en": "career", "ro": "carieră", "pos": "noun", "ipa": "/kəˈrɪə/", "emoji": "📈", "ex": "She started her career in a bank.", "exRo": "Ea și-a început cariera într-o bancă." },
+    { "en": "job interview", "ro": "interviu de angajare", "pos": "noun", "ipa": "/ˈdʒɒb ˌɪn.tə.vjuː/", "emoji": "🤝", "ex": "I was very nervous before my first job interview.", "exRo": "Am fost foarte emoționat înainte de primul meu interviu de angajare." },
+    { "en": "hire", "ro": "a angaja", "pos": "verb", "ipa": "/haɪə/", "emoji": "✍️", "ex": "The company hired me after the second interview.", "exRo": "Firma m-a angajat după al doilea interviu." },
+    { "en": "quit", "ro": "a demisiona, a renunța (trecut: quit)", "pos": "verb", "ipa": "/kwɪt/", "emoji": "🚶", "ex": "He quit his job and started his own business.", "exRo": "Și-a dat demisia și și-a deschis propria afacere." },
+    { "en": "junior developer", "ro": "programator junior (începător)", "pos": "noun", "ipa": "/ˌdʒuː.ni.ə dɪˈvel.ə.pə/", "emoji": "👨‍💻", "ex": "I started as a junior developer in 2018.", "exRo": "Am început ca programator junior în 2018." },
+    { "en": "startup", "ro": "startup, firmă nouă", "pos": "noun", "ipa": "/ˈstɑːt.ʌp/", "emoji": "🚀", "ex": "My first job was at a small startup.", "exRo": "Primul meu job a fost la un startup mic." },
+    { "en": "ago", "ro": "în urmă (acum ... ani)", "pos": "adv", "ipa": "/əˈɡəʊ/", "emoji": "⏪", "ex": "I finished school ten years ago.", "exRo": "Am terminat școala acum zece ani." },
+    { "en": "colleague", "ro": "coleg (de muncă)", "pos": "noun", "ipa": "/ˈkɒl.iːɡ/", "emoji": "👥", "ex": "My colleagues helped me a lot in my first month.", "exRo": "Colegii mei m-au ajutat mult în prima lună." },
+    { "en": "salary", "ro": "salariu", "pos": "noun", "ipa": "/ˈsæl.ər.i/", "emoji": "💰", "ex": "The salary wasn't very good, but I liked the job.", "exRo": "Salariul nu era foarte bun, dar îmi plăcea jobul." },
+    { "en": "course", "ro": "curs", "pos": "noun", "ipa": "/kɔːs/", "emoji": "📚", "ex": "I took an online course in JavaScript.", "exRo": "Am făcut un curs online de JavaScript." },
+    { "en": "promotion", "ro": "promovare (la locul de muncă)", "pos": "noun", "ipa": "/prəˈməʊ.ʃən/", "emoji": "⬆️", "ex": "She got a promotion last year.", "exRo": "Ea a fost promovată anul trecut." }
+  ],
+  "grammar": {
+    "title": "Past simple: negatives, questions and 'ago'",
+    "titleRo": "Trecutul simplu: negații, întrebări și „ago”",
+    "sections": [
+      {
+        "headingRo": "Negația: didn't + verb",
+        "textRo": "Ca să spui că ceva **nu** s-a întâmplat, folosești **didn't (did not) + verbul la forma de bază**. Atenție: verbul revine la forma simplă, chiar dacă e neregulat! Trecutul este deja „ascuns” în **didn't**. Deci: **I didn't go**, nu „I didn't went”.",
+        "table": {
+          "headers": ["Afirmativ", "Negativ"],
+          "rows": [
+            ["I went to university.", "I didn't go to university."],
+            ["She studied IT.", "She didn't study IT."],
+            ["They moved to Cluj.", "They didn't move to Cluj."],
+            ["He got the job.", "He didn't get the job."]
+          ]
+        },
+        "examples": [
+          { "en": "I didn't like my first job.", "ro": "Nu mi-a plăcut primul meu job." },
+          { "en": "We didn't have a lot of money.", "ro": "Nu aveam mulți bani." },
+          { "en": "He didn't finish high school in Romania.", "ro": "El nu a terminat liceul în România." }
+        ]
+      },
+      {
+        "headingRo": "Întrebările: Did + subiect + verb?",
+        "textRo": "Pentru întrebări pui **Did** la început, apoi subiectul și verbul la forma de bază: **Did you study IT?** Răspunsurile scurte sunt: **Yes, I did. / No, I didn't.** Cu cuvinte de întrebare: **Where did you grow up? When did you move? Why did you quit?** Excepție: cu **was/were** nu folosim did – **Were you happy there?**",
+        "table": {
+          "headers": ["Cuvânt de întrebare", "did", "subiect", "verb"],
+          "rows": [
+            ["—", "Did", "you", "study IT?"],
+            ["Where", "did", "she", "grow up?"],
+            ["When", "did", "they", "move?"],
+            ["Why", "did", "he", "quit?"]
+          ]
+        },
+        "examples": [
+          { "en": "Did you like the course? – Yes, I did.", "ro": "Ți-a plăcut cursul? – Da." },
+          { "en": "Where did you work before? – At a startup.", "ro": "Unde ai lucrat înainte? – La un startup." },
+          { "en": "Were you nervous at the interview?", "ro": "Ai avut emoții la interviu?" }
+        ]
+      },
+      {
+        "headingRo": "Ago = în urmă",
+        "textRo": "**Ago** vine **după** perioada de timp – invers față de română: „acum cinci ani” = **five years ago**. Îl folosim cu trecutul simplu, ca să spunem cât timp a trecut de atunci până azi.",
+        "examples": [
+          { "en": "I moved to Bucharest three years ago.", "ro": "M-am mutat în București acum trei ani." },
+          { "en": "She graduated a long time ago.", "ro": "Ea a absolvit cu mult timp în urmă." },
+          { "en": "When did you start? – Two months ago.", "ro": "Când ai început? – Acum două luni." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „I didn't went”. După **didn't** verbul rămâne la forma de bază: **I didn't go**.",
+      "„Acum doi ani” = **two years ago**, nu „ago two years” sau „before two years”.",
+      "Cu **was/were** nu folosim did: **Were you at work?**, nu „Did you were at work?”.",
+      "„A absolvi facultatea” = **graduate from university** – nu uita de **from**."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La interviul de angajare",
+    "lines": [
+      { "speaker": "Ms Clark", "en": "So, Andrei, where did you grow up?", "ro": "Deci, Andrei, unde ai crescut?" },
+      { "speaker": "Andrei", "en": "I grew up in Brașov, but I moved to Cluj twelve years ago.", "ro": "Am crescut în Brașov, dar m-am mutat în Cluj acum doisprezece ani." },
+      { "speaker": "Ms Clark", "en": "Did you study computer science there?", "ro": "Ai studiat informatica acolo?" },
+      { "speaker": "Andrei", "en": "No, I didn't. I studied economics, but I didn't like it very much.", "ro": "Nu. Am studiat economie, dar nu mi-a plăcut foarte mult." },
+      { "speaker": "Ms Clark", "en": "Really? So how did you start your career in IT?", "ro": "Serios? Și cum ți-ai început cariera în IT?" },
+      { "speaker": "Andrei", "en": "I took an online course in web development. Then a small startup hired me as a junior developer.", "ro": "Am făcut un curs online de dezvoltare web. Apoi un startup mic m-a angajat ca programator junior." },
+      { "speaker": "Ms Clark", "en": "When did you leave that company?", "ro": "Când ai plecat de la firma aceea?" },
+      { "speaker": "Andrei", "en": "Two years ago. The salary wasn't very good, so I quit.", "ro": "Acum doi ani. Salariul nu era foarte bun, așa că mi-am dat demisia." },
+      { "speaker": "Ms Clark", "en": "I see. And did you enjoy working with clients?", "ro": "Înțeleg. Și ți-a plăcut să lucrezi cu clienții?" },
+      { "speaker": "Andrei", "en": "Yes, I did. I built a CRM for a hotel, and they loved it.", "ro": "Da. Am construit un CRM pentru un hotel și le-a plăcut foarte mult." }
+    ]
+  },
+  "reading": {
+    "title": "From economics to code",
+    "text": "Elena is 31 and she is a software developer in Bucharest. But she didn't always work in IT.\n\nShe grew up in a village near Suceava. After high school, she moved to Bucharest and studied economics. She graduated eight years ago, and a bank hired her. The salary was good, but she didn't like the job. Every day was the same.\n\nFive years ago, she took an evening course in programming. She was very busy, but she loved it. A year later, she quit her job at the bank and started as a junior developer at a small startup.\n\nDid she make the right choice? Elena says yes. 'At the start, code was a mystery for me. Now I build apps for real clients!'",
+    "textRo": "Elena are 31 de ani și este programatoare în București. Dar nu a lucrat mereu în IT.\n\nA crescut într-un sat lângă Suceava. După liceu, s-a mutat în București și a studiat economie. A absolvit acum opt ani și a angajat-o o bancă. Salariul era bun, dar nu-i plăcea jobul. Fiecare zi era la fel.\n\nAcum cinci ani, a făcut un curs de programare seara. Era foarte ocupată, dar i-a plăcut enorm. Un an mai târziu, și-a dat demisia de la bancă și a început ca programatoare junior la un startup mic.\n\nA făcut alegerea corectă? Elena spune că da. „La început, codul era un mister pentru mine. Acum construiesc aplicații pentru clienți reali!”",
+    "questions": [
+      { "type": "mc", "q": "Where did Elena grow up?", "options": ["In Bucharest", "In a village near Suceava", "In Cluj", "In a small town near Iași"], "answer": 1, "explainRo": "„She grew up in a village near Suceava.”" },
+      { "type": "mc", "q": "What did she study at university?", "options": ["Economics", "Computer science", "Programming"], "answer": 0, "explainRo": "„She moved to Bucharest and studied economics.”" },
+      { "type": "mc", "q": "Why didn't she like her job at the bank?", "options": ["The salary was bad.", "Her colleagues weren't nice.", "Every day was the same.", "It was very far."], "answer": 2, "explainRo": "Salariul era bun, dar „Every day was the same.”" },
+      { "type": "mc", "q": "When did she take a programming course?", "options": ["Last month", "Eight years ago", "A year ago", "Five years ago"], "answer": 3, "explainRo": "„Five years ago, she took an evening course in programming.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["salary", "salariu"], ["colleague", "coleg"], ["career", "carieră"], ["course", "curs"], ["promotion", "promovare"]] },
+    { "type": "mc", "q": "I ___ go to the party last night. I was tired.", "options": ["don't", "didn't", "wasn't", "not"], "answer": 1, "explainRo": "Negația la trecut: didn't + verbul la forma de bază (go)." },
+    { "type": "mc", "q": "___ you study computer science at university? – Yes, I did.", "options": ["Do", "Was", "Did", "Were"], "answer": 2, "explainRo": "Răspunsul „Yes, I did” arată că întrebarea e la trecut: Did + subiect + verb." },
+    { "type": "mc", "q": "We moved to Cluj ten years ___.", "options": ["before", "last", "past", "ago"], "answer": 3, "explainRo": "„Acum zece ani” = ten years ago; ago stă după perioada de timp." },
+    { "type": "mc", "q": "She didn't ___ the job.", "options": ["liked", "like", "likes", "liking"], "answer": 1, "explainRo": "După didn't verbul stă la forma de bază: like." },
+    { "type": "mc", "q": "Where ___ you grow up?", "options": ["did", "do", "were", "was"], "answer": 0, "explainRo": "Întrebare la trecut cu un verb obișnuit: Where did + subiect + verb." },
+    { "type": "mc", "q": "After the interview, the company ___ me as a junior developer.", "options": ["quit", "hired", "graduated", "moved"], "answer": 1, "explainRo": "Hire = a angaja. Firma m-a angajat după interviu." },
+    { "type": "mc", "q": "He wasn't happy at work, so he ___ his job.", "options": ["hired", "grew up", "quit", "graduated"], "answer": 2, "explainRo": "Quit (trecut tot quit) = a demisiona, a renunța la un job." },
+    { "type": "mc", "q": "When did you ___ from university?", "options": ["graduate", "graduated", "graduating"], "answer": 0, "explainRo": "După did verbul stă la forma de bază: graduate." },
+    { "type": "fill", "q": "I ___ (not / like) my first job.", "answers": ["didn't like", "did not like"], "explainRo": "Negația la trecut: didn't (did not) + like." },
+    { "type": "fill", "q": "___ you meet the client yesterday? – Yes, I did.", "answers": ["Did"], "explainRo": "Întrebările la trecut încep cu Did." },
+    { "type": "fill", "q": "She started her career five years ___.", "answers": ["ago"], "explainRo": "Five years ago = acum cinci ani." },
+    { "type": "fill", "q": "They ___ (not / move) to Bucharest. They stayed in Iași.", "answers": ["didn't move", "did not move"], "explainRo": "Didn't + verbul la forma de bază: didn't move." },
+    { "type": "listen", "audio": "Where did you grow up?", "answers": ["Where did you grow up?"], "ro": "Unde ai crescut?", "explainRo": "Where + did + you + grow up – întrebare la trecut." },
+    { "type": "listen", "audio": "I didn't go to university.", "answers": ["I didn't go to university.", "I did not go to university."], "ro": "Nu am mers la facultate.", "explainRo": "Didn't go – după didn't verbul rămâne go, nu went." },
+    { "type": "order", "words": ["When", "did", "you", "move", "to", "Cluj?"], "ro": "Când te-ai mutat în Cluj?", "explainRo": "Cuvânt de întrebare + did + subiect + verb la forma de bază." },
+    { "type": "order", "words": ["I", "started", "my", "career", "three", "years", "ago."], "ro": "Mi-am început cariera acum trei ani.", "explainRo": "Three years ago stă la sfârșit: perioada de timp + ago." },
+    { "type": "order", "words": ["She", "didn't", "get", "the", "promotion."], "ro": "Ea nu a primit promovarea.", "explainRo": "Didn't + get (forma de bază, nu got)." },
+    { "type": "translate", "ro": "Ai studiat informatica?", "answers": ["Did you study computer science?", "Did you study IT?"], "explainRo": "Întrebare la trecut: Did + you + study; informatică = computer science." },
+    { "type": "translate", "ro": "M-am mutat în Londra acum doi ani.", "answers": ["I moved to London two years ago.", "Two years ago I moved to London.", "Two years ago, I moved to London."], "explainRo": "„A se muta” = move (regulat: moved); „acum doi ani” = two years ago." }
+  ],
+  "video": {
+    "youtubeId": "kTf0V4HyFtM",
+    "title": "Talk about what you did last weekend: Easy English Conversations 💬 Episode 13 (BBC Learning English)"
+  }
+}

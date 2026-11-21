@@ -1,0 +1,17 @@
+{
+  "unit": "b2-u10",
+  "questions": [
+    { "type": "mc", "q": "Getting tickets for the Champions League final is ___, but I'll try anyway.", "options": ["a long shot", "the bottom line", "small talk", "a ballpark figure"], "answer": 0, "explainRo": "**A long shot** = o încercare cu șanse mici de reușită." },
+    { "type": "fill", "q": "My cousin left IT and now works as ___ nurse in Birmingham.", "answers": ["a"], "explainRo": "Profesiile cer articolul nehotărât **a/an**: works as a nurse." },
+    { "type": "mc", "q": "All the usual solutions had failed, so we had to ___ and try something completely different.", "options": ["break the ice", "touch base", "catch up", "think outside the box"], "answer": 3, "explainRo": "**Think outside the box** = a gândi neconvențional, a căuta soluții noi." },
+    { "type": "fill", "q": "I'm not very good at ___ talk – I never know what to say about the weather.", "answers": ["small"], "explainRo": "**Small talk** = conversație lejeră despre subiecte banale, cum ar fi vremea." },
+    { "type": "listen", "audio": "Let's get the ball rolling with a quick call.", "answers": ["Let's get the ball rolling with a quick call.", "Let us get the ball rolling with a quick call."], "ro": "Hai să dăm startul cu un apel scurt.", "explainRo": "**Get the ball rolling** = a da startul unui proiect sau unei activități." },
+    { "type": "mc", "q": "That's the client's new phone number. Write ___ before you forget it.", "options": ["down it", "it down", "down to it"], "answer": 1, "explainRo": "Când obiectul este un pronume, stă între verb și particulă: **write it down**." },
+    { "type": "order", "words": ["I", "picked", "her", "up", "from", "the", "airport."], "ro": "Am luat-o de la aeroport.", "explainRo": "Cu pronume, obiectul stă la mijloc: **picked her up**, nu „picked up her”." },
+    { "type": "mc", "q": "In general, ___ prefer to pay for software monthly rather than yearly.", "options": ["the people", "the persons", "people", "a people"], "answer": 2, "explainRo": "Pentru generalizări folosim substantivul la plural fără articol: **people**, nu „the people”." },
+    { "type": "order", "words": ["Both", "of", "my", "sisters", "live", "in", "the", "UK."], "ro": "Amândouă surorile mele locuiesc în Marea Britanie.", "explainRo": "**Both of my + plural** se referă la două persoane; **the UK** are mereu articol." },
+    { "type": "mc", "q": "We had ___ money left at the end of the trip, so we lived on sandwiches for three days.", "options": ["few", "little", "a few", "many"], "answer": 1, "explainRo": "**Money** este nenumărabil, iar **little** (fără a) are sens negativ: aproape deloc." },
+    { "type": "fill", "q": "The new booking feature got a great ___ of positive feedback from users.", "answers": ["deal", "amount"], "explainRo": "**A great deal of** se folosește cu substantive nenumărabile, iar **feedback** este nenumărabil." },
+    { "type": "translate", "ro": "Banii nu aduc fericirea.", "answers": ["Money doesn't bring happiness.", "Money does not bring happiness.", "Money doesn't bring you happiness.", "Money does not bring you happiness.", "Money doesn't buy happiness.", "Money does not buy happiness.", "Money can't buy happiness.", "Money cannot buy happiness."], "explainRo": "Generalizări cu substantive nenumărabile, fără articol: **Money**, **happiness** (nu „the money”, „the happiness”)." }
+  ]
+}

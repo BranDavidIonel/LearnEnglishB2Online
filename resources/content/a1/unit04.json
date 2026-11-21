@@ -1,0 +1,135 @@
+{
+  "id": "a1-u04",
+  "level": "A1",
+  "order": 4,
+  "title": "This is my desk",
+  "titleRo": "Acesta este biroul meu",
+  "emoji": "💻",
+  "goalRo": "La final vei putea să numești obiectele de pe birou și din jurul tău, să spui ce culoare au și să arăți spre ele cu this, that, these, those.",
+  "vocab": [
+    { "en": "laptop", "ro": "laptop", "pos": "noun", "ipa": "/ˈlæptɒp/", "emoji": "💻", "wiki": "Laptop", "ex": "My laptop is new and fast.", "exRo": "Laptopul meu este nou și rapid." },
+    { "en": "screen", "ro": "ecran / monitor", "pos": "noun", "ipa": "/skriːn/", "emoji": "🖥️", "wiki": "Computer monitor", "ex": "I've got two screens at work.", "exRo": "Am două monitoare la serviciu." },
+    { "en": "keyboard", "ro": "tastatură", "pos": "noun", "ipa": "/ˈkiːbɔːd/", "emoji": "⌨️", "wiki": "Computer keyboard", "ex": "This keyboard is very good.", "exRo": "Tastatura aceasta este foarte bună." },
+    { "en": "mouse", "ro": "mouse", "pos": "noun", "ipa": "/maʊs/", "emoji": "🖱️", "wiki": "Computer mouse", "ex": "Is that your mouse?", "exRo": "Acela e mouse-ul tău?" },
+    { "en": "mobile phone", "ro": "telefon mobil", "pos": "noun", "ipa": "/ˌməʊbaɪl ˈfəʊn/", "emoji": "📱", "wiki": "Mobile phone", "ex": "Is this your mobile phone?", "exRo": "Acesta este telefonul tău mobil?" },
+    { "en": "desk", "ro": "birou (masa de lucru)", "pos": "noun", "ipa": "/desk/", "emoji": "🗄️", "wiki": "Desk", "ex": "This is my desk.", "exRo": "Acesta este biroul meu." },
+    { "en": "chair", "ro": "scaun", "pos": "noun", "ipa": "/tʃeə/", "emoji": "🪑", "wiki": "Chair", "ex": "That chair is very comfortable.", "exRo": "Scaunul acela este foarte comod." },
+    { "en": "cup", "ro": "cană / ceașcă", "pos": "noun", "ipa": "/kʌp/", "emoji": "☕", "wiki": "Cup", "ex": "These cups are for coffee.", "exRo": "Cănile acestea sunt pentru cafea." },
+    { "en": "bag", "ro": "geantă", "pos": "noun", "ipa": "/bæɡ/", "emoji": "👜", "wiki": "Bag", "ex": "My laptop bag is black.", "exRo": "Geanta mea de laptop este neagră." },
+    { "en": "key", "ro": "cheie", "pos": "noun", "ipa": "/kiː/", "emoji": "🔑", "wiki": "Lock and key", "ex": "Are those your keys?", "exRo": "Acelea sunt cheile tale?" },
+    { "en": "notebook", "ro": "caiet / carnețel", "pos": "noun", "ipa": "/ˈnəʊtbʊk/", "emoji": "📓", "wiki": "Notebook", "ex": "My notebook is full of ideas.", "exRo": "Carnețelul meu e plin de idei." },
+    { "en": "headphones", "ro": "căști", "pos": "noun", "ipa": "/ˈhedfəʊnz/", "emoji": "🎧", "wiki": "Headphones", "ex": "These are my new headphones.", "exRo": "Acestea sunt căștile mele noi." },
+    { "en": "charger", "ro": "încărcător", "pos": "noun", "ipa": "/ˈtʃɑːdʒə/", "emoji": "🔌", "wiki": "Battery charger", "ex": "Is this charger for the laptop?", "exRo": "Încărcătorul acesta este pentru laptop?" },
+    { "en": "glasses", "ro": "ochelari", "pos": "noun", "ipa": "/ˈɡlɑːsɪz/", "emoji": "👓", "wiki": "Glasses", "ex": "Those are Ana's glasses.", "exRo": "Aceia sunt ochelarii Anei." },
+    { "en": "black", "ro": "negru", "pos": "adj", "ipa": "/blæk/", "emoji": "⚫", "ex": "I've got a black laptop.", "exRo": "Am un laptop negru." },
+    { "en": "white", "ro": "alb", "pos": "adj", "ipa": "/waɪt/", "emoji": "⚪", "ex": "My desk is white.", "exRo": "Biroul meu este alb." },
+    { "en": "blue", "ro": "albastru", "pos": "adj", "ipa": "/bluː/", "emoji": "🔵", "ex": "This blue cup is my favourite.", "exRo": "Cana aceasta albastră este preferata mea." },
+    { "en": "red", "ro": "roșu", "pos": "adj", "ipa": "/red/", "emoji": "🔴", "ex": "Her headphones are red.", "exRo": "Căștile ei sunt roșii." }
+  ],
+  "grammar": {
+    "title": "this, that, these, those + plural nouns",
+    "titleRo": "this, that, these, those și pluralul substantivelor",
+    "sections": [
+      {
+        "headingRo": "Aproape sau departe? Unul sau mai multe?",
+        "textRo": "Ca să arăți spre ceva, alegi după două întrebări: este **aproape** sau **departe**? Este **unul** sau **mai multe**? **This** = acesta (aproape), **that** = acela (departe), **these** = acestea (aproape, plural), **those** = acelea (departe, plural).",
+        "table": {
+          "headers": ["", "Singular", "Plural"],
+          "rows": [["Aproape (aici)", "this", "these"], ["Departe (acolo)", "that", "those"]]
+        },
+        "examples": [
+          { "en": "This is my laptop.", "ro": "Acesta este laptopul meu." },
+          { "en": "That screen is big.", "ro": "Monitorul acela este mare." },
+          { "en": "These keys are Ana's.", "ro": "Cheile acestea sunt ale Anei." },
+          { "en": "Those chairs are new.", "ro": "Scaunele acelea sunt noi." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări: What's this? What are these?",
+        "textRo": "Pentru un singur obiect: **What's this?** — **It's** a charger. Pentru mai multe: **What are these?** — **They're** headphones. Atenție la verb: **this/that + is**, **these/those + are**.",
+        "examples": [
+          { "en": "What's that? — It's a keyboard.", "ro": "Ce e aceea? — E o tastatură." },
+          { "en": "What are these? — They're my keys.", "ro": "Ce sunt acestea? — Sunt cheile mele." },
+          { "en": "Is this your bag? — Yes, it is.", "ro": "Aceasta e geanta ta? — Da." }
+        ]
+      },
+      {
+        "headingRo": "Pluralul substantivelor",
+        "textRo": "De obicei adaugi **-s**: laptop → laptop**s**. După -s, -sh, -ch, -x adaugi **-es**: box → box**es**, glass → glass**es**. Consoană + **y** devine **-ies**: city → cit**ies**. Câteva cuvinte sunt neregulate și trebuie învățate pe de rost.",
+        "table": {
+          "headers": ["Regulă", "Singular", "Plural"],
+          "rows": [["+ s", "screen", "screens"], ["+ es", "box", "boxes"], ["y → ies", "city", "cities"], ["neregulat", "person", "people"], ["neregulat", "child", "children"], ["neregulat", "man / woman", "men / women"]]
+        },
+        "examples": [
+          { "en": "I've got two screens.", "ro": "Am două monitoare." },
+          { "en": "These people are my colleagues.", "ro": "Oamenii aceștia sunt colegii mei." }
+        ]
+      },
+      {
+        "headingRo": "Culorile",
+        "textRo": "Culoarea (ca orice adjectiv) stă **înaintea** substantivului: a **black** laptop (un laptop negru) — invers față de română. Și, important, adjectivul **nu primește -s** la plural: two **black** laptops, nu „two blacks laptops”.",
+        "examples": [
+          { "en": "a red cup — two red cups", "ro": "o cană roșie — două căni roșii" },
+          { "en": "My headphones are white.", "ro": "Căștile mele sunt albe." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu „laptop black”, ci **black laptop** — culoarea vine înainte.",
+      "Adjectivele nu au plural: **blue chairs**, nu „blues chairs”.",
+      "Nu „This are my keys”, ci **These are my keys**.",
+      "Ai grijă la pronunție: **this** /ðɪs/ (i scurt) și **these** /ðiːz/ (i lung)."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Prima zi la birou",
+    "lines": [
+      { "speaker": "Mike", "en": "Hi, Andrei! Welcome. This is your desk.", "ro": "Salut, Andrei! Bine ai venit. Acesta este biroul tău." },
+      { "speaker": "Andrei", "en": "Great! Is this laptop for me?", "ro": "Super! Laptopul acesta e pentru mine?" },
+      { "speaker": "Mike", "en": "Yes, it is. And these are your headphones.", "ro": "Da. Și acestea sunt căștile tale." },
+      { "speaker": "Andrei", "en": "Thanks! What are those?", "ro": "Mersi! Ce sunt acelea?" },
+      { "speaker": "Mike", "en": "Those are chargers. The black charger is for your laptop.", "ro": "Acelea sunt încărcătoare. Încărcătorul negru este pentru laptopul tău." },
+      { "speaker": "Andrei", "en": "OK. And is that my chair?", "ro": "OK. Și acela e scaunul meu?" },
+      { "speaker": "Mike", "en": "No, that chair is Ana's. This blue chair is for you.", "ro": "Nu, scaunul acela e al Anei. Scaunul acesta albastru e pentru tine." },
+      { "speaker": "Andrei", "en": "Perfect. And those white cups?", "ro": "Perfect. Și cănile acelea albe?" },
+      { "speaker": "Mike", "en": "They're for coffee, of course!", "ro": "Sunt pentru cafea, desigur!" }
+    ]
+  },
+  "reading": {
+    "title": "My desk at home",
+    "text": "This is my desk at home. It's white and it's small, but it's my favourite place.\n\nThis is my laptop. It's black and it's new. These are my headphones. They're red. That big screen is for my work with clients. My keyboard and my mouse are white.\n\nThose books are about programming. And this blue cup? It's for coffee, of course! I've got three cups. Coffee is very important for developers!",
+    "textRo": "Acesta este biroul meu de acasă. Este alb și mic, dar este locul meu preferat.\n\nAcesta este laptopul meu. Este negru și nou. Acestea sunt căștile mele. Sunt roșii. Monitorul acela mare este pentru munca mea cu clienții. Tastatura și mouse-ul meu sunt albe.\n\nCărțile acelea sunt despre programare. Și cana aceasta albastră? E pentru cafea, desigur! Am trei căni. Cafeaua este foarte importantă pentru programatori!",
+    "questions": [
+      { "type": "mc", "q": "The desk is ___.", "options": ["black and big", "white and small", "blue and small"], "answer": 1, "explainRo": "Textul spune: „It's white and it's small”." },
+      { "type": "mc", "q": "The headphones are ___.", "options": ["red", "white", "black"], "answer": 0, "explainRo": "Textul spune: „These are my headphones. They're red”." },
+      { "type": "mc", "q": "The big screen is for ___.", "options": ["games", "films", "work with clients", "his son"], "answer": 2, "explainRo": "Textul spune: „That big screen is for my work with clients”." },
+      { "type": "mc", "q": "The blue cup is for ___.", "options": ["tea", "coffee", "water"], "answer": 1, "explainRo": "Textul spune: „It's for coffee, of course!”" }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "(Here, near me) ___ is my keyboard.", "options": ["This", "These", "Those"], "answer": 0, "explainRo": "Un singur obiect, aproape → **this**." },
+    { "type": "mc", "q": "(Here, near me) ___ are my headphones.", "options": ["This", "These", "That"], "answer": 1, "explainRo": "Mai multe obiecte, aproape → **these**." },
+    { "type": "mc", "q": "Look at ___ chairs over there!", "options": ["this", "these", "those"], "answer": 2, "explainRo": "Mai multe obiecte, departe („over there”) → **those**." },
+    { "type": "mc", "q": "Is ___ your bag over there?", "options": ["that", "those", "these"], "answer": 0, "explainRo": "Un singur obiect, departe → **that**." },
+    { "type": "mc", "q": "one box, two ___", "options": ["boxs", "boxes", "boxies"], "answer": 1, "explainRo": "După -x adăugăm **-es**: boxes." },
+    { "type": "mc", "q": "one child, three ___", "options": ["childs", "childrens", "children"], "answer": 2, "explainRo": "**Child** are plural neregulat: **children**." },
+    { "type": "mc", "q": "I've got two ___ laptops.", "options": ["blacks", "black", "a black"], "answer": 1, "explainRo": "Adjectivele nu primesc -s la plural: two **black** laptops." },
+    { "type": "mc", "q": "„Încărcător” în engleză este:", "options": ["keyboard", "screen", "mouse", "charger"], "answer": 3, "explainRo": "**Charger** = încărcător." },
+    { "type": "fill", "q": "(Here) ___ are my keys.", "answers": ["These"], "explainRo": "Plural și aproape → **these**." },
+    { "type": "fill", "q": "one city, two ___", "answers": ["cities"], "explainRo": "Consoană + y → **-ies**: cities." },
+    { "type": "fill", "q": "one woman, two ___", "answers": ["women"], "explainRo": "**Woman** are plural neregulat: **women**." },
+    { "type": "fill", "q": "What's ___ over there? — It's my bag.", "answers": ["that"], "explainRo": "Un singur obiect, departe → **that**." },
+    { "type": "order", "words": ["These", "are", "my", "new", "headphones."], "ro": "Acestea sunt căștile mele noi.", "explainRo": "These + are; adjectivul „new” stă înaintea substantivului." },
+    { "type": "order", "words": ["That", "is", "a", "red", "chair."], "ro": "Acela este un scaun roșu.", "explainRo": "Culoarea stă înaintea substantivului: a red chair." },
+    { "type": "order", "words": ["Are", "those", "your", "keys?"], "ro": "Acelea sunt cheile tale?", "explainRo": "În întrebare, **are** vine înaintea lui **those**." },
+    { "type": "translate", "ro": "Acesta este laptopul meu.", "answers": ["This is my laptop."], "explainRo": "Un obiect aproape → **this is**." },
+    { "type": "translate", "ro": "Acelea sunt cănile noastre.", "answers": ["Those are our cups."], "explainRo": "Mai multe obiecte departe → **those are**; ale noastre = **our**." },
+    { "type": "listen", "audio": "These keyboards are black.", "answers": ["These keyboards are black."], "ro": "Tastaturile acestea sunt negre.", "explainRo": "**These** + plural + **are**." },
+    { "type": "listen", "audio": "Is this your mobile phone?", "answers": ["Is this your mobile phone?"], "ro": "Acesta este telefonul tău mobil?", "explainRo": "În întrebare, **is** vine primul: Is this...?" },
+    { "type": "match", "pairs": [["screen", "ecran"], ["desk", "birou"], ["chair", "scaun"], ["key", "cheie"], ["bag", "geantă"]] }
+  ],
+  "video": {
+    "youtubeId": "qezUiuS8J8E",
+    "title": "This, That, These, Those | Easy English Grammar for Beginners (A1) (English with Jennifer)"
+  }
+}

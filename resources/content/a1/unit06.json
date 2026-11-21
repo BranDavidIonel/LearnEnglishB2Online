@@ -1,0 +1,134 @@
+{
+  "id": "a1-u06",
+  "level": "A1",
+  "order": 6,
+  "title": "Do you like pizza?",
+  "titleRo": "Îți place pizza?",
+  "emoji": "🍕",
+  "goalRo": "La final vei putea să spui ce îți place și ce nu, să pui întrebări despre obiceiuri și să comanzi la cafenea sau la restaurant.",
+  "vocab": [
+    { "en": "coffee", "ro": "cafea", "pos": "noun", "ipa": "/ˈkɒfi/", "emoji": "☕", "wiki": "Coffee", "ex": "I drink coffee in the morning.", "exRo": "Beau cafea dimineața." },
+    { "en": "tea", "ro": "ceai", "pos": "noun", "ipa": "/tiː/", "emoji": "🍵", "wiki": "Tea", "ex": "Jake doesn't drink coffee. He drinks tea.", "exRo": "Jake nu bea cafea. Bea ceai." },
+    { "en": "water", "ro": "apă", "pos": "noun", "ipa": "/ˈwɔːtə/", "emoji": "💧", "wiki": "Drinking water", "ex": "A glass of water, please.", "exRo": "Un pahar cu apă, vă rog." },
+    { "en": "orange juice", "ro": "suc de portocale", "pos": "noun", "ipa": "/ˈɒrɪndʒ dʒuːs/", "emoji": "🍊", "wiki": "Orange juice", "ex": "Do you have fresh orange juice?", "exRo": "Aveți suc proaspăt de portocale?" },
+    { "en": "sandwich", "ro": "sandviș", "pos": "noun", "ipa": "/ˈsænwɪdʒ/", "emoji": "🥪", "wiki": "Sandwich", "ex": "I have a sandwich for lunch.", "exRo": "Mănânc un sandviș la prânz." },
+    { "en": "pizza", "ro": "pizza", "pos": "noun", "ipa": "/ˈpiːtsə/", "emoji": "🍕", "wiki": "Pizza", "ex": "Our team loves pizza on Fridays.", "exRo": "Echipa noastră adoră pizza vinerea." },
+    { "en": "salad", "ro": "salată", "pos": "noun", "ipa": "/ˈsæləd/", "emoji": "🥗", "wiki": "Salad", "ex": "She doesn't like salad.", "exRo": "Ei nu-i place salata." },
+    { "en": "soup", "ro": "supă / ciorbă", "pos": "noun", "ipa": "/suːp/", "emoji": "🍲", "wiki": "Soup", "ex": "Romanians love soup.", "exRo": "Românii iubesc ciorba." },
+    { "en": "chicken", "ro": "pui (carne)", "pos": "noun", "ipa": "/ˈtʃɪkɪn/", "emoji": "🍗", "wiki": "Chicken as food", "ex": "I'd like the chicken, please.", "exRo": "Aș dori puiul, vă rog." },
+    { "en": "cheese", "ro": "brânză / cașcaval", "pos": "noun", "ipa": "/tʃiːz/", "emoji": "🧀", "wiki": "Cheese", "ex": "Do you like cheese?", "exRo": "Îți place brânza?" },
+    { "en": "bread", "ro": "pâine", "pos": "noun", "ipa": "/bred/", "emoji": "🍞", "wiki": "Bread", "ex": "We eat bread every day.", "exRo": "Mâncăm pâine în fiecare zi." },
+    { "en": "cake", "ro": "prăjitură / tort", "pos": "noun", "ipa": "/keɪk/", "emoji": "🍰", "wiki": "Cake", "ex": "This chocolate cake is delicious!", "exRo": "Prăjitura asta cu ciocolată e delicioasă!" },
+    { "en": "menu", "ro": "meniu", "pos": "noun", "ipa": "/ˈmenjuː/", "emoji": "📜", "wiki": "Menu", "ex": "Here's the menu.", "exRo": "Poftiți meniul." },
+    { "en": "the bill", "ro": "nota de plată", "pos": "noun", "ipa": "/ðə ˈbɪl/", "emoji": "🧾", "ex": "The bill, please.", "exRo": "Nota, vă rog." },
+    { "en": "waiter", "ro": "chelner / ospătar", "pos": "noun", "ipa": "/ˈweɪtə/", "emoji": "🤵", "wiki": "Waiting staff", "ex": "The waiter is very friendly.", "exRo": "Chelnerul este foarte amabil." },
+    { "en": "I'd like", "ro": "aș dori / aș vrea", "pos": "phrase", "ipa": "/aɪd ˈlaɪk/", "emoji": "🙏", "ex": "I'd like a coffee, please.", "exRo": "Aș dori o cafea, vă rog." },
+    { "en": "delicious", "ro": "delicios / gustos", "pos": "adj", "ipa": "/dɪˈlɪʃəs/", "emoji": "😋", "ex": "The soup is delicious.", "exRo": "Supa este delicioasă." }
+  ],
+  "grammar": {
+    "title": "Present simple: negatives and questions; like / love / hate + -ing",
+    "titleRo": "Prezentul simplu: negații și întrebări; like / love / hate + -ing",
+    "sections": [
+      {
+        "headingRo": "Negația: don't / doesn't",
+        "textRo": "În română punem doar „nu” în fața verbului. În engleză avem nevoie de un ajutor: **don't** (= do not) pentru I, you, we, they și **doesn't** (= does not) pentru he, she, it. Foarte important: după **doesn't** verbul **pierde -s**. „-s” s-a mutat deja în „does”!",
+        "table": {
+          "headers": ["Persoană", "Negație", "Exemplu"],
+          "rows": [["I / you / we / they", "don't + verb", "I don't drink coffee."], ["he / she / it", "doesn't + verb", "She doesn't eat meat."]]
+        },
+        "examples": [
+          { "en": "We don't work on Sundays.", "ro": "Nu lucrăm duminica." },
+          { "en": "Jake doesn't like salad.", "ro": "Lui Jake nu-i place salata." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări: Do you...? Does she...?",
+        "textRo": "Întrebarea începe cu **Do** sau **Does**: **Do you** like pizza? **Does he** drink tea? Și aici, după **does** verbul rămâne fără -s. Răspunsurile scurte: **Yes, I do. / No, I don't.** — **Yes, she does. / No, she doesn't.** Cu cuvinte de întrebare: **What** do you...? **Where** does she...?",
+        "table": {
+          "headers": ["Întrebare", "Da", "Nu"],
+          "rows": [["Do you like tea?", "Yes, I do.", "No, I don't."], ["Does he like tea?", "Yes, he does.", "No, he doesn't."], ["Do they like tea?", "Yes, they do.", "No, they don't."]]
+        },
+        "examples": [
+          { "en": "Do you like cheese? — Yes, I do.", "ro": "Îți place brânza? — Da." },
+          { "en": "Does Ana drink coffee? — No, she doesn't.", "ro": "Ana bea cafea? — Nu." },
+          { "en": "What do you have for breakfast?", "ro": "Ce mănânci la micul dejun?" },
+          { "en": "Where does your client work?", "ro": "Unde lucrează clientul tău?" }
+        ]
+      },
+      {
+        "headingRo": "like, love, hate + -ing",
+        "textRo": "Ca să spui ce îți place să **faci**, pui verbul cu **-ing** după like / love / hate: I **love cooking** (îmi place mult să gătesc). Atenție: în română spunem „**îmi** place”, dar în engleză persoana care simte este subiectul: **I like** pizza (nu „to me likes”). **Love** = îmi place foarte mult, **hate** = urăsc / nu suport.",
+        "examples": [
+          { "en": "I love cooking for my family.", "ro": "Îmi place mult să gătesc pentru familia mea." },
+          { "en": "She hates waiting.", "ro": "Ea urăște să aștepte." },
+          { "en": "Do you like working from home?", "ro": "Îți place să lucrezi de acasă?" }
+        ]
+      },
+      {
+        "headingRo": "I like sau I'd like?",
+        "textRo": "**I like coffee** = îmi place cafeaua (în general). **I'd like a coffee** (= I would like) = aș dori o cafea (acum). La cafenea sau la restaurant folosește mereu **I'd like...**, sună politicos.",
+        "examples": [
+          { "en": "I like tea. (în general)", "ro": "Îmi place ceaiul." },
+          { "en": "I'd like a tea, please. (acum)", "ro": "Aș dori un ceai, vă rog." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu „She doesn't likes”, ci **She doesn't like** — după doesn't verbul nu are -s.",
+      "Nu „Do she like...?”, ci **Does she like...?**",
+      "Nu „I not like”, ci **I don't like**.",
+      "Când vorbești despre mâncare în general, nu pui „the”: **I like coffee** (nu „I like the coffee”)."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "La o cafenea din Londra",
+    "lines": [
+      { "speaker": "Waiter", "en": "Good afternoon! Here's the menu.", "ro": "Bună ziua! Poftiți meniul." },
+      { "speaker": "Andrei", "en": "Thank you. Do you have fresh orange juice?", "ro": "Mulțumesc. Aveți suc proaspăt de portocale?" },
+      { "speaker": "Waiter", "en": "Yes, we do.", "ro": "Da, avem." },
+      { "speaker": "Andrei", "en": "Great. I'd like an orange juice and a cheese sandwich, please.", "ro": "Perfect. Aș dori un suc de portocale și un sandviș cu brânză, vă rog." },
+      { "speaker": "Waiter", "en": "Do you want a coffee too?", "ro": "Doriți și o cafea?" },
+      { "speaker": "Andrei", "en": "No, thanks. I don't drink coffee in the afternoon.", "ro": "Nu, mulțumesc. Nu beau cafea după-amiaza." },
+      { "speaker": "Waiter", "en": "OK. Our chocolate cake is delicious. Do you like cake?", "ro": "Bine. Prăjitura noastră cu ciocolată este delicioasă. Vă plac prăjiturile?" },
+      { "speaker": "Andrei", "en": "I love cake! One piece, please. And the bill, please.", "ro": "Ador prăjiturile! O felie, vă rog. Și nota, vă rog." },
+      { "speaker": "Waiter", "en": "Of course. Here you are.", "ro": "Desigur. Poftiți." }
+    ]
+  },
+  "reading": {
+    "title": "Lunch with a client",
+    "text": "Jake is Andrei's client from the USA. Today they have lunch in a small Italian restaurant in Cluj.\n\nJake loves pizza, but he doesn't eat meat. He's a vegetarian. He orders a cheese pizza and a salad. Andrei doesn't like salad. He orders chicken soup.\n\nDoes Jake drink coffee? No, he doesn't. He drinks tea. Andrei hates waiting, but the waiter is very fast. The food is delicious, and they talk about the new CRM app.",
+    "textRo": "Jake este clientul lui Andrei din SUA. Azi iau prânzul într-un mic restaurant italian din Cluj.\n\nLui Jake îi place foarte mult pizza, dar nu mănâncă carne. Este vegetarian. Comandă o pizza cu brânză și o salată. Lui Andrei nu-i place salata. El comandă supă de pui.\n\nJake bea cafea? Nu. Bea ceai. Andrei urăște să aștepte, dar chelnerul este foarte rapid. Mâncarea este delicioasă și vorbesc despre noua aplicație CRM.",
+    "questions": [
+      { "type": "mc", "q": "Where do Jake and Andrei have lunch?", "options": ["In an Italian restaurant.", "At home.", "In the office."], "answer": 0, "explainRo": "Textul spune: „they have lunch in a small Italian restaurant”." },
+      { "type": "mc", "q": "Does Jake eat meat?", "options": ["Yes, he does.", "No, he doesn't.", "No, he isn't."], "answer": 1, "explainRo": "Textul spune: „he doesn't eat meat. He's a vegetarian”." },
+      { "type": "mc", "q": "Andrei orders ___.", "options": ["a salad", "a cheese pizza", "chicken soup"], "answer": 2, "explainRo": "Textul spune: „He orders chicken soup”." },
+      { "type": "mc", "q": "What does Jake drink?", "options": ["Coffee.", "Tea.", "Water.", "Orange juice."], "answer": 1, "explainRo": "Textul spune: „He drinks tea”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "She ___ like coffee.", "options": ["don't", "doesn't", "isn't"], "answer": 1, "explainRo": "Cu **she** negația este **doesn't**." },
+    { "type": "mc", "q": "___ you like pizza?", "options": ["Does", "Are", "Do"], "answer": 2, "explainRo": "Cu **you** întrebarea începe cu **Do**." },
+    { "type": "mc", "q": "Does he eat meat? — No, he ___.", "options": ["don't", "doesn't", "isn't"], "answer": 1, "explainRo": "La întrebarea cu **does**, răspunsul scurt negativ este **No, he doesn't**." },
+    { "type": "mc", "q": "I ___ drink tea. I love coffee.", "options": ["don't", "doesn't", "not"], "answer": 0, "explainRo": "Cu **I** negația este **don't**." },
+    { "type": "mc", "q": "Ana loves ___.", "options": ["cook", "cooking", "cooks"], "answer": 1, "explainRo": "După **love** folosim verbul cu **-ing**: loves cooking." },
+    { "type": "mc", "q": "Where ___ Mark work?", "options": ["is", "do", "does"], "answer": 2, "explainRo": "Mark = he, deci întrebarea folosește **does**." },
+    { "type": "mc", "q": "Waiter: What would you like? — You: „___”", "options": ["I like a coffee.", "I'd like a coffee, please.", "I liking coffee."], "answer": 1, "explainRo": "Când comanzi folosim politicos **I'd like...**" },
+    { "type": "mc", "q": "„Nota de plată” în engleză este:", "options": ["the menu", "the waiter", "the cake", "the bill"], "answer": 3, "explainRo": "**The bill** = nota de plată; **the menu** = meniul." },
+    { "type": "fill", "q": "He ___ salad. (not / like)", "answers": ["doesn't like", "does not like"], "explainRo": "He + **doesn't** + verbul fără -s." },
+    { "type": "fill", "q": "___ your boss drink coffee? — Yes, she does.", "answers": ["Does"], "explainRo": "Cu **she** întrebarea începe cu **Does**." },
+    { "type": "fill", "q": "I hate ___ for the bus. (wait)", "answers": ["waiting"], "explainRo": "După **hate** verbul primește **-ing**." },
+    { "type": "fill", "q": "We ___ meat. We're vegetarians. (not / eat)", "answers": ["don't eat", "do not eat"], "explainRo": "Cu **we** negația este **don't** + verb." },
+    { "type": "order", "words": ["Do", "you", "like", "cheese?"], "ro": "Îți place brânza?", "explainRo": "Do + you + verb + ...?" },
+    { "type": "order", "words": ["She", "doesn't", "drink", "coffee."], "ro": "Ea nu bea cafea.", "explainRo": "She + doesn't + verbul fără -s." },
+    { "type": "order", "words": ["I'd", "like", "a", "chicken", "sandwich,", "please."], "ro": "Aș dori un sandviș cu pui, vă rog.", "explainRo": "**I'd like** este forma politicoasă pentru a comanda." },
+    { "type": "translate", "ro": "Nu-mi place ceaiul.", "answers": ["I don't like tea.", "I do not like tea."], "explainRo": "În engleză subiectul este **I**: I don't like tea (fără „the”)." },
+    { "type": "translate", "ro": "Lui îi place să gătească?", "answers": ["Does he like cooking?", "Does he like to cook?"], "explainRo": "Does + he + like + verb cu -ing." },
+    { "type": "listen", "audio": "The bill, please.", "answers": ["The bill, please."], "ro": "Nota, vă rog.", "explainRo": "Așa ceri nota la restaurant." },
+    { "type": "listen", "audio": "Does she like pizza?", "answers": ["Does she like pizza?"], "ro": "Îi place pizza?", "explainRo": "Cu **she** întrebarea începe cu **Does**, iar verbul rămâne „like”." },
+    { "type": "match", "pairs": [["bread", "pâine"], ["cheese", "brânză"], ["soup", "supă"], ["waiter", "chelner"], ["cake", "prăjitură"]] }
+  ],
+  "video": {
+    "youtubeId": "4C4wlOAscvY",
+    "title": "Talking about food 🍔🥒🍫 Real Easy English (BBC Learning English)"
+  }
+}

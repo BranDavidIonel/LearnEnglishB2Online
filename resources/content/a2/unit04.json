@@ -1,0 +1,133 @@
+{
+  "id": "a2-u04",
+  "level": "A2",
+  "order": 4,
+  "title": "Faster, cheaper, better",
+  "titleRo": "Mai rapid, mai ieftin, mai bun",
+  "emoji": "⚖️",
+  "goalRo": "La final vei putea să compari laptopuri, aplicații și orașe și să spui care este cel mai bun, cel mai ieftin sau cel mai rapid.",
+  "vocab": [
+    { "en": "reliable", "ro": "de încredere, fiabil", "pos": "adj", "ipa": "/rɪˈlaɪ.ə.bəl/", "emoji": "✅", "ex": "This server is more reliable than the old one.", "exRo": "Acest server este mai fiabil decât cel vechi." },
+    { "en": "powerful", "ro": "puternic", "pos": "adj", "ipa": "/ˈpaʊə.fəl/", "emoji": "💪", "ex": "My new laptop is very powerful.", "exRo": "Laptopul meu nou este foarte puternic." },
+    { "en": "lightweight", "ro": "ușor (ca greutate)", "pos": "adj", "ipa": "/ˈlaɪt.weɪt/", "emoji": "🪶", "ex": "I need a lightweight laptop for travelling.", "exRo": "Am nevoie de un laptop ușor pentru călătorii." },
+    { "en": "crowded", "ro": "aglomerat", "pos": "adj", "ipa": "/ˈkraʊ.dɪd/", "emoji": "👥", "ex": "The metro is very crowded in the morning.", "exRo": "Metroul este foarte aglomerat dimineața." },
+    { "en": "safe", "ro": "sigur (fără pericol)", "pos": "adj", "ipa": "/seɪf/", "emoji": "🛡️", "ex": "Is this part of the city safe at night?", "exRo": "Este sigură această parte a orașului noaptea?" },
+    { "en": "convenient", "ro": "convenabil, comod, practic", "pos": "adj", "ipa": "/kənˈviː.ni.ənt/", "emoji": "👍", "ex": "Online shopping is more convenient than going to the shops.", "exRo": "Cumpărăturile online sunt mai comode decât mersul prin magazine." },
+    { "en": "affordable", "ro": "accesibil (ca preț)", "pos": "adj", "ipa": "/əˈfɔː.də.bəl/", "emoji": "💸", "ex": "This phone is good and affordable.", "exRo": "Telefonul acesta e bun și are un preț accesibil." },
+    { "en": "user-friendly", "ro": "ușor de folosit", "pos": "adj", "ipa": "/ˌjuː.zəˈfrend.li/", "emoji": "😊", "ex": "Our new app is more user-friendly than the old version.", "exRo": "Noua noastră aplicație e mai ușor de folosit decât versiunea veche." },
+    { "en": "heavy", "ro": "greu (ca greutate)", "pos": "adj", "ipa": "/ˈhev.i/", "emoji": "🏋️", "ex": "My old laptop was really heavy.", "exRo": "Laptopul meu vechi era foarte greu." },
+    { "en": "noisy", "ro": "zgomotos", "pos": "adj", "ipa": "/ˈnɔɪ.zi/", "emoji": "🔊", "ex": "Our street is noisier than yours.", "exRo": "Strada noastră e mai zgomotoasă decât a voastră." },
+    { "en": "smartphone", "ro": "telefon inteligent, smartphone", "pos": "noun", "ipa": "/ˈsmɑːt.fəʊn/", "emoji": "📱", "wiki": "Smartphone", "ex": "Which smartphone is the best for photos?", "exRo": "Care smartphone e cel mai bun pentru poze?" },
+    { "en": "battery", "ro": "baterie", "pos": "noun", "ipa": "/ˈbæt.ər.i/", "emoji": "🔋", "wiki": "Electric battery", "ex": "The battery of this phone lasts two days.", "exRo": "Bateria acestui telefon ține două zile." },
+    { "en": "storage", "ro": "spațiu de stocare", "pos": "noun", "ipa": "/ˈstɔː.rɪdʒ/", "emoji": "💽", "ex": "This phone has more storage than my old one.", "exRo": "Telefonul acesta are mai mult spațiu de stocare decât cel vechi." },
+    { "en": "feature", "ro": "funcție, caracteristică", "pos": "noun", "ipa": "/ˈfiː.tʃə/", "emoji": "⚙️", "ex": "The best feature of this app is the calendar.", "exRo": "Cea mai bună funcție a acestei aplicații este calendarul." },
+    { "en": "skyscraper", "ro": "zgârie-nori", "pos": "noun", "ipa": "/ˈskaɪˌskreɪ.pə/", "emoji": "🏙️", "wiki": "Skyscraper", "ex": "This is the tallest skyscraper in Europe.", "exRo": "Acesta este cel mai înalt zgârie-nori din Europa." },
+    { "en": "public transport", "ro": "transport public", "pos": "noun", "ipa": "/ˌpʌb.lɪk ˈtræn.spɔːt/", "emoji": "🚇", "wiki": "Public transport", "ex": "Public transport in Vienna is excellent.", "exRo": "Transportul public din Viena este excelent." }
+  ],
+  "grammar": {
+    "title": "Comparatives and superlatives",
+    "titleRo": "Comparativul și superlativul",
+    "sections": [
+      {
+        "headingRo": "Comparativul: -er sau more + than",
+        "textRo": "Ca să compari **două** lucruri: adjectivele scurte (o silabă) primesc **-er**: fast → faster, cheap → cheaper. Adjectivele lungi (de obicei două silabe sau mai multe) folosesc **more**: more reliable, more expensive. După comparativ vine **than** (= decât). În română e simplu – mereu „mai” –, dar în engleză alegi între **-er** și **more**.",
+        "examples": [
+          { "en": "Python is easier than C++.", "ro": "Python e mai ușor decât C++." },
+          { "en": "This laptop is cheaper than that one.", "ro": "Laptopul acesta e mai ieftin decât acela." },
+          { "en": "Cluj is more expensive than Iași.", "ro": "Clujul e mai scump decât Iașiul." }
+        ]
+      },
+      {
+        "headingRo": "Superlativul: the + -est sau the most",
+        "textRo": "Ca să spui că ceva este „cel mai” dintr-un grup: **the + adjectiv + -est** (the fastest, the cheapest) sau **the most + adjectiv lung** (the most reliable, the most expensive). Nu uita de **the**! Pentru locuri folosim de obicei **in**: the biggest city **in** Romania.",
+        "examples": [
+          { "en": "This is the fastest laptop in the shop.", "ro": "Acesta este cel mai rapid laptop din magazin." },
+          { "en": "Bucharest is the biggest city in Romania.", "ro": "Bucureștiul este cel mai mare oraș din România." },
+          { "en": "It's the most user-friendly app on the market.", "ro": "Este cea mai ușor de folosit aplicație de pe piață." }
+        ]
+      },
+      {
+        "headingRo": "Reguli de scriere și forme neregulate",
+        "textRo": "Consoană + vocală + consoană → se dublează consoana: big → bigger, hot → hotter. Terminația **-y** devine **-i**: easy → easier, noisy → the noisiest. Și trei forme neregulate foarte importante: **good → better → the best**, **bad → worse → the worst**, **far → further → the furthest**.",
+        "table": {
+          "headers": ["Adjectiv", "Comparativ", "Superlativ"],
+          "rows": [
+            ["fast", "faster", "the fastest"],
+            ["cheap", "cheaper", "the cheapest"],
+            ["big", "bigger", "the biggest"],
+            ["easy", "easier", "the easiest"],
+            ["noisy", "noisier", "the noisiest"],
+            ["reliable", "more reliable", "the most reliable"],
+            ["expensive", "more expensive", "the most expensive"],
+            ["good", "better", "the best"],
+            ["bad", "worse", "the worst"],
+            ["far", "further", "the furthest"]
+          ]
+        },
+        "examples": [
+          { "en": "The weather today is worse than yesterday.", "ro": "Vremea de azi e mai rea decât ieri." },
+          { "en": "This is the best pizza in town!", "ro": "Aceasta e cea mai bună pizza din oraș!" },
+          { "en": "My new office is bigger than my old one.", "ro": "Noul meu birou e mai mare decât cel vechi." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „more faster”. Alege una: **faster** (adjectiv scurt) sau **more reliable** (adjectiv lung), niciodată ambele.",
+      "„Decât” = **than**, nu „that” sau „like”: bigger **than** Cluj.",
+      "„Cel mai bun” = **the best**, nu „the most good”; „mai bun” = **better**, nu „gooder”.",
+      "La superlativ nu uita de **the**: **the cheapest** phone."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Alegem un laptop pentru noua colegă",
+    "lines": [
+      { "speaker": "Sofia", "en": "We need a laptop for our new developer. Which one is better?", "ro": "Avem nevoie de un laptop pentru noua noastră programatoare. Care e mai bun?" },
+      { "speaker": "Andrei", "en": "This one is cheaper, but the other one is more powerful.", "ro": "Acesta e mai ieftin, dar celălalt e mai puternic." },
+      { "speaker": "Sofia", "en": "Which one is lighter? She travels a lot for work.", "ro": "Care e mai ușor? Ea călătorește mult pentru muncă." },
+      { "speaker": "Andrei", "en": "The cheaper one. It's lightweight, but its battery is worse.", "ro": "Cel mai ieftin. E ușor, dar are o baterie mai slabă." },
+      { "speaker": "Sofia", "en": "Hmm. And what about storage?", "ro": "Hmm. Și cu spațiul de stocare cum stăm?" },
+      { "speaker": "Andrei", "en": "The expensive one has more storage, and it's more reliable.", "ro": "Cel scump are mai mult spațiu de stocare și e mai fiabil." },
+      { "speaker": "Sofia", "en": "OK. What's the most important thing for a developer?", "ro": "Bine. Care e cel mai important lucru pentru un programator?" },
+      { "speaker": "Andrei", "en": "A good screen and a fast processor. The expensive one is the best for her.", "ro": "Un ecran bun și un procesor rapid. Cel scump e cel mai bun pentru ea." },
+      { "speaker": "Sofia", "en": "Fine, but it's 400 euros more expensive!", "ro": "Bine, dar e cu 400 de euro mai scump!" },
+      { "speaker": "Andrei", "en": "Yes, but a slow laptop is the worst thing for a programmer.", "ro": "Da, dar un laptop lent e cel mai rău lucru pentru un programator." }
+    ]
+  },
+  "reading": {
+    "title": "Cluj or Bucharest?",
+    "text": "Mihai is a developer, and he wants to move to a new city. He has two job offers: one from a company in Bucharest and one from a startup in Cluj. Which city is better for him?\n\nBucharest is the biggest city in Romania. It has more companies, more clients and the highest salaries. But it is also noisier and more crowded, and the traffic is the worst in the country.\n\nCluj is smaller and greener than Bucharest. A lot of people say it is safer and more relaxed. The public transport is good, and many young people work in IT there. But flats in Cluj are not cheaper – some are even more expensive than in Bucharest!\n\nIn the end, Mihai chose Cluj. 'The salary is lower,' he says, 'but my life is better.'",
+    "textRo": "Mihai este programator și vrea să se mute într-un oraș nou. Are două oferte de muncă: una de la o firmă din București și una de la un startup din Cluj. Care oraș e mai bun pentru el?\n\nBucureștiul este cel mai mare oraș din România. Are mai multe firme, mai mulți clienți și cele mai mari salarii. Dar este și mai zgomotos și mai aglomerat, iar traficul e cel mai rău din țară.\n\nClujul e mai mic și mai verde decât Bucureștiul. Mulți oameni spun că e mai sigur și mai relaxat. Transportul public e bun și mulți tineri lucrează acolo în IT. Dar apartamentele din Cluj nu sunt mai ieftine – unele sunt chiar mai scumpe decât în București!\n\nÎn final, Mihai a ales Clujul. „Salariul e mai mic”, spune el, „dar viața mea e mai bună.”",
+    "questions": [
+      { "type": "mc", "q": "Which city is bigger?", "options": ["Cluj", "Bucharest", "They are the same."], "answer": 1, "explainRo": "„Bucharest is the biggest city in Romania.”" },
+      { "type": "mc", "q": "According to the text, Bucharest has ___.", "options": ["the best public transport", "the cheapest flats", "the highest salaries", "the safest streets"], "answer": 2, "explainRo": "„It has more companies, more clients and the highest salaries.”" },
+      { "type": "mc", "q": "What is true about flats in Cluj?", "options": ["They are much cheaper than in Bucharest.", "Some are more expensive than in Bucharest.", "They are the biggest in Romania.", "They are very noisy."], "answer": 1, "explainRo": "„Some are even more expensive than in Bucharest!”" },
+      { "type": "mc", "q": "Why did Mihai choose Cluj?", "options": ["The salary is higher.", "The flats are cheaper.", "His family lives there.", "His life is better there."], "answer": 3, "explainRo": "„The salary is lower, but my life is better.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["reliable", "de încredere"], ["crowded", "aglomerat"], ["noisy", "zgomotos"], ["heavy", "greu"], ["feature", "funcție"]] },
+    { "type": "mc", "q": "My new phone is ___ than my old one.", "options": ["fast", "faster", "fastest", "more fast"], "answer": 1, "explainRo": "Fast are o silabă, deci comparativul este faster (+ than)." },
+    { "type": "mc", "q": "The new server is ___ than the old one.", "options": ["reliabler", "more reliable", "most reliable", "reliable"], "answer": 1, "explainRo": "Reliable este un adjectiv lung, deci folosim more reliable." },
+    { "type": "mc", "q": "Bucharest is ___ city in Romania.", "options": ["the biggest", "bigger", "the most big", "biggest"], "answer": 0, "explainRo": "Superlativ cu adjectiv scurt: the + big + g + est = the biggest." },
+    { "type": "mc", "q": "This is ___ pizza in town!", "options": ["the better", "the best", "the goodest", "best"], "answer": 1, "explainRo": "Good este neregulat: good → better → the best." },
+    { "type": "mc", "q": "The weather today is ___ than yesterday. It's raining and cold.", "options": ["good", "better", "worse", "bad"], "answer": 2, "explainRo": "Bad este neregulat: bad → worse → the worst." },
+    { "type": "mc", "q": "Is Cluj smaller ___ Bucharest?", "options": ["that", "as", "than", "then"], "answer": 2, "explainRo": "După comparativ, „decât” = than." },
+    { "type": "mc", "q": "The ___ of this phone lasts two days.", "options": ["storage", "skyscraper", "battery", "feature"], "answer": 2, "explainRo": "Bateria (battery) este cea care ține două zile." },
+    { "type": "mc", "q": "The metro is very ___ at 8 a.m. – there are people everywhere.", "options": ["lightweight", "affordable", "reliable", "crowded"], "answer": 3, "explainRo": "Crowded = aglomerat, plin de oameni." },
+    { "type": "fill", "q": "My laptop is ___ (heavy) than yours.", "answers": ["heavier"], "explainRo": "Heavy se termină în -y, care devine -i: heavier." },
+    { "type": "fill", "q": "This is the ___ (expensive) phone in the shop.", "answers": ["most expensive"], "explainRo": "Expensive e un adjectiv lung: the most expensive." },
+    { "type": "fill", "q": "Python is ___ (easy) than C++ for beginners.", "answers": ["easier"], "explainRo": "Easy → easier (-y devine -i și adăugăm -er)." },
+    { "type": "fill", "q": "That was the ___ (bad) meeting of the year!", "answers": ["worst"], "explainRo": "Bad este neregulat: bad → worse → the worst." },
+    { "type": "listen", "audio": "Is the metro faster than the bus?", "answers": ["Is the metro faster than the bus?"], "ro": "Metroul e mai rapid decât autobuzul?", "explainRo": "Faster than = mai rapid decât." },
+    { "type": "listen", "audio": "It's the best app for small teams.", "answers": ["It's the best app for small teams.", "It is the best app for small teams."], "ro": "E cea mai bună aplicație pentru echipe mici.", "explainRo": "The best = cel mai bun, superlativul lui good." },
+    { "type": "order", "words": ["My", "new", "laptop", "is", "lighter", "than", "yours."], "ro": "Laptopul meu nou e mai ușor decât al tău.", "explainRo": "Subiect + is + comparativ (lighter) + than + termenul de comparație." },
+    { "type": "order", "words": ["This", "is", "the", "most", "reliable", "server."], "ro": "Acesta este cel mai fiabil server.", "explainRo": "Superlativul adjectivelor lungi: the most + adjectiv." },
+    { "type": "order", "words": ["Public", "transport", "is", "cheaper", "than", "a", "taxi."], "ro": "Transportul public e mai ieftin decât un taxi.", "explainRo": "Cheap → cheaper, urmat de than." },
+    { "type": "translate", "ro": "Telefonul tău este mai scump decât al meu.", "answers": ["Your phone is more expensive than mine.", "Your phone is more expensive than my phone.", "Your phone's more expensive than mine."], "explainRo": "Expensive e lung: more expensive than; „al meu” = mine." },
+    { "type": "translate", "ro": "Acesta este cel mai bun hotel din oraș.", "answers": ["This is the best hotel in the city.", "This is the best hotel in town.", "This is the best hotel in the town."], "explainRo": "„Cel mai bun” = the best; după superlativ, pentru loc folosim in." }
+  ],
+  "video": {
+    "youtubeId": "SmzEg_QPaic",
+    "title": "\"Is better than\" / \"Is the best\" - Comparatives and Superlatives (Papa Teach Me)"
+  }
+}

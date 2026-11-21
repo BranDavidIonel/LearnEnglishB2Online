@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u10",
+  "questions": [
+    { "type": "mc", "q": "If the weather ___ nice on Saturday, we'll go to the lake.", "options": ["will be", "is", "be", "was"], "answer": 1, "explainRo": "După if folosim prezentul, chiar dacă vorbim despre viitor: If the weather is nice..." },
+    { "type": "mc", "q": "This app is very simple. My grandma uses it ___.", "options": ["easy", "easyly", "easily"], "answer": 2, "explainRo": "Adverbul de la easy este easily: y devine i înainte de -ly." },
+    { "type": "mc", "q": "The client has to pay 900 euros. Can you send him the ___, please?", "options": ["budget", "business card", "hourly rate", "invoice"], "answer": 3, "explainRo": "Invoice = factura pe care o trimiți clientului ca să plătească." },
+    { "type": "mc", "q": "I left my wallet ___ in the hotel, but now I can't find it.", "options": ["somewhere", "anywhere", "nowhere", "something"], "answer": 0, "explainRo": "În propozițiile afirmative folosim some-: somewhere = undeva." },
+    { "type": "listen", "audio": "Nobody wants to discuss the budget.", "answers": ["Nobody wants to discuss the budget."], "ro": "Nimeni nu vrea să discute bugetul.", "explainRo": "Nobody are deja sens negativ, așa că verbul (wants) rămâne afirmativ." },
+    { "type": "fill", "q": "If my flight ___ (be) late, I'll text you from the airport.", "answers": ["is", "'s"], "explainRo": "În partea cu if folosim prezentul (is), nu will." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["Paul checks carefully the code.", "Paul checks the code carefully.", "Paul the code checks carefully."], "answer": 1, "explainRo": "Adverbul de mod stă după complement, nu între verb și complement: checks the code carefully." },
+    { "type": "fill", "q": "The hotel receptionist answered all our questions very ___ (polite).", "answers": ["politely"], "explainRo": "Adverbul de mod se formează cu -ly: polite → politely." },
+    { "type": "order", "words": ["Did", "anyone", "call", "me", "this", "morning?"], "ro": "M-a sunat cineva azi-dimineață?", "explainRo": "În întrebări folosim any-: anyone = cineva." },
+    { "type": "fill", "q": "If you come to Cluj in May, I ___ (show) you the city.", "answers": ["will show", "'ll show"], "explainRo": "În partea cu rezultatul folosim will + verb: I'll show you the city." },
+    { "type": "order", "words": ["I'll", "give", "you", "a", "discount", "if", "you", "pay", "today."], "ro": "Îți fac o reducere dacă plătești azi.", "explainRo": "Când if stă la mijloc nu punem virgulă, iar după if verbul e la prezent (pay)." },
+    { "type": "translate", "ro": "Dacă vei munci din greu, vei câștiga mai mult.", "answers": ["If you work hard, you'll earn more.", "If you work hard, you will earn more.", "If you work hard, you'll earn more money.", "If you work hard, you will earn more money.", "You'll earn more if you work hard.", "You will earn more if you work hard.", "You'll earn more money if you work hard.", "You will earn more money if you work hard."], "explainRo": "După if folosim prezentul (If you work hard), deși în română spunem „vei munci”; hard = din greu." }
+  ]
+}

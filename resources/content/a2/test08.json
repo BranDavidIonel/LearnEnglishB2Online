@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u08",
+  "questions": [
+    { "type": "mc", "q": "The demo for the client is tomorrow. You ___ test the app again tonight.", "options": ["should", "should to", "shoulds", "are should"], "answer": 0, "explainRo": "După should verbul stă la forma de bază, fără „to” și fără -s." },
+    { "type": "mc", "q": "Maria's temperature is 39°C. She has a ___.", "options": ["cough", "fever", "back pain", "sore throat"], "answer": 1, "explainRo": "Fever = febră, adică temperatură mare." },
+    { "type": "mc", "q": "We're in Rome, and I need some medicine for my cough. Where's the nearest ___?", "options": ["sick leave", "fever", "headache", "pharmacy"], "answer": 3, "explainRo": "Medicamentele le cumperi de la pharmacy (farmacie)." },
+    { "type": "fill", "q": "My brother is a pilot. He ___ (have to) wear a uniform at work.", "answers": ["has to"], "explainRo": "La he / she / it folosim has to, nu „have to”." },
+    { "type": "listen", "audio": "Should I take this medicine with food?", "answers": ["Should I take this medicine with food?"], "ro": "Ar trebui să iau medicamentul ăsta cu mâncare?", "explainRo": "Când ceri un sfat, întrebarea începe cu Should + subiect + verb." },
+    { "type": "mc", "q": "You ___ take photos in this museum. It isn't allowed.", "options": ["don't have to", "should", "mustn't", "have to"], "answer": 2, "explainRo": "Mustn't = este interzis, iar „It isn't allowed” arată că e o interdicție." },
+    { "type": "mc", "q": "Ana isn't at work this week. She's ill, so she's on ___.", "options": ["sick leave", "safety", "dress code", "rule"], "answer": 0, "explainRo": "Sick leave = concediu medical, când ești bolnav și nu mergi la muncă." },
+    { "type": "order", "words": ["Does", "she", "have", "to", "work", "on", "Sunday?"], "ro": "Ea trebuie să lucreze duminică?", "explainRo": "Întrebarea cu have to se face cu do / does: Does she have to...?" },
+    { "type": "fill", "q": "You ___ (not / have to) print your boarding pass. You can show it on your phone.", "answers": ["don't have to", "do not have to"], "explainRo": "Don't have to = nu e nevoie; nu e interzis să-l printezi, doar nu e necesar." },
+    { "type": "order", "words": ["You", "mustn't", "click", "on", "strange", "links."], "ro": "Nu ai voie să dai clic pe linkuri ciudate.", "explainRo": "Mustn't + verb la forma de bază arată o interdicție, aici o regulă de siguranță." },
+    { "type": "fill", "q": "The metro was closed last night, so we ___ (have to) take a taxi.", "answers": ["had to"], "explainRo": "Must nu are trecut; pentru o obligație din trecut folosim had to." },
+    { "type": "translate", "ro": "Ar trebui să mergi la doctor.", "answers": ["You should go to the doctor.", "You should go to a doctor.", "You should see a doctor.", "You should see the doctor.", "You should go to the doctor's.", "You should visit a doctor.", "You should go and see a doctor."], "explainRo": "„Ar trebui să” = should + verbul la forma de bază, pentru un sfat." }
+  ]
+}

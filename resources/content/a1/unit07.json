@@ -1,0 +1,128 @@
+{
+  "id": "a1-u07",
+  "level": "A1",
+  "order": 7,
+  "title": "There's a café opposite the office",
+  "titleRo": "Vizavi de birou e o cafenea",
+  "emoji": "🏙️",
+  "goalRo": "La final vei putea să descrii casa ta, biroul și orașul, să spui ce există și unde se află lucrurile.",
+  "vocab": [
+    { "en": "flat", "ro": "apartament", "pos": "noun", "ipa": "/flæt/", "emoji": "🏢", "wiki": "Apartment", "ex": "My flat is small but nice.", "exRo": "Apartamentul meu e mic, dar frumos." },
+    { "en": "kitchen", "ro": "bucătărie", "pos": "noun", "ipa": "/ˈkɪtʃɪn/", "emoji": "🍳", "wiki": "Kitchen", "ex": "There's a coffee machine in the kitchen.", "exRo": "În bucătărie este un espressor." },
+    { "en": "bedroom", "ro": "dormitor", "pos": "noun", "ipa": "/ˈbedruːm/", "emoji": "🛌", "wiki": "Bedroom", "ex": "There are two bedrooms in our flat.", "exRo": "În apartamentul nostru sunt două dormitoare." },
+    { "en": "bathroom", "ro": "baie", "pos": "noun", "ipa": "/ˈbɑːθruːm/", "emoji": "🛁", "wiki": "Bathroom", "ex": "The bathroom is next to the bedroom.", "exRo": "Baia este lângă dormitor." },
+    { "en": "living room", "ro": "sufragerie / living", "pos": "noun", "ipa": "/ˈlɪvɪŋ ruːm/", "emoji": "🛋️", "wiki": "Living room", "ex": "My desk is in the living room.", "exRo": "Biroul meu este în sufragerie." },
+    { "en": "sofa", "ro": "canapea", "pos": "noun", "ipa": "/ˈsəʊfə/", "emoji": "🛋️", "wiki": "Couch", "ex": "The cat is on the sofa.", "exRo": "Pisica este pe canapea." },
+    { "en": "window", "ro": "fereastră", "pos": "noun", "ipa": "/ˈwɪndəʊ/", "emoji": "🪟", "wiki": "Window", "ex": "My desk is in front of the window.", "exRo": "Biroul meu este în fața ferestrei." },
+    { "en": "office", "ro": "birou (clădire / încăpere)", "pos": "noun", "ipa": "/ˈɒfɪs/", "emoji": "🏢", "wiki": "Office", "ex": "Our office is in the city centre.", "exRo": "Biroul nostru este în centrul orașului." },
+    { "en": "meeting room", "ro": "sală de ședințe", "pos": "noun", "ipa": "/ˈmiːtɪŋ ruːm/", "emoji": "🗣️", "ex": "Is there a meeting room in the office?", "exRo": "Este o sală de ședințe în birou?" },
+    { "en": "printer", "ro": "imprimantă", "pos": "noun", "ipa": "/ˈprɪntə/", "emoji": "🖨️", "wiki": "Printer (computing)", "ex": "The printer is next to the window.", "exRo": "Imprimanta este lângă fereastră." },
+    { "en": "coffee machine", "ro": "espressor / aparat de cafea", "pos": "noun", "ipa": "/ˈkɒfi məˌʃiːn/", "emoji": "☕", "wiki": "Coffeemaker", "ex": "The coffee machine is very popular!", "exRo": "Aparatul de cafea este foarte popular!" },
+    { "en": "supermarket", "ro": "supermarket", "pos": "noun", "ipa": "/ˈsuːpəmɑːkɪt/", "emoji": "🛒", "wiki": "Supermarket", "ex": "There's a supermarket opposite my flat.", "exRo": "Vizavi de apartamentul meu este un supermarket." },
+    { "en": "bank", "ro": "bancă", "pos": "noun", "ipa": "/bæŋk/", "emoji": "🏦", "wiki": "Bank", "ex": "Is there a bank near here?", "exRo": "Este vreo bancă pe aici?" },
+    { "en": "train station", "ro": "gară", "pos": "noun", "ipa": "/ˈtreɪn ˌsteɪʃən/", "emoji": "🚉", "wiki": "Train station", "ex": "The train station is in the centre.", "exRo": "Gara este în centru." },
+    { "en": "park", "ro": "parc", "pos": "noun", "ipa": "/pɑːk/", "emoji": "🌳", "wiki": "Park", "ex": "There's a big park behind the museum.", "exRo": "În spatele muzeului este un parc mare." },
+    { "en": "museum", "ro": "muzeu", "pos": "noun", "ipa": "/mjuˈziːəm/", "emoji": "🏛️", "wiki": "Museum", "ex": "There are some great museums in London.", "exRo": "În Londra sunt câteva muzee grozave." },
+    { "en": "bus stop", "ro": "stație de autobuz", "pos": "noun", "ipa": "/ˈbʌs stɒp/", "emoji": "🚏", "wiki": "Bus stop", "ex": "The bus stop is in front of the bank.", "exRo": "Stația de autobuz este în fața băncii." },
+    { "en": "street", "ro": "stradă", "pos": "noun", "ipa": "/striːt/", "emoji": "🛣️", "wiki": "Street", "ex": "There are some nice cafés in this street.", "exRo": "Pe strada asta sunt câteva cafenele drăguțe." }
+  ],
+  "grammar": {
+    "title": "there is / there are, some / any, prepositions of place",
+    "titleRo": "there is / there are, some / any, prepozițiile de loc",
+    "sections": [
+      {
+        "headingRo": "there is / there are = există, este, sunt",
+        "textRo": "Când spui că ceva **există** într-un loc, folosești **there is** (singular) sau **there are** (plural). În română spunem „În bucătărie **este** un espressor” sau „**Sunt** două dormitoare”. În engleză nu începem cu „it”, ci cu **there**. Forma scurtă: **there's**.",
+        "table": {
+          "headers": ["", "Singular", "Plural"],
+          "rows": [["Afirmativ", "There is (There's) a bank.", "There are two banks."], ["Negativ", "There isn't a bank.", "There aren't any banks."], ["Întrebare", "Is there a bank?", "Are there any banks?"], ["Răspuns scurt", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]]
+        },
+        "examples": [
+          { "en": "There's a printer in the office.", "ro": "În birou este o imprimantă." },
+          { "en": "There are three bedrooms in the flat.", "ro": "În apartament sunt trei dormitoare." },
+          { "en": "Is there a supermarket near here? — Yes, there is.", "ro": "Este vreun supermarket pe aici? — Da." }
+        ]
+      },
+      {
+        "headingRo": "some și any",
+        "textRo": "Cu substantive la plural, folosim **some** (câteva, niște) în propoziții **afirmative** și **any** (vreun, niciun) în **negații** și **întrebări**.",
+        "examples": [
+          { "en": "There are some cafés in this street.", "ro": "Pe strada asta sunt câteva cafenele." },
+          { "en": "There aren't any parks near the office.", "ro": "Nu sunt parcuri lângă birou." },
+          { "en": "Are there any museums in your city?", "ro": "Sunt muzee în orașul tău?" }
+        ]
+      },
+      {
+        "headingRo": "Unde este? Prepozițiile de loc",
+        "textRo": "Cu aceste cuvinte spui **unde** se află ceva. Observă că în engleză avem nevoie și de **the**: **on the** desk (pe birou). **Next to** și **in front of** sunt expresii din mai multe cuvinte; învață-le ca pe un bloc.",
+        "table": {
+          "headers": ["Engleză", "Română", "Exemplu"],
+          "rows": [["in", "în", "in the kitchen"], ["on", "pe", "on the desk"], ["under", "sub", "under the chair"], ["next to", "lângă", "next to the window"], ["between", "între", "between the bank and the park"], ["behind", "în spatele", "behind the museum"], ["in front of", "în fața", "in front of the office"], ["opposite", "vizavi de", "opposite the station"]]
+        },
+        "examples": [
+          { "en": "The keys are under the sofa.", "ro": "Cheile sunt sub canapea." },
+          { "en": "There's a café opposite the office.", "ro": "Vizavi de birou este o cafenea." },
+          { "en": "The bank is between the museum and the park.", "ro": "Banca este între muzeu și parc." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu „It is a bank near here”. Corect: **There is a bank near here**.",
+      "Nu „There is two bedrooms”. La plural folosim **there are**.",
+      "„Vizavi de gară” = **opposite the station** — după „opposite” nu punem „of” sau „to”.",
+      "În negații și întrebări folosim **any**, nu „some”: Are there **any** shops?"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Un apartament pentru o săptămână de lucru",
+    "lines": [
+      { "speaker": "Andrei", "en": "Hi, Sarah! Is there a desk in the flat? I work from home.", "ro": "Bună, Sarah! Este un birou în apartament? Lucrez de acasă." },
+      { "speaker": "Sarah", "en": "Yes, there is. It's in the living room, next to the window.", "ro": "Da, este. E în sufragerie, lângă fereastră." },
+      { "speaker": "Andrei", "en": "Great. And is there Wi-Fi?", "ro": "Super. Și este Wi-Fi?" },
+      { "speaker": "Sarah", "en": "Yes, and it's very fast.", "ro": "Da, și e foarte rapid." },
+      { "speaker": "Andrei", "en": "Are there any supermarkets near the flat?", "ro": "Sunt supermarketuri lângă apartament?" },
+      { "speaker": "Sarah", "en": "Yes. There's a supermarket opposite the flat, and there are some nice cafés in the street.", "ro": "Da. Vizavi de apartament este un supermarket, iar pe stradă sunt câteva cafenele drăguțe." },
+      { "speaker": "Andrei", "en": "And is there a bus stop?", "ro": "Și este o stație de autobuz?" },
+      { "speaker": "Sarah", "en": "Yes, it's in front of the bank.", "ro": "Da, este în fața băncii." },
+      { "speaker": "Andrei", "en": "Perfect! Where are the keys?", "ro": "Perfect! Unde sunt cheile?" },
+      { "speaker": "Sarah", "en": "They're under the mat, in front of the door.", "ro": "Sunt sub preș, în fața ușii." }
+    ]
+  },
+  "reading": {
+    "title": "Our new office",
+    "text": "Our new office is in the centre of Cluj, on a quiet street. There are two big rooms and a small kitchen.\n\nIn the big room, there are eight desks and some comfortable chairs. There's a printer next to the window. The meeting room is between the kitchen and the big room.\n\nIn the kitchen, there's a coffee machine, of course! But there isn't a sofa. There aren't any parks near the office, but there's a nice café opposite.",
+    "textRo": "Noul nostru birou este în centrul Clujului, pe o stradă liniștită. Sunt două camere mari și o bucătărie mică.\n\nÎn camera mare sunt opt birouri și câteva scaune comode. Lângă fereastră este o imprimantă. Sala de ședințe este între bucătărie și camera mare.\n\nÎn bucătărie este un espressor, desigur! Dar nu este canapea. Lângă birou nu sunt parcuri, dar vizavi este o cafenea drăguță.",
+    "questions": [
+      { "type": "mc", "q": "How many desks are there in the big room?", "options": ["Six.", "Eight.", "Ten."], "answer": 1, "explainRo": "Textul spune: „there are eight desks”." },
+      { "type": "mc", "q": "Where is the printer?", "options": ["Next to the window.", "In the kitchen.", "Under a desk."], "answer": 0, "explainRo": "Textul spune: „There's a printer next to the window”." },
+      { "type": "mc", "q": "What is opposite the office?", "options": ["A park.", "A bank.", "A café.", "A supermarket."], "answer": 2, "explainRo": "Textul spune: „there's a nice café opposite”." },
+      { "type": "mc", "q": "Is there a sofa in the kitchen?", "options": ["Yes, there is.", "No, there isn't.", "No, there aren't."], "answer": 1, "explainRo": "Textul spune: „But there isn't a sofa”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "___ a bank near my flat.", "options": ["There are", "There is", "It is"], "answer": 1, "explainRo": "O singură bancă → **There is**." },
+    { "type": "mc", "q": "There ___ two bedrooms in the flat.", "options": ["are", "is", "be"], "answer": 0, "explainRo": "Două dormitoare = plural → **there are**." },
+    { "type": "mc", "q": "Are there ___ cafés in this street?", "options": ["some", "any", "a"], "answer": 1, "explainRo": "În întrebări folosim **any**." },
+    { "type": "mc", "q": "There are ___ chairs in the meeting room.", "options": ["any", "a", "some"], "answer": 2, "explainRo": "În propoziții afirmative, la plural, folosim **some**." },
+    { "type": "mc", "q": "___ there a printer in the office?", "options": ["Are", "Is", "Do"], "answer": 1, "explainRo": "O imprimantă = singular → **Is there...?**" },
+    { "type": "mc", "q": "My phone is ___ the desk. (pe)", "options": ["in", "under", "on"], "answer": 2, "explainRo": "„Pe” = **on**: on the desk." },
+    { "type": "mc", "q": "The bank is ___ the supermarket and the park.", "options": ["between", "next", "opposite to"], "answer": 0, "explainRo": "Între două lucruri = **between** ... and ..." },
+    { "type": "mc", "q": "„Stație de autobuz” în engleză este:", "options": ["train station", "bus stop", "street", "park"], "answer": 1, "explainRo": "**Bus stop** = stație de autobuz; **train station** = gară." },
+    { "type": "fill", "q": "There ___ any windows in the bathroom. (not)", "answers": ["aren't", "are not"], "explainRo": "Plural la negativ → **there aren't any**." },
+    { "type": "fill", "q": "Is there a supermarket near here? — Yes, there ___.", "answers": ["is"], "explainRo": "Răspunsul scurt: **Yes, there is.**" },
+    { "type": "fill", "q": "There aren't ___ museums in my town.", "answers": ["any"], "explainRo": "În negații folosim **any**." },
+    { "type": "fill", "q": "My laptop is ___ the bag. (în)", "answers": ["in"], "explainRo": "„În” = **in**: in the bag." },
+    { "type": "order", "words": ["There", "is", "a", "sofa", "in", "the", "living", "room."], "ro": "În sufragerie este o canapea.", "explainRo": "There is + lucrul + locul." },
+    { "type": "order", "words": ["Are", "there", "any", "parks", "near", "here?"], "ro": "Sunt parcuri pe aici?", "explainRo": "Întrebarea: Are there any + plural?" },
+    { "type": "order", "words": ["The", "printer", "is", "next", "to", "the", "window."], "ro": "Imprimanta este lângă fereastră.", "explainRo": "„Lângă” = **next to**." },
+    { "type": "translate", "ro": "Este o bancă lângă gară.", "answers": ["There is a bank next to the train station.", "There's a bank next to the train station.", "There is a bank next to the station.", "There's a bank next to the station."], "explainRo": "Când ceva există într-un loc, începem cu **There is**." },
+    { "type": "translate", "ro": "Nu sunt scaune în bucătărie.", "answers": ["There aren't any chairs in the kitchen.", "There are not any chairs in the kitchen.", "There are no chairs in the kitchen."], "explainRo": "Plural la negativ: **There aren't any** chairs." },
+    { "type": "listen", "audio": "There's a coffee machine in the kitchen.", "answers": ["There's a coffee machine in the kitchen.", "There is a coffee machine in the kitchen."], "ro": "În bucătărie este un espressor.", "explainRo": "**There's** = there is." },
+    { "type": "listen", "audio": "Is there a bus stop near here?", "answers": ["Is there a bus stop near here?"], "ro": "Este vreo stație de autobuz pe aici?", "explainRo": "Întrebarea cu **Is there...?** este foarte utilă în călătorii." },
+    { "type": "match", "pairs": [["kitchen", "bucătărie"], ["bedroom", "dormitor"], ["window", "fereastră"], ["street", "stradă"], ["museum", "muzeu"]] }
+  ],
+  "video": {
+    "youtubeId": "on_1sS6Ii8M",
+    "title": "How to talk about your home town: Easy English Conversations 💬 Episode 3 (BBC Learning English)"
+  }
+}

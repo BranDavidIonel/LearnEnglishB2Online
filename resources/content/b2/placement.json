@@ -1,0 +1,17 @@
+{
+  "level": "B2",
+  "questions": [
+    { "type": "mc", "q": "I'm not used to ___ in an open-plan office.", "options": ["work", "working", "worked", "have worked"], "answer": 1, "explainRo": "După **be used to** urmează verbul cu **-ing**." },
+    { "type": "mc", "q": "When I got to the station, the train ___, so I took a taxi.", "options": ["already left", "has already left", "is already leaving", "had already left"], "answer": 3, "explainRo": "Trenul plecase înainte de sosirea mea: **past perfect**." },
+    { "type": "mc", "q": "Don't rush – we've got ___ time before the meeting starts.", "options": ["a little", "a few", "few", "many"], "answer": 0, "explainRo": "**A little** + substantiv nenumărabil (time), cu sens pozitiv." },
+    { "type": "mc", "q": "By the end of the quarter, we ___ three new features.", "options": ["will be shipping", "ship", "will have shipped", "are shipping"], "answer": 2, "explainRo": "**By + moment viitor** cere **future perfect**: will have shipped." },
+    { "type": "mc", "q": "I didn't repair my laptop myself – I ___ at a shop near the office.", "options": ["had repaired it", "repaired it", "have it repair", "had it repaired"], "answer": 3, "explainRo": "**Have + obiect + V3** = altcineva a făcut acțiunea pentru mine." },
+    { "type": "mc", "q": "I wish I ___ that email to the whole company. It was so embarrassing.", "options": ["hadn't sent", "didn't send", "wouldn't send", "don't send"], "answer": 0, "explainRo": "Regret despre trecut: **wish + past perfect**." },
+    { "type": "mc", "q": "He ___ my message – his phone was switched off all day.", "options": ["must have read", "should have read", "can't have read", "might read"], "answer": 2, "explainRo": "Este aproape imposibil, deci folosim **can't have + V3**." },
+    { "type": "mc", "q": "The client insisted ___ a fixed price for the whole project.", "options": ["to get", "on getting", "getting", "that getting"], "answer": 1, "explainRo": "**Insist on + -ing**." },
+    { "type": "mc", "q": "On the way to the airport, we stopped ___ some petrol.", "options": ["buying", "buy", "bought", "to buy"], "answer": 3, "explainRo": "**Stop + to + infinitiv** = te oprești ca să faci altceva." },
+    { "type": "mc", "q": "The manager to ___ I sent the proposal hasn't replied yet.", "options": ["whom", "who", "which", "that"], "answer": 0, "explainRo": "După prepoziție, pentru persoane, folosim **whom**." },
+    { "type": "mc", "q": "If I had learnt English at school, I ___ more international clients now.", "options": ["would have had", "will have", "would have", "had"], "answer": 2, "explainRo": "Condițional mixt: cauză în trecut (had learnt), efect în prezent (**would have** + now)." },
+    { "type": "mc", "q": "Not only ___ cheaper, but it is also much faster.", "options": ["the new system is", "is the new system", "does the new system", "the new system does"], "answer": 1, "explainRo": "După **Not only** la începutul propoziției urmează inversiunea: **is the new system**." }
+  ]
+}

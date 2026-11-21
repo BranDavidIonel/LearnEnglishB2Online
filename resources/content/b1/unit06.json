@@ -1,0 +1,140 @@
+{
+  "id": "b1-u06",
+  "level": "B1",
+  "order": 6,
+  "title": "Could you clarify that, please?",
+  "titleRo": "Ați putea să clarificați, vă rog?",
+  "emoji": "📋",
+  "goalRo": "La final vei putea să discuți cerințele unui proiect și să participi la ședințe: să exprimi obligația, permisiunea și sfatul, să faci deducții (must, might, can't) și să ceri politicos ceva.",
+  "vocab": [
+    { "en": "requirement", "ro": "cerință", "pos": "noun", "ipa": "/rɪˈkwaɪə.mənt/", "emoji": "📝", "ex": "The main requirement is a simple search page.", "exRo": "Cerința principală este o pagină simplă de căutare." },
+    { "en": "agenda", "ro": "ordinea de zi (a unei ședințe)", "pos": "noun", "ipa": "/əˈdʒen.də/", "emoji": "🗒️", "ex": "Could you send me the agenda before the meeting?", "exRo": "Mi-ați putea trimite ordinea de zi înainte de ședință?" },
+    { "en": "minutes", "ro": "minuta, procesul-verbal al ședinței", "pos": "noun", "ipa": "/ˈmɪn.ɪts/", "emoji": "🖊️", "ex": "Ana is taking the minutes today.", "exRo": "Ana face minuta azi." },
+    { "en": "attend", "ro": "a participa la, a fi prezent la", "pos": "verb", "ipa": "/əˈtend/", "emoji": "🙋", "ex": "Five people attended the meeting.", "exRo": "Cinci persoane au participat la ședință." },
+    { "en": "mandatory", "ro": "obligatoriu", "pos": "adj", "ipa": "/ˈmæn.də.tər.i/", "emoji": "❗", "ex": "Two-factor login is mandatory for all users.", "exRo": "Autentificarea în doi pași este obligatorie pentru toți utilizatorii." },
+    { "en": "optional", "ro": "opțional, facultativ", "pos": "adj", "ipa": "/ˈɒp.ʃən.əl/", "emoji": "🔘", "ex": "Dark mode is optional for the first version.", "exRo": "Modul întunecat este opțional pentru prima versiune." },
+    { "en": "permission", "ro": "permisiune, drept de acces", "pos": "noun", "ipa": "/pəˈmɪʃ.ən/", "emoji": "🔐", "ex": "Only managers have permission to delete invoices.", "exRo": "Doar managerii au permisiunea de a șterge facturi." },
+    { "en": "access", "ro": "acces", "pos": "noun", "ipa": "/ˈæk.ses/", "emoji": "🚪", "ex": "I don't have access to the test server.", "exRo": "Nu am acces la serverul de test." },
+    { "en": "approve", "ro": "a aproba", "pos": "verb", "ipa": "/əˈpruːv/", "emoji": "👍", "ex": "The manager must approve every discount.", "exRo": "Managerul trebuie să aprobe fiecare reducere." },
+    { "en": "clarify", "ro": "a clarifica", "pos": "verb", "ipa": "/ˈklær.ɪ.faɪ/", "emoji": "🔎", "ex": "Could you clarify what you mean by \"fast\"?", "exRo": "Ați putea clarifica ce înțelegeți prin „rapid”?" },
+    { "en": "point out", "ro": "a semnala, a atrage atenția asupra", "pos": "verb", "ipa": "/ˌpɔɪnt ˈaʊt/", "emoji": "👉", "ex": "She pointed out a problem with the design.", "exRo": "A semnalat o problemă la design." },
+    { "en": "bring up", "ro": "a aduce în discuție", "pos": "verb", "ipa": "/ˌbrɪŋ ˈʌp/", "emoji": "🗣️", "ex": "I'd like to bring up the question of the budget.", "exRo": "Aș vrea să aduc în discuție problema bugetului." },
+    { "en": "follow up", "ro": "a reveni (cu un mesaj), a continua discuția", "pos": "verb", "ipa": "/ˌfɒl.əʊ ˈʌp/", "emoji": "📬", "ex": "I'll follow up with an email after the call.", "exRo": "Revin cu un e-mail după apel." },
+    { "en": "action item", "ro": "sarcină concretă (stabilită la ședință)", "pos": "noun", "ipa": "/ˈæk.ʃən ˌaɪ.təm/", "emoji": "☑️", "ex": "We agreed on three action items.", "exRo": "Am stabilit trei sarcini concrete." },
+    { "en": "confidential", "ro": "confidențial", "pos": "adj", "ipa": "/ˌkɒn.fɪˈden.ʃəl/", "emoji": "🤫", "ex": "Salary data is confidential.", "exRo": "Datele despre salarii sunt confidențiale." },
+    { "en": "comply with", "ro": "a respecta (o regulă, o lege)", "pos": "verb", "ipa": "/kəmˈplaɪ wɪð/", "emoji": "⚖️", "ex": "The app must comply with GDPR.", "exRo": "Aplicația trebuie să respecte GDPR." },
+    { "en": "be allowed to", "ro": "a avea voie să", "pos": "phrase", "ipa": "/bi əˈlaʊd tə/", "emoji": "🟩", "ex": "Interns aren't allowed to deploy to production.", "exRo": "Stagiarii nu au voie să facă deploy în producție." }
+  ],
+  "grammar": {
+    "title": "Modal verbs: obligation, permission, advice, deduction and polite requests",
+    "titleRo": "Verbe modale: obligație, permisiune, sfat, deducție și rugăminți politicoase",
+    "sections": [
+      {
+        "headingRo": "Obligație: must, have to, mustn't, don't have to",
+        "textRo": "**must** și **have to** = trebuie. Diferența mare apare la negativ: **mustn't** = e interzis, iar **don't have to** = nu e nevoie (poți, dacă vrei).",
+        "table": {
+          "headers": ["Formă", "Sens", "Exemplu"],
+          "rows": [
+            ["must / have to", "obligație", "All users must change their password."],
+            ["mustn't", "interdicție", "You mustn't share client data."],
+            ["don't have to", "nu e necesar", "You don't have to attend — it's optional."]
+          ]
+        },
+        "examples": [
+          { "en": "The system has to comply with GDPR.", "ro": "Sistemul trebuie să respecte GDPR." },
+          { "en": "You don't have to write the minutes today.", "ro": "Nu trebuie să faci tu minuta azi." }
+        ]
+      },
+      {
+        "headingRo": "Permisiune: can, may, be allowed to",
+        "textRo": "**can / can't** și **be allowed to** exprimă ce ai voie sau nu ai voie să faci. **May** este mai formal. Pentru trecut și viitor folosim be allowed to: **were allowed to, will be allowed to**.",
+        "examples": [
+          { "en": "Managers can approve discounts.", "ro": "Managerii pot aproba reduceri." },
+          { "en": "Interns aren't allowed to access the production server.", "ro": "Stagiarii nu au voie să acceseze serverul de producție." },
+          { "en": "May I ask a question?", "ro": "Pot să pun o întrebare?" }
+        ]
+      },
+      {
+        "headingRo": "Sfat: should / shouldn't",
+        "textRo": "**should** + verb (fără „to”) = ar trebui. Este mai blând decât must și îl folosim pentru recomandări.",
+        "examples": [
+          { "en": "You should clarify the requirements before you start.", "ro": "Ar trebui să clarifici cerințele înainte să începi." },
+          { "en": "We shouldn't promise a date yet.", "ro": "N-ar trebui să promitem încă o dată." }
+        ]
+      },
+      {
+        "headingRo": "Deducție în prezent: must, might, can't",
+        "textRo": "Când tragem o concluzie despre prezent: **must** = sunt aproape sigur că da, **might / may / could** = poate, **can't** = sunt aproape sigur că nu. Atenție: opusul lui must în acest sens este **can't**, nu mustn't.",
+        "examples": [
+          { "en": "He's been in meetings all day. He must be tired.", "ro": "A stat în ședințe toată ziua. Trebuie să fie obosit." },
+          { "en": "I'm not sure where Ana is. She might be at lunch.", "ro": "Nu știu sigur unde e Ana. Poate e la prânz." },
+          { "en": "That can't be the final price — it's too low.", "ro": "Nu se poate ca acesta să fie prețul final — e prea mic." }
+        ]
+      },
+      {
+        "headingRo": "Rugăminți politicoase",
+        "textRo": "Cu clienții, **Could you…?** sună mult mai politicos decât Can you…? **Would you mind + -ing?** este și mai delicat. Atenție la răspuns: la Would you mind…? „da, fac” se spune **No, not at all** („nu mă deranjează deloc”). Pentru a cere voie: **Do you mind if I…?**",
+        "examples": [
+          { "en": "Could you send me the agenda, please?", "ro": "Mi-ați putea trimite ordinea de zi, vă rog?" },
+          { "en": "Would you mind explaining that again?", "ro": "V-ar deranja să explicați asta din nou?" },
+          { "en": "Do you mind if I record the call?", "ro": "Vă deranjează dacă înregistrez apelul?" }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "**You mustn't** = Nu ai voie. **You don't have to** = Nu e nevoie. În română ambele pot suna „nu trebuie”, dar sensul este foarte diferit!",
+      "După must, should, can, might, could NU punem „to”: **You should ask**, nu „You should to ask”.",
+      "„Nu se poate să fie adevărat” = **That can't be true**, nu „That mustn't be true”.",
+      "La **Would you mind…?** verbul următor are **-ing**: Would you mind **sending** it again?"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Ședință despre cerințe",
+    "lines": [
+      { "speaker": "Tom", "en": "Thanks for coming, Andrei. Shall we start with the agenda?", "ro": "Mulțumesc că ai venit, Andrei. Începem cu ordinea de zi?" },
+      { "speaker": "Andrei", "en": "Sure. First, could you tell me who will use the system every day?", "ro": "Sigur. Mai întâi, mi-ai putea spune cine va folosi sistemul zilnic?" },
+      { "speaker": "Tom", "en": "About thirty drivers and five office staff. The drivers must be able to use it on their phones.", "ro": "În jur de treizeci de șoferi și cinci angajați de birou. Șoferii trebuie să-l poată folosi pe telefon." },
+      { "speaker": "Andrei", "en": "OK. Are drivers allowed to see the prices of the deliveries?", "ro": "Bine. Șoferii au voie să vadă prețurile livrărilor?" },
+      { "speaker": "Tom", "en": "No, they mustn't see any prices. That information is confidential.", "ro": "Nu, nu au voie să vadă niciun preț. Informația aceea este confidențială." },
+      { "speaker": "Andrei", "en": "Understood. And do the office staff have to approve every route?", "ro": "Am înțeles. Și cei de la birou trebuie să aprobe fiecare traseu?" },
+      { "speaker": "Tom", "en": "They don't have to approve every route, only the long ones.", "ro": "Nu trebuie să aprobe fiecare traseu, doar pe cele lungi." },
+      { "speaker": "Andrei", "en": "Would you mind sending me a few examples of long routes? I'd like to clarify the rules.", "ro": "Te-ar deranja să-mi trimiți câteva exemple de trasee lungi? Aș vrea să clarific regulile." },
+      { "speaker": "Tom", "en": "Not at all. Our dispatcher has them — she must have hundreds in her spreadsheets.", "ro": "Deloc. Dispecera noastră le are — trebuie să aibă sute în tabelele ei." },
+      { "speaker": "Andrei", "en": "Great. I'll follow up with the minutes and a list of action items this afternoon.", "ro": "Super. Revin după-amiază cu minuta și o listă de sarcini concrete." }
+    ]
+  },
+  "reading": {
+    "title": "Minutes: requirements meeting",
+    "text": "Attendees: Tom (operations manager), Ana (dispatcher), Andrei (developer)\n\nThe meeting started with a short demo of the current system. Tom pointed out that the old software is slow and that drivers can't use it on their phones. Everyone agreed that a mobile version is mandatory.\n\nAndrei asked several questions to clarify the requirements. Drivers will only see their own routes. They aren't allowed to see prices or other drivers' data, because this information is confidential. Office staff will have full access, but only managers can delete orders.\n\nAna brought up the problem of paper documents. At the moment, drivers have to bring signed delivery notes back to the office at the end of the day. In the new system, customers will sign on the driver's phone, so drivers won't have to carry paper.\n\nA live map of all trucks would be nice, but it is optional for the first version. Andrei said it might be expensive, and he suggested adding it later. Andrei also reminded everyone that the system must comply with GDPR.\n\nAction items:\n1. Ana should send examples of long routes by Friday.\n2. Andrei has to prepare an estimate.\n3. Tom must approve the final list of features.",
+    "textRo": "Participanți: Tom (manager operațional), Ana (dispeceră), Andrei (programator)\n\nȘedința a început cu un scurt demo al sistemului actual. Tom a semnalat că vechiul software este lent și că șoferii nu îl pot folosi pe telefon. Toată lumea a fost de acord că o versiune mobilă este obligatorie.\n\nAndrei a pus mai multe întrebări pentru a clarifica cerințele. Șoferii își vor vedea doar propriile trasee. Nu au voie să vadă prețuri sau datele altor șoferi, pentru că aceste informații sunt confidențiale. Angajații de la birou vor avea acces complet, dar doar managerii pot șterge comenzi.\n\nAna a adus în discuție problema documentelor pe hârtie. În prezent, șoferii trebuie să aducă la birou, la sfârșitul zilei, avizele de livrare semnate. În noul sistem, clienții vor semna pe telefonul șoferului, așa că șoferii nu vor mai fi nevoiți să care hârtii.\n\nO hartă în timp real cu toate camioanele ar fi utilă, dar este opțională pentru prima versiune. Andrei a spus că ar putea fi scumpă și a propus să fie adăugată mai târziu. Andrei le-a amintit tuturor și că sistemul trebuie să respecte GDPR.\n\nSarcini concrete:\n1. Ana ar trebui să trimită exemple de trasee lungi până vineri.\n2. Andrei trebuie să pregătească o estimare.\n3. Tom trebuie să aprobe lista finală de funcționalități.",
+    "questions": [
+      { "type": "mc", "q": "What is mandatory for the new system?", "options": ["A live map of trucks", "A mobile version", "Paper delivery notes", "A new office"], "answer": 1, "explainRo": "„Everyone agreed that a mobile version is mandatory.”" },
+      { "type": "mc", "q": "What are drivers NOT allowed to do?", "options": ["See their own routes", "Use the app on their phones", "See prices", "Ask customers to sign"], "answer": 2, "explainRo": "„They aren't allowed to see prices or other drivers' data.”" },
+      { "type": "mc", "q": "Why won't drivers have to carry paper in the new system?", "options": ["Customers will sign on the driver's phone.", "The office will print the documents.", "Managers will delete the orders.", "Ana will send the documents by email."], "answer": 0, "explainRo": "„customers will sign on the driver's phone, so drivers won't have to carry paper”." },
+      { "type": "mc", "q": "Who has to approve the final list of features?", "options": ["Ana", "Andrei", "The drivers", "Tom"], "answer": 3, "explainRo": "„Tom must approve the final list of features.”" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["requirement", "cerință"], ["mandatory", "obligatoriu"], ["optional", "opțional"], ["approve", "a aproba"], ["confidential", "confidențial"]] },
+    { "type": "mc", "q": "You ___ share your password with anyone. It's against company rules.", "options": ["don't have to", "mustn't", "might"], "answer": 1, "explainRo": "Este o interdicție → mustn't." },
+    { "type": "mc", "q": "The meeting is optional, so you ___ attend if you're busy.", "options": ["don't have to", "mustn't", "can't"], "answer": 0, "explainRo": "Opțional = nu e necesar → don't have to." },
+    { "type": "mc", "q": "She's been in meetings since eight. She ___ be exhausted.", "options": ["must", "can't", "mustn't"], "answer": 0, "explainRo": "Deducție aproape sigură, pe baza unor dovezi → must." },
+    { "type": "mc", "q": "That ___ be Tom's laptop. Tom has a Mac, and this is a Windows laptop.", "options": ["must", "can't", "might"], "answer": 1, "explainRo": "Suntem aproape siguri că NU este al lui → can't." },
+    { "type": "mc", "q": "___ you mind sending me the agenda?", "options": ["Would", "Will", "Could"], "answer": 0, "explainRo": "Structura politicoasă este „Would you mind + -ing?”." },
+    { "type": "mc", "q": "I'm not sure where Ana is. She ___ be in the kitchen.", "options": ["must", "might", "can't"], "answer": 1, "explainRo": "„I'm not sure” arată o posibilitate, nu o certitudine → might." },
+    { "type": "mc", "q": "Users ___ to see other customers' invoices.", "options": ["mustn't", "can't", "aren't allowed"], "answer": 2, "explainRo": "Doar „be allowed” este urmat de „to”: aren't allowed to see." },
+    { "type": "mc", "q": "I missed the meeting. Can you send me the ___? I want to know what you decided.", "options": ["agenda", "minutes", "permission"], "answer": 1, "explainRo": "„minutes” = minuta, notițele despre ce s-a discutat și decis." },
+    { "type": "fill", "q": "If the requirements aren't clear, you ___ (advice) ask the client.", "answers": ["should", "ought to"], "explainRo": "Pentru un sfat folosim should." },
+    { "type": "fill", "q": "Would you mind ___ (close) the door, please?", "answers": ["closing"], "explainRo": "După „Would you mind” verbul are -ing." },
+    { "type": "fill", "q": "It's Saturday tomorrow, so we don't ___ to work.", "answers": ["have", "need"], "explainRo": "„don't have to” = nu e nevoie." },
+    { "type": "fill", "q": "Sorry, could you ___ what you mean by \"cheap\"?", "answers": ["clarify", "explain"], "explainRo": "„clarify” = a clarifica, a explica mai exact." },
+    { "type": "order", "words": ["Could", "you", "send", "me", "the", "agenda,", "please?"], "ro": "Mi-ați putea trimite ordinea de zi, vă rog?", "explainRo": "Rugăminte politicoasă: Could + subiect + verb (fără „to”)." },
+    { "type": "order", "words": ["You", "don't", "have", "to", "attend", "the", "meeting."], "ro": "Nu e nevoie să participi la ședință.", "explainRo": "„don't have to” + verb = nu este necesar." },
+    { "type": "order", "words": ["The", "client", "must", "be", "very", "busy."], "ro": "Clientul trebuie să fie foarte ocupat.", "explainRo": "Deducție: must + be + adjectiv." },
+    { "type": "translate", "ro": "Nu e nevoie să vii mâine.", "answers": ["You don't have to come tomorrow.", "You do not have to come tomorrow.", "You don't need to come tomorrow.", "You do not need to come tomorrow.", "You needn't come tomorrow."], "explainRo": "„Nu e nevoie” = don't have to / don't need to (nu mustn't)." },
+    { "type": "translate", "ro": "Mi-ai putea trimite factura?", "answers": ["Could you send me the invoice?", "Could you please send me the invoice?", "Could you send the invoice to me?", "Can you send me the invoice?", "Can you please send me the invoice?", "Would you send me the invoice?", "Could you send me the bill?"], "explainRo": "Pentru o rugăminte politicoasă folosim Could you…?" },
+    { "type": "listen", "audio": "Do you mind if I record this call?", "answers": ["Do you mind if I record this call?"], "ro": "Te deranjează dacă înregistrez acest apel?", "explainRo": "„Do you mind if I…?” = cerem voie politicos." },
+    { "type": "listen", "audio": "That can't be right.", "answers": ["That can't be right.", "That cannot be right."], "ro": "Nu se poate să fie corect.", "explainRo": "„can't be” = sunt aproape sigur că nu e adevărat." }
+  ],
+  "video": { "youtubeId": "BT3JbwlpQxU", "title": "Modal Verbs | MUST CAN WOULD SHOULD MIGHT WILL COULD SHALL MAY (English with Lucy)" }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u01",
+  "questions": [
+    { "type": "mc", "q": "Last night we ___ pizza and watched a film at home.", "options": ["eated", "ate", "eat", "eats"], "answer": 1, "explainRo": "Eat este un verb neregulat: eat → ate, nu „eated”." },
+    { "type": "mc", "q": "Before our trip to Barcelona, I bought a ___ with maps and tips about the city.", "options": ["guidebook", "boarding pass", "delay"], "answer": 0, "explainRo": "Guidebook = ghid turistic, o carte cu hărți și sfaturi despre un oraș." },
+    { "type": "mc", "q": "Our project manager ___ to Amsterdam for a client meeting last week.", "options": ["flied", "fly", "flys", "flew"], "answer": 3, "explainRo": "Fly este neregulat: fly → flew, iar la trecut forma e aceeași pentru toate persoanele." },
+    { "type": "mc", "q": "At my cousin's wedding, I ___ more than 300 photos!", "options": ["made", "did", "took", "makes"], "answer": 2, "explainRo": "În engleză spunem take a photo, nu make a photo, iar trecutul lui take este took." },
+    { "type": "mc", "q": "Because of a long ___, I was late for my meeting in Munich.", "options": ["souvenir", "delay", "guidebook", "backpack"], "answer": 1, "explainRo": "Delay = întârziere; din cauza ei am ajuns târziu la întâlnire." },
+    { "type": "fill", "q": "After an hour, Sorin ___ (find) the problem in the code.", "answers": ["found"], "explainRo": "Find este neregulat: find → found." },
+    { "type": "fill", "q": "In London I ___ (spend) 40 pounds on one dinner!", "answers": ["spent"], "explainRo": "Spend (a cheltui bani) este neregulat: spend → spent." },
+    { "type": "fill", "q": "After the meeting, I ___ (catch) the bus back to the office.", "answers": ["caught"], "explainRo": "Catch este neregulat: catch → caught (a prinde autobuzul sau trenul)." },
+    { "type": "order", "words": ["We", "met", "the", "new", "client", "on", "Monday."], "ro": "Ne-am întâlnit cu noul client luni.", "explainRo": "Meet este neregulat: meet → met, iar ziua (on Monday) stă la final." },
+    { "type": "order", "words": ["My", "dad", "lost", "his", "passport", "in", "Madrid."], "ro": "Tata și-a pierdut pașaportul la Madrid.", "explainRo": "Lose este neregulat: lose → lost, urmat de lucrul pierdut." },
+    { "type": "listen", "audio": "I bought new sunglasses at the airport.", "answers": ["I bought new sunglasses at the airport."], "ro": "Mi-am cumpărat ochelari de soare noi la aeroport.", "explainRo": "Bought (de la buy) se pronunță /bɔːt/, iar sunglasses = ochelari de soare." },
+    { "type": "translate", "ro": "Ana a zburat la Dublin și mi-a cumpărat un suvenir.", "answers": ["Ana flew to Dublin and bought me a souvenir.", "Ana flew to Dublin and bought a souvenir for me.", "Ana flew to Dublin and she bought me a souvenir.", "Ana flew to Dublin and she bought a souvenir for me.", "Ana flew to Dublin and got me a souvenir.", "Ana flew to Dublin and got a souvenir for me."], "explainRo": "Fly → flew și buy → bought; la trecut verbul nu se schimbă după persoană." }
+  ]
+}

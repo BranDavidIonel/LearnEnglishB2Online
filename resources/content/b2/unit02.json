@@ -1,0 +1,130 @@
+{
+  "id": "b2-u02",
+  "level": "B2",
+  "order": 2,
+  "title": "This time next year: AI and the roadmap",
+  "titleRo": "Peste un an: AI și planul produsului",
+  "emoji": "🤖",
+  "goalRo": "La final vei putea vorbi despre planuri și termene viitoare, despre tendințele din tehnologie și despre planuri din trecut care s-au schimbat.",
+
+  "vocab": [
+    { "en": "roadmap", "ro": "plan de dezvoltare (roadmap)", "pos": "noun", "ipa": "/ˈrəʊd.mæp/", "emoji": "🗺️", "ex": "The AI assistant is the top priority on our product roadmap.", "exRo": "Asistentul AI este prioritatea principală din planul nostru de produs." },
+    { "en": "milestone", "ro": "etapă importantă, reper", "pos": "noun", "ipa": "/ˈmaɪl.stəʊn/", "emoji": "🏁", "ex": "Our next milestone is the beta version in March.", "exRo": "Următorul nostru reper este versiunea beta din martie." },
+    { "en": "rollout", "ro": "lansare treptată, implementare", "pos": "noun", "ipa": "/ˈrəʊl.aʊt/", "emoji": "🚀", "ex": "The rollout to all customers will take about six weeks.", "exRo": "Lansarea către toți clienții va dura aproximativ șase săptămâni." },
+    { "en": "quarter", "ro": "trimestru", "pos": "noun", "ipa": "/ˈkwɔː.tə/", "emoji": "📊", "ex": "We'll have hired two more developers by the end of the quarter.", "exRo": "Până la sfârșitul trimestrului vom fi angajat încă doi programatori." },
+    { "en": "ship", "ro": "a livra, a lansa (un produs, o funcție)", "pos": "verb", "ipa": "/ʃɪp/", "emoji": "📦", "ex": "We're planning to ship the new dashboard next week.", "exRo": "Plănuim să lansăm noul dashboard săptămâna viitoare." },
+    { "en": "cutting-edge", "ro": "de ultimă generație, de vârf", "pos": "adj", "ipa": "/ˌkʌt.ɪŋ ˈedʒ/", "emoji": "✨", "ex": "They use cutting-edge speech recognition in their app.", "exRo": "Folosesc recunoaștere vocală de ultimă generație în aplicația lor." },
+    { "en": "scalable", "ro": "scalabil", "pos": "adj", "ipa": "/ˈskeɪ.lə.bəl/", "emoji": "📶", "ex": "We need a scalable architecture before we sign bigger clients.", "exRo": "Avem nevoie de o arhitectură scalabilă înainte să semnăm clienți mai mari." },
+    { "en": "obsolete", "ro": "învechit, depășit", "pos": "adj", "ipa": "/ˈɒb.səl.iːt/", "emoji": "🦖", "ex": "By 2030, many of today's tools will have become obsolete.", "exRo": "Până în 2030, multe dintre uneltele de azi vor fi devenit învechite." },
+    { "en": "emerging technology", "ro": "tehnologie emergentă", "pos": "noun", "ipa": "/ɪˌmɜː.dʒɪŋ tekˈnɒl.ə.dʒi/", "emoji": "🌱", "ex": "Quantum computing is still an emerging technology.", "exRo": "Calculul cuantic este încă o tehnologie emergentă." },
+    { "en": "early adopter", "ro": "utilizator timpuriu (cine adoptă primul o noutate)", "pos": "noun", "ipa": "/ˌɜː.li əˈdɒp.tə/", "emoji": "🥇", "ex": "Our first ten customers were early adopters who loved trying new features.", "exRo": "Primii noștri zece clienți au fost utilizatori timpurii cărora le plăcea să încerce funcții noi." },
+    { "en": "game changer", "ro": "ceva care schimbă regulile jocului", "pos": "noun", "ipa": "/ˈɡeɪm ˌtʃeɪn.dʒə/", "emoji": "♟️", "ex": "Automatic invoice scanning was a game changer for our clients.", "exRo": "Scanarea automată a facturilor a schimbat complet regulile jocului pentru clienții noștri." },
+    { "en": "machine learning", "ro": "învățare automată", "pos": "noun", "ipa": "/məˈʃiːn ˌlɜː.nɪŋ/", "emoji": "🧠", "ex": "The CRM uses machine learning to predict which leads will buy.", "exRo": "CRM-ul folosește învățarea automată ca să prezică ce potențiali clienți vor cumpăra." },
+    { "en": "automate", "ro": "a automatiza", "pos": "verb", "ipa": "/ˈɔː.tə.meɪt/", "emoji": "⚙️", "ex": "We automated the monthly reports, which saves us two days.", "exRo": "Am automatizat rapoartele lunare, ceea ce ne economisește două zile." },
+    { "en": "data centre", "ro": "centru de date", "pos": "noun", "ipa": "/ˈdeɪ.tə ˌsen.tə/", "emoji": "🗄️", "wiki": "Data center", "ex": "Our servers are hosted in a data centre in Frankfurt.", "exRo": "Serverele noastre sunt găzduite într-un centru de date din Frankfurt." },
+    { "en": "phase out", "ro": "a elimina treptat", "pos": "verb", "ipa": "/ˌfeɪz ˈaʊt/", "emoji": "🌅", "ex": "We'll phase out the old mobile app by December.", "exRo": "Vom elimina treptat vechea aplicație mobilă până în decembrie." },
+    { "en": "keep up with", "ro": "a ține pasul cu", "pos": "verb", "ipa": "/ˌkiːp ˈʌp wɪð/", "emoji": "🏃", "ex": "It's hard to keep up with all the new AI tools.", "exRo": "E greu să ții pasul cu toate uneltele AI noi." }
+  ],
+
+  "grammar": {
+    "title": "Future continuous, future perfect and the future in the past",
+    "titleRo": "Viitorul continuu, viitorul perfect și viitorul în trecut",
+    "sections": [
+      {
+        "headingRo": "Future continuous: will be + -ing",
+        "textRo": "Îl folosim pentru o acțiune care **va fi în desfășurare** la un anumit moment din viitor: *This time tomorrow I'll be flying to Berlin* (mâine la ora asta voi fi în avion spre Berlin). Îl mai folosim pentru a întreba **politicos** despre planurile cuiva, fără să pară o cerere: *Will you be using the meeting room this afternoon?*",
+        "examples": [
+          { "en": "This time next month, we'll be testing the AI assistant with real users.", "ro": "Luna viitoare pe vremea asta vom testa asistentul AI cu utilizatori reali." },
+          { "en": "Don't call at ten – I'll be presenting the roadmap to the board.", "ro": "Nu suna la zece – voi prezenta planul produsului în fața consiliului." },
+          { "en": "Will you be joining us for the demo on Friday?", "ro": "Vii și tu la demonstrația de vineri?" }
+        ]
+      },
+      {
+        "headingRo": "Future perfect: will have + participiu",
+        "textRo": "Exprimă o acțiune care **va fi terminată înainte de** un moment din viitor. Seamănă cu viitorul anterior din română („voi fi terminat”), doar că în engleză se folosește mult mai des. Apare aproape mereu cu **by** (până la): *by Friday, by the end of the quarter, by then, by the time…*. Varianta continuă, **will have been + -ing**, subliniază durata: *In June I'll have been working here for five years.*",
+        "table": {
+          "headers": ["Timp", "Formă", "Exemplu"],
+          "rows": [
+            ["Future continuous", "will be + -ing", "I'll be coding at 9."],
+            ["Future perfect", "will have + V3", "I'll have finished by 9."],
+            ["Future perfect continuous", "will have been + -ing", "I'll have been coding for 3 hours by 9."]
+          ]
+        },
+        "examples": [
+          { "en": "By the end of the quarter, we'll have shipped three new features.", "ro": "Până la sfârșitul trimestrului vom fi lansat trei funcții noi." },
+          { "en": "Will you have finished the estimate by Monday?", "ro": "Vei fi terminat estimarea până luni?" },
+          { "en": "By 2030, AI will have changed the way we write code.", "ro": "Până în 2030, AI-ul va fi schimbat felul în care scriem cod." }
+        ]
+      },
+      {
+        "headingRo": "Viitorul în trecut: was going to, would, was about to",
+        "textRo": "Când povestim despre un moment din trecut și vorbim despre ce **urma** să se întâmple atunci, „mutăm” viitorul în trecut: **will → would**, **am going to → was going to**, **am about to → was about to**. Foarte des, *was going to* arată un plan care **nu s-a mai realizat**: *We were going to launch in May, but the budget was cut.*",
+        "examples": [
+          { "en": "We were going to use a different database, but the client refused.", "ro": "Urma să folosim altă bază de date, dar clientul a refuzat." },
+          { "en": "In 2015 nobody thought that chatbots would become so popular.", "ro": "În 2015 nimeni nu credea că chatboții vor deveni atât de populari." },
+          { "en": "I was about to send the invoice when I noticed a mistake.", "ro": "Eram pe punctul de a trimite factura când am observat o greșeală." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "**By** ≠ **until**. *By Friday* = cel târziu vineri (cu future perfect). *Until Friday* = continuu până vineri: *I'll be working on it until Friday.*",
+      "După **will have** urmează participiul (V3): **will have finished**, nu „will have finish”.",
+      "În vorbirea despre trecut, „știam că va funcționa” se traduce **I knew it would work**, nu „I knew it will work”.",
+      "După **by the time** sau **when** cu sens de viitor folosim prezentul: **By the time you arrive, we'll have started**, nu „By the time you will arrive”."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Planificarea trimestrului",
+    "lines": [
+      { "speaker": "Laura", "en": "So, where do you think we'll be by the end of the quarter?", "ro": "Deci, unde crezi că vom fi până la sfârșitul trimestrului?" },
+      { "speaker": "Andrei", "en": "If all goes well, we'll have finished the AI search feature and phased out the old reports.", "ro": "Dacă totul merge bine, vom fi terminat funcția de căutare cu AI și vom fi eliminat vechile rapoarte." },
+      { "speaker": "Laura", "en": "Great. I'll be meeting the client on the 12th – can I show them a demo?", "ro": "Super. Mă voi întâlni cu clientul pe 12 – le pot arăta o demonstrație?" },
+      { "speaker": "Andrei", "en": "Yes, by then we'll have deployed a beta version to the test server.", "ro": "Da, până atunci vom fi pus o versiune beta pe serverul de test." },
+      { "speaker": "Laura", "en": "Weren't we going to use an external API for the search?", "ro": "Nu urma să folosim un API extern pentru căutare?" },
+      { "speaker": "Andrei", "en": "We were, but I realised it would cost far too much once we scaled up.", "ro": "Ba da, dar mi-am dat seama că ar costa mult prea mult când vom crește." },
+      { "speaker": "Laura", "en": "Fair enough. Will you be working on the mobile app as well?", "ro": "Corect. Vei lucra și la aplicația mobilă?" },
+      { "speaker": "Andrei", "en": "Not this quarter. I'll be focusing on the rollout and nothing else.", "ro": "Nu în trimestrul ăsta. Mă voi concentra pe lansare și pe nimic altceva." }
+    ]
+  },
+
+  "reading": {
+    "title": "The roadmap that had to change",
+    "text": "Two years ago, the team at a small Romanian start-up had a clear plan. They were going to build a classic CRM for local shops, with contacts, invoices and simple reports. Their roadmap was full of familiar milestones: a mobile app in spring, an online store integration in summer and a big marketing campaign in autumn.\n\nThen large language models arrived, and almost overnight, their early adopters began asking for something different. \"Can the CRM write the follow-up email for me?\" one shop owner asked. \"Will it be able to tell me which customers are about to leave?\" asked another. The founders realised that if they kept their old plan, their product would be obsolete before it was even finished.\n\nSo they rewrote the roadmap. Instead of the online store integration, they decided to automate the most boring tasks: data entry, reminders and weekly reports. The change was risky. They had to learn machine learning basics, rent extra servers in a data centre and phase out features that nobody used.\n\nToday the founders are cautiously optimistic. \"By the end of this quarter, we'll have shipped the AI assistant to all our customers,\" says the CTO. \"And this time next year, I hope we'll be expanding into Poland and Hungary.\" She admits it's hard to keep up with such a fast-moving field. \"Every month there's a new game changer. The trick is not to chase every trend, but to ask what will still matter to a shopkeeper in five years' time.\"",
+    "textRo": "Acum doi ani, echipa unui mic start-up românesc avea un plan clar. Urmau să construiască un CRM clasic pentru magazinele locale, cu contacte, facturi și rapoarte simple. Planul lor de dezvoltare era plin de repere cunoscute: o aplicație mobilă în primăvară, o integrare cu magazinul online vara și o campanie mare de marketing toamna.\n\nApoi au apărut modelele lingvistice mari și, aproape peste noapte, primii lor utilizatori au început să ceară altceva. „Poate CRM-ul să scrie emailul de follow-up în locul meu?”, a întrebat un proprietar de magazin. „Va putea să-mi spună ce clienți sunt pe punctul de a pleca?”, a întrebat altul. Fondatorii și-au dat seama că, dacă își păstrau vechiul plan, produsul lor ar fi fost învechit înainte să fie măcar terminat.\n\nAșa că au rescris planul. În locul integrării cu magazinul online, au hotărât să automatizeze cele mai plictisitoare sarcini: introducerea datelor, mementourile și rapoartele săptămânale. Schimbarea a fost riscantă. Au trebuit să învețe noțiunile de bază ale învățării automate, să închirieze servere suplimentare într-un centru de date și să elimine treptat funcțiile pe care nu le folosea nimeni.\n\nAstăzi fondatorii sunt prudent optimiști. „Până la sfârșitul acestui trimestru, vom fi livrat asistentul AI tuturor clienților noștri”, spune directoarea tehnică. „Iar anul viitor pe vremea asta sper că ne vom extinde în Polonia și Ungaria.” Ea recunoaște că e greu să ții pasul cu un domeniu care se mișcă atât de repede. „În fiecare lună apare ceva care schimbă regulile jocului. Secretul nu e să alergi după fiecare tendință, ci să te întrebi ce va mai conta pentru un negustor peste cinci ani.”",
+    "questions": [
+      { "type": "mc", "q": "What was the start-up originally going to build?", "options": ["An AI assistant for large companies", "A classic CRM for local shops", "An online store for electronics", "A mobile game"], "answer": 1, "explainRo": "„They were going to build a classic CRM for local shops.”" },
+      { "type": "mc", "q": "Why did the founders change the roadmap?", "options": ["Their investors asked them to move to Poland.", "The mobile app had too many bugs.", "Their customers started asking for AI features.", "The data centre closed down."], "answer": 2, "explainRo": "Primii utilizatori au început să ceară funcții noi, bazate pe AI." },
+      { "type": "mc", "q": "Which of these did the team NOT do after changing the plan?", "options": ["Launch the online store integration", "Rent more servers", "Learn the basics of machine learning", "Remove features nobody used"], "answer": 0, "explainRo": "Integrarea cu magazinul online a fost înlocuită („Instead of the online store integration…”)." },
+      { "type": "mc", "q": "What does the CTO think is the secret to success?", "options": ["Following every new trend as fast as possible", "Hiring developers in Hungary", "Shipping a new feature every month", "Focusing on what will still matter to customers in the future"], "answer": 3, "explainRo": "Spune că nu trebuie să alergi după fiecare tendință, ci să te gândești la ce va conta peste cinci ani." }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "Don't call me at 3 p.m. – I ___ a demo to the client.", "options": ["will have given", "will be giving", "was going to give", "give"], "answer": 1, "explainRo": "Acțiunea va fi **în desfășurare** la ora 15, deci folosim **future continuous**." },
+    { "type": "mc", "q": "By the end of the year, we ___ the old system completely.", "options": ["will be replacing", "are replacing", "will have replaced", "would replace"], "answer": 2, "explainRo": "**By + moment viitor** cere de obicei **future perfect**: acțiunea va fi încheiată." },
+    { "type": "mc", "q": "We ___ launch in May, but the client changed the requirements.", "options": ["were going to", "will have", "will be going to", "are about to"], "answer": 0, "explainRo": "**Was/were going to** exprimă un plan din trecut care nu s-a realizat." },
+    { "type": "mc", "q": "In 2010, few people believed that phones ___ replace cameras.", "options": ["will", "would", "will have", "are going to"], "answer": 1, "explainRo": "Viitorul văzut din trecut: **will** devine **would**." },
+    { "type": "mc", "q": "___ you be using the projector this afternoon? I need it for a presentation.", "options": ["Are", "Do", "Have", "Will"], "answer": 3, "explainRo": "**Will you be + -ing?** este o întrebare politicoasă despre planurile cuiva." },
+    { "type": "mc", "q": "Floppy disks have been ___ for years – nobody uses them any more.", "options": ["scalable", "obsolete", "cutting-edge", "emerging"], "answer": 1, "explainRo": "**Obsolete** = învechit, scos din uz." },
+    { "type": "mc", "q": "Our architecture must be ___ – we expect ten times more users next year.", "options": ["scalable", "obsolete", "nostalgic", "self-taught"], "answer": 0, "explainRo": "**Scalable** = poate crește ușor odată cu numărul de utilizatori." },
+    { "type": "mc", "q": "The beta release is an important ___ on our way to version 1.0.", "options": ["data centre", "quarter", "milestone", "game changer"], "answer": 2, "explainRo": "**Milestone** = etapă importantă, reper într-un proiect." },
+    { "type": "fill", "q": "By the time you read this email, I ___ (land) in Lisbon.", "answers": ["will have landed", "'ll have landed"], "explainRo": "Acțiunea va fi terminată înainte de un moment viitor: **will have + V3**." },
+    { "type": "fill", "q": "This time tomorrow, I ___ (lie) on a beach in Crete.", "answers": ["will be lying", "'ll be lying"], "explainRo": "Acțiune în desfășurare la un moment din viitor: **will be + -ing**." },
+    { "type": "fill", "q": "I was ___ to send the offer when the client called to cancel.", "answers": ["about"], "explainRo": "**Was about to** = eram pe punctul de a face ceva." },
+    { "type": "fill", "q": "We need to ___ out the old API slowly, so that clients have time to migrate.", "answers": ["phase"], "explainRo": "**Phase out** = a elimina ceva treptat." },
+    { "type": "order", "words": ["We", "will", "have", "finished", "the", "project", "by", "June."], "ro": "Vom fi terminat proiectul până în iunie.", "explainRo": "**Will have + V3 + by** = acțiune încheiată până la un moment viitor." },
+    { "type": "order", "words": ["I", "will", "be", "working", "from", "home", "tomorrow."], "ro": "Mâine voi lucra de acasă.", "explainRo": "**Will be + -ing** descrie o acțiune în desfășurare sau planificată în viitor." },
+    { "type": "order", "words": ["She", "knew", "the", "update", "would", "fix", "the", "bug."], "ro": "Știa că actualizarea va rezolva bug-ul.", "explainRo": "După un verb la trecut, viitorul devine **would**." },
+    { "type": "translate", "ro": "Până vineri vom fi lansat noua versiune.", "answers": ["By Friday we will have released the new version.", "By Friday we'll have released the new version.", "By Friday we will have launched the new version.", "By Friday we'll have launched the new version.", "By Friday we will have shipped the new version.", "By Friday we'll have shipped the new version.", "We will have released the new version by Friday.", "We'll have released the new version by Friday.", "We will have launched the new version by Friday.", "We'll have launched the new version by Friday.", "We'll have shipped the new version by Friday.", "We will have shipped the new version by Friday."], "explainRo": "„Vom fi lansat” = viitorul perfect: **will have + V3**." },
+    { "type": "translate", "ro": "Urma să-l sun, dar am uitat.", "answers": ["I was going to call him, but I forgot.", "I was going to phone him, but I forgot.", "I was going to ring him, but I forgot."], "explainRo": "Un plan din trecut nerealizat se exprimă cu **was going to**." },
+    { "type": "listen", "audio": "This time next week, I'll be on holiday.", "answers": ["This time next week, I'll be on holiday.", "This time next week, I will be on holiday."], "ro": "Săptămâna viitoare pe vremea asta voi fi în concediu.", "explainRo": "**This time next week** cere adesea un timp viitor care descrie o situație în desfășurare." },
+    { "type": "listen", "audio": "Will you have finished the estimate by Monday?", "answers": ["Will you have finished the estimate by Monday?"], "ro": "Vei fi terminat estimarea până luni?", "explainRo": "Interogativul la future perfect: **Will + subiect + have + V3**." },
+    { "type": "match", "pairs": [["roadmap", "plan de dezvoltare (roadmap)"], ["rollout", "lansare treptată, implementare"], ["quarter", "trimestru"], ["keep up with", "a ține pasul cu"], ["early adopter", "utilizator timpuriu (cine adoptă primul o noutate)"]] }
+  ],
+
+  "video": {
+    "youtubeId": "sdL_Y-e-i6E",
+    "title": "English Grammar - The future in the past - \"Was/Were going to\" (English with Alex · engVid)"
+  }
+}

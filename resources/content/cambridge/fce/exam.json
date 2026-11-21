@@ -1,0 +1,12 @@
+{
+  "id": "fce",
+  "name": "B2 First (FCE)",
+  "level": "B2",
+  "aboutRo": "**B2 First** (fostul FCE) este examenul Cambridge care certifică nivelul **B2**: poți lucra, studia și călători folosind engleza cu încredere. Certificatul **nu expiră** și este recunoscut de mii de angajatori, universități și instituții din întreaga lume.\n\nExamenul are **patru probe**: Reading and Use of English (1 h 15 min), Writing (1 h 20 min), Listening (aprox. 40 min) și Speaking (14 min, în pereche cu alt candidat, în fața a doi examinatori).\n\n**Notarea:** fiecare probă primește un scor pe **Cambridge English Scale**, iar media lor dă rezultatul final. Între **160 și 179** promovezi la nivel B2 (calificativul **C** pentru 160–172 și **B** pentru 173–179). Între **180 și 190** primești calificativul **A** și certificat de nivel **C1**. Între 140 și 159 primești certificat B1.\n\n**Sfaturi practice:** exersează contra cronometru, mai ales la Reading and Use of English, unde timpul este strâns. La Writing, respectă numărul de cuvinte și registrul (formal sau informal). La Listening, citește întrebările înainte să pornească înregistrarea; fiecare fragment se aude de **două ori**. La Speaking, vorbește cu partenerul tău, nu doar cu examinatorul, și justifică-ți mereu părerile.",
+  "papersRo": [
+    { "name": "Reading and Use of English", "info": "1 h 15 min · 7 părți · 52 de întrebări" },
+    { "name": "Writing", "info": "1 h 20 min · 2 texte: eseu obligatoriu + o sarcină la alegere (140–190 de cuvinte fiecare)" },
+    { "name": "Listening", "info": "aprox. 40 min · 4 părți · 30 de întrebări · fiecare înregistrare se aude de două ori" },
+    { "name": "Speaking", "info": "14 min · 4 părți · în pereche, cu doi examinatori" }
+  ]
+}

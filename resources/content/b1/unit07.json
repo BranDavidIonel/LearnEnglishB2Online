@@ -1,0 +1,130 @@
+{
+  "id": "b1-u07",
+  "level": "B1",
+  "order": 7,
+  "title": "If you pay upfront…",
+  "titleRo": "Dacă plătiți în avans…",
+  "emoji": "💰",
+  "goalRo": "La final vei putea să vorbești despre bani, prețuri și oferte și să negociezi cu un client, folosind condiționalele zero, I și II.",
+  "vocab": [
+    { "en": "quote", "ro": "ofertă de preț, deviz", "pos": "noun", "ipa": "/kwəʊt/", "emoji": "🧾", "ex": "Could you send me a quote for the whole project?", "exRo": "Mi-ați putea trimite o ofertă de preț pentru tot proiectul?" },
+    { "en": "discount", "ro": "reducere", "pos": "noun", "ipa": "/ˈdɪs.kaʊnt/", "emoji": "🏷️", "ex": "We offer a 10% discount for annual payments.", "exRo": "Oferim o reducere de 10% pentru plata anuală." },
+    { "en": "budget", "ro": "buget", "pos": "noun", "ipa": "/ˈbʌdʒ.ɪt/", "emoji": "👛", "ex": "Our budget for the website is 5,000 euros.", "exRo": "Bugetul nostru pentru site este de 5.000 de euro." },
+    { "en": "invoice", "ro": "factură", "pos": "noun", "ipa": "/ˈɪn.vɔɪs/", "emoji": "🧮", "ex": "I'll send you the invoice at the end of the month.", "exRo": "Vă trimit factura la sfârșitul lunii." },
+    { "en": "fee", "ro": "onorariu, taxă", "pos": "noun", "ipa": "/fiː/", "emoji": "💳", "ex": "There is a small fee for late payments.", "exRo": "Există o mică taxă pentru plățile întârziate." },
+    { "en": "hourly rate", "ro": "tarif pe oră", "pos": "noun", "ipa": "/ˌaʊə.li ˈreɪt/", "emoji": "⏱️", "ex": "My hourly rate is higher for urgent work.", "exRo": "Tariful meu pe oră este mai mare pentru lucrări urgente." },
+    { "en": "upfront", "ro": "în avans (plată)", "pos": "adv", "ipa": "/ʌpˈfrʌnt/", "emoji": "⬆️", "ex": "New clients pay 30% upfront.", "exRo": "Clienții noi plătesc 30% în avans." },
+    { "en": "afford", "ro": "a-și permite (financiar)", "pos": "verb", "ipa": "/əˈfɔːd/", "emoji": "🤑", "ex": "Small shops can't afford expensive software.", "exRo": "Magazinele mici nu își permit software scump." },
+    { "en": "negotiate", "ro": "a negocia", "pos": "verb", "ipa": "/nəˈɡəʊ.ʃi.eɪt/", "emoji": "🤝", "ex": "We negotiated the price for two hours.", "exRo": "Am negociat prețul două ore." },
+    { "en": "deal", "ro": "înțelegere, afacere", "pos": "noun", "ipa": "/diːl/", "emoji": "✍️", "ex": "OK, it's a deal!", "exRo": "Bine, ne-am înțeles!" },
+    { "en": "subscription", "ro": "abonament", "pos": "noun", "ipa": "/səbˈskrɪp.ʃən/", "emoji": "🔁", "ex": "The CRM costs 30 euros a month with a subscription.", "exRo": "CRM-ul costă 30 de euro pe lună cu abonament." },
+    { "en": "refund", "ro": "rambursare, banii înapoi", "pos": "noun", "ipa": "/ˈriː.fʌnd/", "emoji": "↩️", "ex": "If you're not happy, you'll get a full refund.", "exRo": "Dacă nu sunteți mulțumit, primiți toți banii înapoi." },
+    { "en": "worth it", "ro": "(a) merita", "pos": "phrase", "ipa": "/ˈwɜːθ ɪt/", "emoji": "💎", "ex": "The course was expensive, but it was worth it.", "exRo": "Cursul a fost scump, dar a meritat." },
+    { "en": "compromise", "ro": "compromis", "pos": "noun", "ipa": "/ˈkɒm.prə.maɪz/", "emoji": "🌉", "ex": "We found a compromise: a lower price but fewer features.", "exRo": "Am găsit un compromis: un preț mai mic, dar mai puține funcționalități." },
+    { "en": "cut costs", "ro": "a reduce costurile", "pos": "phrase", "ipa": "/ˌkʌt ˈkɒsts/", "emoji": "✂️", "ex": "Automation helps companies cut costs.", "exRo": "Automatizarea ajută firmele să reducă costurile." },
+    { "en": "in instalments", "ro": "în rate", "pos": "phrase", "ipa": "/ɪn ɪnˈstɔːl.mənts/", "emoji": "🧩", "ex": "You can pay in three instalments.", "exRo": "Puteți plăti în trei rate." },
+    { "en": "exchange rate", "ro": "curs de schimb", "pos": "noun", "ipa": "/ɪksˈtʃeɪndʒ ˌreɪt/", "emoji": "💱", "ex": "The exchange rate at the airport is terrible.", "exRo": "Cursul de schimb de la aeroport este groaznic." }
+  ],
+  "grammar": {
+    "title": "Zero, first and second conditionals",
+    "titleRo": "Condiționalele zero, I și II",
+    "sections": [
+      {
+        "headingRo": "Condiționalul zero: reguli și adevăruri generale",
+        "textRo": "**If + present simple, present simple.** Îl folosim pentru lucruri care se întâmplă **mereu** în situația respectivă: reguli, politici ale firmei, fapte. Aici **if** are aproape sensul lui **when**.",
+        "examples": [
+          { "en": "If a client pays late, we charge a 5% fee.", "ro": "Dacă un client plătește cu întârziere, percepem o taxă de 5%." },
+          { "en": "If you pay for a year, you get two months free.", "ro": "Dacă plătești pe un an, primești două luni gratuit." }
+        ]
+      },
+      {
+        "headingRo": "Condiționalul I: situații reale, posibile",
+        "textRo": "**If + present simple, will + verb.** Pentru o situație viitoare **reală, probabilă**. Atenție: după if nu punem will! **unless** = if… not (dacă nu).",
+        "examples": [
+          { "en": "If you sign today, we'll start on Monday.", "ro": "Dacă semnați azi, începem luni." },
+          { "en": "If the budget is too small, we'll cut some features.", "ro": "Dacă bugetul e prea mic, vom renunța la câteva funcționalități." },
+          { "en": "We won't start unless you pay 30% upfront.", "ro": "Nu începem dacă nu plătiți 30% în avans." }
+        ]
+      },
+      {
+        "headingRo": "Condiționalul II: situații imaginare sau puțin probabile",
+        "textRo": "**If + past simple, would + verb.** Vorbim despre prezent sau viitor, dar situația este **imaginară** sau puțin probabilă. În română: „Dacă aș avea…, aș…”. Cu to be, forma recomandată este **were** pentru toate persoanele, mai ales în **If I were you** (sfat). În negocieri, condiționalul II sună mai flexibil și mai politicos.",
+        "examples": [
+          { "en": "If I had more time, I would learn Japanese.", "ro": "Dacă aș avea mai mult timp, aș învăța japoneză." },
+          { "en": "If I were you, I'd ask for a higher rate.", "ro": "Dacă aș fi în locul tău, aș cere un tarif mai mare." },
+          { "en": "If we paid upfront, would you give us a discount?", "ro": "Dacă am plăti în avans, ne-ați face o reducere?" }
+        ]
+      },
+      {
+        "headingRo": "Pe scurt",
+        "textRo": "Alege condiționalul după cât de **real** este ce spui.",
+        "table": {
+          "headers": ["Tip", "Structură", "Sens"],
+          "rows": [
+            ["zero", "If + present, present", "mereu adevărat / regulă"],
+            ["I", "If + present, will + verb", "posibil, real"],
+            ["II", "If + past, would + verb", "imaginar, puțin probabil"]
+          ]
+        },
+        "examples": [
+          { "en": "If the client accepts the quote, we'll start in May.", "ro": "Dacă clientul acceptă oferta, începem în mai (e posibil)." },
+          { "en": "If a big bank called me, I'd double my price.", "ro": "Dacă m-ar suna o bancă mare, mi-aș dubla prețul (e puțin probabil)." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu pune will după if: nu „If you will pay”, ci **If you pay**.",
+      "„Dacă aș avea” se traduce **If I had**, nu „If I would have”. Would apare doar în cealaltă parte a frazei.",
+      "**unless** înseamnă deja „dacă nu”, deci nu îl folosi cu negație: **unless you pay**, nu „unless you don't pay”.",
+      "Fraza poate începe și cu partea principală, iar atunci nu mai punem virgulă: **We'll start on Monday if you sign today.**"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Negocierea prețului",
+    "lines": [
+      { "speaker": "Laura", "en": "I've read your quote. Honestly, 9,000 euros is more than our budget.", "ro": "Am citit oferta ta. Sincer, 9.000 de euro depășește bugetul nostru." },
+      { "speaker": "Andrei", "en": "I understand. What would you say if we removed the loyalty card module?", "ro": "Înțeleg. Ce ai spune dacă am scoate modulul pentru cardul de fidelitate?" },
+      { "speaker": "Laura", "en": "How much would that save?", "ro": "Cât am economisi?" },
+      { "speaker": "Andrei", "en": "About 1,500 euros. If you need it later, we'll add it in the second version.", "ro": "În jur de 1.500 de euro. Dacă vă trebuie mai târziu, îl adăugăm în a doua versiune." },
+      { "speaker": "Laura", "en": "That's better. And if we paid half upfront, would you give us a discount?", "ro": "Așa e mai bine. Și dacă am plăti jumătate în avans, ne-ai face o reducere?" },
+      { "speaker": "Andrei", "en": "If you pay half upfront, I'll take another 5% off. That's the best I can do.", "ro": "Dacă plătiți jumătate în avans, mai scad 5%. Asta e tot ce pot face." },
+      { "speaker": "Laura", "en": "Can we pay the rest in instalments?", "ro": "Putem plăti restul în rate?" },
+      { "speaker": "Andrei", "en": "Yes, in three monthly instalments. I'll send a new invoice for each one.", "ro": "Da, în trei rate lunare. Voi trimite câte o factură nouă pentru fiecare." },
+      { "speaker": "Laura", "en": "Then I think we have a deal.", "ro": "Atunci cred că ne-am înțeles." }
+    ]
+  },
+  "reading": {
+    "title": "How I price my work (a blog post by Ioana, freelance developer)",
+    "text": "When I started freelancing, I had no idea how to set my prices. If a client asked for a quote, I panicked and gave a low number. I worked a lot, but I couldn't afford a holiday.\n\nToday, I have a few simple rules. If a project is small, I charge my hourly rate. If it's bigger, I give a fixed price, but only after a detailed meeting about the requirements. New clients always pay 30% upfront. If someone pays late, they pay a small fee. These rules aren't rude — they are professional.\n\nI also negotiate differently now. I never just lower my price. If a client's budget is too small, I suggest a compromise: fewer features, a simpler design, or a longer timeline. That way, both sides feel they have a fair deal.\n\nSometimes I ask myself: what would I do if I lost my biggest client tomorrow? That's why I sell monthly maintenance subscriptions. They are cheap for clients, and they give me a stable income.\n\nMy advice? If I were you, I would stop thinking that a higher price scares clients away. Good clients pay for quality, and they know it's worth it.",
+    "textRo": "Când am început să lucrez ca freelancer, nu aveam nicio idee cum să-mi stabilesc prețurile. Dacă un client îmi cerea o ofertă de preț, intram în panică și dădeam o sumă mică. Munceam mult, dar nu-mi permiteam un concediu.\n\nAstăzi am câteva reguli simple. Dacă un proiect este mic, cer tariful meu pe oră. Dacă e mai mare, dau un preț fix, dar numai după o ședință detaliată despre cerințe. Clienții noi plătesc mereu 30% în avans. Dacă cineva plătește cu întârziere, plătește o mică taxă. Aceste reguli nu sunt nepoliticoase — sunt profesionale.\n\nȘi negociez altfel acum. Nu îmi scad niciodată pur și simplu prețul. Dacă bugetul unui client e prea mic, propun un compromis: mai puține funcționalități, un design mai simplu sau un calendar mai lung. Astfel, ambele părți simt că au o înțelegere corectă.\n\nUneori mă întreb: ce aș face dacă mâine aș pierde cel mai mare client? De aceea vând abonamente lunare de mentenanță. Sunt ieftine pentru clienți și îmi oferă un venit stabil.\n\nSfatul meu? Dacă aș fi în locul tău, n-aș mai crede că un preț mai mare îi sperie pe clienți. Clienții buni plătesc pentru calitate și știu că merită.",
+    "questions": [
+      { "type": "mc", "q": "What happened when the writer started freelancing?", "options": ["She charged very high prices.", "She gave low prices and couldn't afford a holiday.", "She had no clients at all.", "She only worked with big companies."], "answer": 1, "explainRo": "„I panicked and gave a low number… I couldn't afford a holiday.”" },
+      { "type": "mc", "q": "What happens if a client pays late?", "options": ["The writer stops the project.", "The client gets a discount.", "The client pays a small fee.", "The writer asks for 30% more."], "answer": 2, "explainRo": "Regulă (condițional zero): „If someone pays late, they pay a small fee.”" },
+      { "type": "mc", "q": "What does the writer do if a client's budget is too small?", "options": ["She suggests fewer features, a simpler design or more time.", "She lowers her price immediately.", "She refuses the project.", "She asks for payment in instalments."], "answer": 0, "explainRo": "„I suggest a compromise: fewer features, a simpler design, or a longer timeline.”" },
+      { "type": "mc", "q": "Why does she sell maintenance subscriptions?", "options": ["Because clients ask for them", "Because they are expensive", "Because she wants fewer clients", "Because they give her a stable income"], "answer": 3, "explainRo": "„they give me a stable income”." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["discount", "reducere"], ["invoice", "factură"], ["budget", "buget"], ["refund", "rambursare"], ["in instalments", "în rate"]] },
+    { "type": "mc", "q": "If a client ___ late, we charge a 5% fee.", "options": ["pays", "will pay", "paid"], "answer": 0, "explainRo": "Regulă generală → condițional zero: If + present simple, present simple." },
+    { "type": "mc", "q": "If you sign the contract today, we ___ start on Monday.", "options": ["will", "would", "did"], "answer": 0, "explainRo": "Situație reală, posibilă → condiționalul I: If + present, will + verb." },
+    { "type": "mc", "q": "If I ___ more money, I would buy a new laptop.", "options": ["have", "had", "will have"], "answer": 1, "explainRo": "Condiționalul II: If + past simple, would + verb." },
+    { "type": "mc", "q": "If I ___ you, I would ask for a higher rate.", "options": ["am", "were", "be"], "answer": 1, "explainRo": "Expresia fixă pentru sfaturi este „If I were you”." },
+    { "type": "mc", "q": "We won't start the project ___ you pay 30% upfront.", "options": ["if", "unless", "when"], "answer": 1, "explainRo": "„unless” = dacă nu; nu începem dacă nu plătiți." },
+    { "type": "mc", "q": "What would you do if the client ___ to pay?", "options": ["refuses", "refused", "will refuse"], "answer": 1, "explainRo": "„would” în cealaltă propoziție → după if folosim past simple: refused." },
+    { "type": "mc", "q": "Can you send me a ___ for the whole project? I need to know the price before I decide.", "options": ["refund", "subscription", "quote"], "answer": 2, "explainRo": "„quote” = ofertă de preț trimisă înainte de decizie." },
+    { "type": "mc", "q": "You pay 30 euros every month to use the app — it's a monthly ___.", "options": ["budget", "subscription", "compromise"], "answer": 1, "explainRo": "Plata lunară regulată pentru un serviciu este un abonament: subscription." },
+    { "type": "fill", "q": "If the client ___ (agree), we'll start next week.", "answers": ["agrees"], "explainRo": "Condiționalul I: după if folosim present simple, cu -s la persoana a III-a." },
+    { "type": "fill", "q": "If we paid upfront, ___ you give us a discount?", "answers": ["would"], "explainRo": "„paid” după if → condiționalul II, deci would." },
+    { "type": "fill", "q": "I can't ___ a new car at the moment.", "answers": ["afford"], "explainRo": "„afford” = a-și permite financiar." },
+    { "type": "fill", "q": "If I ___ (win) the lottery, I'd travel around the world.", "answers": ["won"], "explainRo": "Situație imaginară cu „I'd” (I would) → If + past simple: won." },
+    { "type": "order", "words": ["If", "you", "pay", "late,", "we", "charge", "a", "fee."], "ro": "Dacă plătiți cu întârziere, percepem o taxă.", "explainRo": "Condițional zero: If + present simple, present simple." },
+    { "type": "order", "words": ["What", "would", "you", "do", "if", "you", "lost", "your", "job?"], "ro": "Ce ai face dacă ți-ai pierde locul de muncă?", "explainRo": "Condiționalul II la întrebare: What would you do if + past simple?" },
+    { "type": "order", "words": ["We", "can", "pay", "in", "instalments."], "ro": "Putem plăti în rate.", "explainRo": "„pay in instalments” = a plăti în rate." },
+    { "type": "translate", "ro": "Dacă aș fi în locul tău, aș cere o reducere.", "answers": ["If I were you, I would ask for a discount.", "If I were you, I'd ask for a discount.", "If I was you, I would ask for a discount.", "If I was you, I'd ask for a discount.", "I would ask for a discount if I were you.", "I'd ask for a discount if I were you."], "explainRo": "Sfat cu condiționalul II: If I were you, I would…" },
+    { "type": "translate", "ro": "Dacă plătiți în avans, vă facem o reducere.", "answers": ["If you pay upfront, we'll give you a discount.", "If you pay upfront, we will give you a discount.", "If you pay in advance, we'll give you a discount.", "If you pay in advance, we will give you a discount.", "If you pay upfront, we give you a discount.", "If you pay in advance, we give you a discount.", "If you pay upfront, we'll offer you a discount.", "If you pay in advance, we'll offer you a discount.", "If you pay upfront, we will offer you a discount.", "If you pay in advance, we will offer you a discount."], "explainRo": "Ofertă reală → condiționalul I (sau zero, ca regulă): If you pay…, we'll give you…" },
+    { "type": "listen", "audio": "Is it worth it?", "answers": ["Is it worth it?"], "ro": "Merită?", "explainRo": "„worth it” = merită (efortul sau banii)." },
+    { "type": "listen", "audio": "My hourly rate is fifty euros.", "answers": ["My hourly rate is fifty euros.", "My hourly rate is 50 euros."], "ro": "Tariful meu pe oră este de cincizeci de euro.", "explainRo": "„hourly rate” = tarif pe oră." }
+  ],
+  "video": { "youtubeId": "FH3ThwR99LM", "title": "English Conditional Sentences (with examples!) (mmmEnglish)" }
+}

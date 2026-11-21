@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u07",
+  "questions": [
+    { "type": "mc", "q": "___ a cat on my keyboard!", "options": ["It is", "There are", "There is"], "answer": 2, "explainRo": "Când spunem că ceva există undeva folosim **there is** (singular), nu „it is”." },
+    { "type": "mc", "q": "There ___ five developers in our team.", "options": ["is", "are", "be"], "answer": 1, "explainRo": "Five developers este la plural, deci folosim **there are**." },
+    { "type": "mc", "q": "I want to print this email. Where's the ___?", "options": ["sofa", "kitchen", "bus stop", "printer"], "answer": 3, "explainRo": "Ca să printezi ai nevoie de o imprimantă = **printer**." },
+    { "type": "mc", "q": "There's milk in the fridge, but there aren't ___ eggs.", "options": ["any", "some", "a"], "answer": 0, "explainRo": "În propozițiile negative cu plural folosim **any**, nu „some”." },
+    { "type": "mc", "q": "___ there any bugs in my code?", "options": ["Is", "Are", "Do", "Have"], "answer": 1, "explainRo": "Bugs este la plural, deci întrebarea începe cu **Are there...?**" },
+    { "type": "fill", "q": "Our office is ___ a big park. (vizavi de)", "answers": ["opposite"], "explainRo": "Vizavi de = **opposite**, fără „of” sau „to” după el." },
+    { "type": "fill", "q": "Are there any taxis at the station? — No, there ___.", "answers": ["aren't", "are not"], "explainRo": "La **Are there...?** răspunsul scurt negativ este **No, there aren't**." },
+    { "type": "fill", "q": "I take a shower in the ___ every morning. (baie)", "answers": ["bathroom"], "explainRo": "Baie = **bathroom**, camera în care faci duș." },
+    { "type": "order", "words": ["There", "are", "some", "new", "emails", "from", "the", "client."], "ro": "Sunt niște e-mailuri noi de la client.", "explainRo": "Plural într-o propoziție afirmativă: **there are** + **some**." },
+    { "type": "order", "words": ["The", "museum", "is", "in", "front", "of", "our", "hotel."], "ro": "Muzeul este în fața hotelului nostru.", "explainRo": "În fața = **in front of**, o expresie din trei cuvinte pe care o înveți ca pe un bloc." },
+    { "type": "listen", "audio": "Is there a coffee machine on this train?", "answers": ["Is there a coffee machine on this train?"], "ro": "Este vreun aparat de cafea în trenul acesta?", "explainRo": "În întrebare **is** trece înaintea lui there: **Is there...?**; coffee machine = aparat de cafea." },
+    { "type": "translate", "ro": "Nu este niciun supermarket pe strada mea.", "answers": ["There isn't a supermarket on my street.", "There is not a supermarket on my street.", "There's no supermarket on my street.", "There is no supermarket on my street.", "There isn't a supermarket in my street.", "There is not a supermarket in my street.", "There's no supermarket in my street.", "There is no supermarket in my street."], "explainRo": "„Nu există” la singular = **there isn't a** (sau **there is no**), nu „it isn't”." }
+  ]
+}

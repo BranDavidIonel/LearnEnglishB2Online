@@ -1,0 +1,132 @@
+{
+  "id": "b1-u02",
+  "level": "B1",
+  "order": 2,
+  "title": "My career so far",
+  "titleRo": "Cariera mea până acum",
+  "emoji": "📄",
+  "goalRo": "La final vei putea să vorbești despre experiența ta profesională, să-ți prezinți CV-ul și să răspunzi la întrebări de interviu, folosind corect present perfect, past simple, for și since.",
+  "vocab": [
+    { "en": "CV", "ro": "CV", "pos": "noun", "ipa": "/ˌsiːˈviː/", "emoji": "📄", "ex": "I've just updated my CV.", "exRo": "Tocmai mi-am actualizat CV-ul." },
+    { "en": "job interview", "ro": "interviu de angajare", "pos": "noun", "ipa": "/ˈdʒɒb ˌɪn.tə.vjuː/", "emoji": "🎙️", "ex": "I have a job interview on Thursday morning.", "exRo": "Am un interviu de angajare joi dimineață." },
+    { "en": "apply for", "ro": "a aplica pentru, a candida la", "pos": "verb", "ipa": "/əˈplaɪ fɔːr/", "emoji": "📨", "ex": "She has applied for three jobs this week.", "exRo": "A aplicat la trei joburi săptămâna aceasta." },
+    { "en": "experience", "ro": "experiență", "pos": "noun", "ipa": "/ɪkˈspɪə.ri.əns/", "emoji": "🧭", "ex": "Do you have any experience with React?", "exRo": "Ai ceva experiență cu React?" },
+    { "en": "skill", "ro": "abilitate, competență", "pos": "noun", "ipa": "/skɪl/", "emoji": "🛠️", "ex": "Communication is an important skill for developers.", "exRo": "Comunicarea este o abilitate importantă pentru programatori." },
+    { "en": "degree", "ro": "diplomă universitară", "pos": "noun", "ipa": "/dɪˈɡriː/", "emoji": "🎓", "ex": "He has a degree in computer science.", "exRo": "Are o diplomă în informatică." },
+    { "en": "employer", "ro": "angajator", "pos": "noun", "ipa": "/ɪmˈplɔɪ.ər/", "emoji": "🏭", "ex": "My last employer was a German bank.", "exRo": "Ultimul meu angajator a fost o bancă germană." },
+    { "en": "position", "ro": "post, poziție", "pos": "noun", "ipa": "/pəˈzɪʃ.ən/", "emoji": "🪑", "ex": "They have an open position for a backend developer.", "exRo": "Au un post liber de programator backend." },
+    { "en": "salary", "ro": "salariu", "pos": "noun", "ipa": "/ˈsæl.ər.i/", "emoji": "💶", "ex": "The salary is good, but the office is far away.", "exRo": "Salariul e bun, dar biroul e departe." },
+    { "en": "get promoted", "ro": "a fi promovat", "pos": "phrase", "ipa": "/ɡet prəˈməʊ.tɪd/", "emoji": "📈", "ex": "She got promoted to team lead last year.", "exRo": "A fost promovată team lead anul trecut." },
+    { "en": "achievement", "ro": "realizare", "pos": "noun", "ipa": "/əˈtʃiːv.mənt/", "emoji": "🏆", "ex": "My biggest achievement was a project for a national retailer.", "exRo": "Cea mai mare realizare a mea a fost un proiect pentru un retailer național." },
+    { "en": "strength", "ro": "punct forte", "pos": "noun", "ipa": "/streŋθ/", "emoji": "💪", "ex": "Solving difficult problems is one of my strengths.", "exRo": "Rezolvarea problemelor dificile este unul dintre punctele mele forte." },
+    { "en": "weakness", "ro": "punct slab", "pos": "noun", "ipa": "/ˈwiːk.nəs/", "emoji": "🩹", "ex": "My weakness is that I sometimes work too slowly.", "exRo": "Punctul meu slab este că uneori lucrez prea încet." },
+    { "en": "resign", "ro": "a demisiona", "pos": "verb", "ipa": "/rɪˈzaɪn/", "emoji": "🚪", "ex": "He resigned because he wanted to work as a freelancer.", "exRo": "A demisionat pentru că voia să lucreze ca freelancer." },
+    { "en": "career", "ro": "carieră", "pos": "noun", "ipa": "/kəˈrɪər/", "emoji": "🧗", "ex": "She started her career as a tester.", "exRo": "Și-a început cariera ca tester." },
+    { "en": "so far", "ro": "până acum", "pos": "phrase", "ipa": "/ˈsəʊ fɑːr/", "emoji": "🛤️", "ex": "So far, I've worked with five different clients.", "exRo": "Până acum am lucrat cu cinci clienți diferiți." },
+    { "en": "take on", "ro": "a-și asuma; a angaja", "pos": "verb", "ipa": "/ˌteɪk ˈɒn/", "emoji": "🎒", "ex": "I don't want to take on too many projects at once.", "exRo": "Nu vreau să-mi asum prea multe proiecte deodată." }
+  ],
+  "grammar": {
+    "title": "Present perfect vs past simple; for and since",
+    "titleRo": "Present perfect vs past simple; for și since",
+    "sections": [
+      {
+        "headingRo": "Present perfect: legătura dintre trecut și prezent",
+        "textRo": "**have/has + participiul trecut** (worked, done, written). Îl folosim când **nu spunem când** s-a întâmplat ceva, pentru **experiențe de viață** (ever, never), pentru rezultate vizibile acum și cu perioade **încă neterminate** (today, this year, so far).",
+        "examples": [
+          { "en": "I've worked with three ERP systems.", "ro": "Am lucrat cu trei sisteme ERP." },
+          { "en": "Have you ever had a video interview?", "ro": "Ai avut vreodată un interviu video?" },
+          { "en": "She has applied for two jobs this week.", "ro": "A aplicat la două joburi săptămâna aceasta." }
+        ]
+      },
+      {
+        "headingRo": "Past simple: un moment terminat",
+        "textRo": "Când spunem **când** (yesterday, last year, in 2019, two weeks ago, when I was a student) sau perioada e complet încheiată, folosim **past simple**. Întrebările cu **When…?** cer aproape mereu past simple.",
+        "examples": [
+          { "en": "I got my degree in 2018.", "ro": "Mi-am luat diploma în 2018." },
+          { "en": "He resigned two months ago.", "ro": "A demisionat acum două luni." },
+          { "en": "When did you start your first job?", "ro": "Când ai început primul tău job?" }
+        ]
+      },
+      {
+        "headingRo": "For și since: de cât timp?",
+        "textRo": "Pentru ceva care a început în trecut și **continuă și acum**, engleza folosește present perfect (în română folosim prezentul: „lucrez aici de trei ani”). **for** + durată, **since** + momentul de început.",
+        "table": {
+          "headers": ["for (durată)", "since (punct de început)"],
+          "rows": [
+            ["for three years", "since 2021"],
+            ["for six months", "since January"],
+            ["for a long time", "since I was a student"]
+          ]
+        },
+        "examples": [
+          { "en": "I've lived in Cluj for five years.", "ro": "Locuiesc în Cluj de cinci ani." },
+          { "en": "We've been partners since 2020.", "ro": "Suntem parteneri din 2020." }
+        ]
+      },
+      {
+        "headingRo": "Cuvinte-semnal",
+        "textRo": "Cu present perfect: **just, already, yet, ever, never, so far, recently**. Cu past simple: **ago, last, yesterday, in + an**. Atenție: **yet** apare în negații și întrebări, la final de propoziție.",
+        "examples": [
+          { "en": "I've already sent my CV.", "ro": "Mi-am trimis deja CV-ul." },
+          { "en": "They haven't replied yet.", "ro": "Nu au răspuns încă." },
+          { "en": "I sent it last Monday.", "ro": "L-am trimis lunea trecută." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „I work here since 2020”. Corect: **I've worked here since 2020** (sau I've been here since 2020).",
+      "Nu spune „since three years”. Cu o durată folosim **for**: **for three years**.",
+      "Nu combina present perfect cu un moment precis: nu „I have finished university in 2019”, ci **I finished university in 2019**.",
+      "„Acum trei ani” = **three years ago** (ago stă după durată, nu înainte)."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Interviu de angajare (online)",
+    "lines": [
+      { "speaker": "Sarah", "en": "Thanks for joining us, Andrei. Can you tell me a little about your career so far?", "ro": "Mulțumim că ni te-ai alăturat, Andrei. Poți să-mi spui puțin despre cariera ta de până acum?" },
+      { "speaker": "Andrei", "en": "Sure. I started as a junior PHP developer in 2017. Then I moved to a company that makes ERP software.", "ro": "Sigur. Am început ca programator PHP junior în 2017. Apoi m-am mutat la o firmă care face software ERP." },
+      { "speaker": "Sarah", "en": "How long did you stay there?", "ro": "Cât timp ai rămas acolo?" },
+      { "speaker": "Andrei", "en": "Four years. I got promoted to senior developer in 2021, and I resigned last year to work as a freelancer.", "ro": "Patru ani. Am fost promovat senior developer în 2021, iar anul trecut am demisionat ca să lucrez ca freelancer." },
+      { "speaker": "Sarah", "en": "And what have you done since then?", "ro": "Și ce ai făcut de atunci?" },
+      { "speaker": "Andrei", "en": "I've built two CRM systems and I've maintained several online shops. I've also taken on some project management.", "ro": "Am construit două sisteme CRM și am întreținut mai multe magazine online. Mi-am asumat și ceva management de proiect." },
+      { "speaker": "Sarah", "en": "Great. Have you ever worked with an international team?", "ro": "Super. Ai lucrat vreodată cu o echipă internațională?" },
+      { "speaker": "Andrei", "en": "Yes, I have. My last client was in Denmark, and we had daily calls in English.", "ro": "Da. Ultimul meu client era în Danemarca și aveam apeluri zilnice în engleză." },
+      { "speaker": "Sarah", "en": "Perfect. And what would you say is your biggest strength?", "ro": "Perfect. Și care ai spune că este cel mai mare punct forte al tău?" },
+      { "speaker": "Andrei", "en": "I'm good at turning vague requirements into clear tasks. I've done that on every project so far.", "ro": "Mă pricep să transform cerințe vagi în sarcini clare. Am făcut asta la fiecare proiect de până acum." }
+    ]
+  },
+  "reading": {
+    "title": "Ioana's next step",
+    "text": "Ioana has worked as a web developer for six years. She studied computer science in Iași and got her degree in 2018. Her first job was at a small agency, where she built websites for hotels and restaurants. She learned a lot there, but the salary was low, so she resigned after two years.\n\nIn 2020 she joined a company that makes ERP software for factories. She has been there since then, and she has got promoted twice. Today she leads a team of four developers. So far, her biggest achievement has been a warehouse module that saves clients hours of work every week.\n\nLast month, Ioana decided it was time for a change. She has updated her CV, and she has already applied for three positions abroad. Yesterday she had her first video interview with a Dutch employer. The interviewer asked about her experience with large databases, and they also talked about strengths and weaknesses. Ioana was honest: she is great at solving problems, but she sometimes takes on too much work.\n\nShe hasn't heard from the company yet, but she feels optimistic.",
+    "textRo": "Ioana lucrează ca programatoare web de șase ani. A studiat informatica la Iași și și-a luat diploma în 2018. Primul ei job a fost la o mică agenție, unde a construit site-uri pentru hoteluri și restaurante. A învățat multe acolo, dar salariul era mic, așa că a demisionat după doi ani.\n\nÎn 2020 s-a alăturat unei firme care face software ERP pentru fabrici. Este acolo de atunci și a fost promovată de două ori. Astăzi conduce o echipă de patru programatori. Până acum, cea mai mare realizare a ei a fost un modul de depozit care le economisește clienților ore de muncă în fiecare săptămână.\n\nLuna trecută, Ioana a decis că a venit momentul unei schimbări. Și-a actualizat CV-ul și a aplicat deja pentru trei posturi în străinătate. Ieri a avut primul interviu video cu un angajator olandez. Intervievatorul a întrebat-o despre experiența ei cu baze de date mari și au vorbit și despre punctele forte și cele slabe. Ioana a fost sinceră: e foarte bună la rezolvarea problemelor, dar uneori își asumă prea multă muncă.\n\nNu a primit încă vești de la firmă, dar este optimistă.",
+    "questions": [
+      { "type": "mc", "q": "Why did Ioana leave her first job?", "options": ["She got a degree.", "The salary was low.", "The agency closed.", "She moved to the Netherlands."], "answer": 1, "explainRo": "„the salary was low, so she resigned after two years”." },
+      { "type": "mc", "q": "How many times has Ioana got promoted at her current company?", "options": ["Once", "Three times", "Twice", "Never"], "answer": 2, "explainRo": "„she has got promoted twice” — twice = de două ori." },
+      { "type": "mc", "q": "What has Ioana done recently?", "options": ["She has applied for three jobs abroad.", "She has resigned from her company.", "She has accepted a job in the Netherlands.", "She has started a new degree."], "answer": 0, "explainRo": "„she has already applied for three positions abroad”." },
+      { "type": "mc", "q": "What is Ioana's weakness?", "options": ["She doesn't know databases.", "She is not honest.", "She can't solve problems.", "She sometimes takes on too much work."], "answer": 3, "explainRo": "„she sometimes takes on too much work” este punctul ei slab." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["skill", "abilitate"], ["salary", "salariu"], ["employer", "angajator"], ["weakness", "punct slab"], ["degree", "diplomă universitară"]] },
+    { "type": "mc", "q": "I ___ in Brașov for five years, but now I live in Cluj.", "options": ["lived", "have lived", "live"], "answer": 0, "explainRo": "Perioada din Brașov s-a terminat (acum locuiește în Cluj), deci past simple." },
+    { "type": "mc", "q": "She ___ at this company since 2021.", "options": ["works", "has worked", "worked"], "answer": 1, "explainRo": "„since 2021” + situație care continuă și acum → present perfect." },
+    { "type": "mc", "q": "I ___ my degree in 2017.", "options": ["got", "have got", "get"], "answer": 0, "explainRo": "„in 2017” este un moment terminat din trecut, deci past simple." },
+    { "type": "mc", "q": "We've been partners ___ three years.", "options": ["since", "for", "ago"], "answer": 1, "explainRo": "„three years” este o durată, deci folosim for." },
+    { "type": "mc", "q": "Have you ever ___ a job abroad?", "options": ["apply for", "applied for", "applying for"], "answer": 1, "explainRo": "După have/has folosim participiul trecut: applied." },
+    { "type": "mc", "q": "He left the company two months ___.", "options": ["since", "for", "ago"], "answer": 2, "explainRo": "„ago” stă după durată și se folosește cu past simple: two months ago." },
+    { "type": "mc", "q": "What's your biggest ___? — I'm very organised and I never miss a deadline.", "options": ["weakness", "strength", "salary"], "answer": 1, "explainRo": "Vorbește despre o calitate, deci un punct forte: strength." },
+    { "type": "mc", "q": "After three years, she finally got ___ to team lead.", "options": ["resigned", "applied", "promoted"], "answer": 2, "explainRo": "„get promoted” = a fi promovat." },
+    { "type": "fill", "q": "I ___ (already / send) my CV to them.", "answers": ["have already sent", "'ve already sent"], "explainRo": "„already” se folosește cu present perfect și stă între have și participiu." },
+    { "type": "fill", "q": "When ___ you start your first job?", "answers": ["did"], "explainRo": "Întrebările cu When despre un moment trecut cer past simple: When did you…?" },
+    { "type": "fill", "q": "I've known Mihai ___ 2015.", "answers": ["since"], "explainRo": "2015 este punctul de început, deci since." },
+    { "type": "fill", "q": "She ___ (not / finish) the coding test yet.", "answers": ["hasn't finished", "has not finished"], "explainRo": "„yet” în negații → present perfect: hasn't finished." },
+    { "type": "order", "words": ["I", "have", "never", "worked", "with", "Angular."], "ro": "N-am lucrat niciodată cu Angular.", "explainRo": "„never” stă între have și participiul trecut." },
+    { "type": "order", "words": ["How", "long", "have", "you", "been", "a", "developer?"], "ro": "De cât timp ești programator?", "explainRo": "„How long” + present perfect întreabă de cât timp durează ceva până acum." },
+    { "type": "order", "words": ["We", "hired", "two", "new", "developers", "last", "month."], "ro": "Am angajat doi programatori noi luna trecută.", "explainRo": "„last month” este un moment terminat, deci past simple: hired." },
+    { "type": "translate", "ro": "Lucrez aici de trei ani.", "answers": ["I have worked here for three years.", "I've worked here for three years.", "I have been working here for three years.", "I've been working here for three years.", "I have been here for three years.", "I've been here for three years."], "explainRo": "În română folosim prezentul, dar în engleză: present perfect + for." },
+    { "type": "translate", "ro": "Am terminat facultatea în 2019.", "answers": ["I finished university in 2019.", "I graduated in 2019.", "I graduated from university in 2019.", "I finished college in 2019.", "I graduated from college in 2019.", "I finished my studies in 2019."], "explainRo": "„în 2019” este un moment precis din trecut, deci past simple." },
+    { "type": "listen", "audio": "I have just updated my CV.", "answers": ["I have just updated my CV.", "I've just updated my CV."], "ro": "Tocmai mi-am actualizat CV-ul.", "explainRo": "„just” + present perfect = tocmai am făcut ceva." },
+    { "type": "listen", "audio": "She resigned two weeks ago.", "answers": ["She resigned two weeks ago.", "She resigned 2 weeks ago."], "ro": "A demisionat acum două săptămâni.", "explainRo": "„ago” cere past simple: resigned." }
+  ],
+  "video": { "youtubeId": "T09u75kiKGc", "title": "Present Perfect or Past Simple? - English Grammar lesson (Papa Teach Me)" }
+}

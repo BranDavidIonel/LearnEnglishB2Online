@@ -1,0 +1,134 @@
+{
+  "id": "b2-u08",
+  "level": "B2",
+  "order": 8,
+  "title": "Stop to breathe: health and work–life balance",
+  "titleRo": "Oprește-te să respiri: sănătate și echilibru între muncă și viața personală",
+  "emoji": "🧘",
+  "goalRo": "La final vei putea vorbi despre stres, obiceiuri sănătoase și productivitate, alegând corect între gerunziu (-ing) și infinitiv, chiar și acolo unde sensul se schimbă.",
+
+  "vocab": [
+    { "en": "work–life balance", "ro": "echilibru între muncă și viața personală", "pos": "noun", "ipa": "/ˌwɜːk ˈlaɪf ˌbæl.əns/", "emoji": "⚖️", "ex": "Freelancing improved my work–life balance at first, then ruined it.", "exRo": "Freelancingul mi-a îmbunătățit la început echilibrul dintre muncă și viața personală, apoi l-a distrus." },
+    { "en": "procrastinate", "ro": "a amâna (din comoditate), a tărăgăna", "pos": "verb", "ipa": "/prəˈkræs.tɪ.neɪt/", "emoji": "🦥", "ex": "I always procrastinate when a task feels too big.", "exRo": "Amân mereu când o sarcină mi se pare prea mare." },
+    { "en": "deep work", "ro": "muncă concentrată, fără întreruperi", "pos": "noun", "ipa": "/ˌdiːp ˈwɜːk/", "emoji": "🎧", "ex": "I keep my mornings for deep work and do meetings after lunch.", "exRo": "Îmi păstrez diminețile pentru muncă concentrată și fac ședințele după prânz." },
+    { "en": "screen time", "ro": "timp petrecut în fața ecranelor", "pos": "noun", "ipa": "/ˈskriːn ˌtaɪm/", "emoji": "📱", "ex": "My phone says my screen time is eleven hours a day!", "exRo": "Telefonul îmi spune că petrec unsprezece ore pe zi în fața ecranului!" },
+    { "en": "sedentary", "ro": "sedentar", "pos": "adj", "ipa": "/ˈsed.ən.tər.i/", "emoji": "🪑", "ex": "Programmers often have a very sedentary lifestyle.", "exRo": "Programatorii au adesea un stil de viață foarte sedentar." },
+    { "en": "posture", "ro": "postură, ținută", "pos": "noun", "ipa": "/ˈpɒs.tʃə/", "emoji": "🧍", "ex": "Bad posture is the main cause of my back pain.", "exRo": "Postura greșită este principala cauză a durerilor mele de spate." },
+    { "en": "standing desk", "ro": "birou la care lucrezi în picioare", "pos": "noun", "ipa": "/ˈstæn.dɪŋ ˌdesk/", "emoji": "🖥️", "wiki": "Standing desk", "ex": "Since I got a standing desk, my back hurts much less.", "exRo": "De când am un birou la care pot lucra în picioare, mă doare mult mai puțin spatele." },
+    { "en": "unwind", "ro": "a se relaxa, a se destinde", "pos": "verb", "ipa": "/ʌnˈwaɪnd/", "emoji": "🛁", "ex": "I unwind by cooking something new every Friday.", "exRo": "Mă relaxez gătind ceva nou în fiecare vineri." },
+    { "en": "recharge your batteries", "ro": "a-și reîncărca bateriile", "pos": "phrase", "ipa": "/ˌriːˈtʃɑːdʒ jɔː ˈbæt.ər.iz/", "emoji": "🔋", "ex": "A week in the mountains is the best way to recharge your batteries.", "exRo": "O săptămână la munte este cel mai bun mod de a-ți reîncărca bateriile." },
+    { "en": "mindfulness", "ro": "atenție conștientă (mindfulness)", "pos": "noun", "ipa": "/ˈmaɪnd.fəl.nəs/", "emoji": "🌿", "ex": "Ten minutes of mindfulness before work helps me stay calm.", "exRo": "Zece minute de mindfulness înainte de muncă mă ajută să rămân calm." },
+    { "en": "sleep deprivation", "ro": "lipsă de somn", "pos": "noun", "ipa": "/ˈsliːp ˌdep.rɪˌveɪ.ʃən/", "emoji": "😵", "ex": "Sleep deprivation makes you write worse code.", "exRo": "Lipsa de somn te face să scrii cod mai prost." },
+    { "en": "overwhelmed", "ro": "copleșit", "pos": "adj", "ipa": "/ˌəʊ.vəˈwelmd/", "emoji": "🌊", "ex": "I felt overwhelmed by the number of client requests.", "exRo": "M-am simțit copleșit de numărul de cereri ale clienților." },
+    { "en": "set boundaries", "ro": "a-și stabili limite", "pos": "phrase", "ipa": "/ˌset ˈbaʊn.dər.iz/", "emoji": "🚧", "ex": "You need to set boundaries with clients who call at midnight.", "exRo": "Trebuie să-ți stabilești limite cu clienții care sună la miezul nopții." },
+    { "en": "take a toll on", "ro": "a-și pune amprenta (negativ) pe, a afecta", "pos": "phrase", "ipa": "/ˌteɪk ə ˈtəʊl ɒn/", "emoji": "⛓️", "ex": "Years of night shifts took a toll on his health.", "exRo": "Anii de ture de noapte i-au afectat sănătatea." },
+    { "en": "cut down on", "ro": "a reduce (consumul de)", "pos": "verb", "ipa": "/ˌkʌt ˈdaʊn ɒn/", "emoji": "☕", "ex": "I'm trying to cut down on coffee after 2 p.m.", "exRo": "Încerc să reduc cafeaua după ora 14." },
+    { "en": "resilience", "ro": "reziliență, capacitatea de a-ți reveni", "pos": "noun", "ipa": "/rɪˈzɪl.i.əns/", "emoji": "🌱", "ex": "Regular exercise builds both physical and mental resilience.", "exRo": "Mișcarea regulată construiește reziliență atât fizică, cât și mentală." }
+  ],
+
+  "grammar": {
+    "title": "Verb patterns: gerund or infinitive?",
+    "titleRo": "Tipare verbale: gerunziu sau infinitiv?",
+    "sections": [
+      {
+        "headingRo": "Verbe care își schimbă sensul (1): remember, forget, stop, regret",
+        "textRo": "La aceste verbe alegerea dintre **-ing** și **to + infinitiv** schimbă complet sensul. Regula de aur: **-ing** privește **înapoi** (acțiunea a avut loc deja), **to + infinitiv** privește **înainte** (acțiunea urmează). *I remember locking the door* = îmi amintesc că am încuiat. *Remember to lock the door* = nu uita să încui.",
+        "table": {
+          "headers": ["Verb", "+ -ing", "+ to + infinitiv"],
+          "rows": [
+            ["remember", "îmi amintesc că am făcut", "nu uit să fac"],
+            ["forget", "uit că am făcut (de obicei: I'll never forget meeting…)", "uit să fac"],
+            ["stop", "nu mai fac (renunț)", "mă opresc ca să fac altceva"],
+            ["regret", "regret că am făcut", "regret să vă anunț (formal)"]
+          ]
+        },
+        "examples": [
+          { "en": "I stopped drinking coffee after 4 p.m., and now I sleep much better.", "ro": "M-am lăsat de cafea după ora 16, iar acum dorm mult mai bine." },
+          { "en": "On the way home, I stopped to buy some fruit.", "ro": "În drum spre casă, m-am oprit să cumpăr niște fructe." },
+          { "en": "I'll never forget seeing the sunrise from Omu Peak.", "ro": "N-o să uit niciodată cum am văzut răsăritul de pe Vârful Omu." },
+          { "en": "We regret to inform you that your flight has been cancelled.", "ro": "Regretăm să vă anunțăm că zborul dumneavoastră a fost anulat." }
+        ]
+      },
+      {
+        "headingRo": "Verbe care își schimbă sensul (2): try, go on, mean",
+        "textRo": "**Try + to + infinitiv** = a se strădui să faci ceva greu. **Try + -ing** = a încerca o metodă, ca experiment, să vezi dacă merge. **Go on + -ing** = a continua aceeași activitate; **go on + to + infinitiv** = a trece apoi la altceva. **Mean + to + infinitiv** = a avea intenția; **mean + -ing** = a implica.",
+        "examples": [
+          { "en": "I tried to focus, but the open-plan office was too noisy.", "ro": "M-am străduit să mă concentrez, dar biroul open-space era prea zgomotos." },
+          { "en": "If you can't sleep, try switching off your phone an hour before bed.", "ro": "Dacă nu poți dormi, încearcă să-ți închizi telefonul cu o oră înainte de culcare." },
+          { "en": "She worked as a tester for two years and went on to become a team lead.", "ro": "A lucrat doi ani ca tester, iar apoi a ajuns team lead." },
+          { "en": "Taking this project means working most weekends.", "ro": "A accepta acest proiect înseamnă să lucrezi în majoritatea weekendurilor." }
+        ]
+      },
+      {
+        "headingRo": "Expresii fixe cu -ing și verbe cu infinitiv scurt",
+        "textRo": "Unele expresii cer mereu **-ing**: **it's worth**, **it's no use**, **there's no point (in)**, **can't help**, **can't stand**, **look forward to**, **be/get used to**, **avoid**, **keep**. Altele cer **to + infinitiv**: **afford, manage, tend, hesitate, can't wait**. După **make** și **let** folosim infinitivul **fără to**: *My doctor made me cut down on sugar.* La pasiv însă revine **to**: *I was made to wait.*",
+        "examples": [
+          { "en": "It's not worth checking your emails on holiday.", "ro": "Nu merită să-ți verifici emailurile în concediu." },
+          { "en": "There's no point in working twelve hours if you can't think clearly.", "ro": "N-are rost să lucrezi douăsprezece ore dacă nu poți gândi limpede." },
+          { "en": "I can't help checking Slack every five minutes.", "ro": "Nu mă pot abține să nu verific Slack la fiecare cinci minute." },
+          { "en": "My manager lets us work from home on Fridays.", "ro": "Managerul ne lasă să lucrăm de acasă vinerea." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "„Nu uita să-mi trimiți raportul” = **Don't forget to send me the report**, nu „Don't forget sending”.",
+      "„M-am lăsat de fumat” = **I stopped smoking** (sau *I quit smoking*). **I stopped to smoke** înseamnă că te-ai oprit ca să fumezi!",
+      "După **look forward to** vine **-ing**: **I look forward to hearing from you**, nu „to hear from you”.",
+      "După **make** și **let** nu pune **to**: **She made me laugh**, nu „made me to laugh”."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "La doctor, după luni de stres",
+    "lines": [
+      { "speaker": "Dr Marin", "en": "So, what seems to be the problem?", "ro": "Deci, care pare să fie problema?" },
+      { "speaker": "Andrei", "en": "I can't stop thinking about work, even at night. I keep waking up at 4 a.m.", "ro": "Nu mă pot opri din a mă gândi la muncă, nici măcar noaptea. Mă tot trezesc la 4 dimineața." },
+      { "speaker": "Dr Marin", "en": "How much screen time do you have in the evening?", "ro": "Cât timp petreci în fața ecranelor seara?" },
+      { "speaker": "Andrei", "en": "Too much. I've tried to cut down on it, but I can't help checking messages from clients.", "ro": "Prea mult. Am încercat să reduc, dar nu mă pot abține să nu verific mesajele de la clienți." },
+      { "speaker": "Dr Marin", "en": "Then try switching your phone to flight mode after nine. And remember to take a short walk every two hours.", "ro": "Atunci încearcă să-ți pui telefonul în modul avion după ora nouă. Și nu uita să faci o scurtă plimbare la fiecare două ore." },
+      { "speaker": "Andrei", "en": "That means telling my clients I won't answer at night. They won't like it.", "ro": "Asta înseamnă să le spun clienților că nu răspund noaptea. N-o să le placă." },
+      { "speaker": "Dr Marin", "en": "It's worth trying. Sleep deprivation will take a toll on your health – and on your code.", "ro": "Merită să încerci. Lipsa de somn îți va afecta sănătatea – și codul." },
+      { "speaker": "Andrei", "en": "Fair enough. I suppose I need to set boundaries. I regret not doing it years ago.", "ro": "Ai dreptate. Cred că trebuie să-mi stabilesc limite. Regret că n-am făcut-o de acum câțiva ani." }
+    ]
+  },
+
+  "reading": {
+    "title": "How I stopped trying to be productive",
+    "text": "Three years ago I was the most \"productive\" person I knew. I woke up at five, answered emails before breakfast and kept working until midnight. I couldn't afford to say no to any client, or so I thought. I remember feeling proud when my screen time reached fourteen hours a day.\n\nThen my body started to complain. First it was my back – a result of bad posture and an extremely sedentary lifestyle. Then came the headaches, the sleepless nights and a strange feeling of being overwhelmed by even the smallest task. I tried to work harder, which, of course, only made things worse.\n\nThe turning point came when my sister made me take a weekend off. We went hiking in the Apuseni Mountains, without laptops. On the second day I stopped to look at the view and realised I hadn't thought about work for six hours. I'll never forget feeling so light.\n\nWhen I got back, I decided to try doing things differently. I stopped checking emails before ten, so that my mornings were for deep work only. I bought a standing desk and set a timer to remind me to move every hour. I started practising mindfulness for ten minutes a day – something I used to laugh at.\n\nThe results surprised me. I now work about six hours a day, and I get more done than before. My clients didn't leave; most of them respect me more for setting boundaries. If you're constantly exhausted, don't wait for your body to make you stop. It's worth slowing down before it's too late.",
+    "textRo": "Acum trei ani eram cel mai „productiv” om pe care îl cunoșteam. Mă trezeam la cinci, răspundeam la emailuri înainte de micul dejun și lucram până la miezul nopții. Nu-mi permiteam să refuz niciun client, sau așa credeam. Îmi amintesc că mă simțeam mândru când timpul meu în fața ecranului a ajuns la paisprezece ore pe zi.\n\nApoi corpul a început să se plângă. Mai întâi a fost spatele – rezultatul unei posturi greșite și al unui stil de viață extrem de sedentar. Au urmat durerile de cap, nopțile nedormite și un sentiment ciudat de copleșire chiar și în fața celor mai mici sarcini. M-am străduit să muncesc mai mult, ceea ce, desigur, n-a făcut decât să înrăutățească lucrurile.\n\nPunctul de cotitură a venit când sora mea m-a obligat să-mi iau un weekend liber. Am mers la drumeție în Munții Apuseni, fără laptopuri. În a doua zi m-am oprit să privesc peisajul și mi-am dat seama că nu mă gândisem la muncă de șase ore. N-o să uit niciodată cât de ușor m-am simțit.\n\nCând m-am întors, am hotărât să încerc să fac lucrurile altfel. Am încetat să-mi verific emailurile înainte de ora zece, astfel încât diminețile să fie doar pentru muncă concentrată. Mi-am cumpărat un birou la care pot lucra în picioare și mi-am setat un cronometru care să-mi amintească să mă mișc în fiecare oră. Am început să practic mindfulness zece minute pe zi – ceva de care pe vremuri râdeam.\n\nRezultatele m-au surprins. Acum lucrez în jur de șase ore pe zi și reușesc să fac mai mult decât înainte. Clienții nu au plecat; cei mai mulți mă respectă mai mult pentru că mi-am stabilit limite. Dacă ești mereu epuizat, nu aștepta ca trupul tău să te oblige să te oprești. Merită să încetinești înainte să fie prea târziu.",
+    "questions": [
+      { "type": "mc", "q": "How did the author feel about his long screen time three years ago?", "options": ["Worried", "Proud", "Bored", "Embarrassed"], "answer": 1, "explainRo": "„I remember feeling proud when my screen time reached fourteen hours a day.”" },
+      { "type": "mc", "q": "What happened when he tried to work harder?", "options": ["Things got worse.", "His back stopped hurting.", "He found new clients.", "He started sleeping better."], "answer": 0, "explainRo": "„I tried to work harder, which… only made things worse.”" },
+      { "type": "mc", "q": "What did he realise in the Apuseni Mountains?", "options": ["He wanted to move to the countryside.", "He had forgotten his laptop.", "He hadn't thought about work for hours.", "His sister was also overwhelmed."], "answer": 2, "explainRo": "S-a oprit să privească peisajul și și-a dat seama că nu se gândise la muncă de șase ore." },
+      { "type": "mc", "q": "How did his clients react to his new boundaries?", "options": ["Most of them left.", "They asked for lower prices.", "They complained to his sister.", "Most of them respected him more."], "answer": 3, "explainRo": "„Most of them respect me more for setting boundaries.”" }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "Don't forget ___ the client before you leave the office.", "options": ["calling", "to call", "call", "having called"], "answer": 1, "explainRo": "**Forget + to + infinitiv** = a uita să faci ceva (acțiune viitoare)." },
+    { "type": "mc", "q": "I clearly remember ___ the file, but now I can't find it anywhere.", "options": ["saving", "to save", "save", "to have save"], "answer": 0, "explainRo": "**Remember + -ing** = îmi amintesc o acțiune care a avut loc deja." },
+    { "type": "mc", "q": "My doctor told me to stop ___ energy drinks. They were ruining my sleep.", "options": ["to drink", "drink", "drinking", "to drinking"], "answer": 2, "explainRo": "**Stop + -ing** = a renunța la un obicei." },
+    { "type": "mc", "q": "We were driving to Sibiu and stopped ___ a coffee at a petrol station.", "options": ["having", "have", "had", "to have"], "answer": 3, "explainRo": "**Stop + to + infinitiv** = te oprești ca să faci altceva." },
+    { "type": "mc", "q": "She worked as a tester for three years and then went on ___ a successful product manager.", "options": ["to become", "becoming", "become", "became"], "answer": 0, "explainRo": "**Go on + to + infinitiv** = a trece apoi la o etapă nouă." },
+    { "type": "mc", "q": "I'm looking forward to ___ some time off in August.", "options": ["take", "taking", "to take", "took"], "answer": 1, "explainRo": "În **look forward to**, „to” este prepoziție, deci urmează **-ing**." },
+    { "type": "mc", "q": "My manager made me ___ the presentation again from scratch.", "options": ["to do", "doing", "do", "done"], "answer": 2, "explainRo": "După **make + obiect** folosim infinitivul fără to." },
+    { "type": "mc", "q": "If you sit for ten hours a day, your lifestyle is very ___.", "options": ["resilient", "overwhelmed", "concise", "sedentary"], "answer": 3, "explainRo": "**Sedentary** = cu foarte puțină mișcare fizică." },
+    { "type": "mc", "q": "After a stressful week, I like to ___ with a long walk and a good book.", "options": ["unwind", "procrastinate", "overlook", "cut corners"], "answer": 0, "explainRo": "**Unwind** = a te relaxa după stres." },
+    { "type": "fill", "q": "It's not worth ___ (argue) with him – he never changes his mind.", "answers": ["arguing"], "explainRo": "După **it's (not) worth** folosim **-ing**." },
+    { "type": "fill", "q": "I regret ___ (not / take) that job in Copenhagen.", "answers": ["not taking", "not having taken"], "explainRo": "**Regret + -ing** = regret o acțiune trecută; negația stă înainte: **not taking**." },
+    { "type": "fill", "q": "I'm trying to cut ___ on sugar, so no dessert for me, thanks.", "answers": ["down"], "explainRo": "**Cut down on** = a reduce consumul de ceva." },
+    { "type": "order", "words": ["Remember", "to", "take", "a", "break", "every", "hour."], "ro": "Nu uita să iei o pauză în fiecare oră.", "explainRo": "**Remember + to + infinitiv** = nu uita să faci ceva." },
+    { "type": "order", "words": ["I", "can't", "help", "checking", "my", "phone."], "ro": "Nu mă pot abține să nu-mi verific telefonul.", "explainRo": "**Can't help + -ing** = nu te poți abține." },
+    { "type": "order", "words": ["There's", "no", "point", "in", "working", "all", "night."], "ro": "N-are rost să lucrezi toată noaptea.", "explainRo": "**There's no point in + -ing**." },
+    { "type": "translate", "ro": "M-am lăsat de fumat anul trecut.", "answers": ["I stopped smoking last year.", "I quit smoking last year.", "I gave up smoking last year.", "Last year I stopped smoking.", "Last year I quit smoking.", "Last year I gave up smoking."], "explainRo": "„A se lăsa de ceva” = **stop/quit/give up + -ing**." },
+    { "type": "translate", "ro": "Încearcă să închizi laptopul la ora șase.", "answers": ["Try closing your laptop at six.", "Try to close your laptop at six.", "Try closing your laptop at six o'clock.", "Try to close your laptop at six o'clock.", "Try shutting down your laptop at six.", "Try to shut down your laptop at six.", "Try closing the laptop at six.", "Try to close the laptop at six."], "explainRo": "Ca sfat/experiment, **try + -ing** e natural; **try to** e și el acceptabil aici." },
+    { "type": "listen", "audio": "I look forward to hearing from you.", "answers": ["I look forward to hearing from you."], "ro": "Aștept cu interes răspunsul dumneavoastră.", "explainRo": "Formula clasică de încheiere a unui email: **look forward to + -ing**." },
+    { "type": "listen", "audio": "Sleep deprivation took a toll on her health.", "answers": ["Sleep deprivation took a toll on her health."], "ro": "Lipsa de somn i-a afectat sănătatea.", "explainRo": "**Take a toll on** = a afecta negativ, în timp." },
+    { "type": "match", "pairs": [["work–life balance", "echilibru între muncă și viața personală"], ["procrastinate", "a amâna (din comoditate), a tărăgăna"], ["posture", "postură, ținută"], ["overwhelmed", "copleșit"], ["resilience", "reziliență, capacitatea de a-ți reveni"]] }
+  ],
+
+  "video": {
+    "youtubeId": "v2_Qic03XFI",
+    "title": "How to use GERUNDS and INFINITIVES | Confusing English Grammar (mmmEnglish)"
+  }
+}

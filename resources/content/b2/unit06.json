@@ -1,0 +1,132 @@
+{
+  "id": "b2-u06",
+  "level": "B2",
+  "order": 6,
+  "title": "She insisted on a discount: selling and negotiating",
+  "titleRo": "A insistat pe o reducere: vânzare și negociere",
+  "emoji": "🤝",
+  "goalRo": "La final vei putea relata precis ce s-a spus într-un apel de vânzări sau într-o negociere, folosind verbe de raportare precum suggest, insist, deny, agree to sau persuade.",
+
+  "vocab": [
+    { "en": "discovery call", "ro": "primul apel cu un potențial client (pentru a-i afla nevoile)", "pos": "noun", "ipa": "/dɪˈskʌv.ər.i ˌkɔːl/", "emoji": "📞", "ex": "During the discovery call, I mostly listen and take notes.", "exRo": "În timpul primului apel cu clientul, mai mult ascult și iau notițe." },
+    { "en": "pain point", "ro": "problemă majoră a clientului, punct sensibil", "pos": "noun", "ipa": "/ˈpeɪn ˌpɔɪnt/", "emoji": "🤕", "ex": "Their biggest pain point is chasing unpaid invoices.", "exRo": "Cea mai mare problemă a lor este urmărirea facturilor neplătite." },
+    { "en": "pitch", "ro": "prezentare de vânzare; a prezenta o ofertă", "pos": "noun", "ipa": "/pɪtʃ/", "emoji": "🎤", "ex": "Keep your pitch under five minutes and focus on their problem.", "exRo": "Ține-ți prezentarea sub cinci minute și concentrează-te pe problema lor." },
+    { "en": "decision-maker", "ro": "persoana care ia decizia", "pos": "noun", "ipa": "/dɪˈsɪʒ.ən ˌmeɪ.kə/", "emoji": "👔", "ex": "Make sure the decision-maker is on the call.", "exRo": "Asigură-te că persoana care ia decizia participă la apel." },
+    { "en": "objection", "ro": "obiecție", "pos": "noun", "ipa": "/əbˈdʒek.ʃən/", "emoji": "✋", "ex": "The most common objection is that the price is too high.", "exRo": "Cea mai frecventă obiecție este că prețul e prea mare." },
+    { "en": "close a deal", "ro": "a încheia o afacere", "pos": "phrase", "ipa": "/ˌkləʊz ə ˈdiːl/", "emoji": "✅", "ex": "We closed the deal after three meetings.", "exRo": "Am încheiat afacerea după trei întâlniri." },
+    { "en": "counteroffer", "ro": "contraofertă", "pos": "noun", "ipa": "/ˈkaʊn.tər.ɒf.ə/", "emoji": "↩️", "ex": "They came back with a counteroffer of 9,000 euros.", "exRo": "Au revenit cu o contraofertă de 9.000 de euro." },
+    { "en": "retainer", "ro": "abonament lunar fix (onorariu de disponibilitate)", "pos": "noun", "ipa": "/rɪˈteɪ.nə/", "emoji": "🔒", "ex": "The client pays a monthly retainer for support and small changes.", "exRo": "Clientul plătește un abonament lunar pentru suport și modificări mici." },
+    { "en": "terms and conditions", "ro": "termeni și condiții", "pos": "noun", "ipa": "/ˌtɜːmz ən kənˈdɪʃ.ənz/", "emoji": "📃", "ex": "Please read the terms and conditions before you sign.", "exRo": "Vă rog să citiți termenii și condițiile înainte să semnați." },
+    { "en": "upfront", "ro": "în avans", "pos": "adv", "ipa": "/ʌpˈfrʌnt/", "emoji": "💶", "ex": "I always ask for 30% upfront.", "exRo": "Cer mereu 30% în avans." },
+    { "en": "drive a hard bargain", "ro": "a negocia dur", "pos": "phrase", "ipa": "/ˌdraɪv ə ˌhɑːd ˈbɑː.ɡɪn/", "emoji": "🥊", "ex": "Their CFO drives a hard bargain, so prepare your numbers.", "exRo": "Directorul lor financiar negociază dur, așa că pregătește-ți cifrele." },
+    { "en": "win-win", "ro": "avantajos pentru ambele părți", "pos": "adj", "ipa": "/ˌwɪn ˈwɪn/", "emoji": "🏆", "ex": "A longer contract at a lower rate is a win-win solution.", "exRo": "Un contract mai lung la un tarif mai mic este o soluție avantajoasă pentru ambele părți." },
+    { "en": "walk away", "ro": "a renunța (la o negociere), a pleca de la masă", "pos": "verb", "ipa": "/ˌwɔːk əˈweɪ/", "emoji": "🚶", "ex": "Know your minimum price and be ready to walk away.", "exRo": "Știe-ți prețul minim și fii gata să renunți." },
+    { "en": "commitment", "ro": "angajament", "pos": "noun", "ipa": "/kəˈmɪt.mənt/", "emoji": "🫱", "ex": "A twelve-month contract is a big commitment for a small shop.", "exRo": "Un contract de douăsprezece luni este un angajament mare pentru un magazin mic." },
+    { "en": "haggle", "ro": "a se tocmi", "pos": "verb", "ipa": "/ˈhæɡ.əl/", "emoji": "🧺", "ex": "In the market in Marrakech, everybody haggles over prices.", "exRo": "În piața din Marrakech, toată lumea se tocmește la preț." },
+    { "en": "lead", "ro": "potențial client (lead)", "pos": "noun", "ipa": "/liːd/", "emoji": "🧲", "ex": "We got fifteen new leads from the trade fair.", "exRo": "Am obținut cincisprezece potențiali clienți noi de la târg." }
+  ],
+
+  "grammar": {
+    "title": "Reporting verbs and their patterns",
+    "titleRo": "Verbele de raportare și tiparele lor",
+    "sections": [
+      {
+        "headingRo": "De ce nu doar „said”?",
+        "textRo": "În vorbirea indirectă de bază folosim *say* și *tell*. La nivel B2 alegem un verb care arată **intenția** vorbitorului: a promis, a refuzat, a negat, a insistat. Fiecare verb are însă **tiparul lui** și trebuie învățat împreună cu el. Primul grup: **verb + to + infinitiv** (agree, offer, promise, refuse, threaten, decide) și **verb + obiect + to + infinitiv** (advise, remind, warn, persuade, encourage, invite, urge).",
+        "table": {
+          "headers": ["Tipar", "Verbe", "Exemplu"],
+          "rows": [
+            ["verb + to + inf.", "agree, offer, promise, refuse, threaten", "He agreed to pay upfront."],
+            ["verb + obiect + to + inf.", "advise, remind, warn, persuade, urge", "She reminded me to send the invoice."],
+            ["verb + -ing", "deny, admit, suggest, recommend", "He denied seeing the email."],
+            ["verb + prep. + -ing", "insist on, apologise for, object to", "They insisted on paying monthly."],
+            ["verb + obiect + prep. + -ing", "accuse of, blame for, thank for", "She blamed us for the delay."]
+          ]
+        },
+        "examples": [
+          { "en": "\"I'll send you the proposal tomorrow.\" → She promised to send me the proposal the next day.", "ro": "„Îți trimit propunerea mâine.” → A promis că-mi trimite propunerea a doua zi." },
+          { "en": "\"No, we won't pay more than 8,000.\" → They refused to pay more than 8,000.", "ro": "„Nu, nu plătim mai mult de 8.000.” → Au refuzat să plătească mai mult de 8.000." },
+          { "en": "\"You should get a lawyer to check it.\" → He advised me to get a lawyer to check it.", "ro": "„Ar trebui să pui un avocat să-l verifice.” → M-a sfătuit să pun un avocat să-l verifice." }
+        ]
+      },
+      {
+        "headingRo": "Verbe urmate de -ing sau de prepoziție + -ing",
+        "textRo": "**Deny** (a nega), **admit** (a recunoaște), **suggest** și **recommend** sunt urmate de **-ing**. Verbele cu prepoziție – **insist on**, **apologise for**, **object to**, **accuse someone of**, **blame someone for**, **congratulate someone on** – cer și ele **-ing** după prepoziție. Când acțiunea e anterioară, poți folosi **having + V3**: *He denied having signed it.*",
+        "examples": [
+          { "en": "The vendor admitted making a mistake in the quote.", "ro": "Furnizorul a recunoscut că a făcut o greșeală în ofertă." },
+          { "en": "The client insisted on having a fixed price.", "ro": "Clientul a insistat să aibă un preț fix." },
+          { "en": "She accused us of hiding extra costs.", "ro": "Ne-a acuzat că ascundem costuri suplimentare." }
+        ]
+      },
+      {
+        "headingRo": "Verbe urmate de „that” – și capcana lui suggest",
+        "textRo": "Multe verbe pot fi urmate de **that + propoziție**: *admit, claim, explain, insist, promise, suggest, recommend*. Cu **suggest**, **recommend** și **insist** (când cerem ceva) poți folosi **that + subiect + (should) + verb** la forma de bază: *I suggested that they (should) sign a twelve-month contract.* Nu spune niciodată „suggest someone to do” – în engleză **nu există** acest tipar!",
+        "examples": [
+          { "en": "I suggested that we meet in person.", "ro": "Am sugerat să ne întâlnim față în față." },
+          { "en": "The lawyer recommended that we change clause 7.", "ro": "Avocatul a recomandat să modificăm clauza 7." },
+          { "en": "He claimed that our competitors were cheaper.", "ro": "A susținut că firmele concurente sunt mai ieftine." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu spune „He suggested me to call”. Corect: **He suggested calling** sau **He suggested that I (should) call**.",
+      "**Insist** se folosește cu **on + -ing**: **She insisted on paying**, nu „insisted to pay”.",
+      "**Deny** nu e urmat de infinitiv: **He denied taking the money**, nu „denied to take”.",
+      "**Explain** nu are obiect direct de persoană: **He explained to me that…**, nu „He explained me that…”."
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Relatarea unei negocieri",
+    "lines": [
+      { "speaker": "Ioana", "en": "So how did the call with the bakery chain go?", "ro": "Deci cum a mers apelul cu lanțul de brutării?" },
+      { "speaker": "Andrei", "en": "Pretty well. The owner admitted having lost orders because of their old spreadsheet.", "ro": "Destul de bine. Proprietarul a recunoscut că a pierdut comenzi din cauza tabelului lor vechi." },
+      { "speaker": "Ioana", "en": "That's a real pain point. Did you mention the price?", "ro": "E o problemă reală. Ai menționat prețul?" },
+      { "speaker": "Andrei", "en": "Yes, and their finance director objected to paying 40% upfront. She drives a hard bargain.", "ro": "Da, și directoarea lor financiară s-a opus să plătească 40% în avans. Negociază dur." },
+      { "speaker": "Ioana", "en": "Did she threaten to walk away?", "ro": "A amenințat că renunță?" },
+      { "speaker": "Andrei", "en": "Not quite. She suggested splitting the payment into three parts, and I agreed to that.", "ro": "Nu chiar. A sugerat să împărțim plata în trei tranșe, iar eu am fost de acord." },
+      { "speaker": "Ioana", "en": "Sounds like a win-win. Anything else?", "ro": "Sună ca o soluție bună pentru ambele părți. Altceva?" },
+      { "speaker": "Andrei", "en": "She insisted on seeing the terms and conditions before Friday, so I promised to send them tonight.", "ro": "A insistat să vadă termenii și condițiile înainte de vineri, așa că am promis că i le trimit diseară." }
+    ]
+  },
+
+  "reading": {
+    "title": "Notes from a tough negotiation",
+    "text": "Last month I finally closed my biggest deal so far: a CRM for a chain of twelve dental clinics. Looking back, the negotiation taught me more than any sales book.\n\nIt started with a discovery call. Instead of pitching straight away, I asked questions, and the clinic manager soon admitted losing patients because nobody reminded them about appointments. That was the pain point I needed. A week later I sent a proposal with automatic SMS reminders, online booking and a monthly retainer for support.\n\nThe second meeting was harder. The owner, Dr Ionescu, was the real decision-maker, and he drove a hard bargain. He accused me of charging \"Western prices\" and claimed that a competitor had offered the same system for half the price. I didn't panic. I asked him to show me the competitor's offer, and he eventually admitted that it didn't include support or data migration.\n\nThen he made a counteroffer: 30% less, with no money upfront. I refused to work without a deposit, but I offered to reduce the retainer for the first six months. He also insisted on having a clause that would let him cancel at any time. My lawyer had warned me not to accept that, so I suggested a three-month notice period instead.\n\nIn the end, Dr Ionescu agreed to sign a one-year contract. As we shook hands, he congratulated me on being \"stubborn but fair\". The lesson? Listen first, know your numbers, and never be afraid to walk away – that's exactly why you usually don't have to.",
+    "textRo": "Luna trecută am încheiat în sfârșit cea mai mare afacere de până acum: un CRM pentru un lanț de douăsprezece clinici stomatologice. Privind în urmă, negocierea m-a învățat mai mult decât orice carte despre vânzări.\n\nA început cu un apel de descoperire. În loc să-mi prezint imediat oferta, am pus întrebări, iar managerul clinicii a recunoscut curând că pierdeau pacienți pentru că nimeni nu le amintea de programări. Aceasta era problema de care aveam nevoie. O săptămână mai târziu am trimis o propunere cu mementouri automate prin SMS, programări online și un abonament lunar pentru suport.\n\nA doua întâlnire a fost mai grea. Proprietarul, dr. Ionescu, era cel care lua de fapt decizia și a negociat dur. M-a acuzat că cer „prețuri occidentale” și a susținut că un concurent îi oferise același sistem la jumătate de preț. N-am intrat în panică. L-am rugat să-mi arate oferta concurentului și până la urmă a recunoscut că nu includea suport și nici migrarea datelor.\n\nApoi a făcut o contraofertă: cu 30% mai puțin și fără niciun ban în avans. Am refuzat să lucrez fără avans, dar m-am oferit să reduc abonamentul pentru primele șase luni. A insistat și să aibă o clauză care să-i permită să rezilieze contractul oricând. Avocatul meu mă avertizase să nu accept așa ceva, așa că am propus în schimb o perioadă de preaviz de trei luni.\n\nÎn final, dr. Ionescu a acceptat să semneze un contract pe un an. Când ne-am strâns mâna, m-a felicitat pentru că sunt „încăpățânat, dar corect”. Lecția? Ascultă mai întâi, cunoaște-ți cifrele și nu-ți fie niciodată teamă să renunți – tocmai de aceea, de obicei, nu e nevoie s-o faci.",
+    "questions": [
+      { "type": "mc", "q": "What was the clinics' main pain point?", "options": ["Their software was too expensive.", "Patients forgot appointments because nobody reminded them.", "They had too many dentists.", "Their website was slow."], "answer": 1, "explainRo": "Managerul a recunoscut că pierdeau pacienți pentru că nimeni nu le amintea de programări." },
+      { "type": "mc", "q": "What did Dr Ionescu claim about a competitor?", "options": ["It had offered the same system for half the price.", "It had already signed a contract with him.", "It didn't offer online booking.", "It was based in Western Europe."], "answer": 0, "explainRo": "„He claimed that a competitor had offered the same system for half the price.”" },
+      { "type": "mc", "q": "What did the author refuse to do?", "options": ["Reduce the retainer", "Show his own prices", "Work without a deposit", "Sign a one-year contract"], "answer": 2, "explainRo": "„I refused to work without a deposit.”" },
+      { "type": "mc", "q": "What did the author suggest instead of a 'cancel at any time' clause?", "options": ["A higher price", "A lawyer for both sides", "A free trial month", "A three-month notice period"], "answer": 3, "explainRo": "„I suggested a three-month notice period instead.”" }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "The client agreed ___ 30% upfront.", "options": ["paying", "to pay", "on paying", "pay"], "answer": 1, "explainRo": "**Agree** este urmat de **to + infinitiv**." },
+    { "type": "mc", "q": "He denied ___ the confidential file to our competitor.", "options": ["sending", "to send", "send", "that sending"], "answer": 0, "explainRo": "**Deny** este urmat de **-ing**." },
+    { "type": "mc", "q": "My accountant ___ me to keep all the receipts from the trip.", "options": ["suggested", "insisted", "advised", "admitted"], "answer": 2, "explainRo": "Doar **advise** acceptă tiparul **verb + obiect + to + infinitiv**." },
+    { "type": "mc", "q": "The finance director insisted ___ a detailed breakdown of the costs.", "options": ["to see", "seeing", "that seeing", "on seeing"], "answer": 3, "explainRo": "**Insist on + -ing** – prepoziția on este obligatorie." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["She suggested me to call the client.", "She suggested calling the client.", "She suggested to call the client.", "She suggested me calling to the client."], "answer": 1, "explainRo": "**Suggest + -ing** (sau suggest that…). Tiparul „suggest someone to do” nu există." },
+    { "type": "mc", "q": "The vendor apologised ___ the delay in delivery.", "options": ["for", "of", "on", "to"], "answer": 0, "explainRo": "**Apologise for + substantiv/-ing**." },
+    { "type": "mc", "q": "The client blamed us ___ losing their data, but it was their own server.", "options": ["of", "about", "for", "on"], "answer": 2, "explainRo": "**Blame someone for + -ing**." },
+    { "type": "mc", "q": "They offered 9,000 euros instead of 12,000 – it was a ___.", "options": ["lead", "retainer", "pain point", "counteroffer"], "answer": 3, "explainRo": "**Counteroffer** = ofertă făcută ca răspuns la oferta celeilalte părți." },
+    { "type": "mc", "q": "Before the pitch, find out who the real ___ is – the CEO or the IT manager.", "options": ["decision-maker", "objection", "commitment", "discovery call"], "answer": 0, "explainRo": "**Decision-maker** = persoana care ia decizia finală." },
+    { "type": "fill", "q": "She reminded me ___ (send) the updated proposal before Friday.", "answers": ["to send"], "explainRo": "**Remind someone to + infinitiv**." },
+    { "type": "fill", "q": "He admitted ___ (forget) to include the VAT in the price.", "answers": ["forgetting", "having forgotten"], "explainRo": "**Admit + -ing** (sau **having + V3** pentru o acțiune anterioară)." },
+    { "type": "fill", "q": "The lawyer warned us ___ to sign the contract without reading clause 9.", "answers": ["not"], "explainRo": "**Warn someone not to + infinitiv** = a avertiza pe cineva să nu facă ceva." },
+    { "type": "order", "words": ["They", "refused", "to", "pay", "for", "extra", "features."], "ro": "Au refuzat să plătească pentru funcții suplimentare.", "explainRo": "**Refuse + to + infinitiv**." },
+    { "type": "order", "words": ["She", "accused", "him", "of", "lying", "about", "the", "price."], "ro": "L-a acuzat că a mințit în privința prețului.", "explainRo": "**Accuse someone of + -ing**." },
+    { "type": "order", "words": ["I", "suggested", "meeting", "in", "person", "next", "week."], "ro": "Am sugerat să ne întâlnim față în față săptămâna viitoare.", "explainRo": "**Suggest + -ing**." },
+    { "type": "translate", "ro": "Clientul a promis să plătească factura până luni.", "answers": ["The client promised to pay the invoice by Monday.", "The customer promised to pay the invoice by Monday.", "The client promised to pay the bill by Monday.", "The customer promised to pay the bill by Monday."], "explainRo": "**Promise + to + infinitiv**; „până luni” = **by Monday**." },
+    { "type": "translate", "ro": "M-a convins să reduc prețul.", "answers": ["He persuaded me to reduce the price.", "She persuaded me to reduce the price.", "He convinced me to reduce the price.", "She convinced me to reduce the price.", "He persuaded me to lower the price.", "She persuaded me to lower the price.", "He convinced me to lower the price.", "She convinced me to lower the price.", "He talked me into reducing the price.", "She talked me into reducing the price."], "explainRo": "**Persuade/convince someone to + infinitiv**." },
+    { "type": "listen", "audio": "He threatened to walk away from the deal.", "answers": ["He threatened to walk away from the deal."], "ro": "A amenințat că renunță la afacere.", "explainRo": "**Threaten + to + infinitiv**." },
+    { "type": "listen", "audio": "She congratulated us on closing the deal.", "answers": ["She congratulated us on closing the deal."], "ro": "Ne-a felicitat pentru încheierea afacerii.", "explainRo": "**Congratulate someone on + -ing**." },
+    { "type": "match", "pairs": [["pain point", "problemă majoră a clientului, punct sensibil"], ["upfront", "în avans"], ["haggle", "a se tocmi"], ["walk away", "a renunța (la o negociere), a pleca de la masă"], ["lead", "potențial client (lead)"]] }
+  ],
+
+  "video": {
+    "youtubeId": "CXxfscILrJ8",
+    "title": "How to use REPORTING VERBS in English (ANGLOPOD)"
+  }
+}

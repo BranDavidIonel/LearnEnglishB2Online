@@ -1,0 +1,399 @@
+{
+  "id": "fce-test1",
+  "title": "Simulare 1",
+  "reading": {
+    "minutes": 75,
+    "parts": [
+      {
+        "title": "Part 1",
+        "instructionsRo": "Citește textul de mai jos și alege cuvântul care se potrivește cel mai bine în fiecare spațiu (A, B, C sau D).",
+        "text": "**The four-day week: a success story?**\n\nWhen a small software company in Bristol decided to **(1)** ___ a four-day working week, many of its clients expected the worst. Surely, they thought, fewer hours would **(2)** ___ in slower replies and missed deadlines. A year later, the results have **(3)** ___ almost everyone wrong.\n\nInstead of cutting jobs or salaries, the company simply asked staff to **(4)** ___ their time more carefully. Meetings were limited to thirty minutes, and employees were encouraged to switch off notifications while working on difficult tasks. 'At first it felt strange,' admits developer Hannah Price, 'but now I can't imagine going back. I **(5)** ___ more done in four days than I used to in five.'\n\nProductivity is not the only benefit. Sick days have fallen by a third, and the company now receives far more job applications than it can **(6)** ___ with. Not everyone is convinced, **(7)** ___. Some managers worry that the model only works in creative industries, where results matter more than hours spent at a desk. Others point out that customers still **(8)** ___ someone to answer the phone on Fridays.",
+        "questions": [
+          { "type": "mc", "q": "(1)", "options": ["insert", "introduce", "enter", "enrol"], "answer": 1, "explainRo": "Colocația corectă este **introduce a four-day week** (a introduce un program nou). *Insert* înseamnă a introduce fizic ceva într-un obiect, *enter* și *enrol* nu se folosesc cu un program de lucru." },
+          { "type": "mc", "q": "(2)", "options": ["lead", "cause", "result", "bring"], "answer": 2, "explainRo": "Doar **result** se folosește cu prepoziția **in**: *result in* = a avea drept rezultat. *Lead* cere *to*, *cause* nu are prepoziție, iar *bring in* are alt sens." },
+          { "type": "mc", "q": "(3)", "options": ["proved", "shown", "made", "turned"], "answer": 0, "explainRo": "Expresia fixă este **prove someone wrong** (a demonstra că cineva s-a înșelat). Celelalte verbe nu formează această expresie." },
+          { "type": "mc", "q": "(4)", "options": ["handle", "direct", "manage", "run"], "answer": 2, "explainRo": "Colocația naturală este **manage your time** (a-ți gestiona timpul). *Run* se folosește pentru o firmă, *direct* pentru un film sau o echipă." },
+          { "type": "mc", "q": "(5)", "options": ["make", "do", "have", "get"], "answer": 3, "explainRo": "Expresia este **get more done** (a reuși să faci mai multe lucruri). *Make/do/have more done* nu sunt idiomatice." },
+          { "type": "mc", "q": "(6)", "options": ["treat", "deal", "handle", "process"], "answer": 1, "explainRo": "Doar **deal** este urmat de **with**: *deal with* = a se ocupa de ceva. *Handle* și *process* nu au prepoziție." },
+          { "type": "mc", "q": "(7)", "options": ["although", "even", "despite", "though"], "answer": 3, "explainRo": "La **sfârșitul propoziției**, cu sensul „totuși”, se folosește **though**. *Although* și *despite* trebuie urmate de o propoziție sau de un substantiv." },
+          { "type": "mc", "q": "(8)", "options": ["expect", "wait", "hope", "demand"], "answer": 0, "explainRo": "Tiparul **expect someone to do something** este corect. *Wait* cere *for*, *hope* nu acceptă un obiect + infinitiv, iar *demand* nu se construiește cu „someone to”." }
+        ]
+      },
+      {
+        "title": "Part 2",
+        "instructionsRo": "Citește textul și scrie UN singur cuvânt potrivit în fiecare spațiu.",
+        "text": "**Learning a language through films**\n\nMany people believe that watching films in a foreign language is one of the most enjoyable ways **(9)** ___ improve your listening skills. However, simply sitting in front of the screen is not enough. **(10)** ___ you want real progress, you need to watch actively.\n\nStart with something you have already seen in your own language, **(11)** ___ that you can concentrate on the words rather than the story. Use subtitles in the language you are learning, not in your mother tongue; otherwise, you will end up reading instead **(12)** ___ listening. When you hear a useful phrase, pause the film and repeat it out loud. It may feel silly at first, but it is **(13)** ___ of the best ways to remember new expressions.\n\nDon't worry if you don't understand every word. Even native speakers miss things from time to time, especially when characters speak quickly or with a strong accent. The important thing is to follow the main ideas, **(14)** ___ than to catch every single detail. **(15)** ___ long as you keep practising regularly, you will be surprised at how much more you understand after a few months. And you will have watched a lot of good films, **(16)** ___ is a reward in itself.",
+        "questions": [
+          { "type": "fill", "q": "**(9)** ___", "answers": ["to"], "explainRo": "După **ways** urmează infinitivul cu **to**: *the best ways to improve*." },
+          { "type": "fill", "q": "**(10)** ___", "answers": ["if"], "explainRo": "Este o propoziție condițională: **If you want real progress, …** (dacă vrei progres real)." },
+          { "type": "fill", "q": "**(11)** ___", "answers": ["so"], "explainRo": "**So that** introduce scopul: ca să te poți concentra pe cuvinte." },
+          { "type": "fill", "q": "**(12)** ___", "answers": ["of"], "explainRo": "Expresia este **instead of + -ing** (în loc să)." },
+          { "type": "fill", "q": "**(13)** ___", "answers": ["one"], "explainRo": "**One of the best ways** = unul dintre cele mai bune moduri." },
+          { "type": "fill", "q": "**(14)** ___", "answers": ["rather"], "explainRo": "**Rather than** = mai degrabă decât; leagă cele două idei comparate." },
+          { "type": "fill", "q": "**(15)** ___", "answers": ["as", "so"], "explainRo": "**As long as** (sau, mai rar, *so long as*) = cu condiția ca." },
+          { "type": "fill", "q": "**(16)** ___", "answers": ["which"], "explainRo": "**Which** după virgulă se referă la toată ideea anterioară („ceea ce este o recompensă în sine”). *That* nu poate fi folosit după virgulă." }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "instructionsRo": "Citește textul. Folosește cuvântul scris cu majuscule pentru a forma un cuvânt care se potrivește în spațiu.",
+        "text": "**Volunteering abroad**\n\nEvery summer, thousands of young people decide to spend a few weeks volunteering abroad. For many of them, it turns out to be one of the most **(17)** ___ (VALUE) experiences of their lives.\n\nProjects range from teaching English in rural schools to **(18)** ___ (ENVIRONMENT) work such as protecting turtles or planting trees. However, volunteers should not travel with unrealistic **(19)** ___ (EXPECT). Accommodation is often basic, and living without hot water or a stable internet connection can be quite **(20)** ___ (COMFORT) at first.\n\nThose who stay, however, usually say the effort was worth it. Being given real **(21)** ___ (RESPONSIBLE), often for the first time, helps young people grow in **(22)** ___ (CONFIDENT) and learn to solve problems on their own.\n\nAnyone thinking of volunteering should choose an organisation very **(23)** ___ (CARE). Unfortunately, some agencies charge high fees and turn out to be completely **(24)** ___ (RELY), so it is always worth reading reviews from former volunteers before paying anything.",
+        "questions": [
+          { "type": "fill", "q": "**(17)** ___ (VALUE)", "answers": ["valuable"], "explainRo": "După **the most** și înaintea substantivului *experiences* avem nevoie de un adjectiv: **valuable** (valoros)." },
+          { "type": "fill", "q": "**(18)** ___ (ENVIRONMENT)", "answers": ["environmental"], "explainRo": "Adjectivul **environmental** descrie substantivul *work* (muncă pentru protecția mediului)." },
+          { "type": "fill", "q": "**(19)** ___ (EXPECT)", "answers": ["expectations"], "explainRo": "După adjectivul *unrealistic* trebuie un substantiv, aici la plural: **expectations** (așteptări)." },
+          { "type": "fill", "q": "**(20)** ___ (COMFORT)", "answers": ["uncomfortable"], "explainRo": "Contextul e negativ (fără apă caldă), deci adjectivul cu prefix negativ: **uncomfortable**." },
+          { "type": "fill", "q": "**(21)** ___ (RESPONSIBLE)", "answers": ["responsibility", "responsibilities"], "explainRo": "După *given real* trebuie un substantiv: **responsibility** (sau pluralul *responsibilities*)." },
+          { "type": "fill", "q": "**(22)** ___ (CONFIDENT)", "answers": ["confidence"], "explainRo": "Expresia este **grow in confidence** – avem nevoie de substantiv." },
+          { "type": "fill", "q": "**(23)** ___ (CARE)", "answers": ["carefully"], "explainRo": "Adverbul **carefully** descrie verbul *choose*; *very* îl întărește." },
+          { "type": "fill", "q": "**(24)** ___ (RELY)", "answers": ["unreliable"], "explainRo": "Contextul (taxe mari, recenzii) cere sens negativ: **unreliable** (de neîncredere)." }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "instructionsRo": "Completează a doua propoziție astfel încât să aibă un sens cât mai apropiat de prima, folosind cuvântul dat. Nu schimba cuvântul dat. Folosește între două și cinci cuvinte, inclusiv cuvântul dat.",
+        "questions": [
+          { "type": "fill", "q": "**25** I haven't been to the cinema for months. (LAST)\nThe ___ to the cinema was months ago.", "answers": ["last time I went", "last time that I went"], "explainRo": "„Nu am mai fost de luni de zile” = **The last time I went** to the cinema was months ago." },
+          { "type": "fill", "q": "**26** It's possible that Sarah forgot about the meeting. (MIGHT)\nSarah ___ about the meeting.", "answers": ["might have forgotten", "might've forgotten"], "explainRo": "Posibilitate despre trecut: **might have + participiu** (forgotten)." },
+          { "type": "fill", "q": "**27** 'I didn't take your laptop,' Tom said to his sister. (DENIED)\nTom ___ his sister's laptop.", "answers": ["denied taking", "denied having taken", "denied that he had taken", "denied he had taken", "denied that he took", "denied he took"], "explainRo": "**Deny** este urmat de **-ing** (*denied taking / having taken*) sau de o propoziție cu *that*." },
+          { "type": "fill", "q": "**28** We didn't go to the beach because it was raining. (IF)\nWe would have gone to the beach ___ raining.", "answers": ["if it hadn't been", "if it had not been"], "explainRo": "Condiționalul 3: **if + past perfect** – *if it hadn't been raining*." },
+          { "type": "fill", "q": "**29** A mechanic is going to repair my car tomorrow. (HAVING)\nI ___ tomorrow.", "answers": ["am having my car repaired", "'m having my car repaired", "’m having my car repaired"], "explainRo": "Structura cauzativă **have something done**, la prezentul continuu pentru un aranjament viitor: *I am having my car repaired*." },
+          { "type": "fill", "q": "**30** Although the hotel was expensive, we enjoyed our stay. (SPITE)\nIn ___ expensive, we enjoyed our stay.", "answers": ["spite of the hotel being", "spite of the hotel's being", "spite of it being", "spite of its being"], "explainRo": "**In spite of** este urmat de substantiv/-ing: *In spite of the hotel being expensive*." }
+        ]
+      },
+      {
+        "title": "Part 5",
+        "instructionsRo": "Citește textul și alege răspunsul corect (A, B, C sau D) pentru fiecare întrebare.",
+        "text": "**Starting again at 2,000 metres**\n\nWhen people ask me why I gave up a well-paid job in London to run a guesthouse in the Romanian mountains, I usually tell them it was a sudden decision. That isn't quite true. The idea had been growing quietly for years, like a plant that nobody waters but which refuses to die.\n\nFor almost a decade I worked as a marketing manager for a large insurance company. I was good at it, and I was paid accordingly. But somewhere along the way I stopped noticing what I was doing. I would arrive at the office, answer two hundred emails, sit through meetings about meetings and go home feeling as though I had spent the day on a running machine that went nowhere. My friends envied my salary; I envied their weekends.\n\nThe turning point, if there was one, came during a hiking holiday in the Făgăraș Mountains. On the third day, a storm forced our small group to shelter in a guesthouse run by an elderly couple. There was no Wi-Fi and the electricity failed twice, yet I remember that evening more clearly than any of my business trips. The owners served soup made from vegetables they had grown themselves, and their grandson played the violin badly but with enormous enthusiasm. When I went to bed, I realised I hadn't checked my phone for six hours.\n\nI would love to say I resigned the moment I got home. In fact, it took me another two years. I was afraid – not so much of failing as of what people would think. My parents, who had worked hard to give me opportunities they never had, thought I was throwing my education away. My manager offered me a promotion, which made the decision even harder. What finally convinced me was a conversation with a colleague who was about to retire. 'I always meant to do something different,' she told me. 'Now I'm sixty-five and I've run out of excuses.' I handed in my notice the following week.\n\nThe first year was a shock. I had imagined myself reading by the fire while guests admired the view. Instead, I spent most of my time fixing pipes, arguing with suppliers and discovering that a guesthouse does not run itself. Bookings were slow; at one point I had three guests in the whole of November. More than once I opened my laptop late at night and found myself looking at job adverts in London.\n\nWhat kept me going was the people. Not only the guests, many of whom have become friends, but also my neighbours, who had every reason to be suspicious of a woman from the city with no idea how to chop wood. Instead, they lent me tools, taught me which mushrooms were safe to eat and, when the road was blocked by snow, brought me bread on a tractor.\n\nFive years on, the guesthouse is full most weekends, and I have just hired my first full-time employee. I earn about a third of my old salary and I work longer hours than I ever did in London. Yet I rarely feel tired in the way I used to. The difference, I think, is that I can see the results of my work: a clean room, a happy guest, a garden that produces more tomatoes than we can eat.\n\nI am not suggesting that everyone should leave their job and move to the mountains. For many people, that would be a disaster. But I do believe that most of us know, deep down, when something in our lives needs to change. The hard part is not knowing. It is admitting it.",
+        "questions": [
+          { "type": "mc", "q": "**31** In the first paragraph, the writer suggests that her decision to move", "options": ["was made without much thought.", "developed slowly over a long period.", "was influenced by her friends.", "surprised even herself."], "answer": 1, "explainRo": "Ea spune că ideea „had been growing quietly for years” – s-a format încet, în ani. Deși le spune oamenilor că a fost o decizie bruscă, recunoaște că nu e adevărat (deci A e greșit)." },
+          { "type": "mc", "q": "**32** What does the writer say about her job in London?", "options": ["She found the work too difficult.", "Her friends thought it was boring.", "She felt it had no real purpose.", "She was not paid enough for it."], "answer": 2, "explainRo": "Imaginea „a running machine that went nowhere” arată că munca nu avea un scop real. Era bună la ea (nu A) și bine plătită (nu D); prietenii îi invidiau salariul (nu B)." },
+          { "type": "mc", "q": "**33** Why does the writer describe the evening in the guesthouse?", "options": ["to show how uncomfortable life in the mountains can be", "to explain why she later bought that guesthouse", "to compare it with her business trips", "to describe an experience that changed her way of thinking"], "answer": 3, "explainRo": "Seara aceea este „the turning point” – momentul care i-a schimbat felul de a gândi. Comparația cu călătoriile de afaceri apare doar în treacăt, iar textul nu spune că a cumpărat acea pensiune." },
+          { "type": "mc", "q": "**34** What finally persuaded the writer to resign?", "options": ["a colleague's regret about her own life", "her manager's offer of a promotion", "her parents' encouragement", "her fear of failing"], "answer": 0, "explainRo": "Colega care se pensiona i-a spus că voise mereu să facă altceva și acum nu mai are scuze – un regret. Promovarea a făcut decizia mai grea, iar părinții nu au încurajat-o." },
+          { "type": "mc", "q": "**35** In the fifth paragraph, the writer admits that she", "options": ["had more guests than she could cope with.", "thought about going back to her old career.", "regretted not learning practical skills earlier.", "found her neighbours unfriendly."], "answer": 1, "explainRo": "Noaptea se uita la anunțuri de joburi din Londra („looking at job adverts in London”), deci s-a gândit să se întoarcă. Avea, de fapt, prea puțini oaspeți." },
+          { "type": "mc", "q": "**36** What is the writer's main point in the final paragraph?", "options": ["Everyone should live closer to nature.", "Money matters less than free time.", "People often know they need to change but find it hard to accept.", "Moving to the countryside is usually a mistake."], "answer": 2, "explainRo": "„The hard part is not knowing. It is admitting it.” – știm că trebuie să schimbăm ceva, dar ne e greu să recunoaștem. Ea spune explicit că nu toată lumea ar trebui să se mute la munte." }
+        ]
+      },
+      {
+        "title": "Part 6",
+        "instructionsRo": "Din text au fost scoase șase propoziții. Alege din variantele A–G propoziția potrivită pentru fiecare spațiu. Există o propoziție în plus, care nu se potrivește nicăieri.",
+        "text": "**Growing food on the roof**\n\nFive years ago, the roof of the Westfield car park was nothing more than grey concrete. Today it is home to more than two hundred vegetable beds, a small orchard and three beehives. The project was started by Marta Reyes, a retired biology teacher who was tired of looking at empty spaces from her kitchen window.\n\n'I wrote to the city council expecting to be ignored,' she says. **(37)** ___ To her surprise, they agreed to let her use the roof for one year as an experiment, on condition that she found the money herself.\n\nThe first challenge was the soil. A roof cannot take the weight of a normal garden, so Marta had to find lighter materials. **(38)** ___ The beds are only thirty centimetres deep, but carrots, lettuces and herbs grow there perfectly well.\n\nFinding volunteers turned out to be easier than expected. Marta put up a few posters in the local library and a message on a neighbourhood website. **(39)** ___ Among them were students, office workers on their lunch break and several refugee families who had been farmers in their home countries. Their knowledge proved invaluable. 'I taught them how to apply for funding,' Marta laughs, 'and they taught me how to grow vegetables properly.'\n\nToday, the garden produces around four tonnes of food a year. Some of it is sold to a restaurant on the ground floor, which helps to pay for water and seeds. **(40)** ___ Nothing is wasted: even the leaves that nobody wants are turned into compost.\n\nExperts say that projects like this have benefits that go far beyond food. Green roofs absorb rainwater, which reduces the risk of flooding during heavy storms, and they keep buildings cooler in summer. **(41)** ___ Several studies have shown that people who spend time gardening report lower levels of stress and feel more connected to their community.\n\nNot everyone has welcomed the project, however. Some drivers complained when part of the top floor of the car park was closed, and a local newspaper described the bees as 'a danger to shoppers'. **(42)** ___ In five years, nobody has been stung.\n\nMarta is now helping other groups to start similar gardens on schools, hospitals and even a fire station. Last spring, a team of nurses planted their first vegetable beds on the roof of the city hospital, and two primary schools are already on the waiting list. The council, which once expected the experiment to fail within months, now mentions the garden proudly in its tourist brochures. 'Every city has thousands of empty roofs,' she says. 'We just need to stop seeing them as wasted space and start seeing them as opportunities.'",
+        "questions": [
+          { "type": "mc", "q": "(37)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 2, "explainRo": "„Instead” contrazice așteptarea ei de a fi ignorată, iar „To her surprise, they agreed…” continuă ideea apelului de la primărie." },
+          { "type": "mc", "q": "(38)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 4, "explainRo": "Textul vorbește despre găsirea unor materiale mai ușoare; E spune ce a ales în final (compost și rocă vulcanică)." },
+          { "type": "mc", "q": "(39)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 1, "explainRo": "După afișe și mesaj vine rezultatul: peste șaizeci de oameni s-au oferit să ajute; „Among them” se referă la acești voluntari." },
+          { "type": "mc", "q": "(40)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 0, "explainRo": "„Some of it is sold…” este completat firesc de „The rest is given away…”, iar apoi „Nothing is wasted”." },
+          { "type": "mc", "q": "(41)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 3, "explainRo": "După beneficiile pentru clădiri, D introduce beneficiile pentru sănătate, explicate apoi de studiile despre stres." },
+          { "type": "mc", "q": "(42)", "options": ["A The rest is given away to a food bank and to the volunteers themselves.", "B Within a week, more than sixty people had offered to help.", "C Instead, she received a phone call from the mayor's office two days later.", "D The benefits for the gardeners' health may be even more important.", "E In the end, she chose a mixture of compost and volcanic rock, which holds water well.", "F Marta responded by inviting the journalist to spend a day with the beekeepers.", "G Many of the vegetables had to be replaced after the first winter."], "answer": 5, "explainRo": "F răspunde articolului din ziar („the journalist”) despre albine; urmează dovada: nimeni n-a fost înțepat. Propoziția G nu se potrivește nicăieri." }
+        ]
+      },
+      {
+        "title": "Part 7",
+        "instructionsRo": "Citește textele despre primul loc de muncă al cinci persoane. Pentru fiecare întrebare, alege persoana potrivită (A–E). Fiecare persoană poate fi aleasă de mai multe ori.",
+        "text": "**My first job**\n\n**A Daniel**\nMy first job was in a bakery near my parents' house. I had to start at five in the morning, which was hard for a teenager who loved staying up late. The owner, Mr Karas, was strict but fair: if you were late, he said nothing, but you would find yourself cleaning the ovens all day. What I remember most is the smell of fresh bread and the regular customers who came in at exactly the same time every morning. I learnt to make conversation with people of all ages, something that has been surprisingly useful in my career as a lawyer. The pay was terrible, though, and most of it went on bus fares.\n\n**B Ioana**\nI worked in a call centre for a phone company during my second year at university. The first week was a nightmare. Customers would shout at me about things I couldn't possibly control, like the price of their contracts. Gradually I realised that most of them simply wanted someone to listen. Once I stopped taking it personally, I became quite good at calming people down. My manager even asked me to become a team leader and train new staff, but I said no because I wanted to concentrate on my exams. I left after nine months, and I don't miss it, but I'm grateful for the patience it taught me.\n\n**C Marco**\nI became a tour guide in Florence almost by accident. A friend of mine had the job but moved to Rome just before the summer season, and he recommended me. I knew the city well, but I had never spoken in front of a group before. On my first tour, I forgot the name of a famous church and had to invent a story while a tourist looked it up on her phone. Luckily, the whole group found it hilarious. By the end of the summer I was enjoying myself so much that I seriously considered staying in the job for good. In the end, I studied engineering, but I still love showing visitors around.\n\n**D Sophie**\nWhen I was sixteen, I delivered newspapers before school. Everyone thinks it's an easy job, but in winter it was dark, icy and very lonely. I had to learn the route by heart because I couldn't read the house numbers in the dark. What I liked was the independence: nobody was checking on me, and as long as the papers arrived on time, I could do things my own way. I think that's where I learnt to organise myself. I didn't earn much, but I saved every penny and eventually bought my first proper bike with it.\n\n**E Raj**\nMy first job was at a summer camp for children in Scotland. I had applied to work in the kitchen, but on my first day the director told me one of the group leaders hadn't turned up and asked me to replace him. Suddenly I was in charge of twelve ten-year-olds! I was terrified, but the children didn't seem to notice. We went canoeing, built shelters in the forest and sang songs round the fire. It was exhausting – I've never slept so well in my life – but by the end of the summer I knew I wanted to work with young people. I'm a primary school teacher now.",
+        "questions": [
+          { "type": "mc", "q": "**43** Which person was given a different job from the one they had applied for?", "options": ["A", "B", "C", "D", "E"], "answer": 4, "explainRo": "Raj aplicase pentru bucătărie, dar a devenit lider de grup („I had applied to work in the kitchen…”)." },
+          { "type": "mc", "q": "**44** Which person realised what people really wanted from them?", "options": ["A", "B", "C", "D", "E"], "answer": 1, "explainRo": "Ioana: „most of them simply wanted someone to listen”." },
+          { "type": "mc", "q": "**45** Which person made an embarrassing mistake in front of others?", "options": ["A", "B", "C", "D", "E"], "answer": 2, "explainRo": "Marco a uitat numele unei biserici celebre în fața grupului de turiști." },
+          { "type": "mc", "q": "**46** Which person says they learnt to talk to all kinds of people?", "options": ["A", "B", "C", "D", "E"], "answer": 0, "explainRo": "Daniel: „I learnt to make conversation with people of all ages”." },
+          { "type": "mc", "q": "**47** Which person enjoyed working without anyone supervising them?", "options": ["A", "B", "C", "D", "E"], "answer": 3, "explainRo": "Sophie: „nobody was checking on me… I could do things my own way”." },
+          { "type": "mc", "q": "**48** Which person turned down the chance of a more senior role?", "options": ["A", "B", "C", "D", "E"], "answer": 1, "explainRo": "Ioana a refuzat să devină team leader pentru că voia să se concentreze pe examene." },
+          { "type": "mc", "q": "**49** Which person spent most of their wages on getting to work?", "options": ["A", "B", "C", "D", "E"], "answer": 0, "explainRo": "Daniel: „most of it went on bus fares”. Sophie, în schimb, și-a economisit banii." },
+          { "type": "mc", "q": "**50** Which person thought about doing the job permanently?", "options": ["A", "B", "C", "D", "E"], "answer": 2, "explainRo": "Marco: „I seriously considered staying in the job for good”." },
+          { "type": "mc", "q": "**51** Which person discovered which career they wanted to follow?", "options": ["A", "B", "C", "D", "E"], "answer": 4, "explainRo": "Raj a știut la final că vrea să lucreze cu tinerii și acum este învățător." },
+          { "type": "mc", "q": "**52** Which person used their earnings to buy something specific?", "options": ["A", "B", "C", "D", "E"], "answer": 3, "explainRo": "Sophie și-a cumpărat prima bicicletă adevărată cu banii economisiți." }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "minutes": 40,
+    "parts": [
+      {
+        "title": "Part 1",
+        "instructionsRo": "Vei auzi opt fragmente diferite. Pentru fiecare întrebare, alege răspunsul cel mai potrivit (A, B sau C).",
+        "questions": [
+          { "type": "mc", "q": "**1** You hear a woman talking to a friend about a course she is doing. What does she find difficult?", "options": ["the amount of homework", "the time the classes start", "the other students in the group"], "answer": 1, "audio": [
+            { "s": "Woman", "en": "The teacher's great and the group's really friendly. I thought I'd feel old, but most of them are my age. And I don't mind the homework, it's only about an hour a week." },
+            { "s": "Man", "en": "So what's the problem?" },
+            { "s": "Woman", "en": "Getting there. Classes start at six and I don't finish work until half past five, so I'm always rushing across town and arriving late." },
+            { "s": "Man", "en": "Couldn't you move to the Saturday group?" },
+            { "s": "Woman", "en": "It's full, unfortunately." }
+          ], "explainRo": "Problema este ora de începere: cursurile încep la șase, iar ea termină lucrul la cinci și jumătate. Temele și colegii sunt menționați pozitiv." },
+          { "type": "mc", "q": "**2** You hear a man leaving a voicemail message for a colleague. Why is he calling?", "options": ["to cancel a meeting", "to apologise for a mistake", "to ask for some information"], "answer": 2, "audio": [
+            { "s": "Man", "en": "Hi Claire, it's Mark. About tomorrow's meeting with the client. It's still at ten, don't worry, nothing's changed. I just need the figures from last quarter before then, the ones you showed at the team meeting. I've looked everywhere on the shared drive and I can't find them. Could you send them over tonight if you get a chance? Thanks a lot." }
+          ], "explainRo": "Mark cere cifrele din trimestrul trecut. Spune clar că ședința nu se schimbă și nu își cere scuze." },
+          { "type": "mc", "q": "**3** You hear two friends talking about a film they have seen. What do they agree about?", "options": ["The film was too long.", "The acting was excellent.", "The ending was disappointing."], "answer": 0, "audio": [
+            { "s": "Man", "en": "So what did you think?" },
+            { "s": "Woman", "en": "Honestly, the main actor was brilliant. I could watch him in anything." },
+            { "s": "Man", "en": "Really? I found him a bit wooden. But three hours! I kept checking my watch." },
+            { "s": "Woman", "en": "Me too. They could easily have cut forty minutes. I loved the ending, though." },
+            { "s": "Man", "en": "Hmm, I saw it coming from the start." }
+          ], "explainRo": "Amândoi spun că filmul a fost prea lung („I kept checking my watch” – „Me too”). Despre actor și final au păreri diferite." },
+          { "type": "mc", "q": "**4** You hear a woman talking about her new flat. How does she feel about it?", "options": ["worried about the cost", "relieved that she has found it", "disappointed with the location"], "answer": 1, "audio": [
+            { "s": "Woman", "en": "After six months of looking, I'd almost given up. Every place I liked was either too far from work or far too expensive. This one isn't perfect, the kitchen's tiny, but it's a ten-minute walk from the office and the rent's actually lower than what I was paying before. I can finally stop spending my weekends at viewings." }
+          ], "explainRo": "După șase luni de căutări, e ușurată („I can finally stop…”). Chiria e mai mică, iar locația e aproape de birou." },
+          { "type": "mc", "q": "**5** You hear a tour guide speaking to a group of tourists. What is she doing?", "options": ["warning them about a danger", "recommending a restaurant", "explaining a change of plan"], "answer": 2, "audio": [
+            { "s": "Guide", "en": "Right, everyone, before we set off. I'm afraid the boat trip to the island won't be possible this morning because of the wind. So instead, we'll visit the old town first and try the boat after lunch, when it's supposed to calm down. There's a lovely fish restaurant by the harbour if you'd like to eat there, but that's completely up to you." }
+          ], "explainRo": "Ghidul anunță că excursia cu barca se mută după-amiază – o schimbare de program. Vântul este motivul, nu un avertisment, iar restaurantul e doar o mențiune." },
+          { "type": "mc", "q": "**6** You hear a man talking about his hobby. Why did he take it up?", "options": ["A friend persuaded him.", "His doctor advised him to.", "He wanted to meet new people."], "answer": 0, "audio": [
+            { "s": "Man", "en": "Everyone assumes I started climbing for my health, because I'd had back problems. Actually, my doctor was quite against it at first. It was my neighbour, Pete, who kept going on about it until I agreed to try one session, just to keep him quiet. I hardly knew anyone at the climbing centre then, but now half my friends are from there." }
+          ], "explainRo": "Vecinul Pete a insistat până când a încercat. Doctorul a fost împotrivă, iar prietenii noi au apărut abia mai târziu." },
+          { "type": "mc", "q": "**7** You hear two colleagues talking about a presentation. What does the woman suggest?", "options": ["practising in front of colleagues", "reducing the number of slides", "beginning with a story"], "answer": 2, "audio": [
+            { "s": "Man", "en": "I've got forty slides for a twenty-minute talk. Is that too many?" },
+            { "s": "Woman", "en": "The number's fine if they're simple. What worries me is the beginning. You go straight into the statistics and people switch off. Why not open with that story about the client who lost all his data? Then the numbers will actually mean something." },
+            { "s": "Man", "en": "Good idea. I was going to rehearse it with the team anyway." }
+          ], "explainRo": "Ea propune să înceapă cu povestea clientului. Spune că numărul de slide-uri e în regulă, iar repetiția cu echipa e ideea lui." },
+          { "type": "mc", "q": "**8** You hear a woman talking on the radio about a book. What is the book mainly about?", "options": ["the history of a city", "the career of a scientist", "a journey across a continent"], "answer": 1, "audio": [
+            { "s": "Woman", "en": "On the surface, it's a travel book. The author cycles from Lisbon to Istanbul. But really, the journey is just a frame. What she's actually telling us is the story of her grandmother, a chemist who escaped from Hungary in the nineteen fifties and went on to make some remarkable discoveries. Every city she passes through connects to a moment in her grandmother's career." }
+          ], "explainRo": "Călătoria este doar un cadru („just a frame”); cartea este de fapt despre cariera bunicii, o chimistă." }
+        ]
+      },
+      {
+        "title": "Part 2",
+        "instructionsRo": "Vei auzi un fotograf vorbind despre meseria lui. Completează propozițiile cu un cuvânt sau o expresie scurtă (1–3 cuvinte) pe care le auzi.",
+        "audio": [
+          { "s": "Daniel", "en": "Hi everyone, I'm Daniel, and for the last twelve years I've been working as a food photographer. People often think that means I spend my days eating delicious meals, which, sadly, isn't quite true." },
+          { "s": "Daniel", "en": "I didn't plan this career at all. I studied architecture, and my first interest in photography came from taking pictures of buildings for my university projects. It was only when I got a part-time job in a restaurant kitchen that I started photographing food, mainly to show my friends what the chef was creating." },
+          { "s": "Daniel", "en": "A typical shoot starts long before I pick up the camera. I meet the client, usually a restaurant, a magazine or a supermarket, and we discuss what they want the pictures to communicate. Then I work with a food stylist, whose job is to make the dishes look perfect. Most people have never heard of food stylists, but honestly, they're the real stars of the industry." },
+          { "s": "Daniel", "en": "The biggest challenge is time. Hot food starts to look tired after about five minutes. Salads go flat, sauces develop a skin, and ice cream, of course, melts almost immediately. That's why we often use tricks. Instead of ice cream, for example, stylists sometimes use mashed potato, which holds its shape under hot lights. I have to admit I'm not a big fan of those tricks, though. These days I prefer to photograph real food and simply work faster." },
+          { "s": "Daniel", "en": "Lighting is everything in my job. I used to rely on expensive studio lights, but over the years I've learnt that nothing beats natural light from a window. My favourite time to shoot is early morning, when the light is soft and slightly blue. In winter, when the days are short, I sometimes have to plan a whole week of work around the weather forecast." },
+          { "s": "Daniel", "en": "People also ask me about equipment. To be honest, you don't need much. My most important tool isn't the camera at all. It's a simple piece of white card, which I use to reflect light into the dark areas of a plate. It costs almost nothing, and I carry several in my bag at all times." },
+          { "s": "Daniel", "en": "Social media has changed the industry enormously. Ten years ago, most of my work was for printed cookbooks. Now, about seventy per cent of it is for restaurants' online accounts. The pictures have to look good on a small phone screen, so I've learnt to keep my compositions simple, with one main dish and very few objects around it." },
+          { "s": "Daniel", "en": "If you're thinking of becoming a food photographer, my advice is this: learn to cook. Understanding how food behaves, why bread rises or how long a sauce stays shiny, will make you a much better photographer than any expensive lens. And be patient. It took me three years before I could earn a living from photography alone." }
+        ],
+        "questions": [
+          { "type": "fill", "q": "**9** At university, Daniel studied ___ .", "answers": ["architecture"], "explainRo": "„I studied architecture.” Fotografia a apărut prin proiectele de la facultate." },
+          { "type": "fill", "q": "**10** Daniel first photographed food while he had a part-time job in a ___ .", "answers": ["restaurant kitchen", "kitchen", "restaurant"], "explainRo": "„a part-time job in a restaurant kitchen”." },
+          { "type": "fill", "q": "**11** Daniel describes food stylists as the ___ of the industry.", "answers": ["real stars", "stars"], "explainRo": "„they're the real stars of the industry”." },
+          { "type": "fill", "q": "**12** Hot food starts to look tired after about ___ .", "answers": ["five minutes", "5 minutes"], "explainRo": "„Hot food starts to look tired after about five minutes.”" },
+          { "type": "fill", "q": "**13** Instead of ice cream, stylists sometimes use ___ .", "answers": ["mashed potato", "mashed potatoes"], "explainRo": "„stylists sometimes use mashed potato, which holds its shape under hot lights”." },
+          { "type": "fill", "q": "**14** Daniel's favourite time of day for taking photos is ___ .", "answers": ["early morning", "the early morning", "early in the morning"], "explainRo": "„My favourite time to shoot is early morning.”" },
+          { "type": "fill", "q": "**15** Daniel's most important tool is a piece of ___ .", "answers": ["white card", "card"], "explainRo": "„It's a simple piece of white card.” Camera nu este cea mai importantă unealtă." },
+          { "type": "fill", "q": "**16** Ten years ago, most of Daniel's work was for printed ___ .", "answers": ["cookbooks", "cook books", "cookery books"], "explainRo": "„Ten years ago, most of my work was for printed cookbooks.”" },
+          { "type": "fill", "q": "**17** Daniel keeps his pictures simple so that they look good on a ___ .", "answers": ["small phone screen", "phone screen", "phone"], "explainRo": "„The pictures have to look good on a small phone screen.”" },
+          { "type": "fill", "q": "**18** It took Daniel ___ to earn a living from photography alone.", "answers": ["three years", "3 years"], "explainRo": "„It took me three years before I could earn a living from photography alone.”" }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "instructionsRo": "Vei auzi cinci persoane vorbind despre motivul pentru care s-au mutat în alt oraș sau altă țară. Alege din lista A–H motivul principal al fiecărei persoane. Trei variante sunt în plus.",
+        "questions": [
+          { "type": "mc", "q": "**19** Speaker 1", "options": ["A to be closer to a family member", "B because of a job offer", "C to have a better quality of life", "D to study", "E because of a relationship", "F to save money", "G to learn a language", "H to start a business"], "answer": 5, "audio": [
+            { "s": "Speaker 1", "en": "Everyone thinks I moved to Valencia for the sunshine, and to be fair, the weather's fantastic. But the truth is less romantic. My rent in London was eating up more than half my salary. Here I pay a third of that for a bigger flat, and I can actually put something aside every month. I work remotely, so my job didn't change at all." }
+          ], "explainRo": "Motivul real este chiria: acum poate pune bani deoparte („put something aside every month”). Vremea și jobul sunt doar menționate." },
+          { "type": "mc", "q": "**20** Speaker 2", "options": ["A to be closer to a family member", "B because of a job offer", "C to have a better quality of life", "D to study", "E because of a relationship", "F to save money", "G to learn a language", "H to start a business"], "answer": 0, "audio": [
+            { "s": "Speaker 2", "en": "I'd been offered a promotion in Frankfurt twice and turned it down both times. Then my mother got ill, and suddenly living three hours away by plane felt impossible. So I asked for a transfer back to Cluj. It meant taking a step back in my career, but I'm glad I did it. I see her almost every day now." }
+          ], "explainRo": "S-a mutat ca să fie aproape de mama ei bolnavă. Oferta de promovare a refuzat-o." },
+          { "type": "mc", "q": "**21** Speaker 3", "options": ["A to be closer to a family member", "B because of a job offer", "C to have a better quality of life", "D to study", "E because of a relationship", "F to save money", "G to learn a language", "H to start a business"], "answer": 4, "audio": [
+            { "s": "Speaker 3", "en": "I met Sofia at a conference in Lisbon. For a year we did the long-distance thing, flights every other weekend, video calls at midnight. In the end one of us had to move, and since her job was harder to do from abroad, it was me. My Portuguese is still terrible, by the way, although I'm taking lessons." }
+          ], "explainRo": "S-a mutat pentru relația cu Sofia. Lecțiile de portugheză sunt o consecință, nu motivul." },
+          { "type": "mc", "q": "**22** Speaker 4", "options": ["A to be closer to a family member", "B because of a job offer", "C to have a better quality of life", "D to study", "E because of a relationship", "F to save money", "G to learn a language", "H to start a business"], "answer": 7, "audio": [
+            { "s": "Speaker 4", "en": "I'd always dreamed of opening my own bakery, but in the capital the rents for shops were crazy. A friend told me about a small town in the north where the old bakery had just closed. I went to see it, and within a month I'd signed the lease. It's hard work, but the business is doing well, and the locals are very loyal." }
+          ], "explainRo": "S-a mutat ca să-și deschidă propria brutărie. Chiriile mari din capitală explică doar alegerea orașului." },
+          { "type": "mc", "q": "**23** Speaker 5", "options": ["A to be closer to a family member", "B because of a job offer", "C to have a better quality of life", "D to study", "E because of a relationship", "F to save money", "G to learn a language", "H to start a business"], "answer": 3, "audio": [
+            { "s": "Speaker 5", "en": "I was accepted on a master's programme in Edinburgh, and to be honest, I wasn't sure about going, because I'd never lived abroad. The course is great, but what's really surprised me is the pace of life. I walk everywhere, I'm in the hills at weekends, and I don't feel stressed all the time like I did back home." }
+          ], "explainRo": "Motivul mutării a fost masterul (studiile). Calitatea vieții este o surpriză plăcută descoperită după aceea." }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "instructionsRo": "Vei auzi un interviu cu un creator de jocuri de societate. Pentru fiecare întrebare, alege răspunsul cel mai potrivit (A, B sau C).",
+        "audio": [
+          { "s": "Interviewer", "en": "My guest today is Tom Hale, whose board game Harbour Lights has sold over a million copies. Tom, welcome. Did you always want to design games?" },
+          { "s": "Tom", "en": "Not at all. I was an accountant for fifteen years. I played games with my kids at weekends, and I kept noticing that most of them were either too simple for adults or so complicated that the children lost interest. But the idea of designing one myself only came when my daughter asked me why nobody made games that the whole family could actually enjoy together." },
+          { "s": "Interviewer", "en": "And that became Harbour Lights?" },
+          { "s": "Tom", "en": "Eventually. The first version was awful, to be honest. I made it from cereal boxes on the kitchen table, and it took about four hours to play. My family were very polite about it, but I could see they were bored after the first hour. That was probably the most useful lesson I've ever had. If people are too polite to tell you something's boring, watch their faces instead." },
+          { "s": "Interviewer", "en": "How long did it take to get from that first version to the finished game?" },
+          { "s": "Tom", "en": "Almost three years. I must have tested it with two hundred different groups. I took it to cafés, to libraries, even to a retirement home. The older players were the most honest, actually. One lady told me the rules were longer than a tax form, which, for an accountant, was quite an insult." },
+          { "s": "Interviewer", "en": "Many designers say finding a publisher is the hardest part. Was that your experience?" },
+          { "s": "Tom", "en": "Surprisingly, no. I'd expected dozens of rejections, but the second company I contacted said yes. The difficult part came afterwards. The publisher wanted to change the theme from lighthouses to pirates, because they thought pirates would sell better. We argued about it for months. In the end we kept the lighthouses, but I agreed to make the game shorter, and I think that compromise actually made it better." },
+          { "s": "Interviewer", "en": "Why do you think board games have become so popular again, when everyone has a phone in their pocket?" },
+          { "s": "Tom", "en": "I think it's precisely because of the phones. People spend all day looking at screens, often alone, and they miss being in the same room as others, laughing and arguing. A board game gives you an excuse to sit around a table for an hour without anyone checking their messages. And I don't think it's nostalgia. Lots of my players are in their twenties and grew up with video games, which they still love." },
+          { "s": "Interviewer", "en": "You gave up a secure job to do this. Do you ever regret it?" },
+          { "s": "Tom", "en": "There were moments, especially in the first year, when I earned almost nothing and wondered what I'd done. My wife was very supportive, but I knew we couldn't live on her salary forever. What I really love, though, is that no two days are the same. One day I'm drawing a prototype, the next I'm at a games fair in Germany explaining the rules to strangers, and the day after that I'm answering emails from players in Japan." },
+          { "s": "Interviewer", "en": "What are you working on now?" },
+          { "s": "Tom", "en": "A cooperative game, where the players work together against the game instead of competing with each other. My kids, who are teenagers now, are my toughest critics. They've already rejected three versions. But that's exactly why I trust them." },
+          { "s": "Interviewer", "en": "And finally, what advice would you give someone who wants to design a game?" },
+          { "s": "Tom", "en": "Don't keep your idea secret. A lot of beginners worry that someone will steal it, so they never show it to anyone. But an idea is worth nothing until people have played it. Make the simplest possible version, put it in front of real players and listen, especially to the criticism you don't want to hear." }
+        ],
+        "questions": [
+          { "type": "mc", "q": "**24** What gave Tom the idea of designing a game?", "options": ["his children losing interest in games", "a question from his daughter", "his experience as an accountant"], "answer": 1, "explainRo": "Ideea a venit „when my daughter asked me why nobody made games…”. Faptul că unii copii își pierdeau interesul era doar o observație anterioară." },
+          { "type": "mc", "q": "**25** What did Tom learn from testing the first version with his family?", "options": ["People's reactions are more reliable than their words.", "Family games should never last more than an hour.", "Homemade versions put players off."], "answer": 0, "explainRo": "„If people are too polite to tell you something's boring, watch their faces instead.” – reacțiile spun mai mult decât cuvintele." },
+          { "type": "mc", "q": "**26** What does Tom say about the older players who tested the game?", "options": ["They didn't understand the rules.", "They enjoyed the game more than anyone else.", "They were the most honest testers."], "answer": 2, "explainRo": "„The older players were the most honest, actually.” Doamna a criticat lungimea regulilor, nu a spus că nu le înțelege." },
+          { "type": "mc", "q": "**27** What was the main disagreement with the publisher about?", "options": ["the length of the game", "the theme of the game", "the price of the game"], "answer": 1, "explainRo": "Editorul voia pirați în loc de faruri și s-au certat luni de zile. Lungimea jocului a fost compromisul, nu motivul disputei." },
+          { "type": "mc", "q": "**28** According to Tom, board games are popular again because people", "options": ["feel nostalgic about their childhood.", "are tired of video games.", "want to spend time with others face to face."], "answer": 2, "explainRo": "Oamenilor le lipsește să fie în aceeași cameră cu alții. Tom spune explicit că nu e nostalgie, iar tinerii încă iubesc jocurile video." },
+          { "type": "mc", "q": "**29** What does Tom enjoy most about his new career?", "options": ["the variety in his working day", "the chance to travel abroad", "the money he earns"], "answer": 0, "explainRo": "„What I really love… is that no two days are the same.” Călătoria în Germania e doar un exemplu de varietate." },
+          { "type": "mc", "q": "**30** What is Tom's main advice for new game designers?", "options": ["Protect your idea from other people.", "Ask your family what they think first.", "Test a simple version with real players."], "answer": 2, "explainRo": "„Make the simplest possible version, put it in front of real players and listen.” El spune să NU păstrezi ideea secretă." }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "minutes": 80,
+    "tasks": [
+      {
+        "title": "Part 1 — Essay",
+        "task": "In your English class you have been talking about education and technology. Now your English teacher has asked you to write an essay.\n\nWrite an essay using **all** the notes and give reasons for your point of view.\n\n**Should schools replace printed textbooks with tablets?**\n\nNotes\n\nWrite about:\n1. cost\n2. students' concentration\n3. ............ (your own idea)\n\nWrite your **essay** in **140–190** words.",
+        "taskRo": "Scrie un eseu (140–190 de cuvinte) despre dacă școlile ar trebui să înlocuiască manualele tipărite cu tablete. Trebuie să discuți costul, concentrarea elevilor și o idee proprie, apoi să-ți exprimi clar opinia. La examen eseul este obligatoriu; în plus alegi UNA dintre celelalte două sarcini (articol sau recenzie).",
+        "minWords": 140,
+        "maxWords": 190,
+        "checklistRo": [
+          "Am scris un paragraf de introducere care prezintă tema",
+          "Am discutat costul (nota 1)",
+          "Am discutat concentrarea elevilor (nota 2)",
+          "Am adăugat o idee proprie (nota 3), diferită de primele două",
+          "Am o concluzie cu opinia mea clară",
+          "Am folosit conectori (Firstly, On the other hand, In conclusion…) și un registru neutru/formal",
+          "Am între 140 și 190 de cuvinte"
+        ],
+        "model": "Many schools are considering replacing printed textbooks with tablets. While this idea seems modern and attractive, I believe it has both advantages and serious drawbacks.\n\nFirstly, there is the question of cost. Buying a tablet for every student is expensive, especially for schools in poorer areas. On the other hand, digital books can be updated at no extra cost, whereas printed textbooks quickly become out of date and have to be replaced.\n\nSecondly, tablets may affect students' concentration. With games, messages and videos just one click away, it is very tempting for young people to stop reading and start scrolling. Several teachers I know say that their students remember less when they study from a screen.\n\nFinally, we should consider students' health. Spending six hours a day looking at a screen can cause eye strain and headaches, and many teenagers already use their phones for hours after school.\n\nIn conclusion, although tablets offer some benefits, I do not think schools should replace textbooks completely. A combination of the two would be the most sensible solution.",
+        "usefulPhrases": [
+          { "en": "While this idea seems attractive, …", "ro": "Deși această idee pare atrăgătoare, …" },
+          { "en": "Firstly, there is the question of…", "ro": "În primul rând, se pune problema…" },
+          { "en": "On the other hand, …", "ro": "Pe de altă parte, …" },
+          { "en": "It is very tempting for young people to…", "ro": "Este foarte tentant pentru tineri să…" },
+          { "en": "Finally, we should consider…", "ro": "În sfârșit, ar trebui să luăm în considerare…" },
+          { "en": "In conclusion, although…, I do not think…", "ro": "În concluzie, deși…, nu cred că…" },
+          { "en": "The most sensible solution would be…", "ro": "Cea mai înțeleaptă soluție ar fi…" }
+        ]
+      },
+      {
+        "title": "Part 2 — Article",
+        "task": "You see this announcement on an English-language travel website.\n\n**Articles wanted! A place that changed me**\n\nTell us about a place you have visited that changed the way you think or feel. What was the place like? What happened there? Why was it so important to you?\n\nThe best articles will be published on our website next month.\n\nWrite your **article** in **140–190** words.",
+        "taskRo": "Scrie un articol (140–190 de cuvinte) despre un loc care te-a schimbat: cum era locul, ce s-a întâmplat acolo și de ce a fost important pentru tine. La examen alegi fie această sarcină, fie recenzia, pe lângă eseul obligatoriu.",
+        "minWords": 140,
+        "maxWords": 190,
+        "checklistRo": [
+          "Am un titlu atrăgător",
+          "Am descris locul cu detalii concrete",
+          "Am povestit ce s-a întâmplat acolo",
+          "Am explicat de ce locul a fost important pentru mine",
+          "Am folosit un stil viu, care se adresează cititorului (de ex. o întrebare retorică)",
+          "Am un final care leagă experiența de prezent",
+          "Am între 140 și 190 de cuvinte"
+        ],
+        "model": "The village that taught me to slow down\n\nTwo summers ago, I spent a week in Viscri, a tiny village in Transylvania, and I came back a different person.\n\nAt first glance, there isn't much to see. There's one dusty main street, a fortified church on the hill and more horses than cars. My phone had almost no signal, and I remember feeling slightly panicked on the first evening. What on earth was I going to do for seven days?\n\nThe answer turned out to be: very little, and that was the point. I helped my hosts collect eggs, walked for hours through the fields and had long conversations with neighbours who seemed to have all the time in the world. Nobody asked me what I did for a living.\n\nBack home, I realised how rarely I stopped to simply enjoy a moment. Now I switch my phone off every Sunday morning and go for a walk without any destination. It's a small change, but it has made me much calmer. Sometimes the most ordinary places teach us the most important lessons.",
+        "usefulPhrases": [
+          { "en": "At first glance, …", "ro": "La prima vedere, …" },
+          { "en": "I came back a different person.", "ro": "M-am întors alt om." },
+          { "en": "What on earth was I going to do?", "ro": "Ce naiba urma să fac?" },
+          { "en": "The answer turned out to be…", "ro": "Răspunsul s-a dovedit a fi…" },
+          { "en": "Back home, I realised…", "ro": "Întors acasă, mi-am dat seama…" },
+          { "en": "It's a small change, but…", "ro": "E o schimbare mică, dar…" },
+          { "en": "Sometimes the most ordinary places…", "ro": "Uneori cele mai obișnuite locuri…" }
+        ]
+      },
+      {
+        "title": "Part 2 — Review",
+        "task": "You see this announcement on a technology blog.\n\n**Reviews wanted: an app I couldn't live without**\n\nWrite a review of an app you use every day. Tell us what the app does, what you like and dislike about it, and whether you would recommend it to other readers.\n\nWrite your **review** in **140–190** words.",
+        "taskRo": "Scrie o recenzie (140–190 de cuvinte) despre o aplicație pe care o folosești zilnic: ce face, ce îți place și ce nu și dacă o recomanzi. La examen alegi fie această sarcină, fie articolul, pe lângă eseul obligatoriu.",
+        "minWords": 140,
+        "maxWords": 190,
+        "checklistRo": [
+          "Am un titlu care numește aplicația",
+          "Am explicat pe scurt ce face aplicația",
+          "Am descris cel puțin două lucruri care îmi plac, cu exemple",
+          "Am menționat cel puțin un dezavantaj",
+          "Am dat o recomandare clară la final",
+          "Am folosit adjective variate (clean, intuitive, overwhelmed, rather expensive…)",
+          "Am între 140 și 190 de cuvinte"
+        ],
+        "model": "Listly: the to-do app that finally organised my life\n\nI have tried dozens of to-do list apps over the years, and I usually give up after a week. Listly is the first one that has actually stayed on my phone.\n\nThe idea is simple: you write down everything you need to do, and the app organises your tasks by project and by date. What makes it special is how quickly you can add something. You just type 'call the dentist on Friday at ten' and it understands the date and time automatically.\n\nI particularly like the way it shows your progress. Every completed task gives you points, which sounds childish, but it really does keep me motivated. The design is clean and intuitive, and it works perfectly on both my laptop and my phone.\n\nOn the downside, some of the most useful features, such as location reminders, are only available in the premium version, which is rather expensive.\n\nOverall, I would definitely recommend Listly to anyone who feels overwhelmed by their workload. Start with the free version and see if it works for you.",
+        "usefulPhrases": [
+          { "en": "I have tried dozens of… over the years.", "ro": "Am încercat zeci de… de-a lungul anilor." },
+          { "en": "What makes it special is…", "ro": "Ce o face specială este…" },
+          { "en": "I particularly like the way…", "ro": "Îmi place în mod deosebit felul în care…" },
+          { "en": "It sounds childish, but it really does…", "ro": "Sună copilăresc, dar chiar…" },
+          { "en": "On the downside, …", "ro": "Ca dezavantaj, …" },
+          { "en": "Overall, I would definitely recommend it to…", "ro": "În ansamblu, aș recomanda-o cu siguranță celor care…" }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "minutes": 14,
+    "tasks": [
+      {
+        "title": "Part 1 — Interview",
+        "infoRo": "Examinatorul îți pune câteva întrebări despre tine: unde locuiești, ce faci, ce îți place. Durează aproximativ 2 minute și ești evaluat la fluență, vocabular și gramatică – răspunde cu 2–3 propoziții, nu doar cu „da” sau „nu”.",
+        "prompts": [
+          "Where are you from?",
+          "Do you work or are you a student?",
+          "What do you enjoy doing in your free time?",
+          "Do you prefer spending time alone or with other people? Why?",
+          "Tell us about a place you would like to visit in the future.",
+          "How do you usually keep in touch with your friends?"
+        ],
+        "usefulPhrases": [
+          { "en": "I'm originally from…, but I live in… now.", "ro": "Sunt de loc din…, dar acum locuiesc în…" },
+          { "en": "I work as a… for a company that…", "ro": "Lucrez ca… la o firmă care…" },
+          { "en": "In my free time, I'm really into…", "ro": "În timpul liber sunt pasionat de…" },
+          { "en": "It depends on my mood, to be honest.", "ro": "Sincer, depinde de starea mea." },
+          { "en": "I've always wanted to go to… because…", "ro": "Mi-am dorit mereu să merg în… pentru că…" },
+          { "en": "Mostly through messaging apps, but…", "ro": "Mai ales prin aplicații de mesagerie, dar…" }
+        ],
+        "model": "I'm originally from Suceava, but I've been living in Cluj for about six years now. I work as a software developer for a company that builds business applications, so I spend most of my day in front of a screen. That's probably why, in my free time, I'm really into hiking. Whenever I can, I go to the mountains with a couple of friends at the weekend. As for spending time alone or with others, it depends on my mood, to be honest. After a busy week I sometimes just want a quiet evening with a book, but usually I prefer being with people. I've always wanted to visit Japan, because I'm fascinated by the mix of very old traditions and modern technology."
+      },
+      {
+        "title": "Part 2 — Long turn (compare two photos)",
+        "infoRo": "Primești două fotografii și trebuie să le compari timp de aproximativ un minut, răspunzând și la întrebarea scrisă deasupra lor. Nu le descrie în detaliu – compară-le și speculează. Apoi partenerul tău răspunde pe scurt la o întrebare legată de fotografiile tale.",
+        "prompts": [
+          "Here are your photographs. They show people working in different places.",
+          "I'd like you to compare the photographs, and say why the people might have chosen to work in these places.",
+          "All right? (Candidate speaks for about one minute.)",
+          "Thank you. (To the other candidate:) Which of these places would you prefer to work in? Why?"
+        ],
+        "wiki": "Open plan",
+        "sceneRo": "Fotografia 1: un birou mare, open-space, cu zeci de birouri unul lângă altul; câțiva angajați lucrează la calculator cu căști, alții discută în picioare lângă o tablă albă. Fotografia 2: un tânăr lucrează singur pe laptop într-o cafenea mică și luminoasă, cu o cană de cafea alături; în fundal sunt alți clienți și un barman.",
+        "usefulPhrases": [
+          { "en": "Both photos show people who are…", "ro": "Ambele fotografii arată oameni care…" },
+          { "en": "In the first picture…, whereas in the second one…", "ro": "În prima imagine…, în timp ce în a doua…" },
+          { "en": "They might have chosen this place because…", "ro": "Poate au ales acest loc pentru că…" },
+          { "en": "It looks as if…", "ro": "Pare că…" },
+          { "en": "I'd imagine that…", "ro": "Îmi imaginez că…" },
+          { "en": "One advantage of… is that…, but on the other hand…", "ro": "Un avantaj al… este că…, dar pe de altă parte…" }
+        ],
+        "model": "Both photos show people working, but in very different environments. In the first picture, there's a large open-plan office with lots of desks close together, whereas in the second one a young man is working alone on his laptop in a café. The people in the office might have chosen to work there because it's easier to share ideas and ask colleagues for help – I can see two of them discussing something next to a whiteboard. On the other hand, it looks quite noisy, which is probably why some of them are wearing headphones. The man in the café, I'd imagine, is a freelancer or perhaps someone who works from home and needs a change of scene. He might find the background noise relaxing, and of course, there's coffee nearby! However, he may find it harder to concentrate if the café gets crowded."
+      },
+      {
+        "title": "Part 3 — Collaborative task",
+        "infoRo": "Discuți cu partenerul timp de două minute pe baza unei întrebări și a cinci idei, apoi aveți un minut ca să luați o decizie. Ești evaluat la cât de bine interacționezi: întrebi părerea partenerului, ești de acord sau nu, justifici și propui.",
+        "prompts": [
+          "Here are some ideas that a town could use to encourage people to be more active: free outdoor gym equipment in parks; more cycle lanes; free sports classes for teenagers; a fitness app with rewards; organised walking groups for older people.",
+          "Talk to each other about how effective these ideas might be.",
+          "Now you have about a minute to decide which idea would be the most effective."
+        ],
+        "usefulPhrases": [
+          { "en": "Shall we start with…?", "ro": "Începem cu…?" },
+          { "en": "What do you think about…?", "ro": "Ce părere ai despre…?" },
+          { "en": "That's a good point, but…", "ro": "E un argument bun, dar…" },
+          { "en": "I'm not so sure about that.", "ro": "Nu sunt chiar atât de sigur." },
+          { "en": "I'd go for… because…", "ro": "Eu aș alege… pentru că…" },
+          { "en": "So, have we agreed on…?", "ro": "Deci, am căzut de acord asupra…?" }
+        ],
+        "model": "A: Shall we start with the cycle lanes? I think they're really effective, because people can exercise without even noticing – they just cycle to work instead of driving.\nB: That's a good point, but building them is expensive and takes years. What do you think about the outdoor gym equipment?\nA: It's cheap, but I'm not sure many people would actually use it, especially in winter.\nB: True. The walking groups for older people seem very useful, though. They're good for health and for loneliness too.\nA: Absolutely. And the free classes for teenagers could stop them spending all evening on their phones.\nB: So which one would be the most effective?\nA: I'd go for the cycle lanes, because they change people's daily habits.\nB: I agree. Even if they're expensive, they'd help the most people in the long term. So, have we agreed on cycle lanes?\nA: Yes, let's go with that."
+      },
+      {
+        "title": "Part 4 — Discussion",
+        "infoRo": "Examinatorul vă pune întrebări mai generale legate de tema din Part 3. Durează aproximativ 4 minute. Dezvoltă-ți răspunsurile, dă exemple și reacționează și la ce spune partenerul.",
+        "prompts": [
+          "Some people say that we don't have enough time to exercise nowadays. What do you think?",
+          "Should schools spend more time on sport? Why or why not?",
+          "Do you think technology makes people less active?",
+          "Is it the government's responsibility to keep people healthy?",
+          "Why do some people find it difficult to change their habits?"
+        ],
+        "usefulPhrases": [
+          { "en": "I see what you mean, but in my opinion…", "ro": "Înțeleg ce vrei să spui, dar după părerea mea…" },
+          { "en": "It's not so much a question of time as of…", "ro": "Nu e atât o problemă de timp, cât de…" },
+          { "en": "Take my brother, for example.", "ro": "Ia-l pe fratele meu, de exemplu." },
+          { "en": "To some extent, yes, but…", "ro": "Într-o anumită măsură, da, dar…" },
+          { "en": "In the long run, …", "ro": "Pe termen lung, …" },
+          { "en": "I'd add that…", "ro": "Aș adăuga că…" }
+        ],
+        "model": "I think it's not so much a question of time as of priorities. Most people manage to spend two or three hours a day on their phones, so they could easily find thirty minutes for a walk. Take my brother, for example. He always said he was too busy, but now he cycles to work and actually arrives less stressed. As for technology, to some extent it does make us less active, because we can order food, watch films and even work without leaving the sofa. But it can also help: fitness apps and smartwatches remind people to move. I don't think the government can force anyone to be healthy, but it can make healthy choices easier, for instance by building parks and cycle lanes. In the long run, that would probably save money on healthcare too."
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "a2-u01",
+  "level": "A2",
+  "order": 1,
+  "title": "A trip to remember",
+  "titleRo": "O călătorie de neuitat",
+  "emoji": "✈️",
+  "goalRo": "La final vei putea să povestești o călătorie sau o vacanță folosind cele mai importante verbe neregulate la trecut.",
+  "vocab": [
+    { "en": "luggage", "ro": "bagaje", "pos": "noun", "ipa": "/ˈlʌɡ.ɪdʒ/", "emoji": "🧳", "wiki": "Baggage", "ex": "I put my luggage in the taxi and went to the airport.", "exRo": "Mi-am pus bagajele în taxi și am plecat la aeroport." },
+    { "en": "boarding pass", "ro": "card de îmbarcare", "pos": "noun", "ipa": "/ˈbɔː.dɪŋ ˌpɑːs/", "emoji": "🎫", "wiki": "Boarding pass", "ex": "I showed my boarding pass at the gate.", "exRo": "Am arătat cardul de îmbarcare la poartă." },
+    { "en": "journey", "ro": "călătorie, drum", "pos": "noun", "ipa": "/ˈdʒɜː.ni/", "emoji": "🚆", "ex": "The journey by train took six hours.", "exRo": "Călătoria cu trenul a durat șase ore." },
+    { "en": "souvenir", "ro": "suvenir", "pos": "noun", "ipa": "/ˌsuː.vəˈnɪə/", "emoji": "🎁", "wiki": "Souvenir", "ex": "I bought a small souvenir for my mum.", "exRo": "Am cumpărat un mic suvenir pentru mama." },
+    { "en": "sightseeing", "ro": "vizitarea obiectivelor turistice", "pos": "noun", "ipa": "/ˈsaɪtˌsiː.ɪŋ/", "emoji": "🗺️", "ex": "We went sightseeing in Rome all day.", "exRo": "Am vizitat obiectivele turistice din Roma toată ziua." },
+    { "en": "guidebook", "ro": "ghid turistic (carte)", "pos": "noun", "ipa": "/ˈɡaɪd.bʊk/", "emoji": "📖", "wiki": "Guide book", "ex": "I found a great restaurant in the guidebook.", "exRo": "Am găsit un restaurant grozav în ghidul turistic." },
+    { "en": "delay", "ro": "întârziere", "pos": "noun", "ipa": "/dɪˈleɪ/", "emoji": "⏳", "ex": "There was a two-hour delay at the airport.", "exRo": "A fost o întârziere de două ore la aeroport." },
+    { "en": "abroad", "ro": "în străinătate", "pos": "adv", "ipa": "/əˈbrɔːd/", "emoji": "🌍", "ex": "Last year I went abroad for the first time.", "exRo": "Anul trecut am plecat în străinătate pentru prima dată." },
+    { "en": "fly", "ro": "a zbura (trecut: flew)", "pos": "verb", "ipa": "/flaɪ/", "emoji": "🛫", "ex": "We flew from Bucharest to London.", "exRo": "Am zburat de la București la Londra." },
+    { "en": "catch", "ro": "a prinde (un tren, un autobuz) (trecut: caught)", "pos": "verb", "ipa": "/kætʃ/", "emoji": "🚌", "ex": "We caught the last bus to the hotel.", "exRo": "Am prins ultimul autobuz spre hotel." },
+    { "en": "lose", "ro": "a pierde (trecut: lost)", "pos": "verb", "ipa": "/luːz/", "emoji": "😟", "ex": "I lost my sunglasses on the beach.", "exRo": "Mi-am pierdut ochelarii de soare pe plajă." },
+    { "en": "spend", "ro": "a petrece (timp); a cheltui (bani) (trecut: spent)", "pos": "verb", "ipa": "/spend/", "emoji": "💶", "ex": "We spent a week in Greece.", "exRo": "Am petrecut o săptămână în Grecia." },
+    { "en": "leave", "ro": "a pleca; a lăsa (trecut: left)", "pos": "verb", "ipa": "/liːv/", "emoji": "🚪", "ex": "We left the hotel at six in the morning.", "exRo": "Am plecat de la hotel la șase dimineața." },
+    { "en": "rent a car", "ro": "a închiria o mașină", "pos": "phrase", "ipa": "/ˌrent ə ˈkɑː/", "emoji": "🚗", "ex": "We rented a car and drove along the coast.", "exRo": "Am închiriat o mașină și am condus de-a lungul coastei." },
+    { "en": "coast", "ro": "coastă, litoral", "pos": "noun", "ipa": "/kəʊst/", "emoji": "🏖️", "wiki": "Coast", "ex": "The coast was beautiful and sunny.", "exRo": "Coasta era frumoasă și însorită." },
+    { "en": "backpack", "ro": "rucsac", "pos": "noun", "ipa": "/ˈbæk.pæk/", "emoji": "🎒", "wiki": "Backpack", "ex": "I carried my laptop in my backpack.", "exRo": "Mi-am cărat laptopul în rucsac." },
+    { "en": "sunglasses", "ro": "ochelari de soare", "pos": "noun", "ipa": "/ˈsʌnˌɡlɑː.sɪz/", "emoji": "🕶️", "wiki": "Sunglasses", "ex": "I wore sunglasses because it was very sunny.", "exRo": "Am purtat ochelari de soare pentru că era foarte soare." }
+  ],
+  "grammar": {
+    "title": "Past simple: irregular verbs",
+    "titleRo": "Trecutul simplu: verbele neregulate",
+    "sections": [
+      {
+        "headingRo": "Ce sunt verbele neregulate?",
+        "textRo": "La A1 ai învățat verbele regulate: adaugi **-ed** (work → worked, visit → visited). Multe verbe foarte folosite sunt însă **neregulate**: au o formă proprie la trecut, pe care trebuie s-o înveți pe de rost. Vestea bună: forma este **aceeași pentru toate persoanele** – I went, she went, they went. În română verbul se schimbă după persoană (am mers, ai mers, au mers), în engleză nu!",
+        "table": {
+          "headers": ["Infinitiv", "Past simple", "Română"],
+          "rows": [
+            ["go", "went", "a merge"],
+            ["see", "saw", "a vedea"],
+            ["eat", "ate", "a mânca"],
+            ["drink", "drank", "a bea"],
+            ["take", "took", "a lua"],
+            ["buy", "bought", "a cumpăra"],
+            ["fly", "flew", "a zbura"],
+            ["get", "got", "a primi, a ajunge"]
+          ]
+        },
+        "examples": [
+          { "en": "I went to Paris last summer.", "ro": "Am fost la Paris vara trecută." },
+          { "en": "She took a lot of photos.", "ro": "Ea a făcut multe poze." },
+          { "en": "We got to the hotel at midnight.", "ro": "Am ajuns la hotel la miezul nopții." }
+        ]
+      },
+      {
+        "headingRo": "Încă verbe utile pentru călătorii",
+        "textRo": "Iată alte verbe neregulate pe care le vei folosi mereu când povestești o călătorie. Citește-le cu voce tare de câteva ori – așa se rețin cel mai ușor.",
+        "table": {
+          "headers": ["Infinitiv", "Past simple", "Română"],
+          "rows": [
+            ["leave", "left", "a pleca, a lăsa"],
+            ["find", "found", "a găsi"],
+            ["meet", "met", "a întâlni"],
+            ["sleep", "slept", "a dormi"],
+            ["swim", "swam", "a înota"],
+            ["spend", "spent", "a petrece, a cheltui"],
+            ["lose", "lost", "a pierde"],
+            ["catch", "caught", "a prinde"],
+            ["bring", "brought", "a aduce"],
+            ["have", "had", "a avea"]
+          ]
+        },
+        "examples": [
+          { "en": "We slept in a small hotel near the beach.", "ro": "Am dormit într-un hotel mic lângă plajă." },
+          { "en": "He met a nice couple from Spain.", "ro": "El a cunoscut un cuplu drăguț din Spania." },
+          { "en": "They brought me a souvenir from Italy.", "ro": "Mi-au adus un suvenir din Italia." }
+        ]
+      },
+      {
+        "headingRo": "Cuvinte de timp pentru trecut",
+        "textRo": "Cu past simple spunem de obicei **când** s-a întâmplat ceva: **yesterday**, **last week / last month / last summer**, **in 2023**, **on Monday**. Ca să legi evenimentele într-o poveste, folosește **then** (apoi) și **after that** (după aceea). Atenție: spunem **last summer**, fără „the”.",
+        "examples": [
+          { "en": "Last summer we flew to Lisbon.", "ro": "Vara trecută am zburat la Lisabona." },
+          { "en": "We rented a car. Then we drove to the coast.", "ro": "Am închiriat o mașină. Apoi am condus până la coastă." },
+          { "en": "After that, we had dinner in the old town.", "ro": "După aceea, am luat cina în orașul vechi." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu adăuga -ed la verbele neregulate: nu „goed”, ci **went**; nu „buyed”, ci **bought**.",
+      "„Am făcut o poză” se spune **I took a photo**, nu „I made a photo”.",
+      "„Am cheltuit bani” și „am petrecut timp” folosesc același verb: **I spent 200 euros. / I spent a week there.**",
+      "La trecut forma e aceeași pentru toate persoanele: **he went**, nu „he wents”."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Luni dimineață, după vacanță",
+    "lines": [
+      { "speaker": "Maria", "en": "Hi Andrei! How was your holiday?", "ro": "Salut, Andrei! Cum a fost vacanța?" },
+      { "speaker": "Andrei", "en": "It was amazing! I went to Portugal with my girlfriend.", "ro": "A fost uimitoare! Am fost în Portugalia cu prietena mea." },
+      { "speaker": "Maria", "en": "Lovely! Was the flight OK?", "ro": "Super! A fost în regulă zborul?" },
+      { "speaker": "Andrei", "en": "Not really. There was a three-hour delay, and I lost my boarding pass at the airport!", "ro": "Nu chiar. A fost o întârziere de trei ore și mi-am pierdut cardul de îmbarcare în aeroport!" },
+      { "speaker": "Maria", "en": "Oh no! What happened then?", "ro": "Vai, nu! Și ce s-a întâmplat apoi?" },
+      { "speaker": "Andrei", "en": "I found it in my backpack, under my laptop. Then we flew to Lisbon and rented a car.", "ro": "L-am găsit în rucsac, sub laptop. Apoi am zburat la Lisabona și am închiriat o mașină." },
+      { "speaker": "Maria", "en": "Nice. Were you near the coast?", "ro": "Frumos. Ați stat aproape de coastă?" },
+      { "speaker": "Andrei", "en": "Yes, we drove along the coast, swam every day and ate fresh fish every evening.", "ro": "Da, am condus de-a lungul coastei, am înotat în fiecare zi și am mâncat pește proaspăt în fiecare seară." },
+      { "speaker": "Maria", "en": "Sounds perfect! And you look very relaxed.", "ro": "Sună perfect! Și arăți foarte relaxat." },
+      { "speaker": "Andrei", "en": "I am! I also bought you a souvenir. Here you are!", "ro": "Chiar sunt! Ți-am cumpărat și un suvenir. Poftim!" }
+    ]
+  },
+  "reading": {
+    "title": "A weekend in Vienna",
+    "text": "Last month, Radu, a young web developer from Cluj, went to Vienna for a long weekend. He caught an early flight on Friday morning, and he was in the city at ten o'clock.\n\nHe left his backpack at the hotel and went sightseeing. He saw the old palaces, took hundreds of photos and ate a famous Viennese cake in a small café. In the evening, he met an old friend from university. They had dinner together and talked about work and travel.\n\nOn Saturday, Radu bought a guidebook and found a beautiful park near the river. He spent three hours there and read a book in the sun. On Sunday, he flew home. He was tired but very happy, and he brought chocolates for his team.",
+    "textRo": "Luna trecută, Radu, un tânăr programator web din Cluj, a plecat la Viena pentru un weekend prelungit. A prins un zbor devreme vineri dimineață și la ora zece era în oraș.\n\nȘi-a lăsat rucsacul la hotel și a pornit să viziteze orașul. A văzut palatele vechi, a făcut sute de poze și a mâncat o prăjitură vieneză celebră într-o cafenea mică. Seara s-a întâlnit cu un vechi prieten din facultate. Au luat cina împreună și au vorbit despre muncă și călătorii.\n\nSâmbătă, Radu a cumpărat un ghid turistic și a găsit un parc frumos lângă râu. A petrecut acolo trei ore și a citit o carte la soare. Duminică a zburat acasă. Era obosit, dar foarte fericit, și a adus ciocolată pentru echipa lui.",
+    "questions": [
+      { "type": "mc", "q": "Radu travelled to Vienna by ___.", "options": ["train", "plane", "car"], "answer": 1, "explainRo": "În text: „He caught an early flight” – a mers cu avionul." },
+      { "type": "mc", "q": "On Friday evening, Radu ___.", "options": ["met an old friend", "bought a guidebook", "flew home", "lost his backpack"], "answer": 0, "explainRo": "„In the evening, he met an old friend from university.”" },
+      { "type": "mc", "q": "Radu spent three hours ___.", "options": ["in a café", "at the hotel", "in a park", "at the airport"], "answer": 2, "explainRo": "Sâmbătă a găsit un parc lângă râu și „spent three hours there”." },
+      { "type": "mc", "q": "For his team, Radu brought ___.", "options": ["a guidebook", "photos", "a cake", "chocolates"], "answer": 3, "explainRo": "„He brought chocolates for his team.” – brought este trecutul lui bring." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["luggage", "bagaje"], ["souvenir", "suvenir"], ["delay", "întârziere"], ["coast", "coastă"], ["backpack", "rucsac"]] },
+    { "type": "mc", "q": "Yesterday I ___ to the airport by taxi.", "options": ["go", "went", "goed", "goes"], "answer": 1, "explainRo": "Go este un verb neregulat: trecutul lui este went." },
+    { "type": "mc", "q": "We ___ hundreds of photos in Rome.", "options": ["took", "taked", "made", "take"], "answer": 0, "explainRo": "În engleză spunem take a photo, iar trecutul lui take este took." },
+    { "type": "mc", "q": "I showed my ___ at the gate and got on the plane.", "options": ["souvenir", "boarding pass", "guidebook"], "answer": 1, "explainRo": "La poarta de îmbarcare arăți cardul de îmbarcare – boarding pass." },
+    { "type": "mc", "q": "She ___ a beautiful souvenir for her brother.", "options": ["buyed", "bought", "buy", "buying"], "answer": 1, "explainRo": "Buy este neregulat: buy → bought." },
+    { "type": "mc", "q": "There was a long ___, so our flight left at midnight.", "options": ["delay", "coast", "journey", "luggage"], "answer": 0, "explainRo": "Delay înseamnă întârziere – de aceea zborul a plecat la miezul nopții." },
+    { "type": "mc", "q": "Last summer we ___ in a small hotel near the beach.", "options": ["sleeped", "sleep", "slept"], "answer": 2, "explainRo": "Sleep este neregulat: sleep → slept." },
+    { "type": "mc", "q": "We went ___ in Prague and saw the old castle.", "options": ["abroad", "sightseeing", "journey", "delay"], "answer": 1, "explainRo": "Go sightseeing = a vizita obiectivele turistice." },
+    { "type": "mc", "q": "I ___ my sunglasses on the beach.", "options": ["losed", "loose", "lost", "lose"], "answer": 2, "explainRo": "Lose este neregulat: lose → lost. Atenție, loose este alt cuvânt (larg, lejer)." },
+    { "type": "fill", "q": "We ___ (fly) to Lisbon on Saturday.", "answers": ["flew"], "explainRo": "Fly este neregulat: fly → flew." },
+    { "type": "fill", "q": "I ___ (meet) my new colleagues at the airport.", "answers": ["met"], "explainRo": "Meet este neregulat: meet → met." },
+    { "type": "fill", "q": "They ___ (spend) a week on the coast.", "answers": ["spent"], "explainRo": "Spend este neregulat: spend → spent." },
+    { "type": "fill", "q": "He ___ (leave) the hotel early in the morning.", "answers": ["left"], "explainRo": "Leave este neregulat: leave → left." },
+    { "type": "listen", "audio": "We caught the last train.", "answers": ["We caught the last train."], "ro": "Am prins ultimul tren.", "explainRo": "Caught este trecutul neregulat al lui catch; se pronunță /kɔːt/." },
+    { "type": "listen", "audio": "I bought a souvenir for my mum.", "answers": ["I bought a souvenir for my mum.", "I bought a souvenir for my mom."], "ro": "Am cumpărat un suvenir pentru mama.", "explainRo": "Bought este trecutul lui buy; se pronunță /bɔːt/." },
+    { "type": "order", "words": ["We", "rented", "a", "car", "last", "summer."], "ro": "Am închiriat o mașină vara trecută.", "explainRo": "Subiect + verb la trecut + complement, iar expresia de timp la final." },
+    { "type": "order", "words": ["She", "went", "abroad", "for", "the", "first", "time."], "ro": "Ea a plecat în străinătate pentru prima dată.", "explainRo": "Go abroad = a pleca în străinătate; trecutul lui go este went." },
+    { "type": "order", "words": ["I", "found", "a", "great", "café", "in", "the", "guidebook."], "ro": "Am găsit o cafenea grozavă în ghidul turistic.", "explainRo": "Find este neregulat: find → found. Adjectivul (great) stă înaintea substantivului." },
+    { "type": "translate", "ro": "Am zburat la Londra anul trecut.", "answers": ["I flew to London last year.", "Last year I flew to London.", "Last year, I flew to London."], "explainRo": "„Am zburat” = I flew (fly → flew); „anul trecut” = last year, fără „the”." },
+    { "type": "translate", "ro": "Am petrecut o săptămână pe coastă.", "answers": ["I spent a week on the coast.", "I spent one week on the coast.", "I spent a week at the coast."], "explainRo": "„A petrece timp” = spend, iar trecutul este spent." }
+  ],
+  "video": {
+    "youtubeId": "jn-S81Gme-A",
+    "title": "How to Describe an Activity in the Past, Present, and Future in English 🚣‍♂️🌊🏊 (Bob the Canadian)"
+  }
+}

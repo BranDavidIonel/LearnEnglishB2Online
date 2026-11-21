@@ -1,0 +1,127 @@
+{
+  "id": "a1-u08",
+  "level": "A1",
+  "order": 8,
+  "title": "I can build websites",
+  "titleRo": "Știu să fac site-uri",
+  "emoji": "🎸",
+  "goalRo": "La final vei putea să spui ce știi și ce nu știi să faci, să vorbești despre hobby-uri și cât de des faci ceva.",
+  "vocab": [
+    { "en": "cook", "ro": "a găti", "pos": "verb", "ipa": "/kʊk/", "emoji": "👨‍🍳", "ex": "I can cook pasta and soup.", "exRo": "Știu să gătesc paste și supă." },
+    { "en": "swim", "ro": "a înota", "pos": "verb", "ipa": "/swɪm/", "emoji": "🏊", "ex": "Can you swim?", "exRo": "Știi să înoți?" },
+    { "en": "drive", "ro": "a conduce (mașina)", "pos": "verb", "ipa": "/draɪv/", "emoji": "🚗", "ex": "My wife can drive, but I can't.", "exRo": "Soția mea știe să conducă, dar eu nu." },
+    { "en": "dance", "ro": "a dansa", "pos": "verb", "ipa": "/dɑːns/", "emoji": "💃", "ex": "I can't dance at all!", "exRo": "Nu știu deloc să dansez!" },
+    { "en": "sing", "ro": "a cânta (cu vocea)", "pos": "verb", "ipa": "/sɪŋ/", "emoji": "🎤", "ex": "Elena sings very well.", "exRo": "Elena cântă foarte bine." },
+    { "en": "play the guitar", "ro": "a cânta la chitară", "pos": "phrase", "ipa": "/ˌpleɪ ðə ɡɪˈtɑː/", "emoji": "🎸", "wiki": "Guitar", "ex": "Radu can play the guitar.", "exRo": "Radu știe să cânte la chitară." },
+    { "en": "play football", "ro": "a juca fotbal", "pos": "phrase", "ipa": "/ˌpleɪ ˈfʊtbɔːl/", "emoji": "⚽", "wiki": "Association football", "ex": "We often play football after work.", "exRo": "Jucăm des fotbal după serviciu." },
+    { "en": "ride a bike", "ro": "a merge cu bicicleta", "pos": "phrase", "ipa": "/ˌraɪd ə ˈbaɪk/", "emoji": "🚲", "wiki": "Bicycle", "ex": "My son can ride a bike.", "exRo": "Fiul meu știe să meargă cu bicicleta." },
+    { "en": "take photos", "ro": "a face fotografii", "pos": "phrase", "ipa": "/ˌteɪk ˈfəʊtəʊz/", "emoji": "📸", "ex": "She always takes photos on holiday.", "exRo": "Ea face mereu poze în vacanță." },
+    { "en": "build websites", "ro": "a construi site-uri web", "pos": "phrase", "ipa": "/ˌbɪld ˈwebsaɪts/", "emoji": "🌐", "ex": "I can build websites and apps.", "exRo": "Știu să fac site-uri și aplicații." },
+    { "en": "fix bugs", "ro": "a repara bug-uri (erori în cod)", "pos": "phrase", "ipa": "/ˌfɪks ˈbʌɡz/", "emoji": "🐞", "ex": "I usually fix bugs in the morning.", "exRo": "De obicei repar bug-uri dimineața." },
+    { "en": "go to the gym", "ro": "a merge la sală", "pos": "phrase", "ipa": "/ˌɡəʊ tə ðə ˈdʒɪm/", "emoji": "🏋️", "ex": "I go to the gym three times a week.", "exRo": "Merg la sală de trei ori pe săptămână." },
+    { "en": "watch films", "ro": "a se uita la filme", "pos": "phrase", "ipa": "/ˌwɒtʃ ˈfɪlmz/", "emoji": "🎬", "ex": "We often watch films on Friday evening.", "exRo": "Ne uităm des la filme vineri seara." },
+    { "en": "always", "ro": "întotdeauna / mereu", "pos": "adv", "ipa": "/ˈɔːlweɪz/", "emoji": "🔁", "ex": "I always drink coffee in the morning.", "exRo": "Beau mereu cafea dimineața." },
+    { "en": "usually", "ro": "de obicei", "pos": "adv", "ipa": "/ˈjuːʒuəli/", "emoji": "📊", "ex": "We usually have lunch at one.", "exRo": "De obicei luăm prânzul la unu." },
+    { "en": "often", "ro": "des / adesea", "pos": "adv", "ipa": "/ˈɒfən/", "emoji": "🔄", "ex": "Ana often works from home.", "exRo": "Ana lucrează des de acasă." },
+    { "en": "sometimes", "ro": "uneori / câteodată", "pos": "adv", "ipa": "/ˈsʌmtaɪmz/", "emoji": "🎲", "ex": "I sometimes work on Saturdays.", "exRo": "Uneori lucrez sâmbăta." },
+    { "en": "never", "ro": "niciodată", "pos": "adv", "ipa": "/ˈnevə/", "emoji": "🚫", "ex": "I never work on Sundays.", "exRo": "Nu lucrez niciodată duminica." }
+  ],
+  "grammar": {
+    "title": "can / can't + adverbs of frequency",
+    "titleRo": "can / can't și adverbele de frecvență",
+    "sections": [
+      {
+        "headingRo": "can = pot / știu să",
+        "textRo": "**Can** arată ce **știi** sau ce **poți** să faci. Este foarte simplu: are **aceeași formă** pentru toate persoanele (fără -s!) și după el vine verbul **fără „to”**. Negația: **can't** (= cannot).",
+        "table": {
+          "headers": ["Afirmativ", "Negativ"],
+          "rows": [["I can swim.", "I can't swim."], ["She can swim.", "She can't swim."], ["They can swim.", "They can't swim."]]
+        },
+        "examples": [
+          { "en": "I can build websites.", "ro": "Știu să fac site-uri." },
+          { "en": "He can't drive.", "ro": "El nu știe să conducă." },
+          { "en": "We can meet at three.", "ro": "Ne putem întâlni la trei." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări cu can",
+        "textRo": "Pui **can** la începutul întrebării: **Can you** cook? Răspunsul scurt: **Yes, I can. / No, I can't.** Cu **Can you...?** poți și să ceri ajutor politicos: **Can you help me, please?**",
+        "examples": [
+          { "en": "Can you play the guitar? — Yes, I can.", "ro": "Știi să cânți la chitară? — Da." },
+          { "en": "Can she speak German? — No, she can't.", "ro": "Ea vorbește germană? — Nu." },
+          { "en": "Can you send me the file, please?", "ro": "Poți să-mi trimiți fișierul, te rog?" }
+        ]
+      },
+      {
+        "headingRo": "Cât de des? always, usually, often, sometimes, never",
+        "textRo": "Aceste cuvinte arată **cât de des** faci ceva. Ține minte poziția: stau **înaintea verbului principal** (I **often** cook), dar **după** verbul **to be** (She **is always** happy). Întrebarea este **How often...?**",
+        "table": {
+          "headers": ["Adverb", "Cât de des", "Exemplu"],
+          "rows": [["always", "100%", "I always check my emails."], ["usually", "80%", "I usually start work at nine."], ["often", "60%", "We often play football."], ["sometimes", "30%", "I sometimes cook."], ["never", "0%", "I never work on Sundays."]]
+        },
+        "examples": [
+          { "en": "How often do you go to the gym? — I usually go on Mondays.", "ro": "Cât de des mergi la sală? — De obicei merg lunea." },
+          { "en": "Our boss is never late.", "ro": "Șeful nostru nu întârzie niciodată." },
+          { "en": "She sometimes fixes bugs at night.", "ro": "Uneori ea repară bug-uri noaptea." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu „I can to swim”, ci **I can swim** — fără „to” după can.",
+      "Nu „She cans”, ci **She can** — can nu primește niciodată -s.",
+      "În română spunem „**nu** lucrez **niciodată**”, dar în engleză **never** e deja negativ: **I never work** (nu „I don't never work”).",
+      "Nu „I drink always coffee”, ci **I always drink coffee** — adverbul stă înaintea verbului."
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Un apel cu o clientă nouă",
+    "lines": [
+      { "speaker": "Lisa", "en": "So, Andrei, can you build websites?", "ro": "Deci, Andrei, știi să faci site-uri?" },
+      { "speaker": "Andrei", "en": "Yes, I can. I build websites and web apps.", "ro": "Da. Fac site-uri și aplicații web." },
+      { "speaker": "Lisa", "en": "Great. Can you make a CRM for my company?", "ro": "Grozav. Poți să faci un CRM pentru firma mea?" },
+      { "speaker": "Andrei", "en": "Yes, of course. I usually work with small companies.", "ro": "Da, desigur. De obicei lucrez cu firme mici." },
+      { "speaker": "Lisa", "en": "And can you design the website too?", "ro": "Și poți să faci și designul site-ului?" },
+      { "speaker": "Andrei", "en": "No, I can't. I'm not a designer. But my friend Carlos can.", "ro": "Nu, nu pot. Nu sunt designer. Dar prietenul meu Carlos poate." },
+      { "speaker": "Lisa", "en": "OK. Do you work at the weekend?", "ro": "OK. Lucrezi în weekend?" },
+      { "speaker": "Andrei", "en": "I sometimes work on Saturdays, but I never work on Sundays. Sunday is for my family.", "ro": "Uneori lucrez sâmbăta, dar duminica nu lucrez niciodată. Duminica e pentru familia mea." },
+      { "speaker": "Lisa", "en": "Me too! I always go to the park with my kids on Sundays.", "ro": "Și eu! Duminica merg mereu în parc cu copiii mei." }
+    ]
+  },
+  "reading": {
+    "title": "My free time",
+    "text": "I'm a developer, so I often sit at my desk all day. My free time is very important.\n\nI can swim and I can ride a bike. On Saturdays I usually go to the gym in the morning. In the afternoon I sometimes ride my bike in the park with Matei.\n\nMy wife, Elena, can play the guitar and sing. I can't sing at all! We often watch films in the evening. I never watch films about computers. I see computers every day!",
+    "textRo": "Sunt programator, așa că stau des la birou toată ziua. Timpul meu liber este foarte important.\n\nȘtiu să înot și știu să merg cu bicicleta. Sâmbăta de obicei merg la sală dimineața. După-amiaza uneori merg cu bicicleta în parc cu Matei.\n\nSoția mea, Elena, știe să cânte la chitară și să cânte cu vocea. Eu nu știu deloc să cânt! Seara ne uităm des la filme. Nu mă uit niciodată la filme despre calculatoare. Văd calculatoare în fiecare zi!",
+    "questions": [
+      { "type": "mc", "q": "When does Andrei usually go to the gym?", "options": ["On Saturday mornings.", "Every evening.", "On Sundays."], "answer": 0, "explainRo": "Textul spune: „On Saturdays I usually go to the gym in the morning”." },
+      { "type": "mc", "q": "Who can play the guitar?", "options": ["Andrei.", "Matei.", "Elena."], "answer": 2, "explainRo": "Textul spune: „Elena, can play the guitar and sing”." },
+      { "type": "mc", "q": "Can Andrei sing?", "options": ["Yes, he can.", "No, he can't.", "Yes, he does."], "answer": 1, "explainRo": "Andrei spune: „I can't sing at all!”" },
+      { "type": "mc", "q": "Andrei never watches films about ___.", "options": ["computers", "animals", "football", "families"], "answer": 0, "explainRo": "Textul spune: „I never watch films about computers”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "I ___ swim very well.", "options": ["can", "cans", "can to"], "answer": 0, "explainRo": "După **can** vine direct verbul, fără „to” și fără -s." },
+    { "type": "mc", "q": "She ___ drive. She's only fifteen.", "options": ["can", "can't", "doesn't can"], "answer": 1, "explainRo": "La 15 ani nu poate conduce → **can't**." },
+    { "type": "mc", "q": "___ you play the guitar? — Yes, I can.", "options": ["Do", "Are", "Can"], "answer": 2, "explainRo": "Răspunsul „Yes, I can” arată că întrebarea începe cu **Can**." },
+    { "type": "mc", "q": "Can he cook? — No, he ___.", "options": ["doesn't", "can't", "isn't"], "answer": 1, "explainRo": "La o întrebare cu **can** răspundem tot cu **can / can't**." },
+    { "type": "mc", "q": "Choose the correct sentence.", "options": ["I go always to the gym.", "I always go to the gym.", "Always I go to the gym."], "answer": 1, "explainRo": "Adverbul de frecvență stă **înaintea verbului principal**." },
+    { "type": "mc", "q": "Which sentence is correct?", "options": ["She is never late.", "She never is late.", "She never late."], "answer": 0, "explainRo": "Cu verbul **to be**, adverbul stă **după** el: is never." },
+    { "type": "mc", "q": "0% = ___", "options": ["sometimes", "often", "never", "usually"], "answer": 2, "explainRo": "**Never** = niciodată (0%)." },
+    { "type": "mc", "q": "100% = ___", "options": ["always", "usually", "often"], "answer": 0, "explainRo": "**Always** = întotdeauna (100%)." },
+    { "type": "mc", "q": "„A repara bug-uri” în engleză este:", "options": ["build websites", "take photos", "fix bugs", "watch films"], "answer": 2, "explainRo": "**Fix** = a repara, **bugs** = erori în cod." },
+    { "type": "fill", "q": "My brother ___ Spanish. (can / speak)", "answers": ["can speak"], "explainRo": "Can + verbul simplu: **can speak**." },
+    { "type": "fill", "q": "I ___ dance at all. (not / can)", "answers": ["can't", "cannot", "can not"], "explainRo": "Negația lui can este **can't** / **cannot**." },
+    { "type": "fill", "q": "We ___ lunch at one. (usually / have)", "answers": ["usually have"], "explainRo": "Adverbul **usually** stă înaintea verbului: usually have." },
+    { "type": "order", "words": ["Can", "you", "build", "websites?"], "ro": "Știi să faci site-uri?", "explainRo": "Întrebarea: Can + subiect + verb?" },
+    { "type": "order", "words": ["I", "never", "work", "on", "Sundays."], "ro": "Nu lucrez niciodată duminica.", "explainRo": "**Never** stă înaintea verbului și e deja negativ." },
+    { "type": "order", "words": ["She", "is", "always", "happy."], "ro": "Ea este mereu fericită.", "explainRo": "Cu **to be**, adverbul stă după verb: is always." },
+    { "type": "translate", "ro": "Știu să conduc.", "answers": ["I can drive."], "explainRo": "„Știu să” pentru o abilitate = **can**." },
+    { "type": "translate", "ro": "De obicei merg la sală dimineața.", "answers": ["I usually go to the gym in the morning.", "Usually I go to the gym in the morning.", "In the morning I usually go to the gym."], "explainRo": "**Usually** stă de obicei înaintea verbului: I usually go..." },
+    { "type": "listen", "audio": "Can you help me, please?", "answers": ["Can you help me, please?", "Can you help me please?"], "ro": "Mă poți ajuta, te rog?", "explainRo": "**Can you...?** este o cerere politicoasă." },
+    { "type": "listen", "audio": "We often watch films.", "answers": ["We often watch films."], "ro": "Ne uităm des la filme.", "explainRo": "**Often** = des, stă înaintea verbului." },
+    { "type": "match", "pairs": [["swim", "a înota"], ["cook", "a găti"], ["dance", "a dansa"], ["sometimes", "uneori"], ["never", "niciodată"]] }
+  ],
+  "video": {
+    "youtubeId": "1vUTq-Pd4Vs",
+    "title": "Talking about ability: Easy English Conversations 💬 Episode 9 (BBC Learning English)"
+  }
+}

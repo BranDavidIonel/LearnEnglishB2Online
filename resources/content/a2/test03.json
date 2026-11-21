@@ -1,0 +1,17 @@
+{
+  "unit": "a2-u03",
+  "questions": [
+    { "type": "mc", "q": "How ___ cups of coffee do you drink a day?", "options": ["much", "many", "lot"], "answer": 1, "explainRo": "Cups este numărabil la plural, deci How many." },
+    { "type": "mc", "q": "Sorry, I don't have ___ cash with me. Can I pay by card?", "options": ["much", "many", "a"], "answer": 0, "explainRo": "Cash este nenumărabil, iar în negații folosim much." },
+    { "type": "mc", "q": "Venice is beautiful, but there are ___ tourists in summer.", "options": ["much", "a lot", "a lot of"], "answer": 2, "explainRo": "În propoziții afirmative folosim a lot of + substantiv (nu uita de of)." },
+    { "type": "mc", "q": "My ___ is empty – I spent all my money at the market.", "options": ["receipt", "size", "delivery", "wallet"], "answer": 3, "explainRo": "Wallet = portofel; e gol pentru că am cheltuit toți banii." },
+    { "type": "mc", "q": "We need a new CRM. How much ___ the software cost?", "options": ["do", "does", "is", "are"], "answer": 1, "explainRo": "Software este nenumărabil, deci e la singular: How much does it cost?" },
+    { "type": "fill", "q": "How ___ users does your app have?", "answers": ["many"], "explainRo": "Users este numărabil la plural, deci How many." },
+    { "type": "fill", "q": "The new furniture ___ (be) in the meeting room now.", "answers": ["is", "'s"], "explainRo": "Furniture este nenumărabil, deci verbul stă la singular: is." },
+    { "type": "fill", "q": "Keep the ___! Without it, the shop can't give you a refund.", "answers": ["receipt"], "explainRo": "Receipt = bonul fiscal; fără el nu primești banii înapoi." },
+    { "type": "order", "words": ["How", "many", "people", "work", "in", "your", "team?"], "ro": "Câți oameni lucrează în echipa ta?", "explainRo": "How many + substantiv la plural (people) + restul întrebării." },
+    { "type": "order", "words": ["There", "isn't", "much", "milk", "in", "the", "fridge."], "ro": "Nu e mult lapte în frigider.", "explainRo": "Milk este nenumărabil, deci în negație folosim much." },
+    { "type": "listen", "audio": "There are a lot of bugs in this app.", "answers": ["There are a lot of bugs in this app."], "ro": "Sunt multe buguri în aplicația asta.", "explainRo": "A lot of merge și cu substantive la plural în propoziții afirmative." },
+    { "type": "translate", "ro": "Câte informații avem despre client?", "answers": ["How much information do we have about the client?", "How much information do we have on the client?", "How much information have we got about the client?", "How much information have we got on the client?","How much info do we have about the client?"], "explainRo": "Information este nenumărabil în engleză, deci „câte informații” = how much information." }
+  ]
+}

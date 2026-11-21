@@ -1,0 +1,547 @@
+{
+  "level": "A1",
+  "scenarios": [
+    {
+      "id": "a1-s01",
+      "emoji": "☕",
+      "title": "A new colleague",
+      "titleRo": "O colegă nouă",
+      "youRo": "Ești Andrei. E prima ta zi într-o echipă nouă. O colegă vine la tine lângă automatul de cafea.",
+      "partner": "Colleague",
+      "turns": [
+        {
+          "say": "Hi! Are you the new developer?",
+          "sayRo": "Bună! Tu ești noul programator?",
+          "hintRo": "Confirmă că ești tu și spune că îți pare bine de cunoștință.",
+          "answers": ["Yes, I am. Nice to meet you.", "Yes, that's me. Nice to meet you!", "Yes, I'm the new developer. Nice to meet you."],
+          "keywords": ["yes", "nice to meet you"]
+        },
+        {
+          "say": "Nice to meet you too. I'm Elena, the designer. Where are you from?",
+          "sayRo": "Încântată și eu. Eu sunt Elena, designerul. De unde ești?",
+          "hintRo": "Spune că ești din România și întreab-o și pe ea.",
+          "answers": ["I'm from Romania. And you?", "I'm from Romania. Where are you from?", "I'm from Romania, from Cluj. What about you?"],
+          "keywords": ["from romania"]
+        },
+        {
+          "say": "I'm from Spain. Oh, do you like coffee?",
+          "sayRo": "Eu sunt din Spania. A, îți place cafeaua?",
+          "hintRo": "Spune că da, îți place foarte mult și bei cafea în fiecare dimineață.",
+          "answers": ["Yes, I love coffee!", "Yes, I do. I drink coffee every morning.", "Oh yes, I love it. Every morning!"],
+          "keywords": ["yes"]
+        },
+        {
+          "say": "Me too! Here's a cup for you. How is your first day?",
+          "sayRo": "Și eu! Poftim o cană pentru tine. Cum e prima ta zi?",
+          "hintRo": "Spune că e o zi bună și că oamenii de aici sunt foarte drăguți.",
+          "answers": ["It's good, thanks. The team is very nice.", "Very good! Everyone is very nice here.", "It's great. The people here are really nice."],
+          "keywords": ["nice"]
+        },
+        {
+          "say": "Great. What are you working on today?",
+          "sayRo": "Super. La ce lucrezi azi?",
+          "hintRo": "Spune că lucrezi la un site nou pentru un client.",
+          "answers": ["I'm working on a new website for a client.", "A new website for a client.", "I'm building a website for a client."],
+          "keywords": ["website", "client"]
+        },
+        {
+          "say": "Cool! The team has lunch together on Fridays. Can you come?",
+          "sayRo": "Tare! Echipa ia prânzul împreună vinerea. Poți să vii?",
+          "hintRo": "Spune că da, poți veni, și mulțumește-i pentru invitație.",
+          "answers": ["Yes, I can. Thank you!", "Sure, I can come. Thanks!", "Yes, of course I can. Thanks a lot."],
+          "keywords": ["can"]
+        }
+      ],
+      "closing": "Great! See you on Friday, then."
+    },
+    {
+      "id": "a1-s02",
+      "emoji": "🥪",
+      "title": "Lunch at a sandwich bar",
+      "titleRo": "Prânzul la un bar cu sandvișuri",
+      "youRo": "Ești în pauza de prânz, la un mic bar cu sandvișuri lângă birou. Vorbești cu vânzătorul.",
+      "partner": "Assistant",
+      "turns": [
+        {
+          "say": "Hi there! What can I get you?",
+          "sayRo": "Bună! Ce vă dau?",
+          "hintRo": "Cere un sandviș cu pui, politicos.",
+          "answers": ["A chicken sandwich, please.", "I'd like a chicken sandwich, please.", "Can I have a chicken sandwich, please?"],
+          "keywords": ["chicken sandwich", "please"]
+        },
+        {
+          "say": "Sure. Do you want cheese in it?",
+          "sayRo": "Sigur. Vreți brânză în el?",
+          "hintRo": "Spune că nu, mulțumești, nu-ți place brânza.",
+          "answers": ["No, thanks. I don't like cheese.", "No, thank you. I don't really like cheese.", "No cheese, please. I don't like it."],
+          "keywords": ["no", "cheese"]
+        },
+        {
+          "say": "No problem. Anything to drink?",
+          "sayRo": "Nicio problemă. Ceva de băut?",
+          "hintRo": "Cere un suc de portocale.",
+          "answers": ["An orange juice, please.", "I'd like an orange juice.", "Yes, orange juice, please."],
+          "keywords": ["orange juice"]
+        },
+        {
+          "say": "Is it for here or to go?",
+          "sayRo": "Serviți aici sau la pachet?",
+          "hintRo": "Spune că e la pachet, pentru că ești foarte ocupat azi.",
+          "answers": ["To go, please. I'm very busy today.", "To go, please.", "It's to go, thanks. I'm busy today."],
+          "keywords": ["to go"]
+        },
+        {
+          "say": "OK. Here you are. Do you work near here?",
+          "sayRo": "Bine. Poftiți. Lucrați pe aproape?",
+          "hintRo": "Spune că da, biroul tău e chiar pe strada asta.",
+          "answers": ["Yes, my office is on this street.", "Yes, I work in the office opposite.", "Yes, my office is very near here."],
+          "keywords": ["yes", "office"]
+        },
+        {
+          "say": "Nice! Do you pay by card?",
+          "sayRo": "Frumos! Plătiți cu cardul?",
+          "hintRo": "Spune că da, cu cardul, și mulțumește.",
+          "answers": ["Yes, by card, please.", "Card, please. Thank you.", "Yes, with my card. Thanks."],
+          "keywords": ["card"]
+        }
+      ],
+      "closing": "Thank you! Have a nice day!"
+    },
+    {
+      "id": "a1-s03",
+      "emoji": "📞",
+      "title": "A client needs a website",
+      "titleRo": "Un client are nevoie de un site",
+      "youRo": "Ești Andrei, programator freelance. Te sună un client nou care are un restaurant și vrea un site.",
+      "partner": "Client",
+      "turns": [
+        {
+          "say": "Hello, is this Andrei?",
+          "sayRo": "Alo, Andrei la telefon?",
+          "hintRo": "Confirmă că ești tu și întreabă cum îl poți ajuta.",
+          "answers": ["Yes, speaking. How can I help you?", "Yes, it's me. How can I help?", "Hello, yes. How can I help you?"],
+          "keywords": ["yes", "how can i help"]
+        },
+        {
+          "say": "Hi, I'm Tom Brown. I've got a small restaurant, and I need a website.",
+          "sayRo": "Bună, sunt Tom Brown. Am un restaurant mic și am nevoie de un site.",
+          "hintRo": "Spune că e grozav și că poți să-i faci un site.",
+          "answers": ["Great! I can build a website for your restaurant.", "No problem. I can make a nice website for you.", "That's great. I can build a website for you."],
+          "keywords": ["can", "website"]
+        },
+        {
+          "say": "Good. Can you make it in English and Romanian?",
+          "sayRo": "Bine. Îl poți face în engleză și în română?",
+          "hintRo": "Spune că da, poți, nicio problemă.",
+          "answers": ["Yes, I can. No problem.", "Of course I can.", "Sure, I can do that."],
+          "keywords": ["can"]
+        },
+        {
+          "say": "And can people see the menu on their phones?",
+          "sayRo": "Și oamenii pot vedea meniul pe telefon?",
+          "hintRo": "Spune că da, pot, site-ul merge bine și pe telefoane.",
+          "answers": ["Yes, of course. The website is good on phones too.", "Yes, they can. It works on mobile phones too.", "Yes, they can see it on their phones."],
+          "keywords": ["yes", "phones"]
+        },
+        {
+          "say": "Perfect. Are you free for a meeting this week?",
+          "sayRo": "Perfect. Ești liber pentru o întâlnire săptămâna aceasta?",
+          "hintRo": "Spune că da, ești liber joi după-amiază.",
+          "answers": ["Yes, I'm free on Thursday afternoon.", "Yes. Is Thursday afternoon OK for you?", "Thursday afternoon is good for me."],
+          "keywords": ["thursday afternoon"]
+        },
+        {
+          "say": "Thursday is fine. Can you send me an email with the details?",
+          "sayRo": "Joi e bine. Îmi poți trimite un e-mail cu detaliile?",
+          "hintRo": "Spune că da, poți să-l trimiți azi.",
+          "answers": ["Yes, of course. I can send it today.", "Sure, I can send you an email today.", "No problem. I can send it this afternoon."],
+          "keywords": ["can send"]
+        }
+      ],
+      "closing": "Thank you, Andrei. Talk soon!"
+    },
+    {
+      "id": "a1-s04",
+      "emoji": "🗓️",
+      "title": "Your work day",
+      "titleRo": "Ziua ta de lucru",
+      "youRo": "Începi să lucrezi cu o firmă nouă. Managera de proiect vrea să știe cum arată o zi obișnuită de lucru pentru tine.",
+      "partner": "Project manager",
+      "turns": [
+        {
+          "say": "So, Andrei, when do you start work?",
+          "sayRo": "Deci, Andrei, când începi lucrul?",
+          "hintRo": "Spune că de obicei începi devreme, dimineața.",
+          "answers": ["I usually start early in the morning.", "I start work early, in the morning.", "Early. I always start in the morning."],
+          "keywords": ["start", "morning"]
+        },
+        {
+          "say": "Do you check your emails every day?",
+          "sayRo": "Îți verifici e-mailurile în fiecare zi?",
+          "hintRo": "Spune că da, le verifici în fiecare dimineață.",
+          "answers": ["Yes, I check my emails every morning.", "Yes, I do. Every morning.", "Yes, every day, in the morning."],
+          "keywords": ["yes", "morning"]
+        },
+        {
+          "say": "Good. Do you work at home or in an office?",
+          "sayRo": "Bine. Lucrezi acasă sau la birou?",
+          "hintRo": "Spune că lucrezi de obicei acasă, dar uneori într-o cafenea.",
+          "answers": ["I usually work at home, but sometimes in a café.", "At home. Sometimes I work in a café.", "I work at home, and sometimes in a café."],
+          "keywords": ["at home", "sometimes"]
+        },
+        {
+          "say": "Do you often have meetings with clients?",
+          "sayRo": "Ai des întâlniri cu clienții?",
+          "hintRo": "Spune că da, des, de obicei pe apel video.",
+          "answers": ["Yes, often. Usually on a video call.", "Yes, I often have video calls with clients.", "Yes, quite often, on video calls."],
+          "keywords": ["often", "video"]
+        },
+        {
+          "say": "And when do you finish work?",
+          "sayRo": "Și când termini lucrul?",
+          "hintRo": "Spune că termini de obicei seara, dar niciodată foarte târziu.",
+          "answers": ["I usually finish in the evening.", "In the evening, but never very late.", "I finish in the evening. Never very late."],
+          "keywords": ["evening"]
+        },
+        {
+          "say": "What do you do after work?",
+          "sayRo": "Ce faci după muncă?",
+          "hintRo": "Spune că mergi des la sală și uneori te plimbi cu bicicleta.",
+          "answers": ["I often go to the gym or I ride my bike.", "I go to the gym. Sometimes I ride my bike.", "I usually go to the gym after work."],
+          "keywords": ["gym"]
+        }
+      ],
+      "closing": "Sounds like a good routine!"
+    },
+    {
+      "id": "a1-s05",
+      "emoji": "🗺️",
+      "title": "A tourist asks for help",
+      "titleRo": "O turistă îți cere ajutorul",
+      "youRo": "Ești în centrul orașului tău. O turistă te oprește pe stradă și te întreabă unde găsește câteva locuri.",
+      "partner": "Tourist",
+      "turns": [
+        {
+          "say": "Excuse me, do you speak English?",
+          "sayRo": "Scuzați-mă, vorbiți engleză?",
+          "hintRo": "Spune că da, puțin, și întreab-o dacă o poți ajuta.",
+          "answers": ["Yes, a little. Can I help you?", "Yes, I do. How can I help?", "Yes, a bit. Can I help?"],
+          "keywords": ["yes", "help"]
+        },
+        {
+          "say": "Thank you! Is there a bank near here?",
+          "sayRo": "Mulțumesc! Este vreo bancă pe aproape?",
+          "hintRo": "Spune că da, este o bancă lângă parc.",
+          "answers": ["Yes, there's a bank next to the park.", "Yes, there is. It's near the park.", "Yes, there's one opposite the park."],
+          "keywords": ["yes", "park"]
+        },
+        {
+          "say": "Great. And is there a supermarket on this street?",
+          "sayRo": "Super. Și este vreun supermarket pe strada aceasta?",
+          "hintRo": "Spune că nu pe strada asta, dar este unul lângă gară.",
+          "answers": ["No, there isn't. But there's one near the train station.", "Not on this street, but there's one near the train station.", "No, sorry. There's one next to the train station."],
+          "keywords": ["train station"]
+        },
+        {
+          "say": "Is the train station far?",
+          "sayRo": "Gara e departe?",
+          "hintRo": "Spune că nu, e aproape și poate merge pe jos.",
+          "answers": ["No, it isn't. You can walk there.", "No, it's near. You can walk.", "Not really. You can walk there."],
+          "keywords": ["walk"]
+        },
+        {
+          "say": "Can I take a bus too?",
+          "sayRo": "Pot lua și un autobuz?",
+          "hintRo": "Spune că da, stația de autobuz e chiar acolo.",
+          "answers": ["Yes, you can. The bus stop is over there.", "Sure. There's a bus stop over there.", "Yes, the bus stop is right there."],
+          "keywords": ["bus stop"]
+        },
+        {
+          "say": "Thank you so much! Are you from here?",
+          "sayRo": "Mulțumesc mult! Sunteți de aici?",
+          "hintRo": "Spune că da, locuiești aici și îți place mult orașul.",
+          "answers": ["Yes, I live here. I love this city.", "Yes, I am. I really like this city.", "Yes. I live here and I love it."],
+          "keywords": ["yes"]
+        }
+      ],
+      "closing": "Lovely! Have a nice day!"
+    },
+    {
+      "id": "a1-s06",
+      "emoji": "💻",
+      "title": "A video call with a teammate",
+      "titleRo": "Un apel video cu un coleg",
+      "youRo": "Ai un apel video cu un coleg dintr-o altă echipă. Vreți să vă uitați împreună la o problemă din aplicație.",
+      "partner": "Teammate",
+      "turns": [
+        {
+          "say": "Hi Andrei! Can you hear me?",
+          "sayRo": "Salut, Andrei! Mă auzi?",
+          "hintRo": "Spune că îl auzi, dar nu-l vezi.",
+          "answers": ["Yes, I can hear you, but I can't see you.", "I can hear you, but I can't see you.", "Yes, I can hear you. But your camera is off."],
+          "keywords": ["hear you"]
+        },
+        {
+          "say": "Oh, sorry. Can you see me now?",
+          "sayRo": "A, scuze. Acum mă vezi?",
+          "hintRo": "Spune că da, acum îl vezi.",
+          "answers": ["Yes, I can see you now.", "Yes, now I can see you.", "Yes, that's better. I can see you."],
+          "keywords": ["yes", "see you"]
+        },
+        {
+          "say": "Good. What are you doing right now?",
+          "sayRo": "Bine. Ce faci chiar acum?",
+          "hintRo": "Spune că verifici aplicația și repari un bug.",
+          "answers": ["I'm checking the app. I'm fixing a bug.", "I'm fixing a bug in the app right now.", "I'm working on a bug in the app."],
+          "keywords": ["bug"]
+        },
+        {
+          "say": "Can you share your screen?",
+          "sayRo": "Poți să-ți partajezi ecranul?",
+          "hintRo": "Spune că da, sigur, și roagă-l să aștepte un moment.",
+          "answers": ["Sure, just a moment.", "Yes, of course. Wait a moment.", "OK, just a moment, please."],
+          "keywords": ["moment"]
+        },
+        {
+          "say": "I can see it now. Wait, I can't hear you. You're on mute!",
+          "sayRo": "Acum îl văd. Stai, nu te aud. Ai microfonul oprit!",
+          "hintRo": "Cere-ți scuze și întreabă-l dacă acum te aude.",
+          "answers": ["Sorry! Can you hear me now?", "Oh, sorry about that. Can you hear me now?", "Sorry! Is it OK now? Can you hear me?"],
+          "keywords": ["sorry", "hear me"]
+        },
+        {
+          "say": "Yes, that's fine. So where is the problem?",
+          "sayRo": "Da, e în regulă. Deci, unde e problema?",
+          "hintRo": "Spune că problema e pe pagina de login: butonul nu merge.",
+          "answers": ["It's on the login page. The button doesn't work.", "The problem is on the login page. This button doesn't work.", "Look, it's the login button. It doesn't work."],
+          "keywords": ["login", "work"]
+        }
+      ],
+      "closing": "Ah, I see it. Let's fix it together!"
+    },
+    {
+      "id": "a1-s07",
+      "emoji": "👥",
+      "title": "Tell me about your team",
+      "titleRo": "Povestește-mi despre echipa ta",
+      "youRo": "O clientă nouă vrea să afle mai multe despre tine și despre echipa ta înainte să înceapă proiectul.",
+      "partner": "Client",
+      "turns": [
+        {
+          "say": "So, do you work alone?",
+          "sayRo": "Deci, lucrezi singur?",
+          "hintRo": "Spune că nu, ai o echipă mică.",
+          "answers": ["No, I've got a small team.", "No, I don't. I have a small team.", "Not really. I work with a small team."],
+          "keywords": ["small team"]
+        },
+        {
+          "say": "Nice! Who is in your team?",
+          "sayRo": "Frumos! Cine e în echipa ta?",
+          "hintRo": "Spune că e un designer și încă o programatoare.",
+          "answers": ["There's a designer and another developer.", "A designer and a developer. They're very good.", "I work with a designer and another developer."],
+          "keywords": ["designer", "developer"]
+        },
+        {
+          "say": "Great. Where are they from?",
+          "sayRo": "Super. De unde sunt ei?",
+          "hintRo": "Spune că sunt și ei din România, ca tine.",
+          "answers": ["They're from Romania too.", "They're from Romania, like me.", "Both of them are from Romania."],
+          "keywords": ["from romania"]
+        },
+        {
+          "say": "Is your designer good?",
+          "sayRo": "Designerul tău e bun?",
+          "hintRo": "Spune că da, e foarte bun și foarte rapid.",
+          "answers": ["Yes, he's very good and very fast.", "Yes, he's very good. And he's fast!", "Oh yes, very good. His designs are beautiful."],
+          "keywords": ["yes", "very"]
+        },
+        {
+          "say": "And have you got a boss?",
+          "sayRo": "Și ai un șef?",
+          "hintRo": "Spune că nu, ești freelancer, deci tu ești șeful.",
+          "answers": ["No, I haven't. I'm a freelancer.", "No, I'm a freelancer. I'm the boss!", "No. I'm a freelancer, so I'm my own boss."],
+          "keywords": ["no", "freelancer"]
+        },
+        {
+          "say": "Ha ha, lucky you! Have you got a family?",
+          "sayRo": "Ha ha, ce noroc! Ai familie?",
+          "hintRo": "Spune că da, ai o soție și o fiică.",
+          "answers": ["Yes, I've got a wife and a daughter.", "Yes, I have a wife and a little daughter.", "Yes. My wife and my daughter. They're great."],
+          "keywords": ["wife", "daughter"]
+        }
+      ],
+      "closing": "Lovely! OK, let's talk about the project."
+    },
+    {
+      "id": "a1-s08",
+      "emoji": "🏖️",
+      "title": "How was your weekend?",
+      "titleRo": "Cum a fost weekendul?",
+      "youRo": "E luni dimineață la birou. O colegă te întreabă cum a fost weekendul tău la mare.",
+      "partner": "Colleague",
+      "turns": [
+        {
+          "say": "Good morning! How was your weekend?",
+          "sayRo": "Bună dimineața! Cum a fost weekendul?",
+          "hintRo": "Spune că a fost foarte frumos și mulțumește.",
+          "answers": ["It was great, thanks!", "It was very good, thanks.", "Oh, it was really nice, thanks."],
+          "keywords": ["it was", "thanks"]
+        },
+        {
+          "say": "Were you at home?",
+          "sayRo": "Ai stat acasă?",
+          "hintRo": "Spune că nu, ai fost la mare cu familia.",
+          "answers": ["No, I wasn't. I was at the beach with my family.", "No, we were at the beach.", "No. My family and I were at the beach."],
+          "keywords": ["no", "beach"]
+        },
+        {
+          "say": "Oh, nice! Was the weather good?",
+          "sayRo": "Ce frumos! A fost vreme bună?",
+          "hintRo": "Spune că da, a fost soare și foarte cald.",
+          "answers": ["Yes, it was sunny and very hot.", "Yes, very sunny and hot.", "Yes! It was hot and sunny every day."],
+          "keywords": ["sunny", "hot"]
+        },
+        {
+          "say": "Were you in a hotel?",
+          "sayRo": "Ați stat la hotel?",
+          "hintRo": "Spune că da, ați stat într-un hotel mic.",
+          "answers": ["Yes, we stayed in a small hotel.", "Yes, a small hotel near the beach.", "Yes, we stayed in a nice little hotel."],
+          "keywords": ["yes", "hotel"]
+        },
+        {
+          "say": "Lovely. Are you tired today?",
+          "sayRo": "Minunat. Ești obosit azi?",
+          "hintRo": "Spune că da, puțin, pentru că ați ajuns acasă târziu.",
+          "answers": ["Yes, a little. We arrived home very late.", "A bit. We arrived late last night.", "Yes, I'm tired. We arrived home late."],
+          "keywords": ["arrived", "late"]
+        },
+        {
+          "say": "Oh no! Do you want a coffee?",
+          "sayRo": "Vai! Vrei o cafea?",
+          "hintRo": "Spune că da, te rog – chiar ai nevoie de o cafea.",
+          "answers": ["Yes, please! I really need a coffee.", "Oh yes, please. Thank you!", "Yes, please. A big coffee!"],
+          "keywords": ["yes", "please"]
+        }
+      ],
+      "closing": "Here you are. Welcome back!"
+    }
+  ],
+  "phrases": [
+    {
+      "topic": "Introducing yourself",
+      "topicRo": "Să te prezinți",
+      "emoji": "👋",
+      "items": [
+        { "en": "I'm a freelance developer.", "ro": "Sunt programator freelance." },
+        { "en": "I build websites and apps.", "ro": "Construiesc site-uri și aplicații." },
+        { "en": "I work with small companies.", "ro": "Lucrez cu firme mici." },
+        { "en": "I usually work at home.", "ro": "De obicei lucrez de acasă." },
+        { "en": "Nice to meet you.", "ro": "Îmi pare bine de cunoștință." },
+        { "en": "This is my colleague.", "ro": "Acesta este colegul meu." },
+        { "en": "I can build a CRM for you.", "ro": "Pot să construiesc un CRM pentru tine." },
+        { "en": "My team is small, but very good.", "ro": "Echipa mea e mică, dar foarte bună." },
+        { "en": "Here is my email address.", "ro": "Aceasta este adresa mea de e-mail." },
+        { "en": "I really love my job.", "ro": "Chiar îmi iubesc meseria." }
+      ]
+    },
+    {
+      "topic": "On a call",
+      "topicRo": "La telefon sau pe apel video",
+      "emoji": "📞",
+      "items": [
+        { "en": "Can you hear me?", "ro": "Mă auzi?" },
+        { "en": "Sorry, I can't hear you.", "ro": "Scuze, nu te aud." },
+        { "en": "You're on mute.", "ro": "Ai microfonul oprit." },
+        { "en": "Can you see my screen?", "ro": "Îmi vezi ecranul?" },
+        { "en": "I'm sharing my screen now.", "ro": "Acum îmi partajez ecranul." },
+        { "en": "Just a moment, please.", "ro": "Un moment, te rog." },
+        { "en": "Can you repeat that, please?", "ro": "Poți repeta, te rog?" },
+        { "en": "Sorry, I don't understand.", "ro": "Scuze, nu înțeleg." },
+        { "en": "Can you speak slowly, please?", "ro": "Poți vorbi rar, te rog?" },
+        { "en": "Thank you for your time.", "ro": "Mulțumesc pentru timpul acordat." }
+      ]
+    },
+    {
+      "topic": "Talking about work",
+      "topicRo": "Să vorbești despre muncă",
+      "emoji": "💻",
+      "items": [
+        { "en": "I'm working on a new website.", "ro": "Lucrez la un site nou." },
+        { "en": "There's a bug on this page.", "ro": "Este un bug pe pagina aceasta." },
+        { "en": "The button doesn't work.", "ro": "Butonul nu merge." },
+        { "en": "I check my emails every morning.", "ro": "Îmi verific e-mailurile în fiecare dimineață." },
+        { "en": "I have a meeting with a client today.", "ro": "Azi am o ședință cu un client." },
+        { "en": "The client is very happy.", "ro": "Clientul e foarte mulțumit." },
+        { "en": "I'm fixing the bug right now.", "ro": "Repar bugul chiar acum." },
+        { "en": "I'm busy right now, sorry.", "ro": "Sunt ocupat acum, scuze." },
+        { "en": "Can I ask a question?", "ro": "Pot să pun o întrebare?" },
+        { "en": "The new app is very fast.", "ro": "Aplicația nouă este foarte rapidă." }
+      ]
+    },
+    {
+      "topic": "Small talk with a client",
+      "topicRo": "Conversație lejeră cu un client",
+      "emoji": "☕",
+      "items": [
+        { "en": "How are you today?", "ro": "Ce mai faci azi?" },
+        { "en": "I'm fine, thanks. And you?", "ro": "Bine, mulțumesc. Și tu?" },
+        { "en": "Where are you from?", "ro": "De unde ești?" },
+        { "en": "The weather is lovely today.", "ro": "Vremea e minunată azi." },
+        { "en": "It's very cold here today.", "ro": "E foarte frig aici azi." },
+        { "en": "Do you like coffee?", "ro": "Îți place cafeaua?" },
+        { "en": "How was your weekend?", "ro": "Cum a fost weekendul?" },
+        { "en": "My weekend was great.", "ro": "Weekendul meu a fost grozav." },
+        { "en": "Do you often travel for work?", "ro": "Călătorești des pentru muncă?" },
+        { "en": "Have a nice day!", "ro": "O zi bună!" }
+      ]
+    },
+    {
+      "topic": "At a café or restaurant",
+      "topicRo": "La cafenea sau la restaurant",
+      "emoji": "🍽️",
+      "items": [
+        { "en": "Can I see the menu, please?", "ro": "Pot vedea meniul, vă rog?" },
+        { "en": "I'd like a coffee, please.", "ro": "Aș vrea o cafea, vă rog." },
+        { "en": "Have you got a table for us?", "ro": "Aveți o masă pentru noi?" },
+        { "en": "Can I have some water, please?", "ro": "Îmi puteți aduce niște apă, vă rog?" },
+        { "en": "Is there chicken in this salad?", "ro": "Este pui în salata aceasta?" },
+        { "en": "I don't eat meat.", "ro": "Eu nu mănânc carne." },
+        { "en": "This soup is delicious.", "ro": "Supa aceasta e delicioasă." },
+        { "en": "Can we have the bill, please?", "ro": "Ne aduceți nota, vă rog?" },
+        { "en": "Can I pay by card?", "ro": "Pot plăti cu cardul?" },
+        { "en": "Thank you, everything was great.", "ro": "Mulțumesc, totul a fost grozav." }
+      ]
+    },
+    {
+      "topic": "At the airport and the hotel",
+      "topicRo": "La aeroport și la hotel",
+      "emoji": "🏨",
+      "items": [
+        { "en": "Here is my passport.", "ro": "Poftiți pașaportul meu." },
+        { "en": "I'd like to check in, please.", "ro": "Aș vrea să mă cazez, vă rog." },
+        { "en": "I'm here for work.", "ro": "Sunt aici cu serviciul." },
+        { "en": "Where can I find a taxi?", "ro": "Unde găsesc un taxi?" },
+        { "en": "My flight was very late.", "ro": "Zborul meu a întârziat foarte mult." },
+        { "en": "Is there a bus to the city centre?", "ro": "Este un autobuz spre centrul orașului?" },
+        { "en": "Is there wifi in the room?", "ro": "Este wifi în cameră?" },
+        { "en": "Can I have the key, please?", "ro": "Îmi dați cheia, vă rog?" },
+        { "en": "What time is breakfast?", "ro": "La ce oră e micul dejun?" },
+        { "en": "The room is lovely, thank you.", "ro": "Camera e minunată, mulțumesc." }
+      ]
+    }
+  ],
+  "questions": [
+    { "q": "What's your name?", "qRo": "Cum te cheamă?", "starters": ["My name is…", "I'm…"], "sample": "My name is Andrei, and I'm a freelance developer from Cluj." },
+    { "q": "Where are you from?", "qRo": "De unde ești?", "starters": ["I'm from…", "I live in…"], "sample": "I'm from Romania. I live in Cluj. It's a big city with a lot of students." },
+    { "q": "What do you do?", "qRo": "Cu ce te ocupi?", "starters": ["I'm a…", "I work as…", "I build…"], "sample": "I'm a freelance developer. I build websites and apps for small companies." },
+    { "q": "Have you got a family?", "qRo": "Ai familie?", "starters": ["Yes, I've got…", "No, I haven't…"], "sample": "Yes, I've got a wife and a daughter. We've got a cat too." },
+    { "q": "What's on your desk?", "qRo": "Ce ai pe birou?", "starters": ["There's a…", "I've got…"], "sample": "There's a laptop, a big screen, a keyboard and a cup of coffee." },
+    { "q": "What do you usually do in the morning?", "qRo": "Ce faci de obicei dimineața?", "starters": ["I get up…", "First, I…", "I usually…"], "sample": "I get up early, have breakfast and check my emails. Then I start work." },
+    { "q": "What food do you like?", "qRo": "Ce mâncare îți place?", "starters": ["I love…", "I like…", "I don't like…"], "sample": "I love pizza and chicken soup, but I don't like fish very much." },
+    { "q": "What can you do?", "qRo": "Ce știi să faci?", "starters": ["I can…", "I can't…"], "sample": "I can build websites and fix bugs. I can also cook and swim, but I can't sing." },
+    { "q": "What do you do at the weekend?", "qRo": "Ce faci în weekend?", "starters": ["I often…", "Sometimes I…", "I usually…"], "sample": "I often go to the park with my family. Sometimes I play football with my friends." },
+    { "q": "Is there a nice café near your home?", "qRo": "Este o cafenea drăguță lângă casa ta?", "starters": ["Yes, there is…", "No, there isn't…"], "sample": "Yes, there is. There's a small café opposite my flat, and the coffee is great." },
+    { "q": "What are you doing right now?", "qRo": "Ce faci chiar acum?", "starters": ["I'm…", "Right now I'm…"], "sample": "Right now I'm learning English. I'm sitting at my desk and drinking a coffee." },
+    { "q": "Where were you on your last holiday?", "qRo": "Unde ai fost în ultima vacanță?", "starters": ["I was in…", "We were at…", "Last summer I…"], "sample": "Last summer I was in Greece with my family. We stayed in a small hotel near the beach." }
+  ]
+}

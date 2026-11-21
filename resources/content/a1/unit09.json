@@ -1,0 +1,133 @@
+{
+  "id": "a1-u09",
+  "level": "A1",
+  "order": 9,
+  "title": "What are you doing right now?",
+  "titleRo": "Ce faci chiar acum?",
+  "emoji": "📹",
+  "goalRo": "La final vei putea să spui ce se întâmplă acum: la un apel video, la birou, cum e vremea și ce haine porți.",
+  "vocab": [
+    { "en": "weather", "ro": "vreme", "pos": "noun", "ipa": "/ˈweðə/", "emoji": "🌦️", "ex": "What's the weather like in Cluj?", "exRo": "Cum e vremea în Cluj?" },
+    { "en": "sunny", "ro": "însorit", "pos": "adj", "ipa": "/ˈsʌni/", "emoji": "☀️", "ex": "It's sunny today.", "exRo": "Azi e soare." },
+    { "en": "cloudy", "ro": "înnorat", "pos": "adj", "ipa": "/ˈklaʊdi/", "emoji": "☁️", "ex": "It's cloudy, but it isn't raining.", "exRo": "E înnorat, dar nu plouă." },
+    { "en": "rain", "ro": "a ploua / ploaie", "pos": "verb", "ipa": "/reɪn/", "emoji": "🌧️", "ex": "It's raining in London again.", "exRo": "Iar plouă la Londra." },
+    { "en": "cold", "ro": "rece / frig", "pos": "adj", "ipa": "/kəʊld/", "emoji": "🥶", "ex": "It's very cold outside.", "exRo": "Afară e foarte frig." },
+    { "en": "hot", "ro": "fierbinte / foarte cald", "pos": "adj", "ipa": "/hɒt/", "emoji": "🥵", "ex": "It's hot in the office today.", "exRo": "Azi e foarte cald în birou." },
+    { "en": "jacket", "ro": "geacă / sacou", "pos": "noun", "ipa": "/ˈdʒækɪt/", "emoji": "🧥", "wiki": "Jacket", "ex": "He's wearing a black jacket.", "exRo": "El poartă o geacă neagră." },
+    { "en": "T-shirt", "ro": "tricou", "pos": "noun", "ipa": "/ˈtiː ʃɜːt/", "emoji": "👕", "wiki": "T-shirt", "ex": "I'm wearing a T-shirt. It's sunny!", "exRo": "Port un tricou. E soare!" },
+    { "en": "jeans", "ro": "blugi", "pos": "noun", "ipa": "/dʒiːnz/", "emoji": "👖", "wiki": "Jeans", "ex": "Developers often wear jeans.", "exRo": "Programatorii poartă des blugi." },
+    { "en": "shoes", "ro": "pantofi / încălțăminte", "pos": "noun", "ipa": "/ʃuːz/", "emoji": "👟", "wiki": "Shoe", "ex": "These shoes are very comfortable.", "exRo": "Pantofii aceștia sunt foarte comozi." },
+    { "en": "umbrella", "ro": "umbrelă", "pos": "noun", "ipa": "/ʌmˈbrelə/", "emoji": "☂️", "wiki": "Umbrella", "ex": "Take an umbrella. It's raining.", "exRo": "Ia o umbrelă. Plouă." },
+    { "en": "wear", "ro": "a purta (haine)", "pos": "verb", "ipa": "/weə/", "emoji": "👗", "ex": "What are you wearing today?", "exRo": "Ce porți azi?" },
+    { "en": "video call", "ro": "apel video", "pos": "noun", "ipa": "/ˈvɪdiəʊ kɔːl/", "emoji": "📹", "ex": "I'm on a video call with a client.", "exRo": "Sunt într-un apel video cu un client." },
+    { "en": "share the screen", "ro": "a partaja ecranul", "pos": "phrase", "ipa": "/ˌʃeə ðə ˈskriːn/", "emoji": "🖥️", "ex": "Wait, I'm sharing the screen.", "exRo": "Stai, partajez ecranul." },
+    { "en": "right now", "ro": "chiar acum", "pos": "adv", "ipa": "/ˌraɪt ˈnaʊ/", "emoji": "⏱️", "ex": "I'm busy right now.", "exRo": "Sunt ocupat chiar acum." },
+    { "en": "wait", "ro": "a aștepta", "pos": "verb", "ipa": "/weɪt/", "emoji": "⏳", "ex": "I'm waiting for the client.", "exRo": "Îl aștept pe client." },
+    { "en": "on mute", "ro": "cu microfonul oprit", "pos": "phrase", "ipa": "/ɒn ˈmjuːt/", "emoji": "🔇", "ex": "Sorry, you're on mute!", "exRo": "Scuze, ai microfonul oprit!" }
+  ],
+  "grammar": {
+    "title": "Present continuous",
+    "titleRo": "Prezentul continuu",
+    "sections": [
+      {
+        "headingRo": "Ce se întâmplă acum?",
+        "textRo": "Folosim **present continuous** pentru acțiuni care se întâmplă **chiar acum**, în acest moment. Se formează cu **am / is / are + verb + -ing**. Cuvinte care te ajută: **now**, **right now**, **at the moment**, **Look!**, **Listen!**",
+        "table": {
+          "headers": ["Persoană", "Afirmativ", "Negativ"],
+          "rows": [["I", "I'm working", "I'm not working"], ["he / she / it", "she's working", "she isn't working"], ["you / we / they", "we're working", "we aren't working"]]
+        },
+        "examples": [
+          { "en": "I'm fixing a bug right now.", "ro": "Repar un bug chiar acum." },
+          { "en": "Mark is talking to a client.", "ro": "Mark vorbește cu un client." },
+          { "en": "We aren't working today.", "ro": "Azi nu lucrăm." }
+        ]
+      },
+      {
+        "headingRo": "Întrebări",
+        "textRo": "Ca la verbul „to be”, **am / is / are** trece în față: **Are you** working? Răspunsul scurt: **Yes, I am. / No, I'm not.** Cea mai utilă întrebare: **What are you doing?** (Ce faci?)",
+        "examples": [
+          { "en": "What are you doing? — I'm writing an email.", "ro": "Ce faci? — Scriu un e-mail." },
+          { "en": "Is it raining? — Yes, it is.", "ro": "Plouă? — Da." },
+          { "en": "Are they waiting for us? — No, they aren't.", "ro": "Ne așteaptă? — Nu." }
+        ]
+      },
+      {
+        "headingRo": "Cum scriem forma cu -ing",
+        "textRo": "De obicei adaugi doar **-ing**: work → work**ing**. Dacă verbul se termină în **-e**, „e” dispare: write → writ**ing**, share → shar**ing**. La verbe scurte de tipul consoană-vocală-consoană, dublezi ultima literă: sit → si**tting**, run → ru**nning**.",
+        "table": {
+          "headers": ["Regulă", "Verb", "-ing"],
+          "rows": [["+ ing", "wait", "waiting"], ["-e dispare", "make", "making"], ["-e dispare", "share", "sharing"], ["dublăm consoana", "sit", "sitting"], ["dublăm consoana", "swim", "swimming"]]
+        },
+        "examples": [
+          { "en": "She's sitting next to the window.", "ro": "Ea stă lângă fereastră." },
+          { "en": "I'm sharing my screen.", "ro": "Îmi partajez ecranul." }
+        ]
+      },
+      {
+        "headingRo": "De obicei sau acum?",
+        "textRo": "În română avem un singur prezent: „lucrez”. În engleză alegem: **present simple** pentru obiceiuri (**every day**, **usually**) și **present continuous** pentru acum (**now**, **today**). Și la vreme: **It's raining** (plouă acum), dar **It often rains in London** (plouă des).",
+        "examples": [
+          { "en": "I usually wear jeans, but today I'm wearing a suit.", "ro": "De obicei port blugi, dar azi port costum." },
+          { "en": "He works from home, but today he's working in the office.", "ro": "El lucrează de acasă, dar azi lucrează la birou." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "Nu uita **am / is / are**: nu „I working”, ci **I'm working**.",
+      "Pentru ce se întâmplă acum spunem **It's raining**, nu „It rains now”.",
+      "Verbele **like, love, want, know** nu se folosesc de obicei cu -ing: **I like it** (nu „I'm liking it”).",
+      "Când cineva vorbește și nu se aude într-un apel, spune politicos: **Sorry, you're on mute!**"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Un apel video cu un client din Londra",
+    "lines": [
+      { "speaker": "Mark", "en": "Hi, Andrei! Can you hear me?", "ro": "Salut, Andrei! Mă auzi?" },
+      { "speaker": "Andrei", "en": "Hi, Mark! Yes, I can. But I can't see you.", "ro": "Salut, Mark! Da, te aud. Dar nu te văd." },
+      { "speaker": "Mark", "en": "Sorry, I'm turning on the camera. Better?", "ro": "Scuze, pornesc camera. Acum e mai bine?" },
+      { "speaker": "Andrei", "en": "Yes! Are you wearing a jacket? Is it cold in London?", "ro": "Da! Porți geacă? E frig la Londra?" },
+      { "speaker": "Mark", "en": "Yes, it's raining and it's very cold. What's the weather like in Cluj?", "ro": "Da, plouă și e foarte frig. Cum e vremea în Cluj?" },
+      { "speaker": "Andrei", "en": "It's sunny! I'm wearing a T-shirt.", "ro": "E soare! Eu port un tricou." },
+      { "speaker": "Mark", "en": "Lucky you! So, what are you working on at the moment?", "ro": "Ce noroc pe tine! Deci, la ce lucrezi acum?" },
+      { "speaker": "Andrei", "en": "I'm fixing some bugs in your CRM. Wait, I'm sharing the screen. Can you see it?", "ro": "Repar niște bug-uri în CRM-ul tău. Stai, partajez ecranul. Îl vezi?" },
+      { "speaker": "Mark", "en": "Yes, I can. It looks great!", "ro": "Da, îl văd. Arată grozav!" }
+    ]
+  },
+  "reading": {
+    "title": "A busy Monday morning",
+    "text": "It's Monday morning and it's raining. I'm sitting at my desk in the office and I'm drinking a hot coffee.\n\nThe office is busy today. Mihai, our boss, is talking to a client on a video call. Ana isn't working at her desk. She's in the meeting room. She's showing a new design to the team.\n\nPaul is wearing a funny red T-shirt and he's fixing a bug. And me? I'm writing this text, of course! So I'm not working right now.",
+    "textRo": "Este luni dimineață și plouă. Stau la biroul meu și beau o cafea fierbinte.\n\nAzi e multă agitație la birou. Mihai, șeful nostru, vorbește cu un client într-un apel video. Ana nu lucrează la biroul ei. Este în sala de ședințe. Prezintă un design nou echipei.\n\nPaul poartă un tricou roșu amuzant și repară un bug. Și eu? Scriu textul acesta, desigur! Deci chiar acum nu lucrez.",
+    "questions": [
+      { "type": "mc", "q": "What's the weather like?", "options": ["It's sunny.", "It's raining.", "It's hot."], "answer": 1, "explainRo": "Textul spune: „it's raining”." },
+      { "type": "mc", "q": "What is Mihai doing?", "options": ["He's drinking coffee.", "He's fixing a bug.", "He's talking to a client."], "answer": 2, "explainRo": "Textul spune: „Mihai... is talking to a client on a video call”." },
+      { "type": "mc", "q": "Where is Ana?", "options": ["At her desk.", "In the meeting room.", "In the kitchen."], "answer": 1, "explainRo": "Textul spune: „She's in the meeting room”." },
+      { "type": "mc", "q": "Paul is wearing ___.", "options": ["a red T-shirt", "a black jacket", "a blue T-shirt", "white shoes"], "answer": 0, "explainRo": "Textul spune: „Paul is wearing a funny red T-shirt”." }
+    ]
+  },
+  "exercises": [
+    { "type": "mc", "q": "I ___ working right now.", "options": ["am", "is", "are"], "answer": 0, "explainRo": "Cu **I** folosim **am** + verb-ing." },
+    { "type": "mc", "q": "Look! It ___.", "options": ["rains", "is raining", "raining"], "answer": 1, "explainRo": "„Look!” arată că se întâmplă acum → **is raining**." },
+    { "type": "mc", "q": "They ___ a video call at the moment.", "options": ["have", "is having", "are having"], "answer": 2, "explainRo": "They + **are** + verb-ing; „at the moment” = acum." },
+    { "type": "mc", "q": "What ___ you doing?", "options": ["do", "is", "are"], "answer": 2, "explainRo": "Cu **you** folosim **are**: What are you doing?" },
+    { "type": "mc", "q": "She ___ a jacket today. It's cold.", "options": ["is wearing", "wears", "wearing"], "answer": 0, "explainRo": "„Today” — ceva ce se întâmplă acum → **is wearing**." },
+    { "type": "mc", "q": "Every day I drink tea, but right now I ___ coffee.", "options": ["drink", "am drinking", "drinks"], "answer": 1, "explainRo": "„Right now” cere present continuous: **am drinking**." },
+    { "type": "mc", "q": "Mark, I can't hear you. You're ___!", "options": ["cloudy", "sunny", "wearing", "on mute"], "answer": 3, "explainRo": "**On mute** = cu microfonul oprit." },
+    { "type": "mc", "q": "It's 35°C. It's very ___.", "options": ["cold", "cloudy", "hot"], "answer": 2, "explainRo": "35°C este foarte cald → **hot**." },
+    { "type": "fill", "q": "He ___ an email at the moment. (write)", "answers": ["is writing", "'s writing"], "explainRo": "He + **is** + writing (dispare „e” din write)." },
+    { "type": "fill", "q": "We ___ today. It's Sunday. (not / work)", "answers": ["aren't working", "are not working"], "explainRo": "Negația: we + **aren't** + verb-ing." },
+    { "type": "fill", "q": "Are you waiting for the bus? — Yes, I ___.", "answers": ["am"], "explainRo": "Răspunsul scurt: **Yes, I am.**" },
+    { "type": "fill", "q": "She is ___ next to the window. (sit)", "answers": ["sitting"], "explainRo": "**Sit** își dublează consoana: sitting." },
+    { "type": "order", "words": ["What", "are", "you", "doing?"], "ro": "Ce faci (acum)?", "explainRo": "What + are + you + verb-ing?" },
+    { "type": "order", "words": ["I'm", "sharing", "my", "screen", "now."], "ro": "Îmi partajez ecranul acum.", "explainRo": "I'm + verb-ing; „share” pierde „e”: sharing." },
+    { "type": "order", "words": ["Is", "it", "raining", "in", "London?"], "ro": "Plouă la Londra?", "explainRo": "În întrebare **is** trece în fața lui **it**." },
+    { "type": "translate", "ro": "Lucrez la un proiect nou acum.", "answers": ["I'm working on a new project now.", "I am working on a new project now.", "I'm working on a new project right now.", "I am working on a new project right now.", "I'm working on a new project at the moment.", "I am working on a new project at the moment.", "Now I'm working on a new project.", "Now I am working on a new project."], "explainRo": "Acum → present continuous: **I'm working**." },
+    { "type": "translate", "ro": "Ea poartă blugi azi.", "answers": ["She is wearing jeans today.", "She's wearing jeans today.", "Today she is wearing jeans.", "Today she's wearing jeans."], "explainRo": "„Azi” = o situație de acum → **is wearing**." },
+    { "type": "listen", "audio": "You're on mute.", "answers": ["You're on mute.", "You are on mute."], "ro": "Ai microfonul oprit.", "explainRo": "O propoziție pe care o vei auzi des în apelurile video." },
+    { "type": "listen", "audio": "It's sunny and hot today.", "answers": ["It's sunny and hot today.", "It is sunny and hot today."], "ro": "Azi e soare și foarte cald.", "explainRo": "Vremea se descrie cu **It's** + adjectiv." },
+    { "type": "match", "pairs": [["jacket", "geacă"], ["shoes", "pantofi"], ["umbrella", "umbrelă"], ["weather", "vreme"], ["wait", "a aștepta"]] }
+  ],
+  "video": {
+    "youtubeId": "G2xWg2ckKHI",
+    "title": "Easy English 8 - What are you doing today? (Easy English)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unit": "a1-u02",
+  "questions": [
+    { "type": "mc", "q": "___ Lucia and Marco from Italy?", "options": ["Is", "Are", "Am"], "answer": 1, "explainRo": "Lucia și Marco = they, deci întrebarea începe cu **Are**." },
+    { "type": "mc", "q": "Bogdan is from Romania. He's ___.", "options": ["Romania", "Romanians", "Romanian"], "answer": 2, "explainRo": "**Romania** este țara, iar **Romanian** înseamnă „român”." },
+    { "type": "mc", "q": "He's ___ English teacher from London.", "options": ["an", "a", "is"], "answer": 0, "explainRo": "**English** începe cu sunet de vocală, deci folosim **an**." },
+    { "type": "mc", "q": "How do you say the email address „dan@crm.ro”?", "options": ["dan dot crm at ro", "dan and crm dot ro", "dan at crm at ro", "dan at crm dot ro"], "answer": 3, "explainRo": "Simbolul @ se citește **at**, iar punctul se citește **dot**." },
+    { "type": "fill", "q": "Sorry, how do you ___ your surname? (a spune pe litere)", "answers": ["spell"], "explainRo": "**How do you spell...?** = Cum se scrie...? (pe litere)." },
+    { "type": "mc", "q": "Are you and Maya designers? — Yes, ___.", "options": ["we're", "you are", "we are"], "answer": 2, "explainRo": "Tu și Maya = **we**, iar la răspunsul scurt cu „yes” folosim forma lungă: **Yes, we are**." },
+    { "type": "fill", "q": "Sorry, I ___ Mr Brown. He's over there. (not / to be)", "answers": ["am not", "'m not"], "explainRo": "Cu **I** negația este **am not** / **I'm not** (nu există „amn't”)." },
+    { "type": "fill", "q": "Liam ___ 23 years old and he's a designer.", "answers": ["is", "'s"], "explainRo": "Vârsta se spune cu verbul „to be”: **Liam is 23** (nu „has”)." },
+    { "type": "order", "words": ["Which", "country", "are", "you", "from?"], "ro": "Din ce țară ești?", "explainRo": "În întrebare **are** vine înaintea lui **you**, iar **from** stă la final." },
+    { "type": "order", "words": ["How", "old", "are", "your", "colleagues?"], "ro": "Câți ani au colegii tăi?", "explainRo": "Vârsta se întreabă cu **How old + is/are...?**, nu cu „have”; colleagues este plural, deci **are**." },
+    { "type": "listen", "audio": "The room number is thirteen, not thirty.", "answers": ["The room number is thirteen, not thirty.", "The room number is 13, not 30.", "The room number is 13, not thirty.", "The room number is thirteen, not 30."], "ro": "Numărul camerei este treisprezece, nu treizeci.", "explainRo": "**Thirteen** (13) are accentul la final, iar **thirty** (30) are accentul la început." },
+    { "type": "translate", "ro": "Ea nu are 40 de ani.", "answers": ["She isn't 40.", "She is not 40.", "She's not 40.", "She isn't 40 years old.", "She is not 40 years old.", "She's not 40 years old.", "She isn't forty.", "She isn't forty years old.", "She is not forty years old."], "explainRo": "Vârsta se spune cu „to be”, iar negația este **isn't**: She isn't 40 (nu „She hasn't 40 years”)." }
+  ]
+}

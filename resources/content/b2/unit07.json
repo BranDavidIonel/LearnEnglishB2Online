@@ -1,0 +1,138 @@
+{
+  "id": "b2-u07",
+  "level": "B2",
+  "order": 7,
+  "title": "Please find attached: professional writing",
+  "titleRo": "Găsiți atașat: scrisul profesional",
+  "emoji": "✍️",
+  "goalRo": "La final vei putea scrie emailuri formale, documentație și propuneri clare, folosind propoziții relative avansate și construcții cu participiu.",
+
+  "vocab": [
+    { "en": "documentation", "ro": "documentație", "pos": "noun", "ipa": "/ˌdɒk.jə.menˈteɪ.ʃən/", "emoji": "📘", "ex": "Good documentation saves hours of support calls.", "exRo": "O documentație bună economisește ore întregi de apeluri la suport." },
+    { "en": "executive summary", "ro": "rezumat pentru conducere", "pos": "noun", "ipa": "/ɪɡˌzek.jə.tɪv ˈsʌm.ər.i/", "emoji": "📋", "ex": "Most managers only read the executive summary.", "exRo": "Majoritatea managerilor citesc doar rezumatul pentru conducere." },
+    { "en": "deliverable", "ro": "livrabil (rezultat concret al unui proiect)", "pos": "noun", "ipa": "/dɪˈlɪv.ər.ə.bəl/", "emoji": "📦", "ex": "Each deliverable has its own deadline and price.", "exRo": "Fiecare livrabil are propriul termen și propriul preț." },
+    { "en": "specification", "ro": "specificație", "pos": "noun", "ipa": "/ˌspes.ɪ.fɪˈkeɪ.ʃən/", "emoji": "📐", "ex": "The technical specification, which runs to forty pages, is attached.", "exRo": "Specificația tehnică, care are patruzeci de pagini, este atașată." },
+    { "en": "please find attached", "ro": "găsiți atașat", "pos": "phrase", "ipa": "/ˌpliːz ˌfaɪnd əˈtætʃt/", "emoji": "📎", "ex": "Please find attached the revised quote.", "exRo": "Găsiți atașată oferta revizuită." },
+    { "en": "as per", "ro": "conform, potrivit", "pos": "prep", "ipa": "/æz ˈpɜː/", "emoji": "📌", "ex": "As per our conversation, I've updated the timeline.", "exRo": "Conform discuției noastre, am actualizat calendarul." },
+    { "en": "kindly", "ro": "vă rog (formal), cu amabilitate", "pos": "adv", "ipa": "/ˈkaɪnd.li/", "emoji": "🙏", "ex": "Kindly confirm receipt of this email.", "exRo": "Vă rog să confirmați primirea acestui email." },
+    { "en": "clarify", "ro": "a clarifica", "pos": "verb", "ipa": "/ˈklær.ɪ.faɪ/", "emoji": "💡", "ex": "Could you clarify what you mean by 'real-time reports'?", "exRo": "Ați putea clarifica ce înțelegeți prin „rapoarte în timp real”?" },
+    { "en": "outline", "ro": "a schița, a prezenta pe scurt", "pos": "verb", "ipa": "/ˈaʊt.laɪn/", "emoji": "🖊️", "ex": "In this proposal, we outline three possible solutions.", "exRo": "În această propunere, prezentăm pe scurt trei soluții posibile." },
+    { "en": "acknowledge", "ro": "a confirma (primirea); a recunoaște", "pos": "verb", "ipa": "/əkˈnɒl.ɪdʒ/", "emoji": "📬", "ex": "We acknowledge receipt of your complaint and will reply within 48 hours.", "exRo": "Confirmăm primirea reclamației dumneavoastră și vă vom răspunde în 48 de ore." },
+    { "en": "subject line", "ro": "subiectul emailului", "pos": "noun", "ipa": "/ˈsʌb.dʒekt ˌlaɪn/", "emoji": "✉️", "ex": "A clear subject line makes your email easier to find.", "exRo": "Un subiect clar face ca emailul tău să fie mai ușor de găsit." },
+    { "en": "concise", "ro": "concis", "pos": "adj", "ipa": "/kənˈsaɪs/", "emoji": "✂️", "ex": "Keep your emails concise – three short paragraphs at most.", "exRo": "Păstrează-ți emailurile concise – cel mult trei paragrafe scurte." },
+    { "en": "draft", "ro": "ciornă; a redacta", "pos": "noun", "ipa": "/drɑːft/", "emoji": "📝", "ex": "I've sent you the first draft of the proposal.", "exRo": "Ți-am trimis prima variantă a propunerii." },
+    { "en": "stakeholder", "ro": "parte interesată", "pos": "noun", "ipa": "/ˈsteɪk.həʊl.də/", "emoji": "👥", "ex": "All stakeholders, most of whom work in finance, received the report.", "exRo": "Toate părțile interesate, dintre care cele mai multe lucrează în finanțe, au primit raportul." },
+    { "en": "bullet point", "ro": "punct dintr-o listă (marcator)", "pos": "noun", "ipa": "/ˈbʊl.ɪt ˌpɔɪnt/", "emoji": "🔹", "ex": "Use bullet points to list the main features.", "exRo": "Folosește o listă cu marcatori pentru principalele funcții." },
+    { "en": "to whom it may concern", "ro": "în atenția celor interesați (formulă formală)", "pos": "phrase", "ipa": "/tə ˌhuːm ɪt meɪ kənˈsɜːn/", "emoji": "🎩", "ex": "Avoid 'To whom it may concern' if you know the person's name.", "exRo": "Evită formula „To whom it may concern” dacă știi numele persoanei." }
+  ],
+
+  "grammar": {
+    "title": "Advanced relative clauses and participle clauses",
+    "titleRo": "Propoziții relative avansate și construcții cu participiu",
+    "sections": [
+      {
+        "headingRo": "Propoziții relative explicative (non-defining)",
+        "textRo": "O propoziție relativă **explicativă** adaugă o informație în plus, care poate lipsi fără să se schimbe sensul. Se pune **între virgule**, folosim **who, which, whose, where** și **niciodată „that”**, iar pronumele **nu poate fi omis**. **Which** poate trimite și la **toată propoziția** de dinainte: *The client paid early, which was a nice surprise* (ceea ce a fost o surpriză plăcută).",
+        "examples": [
+          { "en": "Mr Popa, who signed the contract, has left the company.", "ro": "Domnul Popa, care a semnat contractul, a plecat din firmă." },
+          { "en": "Our new API, which was released in May, is much faster.", "ro": "Noul nostru API, lansat în mai, este mult mai rapid." },
+          { "en": "The meeting was moved to Friday, which suits me perfectly.", "ro": "Ședința a fost mutată vineri, ceea ce mi se potrivește perfect." }
+        ]
+      },
+      {
+        "headingRo": "Prepoziții și cuantificatori în propoziția relativă",
+        "textRo": "În engleza **formală** prepoziția stă **înaintea** pronumelui: *the client **to whom** I wrote*, *the system **on which** we rely*. În engleza vorbită o mutăm la final: *the client I wrote to*. După prepoziție folosim **whom** (pentru oameni) și **which** (pentru lucruri) – niciodată *who* sau *that*. Cu cuantificatori: **some of whom, most of which, none of which, both of whom**.",
+        "table": {
+          "headers": ["Formal (scris)", "Informal (vorbit)"],
+          "rows": [
+            ["the manager to whom I spoke", "the manager I spoke to"],
+            ["the project on which we are working", "the project we're working on"],
+            ["the date by which payment is due", "the date payment is due by"]
+          ]
+        },
+        "examples": [
+          { "en": "The company for which I work is based in Vienna.", "ro": "Firma pentru care lucrez are sediul la Viena." },
+          { "en": "We received twenty applications, most of which were excellent.", "ro": "Am primit douăzeci de candidaturi, dintre care cele mai multe erau excelente." },
+          { "en": "The developers, both of whom are from Iași, start on Monday.", "ro": "Programatorii, amândoi din Iași, încep luni." }
+        ]
+      },
+      {
+        "headingRo": "Construcții cu participiu",
+        "textRo": "Ele scurtează propozițiile și sunt foarte frecvente în scrisul profesional. **-ing** = sens activ, simultan sau ca motiv (*Having no budget, they cancelled the project*). **V3** = sens pasiv (*Written in Python, the tool is easy to extend*). **Having + V3** = o acțiune încheiată înainte de alta (*Having read your proposal, we'd like to meet*). Pot înlocui și o propoziție relativă: *the file attached to this email* = *the file which is attached to this email*.",
+        "table": {
+          "headers": ["Propoziție completă", "Construcție cu participiu"],
+          "rows": [
+            ["Clients who want a demo should register.", "Clients wanting a demo should register."],
+            ["The report, which was written by Ana, is ready.", "The report, written by Ana, is ready."],
+            ["After we had analysed the data, we wrote the report.", "Having analysed the data, we wrote the report."]
+          ]
+        },
+        "examples": [
+          { "en": "Having reviewed your requirements, we propose a three-phase plan.", "ro": "După ce am analizat cerințele dumneavoastră, propunem un plan în trei etape." },
+          { "en": "Anyone wishing to attend the workshop should reply by Friday.", "ro": "Oricine dorește să participe la atelier trebuie să răspundă până vineri." },
+          { "en": "The invoice attached to this email includes all travel costs.", "ro": "Factura atașată acestui email include toate costurile de deplasare." }
+        ]
+      }
+    ],
+    "tipsRo": [
+      "După virgulă nu folosim **that**: **Our CRM, which is cloud-based, …**, nu „Our CRM, that is cloud-based, …”.",
+      "După prepoziție spunem **whom**, nu *who*: **the person to whom I spoke**.",
+      "Atenție la subiectul participiului: „Walking to the office, the rain started” e greșit (ploaia nu merge pe jos). Corect: **Walking to the office, I got caught in the rain.**",
+      "„Ceea ce” după o propoziție = **which**, nu *what*: **He was late, which annoyed the client.**"
+    ]
+  },
+
+  "dialogue": {
+    "titleRo": "Revizuirea unui email formal",
+    "lines": [
+      { "speaker": "Clara", "en": "Can you look at this email before I send it to the hotel group?", "ro": "Te uiți pe emailul ăsta înainte să-l trimit grupului hotelier?" },
+      { "speaker": "Andrei", "en": "Sure. First, the subject line 'Hi' isn't great. Something like 'CRM proposal – Hotel Carpathia' is clearer.", "ro": "Sigur. În primul rând, subiectul „Hi” nu e prea bun. Ceva de genul „Propunere CRM – Hotel Carpathia” e mai clar." },
+      { "speaker": "Clara", "en": "Good point. And the first paragraph?", "ro": "Bună observație. Și primul paragraf?" },
+      { "speaker": "Andrei", "en": "It's too long. Start with 'Having reviewed your requirements, we have prepared…' – it sounds more professional.", "ro": "E prea lung. Începe cu „După ce am analizat cerințele dumneavoastră, am pregătit…” – sună mai profesionist." },
+      { "speaker": "Clara", "en": "What about 'the manager who I talked with'? It sounds a bit odd.", "ro": "Dar „the manager who I talked with”? Sună puțin ciudat." },
+      { "speaker": "Andrei", "en": "In a formal email, say 'the manager with whom I spoke'. Or just use her name, which is even better.", "ro": "Într-un email formal, spune „the manager with whom I spoke”. Sau folosește-i pur și simplu numele, ceea ce e și mai bine." },
+      { "speaker": "Clara", "en": "OK. I've put the prices in bullet points. Is that fine?", "ro": "Bine. Am pus prețurile într-o listă cu marcatori. E în regulă?" },
+      { "speaker": "Andrei", "en": "Perfect. Then just add 'Please find attached the full specification' and keep the rest concise.", "ro": "Perfect. Apoi adaugă doar „Găsiți atașată specificația completă” și păstrează restul concis." }
+    ]
+  },
+
+  "reading": {
+    "title": "Five rules for writing that clients actually read",
+    "text": "Most clients receive dozens of emails a day, many of which they never finish reading. If you want yours to get a reply, the following rules, collected over ten years of freelance work, may help.\n\nFirst, write a subject line that tells the reader exactly what to expect. \"Quote for CRM – reply needed by Friday\" works far better than \"Question\". Busy stakeholders, most of whom decide in seconds whether to open a message, will thank you.\n\nSecond, put the most important information at the top. Having read the first two lines, the reader should know what you want and by when. Background details, which only some people need, can go further down or in an attachment.\n\nThird, be concise. Long sentences filled with technical terms make people feel tired before they reach the end. Use bullet points for lists of features or deliverables, and keep paragraphs to three or four lines.\n\nFourth, adapt your tone. A proposal sent to a bank, where formality is expected, should sound different from a message to a start-up founder with whom you share jokes on LinkedIn. When in doubt, choose polite and neutral language: \"Could you clarify…\" rather than \"What do you mean…\".\n\nFinally, read your draft out loud before sending it. Sentences that sound awkward when spoken usually look awkward on the screen, too. Documentation is no different: written for real users, tested by real users, it becomes something people actually open – which, after all, is the whole point.",
+    "textRo": "Majoritatea clienților primesc zeci de emailuri pe zi, iar pe multe dintre ele nu le citesc niciodată până la capăt. Dacă vrei ca al tău să primească un răspuns, regulile următoare, adunate în zece ani de muncă de freelancer, te-ar putea ajuta.\n\nÎn primul rând, scrie un subiect care să-i spună cititorului exact la ce să se aștepte. „Ofertă CRM – răspuns necesar până vineri” funcționează mult mai bine decât „Întrebare”. Părțile interesate ocupate, dintre care cele mai multe decid în câteva secunde dacă deschid un mesaj, îți vor mulțumi.\n\nÎn al doilea rând, pune informația cea mai importantă la început. După ce a citit primele două rânduri, cititorul ar trebui să știe ce vrei și până când. Detaliile de context, de care au nevoie doar unii, pot sta mai jos sau într-un atașament.\n\nÎn al treilea rând, fii concis. Propozițiile lungi, pline de termeni tehnici, îi obosesc pe oameni înainte să ajungă la final. Folosește liste cu marcatori pentru funcții sau livrabile și păstrează paragrafele la trei-patru rânduri.\n\nÎn al patrulea rând, adaptează-ți tonul. O propunere trimisă unei bănci, unde se așteaptă formalitate, ar trebui să sune altfel decât un mesaj către fondatorul unui start-up cu care faci glume pe LinkedIn. Când ai dubii, alege un limbaj politicos și neutru: „Ați putea clarifica…” în loc de „Ce vreți să spuneți…”.\n\nÎn sfârșit, citește-ți ciorna cu voce tare înainte s-o trimiți. Propozițiile care sună stângaci când sunt rostite arată de obicei stângaci și pe ecran. Cu documentația e la fel: scrisă pentru utilizatori reali și testată de utilizatori reali, devine ceva ce oamenii chiar deschid – ceea ce, până la urmă, e tot scopul.",
+    "questions": [
+      { "type": "mc", "q": "Why does the author recommend a specific subject line?", "options": ["It makes the email look longer.", "Clients are more likely to open the email.", "Spam filters require it.", "It replaces the need for an attachment."], "answer": 1, "explainRo": "Cei mai mulți decid în câteva secunde dacă deschid un mesaj, deci un subiect clar ajută." },
+      { "type": "mc", "q": "Where should background details go?", "options": ["Further down or in an attachment", "In the subject line", "In the first two lines", "Nowhere – they should be deleted"], "answer": 0, "explainRo": "„Background details… can go further down or in an attachment.”" },
+      { "type": "mc", "q": "According to the text, how should a proposal to a bank sound?", "options": ["Full of jokes", "Exactly like a LinkedIn message", "More formal than a message to a start-up founder", "Very short and informal"], "answer": 2, "explainRo": "La o bancă „formality is expected”, deci tonul trebuie să fie mai formal." },
+      { "type": "mc", "q": "Why should you read your draft out loud?", "options": ["To check the length of the email", "To practise for a phone call", "To memorise the prices", "Because awkward sentences are easier to notice"], "answer": 3, "explainRo": "Propozițiile care sună stângaci rostite arată stângaci și pe ecran." }
+    ]
+  },
+
+  "exercises": [
+    { "type": "mc", "q": "Our CRM, ___ was launched in 2021, now has 500 users.", "options": ["that", "which", "who", "what"], "answer": 1, "explainRo": "În propozițiile relative explicative (cu virgule) folosim **which** pentru lucruri, nu *that*." },
+    { "type": "mc", "q": "Ms Radu, ___ company builds hotel software, wants to meet us.", "options": ["whose", "who", "which", "whom"], "answer": 0, "explainRo": "**Whose** exprimă posesia: compania ei." },
+    { "type": "mc", "q": "The client paid two weeks early, ___ was a pleasant surprise.", "options": ["what", "that", "who", "which"], "answer": 3, "explainRo": "**Which** se poate referi la toată propoziția anterioară („ceea ce”)." },
+    { "type": "mc", "q": "The manager to ___ I sent the proposal hasn't replied yet.", "options": ["who", "that", "whom", "which"], "answer": 2, "explainRo": "După prepoziție, pentru persoane folosim **whom**." },
+    { "type": "mc", "q": "We interviewed five candidates, ___ had experience with ERP systems.", "options": ["all of them", "all of whom", "all of who", "all of which"], "answer": 1, "explainRo": "Cuantificator + **of whom** (pentru persoane) într-o propoziție relativă." },
+    { "type": "mc", "q": "___ the documentation, I finally understood how the API worked.", "options": ["Having read", "Read", "Having been read", "To have read"], "answer": 0, "explainRo": "**Having + V3** = acțiune terminată înaintea celei principale, cu același subiect (eu)." },
+    { "type": "mc", "q": "The report ___ by our analysts shows a 20% increase in sales.", "options": ["preparing", "having prepared", "was prepared", "prepared"], "answer": 3, "explainRo": "Sens pasiv (raportul a fost pregătit), deci participiul **V3**: prepared." },
+    { "type": "mc", "q": "Please keep the email ___ – the client doesn't have time to read long texts.", "options": ["concise", "attached", "kindly", "stakeholder"], "answer": 0, "explainRo": "**Concise** = scurt și la obiect." },
+    { "type": "mc", "q": "Could you ___ what you mean by 'integration'? Do you mean with your website or your accounting software?", "options": ["acknowledge", "outline", "clarify", "draft"], "answer": 2, "explainRo": "**Clarify** = a explica mai clar ceva neclar." },
+    { "type": "fill", "q": "This is the project on ___ we have been working since January.", "answers": ["which"], "explainRo": "După prepoziție, pentru lucruri folosim **which**." },
+    { "type": "fill", "q": "Anyone ___ (wish) to join the webinar should register by Friday.", "answers": ["wishing"], "explainRo": "Participiul activ **-ing** înlocuiește „who wishes”." },
+    { "type": "fill", "q": "Please find ___ the signed contract and the first invoice.", "answers": ["attached", "enclosed"], "explainRo": "Formula fixă: **Please find attached…** (sau, pentru scrisori, *enclosed*)." },
+    { "type": "order", "words": ["The", "file,", "which", "is", "attached,", "contains", "the", "prices."], "ro": "Fișierul, care este atașat, conține prețurile.", "explainRo": "Propoziție relativă explicativă, între virgule, cu **which**." },
+    { "type": "order", "words": ["Having", "finished", "the", "draft,", "she", "sent", "it."], "ro": "După ce a terminat ciorna, a trimis-o.", "explainRo": "**Having + V3** arată acțiunea anterioară." },
+    { "type": "order", "words": ["This", "is", "the", "client", "I", "told", "you", "about."], "ro": "Acesta este clientul despre care ți-am spus.", "explainRo": "În engleza vorbită, prepoziția trece la sfârșitul propoziției relative, iar pronumele poate lipsi." },
+    { "type": "translate", "ro": "Firma pentru care lucrez are sediul în Viena.", "answers": ["The company for which I work is based in Vienna.", "The company I work for is based in Vienna.", "The company that I work for is based in Vienna.", "The company which I work for is based in Vienna.", "The company I work for has its headquarters in Vienna.", "The firm I work for is based in Vienna.", "The firm for which I work is based in Vienna."], "explainRo": "Formal: **for which I work**; informal: **I work for** la final." },
+    { "type": "translate", "ro": "Clientul a întârziat, ceea ce ne-a enervat.", "answers": ["The client was late, which annoyed us.", "The client was late, which irritated us.", "The customer was late, which annoyed us.", "The client arrived late, which annoyed us.", "The client was late, which made us angry."], "explainRo": "„Ceea ce” care se referă la toată propoziția = **which**." },
+    { "type": "listen", "audio": "Kindly confirm receipt of this email.", "answers": ["Kindly confirm receipt of this email."], "ro": "Vă rog să confirmați primirea acestui email.", "explainRo": "**Kindly** + imperativ este o formulă formală de politețe." },
+    { "type": "listen", "audio": "The stakeholders, most of whom agreed, signed it.", "answers": ["The stakeholders, most of whom agreed, signed it."], "ro": "Părțile interesate, dintre care cele mai multe au fost de acord, l-au semnat.", "explainRo": "**Most of whom** = dintre care cei mai mulți (persoane)." },
+    { "type": "match", "pairs": [["deliverable", "livrabil (rezultat concret al unui proiect)"], ["executive summary", "rezumat pentru conducere"], ["subject line", "subiectul emailului"], ["bullet point", "punct dintr-o listă (marcator)"], ["as per", "conform, potrivit"]] }
+  ],
+
+  "video": {
+    "youtubeId": "8nC27LPY_Lg",
+    "title": "PARTICIPLE CLAUSES - All you need to know! - English Grammar for B2 First/C1 Advanced (SMASH English)"
+  }
+}
