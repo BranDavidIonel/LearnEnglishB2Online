@@ -45,7 +45,7 @@
           { "type": "fill", "q": "**(20)** ___ (PRIVATE)", "answers": ["privacy"], "explainRo": "După prepoziția *about* urmează substantivul **privacy** (viața privată, confidențialitate)." },
           { "type": "fill", "q": "**(21)** ___ (INFORM)", "answers": ["information"], "explainRo": "După *this* avem nevoie de un substantiv nenumărabil: **information**." },
           { "type": "fill", "q": "**(22)** ___ (WORRY)", "answers": ["worrying"], "explainRo": "Adjectivul în **-ing** descrie lucrul care provoacă sentimentul: **a worrying thought** (un gând îngrijorător)." },
-          { "type": "fill", "q": "**(23)** ___ (USE)", "answers": ["useless"], "explainRo": "Contextul (producătorul nu mai face actualizări) cere sens negativ: **useless** (inutil)." },
+          { "type": "fill", "q": "**(23)** ___ (USE)", "answers": ["useless", "unusable"], "explainRo": "Contextul (producătorul nu mai face actualizări) cere sens negativ: **useless** (inutil) sau **unusable** (inutilizabil)." },
           { "type": "fill", "q": "**(24)** ___ (THOROUGH)", "answers": ["thoroughly"], "explainRo": "Adverbul **thoroughly** (temeinic) descrie verbul *research*." }
         ]
       },

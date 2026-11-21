@@ -193,7 +193,7 @@
           "say": "Well, each clinic uses its own spreadsheet, and patients book by phone.",
           "sayRo": "Păi, fiecare clinică folosește propriul tabel, iar pacienții fac programări la telefon.",
           "hintRo": "Întreabă care este principala problemă, cea care îi deranjează cel mai mult în sistemul actual.",
-          "answers": ["I see. What would you say is the main pain point with that setup?", "And what's the biggest pain point for your staff?", "Got it. What's the main pain point that causes for you?"],
+          "answers": ["I see. What would you say is the main pain point with that setup?", "And what's the biggest pain point for your staff?", "Got it. What's the main pain point this causes for you?"],
           "keywords": ["pain point"]
         },
         {
@@ -359,12 +359,12 @@
       "emoji": "🧯",
       "title": "An angry client after an outage",
       "titleRo": "Un client furios după o pană",
-      "youRo": "Ieri dimineață, CRM-ul clientului a fost căzut câteva ore. Clientul te sună furios. Trebuie să-ți asumi responsabilitatea și să-i recâștigi încrederea.",
+      "youRo": "Ieri dimineață, CRM-ul clientului n-a funcționat câteva ore. Clientul te sună furios. Trebuie să-ți asumi responsabilitatea și să-i recâștigi încrederea.",
       "partner": "Client",
       "turns": [
         {
           "say": "Andrei, our CRM was down for three hours yesterday. My sales team couldn't do anything!",
-          "sayRo": "Andrei, CRM-ul nostru a fost căzut trei ore ieri. Echipa mea de vânzări n-a putut face nimic!",
+          "sayRo": "Andrei, CRM-ul nostru n-a funcționat trei ore ieri. Echipa mea de vânzări n-a putut face nimic!",
           "hintRo": "Cere-ți scuze sincer și recunoaște cât de mult i-a afectat.",
           "answers": ["I'm really sorry. I know how much that affected your sales team.", "I'm truly sorry. That must have been incredibly frustrating for your team.", "I completely understand, and I'm very sorry. It must have hurt your sales."],
           "keywords": ["sorry"]
@@ -535,7 +535,7 @@
         { "en": "I completely understand your frustration.", "ro": "Înțeleg perfect frustrarea dumneavoastră." },
         { "en": "I'm really sorry for the trouble this has caused.", "ro": "Îmi pare foarte rău pentru neplăcerile cauzate." },
         { "en": "Let me look into it right away.", "ro": "Mă uit imediat." },
-        { "en": "It looks like the last update must have caused it.", "ro": "Se pare că ultima actualizare trebuie să fi cauzat asta." },
+        { "en": "The last update must have caused it.", "ro": "Ultima actualizare trebuie să fi cauzat asta." },
         { "en": "We should have spotted this earlier.", "ro": "Ar fi trebuit să observăm asta mai devreme." },
         { "en": "Here's what we're doing to fix it.", "ro": "Iată ce facem ca să rezolvăm." },
         { "en": "I'll keep you posted until it's resolved.", "ro": "Vă țin la curent până se rezolvă." },

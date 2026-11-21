@@ -114,7 +114,7 @@
     { "type": "mc", "q": "The client asked ___ we could finish by Friday.", "options": ["that", "if", "what"], "answer": 1, "explainRo": "Întrebare cu da/nu raportată → if (sau whether)." },
     { "type": "mc", "q": "My manager told me ___ late again.", "options": ["not be", "to not being", "not to be"], "answer": 2, "explainRo": "Instrucțiune negativă raportată: tell + persoană + not to + verb." },
     { "type": "mc", "q": "Yesterday Ana said, \"I'm working from home today.\" → Yesterday Ana said she ___ from home that day.", "options": ["is working", "was working", "works"], "answer": 1, "explainRo": "Present continuous devine past continuous: was working." },
-    { "type": "mc", "q": "I'm out of the office this week, but I'll ___ you on Monday.", "options": ["hang up", "get back to", "remind"], "answer": 1, "explainRo": "„get back to someone” = a reveni cu un răspuns." },
+    { "type": "mc", "q": "I'm out of the office this week, but I'll ___ you on Monday.", "options": ["hang up", "get back to", "insist"], "answer": 1, "explainRo": "„get back to someone” = a reveni cu un răspuns." },
     { "type": "mc", "q": "I've sent you the contract as an ___.", "options": ["voicemail", "complaint", "attachment"], "answer": 2, "explainRo": "Fișierul trimis împreună cu un e-mail este un attachment (atașament)." },
     { "type": "fill", "q": "\"I'm tired.\" → He said he ___ tired.", "answers": ["was"], "explainRo": "am/is devine was în vorbirea indirectă." },
     { "type": "fill", "q": "\"Where is the server?\" → She asked me where the server ___.", "answers": ["was"], "explainRo": "Ordinea de afirmație (the server was) și timpul mutat în trecut." },

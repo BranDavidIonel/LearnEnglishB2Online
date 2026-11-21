@@ -233,7 +233,7 @@
           "say": "Oh, that's a shame. See you on Tuesday, then!",
           "sayRo": "Ce păcat. Atunci ne vedem marți!",
           "hintRo": "Spune „ne vedem marți” și urează-i o seară bună.",
-          "answers": ["See you on Tuesday. Have a nice evening!", "Yes, see you on Tuesday. Bye!", "Great, see you then. Have a good evening!"],
+          "answers": ["See you on Tuesday. Have a nice evening!", "Yes, see you on Tuesday. Have a good evening!", "Great, see you then. Have a good evening!"],
           "keywords": ["see you"]
         }
       ]

@@ -220,8 +220,8 @@
         {
           "say": "Thank you. What was inside? Anything valuable?",
           "sayRo": "Mulțumesc. Ce era înăuntru? Ceva de valoare?",
-          "hintRo": "Spune că laptopul e la tine, dar că îți pusesei în valiză costumul pentru întâlnirea cu clientul.",
-          "answers": ["My laptop is with me, but my suit was in the suitcase.", "Not really. But I had packed my suit for a client meeting.", "Luckily my laptop is with me. But I'd packed my suit in it."],
+          "hintRo": "Spune că laptopul e la tine, dar că ți-ai pus în valiză costumul pentru întâlnirea cu clientul.",
+          "answers": ["My laptop is with me, but my suit was in the suitcase.", "Not really. But I had packed my suit for a client meeting.", "Luckily my laptop is with me. But I'd packed my suit in my suitcase."],
           "keywords": ["suit"]
         },
         {
@@ -576,7 +576,7 @@
         { "en": "I have a reservation for tonight.", "ro": "Am o rezervare pentru diseară." },
         { "en": "Could I leave my bags here until the evening?", "ro": "Pot să-mi las bagajele aici până seara?" },
         { "en": "Is breakfast included in the price?", "ro": "Micul dejun este inclus în preț?" },
-        { "en": "My flight has been delayed.", "ro": "Zborul meu a fost amânat." },
+        { "en": "My flight has been delayed.", "ro": "Zborul meu a întârziat." },
         { "en": "How do I get to the old town from here?", "ro": "Cum ajung de aici în orașul vechi?" },
         { "en": "Is it within walking distance?", "ro": "Se poate ajunge pe jos?" },
         { "en": "Could we have the bill, please?", "ro": "Ne puteți aduce nota, vă rog?" },

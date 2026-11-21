@@ -30,7 +30,7 @@
     "sections": [
       {
         "headingRo": "Comparativul: -er sau more + than",
-        "textRo": "Ca să compari **două** lucruri: adjectivele scurte (o silabă) primesc **-er**: fast → faster, cheap → cheaper. Adjectivele lungi (de obicei două silabe sau mai multe) folosesc **more**: more reliable, more expensive. După comparativ vine **than** (= decât). În română e simplu – mereu „mai” –, dar în engleză alegi între **-er** și **more**.",
+        "textRo": "Ca să compari **două** lucruri: adjectivele scurte (o silabă) primesc **-er**: fast → faster, cheap → cheaper. Adjectivele lungi (de obicei două silabe sau mai multe) folosesc **more**: more reliable, more expensive. Excepție: cele de două silabe terminate în **-y** primesc **-er**: easy → easier, noisy → noisier. După comparativ vine **than** (= decât). În română e simplu – mereu „mai” –, dar în engleză alegi între **-er** și **more**.",
         "examples": [
           { "en": "Python is easier than C++.", "ro": "Python e mai ușor decât C++." },
           { "en": "This laptop is cheaper than that one.", "ro": "Laptopul acesta e mai ieftin decât acela." },

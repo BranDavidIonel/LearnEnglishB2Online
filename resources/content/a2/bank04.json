@@ -18,7 +18,7 @@
     { "en": "useful", "ro": "util, folositor", "pos": "adj", "ipa": "/ˈjuːs.fəl/", "emoji": "🔧", "ex": "This app is more useful than I expected.", "exRo": "Aplicația asta e mai utilă decât mă așteptam." },
     { "en": "perfect", "ro": "perfect", "pos": "adj", "ipa": "/ˈpɜː.fɪkt/", "emoji": "💯", "ex": "The weather in Crete was perfect for swimming.", "exRo": "Vremea din Creta a fost perfectă pentru înot." },
     { "en": "excellent", "ro": "excelent", "pos": "adj", "ipa": "/ˈek.səl.ənt/", "emoji": "🥇", "ex": "The client gave us excellent feedback on the new design.", "exRo": "Clientul ne-a dat un feedback excelent despre noul design." },
-    { "en": "ordinary", "ro": "obișnuit", "pos": "adj", "ipa": "/ˈɔː.dən.əl.i/", "emoji": "🙂", "ex": "It was just an ordinary day at the office.", "exRo": "A fost doar o zi obișnuită la birou." },
+    { "en": "ordinary", "ro": "obișnuit", "pos": "adj", "ipa": "/ˈɔː.dɪ.nər.i/", "emoji": "🙂", "ex": "It was just an ordinary day at the office.", "exRo": "A fost doar o zi obișnuită la birou." },
     { "en": "similar", "ro": "asemănător, similar", "pos": "adj", "ipa": "/ˈsɪm.ɪ.lə/", "emoji": "👯", "ex": "The two phones are very similar, but one is much cheaper.", "exRo": "Cele două telefoane sunt foarte asemănătoare, dar unul e mult mai ieftin." },
     { "en": "ugly", "ro": "urât", "pos": "adj", "ipa": "/ˈʌɡ.li/", "emoji": "👹", "ex": "That's the ugliest building in the whole city.", "exRo": "Aceea e cea mai urâtă clădire din tot orașul." },
     { "en": "attractive", "ro": "atrăgător", "pos": "adj", "ipa": "/əˈtræk.tɪv/", "emoji": "😍", "ex": "The client wants a more attractive home page.", "exRo": "Clientul vrea o pagină principală mai atrăgătoare." },
