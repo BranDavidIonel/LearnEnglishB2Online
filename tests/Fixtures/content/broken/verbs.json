@@ -1,0 +1,44 @@
+{
+  "verbs": [
+    {
+      "v1": "go",
+      "level": "C1"
+    },
+    {
+      "v1": "go",
+      "v2": "went",
+      "v3": "gone",
+      "level": "A1",
+      "ro": "a face",
+      "ipa": "/x/ – /y/ – /z/",
+      "ex2": "I went it.",
+      "ex2Ro": "ro",
+      "ex3": "I have gone it.",
+      "ex3Ro": "ro"
+    },
+    {
+      "v1": "take",
+      "v2": "took",
+      "v3": "taken",
+      "level": "A1",
+      "ro": "a face",
+      "ipa": "/x/ – /y/ – /z/",
+      "ex2": "I take it.",
+      "ex2Ro": "ro",
+      "ex3": "I have tooken it.",
+      "ex3Ro": "ro"
+    },
+    {
+      "v1": "learn",
+      "v2": "learnt / learned",
+      "v3": "learnt / learned",
+      "level": "A1",
+      "ro": "a învăţa",
+      "ipa": "lɜːn",
+      "ex2": "I learned it.",
+      "ex2Ro": "ro",
+      "ex3": "I have learned it.",
+      "ex3Ro": "ro"
+    }
+  ]
+}

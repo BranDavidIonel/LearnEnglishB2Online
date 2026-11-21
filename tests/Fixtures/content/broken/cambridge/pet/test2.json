@@ -1,0 +1,565 @@
+{
+  "id": "pet-test2",
+  "title": "Test 2",
+  "reading": {
+    "minutes": 45,
+    "parts": []
+  },
+  "listening": {
+    "minutes": 30,
+    "parts": [
+      {
+        "instructionsRo": "ro",
+        "text": "___ and ___",
+        "audio": [
+          {
+            "s": "A",
+            "en": "Hello."
+          },
+          {
+            "s": "B",
+            "en": "Hi."
+          },
+          {
+            "s": "C",
+            "en": "Hey."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          }
+        ]
+      },
+      {
+        "title": "Part 2",
+        "instructionsRo": "ro",
+        "audio": [],
+        "questions": [
+          null,
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "a ",
+              "b"
+            ],
+            "answer": 9,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "options": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "type": "fill",
+            "q": "Two ___ gaps _____.",
+            "answers": [],
+            "explainRo": "ro"
+          },
+          {
+            "type": "essay",
+            "explainRo": "ro"
+          },
+          {
+            "type": "fill",
+            "q": "One ___.",
+            "answers": [
+              "x"
+            ],
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "instructionsRo": "ro",
+        "questions": [
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 1,
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A",
+                "en": "Hello."
+              },
+              {
+                "s": "B",
+                "en": "Hi."
+              },
+              {
+                "s": "C",
+                "en": "Hey."
+              }
+            ]
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A",
+                "en": "Hello."
+              },
+              {
+                "s": "B",
+                "en": "Hi."
+              }
+            ]
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 1,
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A",
+                "en": "Hello."
+              },
+              {
+                "s": "B",
+                "en": "Hi."
+              }
+            ]
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 2,
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A",
+                "en": "Hello."
+              },
+              {
+                "s": "B",
+                "en": "Hi."
+              }
+            ]
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro",
+            "audio": [
+              {
+                "s": "A",
+                "en": "Hello."
+              },
+              {
+                "s": "B",
+                "en": "Hi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "instructionsRo": "ro",
+        "audio": [
+          {
+            "s": "A",
+            "en": "Hello."
+          },
+          {
+            "s": "B",
+            "en": "Hi."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 1,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 2,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 0,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 1,
+            "explainRo": "ro"
+          },
+          {
+            "type": "mc",
+            "q": "Which?",
+            "options": [
+              "a",
+              "b",
+              "c"
+            ],
+            "answer": 2,
+            "explainRo": "ro"
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "minutes": 45,
+    "tasks": [
+      {
+        "title": "Email",
+        "task": "Write.",
+        "taskRo": "Scrie.",
+        "checklistRo": [
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          }
+        ]
+      },
+      {
+        "title": "Story",
+        "task": "Write.",
+        "taskRo": "Scrie.",
+        "model": "Far too short.",
+        "minWords": 100,
+        "maxWords": 120,
+        "checklistRo": [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 4",
+            "ro": "ro"
+          }
+        ]
+      },
+      {
+        "title": "Article",
+        "task": "Write.",
+        "taskRo": "Scrie.",
+        "model": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word",
+        "minWords": 100,
+        "maxWords": 120,
+        "checklistRo": [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 4",
+            "ro": "ro"
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "minutes": 12,
+    "tasks": [
+      {
+        "title": "Part 1",
+        "model": "Model.",
+        "prompts": [],
+        "usefulPhrases": []
+      },
+      {
+        "title": "Part 2",
+        "infoRo": "ro",
+        "model": "Model.",
+        "prompts": [
+          "Talk."
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 4",
+            "ro": "ro"
+          }
+        ]
+      },
+      {
+        "title": "Part 3",
+        "infoRo": "ro",
+        "model": "Model.",
+        "prompts": [
+          "Talk."
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 4",
+            "ro": "ro"
+          }
+        ]
+      },
+      {
+        "title": "Part 4",
+        "infoRo": "ro",
+        "model": "Model.",
+        "prompts": [
+          "Talk."
+        ],
+        "usefulPhrases": [
+          {
+            "en": "Phrase 0",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 1",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 2",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 3",
+            "ro": "ro"
+          },
+          {
+            "en": "Phrase 4",
+            "ro": "ro"
+          }
+        ]
+      }
+    ]
+  }
+}

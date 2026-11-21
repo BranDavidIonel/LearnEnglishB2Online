@@ -1,0 +1,92 @@
+{
+  "unit": "a1-u09",
+  "questions": [
+    null,
+    {
+      "type": "mc"
+    },
+    {
+      "type": "mc",
+      "q": "Pick ___.",
+      "options": [
+        "a",
+        "",
+        "A "
+      ],
+      "answer": 3,
+      "explainRo": "ro"
+    },
+    {
+      "type": "fill",
+      "q": "No gap here.",
+      "answers": [],
+      "explainRo": "ro"
+    },
+    {
+      "type": "order",
+      "words": [
+        "too",
+        "few",
+        "words"
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "translate",
+      "answers": [
+        ""
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "listen",
+      "audio": "Hello there.",
+      "answers": [
+        "Hello."
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "listen",
+      "answers": [
+        "Good morning."
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "essay",
+      "explainRo": "ro"
+    },
+    {
+      "type": "match",
+      "pairs": []
+    },
+    {
+      "type": "mc",
+      "q": "The cat ___ on the sofa.",
+      "options": [
+        "sleeps",
+        "sleep",
+        "sleeping"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "translate",
+      "ro": "Îmi place ceaiul.",
+      "answers": [
+        "I like tea."
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "translate",
+      "ro": "Îmi place ceaiul.",
+      "answers": [
+        "I like tea!"
+      ],
+      "explainRo": "ro"
+    }
+  ]
+}

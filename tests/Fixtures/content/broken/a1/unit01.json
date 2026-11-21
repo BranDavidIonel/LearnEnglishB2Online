@@ -1,0 +1,161 @@
+{
+  "id": "a1-u09",
+  "level": "B2",
+  "order": 9,
+  "title": "Unit",
+  "titleRo": "Unitate",
+  "emoji": "",
+  "vocab": [
+    {
+      "en": "cat",
+      "ro": "",
+      "ipa": "/kæt/",
+      "emoji": "🐱",
+      "pos": "animal",
+      "wiki": "",
+      "ex": "The cat sleeps on the sofa.",
+      "exRo": "Pisica doarme pe canapea."
+    }
+  ],
+  "grammar": {
+    "title": "Grammar",
+    "titleRo": "Gramatică",
+    "sections": [
+      {
+        "headingRo": "",
+        "textRo": "ro",
+        "examples": [
+          {
+            "en": "Only one.",
+            "ro": "Doar unul."
+          }
+        ],
+        "table": {
+          "headers": [
+            "a",
+            "b"
+          ],
+          "rows": [
+            [
+              "1"
+            ]
+          ]
+        }
+      }
+    ],
+    "tipsRo": [
+      "one tip"
+    ]
+  },
+  "dialogue": {
+    "titleRo": "Dialog",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "en": "Hi.",
+        "ro": "Salut."
+      },
+      {
+        "speaker": "Ben",
+        "en": "Hello.",
+        "ro": "Bună."
+      },
+      {
+        "speaker": "Cleo",
+        "en": "Hey.",
+        "ro": "Hei."
+      },
+      {
+        "speaker": "Ana",
+        "en": "Bye.",
+        "ro": ""
+      },
+      {
+        "speaker": "Ben",
+        "en": "See you.",
+        "ro": "Pa."
+      },
+      {
+        "speaker": "Ana",
+        "en": "Later.",
+        "ro": "Mai târziu."
+      }
+    ]
+  },
+  "reading": {
+    "title": "Reading",
+    "text": "A very short text.",
+    "textRo": "Un text foarte scurt.",
+    "questions": [
+      {
+        "type": "mc",
+        "q": "One?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 0,
+        "explainRo": "ro"
+      },
+      {
+        "type": "mc",
+        "q": "Two?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 0,
+        "explainRo": "ro"
+      },
+      {
+        "type": "mc",
+        "q": "Three?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 0,
+        "explainRo": "ro"
+      },
+      {
+        "type": "fill",
+        "q": "Four ___.",
+        "answers": [
+          "x"
+        ],
+        "explainRo": "ro"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "First ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Second ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    }
+  ],
+  "video": {
+    "youtubeId": "too-short",
+    "title": "Video"
+  }
+}

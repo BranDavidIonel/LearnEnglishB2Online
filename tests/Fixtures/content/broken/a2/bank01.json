@@ -1,0 +1,14 @@
+{
+  "unit": "a2-u01",
+  "words": [
+    {
+      "en": "apple",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the apple.",
+      "exRo": "ro"
+    }
+  ]
+}

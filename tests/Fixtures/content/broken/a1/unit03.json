@@ -1,0 +1,235 @@
+{
+  "id": "a1-u03",
+  "level": "A1",
+  "order": 3,
+  "title": "Unit",
+  "titleRo": "Unitate",
+  "emoji": "🙂",
+  "goalRo": "ro",
+  "vocab": [
+    {
+      "en": "Cat",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the Cat.",
+      "exRo": "ro"
+    }
+  ],
+  "grammar": {
+    "titleRo": "Gramatică"
+  },
+  "dialogue": {
+    "titleRo": "Dialog",
+    "lines": [
+      {
+        "speaker": "Ana",
+        "en": "Hi.",
+        "ro": "Salut."
+      }
+    ]
+  },
+  "reading": {
+    "title": "Reading",
+    "textRo": "ro"
+  },
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Sentence 0 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 1 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 2 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 3 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 4 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 5 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 6 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 7 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 8 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 9 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 10 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 11 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 12 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 13 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 14 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 15 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Sentence 16 ___.",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "one",
+          "unu"
+        ]
+      ]
+    }
+  ]
+}

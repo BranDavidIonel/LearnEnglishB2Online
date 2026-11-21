@@ -1,0 +1,27 @@
+{
+  "id": "a1-u04",
+  "level": "A1",
+  "order": 4,
+  "title": "Unit",
+  "titleRo": "Unitate",
+  "emoji": "🙂",
+  "goalRo": "ro",
+  "reading": {
+    "title": "Reading",
+    "text": "Text.",
+    "textRo": "Text.",
+    "questions": [
+      {
+        "type": "mc",
+        "q": "One?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 0,
+        "explainRo": "ro"
+      }
+    ]
+  }
+}

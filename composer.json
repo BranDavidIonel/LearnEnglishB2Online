@@ -68,6 +68,7 @@
             "Composer\\Config::disableProcessTimeout",
             "npm run check",
             "npm run types:check",
+            "npm run test",
             "@test"
         ],
         "types:check": [
@@ -77,6 +78,7 @@
             "@php artisan config:clear --ansi",
             "@lint:check",
             "@types:check",
+            "@php artisan content:validate --ansi",
             "@php artisan test"
         ],
         "post-autoload-dump": [

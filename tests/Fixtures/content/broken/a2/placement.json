@@ -1,0 +1,144 @@
+{
+  "level": "A2",
+  "questions": [
+    {
+      "type": "fill",
+      "q": "One ___.",
+      "answers": [
+        "x"
+      ],
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Two?",
+      "options": [
+        "a",
+        "b",
+        "c"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 0?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 1?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 1,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 2?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 2,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 3?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 3,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 4?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 5?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 1,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 6?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 2,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 7?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 3,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 8?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    },
+    {
+      "type": "mc",
+      "q": "Question 9?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 1,
+      "explainRo": "ro"
+    }
+  ]
+}

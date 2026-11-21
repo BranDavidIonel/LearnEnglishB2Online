@@ -1,0 +1,14 @@
+{
+  "id": "a2-u01",
+  "vocab": [
+    {
+      "en": "dog",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the dog.",
+      "exRo": "ro"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Speaking practice — content schema
 
-One file per level: `data/<level>/speaking.json` (`a1`, `a2`, `b1`, `b2`). Read `tools/SCHEMA.md`
+One file per level: `resources/content/<level>/speaking.json` (`a1`, `a2`, `b1`, `b2`). Read `SCHEMA.md`
 first for the learner profile and the quality bar — the same rules apply (Romanian with
 diacritics for hints and translations; natural, correct, modern spoken English).
 
@@ -8,7 +8,7 @@ The learner will SAY these things aloud into a microphone and the app compares w
 with the model answers. So everything here must be **spoken** English: short, natural, the kind
 of thing people really say in a call, a meeting, a shop, a hotel. No written-style sentences.
 
-Validate with `node tools/validate-speaking.js <level>` until it prints `0 error(s)`.
+Validate with `php artisan content:validate --only=speaking` until it reports 0 errors.
 
 ```jsonc
 {

@@ -1,6 +1,6 @@
 # Content schema (English course for a Romanian speaker)
 
-All content lives in `data/<level>/` where `<level>` is `a1`, `a2`, `b1`, `b2`.
+All content lives in `resources/content/<level>/` where `<level>` is `a1`, `a2`, `b1`, `b2`.
 Each level folder contains:
 
 - `unit01.json` … `unit10.json` — one file per unit
@@ -8,7 +8,7 @@ Each level folder contains:
 
 Files are strict JSON (UTF-8, no comments, no trailing commas). Use real Romanian
 diacritics (ă â î ș ț). All explanations for the learner are written in **Romanian**;
-all material to learn is in **English**. Run `node tools/validate.js <level>` until it
+all material to learn is in **English**. Run `php artisan content:validate` until it
 reports 0 errors.
 
 ## Unit file
@@ -152,7 +152,7 @@ vocabulary. Each unit has this many words in total (core `vocab` + bank):
 ```
 
 Roughly half the words follow the unit's topic; the other half are general high-frequency words of the
-level, placed in the unit where they fit best. `node tools/validate.js` checks the fields, the count and
+level, placed in the unit where they fit best. `php artisan content:validate` checks the fields, the count and
 that no word repeats anywhere in the course.
 
 ## New unit-test questions (`test01.json` … `test10.json`)
@@ -172,11 +172,11 @@ and the same core words, in sentences, names and situations that appear nowhere 
 - About two thirds practise the unit's grammar, one third its core `vocab` (not the word bank).
 - Use only grammar and words from this unit and earlier ones; same difficulty as the unit's exercises — no trick questions.
 - No sentence may repeat one from the unit (exercises, vocab examples, grammar examples, dialogue, reading):
-  `node tools/validate.js` reports any exact repeat.
+  `php artisan content:validate` reports any exact repeat.
 - Every `fill`/`translate`/`listen` lists all accepted answers (contractions and full forms); every `mc` has exactly
   one defensible answer.
 
-## Irregular verbs (`data/verbs.json`)
+## Irregular verbs (`resources/content/verbs.json`)
 
 One file for the whole course: every irregular verb in common use, **most used first** (the order is the order
 the learner meets them). Shown as a tab of the "My words" page; the learner types V2 and V3 from memory and the

@@ -1,0 +1,45 @@
+{
+  "unit": "a1-u02",
+  "words": [
+    {
+      "en": "apple"
+    },
+    {
+      "en": " pear ",
+      "ro": "ro",
+      "ipa": "pɛə",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the  pear .",
+      "exRo": "ro",
+      "wiki": ""
+    },
+    {
+      "en": "cat",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the cat.",
+      "exRo": "ro"
+    },
+    {
+      "en": "Apple",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the Apple.",
+      "exRo": "ro"
+    },
+    {
+      "en": "dog",
+      "ro": "ro",
+      "ipa": "/x/",
+      "emoji": "🙂",
+      "pos": "noun",
+      "ex": "I see the dog.",
+      "exRo": "ro"
+    }
+  ]
+}

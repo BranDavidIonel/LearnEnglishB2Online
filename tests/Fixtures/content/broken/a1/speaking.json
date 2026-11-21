@@ -1,0 +1,256 @@
+{
+  "level": "B1",
+  "scenarios": [
+    {
+      "id": "x",
+      "emoji": "",
+      "title": "Café",
+      "titleRo": "Cafenea",
+      "youRo": "Tu",
+      "partner": "Waiter",
+      "closing": "",
+      "turns": [
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-s02",
+      "emoji": "☕",
+      "title": "Café",
+      "titleRo": "Cafenea",
+      "youRo": "Tu",
+      "partner": "Waiter",
+      "turns": [
+        {
+          "say": "",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Yes."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "I'm fine.",
+            "I am fine",
+            "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen",
+            "I have 2 cats."
+          ],
+          "keywords": []
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "I like tea.",
+            "I love coffee."
+          ],
+          "keywords": [
+            "Tea"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        },
+        {
+          "say": "Hi!",
+          "sayRo": "Salut!",
+          "hintRo": "Mulțumește.",
+          "answers": [
+            "Thank you.",
+            "Thank you very much."
+          ],
+          "keywords": [
+            "thank you"
+          ]
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "topicRo": "ro",
+      "emoji": "👋",
+      "items": [
+        {
+          "en": "Phrase number a",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number b",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number c",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number d",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number e",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number f",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number g",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number h",
+          "ro": "ro"
+        },
+        {
+          "en": "Phrase number i",
+          "ro": "ro"
+        }
+      ]
+    },
+    {
+      "topic": "Greetings",
+      "topicRo": "Saluturi",
+      "emoji": "👋",
+      "items": [
+        {
+          "en": "Hello there"
+        },
+        {
+          "en": "Hello",
+          "ro": "Salut"
+        },
+        {
+          "en": "Call me at 5",
+          "ro": "Sună-mă la 5"
+        },
+        {
+          "en": "What's up?",
+          "ro": "Ce faci?"
+        },
+        {
+          "en": "What is up",
+          "ro": "Ce faci"
+        },
+        {
+          "en": "Good morning",
+          "ro": "ro"
+        },
+        {
+          "en": "Good evening",
+          "ro": "ro"
+        },
+        {
+          "en": "Good night",
+          "ro": "ro"
+        },
+        {
+          "en": "Good day",
+          "ro": "ro"
+        },
+        {
+          "en": "Good luck",
+          "ro": "ro"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Do you like tea?",
+      "sample": "Yes.",
+      "starters": [
+        "I"
+      ]
+    }
+  ]
+}

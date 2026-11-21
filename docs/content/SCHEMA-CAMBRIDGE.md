@@ -1,16 +1,16 @@
 # Cambridge mock exams — content schema
 
 Original practice tests that follow the FORMAT of the Cambridge English exams
-(never copy real exam material — write everything yourself). Read `tools/SCHEMA.md` first for
+(never copy real exam material — write everything yourself). Read `SCHEMA.md` first for
 the learner profile and the quality bar; the same rules apply (Romanian for instructions and
 explanations, with diacritics; natural, correct English).
 
-Folder per exam: `data/cambridge/<exam>/` where `<exam>` is `pet` (B1 Preliminary) or `fce` (B2 First):
+Folder per exam: `resources/content/cambridge/<exam>/` where `<exam>` is `pet` (B1 Preliminary) or `fce` (B2 First):
 
 - `exam.json` — information about the exam
 - `test1.json`, `test2.json` — two complete mock tests
 
-Validate with `node tools/validate-cambridge.js <exam>` until it prints `0 error(s)`.
+Validate with `php artisan content:validate --only=cambridge` until it reports 0 errors.
 
 ## exam.json
 

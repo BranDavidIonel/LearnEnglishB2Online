@@ -1,0 +1,17 @@
+{
+  "level": "A2",
+  "questions": [
+    {
+      "type": "mc",
+      "q": "One?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "answer": 0,
+      "explainRo": "ro"
+    }
+  ]
+}
