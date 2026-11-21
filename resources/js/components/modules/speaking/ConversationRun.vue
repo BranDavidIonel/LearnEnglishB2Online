@@ -17,7 +17,12 @@
             >
                 <div class="bubble">
                     <div class="spk">{{ bubble.who }}</div>
-                    <div class="en">{{ bubble.en }}</div>
+                    <TapText
+                        class="en"
+                        tag="div"
+                        :text="bubble.en"
+                        :plain="bubble.mine"
+                    />
                     <div v-if="bubble.ro" class="ro">{{ bubble.ro }}</div>
                     <div v-if="!bubble.mine" class="row line-tools">
                         <SpeakButton :text="bubble.en" />
@@ -61,7 +66,7 @@
                 </div>
                 <div v-if="turn.show" class="say-target">
                     <SaidWords v-if="words" :words="words" />
-                    <template v-else>{{ turn.answers[0] }}</template>
+                    <TapText v-else :text="turn.answers[0]" />
                 </div>
                 <div class="hint-box">
                     {{ turn.show ? '🇷🇴 ' : '💡 ' }}{{ turn.hint }}
@@ -70,7 +75,11 @@
                     <div v-if="modelShown" class="example">
                         <SpeakButton :text="turn.answers[0]" />
                         <div>
-                            <div class="en">{{ turn.answers[0] }}</div>
+                            <TapText
+                                class="en"
+                                tag="div"
+                                :text="turn.answers[0]"
+                            />
                             <div v-if="turn.answers.length > 1" class="ro">
                                 {{
                                     $t('or: :answers', {
@@ -121,8 +130,9 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken, recordConversation } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import TapText from '@/components/content/TapText.vue';
 import SessionSave from '@/components/general/SessionSave.vue';
-import MicPanel from '@/components/modules/speaking/MicPanel.vue';
+import MicPanel from '@/components/speech/MicPanel.vue';
 import SaidWords from '@/components/modules/speaking/SaidWords.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
@@ -162,6 +172,7 @@ export default defineComponent({
         SaidWords,
         SessionShell,
         SpeakButton,
+        TapText,
     },
 
     props: {

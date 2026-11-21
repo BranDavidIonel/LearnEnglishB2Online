@@ -39,6 +39,20 @@ The engine never talks to the server. Components emit what happened (`finish` wi
 | `speechScore(target, heard[])` | 0..1, share of the target's words in the best alternative heard |
 | `speechDetail(target, heard[])` | `{ score, heard, words: [{ w, hit }] }` word by word, for showing what was missed |
 
+`@/utils/tapWords` (tappable English, see `docs/frontend-ui.md` § 5)
+
+| Function | |
+| --- | --- |
+| `tapWords(html)` | wraps every English word of safe HTML (`esc()` / `md()` output) in `<span class="tap-w">`; tags, entities, gaps and words already marked are left alone |
+| `tapTarget(element)` | `{ word, sentence }` of a tapped word: the word as written (curly apostrophe made straight), the sentence around it in the closest `.tap` |
+| `sentenceAt(text, at)`, `lookupText(word)` | the sentence holding a position; the word to look up |
+
+A word is a maximal run of letters of any alphabet (`\p{L}`: "Iași", "Graça") in which single
+apostrophes (`'`, `’`) and single hyphens may stand between two letters ("don't", "start-up").
+Dots never join words ("p.m." is "p" and "m"); a run touching a digit ("12th", "B2") or the
+`___` of a gap is not a word. The server's check that every lesson word can be looked up
+applies the same rule (`php artisan content:validate`).
+
 `@/utils/random`: `shuffle(list)` (copy), `sample(list, n)`, `pick(list)`.
 `@/utils/dates`: `today(d?)` → `'YYYY-MM-DD'` (local).
 
@@ -132,6 +146,7 @@ units of an exam). Slot `actions`: the buttons.
 | Component | Props | |
 | --- | --- | --- |
 | `SpeakButton` (`speech/`) | `text` | 🔊 `icon-btn speak`; extra classes on the tag |
+| `MicPanel` (`speech/`) | `selfCheckText?` | the microphone of a speaking exercise and of the word window: big 🎤, loudness meter, status; emits `heard` (alternatives, or null for "✓ I said it well" without recognition); `start()` listens without a click, except while the word window is open |
 | `Recorder` (`speech/`) | `label?` | record yourself / listen back; microphone, recording and audio URL released on unmount; a blocked microphone shows a toast |
 | `WordPicture` (`content/`) | `word: PictureSubject` | `.pic` with the emoji, the Wikipedia photo once loaded (`has-img`); pass `class="big"` / `"photo"` |
 | `GrammarLesson` (`content/`) | `grammar: Grammar` | sections, tables, spoken examples, common mistakes |

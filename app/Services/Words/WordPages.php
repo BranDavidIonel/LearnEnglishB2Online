@@ -42,6 +42,17 @@ class WordPages
     }
 
     /**
+     * The learner's extra words: glossary words he chose to learn or marked as known, with
+     * their state, in the order they joined the deck. They never count in the course totals.
+     *
+     * @return list<array<string, mixed>>
+     */
+    public function extra(User $user): array
+    {
+        return $this->words->extraWords($user);
+    }
+
+    /**
      * What the rows of "My words" leave out, by English text: part of speech, example,
      * picture and the unit that teaches the word. Sent after the list, for the word details.
      *

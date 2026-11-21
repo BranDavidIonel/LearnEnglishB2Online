@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vite-plus/test';
 import { STEP_INFO } from '@/components/modules/units/steps';
 import { PATTERNS, usage } from '@/components/modules/verbs/verbs';
 import type { VerbItem } from '@/components/modules/verbs/verbs';
+import { RELATIONS } from '@/components/modules/words/lookup';
 import { STATUS } from '@/components/modules/words/status';
 import { LEVELS } from '@/utils/levels';
 import { THEMES } from '@/utils/themes';
@@ -23,6 +24,7 @@ const keys: string[] = [
     ...LEVELS.map((level) => level.title),
     ...THEMES.map((theme) => theme.name),
     ...Object.values(STATUS).map((status) => status.label),
+    ...Object.values(RELATIONS),
     ...Object.values(PATTERNS).map((pattern) => pattern.name),
     ...[verb('be'), verb('go')].flatMap((item) =>
         usage(item).map((row) => row.when),

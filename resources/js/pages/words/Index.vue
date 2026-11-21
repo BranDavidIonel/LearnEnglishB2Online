@@ -49,7 +49,19 @@
         </div>
     </div>
 
-    <WordTabs :counts="counts" :verbs="verbs" :active="tab" />
+    <WordTabs
+        :counts="counts"
+        :extra="extraRows.length"
+        :verbs="verbs"
+        :active="tab"
+    />
+    <p v-if="tab === 'extra'" class="muted small">
+        {{
+            $t(
+                'Words you met in the lessons outside the course vocabulary and chose to learn. They come back on the flashcards like the others but do not count in the course totals.',
+            )
+        }}
+    </p>
 
     <div class="row wrap filters">
         <input
@@ -58,7 +70,7 @@
             :placeholder="$t('🔍 Search in English or Romanian…')"
             @input="search"
         />
-        <select v-model="level">
+        <select v-if="tab !== 'extra'" v-model="level">
             <option value="all">{{ $t('All levels') }}</option>
             <option v-for="item in levels" :key="item.id" :value="item.id">
                 {{ item.name }}
@@ -100,7 +112,13 @@
             @changed="changed"
         />
         <p v-if="!shown.length" class="muted center">
-            {{ $t('No words match these filters.') }}
+            {{
+                tab === 'extra' && !extraRows.length
+                    ? $t(
+                          'No extra words yet: tap a word in a lesson and choose “🧠 Learn it”.',
+                      )
+                    : $t('No words match these filters.')
+            }}
         </p>
     </div>
     <div class="row center mt">
@@ -156,6 +174,7 @@ import type { LevelId } from '@/types';
 import type { LevelInfo } from '@/utils/levels';
 import { LEVELS } from '@/utils/levels';
 import { toast } from '@/utils/toast';
+import { openWord, wordLookup } from '@/utils/wordLookup';
 
 /** Rows drawn at first, and added by each "Show more". */
 const PAGE = 300;
@@ -170,7 +189,8 @@ interface Skipped {
  * "My words" (the original "wordsView"): every word of the course with its status, filtered by
  * tab, level and search right in the page, 300 rows at a time. Each row and the word details
  * save a change at once; the rows and the counts follow the answer, and the skipped-level
- * banner is reloaded from the server.
+ * banner is reloaded from the server. The extra words (glossary words in the deck) have their
+ * own tab: their rows open the word window, and they never change the course counts.
  */
 export default defineComponent({
     name: 'WordsIndexPage',
@@ -188,6 +208,8 @@ export default defineComponent({
     props: {
         tab: { type: String as PropType<WordTab>, required: true },
         words: { type: Array as PropType<WordListRow[]>, required: true },
+        /** The learner's extra words. */
+        extra: { type: Array as PropType<WordListRow[]>, default: () => [] },
         /** Deferred: arrives just after the page. */
         details: {
             type: Object as PropType<Record<string, WordDetails> | undefined>,
@@ -207,6 +229,7 @@ export default defineComponent({
     data() {
         return {
             rows: this.words.map((word) => ({ ...word })),
+            extraRows: this.extra.map((word) => ({ ...word })),
             level: 'all' as LevelId | 'all',
             query: '',
             limit: PAGE,
@@ -223,14 +246,21 @@ export default defineComponent({
         },
 
         shown(): WordListRow[] {
+            if (this.tab === 'extra') {
+                return this.extraRows.filter((row) => this.matches(row));
+            }
+
             return this.rows.filter(
                 (row) =>
                     (this.tab === 'all' || row.status === this.tab) &&
                     (this.level === 'all' || row.levelId === this.level) &&
-                    (!this.query ||
-                        row.en.toLowerCase().includes(this.query) ||
-                        row.ro.toLowerCase().includes(this.query)),
+                    this.matches(row),
             );
+        },
+
+        /** A change made in the word window, counted when the window closes. */
+        lookupChanges(): number {
+            return wordLookup.changes;
         },
 
         notLearned(): WordListRow[] {
@@ -244,10 +274,14 @@ export default defineComponent({
                 : undefined;
             const details = row ? this.details?.[row.en] : undefined;
 
-            return row && details
+            // Only words of the course have details (an extra word opens the word window).
+            return row?.levelId && details
                 ? {
                       ...row,
                       ...details,
+                      ipa: row.ipa ?? '',
+                      emoji: row.emoji ?? '',
+                      levelId: row.levelId,
                       box: row.box ?? null,
                       known: row.known ?? false,
                   }
@@ -266,6 +300,15 @@ export default defineComponent({
         // A full reload of the page brings the list again.
         words(words: WordListRow[]): void {
             this.rows = words.map((word) => ({ ...word }));
+        },
+
+        extra(words: WordListRow[]): void {
+            this.extraRows = words.map((word) => ({ ...word }));
+        },
+
+        // A word learned or known in the word window: the rows and counts come again.
+        lookupChanges(): void {
+            router.reload({ only: ['words', 'extra', 'skipped'] });
         },
 
         tab(): void {
@@ -288,7 +331,23 @@ export default defineComponent({
             this.limit = PAGE;
         },
 
+        /** The search box matches the English or the Romanian. */
+        matches(row: WordListRow): boolean {
+            return (
+                !this.query ||
+                row.en.toLowerCase().includes(this.query) ||
+                row.ro.toLowerCase().includes(this.query)
+            );
+        },
+
         open(row: WordListRow, lesson: boolean): void {
+            // An extra word has no card of the course: it opens in the word window.
+            if (!row.levelId) {
+                openWord({ word: row.en, sentence: '' });
+
+                return;
+            }
+
             this.choices = lessonChoices(row, this.rows);
             this.selected = { en: row.en, lesson };
         },
@@ -296,6 +355,7 @@ export default defineComponent({
         /** A row, the details or a bulk action saved something: show the new states. */
         changed(words: WordStates): void {
             applyStates(this.rows, words);
+            applyStates(this.extraRows, words);
             router.reload({ only: ['skipped'] });
         },
 

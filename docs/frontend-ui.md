@@ -26,6 +26,7 @@ original file (the order matters for the cascade):
 | `menu.css` | menu bottom (settings, log out), language switch, theme button |
 | `settings.css` | theme picker cards |
 | `word-actions.css` | actions of the "my words" rows, `card notice` |
+| `word-lookup.css` | tappable words (`tap-w`) and the word window (`lookup-…`) |
 | `speaking.css` | level picker, microphone panel, said words, talk, pairs |
 | `word-bank.css` | word bank rows, `words-card` |
 | `verbs.css` | irregular verbs |
@@ -209,7 +210,8 @@ English never shows it.
 | `general/SaveAlert` | `busy?`, `keepsAnswers?` (true); emits `retry` | `div.alert.warn`: "Your result could not be saved…" + 🔁 Try again |
 | `layout/PageHeader` | `title`, `sub?`, `back?` (URL of "← Back") | `div.page-head` |
 | `layout/BrandMark` | `href?` | `.brand` logo |
-| `modals/AppModal` | `open`, `wide?`; emits `close`; default slot | `div.modal-back > div.modal` (✕, click outside, Esc; stops speech) |
+| `modals/AppModal` | `open`, `wide?`, `sheet?` (near the top, a bottom sheet on phones); emits `close`; default slot | `div.modal-back > div.modal` (✕, click outside, Esc closes the top one only; stops speech) |
+| `content/TapText` | `text`, `markdown?`, `tag?` (`span`), `plain?` (not tappable yet) | the text with every English word tappable (`.tap` > `span.tap-w`) |
 | `charts/WeekChart` | `days` (`{ date: 'YYYY-MM-DD', xp }[]`, last 7 days, oldest first), `goal` | `div.week` |
 
 ```vue
@@ -220,3 +222,32 @@ English never shows it.
 </EmptyState>
 <AppModal :open="showHelp" wide @close="showHelp = false">…</AppModal>
 ```
+
+## 5. Tappable English and the word window
+
+Every English word the learner reads or hears in a lesson can be tapped: a small window opens
+for it (`modules/words/WordLookup`) with its sound (🔊, 🐢), the meaning, the form it comes from
+("alerts — plural of **alert**"), the three forms of an irregular verb, the course expressions
+found in the sentence, the sentence itself, "🎙 Say it" (the microphone panel and the speaking
+area's single-word check) and the learner's state with the actions of the word details.
+
+- **Making text tappable**: `<TapText :text="line.en" />` (`markdown` for the lesson markdown,
+  `tag="div"` for a block, `class` goes on the tag). For HTML you build yourself (an example with
+  a verb form in bold), pass the safe HTML through `tapWords()` of `@/utils/tapWords` and give
+  the container the class `tap`: `<div class="en tap" v-html="tapWords(mark(…))" />`.
+- **The rule**: never where a tap gives an answer away — not in tests, exams, the placement
+  test or a Cambridge paper being answered, not in an exercise before it is answered, not on a
+  flashcard side that is not turned yet. Where the text becomes an answer later, use
+  `:plain="!shown"` (or render the TapText only once it is shown).
+- **One listener, one window**: `AppLayout` listens for clicks on `.tap-w` in the capture phase,
+  so the container's own action (a bubble, a card that turns) never runs. It stops speech,
+  reads the word and its sentence (`tapTarget()`: the sentence around the word inside the
+  closest `.tap`, a `<br>` ends a sentence), opens the window (`openWord()` of
+  `@/utils/wordLookup`) and gives the focus back to the word when it closes. A tap on a word
+  inside the window opens that word. Words are not in the tab order (a lesson has hundreds);
+  every line keeps its 🔊 button for the keyboard.
+- **While the window is open**: `wordOpen()` is true; an automatic microphone (`MicPanel.start()`)
+  waits, and a dialogue being played stops. When a word's state changed, "My words" and the
+  word bank get their props again when the window closes.
+- **Look**: a word reads as normal text; a pointer that can hover sees a light background, a
+  press lights it on touch screens, and the tapped word stays lit while its window is open.

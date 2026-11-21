@@ -2,8 +2,8 @@
 // FlashcardController and app/Http/Resources/Words).
 import type { LevelId, ReviewStatus, VocabWord, WordWithState } from '@/types';
 
-/** The tabs of "My words" ('all' is the page without a tab in the URL). */
-export type WordTab = 'all' | ReviewStatus;
+/** The tabs of "My words" ('all' is the page without a tab in the URL; 'extra': the extra words). */
+export type WordTab = 'all' | ReviewStatus | 'extra';
 
 /** How many words are learned, being learned and still to learn. */
 export interface WordCounts {
@@ -13,13 +13,16 @@ export interface WordCounts {
     total: number;
 }
 
-/** A row of "My words" (WordRowResource): what the row, the filters and the counts need. */
+/**
+ * A row of "My words" (WordRowResource): what the row, the filters and the counts need. An
+ * extra word (from the glossary) has no level and may have no pronunciation or emoji.
+ */
 export interface WordListRow {
     en: string;
     ro: string;
-    ipa: string;
-    emoji: string;
-    levelId: LevelId;
+    ipa: string | null;
+    emoji: string | null;
+    levelId: LevelId | null;
     status: ReviewStatus;
     /** 0..6; null or left out when not in the deck. */
     box?: number | null;

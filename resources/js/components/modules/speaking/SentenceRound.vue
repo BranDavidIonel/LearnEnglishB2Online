@@ -35,7 +35,7 @@
             <div class="say-target">
                 <template v-if="revealed">
                     <SaidWords v-if="words" :words="words" />
-                    <template v-else>{{ item.en }}</template>
+                    <TapText v-else :text="item.en" />
                 </template>
                 <span v-else class="muted">•••</span>
             </div>
@@ -75,8 +75,9 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import TapText from '@/components/content/TapText.vue';
 import SessionSave from '@/components/general/SessionSave.vue';
-import MicPanel from '@/components/modules/speaking/MicPanel.vue';
+import MicPanel from '@/components/speech/MicPanel.vue';
 import SaidWords from '@/components/modules/speaking/SaidWords.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import type { Example } from '@/types';
@@ -103,6 +104,7 @@ export default defineComponent({
         SessionSave,
         SaidWords,
         SessionShell,
+        TapText,
     },
 
     props: {

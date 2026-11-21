@@ -56,14 +56,15 @@ resources/
       modals/            AppModal
       charts/            WeekChart, ProgressChart
       exercise/          ExerciseSession, one component per exercise type, ResultCard
-      speech/            SpeakButton, Recorder
-      content/           WordPicture, GrammarLesson, VideoCard
+      speech/            SpeakButton, Recorder, MicPanel
+      content/           WordPicture, GrammarLesson, VideoCard, TapText (tappable English)
       modules/<area>/    what only one area uses
     i18n/                index.ts + ro/<area>.json dictionaries (ro/general.json: words of several areas)
     layouts/             AppLayout (sidebar + top bar), AuthLayout (login)
     pages/               one folder per area, one file per Inertia page
     types/               models.ts (shared props), content.ts, progress.ts — all exported from '@/types'
-    utils/               learner, http, saving, toast, text, random, dates, speech, recognition, recording, sound …
+    utils/               learner, http, saving, toast, text, random, dates, speech, recognition, recording, sound,
+                         tapWords + wordLookup (tappable English and the word window) …
 routes/
   web.php                login, locale, then every routes/web/*.php inside the auth group
   web/<area>.php         the routes of one area
@@ -91,6 +92,13 @@ docs/                    this file and the guides it names; content/ (the conten
   several things (a lesson step, a test, a speaking round, a verb drill) queues them with
   `saveQueue()` and ends in `SessionSave`: the result shows once everything is saved, otherwise
   "could not be saved — try again" sends what is missing, never twice what already arrived.
+- **Tapping a word** — the English of the lessons is drawn with `TapText`, so every word can be
+  tapped (never where a tap would give an answer away: tests, exams, Cambridge papers being
+  answered, exercises before they are answered). One listener in `AppLayout` opens the one word
+  window (`modules/words/WordLookup`), which asks `lookupWord()` of `@/api/progress` for the word
+  and its sentence: the server finds the headword in the course vocabulary, the irregular verbs
+  or the glossary (`resources/content/glossary.json`). Glossary words can be learned like course
+  words, as extra words that never count in the course totals. `docs/frontend-ui.md` § 5.
 - **The back button** — Inertia brings a page back with the props it had when it was left.
   `app.ts` asks the server for them again (`router.reload()`) whenever a page comes back from the
   history or from the browser's cache, so it shows the progress made since; the component, its
@@ -175,7 +183,8 @@ and Cambridge ids), so the order in which the files are loaded never matters.
 | `@/utils/speech`, `recognition`, `recording`, `sound`, `confetti` | speaking, listening, recording, sound effects |
 | `@/components/general/*`, `layout/PageHeader`, `modals/AppModal` | `ProgressRing`, `ProgressBar`, `ChipTag`, `LevelChip`, `EmptyState` … |
 | `@/components/exercise/*` | `ExerciseSession` (a run of exercises with feedback), `ResultCard` |
-| `@/components/speech/*`, `@/components/content/*` | `SpeakButton`, `Recorder`, `WordPicture`, `GrammarLesson`, `VideoCard` |
+| `@/components/speech/*`, `@/components/content/*` | `SpeakButton`, `Recorder`, `MicPanel`, `WordPicture`, `GrammarLesson`, `VideoCard`, `TapText` |
+| `@/utils/tapWords`, `@/utils/wordLookup` | tappable English (`tapWords()`, `tapTarget()`) and the one word window of the layout (`openWord()`, `wordOpen()`) |
 
 ## 7. Conventions
 

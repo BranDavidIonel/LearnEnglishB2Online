@@ -42,7 +42,7 @@
                 >
                     <SpeakButton :text="example.en" />
                     <div>
-                        <div class="en">{{ example.en }}</div>
+                        <TapText class="en" tag="div" :text="example.en" />
                         <div class="ro">{{ example.ro }}</div>
                     </div>
                 </div>
@@ -64,6 +64,7 @@
 <script lang="ts">
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
+import TapText from '@/components/content/TapText.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import type { Grammar } from '@/types';
 import { md } from '@/utils/text';
@@ -72,7 +73,7 @@ import { md } from '@/utils/text';
 export default defineComponent({
     name: 'GrammarLesson',
 
-    components: { SpeakButton },
+    components: { SpeakButton, TapText },
 
     props: {
         grammar: { type: Object as PropType<Grammar>, required: true },

@@ -61,10 +61,13 @@
 
         <div class="paper-cols" :class="{ single: !hasSide }">
             <div v-if="hasSide" class="paper-side">
-                <div
+                <TapText
                     v-if="part.text"
                     class="card passage"
-                    v-html="md(part.text)"
+                    tag="div"
+                    markdown
+                    :text="part.text"
+                    :plain="!result"
                 />
                 <div v-if="part.audio" class="card">
                     <ScriptBox v-if="result" :script="part.audio" />
@@ -144,6 +147,7 @@ import { Head, Link } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { recordCambridge } from '@/api/progress';
+import TapText from '@/components/content/TapText.vue';
 import ProgressRing from '@/components/general/ProgressRing.vue';
 import SaveAlert from '@/components/general/SaveAlert.vue';
 import AudioButton from '@/components/modules/cambridge/AudioButton.vue';
@@ -175,7 +179,6 @@ import type { CambridgePart, CambridgeResultInput, ScriptLine } from '@/types';
 import { confetti } from '@/utils/confetti';
 import { sfx } from '@/utils/sound';
 import { speakScript, stopSpeak } from '@/utils/speech';
-import { md } from '@/utils/text';
 
 /**
  * A Reading or Listening paper of a mock test: its parts in tabs, the countdown, the
@@ -193,6 +196,7 @@ export default defineComponent({
         CountdownTimer,
         PaperQuestion,
         ScriptBox,
+        TapText,
     },
 
     props: {
@@ -293,7 +297,6 @@ export default defineComponent({
 
     methods: {
         cambridge,
-        md,
         percent,
         answerKey,
 

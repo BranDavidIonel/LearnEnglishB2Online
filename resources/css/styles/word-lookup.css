@@ -1,0 +1,125 @@
+/* ---------- tappable English (TapText) and the word window (WordLookup) ---------- */
+
+/*
+ * A tappable word reads as normal text: only a pointer that can hover sees that it is one.
+ * On touch screens the press itself lights the word.
+ */
+.tap-w {
+    border-radius: 4px;
+    -webkit-tap-highlight-color: transparent;
+}
+@media (hover: hover) {
+    .tap-w {
+        cursor: pointer;
+    }
+    .tap-w:hover {
+        background: color-mix(in srgb, var(--primary) 16%, transparent);
+        box-shadow: 0 1px 0 var(--primary2);
+    }
+}
+.tap-w:active,
+.tap-w.on {
+    background: color-mix(in srgb, var(--primary) 26%, transparent);
+}
+.tap-w:focus {
+    outline: none;
+}
+
+.lookup {
+    text-align: center;
+    outline: none;
+}
+.lookup-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 30px;
+}
+.lookup-word {
+    font-size: 1.8rem;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+}
+/* One line kept free for the pronunciation, so nothing moves when it arrives. */
+.lookup-ipa {
+    min-height: 1.5em;
+}
+.lookup-wait {
+    height: 2.9rem;
+    display: grid;
+    place-items: center;
+}
+.lookup-bar {
+    width: 55%;
+    height: 0.9rem;
+    border-radius: 6px;
+    background: linear-gradient(
+        90deg,
+        var(--panel2),
+        var(--border),
+        var(--panel2)
+    );
+    background-size: 200% 100%;
+    animation: lookup-shine 1.2s linear infinite;
+}
+@keyframes lookup-shine {
+    to {
+        background-position: -200% 0;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .lookup-bar {
+        animation: none;
+    }
+}
+.lookup-ro {
+    margin: 6px 0 8px;
+}
+.lookup-note {
+    color: var(--muted);
+    font-style: italic;
+    margin: 8px 0;
+}
+.lookup-none {
+    margin: 10px 0;
+}
+.lookup-from,
+.lookup-verb,
+.lookup-phrase {
+    margin: 4px 0;
+}
+.lookup-verb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.lookup-phrase .muted,
+.lookup-verb .muted {
+    margin-right: 4px;
+}
+.lookup-state {
+    display: grid;
+    gap: 10px;
+    margin: 14px 0 6px;
+}
+/* While the lookup runs: the room of the status and its buttons. */
+.lookup-state:empty {
+    min-height: 76px;
+}
+.lookup-say {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+.lookup-say .mic-panel,
+.lookup-say .feedback {
+    width: 100%;
+}
+.lookup .example {
+    margin-top: 8px;
+}

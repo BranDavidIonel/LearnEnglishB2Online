@@ -15,7 +15,7 @@
                     }}
                 </button>
             </div>
-            <div class="read-en" v-html="md(reading.text)" />
+            <TapText class="read-en" tag="div" markdown :text="reading.text" />
             <div
                 class="read-ro"
                 :class="{ hidden: !showRo }"
@@ -72,6 +72,7 @@ import { defineComponent, markRaw } from 'vue';
 import { completeStep } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import TapText from '@/components/content/TapText.vue';
 import SessionSave from '@/components/general/SessionSave.vue';
 import { show as unitRoute, step as stepRoute } from '@/routes/units';
 import type { ExerciseResult } from '@/types';
@@ -85,7 +86,7 @@ import type { ReadingStep, UnitHead } from './types';
 export default defineComponent({
     name: 'StepReading',
 
-    components: { Link, ExerciseSession, ResultCard, SessionSave },
+    components: { Link, ExerciseSession, ResultCard, SessionSave, TapText },
 
     props: {
         unit: { type: Object as PropType<UnitHead>, required: true },

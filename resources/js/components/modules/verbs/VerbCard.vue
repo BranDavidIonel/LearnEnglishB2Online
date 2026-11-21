@@ -33,14 +33,14 @@
         <div v-if="verb.ex2" class="vex">
             <SpeakButton :text="verb.ex2" />
             <div>
-                <div class="en" v-html="mark(verb.ex2, verb.alts2)" />
+                <div class="en tap" v-html="example(verb.ex2, verb.alts2)" />
                 <div class="ro">{{ verb.ex2Ro || '' }}</div>
             </div>
         </div>
         <div v-if="verb.ex3" class="vex">
             <SpeakButton :text="verb.ex3" />
             <div>
-                <div class="en" v-html="mark(verb.ex3, verb.alts3)" />
+                <div class="en tap" v-html="example(verb.ex3, verb.alts3)" />
                 <div class="ro">{{ verb.ex3Ro || '' }}</div>
             </div>
         </div>
@@ -62,6 +62,7 @@ import { defineComponent } from 'vue';
 import ChipTag from '@/components/general/ChipTag.vue';
 import LevelChip from '@/components/general/LevelChip.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
+import { tapWords } from '@/utils/tapWords';
 import type { UsageRow, VerbItem } from './verbs';
 import { PATTERNS, mark, spokenForms, usage } from './verbs';
 
@@ -94,8 +95,10 @@ export default defineComponent({
     },
 
     methods: {
-        // The examples come from verbs.json; mark() escapes them before adding the bold.
-        mark,
+        /** An example with the verb form in bold and every word tappable (mark() escapes it first). */
+        example(text: string, alts: string[]): string {
+            return tapWords(mark(text, alts));
+        },
     },
 });
 </script>

@@ -68,7 +68,7 @@
         </div>
         <details class="script">
             <summary>{{ $t('⭐ Show a model answer') }}</summary>
-            <p class="model" v-html="md(task.model)" />
+            <TapText class="model" tag="p" markdown :text="task.model" />
             <button type="button" class="btn" @click="speak(task.model)">
                 {{ $t('🔊 Listen to the model') }}
             </button>
@@ -136,6 +136,7 @@ import { Head, Link, router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { recordCambridge } from '@/api/progress';
+import TapText from '@/components/content/TapText.vue';
 import WordPicture from '@/components/content/WordPicture.vue';
 import { percent, testTitle } from '@/components/modules/cambridge/exam';
 import type { ExamTag, TestTag } from '@/components/modules/cambridge/types';
@@ -146,7 +147,6 @@ import { cambridge } from '@/routes';
 import type { SpeakingTask } from '@/types';
 import { canRecord } from '@/utils/recording';
 import { speak, stopSpeak } from '@/utils/speech';
-import { md } from '@/utils/text';
 import { toast } from '@/utils/toast';
 
 /**
@@ -159,6 +159,7 @@ export default defineComponent({
     components: {
         Head,
         Link,
+        TapText,
         WordPicture,
         UsefulPhrases,
         Recorder,
@@ -220,7 +221,6 @@ export default defineComponent({
 
     methods: {
         cambridge,
-        md,
         percent,
         speak,
 

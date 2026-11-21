@@ -12,7 +12,7 @@
         <div class="vex">
             <SpeakButton :text="word.ex" />
             <div>
-                <div class="en">{{ word.ex }}</div>
+                <TapText class="en" tag="div" :text="word.ex" />
                 <div class="ro">{{ word.exRo }}</div>
             </div>
         </div>
@@ -22,6 +22,7 @@
 <script lang="ts">
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
+import TapText from '@/components/content/TapText.vue';
 import WordPicture from '@/components/content/WordPicture.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import type { VocabWord } from '@/types';
@@ -30,7 +31,7 @@ import type { VocabWord } from '@/types';
 export default defineComponent({
     name: 'WordCard',
 
-    components: { SpeakButton, WordPicture },
+    components: { SpeakButton, TapText, WordPicture },
 
     props: {
         word: { type: Object as PropType<VocabWord>, required: true },

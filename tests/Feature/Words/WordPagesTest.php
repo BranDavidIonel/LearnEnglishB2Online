@@ -48,6 +48,23 @@ it('opens on a tab and refuses an unknown one', function () {
     $this->actingAs($this->user)->get('/words/everything')->assertNotFound();
 });
 
+it('lists the extra words of the learner on a tab of their own, outside the course counts', function () {
+    expect(app(ContentRepository::class)->extraWord('the'))->not->toBeNull();
+    $this->user->wordReviews()->create(['word' => 'the', 'box' => 1, 'due_on' => '2026-11-22']);
+    $this->user->wordReviews()->create(['word' => 'hello', 'box' => 1, 'due_on' => '2026-11-22']);
+    $total = count(app(ContentRepository::class)->words());
+
+    $this->actingAs($this->user)->get('/words/extra')->assertInertia(fn (Assert $page) => $page
+        ->component('words/Index')
+        ->where('tab', 'extra')
+        ->has('words', $total)
+        ->has('extra', 1)
+        ->where('extra.0.en', 'the')
+        ->where('extra.0.levelId', null)
+        ->where('extra.0.status', 'learning')
+        ->where('extra.0.box', 1));
+});
+
 it('offers to mark the words of skipped levels as known, until the learner says no', function () {
     $this->user->placement()->create(['start_index' => 2, 'scores' => ['a1' => 1, 'a2' => 0.9, 'b1' => 0.5], 'taken_on' => '2026-11-20']);
     $this->user->wordReviews()->create(['word' => 'hello', 'box' => 6, 'due_on' => '2027-01-20']);

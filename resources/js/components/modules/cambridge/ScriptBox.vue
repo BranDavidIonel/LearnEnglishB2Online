@@ -2,7 +2,7 @@
     <details class="script">
         <summary>{{ $t('📜 Show the recording script') }}</summary>
         <p v-for="(line, i) in script" :key="i">
-            <b>{{ line.s }}: </b>{{ line.en }}
+            <b>{{ line.s }}: </b><TapText :text="line.en" />
         </p>
         <button type="button" class="btn" @click="replay">
             {{ $t('▶ Listen again') }}
@@ -13,12 +13,15 @@
 <script lang="ts">
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
+import TapText from '@/components/content/TapText.vue';
 import type { ScriptLine } from '@/types';
 import { speakScript } from '@/utils/speech';
 
 /** The script of a listening recording, shown after the paper is handed in. */
 export default defineComponent({
     name: 'ScriptBox',
+
+    components: { TapText },
 
     props: {
         script: { type: Array as PropType<ScriptLine[]>, required: true },

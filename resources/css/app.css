@@ -24,6 +24,7 @@
 @import './styles/menu.css' layer(components);
 @import './styles/settings.css' layer(components);
 @import './styles/word-actions.css' layer(components);
+@import './styles/word-lookup.css' layer(components);
 @import './styles/speaking.css' layer(components);
 @import './styles/word-bank.css' layer(components);
 @import './styles/verbs.css' layer(components);

@@ -95,8 +95,10 @@
                         </div>
                         <div
                             v-if="item.verb.ex3"
-                            class="fb-explain"
-                            v-html="mark(item.verb.ex3, item.verb.alts3)"
+                            class="fb-explain tap"
+                            v-html="
+                                tapWords(mark(item.verb.ex3, item.verb.alts3))
+                            "
                         />
                     </div>
                 </div>
@@ -112,6 +114,7 @@ import ProgressBar from '@/components/general/ProgressBar.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { sfx } from '@/utils/sound';
 import { stopSpeak } from '@/utils/speech';
+import { tapWords } from '@/utils/tapWords';
 import { checkText } from '@/utils/text';
 import type { DrillResult, VerbItem } from './verbs';
 import { forms, mark, sayForms, spokenForms } from './verbs';
@@ -204,8 +207,10 @@ export default defineComponent({
 
     methods: {
         forms,
-        // The example comes from verbs.json; mark() escapes it before adding the bold.
+        // The example comes from verbs.json; mark() escapes it before adding the bold, and it is
+        // shown only once the verb is answered, so its words may be tapped.
         mark,
+        tapWords,
         spokenForms,
 
         inputClass(right: boolean | null): string {

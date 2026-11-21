@@ -39,20 +39,29 @@
                         <div class="fc-word">
                             {{ card.en }} <SpeakButton :text="card.en" />
                         </div>
-                        <div class="vipa">{{ card.ipa }}</div>
+                        <div v-if="card.ipa" class="vipa">{{ card.ipa }}</div>
                     </div>
                     <div class="fc-face fc-back">
                         <div v-if="reverse" class="fc-word">
                             {{ card.en }} <SpeakButton :text="card.en" />
                         </div>
                         <div v-else class="fc-word">{{ card.ro }}</div>
-                        <div v-if="reverse" class="vipa">{{ card.ipa }}</div>
+                        <div v-if="reverse && card.ipa" class="vipa">
+                            {{ card.ipa }}
+                        </div>
                         <div v-else class="muted">{{ card.en }}</div>
-                        <div class="vex">
+                        <div v-if="card.ex" class="vex">
                             <SpeakButton :text="card.ex" />
                             <div>
-                                <div class="en">{{ card.ex }}</div>
-                                <div class="ro">{{ card.exRo }}</div>
+                                <TapText
+                                    class="en"
+                                    tag="div"
+                                    :text="card.ex"
+                                    :plain="!flipped"
+                                />
+                                <div v-if="card.exRo" class="ro">
+                                    {{ card.exRo }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,6 +233,7 @@ import { Head, Link, router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { addXp, gradeWord } from '@/api/progress';
+import TapText from '@/components/content/TapText.vue';
 import WordPicture from '@/components/content/WordPicture.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
@@ -255,6 +265,7 @@ export default defineComponent({
         Link,
         PageHeader,
         SpeakButton,
+        TapText,
         WordPicture,
     },
 

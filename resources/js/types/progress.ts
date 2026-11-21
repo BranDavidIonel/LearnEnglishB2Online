@@ -98,6 +98,84 @@ export interface WordWithState extends VocabWord, ReviewState {
     bank: boolean;
 }
 
+/**
+ * An extra word (a glossary word the learner put into the flashcards) with its state, as the
+ * flashcards and the word answers send it: what the glossary has, no example, no unit, no level.
+ * Extra words never count in the course numbers.
+ */
+export interface ExtraWordWithState extends ReviewState {
+    en: string;
+    ro: string;
+    ipa: string | null;
+    pos: string | null;
+    emoji: null;
+    ex: null;
+    exRo: null;
+    unit: null;
+    levelId: null;
+    bank: false;
+    extra: true;
+}
+
+/** How a tapped word form relates to its headword ("alerts" is the plural of "alert"). */
+export type WordRelation =
+    | 'plural'
+    | 'third'
+    | 'past'
+    | 'participle'
+    | 'ing'
+    | 'comparative'
+    | 'superlative'
+    | 'possessive'
+    | 'form';
+
+/** What the word window shows for a word tapped in a lesson (WordLookupResource). */
+export interface WordLookup {
+    /** As tapped (curly apostrophe made straight). */
+    word: string;
+    found: boolean;
+    source: 'course' | 'glossary' | 'name' | null;
+    /** The headword the tapped form belongs to. */
+    base: string | null;
+    /** How `word` relates to `base`; null when they are the same word. */
+    relation: WordRelation | null;
+    entry: {
+        en: string;
+        ro: string;
+        ipa: string | null;
+        pos: string | null;
+        /** Example sentence of the course entry. */
+        ex: string | null;
+        exRo: string | null;
+        emoji: string | null;
+        wiki: string | null;
+        /** Null for glossary words and names. */
+        levelId: LevelId | null;
+        unit: string | null;
+    } | null;
+    /**
+     * The learner's state of the headword; null when it cannot be learned with the word
+     * functions (a name, a word found nowhere, an irregular verb that is not a course word).
+     */
+    state: {
+        status: ReviewStatus;
+        /** 0 when not in the deck. */
+        box: number;
+        due: string | null;
+        known: boolean;
+    } | null;
+    /** The three forms when the headword is an irregular verb. */
+    verb: {
+        v1: string;
+        v2: string;
+        v3: string;
+        ipa: string;
+        ro: string;
+    } | null;
+    /** Expressions of the course found in the sentence that contain the tapped word. */
+    phrases: { en: string; ro: string }[];
+}
+
 /** An irregular verb with the learner's state (VerbResource). */
 export interface VerbWithState extends IrregularVerb, ReviewState {
     /** 1 = the most used verb. */
@@ -188,6 +266,11 @@ export interface PlacementAnswer extends ProgressAnswer {
 export interface WordsAnswer extends ProgressAnswer {
     /** The words of the request, with their new state. */
     words: WordWithState[];
+}
+
+/** The answer of the word window's lookup (a read: no learner summary). */
+export interface WordLookupAnswer {
+    lookup: WordLookup;
 }
 
 export interface VerbsAnswer extends ProgressAnswer {

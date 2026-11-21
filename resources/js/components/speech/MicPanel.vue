@@ -2,6 +2,7 @@
     <div v-if="!recognition" class="mic-panel">
         <p class="muted small">
             {{
+                selfCheckText ||
                 $t(
                     'This browser has no speech recognition. Say the sentence aloud (you can record yourself) and check yourself.',
                 )
@@ -43,17 +44,24 @@ import type { Listening } from '@/utils/recognition';
 import { canListen, isMicError, listen, MIC_FATAL } from '@/utils/recognition';
 import { canRecord } from '@/utils/recording';
 import { stopSpeak } from '@/utils/speech';
+import { wordOpen } from '@/utils/wordLookup';
 
 /**
- * The microphone of a speaking exercise: a big button, a loudness meter and a status line.
- * Emits `heard` with the alternatives understood, or with null when the browser cannot
- * recognise speech and the learner says they said it well. The parent may call start() to
- * listen without a click (after the app has said the sentence).
+ * The microphone of a speaking exercise or of the word window: a big button, a loudness meter
+ * and a status line. Emits `heard` with the alternatives understood, or with null when the
+ * browser cannot recognise speech and the learner says they said it well. The parent may call
+ * start() to listen without a click (after the app has said the sentence); it waits while the
+ * word window is open, so two microphones never listen at once.
  */
 export default defineComponent({
     name: 'MicPanel',
 
     components: { Recorder },
+
+    props: {
+        /** What to do without speech recognition (default: about a sentence). */
+        selfCheckText: { type: String, default: '' },
+    },
 
     emits: {
         heard: (alternatives: string[] | null) =>
@@ -85,12 +93,19 @@ export default defineComponent({
             if (this.listening) {
                 this.listening.stop();
             } else {
-                void this.start();
+                void this.listenNow();
+            }
+        },
+
+        /** Listens without a click, unless the word window is open over the page. */
+        async start(): Promise<void> {
+            if (!wordOpen()) {
+                await this.listenNow();
             }
         },
 
         /** Listens to one sentence (does nothing without speech recognition or while listening). */
-        async start(): Promise<void> {
+        async listenNow(): Promise<void> {
             if (!this.recognition || !this.alive || this.listening) {
                 return;
             }

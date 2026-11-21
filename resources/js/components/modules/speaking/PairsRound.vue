@@ -75,7 +75,7 @@ import { defineComponent } from 'vue';
 import { addXp, speakRecord } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
 import SessionSave from '@/components/general/SessionSave.vue';
-import MicPanel from '@/components/modules/speaking/MicPanel.vue';
+import MicPanel from '@/components/speech/MicPanel.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import { confetti } from '@/utils/confetti';
 import { sample } from '@/utils/random';

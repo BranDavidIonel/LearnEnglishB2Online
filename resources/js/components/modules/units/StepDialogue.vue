@@ -35,7 +35,7 @@
         >
             <div class="bubble">
                 <div class="spk">{{ line.speaker }}</div>
-                <div class="en">{{ line.en }}</div>
+                <TapText class="en" tag="div" :text="line.en" />
                 <div class="ro">{{ line.ro }}</div>
                 <div class="row line-tools">
                     <SpeakButton :text="line.en" />
@@ -79,6 +79,7 @@
 import { Link } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
+import TapText from '@/components/content/TapText.vue';
 import Recorder from '@/components/speech/Recorder.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { speaking } from '@/routes';
@@ -89,6 +90,7 @@ import { canRecord } from '@/utils/recording';
 import { sfx } from '@/utils/sound';
 import { speak, stopSpeak } from '@/utils/speech';
 import { speechScore } from '@/utils/text';
+import { wordOpen } from '@/utils/wordLookup';
 import StepDoneBar from './StepDoneBar.vue';
 import type { UnitHead } from './types';
 
@@ -117,7 +119,7 @@ const LINE_PAUSE = 350;
 export default defineComponent({
     name: 'StepDialogue',
 
-    components: { Link, SpeakButton, Recorder, StepDoneBar },
+    components: { Link, SpeakButton, Recorder, StepDoneBar, TapText },
 
     props: {
         unit: { type: Object as PropType<UnitHead>, required: true },
@@ -147,6 +149,8 @@ export default defineComponent({
     },
 
     computed: {
+        wordOpen,
+
         /** The first speaker on the left, the others on the right. */
         sides(): string[] {
             const first = this.dialogue.lines[0]?.speaker;
@@ -154,6 +158,15 @@ export default defineComponent({
             return this.dialogue.lines.map((line) =>
                 line.speaker === first ? 'left' : 'right',
             );
+        },
+    },
+
+    watch: {
+        // A word tapped while the dialogue plays: the playing stops (the layout has stopped the voice).
+        wordOpen(open: boolean): void {
+            if (open && this.playing) {
+                this.stopPlay();
+            }
         },
     },
 

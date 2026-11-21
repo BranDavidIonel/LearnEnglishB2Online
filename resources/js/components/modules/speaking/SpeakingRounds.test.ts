@@ -21,7 +21,7 @@ import type { Replacements } from '@/i18n';
 import { canListen, listen, listenStream, micError } from '@/utils/recognition';
 import type { Conversation } from '@/utils/speaking';
 import ConversationRun from './ConversationRun.vue';
-import MicPanel from './MicPanel.vue';
+import MicPanel from '@/components/speech/MicPanel.vue';
 import PairsRound from './PairsRound.vue';
 import SentenceRound from './SentenceRound.vue';
 import VoiceSprint from './VoiceSprint.vue';

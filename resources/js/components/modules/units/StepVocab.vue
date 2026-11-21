@@ -21,7 +21,7 @@
                 <div class="vex">
                     <SpeakButton :text="word.ex" />
                     <div>
-                        <div class="en">{{ word.ex }}</div>
+                        <TapText class="en" tag="div" :text="word.ex" />
                         <div class="ro">{{ word.exRo }}</div>
                     </div>
                 </div>
@@ -93,6 +93,7 @@ import { Link, router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent, markRaw } from 'vue';
 import { completeStep } from '@/api/progress';
+import TapText from '@/components/content/TapText.vue';
 import WordPicture from '@/components/content/WordPicture.vue';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
@@ -119,6 +120,7 @@ export default defineComponent({
 
     components: {
         Link,
+        TapText,
         WordPicture,
         SpeakButton,
         ExerciseSession,

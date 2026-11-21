@@ -9,6 +9,8 @@ enum ContentKind: string
     case Speaking = 'speaking';
     case Cambridge = 'cambridge';
     case Verbs = 'verbs';
+    case Glossary = 'glossary';
+    case Words = 'words';
 
     /** @return list<string> */
     public static function values(): array
@@ -23,6 +25,8 @@ enum ContentKind: string
             self::Speaking => new SpeakingValidator($root),
             self::Cambridge => new CambridgeValidator($root),
             self::Verbs => new VerbValidator($root),
+            self::Glossary => new GlossaryValidator($root),
+            self::Words => new LessonWordsValidator($root),
         };
     }
 }

@@ -12,7 +12,7 @@ final class LessonValidator extends Validator
 
     public const int UNITS = 10;
 
-    private const array POS = ['noun', 'verb', 'adj', 'adv', 'phrase', 'prep', 'pron', 'conj', 'other'];
+    public const array POS = ['noun', 'verb', 'adj', 'adv', 'phrase', 'prep', 'pron', 'conj', 'other'];
 
     private const array WORD_FIELDS = ['en', 'ro', 'ipa', 'emoji', 'ex', 'exRo'];
 

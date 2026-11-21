@@ -26,7 +26,8 @@
         <div v-else-if="question" :key="index" class="ex fade-in">
             <div class="ex-type">{{ $t('Answer aloud') }}</div>
             <div class="ex-q">
-                <SpeakButton :text="question.q" /> {{ question.q }}
+                <SpeakButton :text="question.q" />
+                <TapText :text="question.q" />
             </div>
             <div class="muted">🇷🇴 {{ question.qRo }}</div>
             <div class="starters">
@@ -36,7 +37,7 @@
                     :key="starter"
                     class="chip-tag now"
                 >
-                    {{ starter }}
+                    <TapText :text="starter" />
                 </span>
             </div>
             <MicPanel @heard="onHeard" />
@@ -66,7 +67,7 @@
                         <div class="muted small">
                             {{ $t('A good answer:') }}
                         </div>
-                        <div class="en">{{ question.sample }}</div>
+                        <TapText class="en" tag="div" :text="question.sample" />
                     </div>
                 </div>
             </div>
@@ -88,8 +89,9 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import TapText from '@/components/content/TapText.vue';
 import SessionSave from '@/components/general/SessionSave.vue';
-import MicPanel from '@/components/modules/speaking/MicPanel.vue';
+import MicPanel from '@/components/speech/MicPanel.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import type { SpeakingQuestion } from '@/types';
@@ -116,6 +118,7 @@ export default defineComponent({
         SessionSave,
         SessionShell,
         SpeakButton,
+        TapText,
     },
 
     props: {

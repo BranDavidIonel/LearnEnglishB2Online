@@ -15,6 +15,11 @@ use App\Services\Content\ContentRepository;
  * (back to box 0, again today), 1 = hard (at least box 1, tomorrow), 2 = knew it (one box
  * up, next review after the interval of the new box: 0, 1, 3, 7, 14, 30, 60 days).
  * Words are arrays of the word index (ContentRepository::words()).
+ *
+ * Glossary words can be learned too ("extra words", ContentRepository::extraWords()): same
+ * table, same boxes, same answers, due on the flashcards like the others — but every count
+ * of the course (word totals, level and unit counts, vocabTo, words to learn, the badges,
+ * the chart) stays computed from the course vocabulary only.
  */
 class WordReviewService
 {
@@ -55,25 +60,98 @@ class WordReviewService
     }
 
     /**
-     * The words to review today (due today or earlier, still in the course), the most
-     * overdue first.
+     * The words to review today (due today or earlier, still in the course or the glossary),
+     * the most overdue first. Extra words come as cards (see card()).
      *
      * @return list<array<string, mixed>>
      */
     public function due(User $user): array
     {
-        $words = $this->content->words();
-
         return array_map(
-            fn (WordReview $review): array => $words[$review->word],
-            $this->dueReviews($user, array_keys($words)),
+            fn (WordReview $review): array => (array) $this->card($review->word),
+            $this->dueReviews($user, $this->learnable()),
         );
     }
 
-    /** How many words are due today (the flashcards badge). */
+    /** How many words are due today (the flashcards badge), extra words included. */
     public function dueCount(User $user): int
     {
-        return count($this->dueReviews($user, array_keys($this->content->wordLevels())));
+        return count($this->dueReviews($user, $this->learnable()));
+    }
+
+    /** Whether a word can go into the deck: a word of the course or an extra word of the glossary. */
+    public function canLearn(string $en): bool
+    {
+        return isset($this->content->wordLevels()[$en]) || $this->content->extraWord($en) !== null;
+    }
+
+    /**
+     * A word as a flashcard shows it: the word of the course, or an extra word with what the
+     * glossary has (en, ro, ipa, pos), no example, no unit, no level, and extra: true.
+     * Null for a word that is neither.
+     *
+     * @return array<string, mixed>|null
+     */
+    public function card(string $en): ?array
+    {
+        $word = $this->content->word($en);
+
+        if ($word !== null) {
+            return $word;
+        }
+
+        $extra = $this->content->extraWord($en);
+
+        return $extra === null ? null : [
+            'en' => (string) $extra['en'],
+            'ro' => (string) ($extra['ro'] ?? ''),
+            'ipa' => $extra['ipa'] ?? null,
+            'pos' => $extra['pos'] ?? null,
+            'emoji' => null,
+            'ex' => null,
+            'exRo' => null,
+            'unit' => null,
+            'levelId' => null,
+            'extra' => true,
+        ];
+    }
+
+    /**
+     * The extra words in the learner's deck, as cards with their state, in the order they
+     * joined it (for the "Extra words" list of the words page).
+     *
+     * @return list<array<string, mixed>>
+     */
+    public function extraWords(User $user): array
+    {
+        $extra = $this->content->extraWords();
+        $words = [];
+
+        foreach ($this->state->words($user) as $review) {
+            if (isset($extra[$review->word]) && ! isset($this->content->wordLevels()[$review->word])) {
+                $words[] = $this->withState($user, (array) $this->card($review->word));
+            }
+        }
+
+        return $words;
+    }
+
+    /**
+     * Where a word stands for the learner (the word window): status, box (0 when not in the
+     * deck), next review (Y-m-d) and "known".
+     *
+     * @return array{status: string, box: int, due: string|null, known: bool}
+     */
+    public function state(User $user, string $en): array
+    {
+        $review = $this->state->words($user)->get($en);
+
+        return [
+            'status' => $this->status($user, $en)->value,
+            'box' => $review->box ?? 0,
+            'due' => $review?->due_on->toDateString(),
+            'known' => (bool) $review?->known,
+        ];
     }
 
     /** Grades a flashcard: 0 = did not know, 1 = hard, 2 = knew it. A word not in the deck joins it. */
@@ -297,10 +375,20 @@ class WordReviewService
     }
 
     /**
+     * Every word that can be in the deck: the course words, then the extra words.
+     *
+     * @return list<string>
+     */
+    private function learnable(): array
+    {
+        return array_map('strval', [...array_keys($this->content->wordLevels()), ...array_keys($this->content->extraWords())]);
+    }
+
+    /**
      * The deck entries due today or earlier whose word is in the list, by due date
      * (equal dates keep the order the words joined the deck).
      *
-     * @param  list<int|string>  $inCourse
+     * @param  list<string>  $inCourse
      * @return list<WordReview>
      */
     private function dueReviews(User $user, array $inCourse): array

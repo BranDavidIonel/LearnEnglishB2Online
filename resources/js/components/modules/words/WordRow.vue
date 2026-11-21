@@ -6,7 +6,13 @@
             <small class="muted">{{ word.ipa }}</small>
         </span>
         <span class="word-ro">{{ word.ro }}</span>
-        <LevelChip :level="word.levelId" />
+        <LevelChip v-if="word.levelId" :level="word.levelId" />
+        <ChipTag
+            v-else
+            :title="$t('Extra words do not count in the course totals.')"
+        >
+            {{ $t('➕ extra word') }}
+        </ChipTag>
         <ChipTag :kind="status.kind">{{ $t(status.label) }}</ChipTag>
         <span class="word-box" :title="$t('How well you know it')">
             <i v-for="n in 4" :key="n" :class="{ on: filled(n) }"></i>

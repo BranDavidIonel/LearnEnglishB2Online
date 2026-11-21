@@ -12,6 +12,16 @@
             {{ $t(tab.label, { n: tab.count }) }}
         </Link>
         <Link
+            v-if="extra || active === 'extra'"
+            class="tab"
+            :class="{ on: active === 'extra' }"
+            :href="extraUrl"
+            :only="['tab']"
+            preserve-state
+        >
+            {{ $t('➕ Extra words (:n)', { n: extra }) }}
+        </Link>
+        <Link
             v-if="verbs"
             class="tab tab-verbs"
             :class="{ on: active === 'verbs' }"
@@ -38,7 +48,11 @@ interface TabLink {
 
 // The labels are translation keys with the count in them (the tabs are plural in Romanian,
 // the status chips singular); `count` names the number shown.
-const TABS: { id: WordTab; label: string; count: keyof WordCounts }[] = [
+const TABS: {
+    id: Exclude<WordTab, 'extra'>;
+    label: string;
+    count: keyof WordCounts;
+}[] = [
     { id: 'all', label: 'All (:n)', count: 'total' },
     { id: 'learned', label: '✅ Learned (:n)', count: 'learned' },
     { id: 'learning', label: '🌱 Learning (:n)', count: 'learning' },
@@ -46,7 +60,8 @@ const TABS: { id: WordTab; label: string; count: keyof WordCounts }[] = [
 ];
 
 /**
- * The tab row of "My words": all / learned / learning / to learn with their counts, and the
+ * The tab row of "My words": all / learned / learning / to learn with their counts, the extra
+ * words (glossary words the learner chose to learn; shown once there are some) and the
  * irregular verbs. The word tabs only swap the `tab` prop when the words page is already
  * open (the long word list stays); from the verbs page they open the words page.
  */
@@ -57,6 +72,8 @@ export default defineComponent({
 
     props: {
         counts: { type: Object as PropType<WordCounts>, required: true },
+        /** How many extra words the learner has. */
+        extra: { type: Number, default: 0 },
         /** How many irregular verbs there are (the tab is hidden without any). */
         verbs: { type: Number, default: 0 },
         active: {
@@ -73,6 +90,10 @@ export default defineComponent({
                 count: this.counts[tab.count],
                 href: (tab.id === 'all' ? words() : words(tab.id)).url,
             }));
+        },
+
+        extraUrl(): string {
+            return words('extra').url;
         },
 
         verbsUrl(): string {

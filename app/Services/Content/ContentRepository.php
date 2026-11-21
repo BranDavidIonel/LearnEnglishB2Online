@@ -194,6 +194,38 @@ class ContentRepository
     }
 
     /**
+     * The glossary (glossary.json, keys of the file): "words" — the words shown in the lessons
+     * that the course vocabulary does not teach (en, ro, pos, ipa, forms?) — and "names"
+     * (en, ro, ipa?). Empty lists when the file is missing.
+     *
+     * @return array{words: list<array<string, mixed>>, names: list<array<string, mixed>>}
+     */
+    public function glossary(): array
+    {
+        /** @var array{words: list<array<string, mixed>>, names: list<array<string, mixed>>} */
+        return $this->piece('glossary') ?? ['words' => [], 'names' => []];
+    }
+
+    /**
+     * The glossary words that can be learned besides the course vocabulary, by headword
+     * ("extra words": they go into the flashcards but never into the course numbers).
+     * A glossary headword that is also a course word is the course word, so it is not here.
+     *
+     * @return array<string, array<string, mixed>>
+     */
+    public function extraWords(): array
+    {
+        /** @var array<string, array<string, mixed>> */
+        return $this->piece('extraWords') ?? [];
+    }
+
+    /** @return array<string, mixed>|null */
+    public function extraWord(string $en): ?array
+    {
+        return $this->extraWords()[$en] ?? null;
+    }
+
+    /**
      * The Cambridge mock exams: exam.json of each exam plus id and its tests (whole).
      *
      * @return list<array<string, mixed>>

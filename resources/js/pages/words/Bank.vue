@@ -115,6 +115,7 @@ import WordStats from '@/components/modules/words/WordStats.vue';
 import { flashcards } from '@/routes';
 import { show } from '@/routes/units';
 import type { LevelId, WordWithState } from '@/types';
+import { wordLookup } from '@/utils/wordLookup';
 
 /**
  * The word bank of a unit (the original "bankStep"): the unit's extra words with their status,
@@ -182,6 +183,11 @@ export default defineComponent({
             return Math.min(this.batchSize, this.todo.count);
         },
 
+        /** A change made in the word window, counted when the window closes. */
+        lookupChanges(): number {
+            return wordLookup.changes;
+        },
+
         modalUnit(): (UnitLabel & { id: string }) | null {
             const id = this.selected?.word.unit;
             const label = id ? this.units[id] : undefined;
@@ -193,6 +199,11 @@ export default defineComponent({
     watch: {
         words(words: WordWithState[]): void {
             this.rows = words.map((word) => ({ ...word }));
+        },
+
+        // A word learned or known in the word window: the rows and the next batch come again.
+        lookupChanges(): void {
+            router.reload({ only: ['words', 'todo'] });
         },
     },
 

@@ -51,8 +51,56 @@ class ContentBuilder
         $pieces['wordLevels'] = array_map(fn (array $word): string => $word['levelId'], $words);
         $pieces['verbs'] = $this->verbs();
         $pieces['cambridge'] = $this->cambridge($examIds);
+        $pieces['glossary'] = $this->glossary();
+        $pieces['extraWords'] = $this->extraWords($pieces['glossary']['words'], $words);
 
         return $pieces;
+    }
+
+    /**
+     * The glossary (glossary.json): the words of the lessons the course vocabulary does not
+     * teach, and the names. A missing file is an empty glossary; an entry without a headword
+     * is left out.
+     *
+     * @return array{words: list<array<string, mixed>>, names: list<array<string, mixed>>}
+     */
+    private function glossary(): array
+    {
+        $file = $this->files->json('glossary.json') ?? [];
+        $glossary = ['words' => [], 'names' => []];
+
+        foreach (array_keys($glossary) as $list) {
+            foreach (is_array($file[$list] ?? null) ? $file[$list] : [] as $entry) {
+                if (is_array($entry) && is_string($entry['en'] ?? null) && $entry['en'] !== '') {
+                    $glossary[$list][] = $entry;
+                }
+            }
+        }
+
+        return $glossary;
+    }
+
+    /**
+     * The glossary words that can be learned as extra words, by headword: the course
+     * vocabulary wins when it has the same word (the glossary then only holds its forms).
+     *
+     * @param  list<array<string, mixed>>  $glossary
+     * @param  array<string, array<string, mixed>>  $courseWords
+     * @return array<string, array<string, mixed>>
+     */
+    private function extraWords(array $glossary, array $courseWords): array
+    {
+        $extra = [];
+
+        foreach ($glossary as $entry) {
+            $en = (string) $entry['en'];
+
+            if (! isset($courseWords[$en]) && ! isset($extra[$en])) {
+                $extra[$en] = $entry;
+            }
+        }
+
+        return $extra;
     }
 
     /** @return list<array<string, mixed>> */

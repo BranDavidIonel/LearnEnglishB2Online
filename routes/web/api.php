@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 
 /*
  * The progress API: JSON for the pages (resources/js/api/progress.ts), session login and
- * CSRF like every page. Words and verbs travel in the body, never in the URL.
+ * CSRF like every page. Words and verbs to save travel in the body, never in the URL (the
+ * word window's lookup is a read: its word and sentence are in the query).
  * docs/backend.md lists every route with what it answers.
  */
 Route::prefix('api')->name('api.')->group(function () {
@@ -22,6 +23,7 @@ Route::prefix('api')->name('api.')->group(function () {
     Route::post('exams/{level}', [CourseController::class, 'exam'])->whereIn('level', Level::values())->name('exams.store');
     Route::post('placement', [CourseController::class, 'placement'])->name('placement.store');
 
+    Route::get('words/lookup', [WordController::class, 'lookup'])->name('words.lookup');
     Route::post('words/grade', [WordController::class, 'grade'])->name('words.grade');
     Route::post('words/known', [WordController::class, 'known'])->name('words.known');
     Route::post('words/sorted', [WordController::class, 'sorted'])->name('words.sorted');

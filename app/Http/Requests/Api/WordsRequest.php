@@ -3,8 +3,9 @@
 namespace App\Http\Requests\Api;
 
 /**
- * One or more words of the course, by their English text (in the body: they may hold
- * spaces, apostrophes and question marks). With "grade" for a flashcard grade.
+ * One or more words of the course or extra words of the glossary, by their English text (in
+ * the body: they may hold spaces, apostrophes and question marks); names and anything else
+ * are refused. With "grade" for a flashcard grade.
  */
 class WordsRequest extends ApiRequest
 {
@@ -13,7 +14,7 @@ class WordsRequest extends ApiRequest
     {
         return [
             'words' => ['required', 'array', 'min:1', 'max:5000'],
-            'words.*' => ['required', 'string', 'distinct', $this->oneOf($this->content()->wordLevels())],
+            'words.*' => ['required', 'string', 'distinct', $this->oneOf([...$this->content()->wordLevels(), ...$this->content()->extraWords()])],
             'grade' => [$this->routeIs('api.words.grade') ? 'required' : 'prohibited', 'integer', 'in:0,1,2'],
         ];
     }

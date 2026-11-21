@@ -43,6 +43,7 @@ import type {
     VerbGrade,
     VerbsAnswer,
     WordGrade,
+    WordLookupAnswer,
     WordsAnswer,
     XpAnswer,
 } from '@/types';
@@ -93,7 +94,22 @@ export function recordPlacement(
     return send<PlacementAnswer>(placement.store(), { scores });
 }
 
-// ---------- words (one word or many; the English text travels in the body) ----------
+// ---------- words (one word or many; the English text travels in the body, except for a lookup) ----------
+
+/**
+ * The word window: what a word tapped in a lesson is (meaning, headword, irregular verb, the
+ * learner's state) and the course expressions of its sentence that hold it. A read.
+ */
+export function lookupWord(
+    word: string,
+    sentence?: string,
+): Promise<WordLookupAnswer> {
+    return send<WordLookupAnswer>(
+        words.lookup({
+            query: sentence === undefined ? { word } : { word, sentence },
+        }),
+    );
+}
 
 /** Flashcard grade: 0 = did not know, 1 = hard, 2 = knew it. */
 export function gradeWord(

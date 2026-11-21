@@ -15,6 +15,7 @@ use Inertia\Response;
  * searches and pages the whole list itself, so it gets every word at once, but only what a
  * row shows; the details of the words (examples, pictures, units) follow in a deferred
  * request. A tab only swaps the "tab" prop, and after a change the page reloads "skipped".
+ * The learner's extra words (glossary words in the deck) have a tab of their own.
  */
 class WordController extends Controller
 {
@@ -26,6 +27,7 @@ class WordController extends Controller
         return Inertia::render('words/Index', [
             'tab' => $tab ?? 'all',
             'words' => fn (): array => WordRowResource::collection($page->all($user))->resolve($request),
+            'extra' => fn (): array => WordRowResource::collection($page->extra($user))->resolve($request),
             'details' => Inertia::defer(fn (): array => $page->details(), 'details'),
             'units' => Inertia::defer(fn (): array => $page->unitLabels(), 'details'),
             'skipped' => fn (): ?array => $page->skipped($user),

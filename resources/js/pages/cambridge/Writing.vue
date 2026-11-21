@@ -88,7 +88,7 @@
             </div>
             <div class="card">
                 <h3>{{ $t('⭐ Model answer') }}</h3>
-                <p class="model" v-html="md(task.model)" />
+                <TapText class="model" tag="p" markdown :text="task.model" />
                 <button type="button" class="btn" @click="speak(task.model)">
                     {{ $t('🔊 Listen to the model') }}
                 </button>
@@ -142,6 +142,7 @@ import { Head, Link, router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { recordCambridge, saveCambridgeDraft } from '@/api/progress';
+import TapText from '@/components/content/TapText.vue';
 import CountdownTimer from '@/components/modules/cambridge/CountdownTimer.vue';
 import { percent, testTitle } from '@/components/modules/cambridge/exam';
 import type { ExamTag, TestTag } from '@/components/modules/cambridge/types';
@@ -169,7 +170,7 @@ function countWords(text: string): number {
 export default defineComponent({
     name: 'CambridgeWritingPage',
 
-    components: { Head, Link, CountdownTimer, UsefulPhrases },
+    components: { Head, Link, CountdownTimer, TapText, UsefulPhrases },
 
     props: {
         exam: { type: Object as PropType<ExamTag>, required: true },
