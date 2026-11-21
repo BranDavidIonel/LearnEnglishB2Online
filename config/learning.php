@@ -50,6 +50,9 @@ return [
         'weak_unit' => 0.6,
         // Questions taken from each unit for a level exam ("match" exercises are left out).
         'exam_items_per_unit' => 3,
+        // A unit test: this many questions, of which up to this many are new ones (the unit's test items).
+        'unit_test_size' => 12,
+        'unit_test_new' => 6,
         // Share of the unit progress the five lesson steps are worth (the test gives the rest).
         'unit_steps_share' => 0.8,
         // Share of the level progress the units are worth (the exam gives the rest).
