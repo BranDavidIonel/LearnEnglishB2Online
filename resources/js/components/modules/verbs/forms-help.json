@@ -1,0 +1,223 @@
+{
+    "title": "The three forms of irregular verbs",
+    "titleRo": "Cele trei forme ale verbelor neregulate: ce sunt și când le folosești",
+    "sections": [
+        {
+            "headingRo": "Ce sunt cele trei forme?",
+            "textRo": "Orice verb englezesc are trei forme de bază. La verbele **regulate**, V2 și V3 se fac simplu, cu **-ed**: work – worked – worked. La cele **neregulate** sunt speciale și trebuie învățate pe de rost: **say – said – said**, **go – went – gone**. Atenție: **viitorul nu e o formă separată** — se face cu *will* + V1 (I will say).",
+            "table": {
+                "headers": ["Forma", "Numele", "say", "go", "write"],
+                "rows": [
+                    [
+                        "**V1**",
+                        "forma de bază (base form / infinitive)",
+                        "say",
+                        "go",
+                        "write"
+                    ],
+                    [
+                        "**V2**",
+                        "trecutul simplu (past simple)",
+                        "said",
+                        "went",
+                        "wrote"
+                    ],
+                    [
+                        "**V3**",
+                        "participiul trecut (past participle)",
+                        "said",
+                        "gone",
+                        "written"
+                    ]
+                ]
+            },
+            "examples": [
+                {
+                    "en": "I always say hello to the security guard.",
+                    "ro": "Mereu îl salut pe paznic. (V1)"
+                },
+                {
+                    "en": "She said yes to our offer yesterday.",
+                    "ro": "Ieri a spus da la oferta noastră. (V2)"
+                },
+                {
+                    "en": "I have said it many times: test before you deploy!",
+                    "ro": "Am spus-o de multe ori: testează înainte de deploy! (V3)"
+                }
+            ]
+        },
+        {
+            "headingRo": "V1 — forma de bază: prezent, viitor și după did / can / to",
+            "textRo": "V1 e forma din dicționar. O folosești la **prezent** (la he/she/it primește **-s**: she says, he goes), la **viitor** (will say), după **can / must / should**, după **to**, la **imperativ** și — foarte important — în **întrebările și negațiile la trecut, după did**: *Did you say…?*, *I didn't go*.",
+            "table": {
+                "headers": ["Structura", "Exemplu"],
+                "rows": [
+                    ["I / you / we / they + **V1**", "I **say** · they **go**"],
+                    [
+                        "he / she / it + **V1 + s**",
+                        "she **says** · he **goes**"
+                    ],
+                    [
+                        "will / going to + **V1**",
+                        "I will **say** · we're going to **go**"
+                    ],
+                    [
+                        "can / must / should + **V1**",
+                        "you should **say** · we must **go**"
+                    ],
+                    ["to + **V1**", "I want to **say** something"],
+                    [
+                        "**did** + V1 (întrebare la trecut)",
+                        "Did you **say** that? · Did he **go**?"
+                    ],
+                    [
+                        "**didn't** + V1 (negație la trecut)",
+                        "I didn't **say** that · she didn't **go**"
+                    ]
+                ]
+            },
+            "examples": [
+                {
+                    "en": "The client says the invoice is wrong.",
+                    "ro": "Clientul zice că factura e greșită."
+                },
+                {
+                    "en": "We will go live on Monday.",
+                    "ro": "Lansăm luni."
+                },
+                {
+                    "en": "Did the manager say anything about the deadline?",
+                    "ro": "A zis managerul ceva despre termen?"
+                }
+            ]
+        },
+        {
+            "headingRo": "V2 — trecutul simplu (past simple)",
+            "textRo": "Pentru o acțiune **terminată**, într-un moment clar din trecut: *yesterday, last week, in 2020, two days ago, when I was a child*. V2 apare **doar în propoziții afirmative**. În întrebări și negații revii la **V1**, pentru că *did* poartă deja timpul trecut.",
+            "table": {
+                "headers": ["Tip de propoziție", "Corect", "Greșit"],
+                "rows": [
+                    ["Afirmativă", "I **said** · we **went**", "—"],
+                    [
+                        "Întrebare",
+                        "Did you **say**? · Did you **go**?",
+                        "Did you said? · Did you went?"
+                    ],
+                    [
+                        "Negativă",
+                        "I didn't **say** · we didn't **go**",
+                        "I didn't said · we didn't went"
+                    ]
+                ]
+            },
+            "examples": [
+                {
+                    "en": "The client said yes last Friday.",
+                    "ro": "Clientul a zis da vinerea trecută."
+                },
+                {
+                    "en": "We went to Rome two years ago.",
+                    "ro": "Am fost la Roma acum doi ani."
+                },
+                {
+                    "en": "I wrote the first version in one night.",
+                    "ro": "Am scris prima versiune într-o singură noapte."
+                }
+            ]
+        },
+        {
+            "headingRo": "V3 — participiul trecut (past participle)",
+            "textRo": "V3 **nu stă niciodată singur ca verb**: vine după **have / has / had** (timpurile perfecte) sau după **be** (pasivul). Poate fi și **adjectiv**: *a broken screen*, *a written offer*.",
+            "table": {
+                "headers": ["Structura", "Când o folosești", "Exemplu"],
+                "rows": [
+                    [
+                        "have / has + **V3**",
+                        "prezentul perfect: experiență, rezultat care contează acum",
+                        "I have **said** it twice · She has **gone** home"
+                    ],
+                    [
+                        "had + **V3**",
+                        "mai-mult-ca-perfectul: înaintea altui moment din trecut",
+                        "He had **gone** when I arrived"
+                    ],
+                    [
+                        "be (is / was / will be) + **V3**",
+                        "pasivul: nu contează cine face acțiunea",
+                        "It was **said** in the meeting · The bug was **found**"
+                    ],
+                    [
+                        "will have + **V3**",
+                        "viitorul perfect: gata până la un moment",
+                        "By Friday we will have **written** the tests"
+                    ],
+                    [
+                        "should / could / must have + **V3**",
+                        "despre trecut: regret, critică, deducție",
+                        "You should have **said** something"
+                    ],
+                    [
+                        "**V3** ca adjectiv",
+                        "descrie ceva",
+                        "a **broken** laptop · a **written** offer"
+                    ]
+                ]
+            },
+            "examples": [
+                {
+                    "en": "I have never said that to a client.",
+                    "ro": "N-am spus niciodată asta unui client."
+                },
+                {
+                    "en": "She has gone to the airport.",
+                    "ro": "A plecat la aeroport (și e încă acolo / pe drum)."
+                },
+                {
+                    "en": "The new feature was written in TypeScript.",
+                    "ro": "Funcția nouă a fost scrisă în TypeScript."
+                }
+            ]
+        },
+        {
+            "headingRo": "Cum le înveți mai ușor: pe tipare",
+            "textRo": "Aproape **jumătate** dintre verbe au **V2 = V3** (say – said – said), deci de multe ori ai de învățat o singură formă nouă. Folosește filtrul **„Tipar”** din listă ca să le exersezi pe grupe. Iar verbele cu prefix (over-, re-, under-, mis-, out-) se conjugă exact ca verbul de bază: **oversee** ca *see – saw – seen*, **rewrite** ca *write – wrote – written*.",
+            "table": {
+                "headers": ["Tipar", "Exemple"],
+                "rows": [
+                    [
+                        "**V2 = V3** (A – B – B)",
+                        "say – said – said · buy – bought – bought · keep – kept – kept"
+                    ],
+                    [
+                        "**toate diferite** (A – B – C)",
+                        "go – went – gone · write – wrote – written · take – took – taken"
+                    ],
+                    [
+                        "**toate la fel** (A – A – A)",
+                        "cut – cut – cut · put – put – put · let – let – let"
+                    ],
+                    [
+                        "**prima = a treia** (A – B – A)",
+                        "come – came – come · run – ran – run · become – became – become"
+                    ]
+                ]
+            },
+            "examples": [
+                {
+                    "en": "I bought a laptop last week. Have you bought one yet?",
+                    "ro": "Mi-am luat un laptop săptămâna trecută. Tu ți-ai luat deja unul?"
+                },
+                {
+                    "en": "We cut the budget last year and it has been cut again.",
+                    "ro": "Am tăiat bugetul anul trecut și a fost tăiat din nou."
+                }
+            ]
+        }
+    ],
+    "tipsRo": [
+        "După **did** vine mereu V1: **Did you go?**, nu „Did you went?”.",
+        "După **have / has** vine V3: **I have gone**, nu „I have went”.",
+        "V3 nu stă singur: **I saw it** sau **I have seen it**, nu „I seen it”.",
+        "**been** vs **gone**: *She has been to Paris* (a fost și s-a întors) · *She has gone to Paris* (e acolo acum)."
+    ]
+}
