@@ -3,7 +3,6 @@ import { wayfinder } from '@laravel/vite-plugin-wayfinder';
 import tailwindcss from '@tailwindcss/vite';
 import vue from '@vitejs/plugin-vue';
 import laravel from 'laravel-vite-plugin';
-import { bunny } from 'laravel-vite-plugin/fonts';
 import { defineConfig, lazyPlugins } from 'vite-plus';
 
 export default defineConfig({
@@ -11,11 +10,6 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.ts'],
             refresh: true,
-            fonts: [
-                bunny('Instrument Sans', {
-                    weights: [400, 500, 600],
-                }),
-            ],
         }),
         inertia(),
         tailwindcss(),
@@ -42,6 +36,11 @@ export default defineConfig({
             ],
         },
     },
+    test: {
+        // Front-end unit tests sit next to the code they test: resources/js/utils/text.test.ts …
+        include: ['resources/js/**/*.test.ts'],
+        environment: 'node',
+    },
     lint: {
         ignorePatterns: [
             'vendor/**',
@@ -49,11 +48,12 @@ export default defineConfig({
             'public/**',
             // Course content: JSON files kept byte for byte as written (see docs/content).
             'resources/content/**',
+            // Test fixtures, kept as written: content files broken on purpose, a progress file of the original app.
+            'tests/Fixtures/**',
             'docs/**',
             'bootstrap/ssr/**',
             'tailwind.config.js',
             'resources/js/actions/**',
-            'resources/js/components/ui/*',
             'resources/js/routes/**',
             'resources/js/wayfinder/**',
         ],
@@ -74,8 +74,9 @@ export default defineConfig({
             'composer.json',
             // Course content: JSON files kept byte for byte as written (see docs/content).
             'resources/content/**',
+            // Test fixtures, kept as written: content files broken on purpose, a progress file of the original app.
+            'tests/Fixtures/**',
             'docs/**',
-            'resources/js/components/ui/*',
             'resources/views/mail/*',
         ],
         sortTailwindcss: {
