@@ -34,6 +34,14 @@ export function getLocale(): string {
 }
 
 /**
+ * The locale for dates and numbers in the interface language, as in the original app:
+ * `n.toLocaleString(intlLocale())`, `new Intl.DateTimeFormat(intlLocale(), …)`.
+ */
+export function intlLocale(locale: string = currentLocale): string {
+    return locale === 'ro' ? 'ro-RO' : 'en-GB';
+}
+
+/**
  * The language of the current page. Reading the page props inside a template,
  * a computed() or a watcher makes them update when the language changes.
  */

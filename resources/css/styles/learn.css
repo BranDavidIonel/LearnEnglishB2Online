@@ -1,0 +1,128 @@
+/* ---------- learn: levels, unit cards, badges ---------- */
+.level {
+    margin: 26px 0;
+}
+.level.locked .units {
+    opacity: 0.5;
+}
+.level-head {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.locked-note {
+    background: var(--panel);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+}
+.units {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 12px;
+}
+.unit-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    transition:
+        transform 0.12s,
+        border-color 0.12s;
+    border-top: 4px solid var(--c);
+}
+a.unit-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--c);
+}
+.unit-card.locked {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+.unit-card.exam {
+    background: linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--c) 22%, var(--panel)),
+        var(--panel)
+    );
+}
+.unit-top {
+    display: flex;
+    justify-content: space-between;
+}
+.unit-emoji {
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.unit-n {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 700;
+}
+.unit-title {
+    font-weight: 800;
+    line-height: 1.25;
+}
+.unit-ro {
+    color: var(--muted);
+    font-size: 0.88rem;
+}
+.unit-gram {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 4px 0 8px;
+    flex: 1;
+}
+.unit-warn {
+    color: var(--warn);
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.unit-card .bar {
+    flex: none;
+}
+.badges {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+.badge {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.4;
+    filter: grayscale(1);
+}
+.badge.ok {
+    opacity: 1;
+    filter: none;
+    border-color: var(--warn);
+}
+.badge-icon {
+    font-size: 2rem;
+}
+.settings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+.settings label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--muted);
+}

@@ -1,0 +1,234 @@
+/* ---------- flashcards / words / games ---------- */
+.fc-stage {
+    perspective: 1200px;
+    max-width: 480px;
+    margin: 18px auto;
+}
+.fc {
+    position: relative;
+    min-height: 340px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.45s;
+}
+.fc.flipped {
+    transform: rotateY(180deg);
+}
+.fc-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+.fc-back {
+    transform: rotateY(180deg);
+    background: color-mix(in srgb, var(--primary) 14%, var(--panel));
+}
+.fc-word {
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+.fc-hint {
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+.fc-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.word-list {
+    display: grid;
+    gap: 6px;
+}
+.word-row {
+    display: grid;
+    grid-template-columns: 34px 1.2fr 1fr auto auto auto auto;
+    gap: 10px;
+    align-items: center;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.word-row:hover {
+    border-color: var(--primary2);
+}
+.word-emoji {
+    font-size: 1.4rem;
+}
+.word-en small {
+    display: block;
+}
+.word-ro {
+    color: var(--muted);
+}
+.word-box {
+    display: flex;
+    gap: 3px;
+}
+.word-box i {
+    width: 7px;
+    height: 16px;
+    border-radius: 3px;
+    background: var(--border);
+}
+.word-box i.on {
+    background: var(--ok);
+}
+@media (max-width: 720px) {
+    .word-row {
+        grid-template-columns: 30px 1fr auto auto;
+    }
+    .word-ro,
+    .word-box,
+    .word-row .lvl {
+        display: none;
+    }
+}
+.filters {
+    margin: 10px 0;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px;
+    margin: 10px 0 24px;
+}
+.video-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.video-item:hover strong {
+    color: var(--primary2);
+}
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+.game {
+    text-align: center;
+    margin: 0;
+    transition: transform 0.12s;
+}
+.game:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary2);
+}
+.game-icon {
+    font-size: 3rem;
+}
+.mem-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 640px;
+    margin: 14px auto;
+}
+.mem {
+    aspect-ratio: 4/3;
+    border-radius: 14px;
+    border: 2px solid var(--border);
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    padding: 4px;
+}
+.mem-back {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.mem-front {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+.mem.open,
+.mem.found {
+    background: var(--panel);
+}
+.mem.open .mem-back,
+.mem.found .mem-back {
+    display: none;
+}
+.mem.open .mem-front,
+.mem.found .mem-front {
+    display: flex;
+}
+.mem-front.en {
+    color: var(--primary2);
+}
+.mem.found {
+    border-color: var(--ok);
+    opacity: 0.6;
+}
+.sprint-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto 10px;
+}
+.sprint-time {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.sprint-time.low {
+    color: var(--bad);
+}
+.sprint-score {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.sprint-word {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ex:has(.sprint-word),
+.ex:has(.spell-fb),
+main > div > .ex {
+    max-width: 720px;
+    margin: 0 auto;
+}
+.spell-fb {
+    display: grid;
+    gap: 10px;
+    margin-top: 12px;
+}
+/* spelling sprint: the letters hint under the word */
+.sprint-hint {
+    text-align: center;
+    color: var(--muted);
+    font-size: 1.15rem;
+    letter-spacing: 0.08em;
+    font-family: ui-monospace, Consolas, monospace;
+    margin: -6px 0 10px;
+    min-height: 1.6em;
+    white-space: pre-wrap;
+}
+.sprint-hint.shown {
+    color: var(--up);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    font-family: inherit;
+}

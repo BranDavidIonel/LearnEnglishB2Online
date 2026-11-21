@@ -13,10 +13,14 @@ return [
     |
     | See: https://inertiajs.com/server-side-rendering
     |
+    | Off in this app: every page is behind the login and built on browser-only
+    | APIs (speech synthesis, speech recognition, recording), so there is
+    | nothing to pre-render.
+    |
     */
 
     'ssr' => [
-        'enabled' => true,
+        'enabled' => false,
         'url' => 'http://127.0.0.1:13714',
         // 'bundle' => base_path('bootstrap/ssr/ssr.mjs'),
 

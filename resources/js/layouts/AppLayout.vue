@@ -1,68 +1,88 @@
 <template>
-    <div class="min-h-screen bg-[#0b1020] text-[#e9edfb]">
-        <!-- Placeholder shell: the real navigation replaces this header. -->
-        <header class="border-b border-[#2a3560] bg-[#0f1630]">
-            <div
-                class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6"
-            >
-                <Link :href="homeRoute().url">
-                    <BrandMark />
-                </Link>
-
-                <div class="flex items-center gap-3">
-                    <LanguageSwitcher />
-                    <Link
-                        :href="logoutRoute().url"
-                        method="post"
-                        as="button"
-                        class="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-[#97a3c9] transition hover:bg-white/10 hover:text-white"
-                    >
-                        <LogOut class="size-4" />
-                        <span class="hidden sm:inline">{{
-                            $t('Log out')
-                        }}</span>
-                    </Link>
-                </div>
-            </div>
-        </header>
-
-        <main class="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:py-8">
+    <SideNav />
+    <div class="content">
+        <TopBar @toggle-menu="menuOpen = !menuOpen" />
+        <main id="main">
             <slot />
         </main>
     </div>
+    <ToastStack />
 </template>
 
 <script lang="ts">
-import { LogOut } from '@lucide/vue';
-import { Link } from '@inertiajs/vue3';
 import { defineComponent } from 'vue';
-import BrandMark from '@/components/layout/BrandMark.vue';
-import LanguageSwitcher from '@/components/layout/LanguageSwitcher.vue';
+import ToastStack from '@/components/general/ToastStack.vue';
+import SideNav from '@/components/layout/SideNav.vue';
+import TopBar from '@/components/layout/TopBar.vue';
 import { setLocale } from '@/i18n';
-import { home, logout } from '@/routes';
+import type { Learner, Settings } from '@/types';
+import { setLearner, setSettings } from '@/utils/learner';
+import { stopSpeak } from '@/utils/speech';
 
-/** App shell of every signed-in page (placeholder, rebuilt with the real navigation). */
+/**
+ * The shell of every signed-in page (persistent: it stays while the pages change).
+ * Sidebar and content column are direct children of #app, as in the original markup.
+ */
 export default defineComponent({
     name: 'AppLayout',
 
-    components: { BrandMark, LanguageSwitcher, Link, LogOut },
+    components: { SideNav, ToastStack, TopBar },
 
     data() {
         return {
-            homeRoute: home,
-            logoutRoute: logout,
+            menuOpen: false,
         };
     },
 
+    computed: {
+        path(): string {
+            return this.$page.url.split(/[?#]/)[0];
+        },
+    },
+
     watch: {
-        // Keep the language of the page in sync with the one chosen on the server.
+        // A new page (not a reload of the same one): start at the top, with the
+        // phone menu closed and nothing still being read aloud.
+        path(): void {
+            window.scrollTo(0, 0);
+            this.menuOpen = false;
+            stopSpeak();
+        },
+
+        // The phone menu slides in when <body> has "menu-open" (layout.css).
+        menuOpen(open: boolean): void {
+            document.body.classList.toggle('menu-open', open);
+        },
+
         '$page.props.locale': {
             immediate: true,
-            handler(locale: string) {
+            handler(locale: string): void {
                 setLocale(locale);
                 document.documentElement.lang = locale;
             },
         },
+
+        '$page.props.learner': {
+            immediate: true,
+            handler(learner: Learner | null): void {
+                if (learner) {
+                    setLearner(learner);
+                }
+            },
+        },
+
+        '$page.props.settings': {
+            immediate: true,
+            handler(settings: Settings | null): void {
+                if (settings) {
+                    setSettings(settings);
+                }
+            },
+        },
+    },
+
+    beforeUnmount() {
+        document.body.classList.remove('menu-open');
     },
 });
 </script>

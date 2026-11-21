@@ -1,0 +1,56 @@
+/* ---------- menu: settings at the bottom, language + theme in the top bar ---------- */
+.side {
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    flex: 1;
+}
+.nav-gap {
+    flex: 1;
+    min-height: 14px;
+}
+.lang-switch {
+    display: flex;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 2px;
+}
+.lang-switch button {
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font-weight: 800;
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    border-radius: 99px;
+    cursor: pointer;
+}
+.lang-switch button:hover {
+    color: var(--text);
+}
+.lang-switch button.on {
+    background: var(--primary);
+    color: #fff;
+}
+.pill.theme-btn {
+    cursor: pointer;
+    padding: 4px 9px;
+}
+.pill.theme-btn:hover {
+    border-color: var(--primary2);
+}
+.status {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+/* "Log out" posts a form, so it is a button drawn exactly like the menu links above it */
+button.nav-item {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+}

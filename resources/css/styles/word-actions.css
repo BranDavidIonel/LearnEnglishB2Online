@@ -1,0 +1,26 @@
+/* ---------- my words: actions ---------- */
+.word-acts {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.icon-btn.word-act {
+    border: 1px solid var(--border);
+    background: var(--panel2);
+    font-weight: 800;
+    width: 34px;
+    height: 34px;
+}
+.icon-btn.word-act:hover {
+    border-color: var(--primary2);
+    background: color-mix(in srgb, var(--primary) 18%, var(--panel2));
+}
+.card.notice {
+    border-left: 6px solid var(--primary2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.filters {
+    align-items: center;
+}

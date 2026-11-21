@@ -1,5 +1,19 @@
 {
-    "Language": "Limba",
+    "App language": "Limba aplicației",
+    "Day streak": "Zile la rând",
+    "Flashcards": "Cartonașe",
+    "Games": "Jocuri",
+    "Grammar": "Gramatică",
+    "Learn": "Învață",
     "Log out": "Ieșire",
-    "Your English course, from A1 to B2. The lessons are on their way.": "Cursul tău de engleză, de la A1 la B2. Lecțiile sunt pe drum."
+    "Menu": "Meniu",
+    "My mistakes": "Greșelile mele",
+    "Placement test": "Test de nivel",
+    "Progress": "Progres",
+    "Speaking": "Vorbire",
+    "The level you are working on": "Nivelul la care lucrezi",
+    "Theme: :name — click for the next one": "Temă: :name — apasă pentru următoarea",
+    "Videos": "Video",
+    "Words": "Cuvinte",
+    "XP today / goal": "XP azi / obiectiv"
 }

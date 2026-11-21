@@ -1,0 +1,107 @@
+/* ---------- base: elements and small helpers ---------- */
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background: var(--bg);
+    color: var(--text);
+    font:
+        16px/1.55 'Segoe UI',
+        system-ui,
+        -apple-system,
+        Roboto,
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: var(--primary2);
+    text-decoration: none;
+}
+h1 {
+    font-size: 1.7rem;
+    margin: 0.2em 0;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 1.3rem;
+    margin: 0.3em 0;
+    line-height: 1.25;
+}
+h3 {
+    font-size: 1.05rem;
+    margin: 0 0 0.6em;
+}
+p {
+    margin: 0.4em 0;
+}
+ul {
+    margin: 0.4em 0;
+    padding-left: 1.3em;
+}
+li {
+    margin: 0.3em 0;
+}
+small {
+    font-size: 0.82rem;
+}
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+.muted {
+    color: var(--muted);
+}
+.small {
+    font-size: 0.85rem;
+}
+.center {
+    text-align: center;
+}
+.mt {
+    margin-top: 16px;
+}
+.hidden {
+    display: none !important;
+}
+.grow {
+    flex: 1;
+    min-width: 0;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row.center {
+    justify-content: center;
+}
+.row.between {
+    justify-content: space-between;
+}
+.row.wrap {
+    flex-wrap: wrap;
+}
+.row.gap-lg {
+    gap: 22px;
+}
+.fade-in {
+    animation: fade 0.25s ease;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}

@@ -1,5 +1,5 @@
 import type { Directive } from 'vue';
-import type { AuthUser } from './models';
+import type { AuthUser, Learner, Settings } from './models';
 
 // Extend ImportMeta interface for Vite...
 declare module 'vite/client' {
@@ -24,6 +24,10 @@ declare module '@inertiajs/core' {
             /** Languages offered by the switch, e.g. ['en', 'ro']. */
             locales: string[];
             auth: { user: AuthUser | null };
+            /** The learner's settings (null on the login page). */
+            settings: Settings | null;
+            /** Top bar and menu badge numbers (null on the login page). */
+            learner: Learner | null;
             [key: string]: unknown;
         };
         // Inertia::flash('success', …) in a controller, $page.flash on the page.
@@ -45,6 +49,10 @@ declare module 'vue' {
             key: string,
             replacements?: Record<string, string | number>,
         ) => string;
+        /** XP, streak, level and menu badges, kept fresh by the layout and by send(). See resources/js/utils/learner.ts. */
+        $learner: Learner;
+        /** Theme, speech rate, voice and sound. See resources/js/utils/learner.ts. */
+        $settings: Settings;
     }
 }
 

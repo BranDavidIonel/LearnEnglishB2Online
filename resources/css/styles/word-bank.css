@@ -1,0 +1,22 @@
+/* ---------- word bank ---------- */
+.bank-row .bar {
+    margin-top: 6px;
+    max-width: 320px;
+}
+.words-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-left: 6px solid var(--c, var(--primary2));
+}
+.words-card h3 {
+    margin: 0 0 4px;
+}
+.words-card .grow {
+    min-width: 220px;
+}
+.level-words {
+    margin: 6px 0 0;
+    color: var(--muted);
+}

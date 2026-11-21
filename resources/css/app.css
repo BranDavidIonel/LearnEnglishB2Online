@@ -1,24 +1,42 @@
-@import 'tailwindcss';
+/*
+ * The style sheet of the original app, kept class for class and split by subject
+ * (see docs/frontend-ui.md). Tailwind is loaded without its preflight: the original
+ * styles were written on top of the browser defaults, and the preflight would reset
+ * headings, lists, buttons and images under them. The ported styles live in the
+ * "components" layer, so Tailwind utilities can still adjust them when needed.
+ */
+@layer theme, base, components, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@import './styles/tokens.css' layer(components);
+@import './styles/base.css' layer(components);
+@import './styles/layout.css' layer(components);
+@import './styles/generic.css' layer(components);
+@import './styles/dashboard.css' layer(components);
+@import './styles/learn.css' layer(components);
+@import './styles/unit.css' layer(components);
+@import './styles/exercises.css' layer(components);
+@import './styles/flashcards.css' layer(components);
+@import './styles/progress-chart.css' layer(components);
+@import './styles/cambridge.css' layer(components);
+@import './styles/menu.css' layer(components);
+@import './styles/settings.css' layer(components);
+@import './styles/word-actions.css' layer(components);
+@import './styles/speaking.css' layer(components);
+@import './styles/word-bank.css' layer(components);
+@import './styles/verbs.css' layer(components);
+@import './styles/auth.css' layer(components);
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
-@theme inline {
-    --font-sans:
-        Instrument Sans, ui-sans-serif, system-ui, sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
-}
-
-/* Accent color of English Levels: indigo (#6366f1 is brand-500). */
-@theme {
-    --color-brand-50: oklch(96.2% 0.018 272.314);
-    --color-brand-100: oklch(93% 0.034 272.788);
-    --color-brand-200: oklch(87% 0.065 274.039);
-    --color-brand-300: oklch(78.5% 0.115 274.713);
-    --color-brand-400: oklch(67.3% 0.182 276.935);
-    --color-brand-500: oklch(58.5% 0.233 277.117);
-    --color-brand-600: oklch(51.1% 0.262 276.966);
-    --color-brand-700: oklch(45.7% 0.24 277.023);
-    --color-brand-800: oklch(39.8% 0.195 277.366);
-}
+/*
+ * "ring" (the progress ring) and "block" (in "check block") are class names of the
+ * original style sheet. Tailwind has utilities with the same names that would add a
+ * box shadow to every ring and turn the checkbox rows into blocks, so they are never
+ * generated.
+ */
+@source not inline('ring');
+@source not inline('block');

@@ -1,0 +1,68 @@
+/* Colour tokens and the four themes. Pages only use these variables, so every colour follows the theme. */
+:root {
+    --bg: #0b1020;
+    --bg2: #0f1630;
+    --panel: #151c36;
+    --panel2: #1c2547;
+    --border: #2a3560;
+    --text: #e9edfb;
+    --muted: #97a3c9;
+    --primary: #6366f1;
+    --primary2: #818cf8;
+    --ok: #22c55e;
+    --bad: #ef4444;
+    --warn: #f59e0b;
+    --c: var(--primary);
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    --radius: 16px;
+}
+/* Themes: dark (default, above), slate (softer dark), light (white), sepia (warm paper). */
+[data-theme='slate'] {
+    --bg: #1b1e26;
+    --bg2: #20242e;
+    --panel: #272c38;
+    --panel2: #323846;
+    --border: #434b5e;
+    --text: #e8eaf0;
+    --muted: #a6aec0;
+    --primary: #6d74f2;
+    --primary2: #a3a8ff;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+[data-theme='light'] {
+    --bg: #f5f6fa;
+    --bg2: #ffffff;
+    --panel: #ffffff;
+    --panel2: #eef1f8;
+    --border: #d8deec;
+    --text: #161d33;
+    --muted: #586380;
+    --primary: #4f46e5;
+    --primary2: #4338ca;
+    --ok: #15803d;
+    --bad: #dc2626;
+    --warn: #b45309;
+    --shadow: 0 6px 20px rgba(30, 41, 80, 0.08);
+}
+[data-theme='sepia'] {
+    --bg: #f3ead6;
+    --bg2: #ece0c6;
+    --panel: #fbf5e6;
+    --panel2: #f0e5cc;
+    --border: #d9c9a5;
+    --text: #3a2e1f;
+    --muted: #766650;
+    --primary: #a0521d;
+    --primary2: #8a4416;
+    --ok: #3f7d2c;
+    --bad: #b9382c;
+    --warn: #a15c07;
+    --shadow: 0 6px 20px rgba(90, 60, 20, 0.12);
+}
+/* on the light themes the status colours are darker, so buttons in them need white text */
+[data-theme='light'] .btn.success,
+[data-theme='light'] .btn.warn,
+[data-theme='sepia'] .btn.success,
+[data-theme='sepia'] .btn.warn {
+    color: #fff;
+}

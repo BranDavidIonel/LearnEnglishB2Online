@@ -1,24 +1,30 @@
 <template>
-    <div class="flex items-center gap-2.5">
-        <span
-            class="grid size-10 shrink-0 place-items-center rounded-xl bg-linear-to-br from-[#6366f1] to-[#a855f7] font-extrabold text-white"
-        >
-            EN
+    <component
+        :is="href ? 'Link' : 'div'"
+        :href="href || undefined"
+        class="brand"
+    >
+        <span class="brand-logo">EN</span>
+        <span>
+            <strong>{{ $page.props.name }}</strong>
+            <small>A1 → B2</small>
         </span>
-        <span class="text-left leading-tight">
-            <span class="block font-semibold text-[#e9edfb]">
-                {{ $page.props.name }}
-            </span>
-            <span class="block text-xs text-[#97a3c9]">A1 → B2</span>
-        </span>
-    </div>
+    </component>
 </template>
 
 <script lang="ts">
+import { Link } from '@inertiajs/vue3';
 import { defineComponent } from 'vue';
 
-/** The "EN" logo with the app name, like in the sidebar of the first version. */
+/** The "EN" logo with the app name, at the top of the menu and above the login form. */
 export default defineComponent({
     name: 'BrandMark',
+
+    components: { Link },
+
+    props: {
+        /** Makes it a link (the menu links it to the home page). */
+        href: { type: String, default: '' },
+    },
 });
 </script>

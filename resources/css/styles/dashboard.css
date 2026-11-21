@@ -1,0 +1,149 @@
+/* ---------- dashboard ---------- */
+.hero {
+    background: linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--c) 30%, var(--panel)),
+        var(--panel) 70%
+    );
+    border-color: color-mix(in srgb, var(--c) 50%, var(--border));
+    padding: 26px;
+    position: relative;
+    overflow: hidden;
+}
+.hero-emoji {
+    font-size: 3.4rem;
+    line-height: 1;
+    margin-bottom: 6px;
+}
+.hero .row {
+    margin-top: 14px;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 12px;
+    margin: 14px 0;
+}
+.stat {
+    margin: 0;
+    text-align: center;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.stat-icon {
+    font-size: 1.8rem;
+}
+.stat-num {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.stat.link:hover {
+    border-color: var(--primary2);
+}
+.pulse {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary) 60%, transparent);
+    }
+    50% {
+        box-shadow: 0 0 0 9px transparent;
+    }
+}
+.road {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 14px 0;
+}
+.road-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: var(--text);
+    text-align: center;
+    padding: 10px 4px;
+    border-radius: 14px;
+}
+.road-step:hover {
+    background: var(--panel2);
+}
+.road-step.locked {
+    opacity: 0.55;
+}
+.to-goals {
+    display: grid;
+    gap: 12px;
+    margin-top: 8px;
+}
+.to-goal .row {
+    margin-bottom: 4px;
+}
+.week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    height: 150px;
+}
+.week-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.week-bar {
+    flex: 1;
+    width: 100%;
+    max-width: 34px;
+    background: var(--panel2);
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.week-fill {
+    width: 100%;
+    background: var(--primary);
+    border-radius: 8px;
+}
+.week-fill.goal {
+    background: var(--ok);
+}
+.week-xp {
+    font-size: 0.75rem;
+    color: var(--muted);
+    height: 1em;
+}
+.week-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+.week-day.today .week-label {
+    color: var(--text);
+    font-weight: 800;
+}
+.quick {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.quick-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: var(--text);
+    font-weight: 600;
+}
+.quick-item:hover {
+    border-color: var(--primary2);
+}

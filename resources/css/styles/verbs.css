@@ -1,0 +1,137 @@
+/* ---------- irregular verbs ---------- */
+.tab-verbs {
+    text-decoration: none;
+}
+.verb-forms {
+    font-size: 1.9rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.verb-forms i {
+    color: var(--muted);
+    font-style: normal;
+    font-weight: 400;
+}
+.verb-labels {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin: 2px 0 6px;
+}
+.verb-drill {
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center;
+}
+.verb-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 14px 0 4px;
+}
+.verb-inputs label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.verb-input {
+    width: 100%;
+    max-width: 220px;
+}
+.verb-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.verb-result {
+    padding: 4px 10px;
+    border-radius: 99px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+}
+.verb-result.ok {
+    color: var(--ok);
+    border-color: var(--ok);
+}
+.verb-result.bad {
+    color: var(--bad);
+    border-color: var(--bad);
+}
+.verb-rank {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.verb-help summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+.verb-help p {
+    margin: 8px 0 0;
+}
+@media (max-width: 560px) {
+    .verb-inputs {
+        grid-template-columns: 1fr;
+    }
+    .verb-forms {
+        font-size: 1.5rem;
+    }
+}
+.verb-usage {
+    display: grid;
+    gap: 4px;
+    margin: 10px 0 6px;
+    text-align: left;
+    background: var(--panel2);
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+.verb-usage-row {
+    display: grid;
+    grid-template-columns: 30px minmax(120px, 1fr) 2fr;
+    gap: 8px;
+    align-items: baseline;
+}
+.verb-help-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+.verb-help-grid > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.icon-btn.help-icon {
+    display: inline-grid;
+    place-items: center;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.forms-help .grammar-head {
+    padding-right: 32px;
+}
+@media (max-width: 640px) {
+    .verb-help-grid {
+        grid-template-columns: 1fr;
+    }
+    .verb-usage-row {
+        grid-template-columns: 30px 1fr;
+    }
+    .verb-usage-row > span:last-child {
+        grid-column: 2;
+    }
+}

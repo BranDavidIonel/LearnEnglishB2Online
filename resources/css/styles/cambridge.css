@@ -1,0 +1,226 @@
+/* ---------- cambridge ---------- */
+.ready {
+    border-left: 6px solid var(--muted);
+}
+.ready.ok {
+    border-left-color: var(--ok);
+}
+.ready.warn {
+    border-left-color: var(--warn);
+}
+.ready.bad {
+    border-left-color: var(--bad);
+}
+.ready-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    margin: 16px 0;
+}
+.ready-paper .bar {
+    margin: 5px 0 2px;
+}
+.exam-card {
+    display: flex !important;
+    gap: 18px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exam-card:hover {
+    border-color: var(--primary2);
+}
+.paper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 10px;
+}
+.paper {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+}
+.paper:hover {
+    border-color: var(--primary2);
+}
+.paper-icon {
+    font-size: 1.8rem;
+}
+.timer {
+    font-variant-numeric: tabular-nums;
+    font-weight: 800;
+    font-size: 1.3rem;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 4px 14px;
+}
+.timer.low {
+    color: var(--warn);
+    border-color: var(--warn);
+}
+.timer.over {
+    color: var(--bad);
+    border-color: var(--bad);
+}
+.paper-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: start;
+}
+.paper-cols.single {
+    grid-template-columns: 1fr;
+    max-width: 760px;
+}
+.paper-side {
+    position: sticky;
+    top: 64px;
+    max-height: calc(100vh - 80px);
+    overflow: auto;
+}
+.paper-side .card {
+    margin: 0 0 12px;
+}
+@media (max-width: 900px) {
+    .paper-cols {
+        grid-template-columns: 1fr;
+    }
+    .paper-side {
+        position: static;
+        max-height: none;
+    }
+}
+.passage {
+    line-height: 1.75;
+    font-size: 1.02rem;
+}
+.instr {
+    border-left: 4px solid var(--primary2);
+    padding: 12px 16px;
+}
+.cqs {
+    display: grid;
+    gap: 12px;
+}
+.cq {
+    display: flex;
+    gap: 12px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+}
+.cq.right {
+    border-color: var(--ok);
+}
+.cq.wrong {
+    border-color: var(--bad);
+}
+.cq-n {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--panel2);
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    flex: none;
+    font-size: 0.9rem;
+}
+.cq-text {
+    background: var(--panel2);
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+}
+.cq-q {
+    font-weight: 700;
+    margin: 4px 0 8px;
+}
+.cq-opts {
+    display: grid;
+    gap: 6px;
+}
+.cq-opt {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    background: var(--panel2);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.cq-opt b {
+    color: var(--muted);
+}
+.cq-opt:hover:not(:disabled) {
+    border-color: var(--primary2);
+}
+.cq-opt.sel {
+    border-color: var(--primary2);
+    background: color-mix(in srgb, var(--primary) 22%, var(--panel2));
+}
+.cq-opt.right {
+    border-color: var(--ok);
+    background: color-mix(in srgb, var(--ok) 18%, var(--panel2));
+}
+.cq-opt.wrong {
+    border-color: var(--bad);
+    background: color-mix(in srgb, var(--bad) 18%, var(--panel2));
+}
+.script {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 10px 16px;
+    margin: 12px 0;
+}
+.script summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+.wc {
+    font-weight: 700;
+    color: var(--muted);
+}
+.wc.ok {
+    color: var(--ok);
+}
+.wc.bad {
+    color: var(--bad);
+}
+.write-area {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 10px 0 6px;
+}
+.model {
+    white-space: normal;
+    line-height: 1.7;
+    background: var(--panel2);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+.stars {
+    display: flex;
+    gap: 6px;
+}
+.star {
+    font-size: 2rem;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: var(--border);
+    padding: 0 2px;
+}
+.star.on {
+    color: #facc15;
+}
