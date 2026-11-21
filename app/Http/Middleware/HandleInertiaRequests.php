@@ -2,6 +2,10 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\User;
+use App\Services\Progress\HistoryService;
+use App\Services\Progress\LearnerSummary;
+use App\Services\Progress\SettingsService;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -51,6 +55,23 @@ class HandleInertiaRequests extends Middleware
                 // Null on the login page.
                 'user' => fn () => $request->user()?->only(['id', 'name', 'email']),
             ],
+            // The top bar and the menu badges (types/models.ts "Learner"), null on the login page.
+            'learner' => fn () => $this->learner($request->user()),
+            // Theme, speech and sound (types/models.ts "Settings"), null on the login page.
+            'settings' => fn () => $request->user() ? app(SettingsService::class)->settings($request->user()) : null,
         ];
+    }
+
+    /** @return array<string, mixed>|null */
+    private function learner(?User $user): ?array
+    {
+        if ($user === null) {
+            return null;
+        }
+
+        // The first page of a day puts a point on the progress chart, like opening the original app.
+        app(HistoryService::class)->touch($user);
+
+        return app(LearnerSummary::class)->for($user);
     }
 }

@@ -1,0 +1,1476 @@
+{
+    "v": 1,
+    "xp": 230,
+    "goal": 50,
+    "streak": {
+        "count": 3,
+        "last": "2026-11-15"
+    },
+    "days": {
+        "2026-11-13": 100,
+        "2026-11-14": 100,
+        "2026-11-15": 30
+    },
+    "placement": {
+        "start": 3,
+        "scores": {
+            "a1": 1,
+            "a2": 1,
+            "b1": 1,
+            "b2": 1
+        },
+        "date": "2026-11-15"
+    },
+    "units": {
+        "a1-u01": {
+            "steps": {
+                "practice": true
+            },
+            "best": 0.16666666666666666,
+            "passed": false,
+            "review": false,
+            "tries": 1
+        },
+        "a1-u02": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u03": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u04": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u05": {
+            "steps": {
+                "practice": true
+            },
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u06": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u07": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u08": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u09": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a1-u10": {
+            "steps": {},
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "a2-u03": {
+            "steps": {
+                "practice": true
+            },
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        },
+        "b1-u08": {
+            "steps": {
+                "practice": true
+            },
+            "best": 0,
+            "passed": false,
+            "review": false,
+            "tries": 0
+        }
+    },
+    "exams": {
+        "a1": {
+            "best": 0.9333333333333333,
+            "passed": true,
+            "tries": 1,
+            "last": "2026-11-14"
+        },
+        "a2": {
+            "best": 0.5666666666666667,
+            "passed": false,
+            "tries": 2,
+            "last": "2026-11-15"
+        }
+    },
+    "words": {
+        "hello": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "goodbye": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "good morning": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "good evening": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "name": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "nice to meet you": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "how are you?": {
+            "box": 2,
+            "due": 20775,
+            "ok": 3,
+            "bad": 1
+        },
+        "fine": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "developer": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "teacher": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "doctor": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "student": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "project manager": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "client": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "colleague": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "freelancer": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "country": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "Romania": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "Romanian": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "Germany": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "Spain": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "the USA": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "city": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "phone number": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "email address": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "years old": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "surname": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "how do you spell it?": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "at": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "dot": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "engineer": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "designer": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "mother": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "father": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "brother": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sister": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "wife": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "husband": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "son": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "daughter": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "parents": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "grandparents": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "team": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "boss": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "teammate": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "best friend": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "dog": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cat": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "laptop": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "screen": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "keyboard": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "mouse": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "mobile phone": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "desk": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "chair": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cup": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bag": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "key": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "notebook": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "headphones": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "charger": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "glasses": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "black": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "white": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "blue": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "red": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "get up": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "have breakfast": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "take a shower": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "go to work": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "start work": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "check emails": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "write code": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "meeting": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "have lunch": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "finish work": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "go home": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "have dinner": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "go to bed": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "o'clock": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "half past": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "quarter past": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "quarter to": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "every day": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "coffee": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "tea": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "water": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "orange juice": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sandwich": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "pizza": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "salad": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "soup": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "chicken": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cheese": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bread": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cake": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "menu": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "the bill": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "waiter": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "I'd like": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "delicious": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "flat": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "kitchen": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bedroom": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bathroom": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "living room": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sofa": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "window": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "office": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "meeting room": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "printer": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "coffee machine": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "supermarket": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bank": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "train station": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "park": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "museum": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "bus stop": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "street": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cook": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "swim": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "drive": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "dance": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sing": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "play the guitar": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "play football": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "ride a bike": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "take photos": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "build websites": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "fix bugs": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "go to the gym": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "watch films": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "always": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "usually": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "often": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sometimes": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "never": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "weather": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "sunny": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cloudy": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "rain": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "cold": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "hot": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "jacket": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "T-shirt": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "jeans": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "shoes": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "umbrella": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "wear": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "video call": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "share the screen": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "right now": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "wait": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "on mute": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "airport": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "flight": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "passport": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "ticket": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "suitcase": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "plane": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "taxi": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "hotel": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "receptionist": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "check in": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "trip": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "beach": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "yesterday": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "last week": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "arrive": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "visit": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "stay": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "tired": {
+            "box": 6,
+            "due": 20832,
+            "ok": 0,
+            "bad": 0,
+            "known": true
+        },
+        "it's up to you": {
+            "box": 0,
+            "due": 20772,
+            "ok": 0,
+            "bad": 2
+        },
+        "a.m.": {
+            "box": 1,
+            "due": 20773,
+            "ok": 1,
+            "bad": 0
+        },
+        "a word that left the course": {
+            "box": 4,
+            "due": 20790,
+            "ok": 4,
+            "bad": 0
+        }
+    },
+    "verbs": {
+        "be": {
+            "box": 3,
+            "due": 20779,
+            "ok": 1,
+            "bad": 0,
+            "known": true
+        },
+        "feel": {
+            "box": 1,
+            "due": 20777,
+            "ok": 1,
+            "bad": 0
+        },
+        "go": {
+            "box": 0,
+            "due": 20772,
+            "ok": 2,
+            "bad": 3
+        }
+    },
+    "mistakes": [
+        "a1-u01:3",
+        "a1-u01:t2",
+        "a1-u02:r1",
+        "z9-u99:1"
+    ],
+    "games": {
+        "memory": 36,
+        "sprint": 16,
+        "spell": 7
+    },
+    "settings": {
+        "theme": "light",
+        "rate": 0.9,
+        "voice": "Microsoft Ryan Online (Natural) - English (United Kingdom)",
+        "sound": true
+    },
+    "speak": {
+        "said": 20,
+        "scen": {
+            "a1-s01": 0.9500000000000001,
+            "role-a1-u01": 1
+        },
+        "best": {
+            "pairs": 8,
+            "sprint": 9
+        }
+    },
+    "flags": {
+        "keepSkippedWords": true
+    },
+    "cambridge": {
+        "pet": {
+            "pet-test1": {
+                "reading": {
+                    "score": 0.8125,
+                    "correct": 26,
+                    "total": 32,
+                    "parts": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        5,
+                        4
+                    ],
+                    "date": "2026-11-15"
+                },
+                "drafts": {
+                    "0": "Hello Sam!\nThanks for your email.",
+                    "1": "My perfect day…"
+                },
+                "writing": {
+                    "score": 0.5,
+                    "date": "2026-11-15"
+                }
+            },
+            "pet-test2": {}
+        },
+        "fce": {
+            "fce-test1": {
+                "drafts": {}
+            },
+            "fce-test2": {
+                "listening": {
+                    "score": 1,
+                    "correct": 30,
+                    "total": 30,
+                    "parts": [
+                        8,
+                        6,
+                        5,
+                        11
+                    ],
+                    "date": "2026-11-14"
+                }
+            }
+        }
+    },
+    "history": {
+        "2026-11-13": {
+            "xp": 100,
+            "w": 150,
+            "b1": 60.4,
+            "b2": 45.3
+        },
+        "2026-11-14": {
+            "xp": 200,
+            "w": 160,
+            "v": 0,
+            "b1": 68.1,
+            "b2": 51.1
+        },
+        "2026-11-15": {
+            "xp": 230,
+            "w": 172,
+            "b1": 100,
+            "b2": 75
+        }
+    }
+}

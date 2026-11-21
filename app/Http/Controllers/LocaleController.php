@@ -17,6 +17,8 @@ class LocaleController extends Controller
         ]);
 
         $request->session()->put(SetLocale::SESSION, $validated['locale']);
+        // Signed in: remembered for the next logins too.
+        $request->user()?->update(['locale' => $validated['locale']]);
 
         return back();
     }
