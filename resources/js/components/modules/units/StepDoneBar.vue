@@ -1,5 +1,10 @@
 <template>
-    <SessionSave v-if="save" :save="save" @saved="next" />
+    <SessionSave
+        v-if="save"
+        :save="save"
+        :keeps-answers="false"
+        @saved="next"
+    />
     <div class="row center mt">
         <button
             type="button"
@@ -17,13 +22,13 @@ import { router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
 import { defineComponent, markRaw } from 'vue';
 import { completeStep } from '@/api/progress';
+import SessionSave from '@/components/general/SessionSave.vue';
 import { step as stepRoute } from '@/routes/units';
 import type { LessonStep } from '@/types';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
 import { toast } from '@/utils/toast';
-import type { ResumableSave } from './resumableSave';
-import { resumableSave } from './resumableSave';
-import SessionSave from './SessionSave.vue';
 import { nextStep } from './steps';
 
 /**
@@ -44,14 +49,14 @@ export default defineComponent({
 
     data() {
         return {
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
     methods: {
         done(): void {
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     async () => {
                         const answer = await completeStep(
                             this.unitId,

@@ -83,10 +83,11 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import ChipTag from '@/components/general/ChipTag.vue';
 import LevelChip from '@/components/general/LevelChip.vue';
+import { STATUS } from '@/components/modules/words/status';
 import type { ReviewStatus } from '@/types';
 import { LEVELS } from '@/utils/levels';
 import type { VerbItem } from './verbs';
-import { PATTERNS, STATUS, forms, matchesSearch, sayForms } from './verbs';
+import { PATTERNS, forms, matchesSearch, sayForms } from './verbs';
 
 // The four marks of "how well you know it": boxes 1 to 4 and up light them.
 const BOX_MARKS = [0, 1, 2, 3];

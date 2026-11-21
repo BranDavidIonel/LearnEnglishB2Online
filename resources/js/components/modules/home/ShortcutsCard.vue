@@ -24,7 +24,7 @@
                 }}</span>
             </Link>
             <Link class="quick-item" :href="links.videos">
-                🎬<span>{{ $t('Videos') }}</span>
+                🎬<span>{{ $t('Videos [shortcut]') }}</span>
             </Link>
             <Link class="quick-item" :href="links.cambridge">
                 📝<span>{{ $t('Cambridge practice tests') }}</span>

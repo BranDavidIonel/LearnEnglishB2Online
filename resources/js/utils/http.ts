@@ -92,14 +92,7 @@ async function fetchWithRetry(
             return await fetch(url, init);
         } catch (error) {
             if (attempt >= RETRY_DELAYS.length) {
-                toast(
-                    trans(
-                        'Your progress could not be saved. Check the connection.',
-                        {},
-                        getLocale(),
-                    ),
-                    'warn',
-                );
+                notSaved();
 
                 throw error;
             }
@@ -125,7 +118,7 @@ function headers(): Record<string, string> {
 }
 
 /** Laravel puts the CSRF token in the XSRF-TOKEN cookie (URL-encoded) on every response. */
-export function xsrfToken(): string | null {
+function xsrfToken(): string | null {
     if (typeof document === 'undefined') {
         return null;
     }
@@ -160,6 +153,10 @@ function failure(status: number, body: unknown): HttpError {
         window.location.reload();
     } else if (status === 401) {
         window.location.assign(login.url());
+    } else if (status !== 422) {
+        // A server error is not retried: the learner is told, as after a network failure.
+        // Validation errors (422) are the caller's to show.
+        notSaved();
     }
 
     const answer = isObject(body) ? body : {};
@@ -172,6 +169,18 @@ function failure(status: number, body: unknown): HttpError {
         : {};
 
     return new HttpError(status, message, errors);
+}
+
+/** The one message for a write that did not reach the database. */
+function notSaved(): void {
+    toast(
+        trans(
+            'Your progress could not be saved. Check the connection.',
+            {},
+            getLocale(),
+        ),
+        'warn',
+    );
 }
 
 /** Puts the learner summary and the settings of an answer into the shared learner state. */

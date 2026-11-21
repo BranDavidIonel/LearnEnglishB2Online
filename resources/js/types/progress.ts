@@ -1,7 +1,7 @@
 // The learner's progress as the server sends it: the Resources of app/Http/Resources and the
 // answers of the progress API (resources/js/api/progress.ts). See docs/backend.md.
 import type { IrregularVerb, VocabWord } from './content';
-import type { Learner, LevelId, Settings, ThemeId } from './models';
+import type { Learner, LevelId, Settings } from './models';
 
 /** A lesson step of a unit (the unit test is "test", it is not a lesson step). */
 export type LessonStep =
@@ -254,11 +254,4 @@ export interface CambridgeResultInput {
     correct?: number;
     total?: number;
     parts?: number[];
-}
-
-/** A theme of the theme picker. */
-export interface ThemeOption {
-    id: ThemeId;
-    name: string;
-    swatch: [string, string, string];
 }

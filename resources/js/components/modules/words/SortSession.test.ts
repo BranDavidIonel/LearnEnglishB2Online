@@ -15,7 +15,6 @@ import { trans } from '@/i18n';
 import type { Replacements } from '@/i18n';
 import type { McExercise } from '@/types';
 import { HttpError } from '@/utils/http';
-import { toastState } from '@/utils/toast';
 import SortSession from './SortSession.vue';
 import type { SortWord } from './types';
 
@@ -162,9 +161,6 @@ describe('SortSession', () => {
 
         expect(session.text()).toContain('Not everything was saved');
         expect(session.find('.fc').exists()).toBe(false);
-        expect(toastState.toasts.map((toast) => toast.message)).toContain(
-            'Your progress could not be saved. Check the connection.',
-        );
         press(' ');
         press('2');
         expect(learnWord).not.toHaveBeenCalled();

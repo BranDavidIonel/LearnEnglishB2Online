@@ -40,12 +40,12 @@
                 {{ $t('Daily goal (XP)') }}
                 <select @change="changeGoal">
                     <option
-                        v-for="goal in GOALS"
-                        :key="goal.xp"
-                        :value="goal.xp"
-                        :selected="goal.xp === $learner.goal"
+                        v-for="goal in goals"
+                        :key="goal"
+                        :value="goal"
+                        :selected="goal === $learner.goal"
                     >
-                        {{ goal.xp }} XP · {{ $t(goal.name) }}
+                        {{ goalLabel(goal) }}
                     </option>
                 </select>
             </label>
@@ -110,6 +110,7 @@
 
 <script lang="ts">
 import { Head, router } from '@inertiajs/vue3';
+import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { setGoal, updateSettings } from '@/api/progress';
 import PageHeader from '@/components/layout/PageHeader.vue';
@@ -130,13 +131,13 @@ const LANGUAGES = [
     { code: 'ro', label: '🇷🇴 Română' },
 ];
 
-// The daily goals the server accepts, with their names (translation keys).
-const GOALS = [
-    { xp: 20, name: 'easy' },
-    { xp: 50, name: 'regular' },
-    { xp: 100, name: 'serious' },
-    { xp: 150, name: 'intense' },
-];
+// The names of the daily goals the server offers (translation keys), by XP.
+const GOAL_NAMES: Record<number, string> = {
+    20: 'easy',
+    50: 'regular',
+    100: 'serious',
+    150: 'intense',
+};
 
 const RATES = [
     { value: 0.7, name: 'Slow' },
@@ -161,10 +162,14 @@ export default defineComponent({
         ThemePicker,
     },
 
+    props: {
+        /** The daily goals to choose from (XP). */
+        goals: { type: Array as PropType<number[]>, required: true },
+    },
+
     data() {
         return {
             LANGUAGES,
-            GOALS,
             RATES,
             canListen: canListen(),
             voices: englishVoices(),
@@ -189,6 +194,12 @@ export default defineComponent({
 
     methods: {
         home,
+
+        goalLabel(goal: number): string {
+            const name = GOAL_NAMES[goal];
+
+            return name ? `${goal} XP · ${this.$t(name)}` : `${goal} XP`;
+        },
 
         loadVoices(): void {
             this.voices = englishVoices();

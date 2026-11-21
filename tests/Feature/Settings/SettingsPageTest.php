@@ -17,6 +17,7 @@ it('shows the settings page with the settings, the goal and the account', functi
 
     $this->actingAs($this->user)->get(route('settings'))->assertOk()->assertInertia(fn (Assert $page) => $page
         ->component('Settings')
+        ->where('goals', [20, 50, 100, 150])
         ->where('settings', ['theme' => 'sepia', 'rate' => 1.05, 'voice' => null, 'sound' => false])
         ->where('learner.goal', 100)
         ->where('auth.user.name', 'Ana')

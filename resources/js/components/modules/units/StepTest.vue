@@ -101,15 +101,15 @@ import { recordUnitTest, updateMistakes } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import { home, mistakes } from '@/routes';
 import { show as examRoute } from '@/routes/exams';
 import { show as unitRoute, step as stepRoute } from '@/routes/units';
 import type { ExerciseResult, UnitTestAnswer } from '@/types';
 import { confetti } from '@/utils/confetti';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
-import type { ResumableSave } from './resumableSave';
-import { resumableSave } from './resumableSave';
-import SessionSave from './SessionSave.vue';
 import { STEP_INFO } from './steps';
 import type { LevelTag, UnitHead, UnitTestData } from './types';
 
@@ -136,7 +136,7 @@ export default defineComponent({
             run: 0,
             results: [] as ExerciseResult[],
             answer: null as UnitTestAnswer | null,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -280,7 +280,7 @@ export default defineComponent({
 
             const score = this.score;
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     () =>
                         updateMistakes({ add: keys(false), clear: keys(true) }),
                     async () => {

@@ -11,8 +11,6 @@ export interface SpeakOptions {
     onend?: () => void;
 }
 
-const DEFAULT_RATE = 0.9;
-
 // Chrome cuts off long utterances after about 15 seconds, so longer texts are read sentence by sentence.
 const LONG_TEXT = 180;
 
@@ -58,7 +56,7 @@ export function englishVoices(): SpeechSynthesisVoice[] {
     return voices;
 }
 
-const rate = (): number => learnerState.settings.rate || DEFAULT_RATE;
+const rate = (): number => learnerState.settings.rate;
 
 /** The voice chosen in the settings, else the best English voice available. */
 function pickVoice(): SpeechSynthesisVoice | null {

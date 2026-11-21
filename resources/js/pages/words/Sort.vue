@@ -1,7 +1,7 @@
 <template>
     <Head :title="$t('Words')" />
     <PageHeader
-        :title="$t('📚 :level words', { level: level.name })"
+        :title="$t('📚 :level words [page]', { level: level.name })"
         :sub="
             $t(
                 'Check what you know quickly, :n words at a time: see each one, say whether you knew it, and the new ones go into your flashcards.',

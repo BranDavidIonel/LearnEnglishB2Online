@@ -129,7 +129,6 @@ import { confetti } from '@/utils/confetti';
 import { shuffle } from '@/utils/random';
 import { sfx } from '@/utils/sound';
 import { speak, stopSpeak } from '@/utils/speech';
-import { reportNotSaved } from './saving';
 import type { SortWord } from './types';
 
 type Phase = 'cards' | 'quiz' | 'done' | 'failed';
@@ -363,18 +362,15 @@ export default defineComponent({
         },
 
         save(request: Promise<unknown>): void {
-            this.saves.push(
-                request.catch((error: unknown) => this.fail(error)),
-            );
+            this.saves.push(request.catch(() => this.fail()));
         },
 
         /** The first save that fails stops the batch: the learner sees what happened. */
-        fail(error: unknown): void {
+        fail(): void {
             if (this.phase === 'failed') {
                 return;
             }
 
-            reportNotSaved(error);
             this.ended = true;
             this.stopKeys();
             this.phase = 'failed';

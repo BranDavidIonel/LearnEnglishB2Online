@@ -1,6 +1,6 @@
 // What the irregular verbs page shares between its pieces: the verb as the page gets it, the
-// numbers of a session, the labels of the statuses and patterns, and small text helpers.
-import type { ReviewStatus, VerbWithState } from '@/types';
+// numbers of a session, the labels of the patterns, and small text helpers.
+import type { VerbWithState } from '@/types';
 import { speak } from '@/utils/speech';
 import { md } from '@/utils/text';
 
@@ -34,13 +34,6 @@ export const FREE_PRACTICE_MIN = 4;
 
 /** Colour of the "learned" bar (the B1 colour, as in the original page). */
 export const VERBS_COLOR = '#a78bfa';
-
-/** Label (translation key) and chip kind of each status. */
-export const STATUS: Record<ReviewStatus, { label: string; kind: string }> = {
-    learned: { label: '✅ Learned', kind: 'ok' },
-    learning: { label: '🌱 Learning', kind: 'now' },
-    new: { label: '🆕 To learn', kind: 'lock' },
-};
 
 /** Name (translation key) and example of each pattern, in the order of the pattern filter. */
 export const PATTERNS: Record<VerbPattern, { name: string; example: string }> =

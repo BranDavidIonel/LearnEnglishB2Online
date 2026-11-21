@@ -5,7 +5,7 @@
         :total="items.length"
         :back="back"
     >
-        <RoundSave v-if="finished" :save="saves" @saved="celebrate">
+        <SessionSave v-if="finished" :save="saves" @saved="celebrate">
             <ResultCard
                 :score="good / items.length"
                 :title="$t('Round finished')"
@@ -22,7 +22,7 @@
                     <Link class="btn" :href="back">{{ $t('Back') }}</Link>
                 </template>
             </ResultCard>
-        </RoundSave>
+        </SessionSave>
         <div v-else-if="question" :key="index" class="ex fade-in">
             <div class="ex-type">{{ $t('Answer aloud') }}</div>
             <div class="ex-q">
@@ -75,7 +75,7 @@
                     {{ $t('👁 Show a good answer') }}
                 </button>
                 <button type="button" class="btn primary" @click="nextQuestion">
-                    {{ $t('Next question →') }}
+                    {{ $t('Next → [question]') }}
                 </button>
             </div>
         </div>
@@ -88,14 +88,15 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import MicPanel from '@/components/modules/speaking/MicPanel.vue';
-import RoundSave from '@/components/modules/speaking/RoundSave.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import type { SpeakingQuestion } from '@/types';
 import { confetti } from '@/utils/confetti';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
-import { sayAsync, saveQueue, wordCount } from '@/utils/speaking';
+import { sayAsync, wordCount } from '@/utils/speaking';
 import { stopSpeak } from '@/utils/speech';
 
 /** An answer of 4 words or more counts as a real answer. */
@@ -112,7 +113,7 @@ export default defineComponent({
         Link,
         MicPanel,
         ResultCard,
-        RoundSave,
+        SessionSave,
         SessionShell,
         SpeakButton,
     },

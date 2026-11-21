@@ -13,7 +13,7 @@
             <div class="stat-icon">🔥</div>
             <div class="stat-num">{{ $learner.streak }}</div>
             <div class="muted">
-                {{ $t('day streak', { count: $learner.streak }) }}
+                {{ $t('day streak [total]') }}
             </div>
         </div>
         <div class="card stat">

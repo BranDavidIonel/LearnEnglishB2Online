@@ -1,39 +1,32 @@
 <template>
     <slot v-if="state === 'saved'" />
-    <div v-else-if="failed" class="alert warn">
-        <p>
-            {{
-                $t(
-                    'Your result could not be saved. Check the connection and try again — your answers are kept.',
-                )
-            }}
-        </p>
-        <button
-            type="button"
-            class="btn primary"
-            :disabled="state === 'sending'"
-            @click="send"
-        >
-            {{ $t('🔁 Try again') }}
-        </button>
-    </div>
+    <SaveAlert
+        v-else-if="failed"
+        :busy="state === 'sending'"
+        :keeps-answers="keepsAnswers"
+        @retry="send"
+    />
 </template>
 
 <script lang="ts">
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
-import type { ResumableSave } from './resumableSave';
+import type { SaveQueue } from '@/utils/saving';
+import SaveAlert from './SaveAlert.vue';
 
 /**
- * Saves the result of a session, then shows it (the default slot). When a request fails, it
- * says so and offers to send the rest again, so the answers are never lost.
- * Give it a new :key for every new session.
+ * The end of a session: sends what the session still has to save, then shows its result (the
+ * default slot) and emits `saved`. When a request fails it says so and offers to send the rest
+ * again, so nothing the learner did is lost. Give it a new :key for every new session.
  */
 export default defineComponent({
     name: 'SessionSave',
 
+    components: { SaveAlert },
+
     props: {
-        save: { type: Object as PropType<ResumableSave>, required: true },
+        save: { type: Object as PropType<SaveQueue>, required: true },
+        keepsAnswers: { type: Boolean, default: true },
     },
 
     emits: ['saved'],
@@ -58,7 +51,7 @@ export default defineComponent({
     methods: {
         async send(): Promise<void> {
             this.state = 'sending';
-            const saved = await this.save.run();
+            const saved = await this.save.flush();
 
             if (!this.alive) {
                 return;

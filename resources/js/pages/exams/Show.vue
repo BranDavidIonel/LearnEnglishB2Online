@@ -63,7 +63,9 @@
             <template v-else-if="phase === 'intro'">
                 <EmptyState
                     icon="🎓"
-                    :title="$t(':level level exam', { level: level.name })"
+                    :title="
+                        $t(':level level exam [intro]', { level: level.name })
+                    "
                     :text="
                         $t(
                             ':count questions from all units (3 from each). You need at least :pct%. If you don\'t pass, I\'ll show you exactly which units to review.',
@@ -108,7 +110,9 @@
                 :key="run"
                 :items="shuffled"
                 mode="test"
-                :title="$t(':level level exam', { level: level.name })"
+                :title="
+                    $t(':level level exam [session]', { level: level.name })
+                "
                 @finish="finish"
                 @exit="leave"
             />
@@ -140,11 +144,9 @@ import { defineComponent, markRaw } from 'vue';
 import { addMistake, recordExam } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
 import ExamResult from '@/components/modules/units/ExamResult.vue';
-import type { ResumableSave } from '@/components/modules/units/resumableSave';
-import { resumableSave } from '@/components/modules/units/resumableSave';
-import SessionSave from '@/components/modules/units/SessionSave.vue';
 import type {
     ExamPageState,
     ExamUnit,
@@ -156,6 +158,8 @@ import { show as unitRoute } from '@/routes/units';
 import type { ExamAnswer, ExamState, ExerciseResult } from '@/types';
 import { confetti } from '@/utils/confetti';
 import { shuffle } from '@/utils/random';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
 
 /**
@@ -209,7 +213,7 @@ export default defineComponent({
             run: 0,
             shuffled: [] as KeyedItem[],
             answer: null as ExamAnswer | null,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -258,7 +262,7 @@ export default defineComponent({
             }));
 
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     ...(wrong.length ? [() => addMistake(wrong)] : []),
                     async () => {
                         this.answer = await recordExam(this.level.id, answers);

@@ -46,9 +46,10 @@
 import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import ChipTag from '@/components/general/ChipTag.vue';
+import { STATUS } from '@/components/modules/words/status';
 import VerbCard from './VerbCard.vue';
 import type { VerbItem } from './verbs';
-import { STATUS, sayForms } from './verbs';
+import { sayForms } from './verbs';
 
 /**
  * What the modal of a verb shows: its card, its status and what can be done with it

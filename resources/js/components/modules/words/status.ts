@@ -1,4 +1,4 @@
-// How a word's status is shown: the label (a translation key) and the kind of its chip.
+// How the status of a word or a verb is shown: the label (a translation key) and the kind of its chip.
 import type { ReviewStatus } from '@/types';
 
 export const STATUS: Record<ReviewStatus, { label: string; kind: string }> = {

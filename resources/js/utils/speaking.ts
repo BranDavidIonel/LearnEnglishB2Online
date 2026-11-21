@@ -287,59 +287,6 @@ export const SOUND_ALIKE_PAIRS: readonly [string, string][] = [
     ['heat', 'eat'],
 ];
 
-// ---------- saving ----------
-
-/**
- * The saves of a round: sentences said count as soon as they are said, the result at the end.
- * Requests go out one after another; when one fails (no network) it and everything after it
- * wait, and flush() sends them again — never twice what already reached the server.
- */
-export interface SaveQueue {
-    /** Sends the request now, or keeps it for flush() while an earlier one is failing. */
-    add(request: () => Promise<unknown>): void;
-    /** Sends whatever is still waiting; false when a request failed again. */
-    flush(): Promise<boolean>;
-}
-
-export function saveQueue(): SaveQueue {
-    const waiting: (() => Promise<unknown>)[] = [];
-    let failed = false;
-    let chain: Promise<boolean> = Promise.resolve(true);
-
-    const drain = async (): Promise<boolean> => {
-        while (waiting.length) {
-            try {
-                await waiting[0]();
-            } catch {
-                failed = true;
-
-                return false;
-            }
-
-            waiting.shift();
-        }
-
-        return true;
-    };
-
-    return {
-        add(request) {
-            waiting.push(request);
-
-            // After a failure the learner is told once, at the end of the round, not for every sentence.
-            if (!failed) {
-                chain = chain.then(drain);
-            }
-        },
-        flush() {
-            failed = false;
-            chain = chain.then(drain);
-
-            return chain;
-        },
-    };
-}
-
 // ---------- speech ----------
 
 /** Says a text and resolves when it has been said (or after a safety timeout, if speech never ends). */

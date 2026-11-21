@@ -65,7 +65,6 @@ import {
     testTitle,
 } from '@/components/modules/cambridge/exam';
 import type { ScoreKind } from '@/components/modules/cambridge/exam';
-import { reloadOnHistory } from '@/components/modules/cambridge/freshProps';
 import ReadinessCard from '@/components/modules/cambridge/ReadinessCard.vue';
 import type {
     ExamDetails,
@@ -98,20 +97,7 @@ export default defineComponent({
     data() {
         return {
             paperIcons: PAPER_ICONS,
-            stopReloading: null as (() => void) | null,
         };
-    },
-
-    created() {
-        // Back to this page from a paper: show the results saved meanwhile.
-        this.stopReloading = reloadOnHistory('cambridge/Exam', [
-            'readiness',
-            'tests',
-        ]);
-    },
-
-    beforeUnmount() {
-        this.stopReloading?.();
     },
 
     methods: {

@@ -3,7 +3,6 @@
     "1 word from the earlier levels is still “to learn”. The honest way is a quick check, :batch at a time: see each word, say whether you knew it, and the new ones go into your flashcards. Or mark them all as known (you can change any of them later).|:count words from the earlier levels are still “to learn”. The honest way is a quick check, :batch at a time: see each word, say whether you knew it, and the new ones go into your flashcards. Or mark them all as known (you can change any of them later).": "Ai 1 cuvânt din nivelurile de dinainte încă „de învățat”. Cel mai corect e să îl verifici rapid, câte :batch: îl vezi, spui dacă îl știai, iar dacă e nou intră la cartonașe. Sau îl marchezi ca știut (îl poți schimba oricând).|Ai :count cuvinte din nivelurile de dinainte încă „de învățat”. Cel mai corect e să le verifici rapid, câte :batch: le vezi, spui dacă le știai, iar cele noi intră la cartonașe. Sau le marchezi pe toate ca știute (le poți schimba oricând, cuvânt cu cuvânt).",
     "1 word in common use at :level level, on top of the :core in “New words”. Go through them :batch at a time: say whether you knew each one, and the new ones go into your flashcards.|:count words in common use at :level level, on top of the :core in “New words”. Go through them :batch at a time: say whether you knew each one, and the new ones go into your flashcards.": "Încă 1 cuvânt uzual de nivel :level, pe lângă cele :core de la „Cuvinte noi”. Le parcurgi câte :batch: spui dacă le știai, iar cele noi intră la cartonașe.|Încă :count cuvinte uzuale de nivel :level, pe lângă cele :core de la „Cuvinte noi”. Le parcurgi câte :batch: spui dacă le știai, iar cele noi intră la cartonașe.",
     "1 word marked as known ✓|:count words marked as known ✓": "1 cuvânt marcat ca știut ✓|:count cuvinte marcate ca știute ✓",
-    "1 word|:count words": "1 cuvânt|:count cuvinte",
     ":learning being learned · :new to learn": ":learning în curs de învățare · :new de învățat",
     ":level · Unit :order · :title": ":level · Unitatea :order · :title",
     "A word becomes “learned” after you know it :n times in a row on the flashcards — or when you say you already know it.": "Un cuvânt devine „învățat” după ce îl știi la :n repetări la rând pe cartonașe — sau când spui tu că îl știi deja.",
@@ -91,5 +90,6 @@
     "🤔 Hard": "🤔 Greu",
     "🧠 1 new word went into your flashcards (:ok right first time).|🧠 :count new words went into your flashcards (:ok right first time).": "🧠 1 cuvânt nou a intrat la cartonașe (:ok recunoscute din prima).|🧠 :count cuvinte noi au intrat la cartonașe (:ok recunoscute din prima).",
     "🧠 1 new word went into your flashcards.|🧠 :count new words went into your flashcards.": "🧠 1 cuvânt nou a intrat la cartonașe.|🧠 :count cuvinte noi au intrat la cartonașe.",
-    "🧠 New for me": "🧠 Nou pentru mine"
+    "🧠 New for me": "🧠 Nou pentru mine",
+    "📚 :level words [page]": "📚 Cuvintele :level"
 }

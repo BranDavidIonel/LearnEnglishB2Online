@@ -227,7 +227,6 @@ import { addXp, gradeWord } from '@/api/progress';
 import WordPicture from '@/components/content/WordPicture.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
-import { reportNotSaved } from '@/components/modules/words/saving';
 import type { WordCounts } from '@/components/modules/words/types';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { home, learn } from '@/routes';
@@ -394,18 +393,14 @@ export default defineComponent({
         },
 
         save(request: Promise<unknown>): void {
-            this.saves.push(
-                request.catch((error: unknown) => this.fail(error)),
-            );
+            this.saves.push(request.catch(() => this.fail()));
         },
 
         /**
          * A grade that could not be saved ends the session at once, so the cards and the end
          * screen never show progress that was not kept.
          */
-        fail(error: unknown): void {
-            reportNotSaved(error);
-
+        fail(): void {
             if (this.view === 'session' || this.view === 'done') {
                 this.stop();
                 this.view = 'failed';

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\HandleInertiaRequests;
 use App\Http\Middleware\SetLocale;
 use App\Models\User;
 use Inertia\Testing\AssertableInertia as Assert;
@@ -42,4 +43,18 @@ it('remembers the language of the learner for the next login', function () {
     session()->flush();
 
     $this->post(route('login.store'), ['email' => $user->email, 'password' => 'secret-password'])->assertSessionHas(SetLocale::SESSION, 'ro');
+});
+
+it('sends a page visit as UTF-8 JSON, without escaping the Romanian letters', function () {
+    $version = app(HandleInertiaRequests::class)->version(request());
+    $response = $this->actingAs(User::factory()->create())
+        ->withSession([SetLocale::SESSION => 'ro'])
+        ->withHeaders(['X-Inertia' => 'true', 'X-Inertia-Version' => (string) $version])
+        ->get(route('grammar'))
+        ->assertOk()
+        ->assertHeader('X-Inertia', 'true');
+
+    // The page has Romanian letters ("Verbul „a fi”"), sent as they are, not as „ or ă.
+    expect($response->getContent())->toContain('Verbul „a fi”')
+        ->not->toMatch('/\\\\u[0-9a-f]{4}/');
 });

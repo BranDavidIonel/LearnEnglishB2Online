@@ -72,13 +72,13 @@ import { defineComponent, markRaw } from 'vue';
 import { completeStep } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import { show as unitRoute, step as stepRoute } from '@/routes/units';
 import type { ExerciseResult } from '@/types';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { speak, stopSpeak } from '@/utils/speech';
 import { md } from '@/utils/text';
-import type { ResumableSave } from './resumableSave';
-import { resumableSave } from './resumableSave';
-import SessionSave from './SessionSave.vue';
 import type { ReadingStep, UnitHead } from './types';
 
 /** Step 5: a short text (read aloud on request, translation on request) and questions about it. */
@@ -100,7 +100,7 @@ export default defineComponent({
             total: 0,
             first: false,
             xp: 0,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -124,7 +124,7 @@ export default defineComponent({
             this.right = results.filter((result) => result.correct).length;
             this.total = results.length;
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     async () => {
                         const answer = await completeStep(
                             this.unit.id,

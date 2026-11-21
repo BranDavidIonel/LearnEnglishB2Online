@@ -39,16 +39,14 @@ import { defineComponent, markRaw } from 'vue';
 import { addXp, completeStep, updateMistakes } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import { show as unitRoute, step as stepRoute } from '@/routes/units';
 import type { ExerciseResult } from '@/types';
 import { confetti } from '@/utils/confetti';
-import type { ResumableSave } from './resumableSave';
-import { resumableSave } from './resumableSave';
-import SessionSave from './SessionSave.vue';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
+import { ANSWER_XP } from './steps';
 import type { KeyedItem, UnitHead } from './types';
-
-// XP for each answer right on the first try.
-const XP_PER_ANSWER = 2;
 
 /**
  * Step 4: every exercise of the unit, with an explanation after each answer. Answers right
@@ -69,7 +67,7 @@ export default defineComponent({
             results: null as ExerciseResult[] | null,
             // A new run of the same exercises remounts the session.
             run: 0,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -98,7 +96,7 @@ export default defineComponent({
                 this.$t(':ok of :total right on the first try · +:xp XP ⚡', {
                     ok: this.right,
                     total: this.results?.length ?? 0,
-                    xp: this.right * XP_PER_ANSWER,
+                    xp: this.right * ANSWER_XP,
                 }),
                 this.score < 0.6
                     ? this.$t(
@@ -114,7 +112,7 @@ export default defineComponent({
 
         finish(results: ExerciseResult[]): void {
             this.results = results;
-            this.save = markRaw(resumableSave(this.requests(results)));
+            this.save = markRaw(saveQueue(this.requests(results)));
 
             if (this.score >= 0.8) {
                 confetti(1500);
@@ -129,7 +127,7 @@ export default defineComponent({
                     (result) => !result.correct && result.ex.type !== 'match',
                 ),
             );
-            const xp = this.right * XP_PER_ANSWER;
+            const xp = this.right * ANSWER_XP;
 
             return [
                 ...(clear.length || add.length

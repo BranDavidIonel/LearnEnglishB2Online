@@ -1,4 +1,4 @@
-import { createInertiaApp } from '@inertiajs/vue3';
+import { createInertiaApp, router } from '@inertiajs/vue3';
 import { i18n } from '@/i18n';
 import AppLayout from '@/layouts/AppLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
@@ -27,4 +27,20 @@ void createInertiaApp({
     progress: {
         color: '#6366f1',
     },
+});
+
+// The back and forward buttons bring a page back with the props it had when it was left (a unit
+// not passed yet, old counts, old drafts). Ask the server for them again: the page stays where it
+// is (same component, same scroll) and only its data changes. A page restored from the browser's
+// own cache (left for another site, then back) is frozen as it was, so it asks too.
+router.on('navigate', (event) => {
+    if (event.detail.type === 'history') {
+        router.reload();
+    }
+});
+
+window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+        router.reload();
+    }
 });

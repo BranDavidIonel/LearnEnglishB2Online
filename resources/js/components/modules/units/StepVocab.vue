@@ -96,14 +96,14 @@ import { completeStep } from '@/api/progress';
 import WordPicture from '@/components/content/WordPicture.vue';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { show as unitRoute, step as stepRoute } from '@/routes/units';
 import type { ExerciseItem, ExerciseResult, VocabWord } from '@/types';
 import { sample, shuffle } from '@/utils/random';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { speak, stopSpeak } from '@/utils/speech';
-import type { ResumableSave } from './resumableSave';
-import { resumableSave } from './resumableSave';
-import SessionSave from './SessionSave.vue';
 import type { UnitHead } from './types';
 
 // Questions of the quick check, and wrong options in each one.
@@ -139,7 +139,7 @@ export default defineComponent({
             score: 0,
             first: false,
             xp: 0,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -229,7 +229,7 @@ export default defineComponent({
                 results.filter((result) => result.correct).length /
                 results.length;
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     async () => {
                         const answer = await completeStep(
                             this.unit.id,

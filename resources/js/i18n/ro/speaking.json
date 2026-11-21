@@ -37,7 +37,6 @@
     "Listen to both words, then say the one asked for": "Ascultă ambele cuvinte, apoi spune-l pe cel cerut",
     "Locked level": "Nivel blocat",
     "Meanwhile, try the role-play from the lessons.": "Până atunci, încearcă jocul de rol din lecții.",
-    "Next question →": "Următoarea →",
     "Not yet — try again": "Încă nu — mai încearcă",
     "Nothing to practise yet": "Nimic de exersat încă",
     "on this computer": "pe calculator",
@@ -104,5 +103,6 @@
     "🗣️ Speaking": "🗣️ Vorbire",
     "🙋 Answer the question": "🙋 Răspunde la întrebare",
     "🙋 Answer the question · level :level": "🙋 Răspunde la întrebare · nivel :level",
-    "🤝 Conversations": "🤝 Conversații"
+    "🤝 Conversations": "🤝 Conversații",
+    "Next → [question]": "Următoarea →"
 }

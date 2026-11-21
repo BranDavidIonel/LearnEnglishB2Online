@@ -35,7 +35,7 @@
         </div>
     </div>
     <div v-else>
-        <RoundSave :save="saves" @saved="celebrate">
+        <SessionSave :save="saves" @saved="celebrate">
             <div class="result">
                 <div class="big-level">{{ score }}</div>
                 <h2>{{ endTitle }}</h2>
@@ -51,7 +51,7 @@
                     <Link class="btn" :href="back">{{ $t('Back') }}</Link>
                 </div>
             </div>
-        </RoundSave>
+        </SessionSave>
     </div>
 </template>
 
@@ -61,14 +61,16 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { addXp, speakRecord } from '@/api/progress';
 import EmptyState from '@/components/general/EmptyState.vue';
-import RoundSave from '@/components/modules/speaking/RoundSave.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import { confetti } from '@/utils/confetti';
 import { shuffle } from '@/utils/random';
 import type { ListeningStream, StreamUpdate } from '@/utils/recognition';
 import { listenStream, speechEngine } from '@/utils/recognition';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
-import type { SaveQueue, SprintWord } from '@/utils/speaking';
-import { letterHint, saidWord, saveQueue } from '@/utils/speaking';
+import type { SprintWord } from '@/utils/speaking';
+import { letterHint, saidWord } from '@/utils/speaking';
 import { speak } from '@/utils/speech';
 
 const SECONDS = 60;
@@ -82,7 +84,7 @@ const MAX_XP = 20;
 export default defineComponent({
     name: 'VoiceSprint',
 
-    components: { EmptyState, Link, RoundSave },
+    components: { EmptyState, Link, SessionSave },
 
     props: {
         words: { type: Array as PropType<SprintWord[]>, required: true },

@@ -5,6 +5,9 @@
 //   - resources/js/i18n/ro/*.json: front-end texts, one file per part of the app
 //     (auth.json, layout.json, …), so each part can be translated on its own.
 // A key must live in one file only (tests/Unit/TranslationsTest.php checks it).
+// When Romanian says one English text in two ways (the original "Videouri" on the home page,
+// "Video" in the menu), the second use gets a context in brackets at the end of its key:
+// $t('Videos [shortcut]'). English never shows the context.
 import { usePage } from '@inertiajs/vue3';
 import type { App, ComponentPublicInstance } from 'vue';
 import shared from '../../../lang/ro.json';
@@ -21,6 +24,9 @@ const romanianFiles = import.meta.glob<Dictionary>('./ro/*.json', {
 const messages: Record<string, Dictionary> = {
     ro: Object.assign({}, shared, ...Object.values(romanianFiles)),
 };
+
+/** " [shortcut]" at the end of a key. */
+const CONTEXT = / \[[^\]]+\]$/;
 
 let currentLocale = 'en';
 
@@ -61,7 +67,7 @@ export function trans(
     replacements: Replacements = {},
     locale: string = pageLocale(),
 ): string {
-    let text = messages[locale]?.[key] ?? key;
+    let text = messages[locale]?.[key] ?? key.replace(CONTEXT, '');
 
     // "1 word|:count words": the first form for a count of 1, the last one otherwise.
     if (text.includes('|') && typeof replacements.count === 'number') {

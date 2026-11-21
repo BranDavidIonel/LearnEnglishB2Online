@@ -10,7 +10,6 @@ import {
     pickLevel,
     roleConversation,
     saidWord,
-    saveQueue,
     scenarioConversation,
     sentencePassMark,
     SOUND_ALIKE_PAIRS,
@@ -258,44 +257,5 @@ describe('SOUND_ALIKE_PAIRS', () => {
     it('keeps the 30 pairs of two different words', () => {
         expect(SOUND_ALIKE_PAIRS).toHaveLength(30);
         expect(SOUND_ALIKE_PAIRS.every(([a, b]) => a !== b)).toBe(true);
-    });
-});
-
-describe('saveQueue', () => {
-    it('sends requests in order as they come', async () => {
-        const sent: number[] = [];
-        const queue = saveQueue();
-
-        queue.add(async () => sent.push(1));
-        queue.add(async () => sent.push(2));
-
-        expect(await queue.flush()).toBe(true);
-        expect(sent).toEqual([1, 2]);
-    });
-
-    it('keeps a failed request and what comes after it, and sends them again once', async () => {
-        const sent: string[] = [];
-        let online = false;
-        const queue = saveQueue();
-
-        queue.add(async () => sent.push('first'));
-        queue.add(async () => {
-            if (!online) {
-                throw new Error('offline');
-            }
-
-            sent.push('second');
-        });
-        queue.add(async () => sent.push('third'));
-
-        expect(await queue.flush()).toBe(false);
-        expect(sent).toEqual(['first']);
-
-        online = true;
-
-        expect(await queue.flush()).toBe(true);
-        expect(sent).toEqual(['first', 'second', 'third']);
-        expect(await queue.flush()).toBe(true);
-        expect(sent).toHaveLength(3);
     });
 });

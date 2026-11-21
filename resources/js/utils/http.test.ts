@@ -142,6 +142,20 @@ describe('send', () => {
         await expect(send('/api/next', {})).resolves.toEqual({ ok: true });
     });
 
+    it('tells the learner about a server error, but leaves a validation error to the caller', async () => {
+        fetchMock
+            .mockResolvedValueOnce(answer(500, { message: 'Server Error' }))
+            .mockResolvedValueOnce(answer(422, { message: 'Invalid.' }));
+
+        await expect(send('/api/a', {})).rejects.toMatchObject({ status: 500 });
+        expect(toastState.toasts.map((item) => item.message)).toEqual([
+            'Your progress could not be saved. Check the connection.',
+        ]);
+
+        await expect(send('/api/b', {})).rejects.toMatchObject({ status: 422 });
+        expect(toastState.toasts).toHaveLength(1);
+    });
+
     it('reloads the page when the session expired and goes to the login page on 401', async () => {
         fetchMock
             .mockResolvedValueOnce(answer(419, { message: 'Page Expired' }))
@@ -154,6 +168,7 @@ describe('send', () => {
 
         expect(reload).toHaveBeenCalledOnce();
         expect(assign).toHaveBeenCalledWith('/login');
+        expect(toastState.toasts).toHaveLength(0);
     });
 
     it('retries a network failure and succeeds when the connection is back', async () => {

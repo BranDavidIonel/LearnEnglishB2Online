@@ -186,7 +186,6 @@ import { sfx } from '@/utils/sound';
 import { speak } from '@/utils/speech';
 import { checkText } from '@/utils/text';
 import { toast } from '@/utils/toast';
-import { reportNotSaved } from './saving';
 import { STATUS } from './status';
 import type { ModalWord, UnitLabel } from './types';
 import WordCard from './WordCard.vue';
@@ -282,9 +281,7 @@ export default defineComponent({
         ): Promise<boolean> {
             try {
                 this.updateFrom(await save(this.current.en));
-            } catch (error) {
-                reportNotSaved(error);
-
+            } catch {
                 return false;
             }
 
@@ -378,8 +375,8 @@ export default defineComponent({
                 this.updateFrom(await gradeWord(this.current.en, 2));
                 await addXp(LESSON_XP);
                 this.view = 'learned';
-            } catch (error) {
-                reportNotSaved(error);
+            } catch {
+                // send() has told the learner, who can check the word again.
             } finally {
                 this.saving = false;
             }

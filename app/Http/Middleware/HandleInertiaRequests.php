@@ -6,8 +6,12 @@ use App\Models\User;
 use App\Services\Progress\HistoryService;
 use App\Services\Progress\LearnerSummary;
 use App\Services\Progress\SettingsService;
+use Closure;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
+use Inertia\Support\Header;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * The data every page gets (typed in resources/js/types/global.d.ts, "sharedPageProps").
@@ -34,6 +38,22 @@ class HandleInertiaRequests extends Middleware
     public function version(Request $request): ?string
     {
         return parent::version($request);
+    }
+
+    /**
+     * Pages sent as JSON (every visit after the first page) keep their Romanian letters and IPA
+     * as UTF-8 instead of \uXXXX escapes: the words page is a fifth smaller. Line and paragraph
+     * separators stay escaped, so the JSON is still safe as JavaScript.
+     */
+    public function handle(Request $request, Closure $next): Response
+    {
+        $response = parent::handle($request, $next);
+
+        if ($response instanceof JsonResponse && $response->headers->has(Header::INERTIA)) {
+            $response->setEncodingOptions($response->getEncodingOptions() | JSON_UNESCAPED_UNICODE);
+        }
+
+        return $response;
     }
 
     /**

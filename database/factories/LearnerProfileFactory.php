@@ -21,11 +21,11 @@ class LearnerProfileFactory extends Factory
         return [
             'user_id' => User::factory(),
             'xp' => 0,
-            'goal' => 50,
+            'goal' => (int) config('learning.rules.goal'),
             'streak_count' => 0,
             'streak_last' => null,
             'theme' => 'dark',
-            'speech_rate' => 0.9,
+            'speech_rate' => (float) config('learning.rules.rate.default'),
             'voice' => null,
             'sound' => true,
             'spoken' => 0,

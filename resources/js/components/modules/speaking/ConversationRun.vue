@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <RoundSave v-if="result" :save="saves" @saved="celebrate">
+        <SessionSave v-if="result" :save="saves" @saved="celebrate">
             <ResultCard
                 :score="result.score"
                 :title="resultTitle"
@@ -45,7 +45,7 @@
                     <Link class="btn" :href="back">{{ $t('Back') }}</Link>
                 </template>
             </ResultCard>
-        </RoundSave>
+        </SessionSave>
         <div v-else ref="panel" class="turn-panel card">
             <p v-if="partnerSpeaking" class="muted center">
                 {{
@@ -121,15 +121,16 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken, recordConversation } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import MicPanel from '@/components/modules/speaking/MicPanel.vue';
-import RoundSave from '@/components/modules/speaking/RoundSave.vue';
 import SaidWords from '@/components/modules/speaking/SaidWords.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { confetti } from '@/utils/confetti';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
 import type { Conversation, LearnerTurn } from '@/utils/speaking';
-import { averageScore, judgeTurn, sayAsync, saveQueue } from '@/utils/speaking';
+import { averageScore, judgeTurn, sayAsync } from '@/utils/speaking';
 import { speak, stopSpeak } from '@/utils/speech';
 import type { SpokenWord } from '@/utils/text';
 
@@ -157,7 +158,7 @@ export default defineComponent({
         Link,
         MicPanel,
         ResultCard,
-        RoundSave,
+        SessionSave,
         SaidWords,
         SessionShell,
         SpeakButton,

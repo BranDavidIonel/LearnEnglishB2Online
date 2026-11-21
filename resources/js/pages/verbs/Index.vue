@@ -165,45 +165,52 @@
                 @answer="onAnswer"
                 @done="onDone"
             />
-            <VerbSummary
+            <SessionSave
                 v-else-if="mode === 'summary' && summary"
                 :key="run"
-                :results="summary.results"
-                :title="summary.title"
-                :lines="summary.lines"
+                :save="saves"
+                @saved="refresh"
             >
-                <template #actions>
-                    <button
-                        v-if="summary.missed.length"
-                        class="btn primary big"
-                        @click="learn(summary.missed)"
-                    >
-                        {{
-                            $t('📖 Learn the :n you missed now', {
-                                n: summary.missed.length,
-                            })
-                        }}
-                    </button>
-                    <button
-                        v-if="dueVerbs.length"
-                        class="btn primary big"
-                        @click="review(dueVerbs.slice(0, REVIEW_MAX))"
-                    >
-                        {{ $t('🔁 Review :n due today', { n: reviewCount }) }}
-                    </button>
-                    <button
-                        v-if="freshVerbs.length"
-                        class="btn"
-                        :class="{ 'primary big': !dueVerbs.length }"
-                        @click="learn(freshVerbs.slice(0, BATCH))"
-                    >
-                        {{ $t('▶ The next :n verbs', { n: batchCount }) }}
-                    </button>
-                    <button class="btn" @click="showList">
-                        {{ $t('Verb list') }}
-                    </button>
-                </template>
-            </VerbSummary>
+                <VerbSummary
+                    :results="summary.results"
+                    :title="summary.title"
+                    :lines="summary.lines"
+                >
+                    <template #actions>
+                        <button
+                            v-if="summary.missed.length"
+                            class="btn primary big"
+                            @click="learn(summary.missed)"
+                        >
+                            {{
+                                $t('📖 Learn the :n you missed now', {
+                                    n: summary.missed.length,
+                                })
+                            }}
+                        </button>
+                        <button
+                            v-if="dueVerbs.length"
+                            class="btn primary big"
+                            @click="review(dueVerbs.slice(0, REVIEW_MAX))"
+                        >
+                            {{
+                                $t('🔁 Review :n due today', { n: reviewCount })
+                            }}
+                        </button>
+                        <button
+                            v-if="freshVerbs.length"
+                            class="btn"
+                            :class="{ 'primary big': !dueVerbs.length }"
+                            @click="learn(freshVerbs.slice(0, BATCH))"
+                        >
+                            {{ $t('▶ The next :n verbs', { n: batchCount }) }}
+                        </button>
+                        <button class="btn" @click="showList">
+                            {{ $t('Verb list') }}
+                        </button>
+                    </template>
+                </VerbSummary>
+            </SessionSave>
         </template>
     </div>
 
@@ -226,7 +233,7 @@
 <script lang="ts">
 import { Head, router } from '@inertiajs/vue3';
 import type { PropType } from 'vue';
-import { defineComponent } from 'vue';
+import { defineComponent, markRaw } from 'vue';
 import {
     addXp,
     forgetVerb,
@@ -236,14 +243,13 @@ import {
 } from '@/api/progress';
 import EmptyState from '@/components/general/EmptyState.vue';
 import ProgressBar from '@/components/general/ProgressBar.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
 import AppModal from '@/components/modals/AppModal.vue';
 import FormsHelp from '@/components/modules/verbs/FormsHelp.vue';
 import VerbDetails from '@/components/modules/verbs/VerbDetails.vue';
 import VerbDrill from '@/components/modules/verbs/VerbDrill.vue';
 import VerbList from '@/components/modules/verbs/VerbList.vue';
-import VerbStudy from '@/components/modules/verbs/VerbStudy.vue';
-import VerbSummary from '@/components/modules/verbs/VerbSummary.vue';
 import type { DrillResult, VerbItem } from '@/components/modules/verbs/verbs';
 import {
     BATCH,
@@ -252,10 +258,14 @@ import {
     REVIEW_MAX,
     VERBS_COLOR,
 } from '@/components/modules/verbs/verbs';
+import VerbStudy from '@/components/modules/verbs/VerbStudy.vue';
+import VerbSummary from '@/components/modules/verbs/VerbSummary.vue';
 import WordTabs from '@/components/modules/words/WordTabs.vue';
 import { home } from '@/routes';
 import type { ReviewStatus } from '@/types';
 import { sample } from '@/utils/random';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { stopSpeak } from '@/utils/speech';
 
 type Mode = 'list' | 'study' | 'drill' | 'summary';
@@ -276,8 +286,8 @@ interface Summary {
 /**
  * Irregular verbs, a tab of "My words": the three forms (go – went – gone) learned ten at a time
  * (study, then type them), tested first, reviewed with spaced repetition, and the whole list.
- * Each answer is saved at once; when a session ends the page asks the server for the fresh
- * statuses, counts and due verbs.
+ * Each answer is saved at once; the summary shows once everything is saved, and the page then
+ * asks the server for the fresh statuses, counts and due verbs.
  */
 export default defineComponent({
     name: 'VerbsIndex',
@@ -289,6 +299,7 @@ export default defineComponent({
         Head,
         PageHeader,
         ProgressBar,
+        SessionSave,
         VerbDetails,
         VerbDrill,
         VerbList,
@@ -323,8 +334,8 @@ export default defineComponent({
             summary: null as Summary | null,
             details: null as VerbItem | null,
             helpOpen: false,
-            // The saves of the running session: the fresh props are asked for once they are all done.
-            writes: [] as Promise<unknown>[],
+            // The saves of the running session; its summary waits for them.
+            saves: markRaw(saveQueue()) as SaveQueue,
         };
     },
 
@@ -378,6 +389,7 @@ export default defineComponent({
         start(mode: Mode, verbs: VerbItem[]): void {
             stopSpeak();
             this.sessionVerbs = verbs;
+            this.saves = markRaw(saveQueue());
             this.xp = 0;
             this.summary = null;
             this.mode = mode;
@@ -417,26 +429,27 @@ export default defineComponent({
 
         /** One verb answered (first attempt): what it does to the review queue and the XP. */
         onAnswer(verb: VerbItem, ok: boolean): void {
-            const saves: Promise<unknown>[] = [];
             const points =
                 this.drillKind === 'learn' || this.drillKind === 'check'
                     ? 2
                     : 1;
 
             if (this.drillKind === 'learn') {
-                saves.push(ok ? gradeVerb(verb.v1, 2) : learnVerb(verb.v1));
+                this.saves.add(() =>
+                    ok ? gradeVerb(verb.v1, 2) : learnVerb(verb.v1),
+                );
             } else if (this.drillKind === 'check') {
-                saves.push(ok ? verbKnown(verb.v1) : learnVerb(verb.v1));
+                this.saves.add(() =>
+                    ok ? verbKnown(verb.v1) : learnVerb(verb.v1),
+                );
             } else if (this.drillKind === 'review') {
-                saves.push(gradeVerb(verb.v1, ok ? 2 : 0));
+                this.saves.add(() => gradeVerb(verb.v1, ok ? 2 : 0));
             }
 
             if (ok) {
                 this.xp += points;
-                saves.push(addXp(points));
+                this.saves.add(() => addXp(points));
             }
-
-            this.writes.push(...saves);
         },
 
         onDone(results: DrillResult[], early: boolean): void {
@@ -450,7 +463,6 @@ export default defineComponent({
             this.mode = 'summary';
             this.run++;
             window.scrollTo(0, 0);
-            void this.refresh();
         },
 
         summaryOf(results: DrillResult[]): Summary {
@@ -500,14 +512,11 @@ export default defineComponent({
             stopSpeak();
             this.mode = 'list';
             this.summary = null;
-            void this.refresh();
+            this.refresh();
         },
 
-        /** Once the saves are done, the server sends the fresh statuses, counts and due verbs. */
-        async refresh(): Promise<void> {
-            const writes = this.writes;
-            this.writes = [];
-            await Promise.allSettled(writes);
+        /** The server sends the fresh statuses, counts and due verbs. */
+        refresh(): void {
             router.reload({ only: ['verbs', 'counts', 'due'] });
         },
 
@@ -522,14 +531,24 @@ export default defineComponent({
         },
 
         /** "Practise it again" / "Remove from review" in the modal of a verb. */
-        changeFromDetails(save: (v1: string) => Promise<unknown>): void {
+        async changeFromDetails(
+            save: (v1: string) => Promise<unknown>,
+        ): Promise<void> {
             const verb = this.details;
             this.details = null;
 
-            if (verb) {
-                this.writes.push(save(verb.v1));
-                this.showList();
+            if (!verb) {
+                return;
             }
+
+            try {
+                await save(verb.v1);
+            } catch {
+                // send() has told the learner; the list stays as it was.
+                return;
+            }
+
+            this.showList();
         },
     },
 });

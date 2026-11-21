@@ -112,19 +112,19 @@ import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import ResultCard from '@/components/exercise/ResultCard.vue';
 import ChipTag from '@/components/general/ChipTag.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
-import type { ResumableSave } from '@/components/modules/units/resumableSave';
-import { resumableSave } from '@/components/modules/units/resumableSave';
-import SessionSave from '@/components/modules/units/SessionSave.vue';
+import { ANSWER_XP } from '@/components/modules/units/steps';
 import type { KeyedItem, MistakeUnit } from '@/components/modules/units/types';
 import { home, learn } from '@/routes';
 import { show as unitRoute } from '@/routes/units';
 import type { ExerciseResult } from '@/types';
 import { sample } from '@/utils/random';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 
-// Questions practised in one go, and the XP of each one fixed.
+// Questions practised in one go.
 const SESSION_SIZE = 15;
-const XP_PER_ANSWER = 2;
 
 /**
  * "My mistakes": the questions answered wrong in exercises and tests, practised again up to
@@ -159,8 +159,8 @@ export default defineComponent({
             practice: [] as KeyedItem[],
             fixed: 0,
             left: 0,
-            xpPerAnswer: XP_PER_ANSWER,
-            save: null as ResumableSave | null,
+            xpPerAnswer: ANSWER_XP,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -208,7 +208,7 @@ export default defineComponent({
             this.fixed = right.length;
             this.left = this.items.length;
             this.save = markRaw(
-                resumableSave(
+                saveQueue(
                     right.length
                         ? [
                               async () => {
@@ -216,7 +216,7 @@ export default defineComponent({
                                       await clearMistake(right)
                                   ).mistakes;
                               },
-                              () => addXp(right.length * XP_PER_ANSWER),
+                              () => addXp(right.length * ANSWER_XP),
                           ]
                         : [],
                 ),

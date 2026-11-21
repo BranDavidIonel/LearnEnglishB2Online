@@ -124,7 +124,7 @@
         <p v-if="failed" class="muted small">
             {{
                 $t(
-                    'Your result could not be saved. Check the connection and try again.',
+                    'Your result could not be saved. Check the connection and try again — your answers are kept.',
                 )
             }}
         </p>

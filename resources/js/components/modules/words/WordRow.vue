@@ -55,7 +55,6 @@ import ChipTag from '@/components/general/ChipTag.vue';
 import LevelChip from '@/components/general/LevelChip.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import type { WordsAnswer } from '@/types';
-import { reportNotSaved } from './saving';
 import { STATUS } from './status';
 import type { WordListRow } from './types';
 
@@ -101,8 +100,8 @@ export default defineComponent({
         ): Promise<void> {
             try {
                 this.$emit('changed', (await change(this.word.en)).words);
-            } catch (error) {
-                reportNotSaved(error);
+            } catch {
+                // send() has told the learner; the row stays as it was.
             }
         },
     },

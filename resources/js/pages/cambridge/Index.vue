@@ -97,7 +97,6 @@ import EmptyState from '@/components/general/EmptyState.vue';
 import ProgressRing from '@/components/general/ProgressRing.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
 import { COLORS, verdictInfo } from '@/components/modules/cambridge/exam';
-import { reloadOnHistory } from '@/components/modules/cambridge/freshProps';
 import type { ExamSummary } from '@/components/modules/cambridge/types';
 import { cambridge, home } from '@/routes';
 
@@ -121,17 +120,7 @@ export default defineComponent({
     data() {
         return {
             examColor: COLORS.exam,
-            stopReloading: null as (() => void) | null,
         };
-    },
-
-    created() {
-        // Back to this page from a paper: show the results saved meanwhile.
-        this.stopReloading = reloadOnHistory('cambridge/Index', ['exams']);
-    },
-
-    beforeUnmount() {
-        this.stopReloading?.();
     },
 
     methods: {

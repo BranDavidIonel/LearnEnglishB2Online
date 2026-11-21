@@ -130,7 +130,7 @@
         <p v-if="failed" class="muted small">
             {{
                 $t(
-                    'Your result could not be saved. Check the connection and try again.',
+                    'Your result could not be saved. Check the connection and try again — your answers are kept.',
                 )
             }}
         </p>
@@ -143,7 +143,6 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { recordCambridge, saveCambridgeDraft } from '@/api/progress';
 import CountdownTimer from '@/components/modules/cambridge/CountdownTimer.vue';
-import { reloadOnHistory } from '@/components/modules/cambridge/freshProps';
 import { percent, testTitle } from '@/components/modules/cambridge/exam';
 import type { ExamTag, TestTag } from '@/components/modules/cambridge/types';
 import UsefulPhrases from '@/components/modules/cambridge/UsefulPhrases.vue';
@@ -200,7 +199,6 @@ export default defineComponent({
             draftTimer: 0,
             saving: false,
             failed: false,
-            stopReloading: null as (() => void) | null,
         };
     },
 
@@ -248,18 +246,13 @@ export default defineComponent({
     },
 
     watch: {
-        /** Drafts asked for again (the page came back from the history): what is typed here wins. */
+        /** Drafts asked for again (the page came back from the history, app.ts): what is typed here wins. */
         drafts(next: string[]): void {
             this.texts = next.map((text, i) => this.pending[i] ?? text);
         },
     },
 
-    created() {
-        this.stopReloading = reloadOnHistory('cambridge/Writing', ['drafts']);
-    },
-
     beforeUnmount() {
-        this.stopReloading?.();
         stopSpeak();
         this.sendDrafts();
     },

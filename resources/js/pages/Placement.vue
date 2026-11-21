@@ -116,11 +116,9 @@ import { defineComponent, markRaw } from 'vue';
 import { recordPlacement } from '@/api/progress';
 import ExerciseSession from '@/components/exercise/ExerciseSession.vue';
 import EmptyState from '@/components/general/EmptyState.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import PageHeader from '@/components/layout/PageHeader.vue';
 import PlacementResult from '@/components/modules/units/PlacementResult.vue';
-import type { ResumableSave } from '@/components/modules/units/resumableSave';
-import { resumableSave } from '@/components/modules/units/resumableSave';
-import SessionSave from '@/components/modules/units/SessionSave.vue';
 import type {
     PlacementLevel,
     PlacementPart,
@@ -133,6 +131,8 @@ import type {
     PlacementState,
 } from '@/types';
 import { confetti } from '@/utils/confetti';
+import type { SaveQueue } from '@/utils/saving';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
 
 /**
@@ -171,7 +171,7 @@ export default defineComponent({
             part: 0,
             scores: {} as Partial<Record<LevelId, number>>,
             answer: null as PlacementAnswer | null,
-            save: null as ResumableSave | null,
+            save: null as SaveQueue | null,
         };
     },
 
@@ -222,7 +222,7 @@ export default defineComponent({
         finish(): void {
             const scores = this.scores;
             this.save = markRaw(
-                resumableSave([
+                saveQueue([
                     async () => {
                         this.answer = await recordPlacement(scores);
                     },

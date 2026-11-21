@@ -5,7 +5,7 @@
         :total="items.length"
         :back="back"
     >
-        <RoundSave v-if="finished" :save="saves" @saved="celebrate">
+        <SessionSave v-if="finished" :save="saves" @saved="celebrate">
             <ResultCard
                 :score="ok / items.length"
                 :title="
@@ -26,7 +26,7 @@
                     <Link class="btn" :href="back">{{ $t('Back') }}</Link>
                 </template>
             </ResultCard>
-        </RoundSave>
+        </SessionSave>
         <div v-else-if="item" :key="index" class="ex fade-in">
             <div class="ex-type">
                 {{ hidden ? $t('Say it in English') : $t('Listen and repeat') }}
@@ -75,19 +75,15 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { countSpoken } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import MicPanel from '@/components/modules/speaking/MicPanel.vue';
-import RoundSave from '@/components/modules/speaking/RoundSave.vue';
 import SaidWords from '@/components/modules/speaking/SaidWords.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import type { Example } from '@/types';
 import { confetti } from '@/utils/confetti';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
-import {
-    allSaid,
-    sayAsync,
-    saveQueue,
-    sentencePassMark,
-} from '@/utils/speaking';
+import { allSaid, sayAsync, sentencePassMark } from '@/utils/speaking';
 import { speak, stopSpeak } from '@/utils/speech';
 import type { SpokenWord } from '@/utils/text';
 import { speechDetail } from '@/utils/text';
@@ -104,7 +100,7 @@ export default defineComponent({
         Link,
         MicPanel,
         ResultCard,
-        RoundSave,
+        SessionSave,
         SaidWords,
         SessionShell,
     },

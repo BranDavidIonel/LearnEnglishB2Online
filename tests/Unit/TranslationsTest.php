@@ -4,6 +4,7 @@
  * Every UI text used in the code ($t('...') in Vue/TS, __('...') in PHP/Blade) must have
  * a Romanian translation, with the same :placeholders. The Romanian dictionary is
  * lang/ro.json plus every resources/js/i18n/ro/*.json file (merged by resources/js/i18n).
+ * Keys kept in TypeScript data ($t(info.name)) are checked by resources/js/i18n/catalogs.test.ts.
  */
 
 /** @return array<string, array<string, string>> file => its texts */

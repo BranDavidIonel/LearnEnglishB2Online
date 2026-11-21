@@ -37,16 +37,25 @@ class LearnerProfile extends Model
     /** @use HasFactory<LearnerProfileFactory> */
     use HasFactory;
 
-    /** The values of a new learner (config/learning.php "rules": goal 50, speech rate 0.9). */
+    /** The values of a new learner; the goal and the speech rate are added from config/learning.php "rules". */
     protected $attributes = [
         'xp' => 0,
-        'goal' => 50,
         'streak_count' => 0,
         'theme' => 'dark',
-        'speech_rate' => 0.9,
         'sound' => true,
         'spoken' => 0,
     ];
+
+    /** @param  array<string, mixed>  $attributes */
+    public function __construct(array $attributes = [])
+    {
+        $this->attributes += [
+            'goal' => (int) config('learning.rules.goal'),
+            'speech_rate' => (float) config('learning.rules.rate.default'),
+        ];
+
+        parent::__construct($attributes);
+    }
 
     protected function casts(): array
     {

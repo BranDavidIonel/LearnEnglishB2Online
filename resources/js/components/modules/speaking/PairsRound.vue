@@ -5,7 +5,7 @@
         :total="items.length"
         :back="back"
     >
-        <RoundSave v-if="result" :save="saves" @saved="celebrate">
+        <SessionSave v-if="result" :save="saves" @saved="celebrate">
             <ResultCard
                 :score="good / items.length"
                 :title="
@@ -26,7 +26,7 @@
                     <Link class="btn" :href="back">{{ $t('Back') }}</Link>
                 </template>
             </ResultCard>
-        </RoundSave>
+        </SessionSave>
         <div v-else-if="item" :key="index" class="ex fade-in">
             <div class="ex-type">
                 {{ $t('Listen to both words, then say the one asked for') }}
@@ -74,13 +74,14 @@ import { Link } from '@inertiajs/vue3';
 import { defineComponent } from 'vue';
 import { addXp, speakRecord } from '@/api/progress';
 import ResultCard from '@/components/exercise/ResultCard.vue';
+import SessionSave from '@/components/general/SessionSave.vue';
 import MicPanel from '@/components/modules/speaking/MicPanel.vue';
-import RoundSave from '@/components/modules/speaking/RoundSave.vue';
 import SessionShell from '@/components/modules/speaking/SessionShell.vue';
 import { confetti } from '@/utils/confetti';
 import { sample } from '@/utils/random';
+import { saveQueue } from '@/utils/saving';
 import { sfx } from '@/utils/sound';
-import { saidWord, saveQueue, SOUND_ALIKE_PAIRS } from '@/utils/speaking';
+import { saidWord, SOUND_ALIKE_PAIRS } from '@/utils/speaking';
 import { speak, stopSpeak } from '@/utils/speech';
 
 interface PairItem {
@@ -97,7 +98,7 @@ const ROUND = 8;
 export default defineComponent({
     name: 'PairsRound',
 
-    components: { Link, MicPanel, ResultCard, RoundSave, SessionShell },
+    components: { Link, MicPanel, ResultCard, SessionSave, SessionShell },
 
     props: {
         /** Where ✕ and "Back" lead. */

@@ -53,9 +53,10 @@ export default defineComponent({
     methods: {
         exportUrl,
 
-        // A network failure was already shown by send(); a refusal (not a progress file) is shown here.
+        // send() has already told the learner about a network or server failure; a refused file
+        // (422: not a progress file) is shown here.
         refused(error: unknown): void {
-            if (error instanceof HttpError) {
+            if (error instanceof HttpError && error.status === 422) {
                 toast(error.message, 'warn');
             }
         },

@@ -138,10 +138,7 @@ class LearnerState
 
     private function newProfile(User $user): LearnerProfile
     {
-        $profile = new LearnerProfile([
-            'goal' => (int) config('learning.rules.goal'),
-            'speech_rate' => (float) config('learning.rules.rate.default'),
-        ]);
+        $profile = new LearnerProfile;
         $profile->user_id = $user->id;
 
         return $profile;

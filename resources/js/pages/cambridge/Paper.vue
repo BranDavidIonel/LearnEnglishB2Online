@@ -36,18 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div v-if="saveState === 'failed'" class="alert warn">
-                <p>
-                    {{
-                        $t(
-                            'Your result could not be saved. Check the connection and try again.',
-                        )
-                    }}
-                </p>
-                <button type="button" class="btn primary" @click="save">
-                    {{ $t('🔁 Try again') }}
-                </button>
-            </div>
+            <SaveAlert v-if="saveState === 'failed'" @retry="save" />
         </template>
 
         <div class="tabs">
@@ -156,6 +145,7 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import { recordCambridge } from '@/api/progress';
 import ProgressRing from '@/components/general/ProgressRing.vue';
+import SaveAlert from '@/components/general/SaveAlert.vue';
 import AudioButton from '@/components/modules/cambridge/AudioButton.vue';
 import CountdownTimer from '@/components/modules/cambridge/CountdownTimer.vue';
 import {
@@ -198,6 +188,7 @@ export default defineComponent({
         Head,
         Link,
         ProgressRing,
+        SaveAlert,
         AudioButton,
         CountdownTimer,
         PaperQuestion,

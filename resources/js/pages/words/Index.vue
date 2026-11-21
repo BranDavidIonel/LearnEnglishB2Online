@@ -138,7 +138,6 @@ import {
     countRows,
     lessonChoices,
 } from '@/components/modules/words/rows';
-import { reportNotSaved } from '@/components/modules/words/saving';
 import type {
     ModalWord,
     UnitLabel,
@@ -337,9 +336,7 @@ export default defineComponent({
         async keepSkipped(): Promise<void> {
             try {
                 await setFlag('keepSkippedWords', true);
-            } catch (error) {
-                reportNotSaved(error);
-
+            } catch {
                 return;
             }
 
@@ -350,9 +347,7 @@ export default defineComponent({
         async saveKnown(words: string[]): Promise<boolean> {
             try {
                 this.changed((await markKnown(words)).words);
-            } catch (error) {
-                reportNotSaved(error);
-
+            } catch {
                 return false;
             }
 

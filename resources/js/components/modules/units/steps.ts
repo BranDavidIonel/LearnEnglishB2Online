@@ -1,4 +1,5 @@
-// The six parts of a unit as the interface shows them, in the order the learner does them.
+// The six parts of a unit as the interface shows them, in the order the learner does them, and the
+// XP of an exercise answered right.
 // `name` and `desc` are translation keys: $t(info.name), $t(info.desc, { pct }).
 import type { UnitStep } from '@/types';
 
@@ -49,6 +50,9 @@ export const STEP_INFO: Record<UnitStep, StepInfo> = {
         desc: 'At least :pct% to move on',
     },
 };
+
+/** XP for each exercise answered right on the first try (the practice step and "My mistakes"). */
+export const ANSWER_XP = 2;
 
 /** The part that comes after this one (null after the test). */
 export function nextStep(step: UnitStep): UnitStep | null {
