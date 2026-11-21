@@ -160,6 +160,17 @@ fingerprint of the files, emptied by `cache:clear` / `optimize:clear`):
 `export($user)` / `toJson($user)` — the original `progress.json` format.
 
 Shared props (`HandleInertiaRequests`): `learner` (above) and `settings`, both null for a guest.
+The same middleware sends every page visit after the first one as UTF-8 JSON (Romanian letters and
+IPA unescaped); the first page keeps Inertia's own encoding inside the HTML.
+
+## Page services
+
+What a page shows is put together outside its controller, from the content and the progress
+services, without rules of its own: `Course/` (`UnitPage`, `UnitTestBuilder`, `ExamPage`,
+`PlacementPage`, `MistakesPage`), `Home/` (`DashboardService`, `CourseMapService`,
+`ProgressPageService`), `Words/` (`WordPages`, `MeaningOptions`), `Verbs/VerbsPage`,
+`Speaking/SpeakingPages`, `Cambridge/CambridgePages`, `Games/GameWords`. A controller calls one of
+them and renders the page.
 
 ## Progress API
 
@@ -203,7 +214,9 @@ Resources (`app/Http/Resources`, reuse them in page controllers): `UnitResource`
 (`UnitSummary`), `LevelResource` (`LevelSummary`, title and description translated), `WordResource`
 (`WordWithState`), `VerbResource` (`VerbWithState`); build them from
 `CourseProgressService::unitSummary()` / `levelSummary()` and `WordReviewService` /
-`VerbReviewService::withState()`.
+`VerbReviewService::withState()`. The shapes of one area sit in a folder of their own: `Home/`
+(`LearnLevelResource`, `CourseUnitResource`, `RoadResource`), `Words/` (`WordRowResource`,
+`SortWordResource`), `Verbs/VerbItemResource`.
 
 What the original pages did with several calls stays several calls, sent in order by `send()`:
 practice = `completeStep(unit, 'practice')` + `addXp(right × 2)` + `updateMistakes(…)`; unit test =

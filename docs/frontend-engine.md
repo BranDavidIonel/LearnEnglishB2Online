@@ -40,7 +40,7 @@ The engine never talks to the server. Components emit what happened (`finish` wi
 | `speechDetail(target, heard[])` | `{ score, heard, words: [{ w, hit }] }` word by word, for showing what was missed |
 
 `@/utils/random`: `shuffle(list)` (copy), `sample(list, n)`, `pick(list)`.
-`@/utils/dates`: `today(d?)` → `'YYYY-MM-DD'` (local), `dayNum(d?)` (local day number), `addDays(n)`.
+`@/utils/dates`: `today(d?)` → `'YYYY-MM-DD'` (local).
 
 The unit tests are next to the code (`resources/js/**/*.test.ts`); run them with `npm run test`
 (`vp test`). They run in Node; a test that needs a DOM (components, recognition) starts with

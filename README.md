@@ -6,20 +6,20 @@ It is organised in levels: each unit ends with a test and each level with an exa
 
 This is the Laravel rewrite of an earlier local version (plain JavaScript and Node.js): same look, same content, same rules, and the progress of the old app can be imported.
 
-| | |
-|---|---|
-| ![Home page](docs/screenshots/home.png) | ![Lessons by level](docs/screenshots/learn.png) |
-| **Home** — what's next, day streak, your road to B2 | **Learn** — units by level and the level exams |
-| ![New words with a picture](docs/screenshots/lesson-words.png) | ![Voice conversation](docs/screenshots/conversation.png) |
-| **New words** — picture, pronunciation, example | **Speaking** — conversations where you answer aloud |
-| ![Progress chart](docs/screenshots/progress.png) | ![My words](docs/screenshots/words.png) |
-| **Progress** — daily chart, crypto-style | **Words** — learned / learning / to learn |
-| ![Cambridge mock exams](docs/screenshots/cambridge.png) | ![Grammar in the light theme](docs/screenshots/grammar-light.png) |
-| **Cambridge** — "am I ready for the exam?" | **Grammar** explained in Romanian (light theme) |
-| ![Speaking practice](docs/screenshots/speaking.png) | ![Colour themes](docs/screenshots/settings-themes.png) |
-| **Speaking** — seven ways to practise aloud | **Settings** — 4 colour themes, EN / RO, voice |
-| ![Login](docs/screenshots/login.png) | <img src="docs/screenshots/phone-home.png" alt="Home on a phone" width="260"> |
-| **Login** — one account, from `.env` | **On a phone** |
+|                                                                |                                                                               |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![Home page](docs/screenshots/home.png)                        | ![Lessons by level](docs/screenshots/learn.png)                               |
+| **Home** — what's next, day streak, your road to B2            | **Learn** — units by level and the level exams                                |
+| ![New words with a picture](docs/screenshots/lesson-words.png) | ![Voice conversation](docs/screenshots/conversation.png)                      |
+| **New words** — picture, pronunciation, example                | **Speaking** — conversations where you answer aloud                           |
+| ![Progress chart](docs/screenshots/progress.png)               | ![My words](docs/screenshots/words.png)                                       |
+| **Progress** — daily chart, crypto-style                       | **Words** — learned / learning / to learn                                     |
+| ![Cambridge mock exams](docs/screenshots/cambridge.png)        | ![Grammar in the light theme](docs/screenshots/grammar-light.png)             |
+| **Cambridge** — "am I ready for the exam?"                     | **Grammar** explained in Romanian (light theme)                               |
+| ![Speaking practice](docs/screenshots/speaking.png)            | ![Colour themes](docs/screenshots/settings-themes.png)                        |
+| **Speaking** — seven ways to practise aloud                    | **Settings** — 4 colour themes, EN / RO, voice                                |
+| ![Login](docs/screenshots/login.png)                           | <img src="docs/screenshots/phone-home.png" alt="Home on a phone" width="260"> |
+| **Login** — one account, from `.env`                           | **On a phone**                                                                |
 
 <sub>The screenshots were taken with demo data (a learner in the middle of B1 after five weeks), not with my own progress.</sub>
 
@@ -29,12 +29,12 @@ This is the Laravel rewrite of an earlier local version (plain JavaScript and No
 - **Content:** about 2,950 words (a CEFR-sized vocabulary: ~600 by the end of A1, ~1,200 by A2, ~2,000 by B1, ~3,000 by B2), 960 exercises of 6 types (multiple choice, fill the gap, word order, translation, dictation, matching pairs), 480 new test questions and 40 recommended videos (one per unit, each with a presenter on camera).
 - **Placement test** at the start, so you can skip what you already know. The words of the skipped levels can be checked quickly or marked as known.
 - **Speaking:**
-  - 32 conversations (client, interview, negotiation, hotel, airport);
-  - 240 phrases to repeat;
-  - interview-style questions;
-  - sound-alike word pairs (*ship / sheep*);
-  - a voice sprint;
-  - role-play from the lesson dialogues.
+    - 32 conversations (client, interview, negotiation, hotel, airport);
+    - 240 phrases to repeat;
+    - interview-style questions;
+    - sound-alike word pairs (_ship / sheep_);
+    - a voice sprint;
+    - role-play from the lesson dialogues.
 - **Word bank** in every unit: besides its 16–18 core words, each unit has 40–85 more common words of its level. You go through them 20 at a time ("I knew it" / "new for me"); the new ones go into the flashcards, the known ones come back once a week later as a check.
 - **Irregular verbs:** 239 verbs with their three forms (go – went – gone), most used first, with a full explanation of when each form is used, as a tab of the Words page with search. You learn them 10 at a time by typing the past simple and the past participle (or test yourself first and skip the ones you know); they come back with spaced repetition and every correct answer earns XP.
 - **Flashcards** with spaced repetition (next review after 1, 3, 7, 14, 30 and 60 days) and a list of every word, where you can mark what you already know or check a whole level quickly.
@@ -50,20 +50,20 @@ New in this version:
 
 ## Built with
 
-| Part | Technology |
-|---|---|
-| Server | Laravel 13, PHP 8.4+ |
-| Interface | Inertia 3 + Vue 3 (TypeScript, Options API), the original style sheet kept class for class, Tailwind CSS 4 for layout |
-| Build | Vite Plus (`vp`: build, lint, format, unit tests) |
-| Routes in Vue | Wayfinder (typed route helpers, no hard-coded URLs) |
-| Quality | Pest (PHP tests), Larastan level 7, Pint, `vue-tsc`, front-end unit tests with Vite Plus |
-| Text-to-speech | Web Speech API — `speechSynthesis` (Windows / browser voices) |
-| Speech recognition | Web Speech API — `SpeechRecognition` in Chrome / Edge |
-| Recording | `MediaRecorder` (record yourself and listen back) |
-| Word pictures | Wikipedia API (`page/summary`), the emoji until the photo loads |
-| Videos | Embedded YouTube (`youtube-nocookie.com`) |
-| Progress chart | Hand-drawn SVG, no chart library |
-| Database | SQLite locally, MySQL 8 in production |
+| Part               | Technology                                                                                                            |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Server             | Laravel 13, PHP 8.4+                                                                                                  |
+| Interface          | Inertia 3 + Vue 3 (TypeScript, Options API), the original style sheet kept class for class, Tailwind CSS 4 for layout |
+| Build              | Vite Plus (`vp`: build, lint, format, unit tests)                                                                     |
+| Routes in Vue      | Wayfinder (typed route helpers, no hard-coded URLs)                                                                   |
+| Quality            | Pest (PHP tests), Larastan level 7, Pint, `vue-tsc`, front-end unit tests with Vite Plus                              |
+| Text-to-speech     | Web Speech API — `speechSynthesis` (Windows / browser voices)                                                         |
+| Speech recognition | Web Speech API — `SpeechRecognition` in Chrome / Edge                                                                 |
+| Recording          | `MediaRecorder` (record yourself and listen back)                                                                     |
+| Word pictures      | Wikipedia API (`page/summary`), the emoji until the photo loads                                                       |
+| Videos             | Embedded YouTube (`youtube-nocookie.com`)                                                                             |
+| Progress chart     | Hand-drawn SVG, no chart library                                                                                      |
+| Database           | SQLite locally, MySQL 8 in production                                                                                 |
 
 No paid services and no API keys.
 
@@ -133,8 +133,8 @@ npm run test         # the front-end unit tests (Vite Plus)
 composer ci:check    # everything: front-end lint + format, vue-tsc, the front-end tests, then composer test
 ```
 
-- **Pest — 514 tests** (4,105 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
-- **Front end — 160 tests** in 18 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
+- **Pest — 515 tests** (4,115 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
+- **Front end — 190 tests** in 19 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
 - **Content:** `content:validate` checks all 135 content files (units, word banks, tests, speaking, Cambridge mocks, irregular verbs).
 
 ## Adding content

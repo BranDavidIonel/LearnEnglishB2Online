@@ -34,13 +34,15 @@ app/
   Enums/                 Level, UnitStep, Theme, WordStatus …  (ids, labels, colours)
   Http/
     Controllers/         one thin controller per area; Api/ holds the JSON progress API
-    Middleware/          HandleInertiaRequests (shared props), SetLocale, SecurityHeaders
-    Requests/            validation of every write
-    Resources/           the shapes sent to the pages
+    Middleware/          HandleInertiaRequests (shared props, UTF-8 JSON), SetLocale, SecurityHeaders
+    Requests/            validation of every write: Api/ (progress API), Account/, LoginRequest
+    Resources/           the shapes sent to the pages: shared ones here, Home/ Words/ Verbs/ for one area
   Models/                the learner's data
   Services/
     Content/             ContentRepository (+ Validation/ for content:validate)
     Progress/            the rules: one small service per subject
+    Course/ Home/ Words/ Verbs/ Speaking/ Cambridge/ Games/
+                         what each page shows, put together from the two above (no rules of their own)
 config/learning.php      admin account, content path, the numbers of the rules
 resources/
   content/               the course (JSON) — a1/ a2/ b1/ b2/ cambridge/ verbs.json
@@ -48,7 +50,8 @@ resources/
   js/
     api/                 progress.ts — typed calls to the JSON progress API
     components/
-      general/           ProgressRing, ProgressBar, ChipTag, LevelChip, EmptyState, ToastStack …
+      general/           ProgressRing, ProgressBar, ChipTag, LevelChip, EmptyState, ToastStack,
+                         SessionSave + SaveAlert (a save that failed) …
       layout/            sidebar, top bar, PageHeader, LanguageSwitcher
       modals/            AppModal
       charts/            WeekChart, ProgressChart
@@ -56,11 +59,11 @@ resources/
       speech/            SpeakButton, Recorder
       content/           WordPicture, GrammarLesson, VideoCard
       modules/<area>/    what only one area uses
-    i18n/                index.ts + ro/<area>.json dictionaries
+    i18n/                index.ts + ro/<area>.json dictionaries (ro/general.json: words of several areas)
     layouts/             AppLayout (sidebar + top bar), AuthLayout (login)
     pages/               one folder per area, one file per Inertia page
     types/               models.ts (shared props), content.ts, progress.ts — all exported from '@/types'
-    utils/               learner, http, toast, text, random, dates, speech, recognition, recording, sound …
+    utils/               learner, http, saving, toast, text, random, dates, speech, recognition, recording, sound …
 routes/
   web.php                login, locale, then every routes/web/*.php inside the auth group
   web/<area>.php         the routes of one area
@@ -83,6 +86,15 @@ docs/                    this file and the guides it names; content/ (the conten
   themselves. When the page shows numbers that the server derives (how many words are left, what is
   unlocked), it asks for its props again with a partial reload (`router.reload({ only: [...] })`)
   instead of recomputing them in the browser.
+- **A save that fails** — `send()` retries a network failure, then tells the learner with a toast;
+  a server error gets the same toast at once (a 422 is left to the caller). A session that saves
+  several things (a lesson step, a test, a speaking round, a verb drill) queues them with
+  `saveQueue()` and ends in `SessionSave`: the result shows once everything is saved, otherwise
+  "could not be saved — try again" sends what is missing, never twice what already arrived.
+- **The back button** — Inertia brings a page back with the props it had when it was left.
+  `app.ts` asks the server for them again (`router.reload()`) whenever a page comes back from the
+  history or from the browser's cache, so it shows the progress made since; the component, its
+  scroll position and what is being typed stay.
 
 ## 4. Shared props (every page)
 
@@ -122,13 +134,15 @@ Names and URLs are fixed; pages link to each other with the Wayfinder helpers of
 
 | File | Name | URL | Page component |
 | --- | --- | --- | --- |
+| `web.php` | `login`, `login.store`, `logout` | `GET`, `POST /login`; `POST /logout` | `auth/Login` |
+| | `locale.update` | `PUT /locale` — `{locale: en\|ro}` (also for guests) | — |
 | `web/home.php` | `home` | `GET /` | `Home` |
 | | `learn` | `GET /learn` | `Learn` |
 | | `progress` | `GET /progress` | `Progress` |
 | | `grammar` | `GET /grammar/{unit?}` | `grammar/Index`, `grammar/Show` |
 | | `videos` | `GET /videos` | `Videos` |
 | `web/course.php` | `units.show` | `GET /units/{unit}` | `units/Show` |
-| | `units.step` | `GET /units/{unit}/{step}` — `vocab`, `grammar`, `dialogue`, `practice`, `reading`, `test` | `units/Step` |
+| | `units.step` | `GET /units/{unit}/{step}` — `vocab`, `grammar`, `dialogue`, `practice`, `reading`, `test` | `units/Step` (both: `units/Unavailable` when the unit is not open) |
 | | `exams.show` | `GET /exams/{level}` | `exams/Show` |
 | | `placement` | `GET /placement` | `Placement` |
 | | `mistakes` | `GET /mistakes` | `Mistakes` |
@@ -139,19 +153,21 @@ Names and URLs are fixed; pages link to each other with the Wayfinder helpers of
 | `web/verbs.php` | `verbs` | `GET /words/verbs` | `verbs/Index` |
 | `web/games.php` | `games` | `GET /games/{game?}` — `memory`, `sprint`, `spell` | `games/Index`, `games/Memory` … |
 | `web/settings.php` | `settings` | `GET /settings` | `Settings` |
-| `web/speaking.php` | `speaking` | `GET /speaking/{mode?}/{arg?}` — `talk`, `role`, `repeat`, `say`, `answer`, `pairs`, `sprint` | `speaking/Index` … |
-| `web/cambridge.php` | `cambridge` | `GET /cambridge/{exam?}/{test?}/{paper?}` | `cambridge/Index` … |
+| | `account.profile`, `account.password` | `PUT /settings/account/profile`, `…/password` | — (back to `Settings`) |
+| `web/speaking.php` | `speaking` | `GET /speaking/{mode?}/{arg?}?level=` — `talk`, `role`, `repeat`, `say`, `answer`, `pairs`, `sprint`; `arg`: a scenario, a unit or a topic; `level`: the hub's level picker (else the level worked on) | `speaking/Index`, `Talk`, `Role`, `Sentences`, `Answer`, `Pairs`, `Sprint` |
+| `web/cambridge.php` | `cambridge` | `GET /cambridge/{exam?}/{test?}/{paper?}` — `pet`, `fce`; `pet-test1` …; `reading`, `listening`, `writing`, `speaking` (another paper goes back to the exam) | `cambridge/Index`, `Exam`, `Paper`, `Writing`, `Speaking`, `Unavailable` |
 | `web/api.php` | `api.*` | `/api/…` (JSON) | — |
 
-Route parameters with a fixed set of values are constrained (`whereIn`), so the order in which the
-files are loaded never matters.
+Route parameters with a fixed set of values are constrained (`whereIn`, or a pattern for unit ids
+and Cambridge ids), so the order in which the files are loaded never matters.
 
 ## 6. Front-end building blocks
 
 | Import | What it gives |
 | --- | --- |
 | `@/api/progress` | one typed function per progress action (`completeStep`, `recordUnitTest`, `gradeWord`, `addXp` …) |
-| `@/utils/http` | `send<T>(route, data?)` — JSON request with CSRF, sent one after another, retried on a network error; updates the learner state from the answer |
+| `@/utils/http` | `send<T>(route, data?)` — JSON request with CSRF, sent one after another, retried on a network error, a toast when it is not saved; updates the learner state from the answer |
+| `@/utils/saving`, `general/SessionSave` | `saveQueue(requests?)` (`add`, `flush`) and the end of a session that shows its result once saved, or `SaveAlert` with "🔁 Try again" |
 | `@/utils/learner` | the learner state shared by the whole app: `$learner` and `$settings` in every component, `learnerState` / `setLearner()` / `setSettings()` elsewhere |
 | `@/i18n` | `$t('English text', { name })` in templates and components, `trans()` in plain modules |
 | `@/utils/toast` | `toast(message, kind?)` |
@@ -175,9 +191,14 @@ files are loaded never matters.
   `--primary`, `--muted` …) so they work in all four themes. Tailwind utilities are available for
   layout tweaks.
 - **Texts**: every interface text goes through `$t()` / `trans()` with the English text as the key;
-  the Romanian text goes into `resources/js/i18n/ro/<area>.json` (texts the backend also uses go into
-  `lang/ro.json`). Plurals: `"1 word|:count words"` with `{ count }`. A key lives in one dictionary
-  only. Content from `resources/content` is never translated.
+  the Romanian text goes into `resources/js/i18n/ro/<area>.json`, words of several areas into
+  `general.json` (texts the backend also uses go into `lang/ro.json`). Plurals: `"1 word|:count words"`
+  with `{ count }`. A key lives in one dictionary only. When Romanian says one English text in two
+  ways, the second use gets a context that English never shows: `$t('Videos [shortcut]')`. Keys kept
+  in TypeScript data (`STEP_INFO`, `THEMES` …) are checked by `i18n/catalogs.test.ts`. Content from
+  `resources/content` is never translated.
+- **Saving**: nothing on a page pretends a change was saved before the server said so: a session
+  result (and its XP) waits in `SessionSave`, a row or a modal changes with the answer.
 - **Tests**: every rule has a unit test, every route a feature test (guest redirected, page props,
   validation, the effect on the database). `composer test` runs Pint, Larastan and Pest;
   `npm run test` runs the front-end unit tests.

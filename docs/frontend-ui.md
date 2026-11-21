@@ -3,7 +3,7 @@
 The look of the original app is kept class for class. A page is written with the original class
 names (`card`, `btn primary`, `tabs` …) and gets the original look in all four themes for free.
 This guide lists that vocabulary, the components that draw the repeated pieces, and the shared
-front-end services (`send()`, `$learner`, `toast()`).
+front-end services (`send()`, `saveQueue()`, `$learner`, `toast()`).
 
 ## 1. Style sheet
 
@@ -133,7 +133,10 @@ Words; …, see `SECTIONS` in `SideNav.vue`). Badges: Flashcards = `$learner.due
 
 On every new page (path change) the layout scrolls to the top, closes the phone menu and calls
 `stopSpeak()`. On every page and partial reload it puts the shared props `learner` and `settings`
-into the learner state.
+into the learner state. A page brought back by the back / forward buttons (or from the browser's
+cache) asks for its props again (`router.reload()` in `app.ts`): it keeps its component and scroll
+and gets the progress made since. A page that copies a prop into its data (the word rows, the
+Cambridge drafts) watches the prop so the fresh value reaches the screen.
 
 ## 3. Shared state and services
 
@@ -151,10 +154,32 @@ const answer = await send<GradeAnswer>(gradeWord(), { word: 'customer', grade: 2
 
 - `route`: a Wayfinder helper result (`{ url, method }`) or a URL (method: `method` argument, else POST).
 - JSON in and out, `X-XSRF-TOKEN` from Laravel's cookie; requests go out one after another.
-- A network failure is retried after 0.5 s, 1 s and 2 s; then a toast and the promise rejects.
+- A network failure is retried after 0.5 s, 1 s and 2 s; then the toast "Your progress could not
+  be saved…" and the promise rejects.
 - `419` reloads the page, `401` goes to the login page; any other error rejects with
-  `HttpError` (`status`, `message`, `errors` — the validation errors of a 422).
+  `HttpError` (`status`, `message`, `errors` — the validation errors of a 422). A server error
+  (any status but 401, 419 and 422) shows the same toast first; a 422 is for the caller to show.
+  So a caller only decides what its page does when a save fails, never how to tell the learner.
 - An answer with `learner` / `settings` updates the learner state by itself.
+
+**Saving a session** (`@/utils/saving` + `general/SessionSave`): a lesson step, a test, a speaking
+round or a verb drill saves several things, during the session or at its end. They go into a
+`saveQueue()` (`saveQueue([...requests])`, `add(request)` — a request is a function, so it can be
+sent again); `SessionSave` at the end flushes the queue and shows its default slot (the result)
+once everything is saved. When a request fails it shows `SaveAlert` ("Your result could not be
+saved … — your answers are kept", `🔁 Try again`), which sends the failed request and the ones
+after it, never twice what already reached the server. Pass `:keeps-answers="false"` where the
+learner gave no answers (grammar, dialogue). Give `SessionSave` a new `:key` for every session.
+
+```vue
+<SessionSave v-if="finished" :key="run" :save="saves" @saved="celebrate">
+    <ResultCard :score="score" :title="title" />
+</SessionSave>
+```
+
+The word pages save each change at once and change a row or the word modal only with the
+server's answer; the flashcards and the quick sort end the session on the first failed save
+("Not everything was saved").
 
 **`toast(message, kind?)`** (`@/utils/toast`): the original toast at the bottom centre, 2.6 s.
 `kind` is `''` or `'warn'`. Flash messages of the controllers (`Inertia::flash('success' | 'error', …)`)
@@ -165,7 +190,9 @@ are shown the same way.
 `id`, `name` (translation key), `swatch`).
 
 **i18n** (`@/i18n`): `$t('English text', { name })`, `trans()` in plain modules,
-`intlLocale()` → `en-GB` / `ro-RO` for `toLocaleString()` and `Intl` formatters.
+`intlLocale()` → `en-GB` / `ro-RO` for `toLocaleString()` and `Intl` formatters. A key may end in a
+context in brackets (`'Videos [shortcut]'`) when Romanian needs a second text for the same English;
+English never shows it.
 
 ## 4. Generic components
 
@@ -178,6 +205,8 @@ are shown the same way.
 | `general/EmptyState` | `icon` (emoji), `title`, `text?`; slot `actions` | `div.empty` |
 | `general/VocabGoal` | `stats` (`{ learned, total }`), `level` (`{ name, color }`) | `div.to-goal`: "📚 Words for B1 · 340 / 2000" + bar |
 | `general/ToastStack` | — (mounted by the layouts) | `div.toasts` |
+| `general/SessionSave` | `save` (`SaveQueue`), `keepsAnswers?` (true); emits `saved`; default slot | the slot once saved, else `SaveAlert` |
+| `general/SaveAlert` | `busy?`, `keepsAnswers?` (true); emits `retry` | `div.alert.warn`: "Your result could not be saved…" + 🔁 Try again |
 | `layout/PageHeader` | `title`, `sub?`, `back?` (URL of "← Back") | `div.page-head` |
 | `layout/BrandMark` | `href?` | `.brand` logo |
 | `modals/AppModal` | `open`, `wide?`; emits `close`; default slot | `div.modal-back > div.modal` (✕, click outside, Esc; stops speech) |
