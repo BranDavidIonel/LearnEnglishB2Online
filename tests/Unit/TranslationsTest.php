@@ -24,7 +24,16 @@ function romanianFiles(): array
 function usedTranslationKeys(): array
 {
     $root = dirname(__DIR__, 2);
-    $patterns = ["/\\\$t\\(\\s*'((?:[^'\\\\]|\\\\.)*)'/", "/__\\(\\s*'((?:[^'\\\\]|\\\\.)*)'/", "/trans\\(\\s*'((?:[^'\\\\]|\\\\.)*)'/"];
+    $patterns = [];
+
+    // $t('…'), __('…') and trans('…'), in single or double quotes (a text with an apostrophe
+    // is written in double quotes by the formatter).
+    foreach (['\\$t', '__', 'trans'] as $call) {
+        foreach (["'", '"'] as $quote) {
+            $patterns[] = "/{$call}\\(\\s*{$quote}((?:[^{$quote}\\\\]|\\\\.)*){$quote}/";
+        }
+    }
+
     $keys = [];
 
     foreach (['resources/js', 'app', 'resources/views'] as $dir) {
