@@ -7,7 +7,7 @@ use App\Services\Content\WordFinder;
 use App\Services\Content\WordMatch;
 
 /**
- * The word window: what a word tapped in a lesson is (WordFinder), the course expressions of
+ * The word window: what a word tapped in a lesson is (WordFinder), the expressions of
  * its sentence that hold it, and where its headword stands for the learner when it can be
  * learned (a course word or a glossary word; not a name, not an irregular verb on its own,
  * which has its own drill). A read: nothing is written.

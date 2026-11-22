@@ -38,6 +38,7 @@ This is the Laravel rewrite of an earlier local version (plain JavaScript and No
 - **Word bank** in every unit: besides its 16–18 core words, each unit has 40–85 more common words of its level. You go through them 20 at a time ("I knew it" / "new for me"); the new ones go into the flashcards, the known ones come back once a week later as a check.
 - **Irregular verbs:** 239 verbs with their three forms (go – went – gone), most used first, with a full explanation of when each form is used, as a tab of the Words page with search. You learn them 10 at a time by typing the past simple and the past participle (or test yourself first and skip the ones you know); they come back with spaced repetition and every correct answer earns XP.
 - **Flashcards** with spaced repetition (next review after 1, 3, 7, 14, 30 and 60 days) and a list of every word, where you can mark what you already know or check a whole level quickly.
+- **Tap a word:** wherever English is shown for reading or listening (dialogues, example sentences, reading texts, grammar examples, the speaking pages, verb examples), every word can be tapped. A small window says what it means, which word it is a form of ("alerts — plural of alert", "went — past of go"), the expression it belongs to in that sentence ("on call"), and lets you hear just that word, say it and be checked, and send it to your flashcards. The words the course vocabulary does not cover are explained by a glossary of about 1,600 words and 240 names; nothing is tappable where it would give an answer away (tests, exams, exercises before the answer).
 - **Word games** (memory, sprint, spelling), a "My mistakes" page, 23 achievements, XP, a day streak and a daily goal.
 - **Cambridge:** 2 full mock exams each for B1 Preliminary (PET) and B2 First (FCE), all four papers, with an "am I ready?" indicator.
 - **Settings:** interface language (EN / RO, English by default), 4 colour themes, daily goal, sounds, voice and speed, and a microphone test.
@@ -133,9 +134,9 @@ npm run test         # the front-end unit tests (Vite Plus)
 composer ci:check    # everything: front-end lint + format, vue-tsc, the front-end tests, then composer test
 ```
 
-- **Pest — 515 tests** (4,115 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
-- **Front end — 190 tests** in 19 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
-- **Content:** `content:validate` checks all 135 content files (units, word banks, tests, speaking, Cambridge mocks, irregular verbs).
+- **Pest — 809 tests** (4,563 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
+- **Front end — 235 tests** in 21 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
+- **Content:** `content:validate` checks all 136 content files (units, word banks, tests, speaking, Cambridge mocks, irregular verbs, the glossary), and that every word shown where words can be tapped has an explanation.
 
 ## Adding content
 

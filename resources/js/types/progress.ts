@@ -264,8 +264,8 @@ export interface PlacementAnswer extends ProgressAnswer {
 }
 
 export interface WordsAnswer extends ProgressAnswer {
-    /** The words of the request, with their new state. */
-    words: WordWithState[];
+    /** The words of the request, with their new state (an extra word as ExtraWordWithState). */
+    words: (WordWithState | ExtraWordWithState)[];
 }
 
 /** The answer of the word window's lookup (a read: no learner summary). */

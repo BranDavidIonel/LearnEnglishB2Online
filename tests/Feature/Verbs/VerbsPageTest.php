@@ -28,7 +28,8 @@ it('shows every verb, the most used first, all new for a new learner', function 
         ->where('counts', ['learned' => 0, 'learning' => 0, 'new' => 239, 'total' => 239])
         ->where('due', [])
         ->where('wordCounts.learned', 0)
-        ->has('wordCounts.total'));
+        ->has('wordCounts.total')
+        ->where('extraWords', 0));
 });
 
 it('shows the state of the verbs, the counts and the verbs due today in review order', function () {

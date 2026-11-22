@@ -57,6 +57,30 @@ export function send<T = unknown>(
     return result;
 }
 
+/**
+ * Reads JSON with a GET (the word window's lookup). A read is not a save: it goes out at once
+ * instead of waiting behind the saves on their way, it is tried once, and a failure never shows
+ * "could not be saved" — the caller shows its own state. An expired session is handled as for
+ * a save. Nothing of the answer goes into the learner state.
+ */
+export async function read<T = unknown>(
+    route: RouteDefinition | string,
+): Promise<T> {
+    const url = typeof route === 'string' ? route : route.url;
+    const response = await fetch(url, {
+        method: 'GET',
+        credentials: 'same-origin',
+        headers: headers(),
+    });
+    const body = await readJson(response);
+
+    if (!response.ok) {
+        throw failure(response.status, body, false);
+    }
+
+    return body as T;
+}
+
 async function request<T>(
     url: string,
     method: string,
@@ -146,14 +170,15 @@ async function readJson(response: Response): Promise<unknown> {
     }
 }
 
-function failure(status: number, body: unknown): HttpError {
+/** The error of an answer; `saving` tells the learner when a save did not reach the server. */
+function failure(status: number, body: unknown, saving = true): HttpError {
     // The session expired (419: old CSRF token) or the login is gone (401):
     // a fresh page, or the login page, is the only way on.
     if (status === 419) {
         window.location.reload();
     } else if (status === 401) {
         window.location.assign(login.url());
-    } else if (status !== 422) {
+    } else if (status !== 422 && saving) {
         // A server error is not retried: the learner is told, as after a network failure.
         // Validation errors (422) are the caller's to show.
         notSaved();

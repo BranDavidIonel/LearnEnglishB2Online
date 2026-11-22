@@ -1,0 +1,19 @@
+{
+  "words": [
+    { "en": "start", "ro": "a începe", "pos": "verb", "ipa": "/stɑːt/" },
+    { "en": "start", "ro": "început", "pos": "noun", "ipa": "/stɑːt/" },
+    { "en": "the", "ro": "", "pos": "article", "ipa": "ðə" },
+    { "en": "child", "ro": "copil", "pos": "noun", "ipa": "/tʃaɪld/", "forms": ["children"] },
+    { "en": "kid", "ro": "copil", "pos": "noun", "ipa": "/kɪd/", "forms": ["Children"] },
+    { "en": "good", "ro": "bun", "pos": "adj", "ipa": "/ɡʊd/", "forms": "better" },
+    { "en": "cat", "ro": "pisică", "pos": "noun", "ipa": "/kæt/" },
+    { "en": "a", "ro": "un, o", "pos": "other", "ipa": "/ə/, /eɪ/" },
+    { "en": "lie", "ro": "a minţi", "pos": "verb" }
+  ],
+  "names": [
+    { "en": "Cluj", "ro": "oraș din România" },
+    { "en": "Cluj", "ro": "oraș" },
+    { "en": "CRM", "ro": "program", "ipa": "" },
+    { "en": "", "ro": "prenume" }
+  ]
+}

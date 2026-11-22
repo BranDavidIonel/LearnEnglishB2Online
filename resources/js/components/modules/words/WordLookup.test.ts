@@ -16,6 +16,7 @@ import type { Replacements } from '@/i18n';
 import type { WordLookup as Lookup, WordWithState } from '@/types';
 import { HttpError } from '@/utils/http';
 import { speak } from '@/utils/speech';
+import { toast } from '@/utils/toast';
 import WordLookup from './WordLookup.vue';
 
 vi.mock('@/api/progress', () => ({
@@ -342,6 +343,7 @@ describe('WordLookup', () => {
         await press('🧠 Learn it');
 
         expect(learnWord).toHaveBeenCalledWith('alert');
+        expect(toast).toHaveBeenCalledWith('Added to your flashcards');
         expect(modal().textContent).toContain('🌱 Learning');
         expect(buttons()).toEqual([
             '✓ I already know it',
@@ -393,6 +395,23 @@ describe('WordLookup', () => {
 
         expect(modal().textContent).toContain('🌱 Learning');
         expect(wrapper?.emitted('changed')).toBeUndefined();
+        expect(toast).not.toHaveBeenCalled();
+    });
+
+    it('tells the headword said apart from the form tapped', async () => {
+        await open(
+            'alerts',
+            '',
+            Promise.resolve(answer({ word: 'alerts', relation: 'plural' })),
+        );
+        await press('🎙 Say it');
+
+        wrapper!.findComponent(MicPanel).vm.$emit('heard', ['alert']);
+        await flushPromises();
+
+        expect(modal().querySelector('.feedback.bad')?.textContent).toContain(
+            'Almost: I heard “alert”, the word is “alerts”',
+        );
     });
 
     it('checks the word said into the microphone', async () => {

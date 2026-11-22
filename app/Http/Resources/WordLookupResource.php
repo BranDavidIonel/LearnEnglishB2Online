@@ -10,7 +10,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 /**
  * What the word window shows for a tapped word (types/progress.ts "WordLookup"): the headword
  * and how the form relates to it, the entry that explains it, the learner's state when it can
- * be learned, its irregular verb and the course expressions of the sentence that hold it.
+ * be learned, its irregular verb and the expressions (course, glossary) of the sentence that hold it.
  * Built from WordLookupService::lookup().
  *
  * @property array{word: string, match: WordMatch|null, state: array<string, mixed>|null, phrases: list<array{en: string, ro: string}>} $resource

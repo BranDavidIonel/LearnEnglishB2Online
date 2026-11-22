@@ -9,7 +9,12 @@
         "
         :back="home().url"
     />
-    <WordTabs :counts="wordCounts" :verbs="verbs.length" active="verbs" />
+    <WordTabs
+        :counts="wordCounts"
+        :extra="extraWords"
+        :verbs="verbs.length"
+        active="verbs"
+    />
 
     <div>
         <EmptyState
@@ -311,6 +316,8 @@ export default defineComponent({
     props: {
         /** The numbers of the word tabs. */
         wordCounts: { type: Object as PropType<Counts>, required: true },
+        /** How many extra words the learner has (their tab). */
+        extraWords: { type: Number, default: 0 },
         counts: { type: Object as PropType<Counts>, required: true },
         /** Every verb, the most used first. */
         verbs: { type: Array as PropType<VerbItem[]>, required: true },

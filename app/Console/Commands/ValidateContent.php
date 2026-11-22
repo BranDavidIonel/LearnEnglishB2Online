@@ -18,9 +18,9 @@ use Symfony\Component\Console\Formatter\OutputFormatter;
 class ValidateContent extends Command
 {
     protected $signature = 'content:validate
-        {--only=* : Check one kind only: lessons, speaking, cambridge or verbs (repeat the option or separate with commas)}';
+        {--only=* : Check one kind only: lessons, speaking, cambridge, verbs, glossary or words (repeat the option or separate with commas)}';
 
-    protected $description = 'Validate the course content (units, word banks, tests, speaking, Cambridge mocks, irregular verbs)';
+    protected $description = 'Validate the course content (units, word banks, tests, speaking, Cambridge mocks, irregular verbs, glossary, tapped words)';
 
     public function handle(ContentValidation $validation): int
     {

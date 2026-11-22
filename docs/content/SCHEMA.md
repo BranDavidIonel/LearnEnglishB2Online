@@ -197,6 +197,62 @@ verbs come back with spaced repetition.
 }
 ```
 
+## Glossary (`resources/content/glossary.json`)
+
+Every English word shown where the word window is on can be tapped, and must be explained. The
+course vocabulary (unit words, word banks) and the irregular verbs explain most of them; the
+glossary explains the rest: function words, contractions, numbers, everyday words without a bank
+entry, and names. Without the file the window explains only the course vocabulary.
+
+```jsonc
+{
+  "words": [
+    { "en": "start", "ro": "a începe, a porni; început", "pos": "verb", "ipa": "/stɑːt/" },
+    { "en": "child", "ro": "copil", "pos": "noun", "ipa": "/tʃaɪld/", "forms": ["children", "children's"] },
+    { "en": "the", "ro": "articol hotărât (-ul, -a, -i, -le)", "pos": "other", "ipa": "/ðə/, /ðiː/" },
+    { "en": "I'm", "ro": "eu sunt (= I am)", "pos": "phrase", "ipa": "/aɪm/" }
+  ],
+  "names": [
+    { "en": "Cluj", "ro": "oraș din România" },
+    { "en": "CRM", "ro": "program de gestiune a relațiilor cu clienții", "ipa": "/ˌsiː.ɑːrˈem/" }
+  ]
+}
+```
+
+- `en` — the headword (base form), lower case unless always capitalised; one entry per headword.
+  Hyphenated words and contractions are headwords as written (`start-up`, `I'm`). A headword of
+  several words (`sat nav`) is an expression: the window shows it when it is in the sentence.
+- `ro` — the meaning the course uses, written like the word banks; `pos` — as in the word banks
+  (`noun | verb | adj | adv | phrase | prep | pron | conj | other`); `ipa` — between slashes, a weak
+  and a strong form separated by a comma.
+- `forms` — only the forms a rule cannot derive (irregular plurals and comparatives, `am / is`,
+  `lying`, `panicked` …). A course word may appear here only to list its forms (`child`); the
+  course entry is the one shown and learned.
+- `names` — people, places, companies, products, abbreviations; `ipa` only when not obvious. Names
+  are matched ignoring case and take only the possessive and a plain plural (`Andrei's`, `CRMs`).
+
+**How a tapped form is found** (`App\Services\Content\WordFinder`): the form as written (a word that
+starts a sentence in lower case first), then without a possessive `'s`, then by the rules below —
+course words and irregular verbs first, glossary words after — then a name's plural. The rules:
+plural / third person `-s / -es / -ies`; past `-ed / -d / -ied`; `-ing`; comparative and superlative
+`-er / -est / -ier / -iest`; a dropped `e` or a doubled consonant where English does it. A rule
+counts only when its result is a headword whose part of speech takes that ending (`-s` a noun,
+verb, adjective used as a noun or a number of 3+ letters; `-ed` a regular verb, or a noun /
+adjective used as a verb; `-ing` a verb, or a noun / adjective used as a verb; `-er / -est` an
+adjective, an adverb of 4+ letters, a quantifier), so *his* is not *hi* + `-s`, *seed* not the past
+of *see*, *riding* not *rid* + `-ing`. Agent nouns (*speaker, officer*) are not comparatives: they need
+their own entry. A word in lower case never matches a headword that is always capitalised (*may* is
+not the month *May*).
+
+**Adding a word:** add the entry (sorted by `en`), then run `php artisan content:validate --only=glossary`
+(shape, `pos`, IPA, duplicates, a form claimed by two headwords, a headword the course already
+explains) and `--only=words` (every word of the tapped texts is explained: it warns with the file and
+the word). The tapped texts are listed in `App\Services\Content\Validation\TappableTexts`: unit
+vocabulary examples, dialogue lines, reading texts, grammar examples, word-bank examples, the
+irregular verbs' examples, the speaking files (partner lines, model answers, phrases, questions,
+sample answers) and the Cambridge mocks (reading passages, listening scripts, writing and speaking
+models).
+
 ## placement.json
 
 ```jsonc

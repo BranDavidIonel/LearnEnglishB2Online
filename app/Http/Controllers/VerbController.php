@@ -26,6 +26,7 @@ class VerbController extends Controller
         return Inertia::render('verbs/Index', [
             // The numbers of the word tabs above the verbs.
             'wordCounts' => fn (): array => $words->counts($user),
+            'extraWords' => fn (): int => count($words->extraWords($user)),
             'counts' => fn (): array => $verbs->counts($user),
             'verbs' => fn (): array => VerbItemResource::collection($page->verbs($user))->resolve($request),
             'due' => fn (): array => $page->due($user),

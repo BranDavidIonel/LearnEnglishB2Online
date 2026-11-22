@@ -22,17 +22,17 @@ use App\Enums\WordSource;
  * ending: "her" is not "he" + -r, "as" is not the plural of "a", "seed" is not the past of
  * "see" (an irregular verb has no regular past), "thing" is not "th" + -ing.
  *
- * It also finds the course expressions of a sentence that hold the tapped word, comparing
- * headwords ("I was on call" holds "be on call"). Words are split exactly as the browser
- * splits them: see words().
+ * It also finds the expressions (of the course and the glossary) of a sentence that hold the
+ * tapped word, comparing headwords ("I was on call" holds "be on call"). Words are split
+ * exactly as the browser splits them: see words().
  */
 class WordFinder
 {
     /**
      * A word: a run of letters in which single apostrophes or hyphens may stand between two
-     * letters; a run that touches a digit is not a word ("12th", "B2").
+     * letters; a run that touches a digit or a "___" gap is not a word ("12th", "B2", "wait___ed").
      */
-    private const string WORD = "/(?<![\\p{L}\\p{M}\\p{N}])(?>[\\p{L}\\p{M}]+(?:['’-][\\p{L}\\p{M}]+)*)(?![\\p{L}\\p{M}\\p{N}])/u";
+    private const string WORD = "/(?<![\\p{L}\\p{M}\\p{N}_])(?>[\\p{L}\\p{M}]+(?:['’-][\\p{L}\\p{M}]+)*)(?![\\p{L}\\p{M}\\p{N}_])/u";
 
     private const string VOWELS = 'aeiouy';
 
@@ -120,7 +120,7 @@ class WordFinder
         $words = [];
 
         foreach ($matches[0] as [$word, $offset]) {
-            $before = (string) preg_replace('/[\s"“”‘’\'(\[*_—–-]+$/u', '', substr($text, 0, $offset));
+            $before = (string) preg_replace('/[\s"“”‘’\'()\[\]*_—–-]+$/u', '', substr($text, 0, $offset));
             $words[] = ['word' => str_replace('’', "'", $word), 'start' => $before === '' || preg_match('/[.!?…]$/u', $before) === 1];
         }
 
@@ -157,8 +157,8 @@ class WordFinder
     }
 
     /**
-     * The course expressions of a sentence that hold the tapped form ("I was on call" and
-     * "was" → "be on call"), in course order.
+     * The expressions of a sentence that hold the tapped form ("I was on call" and
+     * "was" → "be on call"), course expressions first, in course order.
      *
      * @return list<array{en: string, ro: string}>
      */
@@ -676,9 +676,10 @@ class WordFinder
     }
 
     /**
-     * The course expressions that can be compared word by word: two words or more, without
-     * a slash, brackets, dots or a word that stands for something else ("talk someone into").
-     * Their contracted endings are written out ("I'd like" → i would like).
+     * The expressions that can be compared word by word — the course's, then the glossary's
+     * ("sat nav"), each once: two words or more, without a slash, brackets, dots or a word that
+     * stands for something else ("talk someone into"). Their contracted endings are written
+     * out ("I'd like" → i would like).
      *
      * @return list<array{en: string, ro: string, words: list<string>}>
      */
@@ -688,12 +689,13 @@ class WordFinder
             return $this->expressions;
         }
 
-        $this->expressions = [];
+        /** @var array<string, array{en: string, ro: string, words: list<string>}> $expressions by text, each once */
+        $expressions = [];
 
-        foreach ($this->content->words() as $word) {
+        foreach ([...array_values($this->content->words()), ...$this->content->glossary()['words']] as $word) {
             $en = (string) $word['en'];
 
-            if (! str_contains($en, ' ') || preg_match('/[\/()…]|\.\.\./u', $en) === 1) {
+            if (isset($expressions[$en]) || ! str_contains($en, ' ') || preg_match('/[\/()…]|\.\.\./u', $en) === 1) {
                 continue;
             }
 
@@ -706,11 +708,11 @@ class WordFinder
             }
 
             if (count($words) >= 2 && array_intersect($words, self::PLACEHOLDERS) === []) {
-                $this->expressions[] = ['en' => $en, 'ro' => (string) ($word['ro'] ?? ''), 'words' => $words];
+                $expressions[$en] = ['en' => $en, 'ro' => (string) ($word['ro'] ?? ''), 'words' => $words];
             }
         }
 
-        return $this->expressions;
+        return $this->expressions = array_values($expressions);
     }
 
     // ---------- the indexes ----------

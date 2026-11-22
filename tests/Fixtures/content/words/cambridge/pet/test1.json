@@ -1,0 +1,1 @@
+{ "id": "pet-test1", "reading": { "parts": [{ "text": "Hi, axolotl." }] }, "listening": { "parts": [{ "audio": [{ "s": "A", "en": "Hi, okapi." }] }] }, "writing": { "tasks": [{ "model": "Hi, tapir." }] }, "speaking": { "tasks": [{ "model": "Hi, dugong." }] } }

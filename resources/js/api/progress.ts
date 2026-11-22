@@ -47,7 +47,7 @@ import type {
     WordsAnswer,
     XpAnswer,
 } from '@/types';
-import { send } from '@/utils/http';
+import { read, send } from '@/utils/http';
 
 /** One item or a list of them, always sent as a list. */
 const list = (items: string | string[]): string[] =>
@@ -98,13 +98,14 @@ export function recordPlacement(
 
 /**
  * The word window: what a word tapped in a lesson is (meaning, headword, irregular verb, the
- * learner's state) and the course expressions of its sentence that hold it. A read.
+ * learner's state) and the course expressions of its sentence that hold it. A read: it goes
+ * out at once, even while saves are on their way, and a failure is the window's to show.
  */
 export function lookupWord(
     word: string,
     sentence?: string,
 ): Promise<WordLookupAnswer> {
-    return send<WordLookupAnswer>(
+    return read<WordLookupAnswer>(
         words.lookup({
             query: sentence === undefined ? { word } : { word, sentence },
         }),

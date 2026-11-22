@@ -96,7 +96,7 @@
                             type="button"
                             class="btn primary"
                             :disabled="saving"
-                            @click="change(learnWord)"
+                            @click="learn"
                         >
                             {{ $t('🧠 Learn it') }}
                         </button>
@@ -347,14 +347,24 @@ export default defineComponent({
             }
         },
 
-        /** Saves a change of the headword's state; the window changes with the server's answer. */
+        /** Into the flashcards, confirmed with the toast of the word details. */
+        async learn(): Promise<void> {
+            if (await this.change(learnWord)) {
+                toast(this.$t('Added to your flashcards'));
+            }
+        },
+
+        /**
+         * Saves a change of the headword's state; the window changes with the server's answer.
+         * False when it was not saved.
+         */
         async change(
             save: (word: string) => Promise<WordsAnswer>,
-        ): Promise<void> {
+        ): Promise<boolean> {
             const headword = this.entry?.en;
 
             if (!headword || this.saving) {
-                return;
+                return false;
             }
 
             this.saving = true;
@@ -372,13 +382,12 @@ export default defineComponent({
                     };
                 }
 
-                if (save === learnWord && fresh?.status === 'learning') {
-                    toast(this.$t('Added to your flashcards'));
-                }
-
                 this.$emit('changed', answer.words);
+
+                return true;
             } catch {
                 // send() has told the learner; the window stays as it was.
+                return false;
             } finally {
                 this.saving = false;
             }
@@ -398,6 +407,30 @@ export default defineComponent({
             }
 
             sfx('bad');
+
+            // The headword instead of the form tapped ("alert" for "alerts"): say which is which.
+            const base = this.lookup?.base;
+
+            if (
+                base &&
+                base.toLowerCase() !== this.word.toLowerCase() &&
+                heard.some((x) => saidWord(x, base))
+            ) {
+                this.said = {
+                    good: false,
+                    head: this.$t(
+                        'Almost: I heard “:heard”, the word is “:word”',
+                        {
+                            heard: base,
+                            word: this.word,
+                        },
+                    ),
+                    heard: '',
+                };
+
+                return;
+            }
+
             this.said = {
                 good: false,
                 head: this.$t('I did not catch the word'),

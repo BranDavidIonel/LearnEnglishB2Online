@@ -72,6 +72,17 @@ fingerprint of the files, emptied by `cache:clear` / `optimize:clear`):
 - `words()` — word index `en => word + unit, levelId, bank?` (first occurrence wins, core words before the bank); `word($en)`; `wordLevels()` — `en => levelId` (light).
 - `verbs()` — verbs + `rank`, `levelId`; `verb($v1)`.
 - `cambridge()` — exams (`exam.json` + `id` + `tests`); `cambridgeExam($id)`.
+- `glossary()` — `{words, names}` of `glossary.json` (empty lists without the file); `extraWords()` —
+  glossary words that can be learned, by headword (a headword that is also a course word is left
+  out: the course word wins); `extraWord($en)`.
+
+**WordFinder** (`App\Services\Content`) — what a word form of a lesson is, for the word window:
+`find($form, $sentenceStart = false)` → `WordMatch {headword, source (WordSource), relation
+(WordRelation), entry, learnable, verb}` or null; `expressions($sentence, $form)` — the course (then glossary)
+expressions of a sentence that hold the form, compared by headwords (`was on call` → `be on call`;
+expressions with a slash, brackets or `someone / something` are skipped); static `words($text)`,
+`occurrences($text)` (with sentence starts), `startsSentence($sentence, $form)` — the word rule of
+the browser. Order and rules: `docs/content/SCHEMA.md`, "Glossary".
 
 **Calendar** (static): `today()`, `todayString()`, `inDays($n)`, `dayNumber($date)`, `fromDayNumber($n)`.
 
@@ -119,7 +130,20 @@ fingerprint of the files, emptied by `cache:clear` / `optimize:clear`):
 - `bankWords($unit)`, `unitWords($unit)` (core then bank, once each), `levelWords($level)`; `vocabTo($user, $level)` — counts of all words up to that level.
 - `wordsToLearn($user, $level)` — new words of its open units, all of them; `nextWordsLevel($user)` — first level up to the current one with some. A quick-sort batch is the first `config('learning.rules.word_batch')` (20) of that list, as in the original; the page or its controller takes the slice.
 - `knownWords($user, $min = 8)` — words in the deck (still in the course), or the core words of the first 3 units of the current level when fewer than `$min`.
-- `withState($user, $word)` — word + `status, box, due, known` (behind `WordResource`).
+- `withState($user, $word)` — word + `status, box, due, known` (behind `WordResource`); `state($user, $en)` — `{status, box (0 when new), due, known}`.
+- **Extra words** — glossary words the learner puts into the deck: `canLearn($en)` (a course word or an
+  extra word), `card($en)` (a course word, or an extra word as `{en, ro, ipa, pos, emoji, ex, exRo,
+  unit, levelId: null, extra: true}`), `extraWords($user)` — the extra words in the deck with their
+  state, in the order they joined it (for an "Extra words" list: call it from the page controller).
+  They are graded, marked known, learned and forgotten exactly like course words, are due on the
+  flashcards (`due`, `dueCount`, the menu badge) and travel in export / import, but **never change the
+  course numbers**: `counts`, `vocabTo`, level and unit counts, `wordsToLearn`, the badges and the chart
+  snapshot are computed from the course vocabulary only; the games use course words only.
+
+**WordLookupService** — `lookup($user, $form, $sentence = null)` → `{word, match, state, phrases}` (behind
+`WordLookupResource`): the match of `WordFinder` (a word that starts the sentence is looked up in lower
+case first), the learner's `state` when the headword can be learned (null for a name, a word found
+nowhere, an irregular verb that is not a course word), the expressions of the sentence. A read.
 
 **VerbReviewService** — irregular verbs:
 
@@ -186,6 +210,7 @@ Word and verb functions take one item or a list (bulk: "mark all as known", sort
 | `recordUnitTest(unit, score)` | `POST /api/units/{unit}/test` `{score}` | `{passed, first, xp, unit, next: UnitSummary\|null, review: unitIds}` |
 | `recordExam(level, results)` | `POST /api/exams/{level}` `{results: [{unit, correct}]}` | `{score, passed, first, xp, weak, byUnit, level: LevelSummary, next: LevelSummary\|null, units: UnitSummary[]}` |
 | `recordPlacement(scores)` | `POST /api/placement` `{scores: {a1: 0.8}}` | `{start, level, xp, placement, levels: LevelSummary[]}` |
+| `lookupWord(word, sentence?)` | `GET /api/words/lookup?word=&sentence=` (a read: no `learner`, no chart point) | `{lookup: WordLookup}` |
 | `gradeWord(words, grade)` | `POST /api/words/grade` `{words, grade: 0\|1\|2}` | `{words: WordWithState[]}` |
 | `markKnown(words)` | `POST /api/words/known` `{words}` | `{words}` |
 | `sortedKnown(words)` | `POST /api/words/sorted` `{words}` | `{words}` |

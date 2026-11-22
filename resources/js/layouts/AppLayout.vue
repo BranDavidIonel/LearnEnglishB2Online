@@ -31,6 +31,9 @@ import { TAP_WORD, tapTarget } from '@/utils/tapWords';
 import type { OpenWord } from '@/utils/wordLookup';
 import { closeWord, openWord, wordLookup } from '@/utils/wordLookup';
 
+/** Two clicks closer than this (ms) are one double click. */
+const DOUBLE_CLICK = 500;
+
 /**
  * The shell of every signed-in page (persistent: it stays while the pages change).
  * Sidebar and content column are direct children of #app, as in the original markup.
@@ -48,6 +51,8 @@ export default defineComponent({
             tappedWord: null as HTMLElement | null,
             // A word's state changed in the open window.
             changed: false,
+            // When the last word was tapped (event time), to tell a double click from a close.
+            tappedAt: -Infinity,
         };
     },
 
@@ -117,13 +122,24 @@ export default defineComponent({
 
     methods: {
         onTap(event: MouseEvent): void {
+            // The second click of a double click lands on the backdrop of the window it just
+            // opened: it must not close it.
+            if (
+                event.target instanceof Element &&
+                event.target.classList.contains('modal-back') &&
+                event.timeStamp - this.tappedAt < DOUBLE_CLICK
+            ) {
+                event.stopPropagation();
+
+                return;
+            }
+
             const word =
                 event.target instanceof Element
                     ? event.target.closest<HTMLElement>(`.${TAP_WORD}`)
                     : null;
 
-            // Selecting text with the mouse is not a tap.
-            if (!word || !window.getSelection()?.isCollapsed) {
+            if (!word || this.selecting(word)) {
                 return;
             }
 
@@ -137,6 +153,7 @@ export default defineComponent({
             }
 
             stopSpeak();
+            this.tappedAt = event.timeStamp;
 
             // A word tapped inside the window opens in it; the focus still goes back to the page.
             if (!word.closest('.lookup')) {
@@ -146,6 +163,17 @@ export default defineComponent({
             }
 
             openWord(target);
+        },
+
+        /** Selecting text over the word with the mouse (to copy it) is not a tap. */
+        selecting(word: HTMLElement): boolean {
+            const selection = window.getSelection();
+
+            return (
+                !!selection &&
+                selection.toString().trim() !== '' &&
+                selection.containsNode(word, true)
+            );
         },
 
         /** Closes the window and gives the focus back to the word it was opened from. */

@@ -7,7 +7,7 @@ import {
     vi,
 } from 'vite-plus/test';
 import type { Learner } from '@/types';
-import { HttpError, RETRY_DELAYS, send } from './http';
+import { HttpError, read, RETRY_DELAYS, send } from './http';
 import { learnerState } from './learner';
 import { toastState } from './toast';
 
@@ -199,5 +199,46 @@ describe('send', () => {
         expect(toastState.toasts.map((item) => item.message)).toEqual([
             'Your progress could not be saved. Check the connection.',
         ]);
+    });
+});
+
+describe('read', () => {
+    it('goes out at once, even while a save is on its way', async () => {
+        fetchMock
+            .mockImplementationOnce(() => new Promise<Response>(() => {}))
+            .mockResolvedValueOnce(answer(200, { lookup: { word: 'alerts' } }));
+
+        void send('/api/words/learn', { words: ['alert'] });
+        await Promise.resolve();
+
+        await expect(read('/api/words/lookup?word=alerts')).resolves.toEqual({
+            lookup: { word: 'alerts' },
+        });
+        expect(fetchMock).toHaveBeenLastCalledWith(
+            '/api/words/lookup?word=alerts',
+            expect.objectContaining({ method: 'GET' }),
+        );
+    });
+
+    it('fails once, without retrying and without "could not be saved"', async () => {
+        fetchMock
+            .mockResolvedValueOnce(answer(500, { message: 'Server Error' }))
+            .mockRejectedValueOnce(new TypeError('Failed to fetch'));
+
+        await expect(read('/api/a')).rejects.toMatchObject({ status: 500 });
+        await expect(read('/api/b')).rejects.toBeInstanceOf(TypeError);
+
+        expect(fetchMock).toHaveBeenCalledTimes(2);
+        expect(toastState.toasts).toHaveLength(0);
+    });
+
+    it('reloads the page when the session expired', async () => {
+        fetchMock.mockResolvedValueOnce(
+            answer(419, { message: 'Page Expired' }),
+        );
+
+        await expect(read('/api/a')).rejects.toBeInstanceOf(HttpError);
+
+        expect(reload).toHaveBeenCalledOnce();
     });
 });

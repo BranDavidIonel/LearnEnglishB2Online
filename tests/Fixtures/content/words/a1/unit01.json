@@ -1,0 +1,11 @@
+{
+  "id": "a1-u01",
+  "vocab": [
+    { "en": "alert", "ro": "alertă", "pos": "noun", "ipa": "/əˈlɜːt/", "ex": "The alerts started.", "exRo": "Au început alertele." },
+    { "en": "May", "ro": "mai (luna)", "pos": "noun", "ipa": "/meɪ/", "ex": "We start in May.", "exRo": "Începem în mai." }
+  ],
+  "grammar": { "sections": [{ "examples": [{ "en": "May I come in?", "ro": "Pot să intru?" }] }] },
+  "dialogue": { "lines": [{ "en": "Hi, Andrei! The wait___ed zebra.", "ro": "" }] },
+  "reading": { "text": "Andrei is in Iași. He saw 12th street." },
+  "exercises": [{ "type": "mc", "q": "The quokka ___ here.", "options": ["is"], "answer": 0 }]
+}

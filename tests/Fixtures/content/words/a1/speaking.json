@@ -1,0 +1,1 @@
+{ "level": "A1", "scenarios": [{ "turns": [{ "say": "Hi there!", "answers": ["Hi, koala!"] }] }], "phrases": [{ "items": [{ "en": "Hi!", "ro": "Salut!" }] }], "questions": [{ "q": "Hi?", "sample": "Hi, narwhal." }] }

@@ -163,6 +163,11 @@ const answer = await send<GradeAnswer>(gradeWord(), { word: 'customer', grade: 2
   So a caller only decides what its page does when a save fails, never how to tell the learner.
 - An answer with `learner` / `settings` updates the learner state by itself.
 
+**`read()`** (`@/utils/http`) — a GET of the API that is not a save (the word window's
+`lookupWord()`): it goes out at once instead of waiting behind the saves on their way, it is tried
+once, and a failure never shows "could not be saved" (the caller shows its own state); 419 and 401
+are handled as for `send()`.
+
 **Saving a session** (`@/utils/saving` + `general/SessionSave`): a lesson step, a test, a speaking
 round or a verb drill saves several things, during the session or at its end. They go into a
 `saveQueue()` (`saveQueue([...requests])`, `add(request)` — a request is a function, so it can be

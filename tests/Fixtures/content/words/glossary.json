@@ -1,0 +1,16 @@
+{ "words": [
+  { "en": "the", "ro": "articol hotărât", "pos": "other", "ipa": "/ðə/" },
+  { "en": "start", "ro": "a începe", "pos": "verb", "ipa": "/stɑːt/" },
+  { "en": "we", "ro": "noi", "pos": "pron", "ipa": "/wiː/" },
+  { "en": "in", "ro": "în", "pos": "prep", "ipa": "/ɪn/" },
+  { "en": "is", "ro": "este", "pos": "verb", "ipa": "/ɪz/" },
+  { "en": "he", "ro": "el", "pos": "pron", "ipa": "/hiː/" },
+  { "en": "hi", "ro": "salut", "pos": "other", "ipa": "/haɪ/" },
+  { "en": "I", "ro": "eu", "pos": "pron", "ipa": "/aɪ/" },
+  { "en": "come", "ro": "a veni", "pos": "verb", "ipa": "/kʌm/" },
+  { "en": "a", "ro": "un, o", "pos": "other", "ipa": "/ə/" },
+  { "en": "have", "ro": "a avea", "pos": "verb", "ipa": "/hæv/" },
+  { "en": "it", "ro": "el, ea", "pos": "pron", "ipa": "/ɪt/" },
+  { "en": "there", "ro": "acolo", "pos": "adv", "ipa": "/ðeə/" },
+  { "en": "street", "ro": "stradă", "pos": "noun", "ipa": "/striːt/" }
+], "names": [{ "en": "Andrei", "ro": "prenume" }, { "en": "Iași", "ro": "oraș din România" }] }
