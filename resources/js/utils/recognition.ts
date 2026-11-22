@@ -3,6 +3,7 @@
 // switch to Chrome's on-device recognition and remember that choice in this browser.
 
 import { trans } from '@/i18n';
+import { claimMicrophone, isMobileDevice } from '@/utils/microphone';
 import { newAudioContext } from '@/utils/sound';
 
 // ---------- the parts of the Web Speech API we use (not in TypeScript's DOM types) ----------
@@ -24,6 +25,8 @@ interface Recognizer {
     processLocally?: boolean;
     onresult: ((event: RecognitionResultEvent) => void) | null;
     onerror: ((event: RecognitionErrorEvent) => void) | null;
+    /** The recogniser has opened the microphone and listens. */
+    onstart: (() => void) | null;
     onend: (() => void) | null;
     start(): void;
     stop(): void;
@@ -84,13 +87,52 @@ interface NoSpeechInfo {
     metered: boolean;
 }
 
-const micHelp = (): string =>
-    trans(
-        'Click the icon to the left of the address (next to ":host") → Microphone',
-        { host: window.location.host },
-    );
+/** Where the browser keeps the microphone permission of this page. */
+function micHelp(): string {
+    const host = { host: window.location.host };
+
+    return isMobileDevice()
+        ? trans(
+              'Tap the icon next to the address (":host") → Permissions → Microphone',
+              host,
+          )
+        : trans(
+              'Click the icon to the left of the address (next to ":host") → Microphone',
+              host,
+          );
+}
+
+/** The explanations that differ on a phone or tablet (no chrome:// pages, no VPN advice). */
+function phoneErrorText(code: string): string | undefined {
+    switch (code) {
+        case 'audio-capture':
+            return trans(
+                "The phone's microphone could not be used. Close the apps that may be using it (a call, a voice recorder, another browser tab) and try again.",
+            );
+        case 'network':
+            return trans(
+                "The phone couldn't reach Google's speech recognition service. Check the internet connection and that the Google app is installed, enabled and up to date — or use the recording below.",
+            );
+        case 'service-not-allowed':
+            return trans(
+                "This browser doesn't allow speech recognition here. On a phone, use Google Chrome, with the Google app installed and up to date.",
+            );
+        case 'no-speech':
+            return trans(
+                'No English words were heard. Speak right after the beep, clearly and close to the phone.',
+            );
+        default:
+            return undefined;
+    }
+}
 
 function errorText(code: string): string | undefined {
+    const phone = isMobileDevice() ? phoneErrorText(code) : undefined;
+
+    if (phone) {
+        return phone;
+    }
+
     switch (code) {
         case 'not-allowed':
             return trans(
@@ -145,7 +187,10 @@ function noSpeechText(info: NoSpeechInfo | undefined): string {
 
 /** The error for a code, with the explanation for the learner in the interface language. */
 export function micError(code: string, info?: NoSpeechInfo): MicError {
-    const text = code === 'no-speech' ? noSpeechText(info) : errorText(code);
+    const text =
+        code === 'no-speech' && !isMobileDevice()
+            ? noSpeechText(info)
+            : errorText(code);
 
     return Object.assign(new Error(code), {
         code,
@@ -263,10 +308,17 @@ function openError(error: unknown): MicError {
 /**
  * Listens to one spoken sentence. The microphone, the level meter and the recogniser are all
  * released when `done` settles. Always call stop() when the component that started it unmounts.
+ *
+ * On a desktop the microphone is opened here first (clear permission errors, the level meter),
+ * then the recogniser listens. On a phone or tablet the recogniser must have the microphone to
+ * itself (see utils/microphone.ts): no level meter, errors come from the recogniser, and 'ready'
+ * is reported when the recogniser has really started (after the permission prompt, if any).
  */
 export function listen(
     onstate: (...update: ListenUpdate) => void = () => {},
 ): Listening {
+    const phone = isMobileDevice();
+    let release = (): void => {};
     let rec: Recognizer | null = null;
     let stream: MediaStream | null = null;
     let audio: AudioContext | null = null;
@@ -278,6 +330,7 @@ export function listen(
     let metered = false;
 
     const cleanup = (): void => {
+        release();
         cancelAnimationFrame(frame);
         clearTimeout(timer);
         stream?.getTracks().forEach((t) => t.stop());
@@ -319,6 +372,18 @@ export function listen(
         }
     };
 
+    // Nobody speaks for ever: end the sentence after 15 seconds.
+    const armLimit = (r: Recognizer): void => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            try {
+                r.stop();
+            } catch {
+                // already stopped
+            }
+        }, LISTEN_LIMIT);
+    };
+
     const recognise = (
         Recognition: RecognizerClass,
         local: boolean,
@@ -355,6 +420,15 @@ export function listen(
             r.onerror = (e) => {
                 err = e.error;
             };
+
+            // The 15 seconds count from the moment the phone listens, not from the permission prompt.
+            if (phone) {
+                r.onstart = () => {
+                    armLimit(r);
+                    onstate('ready', label);
+                };
+            }
+
             r.onend = () => {
                 clearTimeout(timer);
 
@@ -375,19 +449,13 @@ export function listen(
                 reject(micError('start-failed'));
             }
 
-            // Nobody speaks for ever: end the sentence after 15 seconds.
-            timer = setTimeout(() => {
-                try {
-                    r.stop();
-                } catch {
-                    // already stopped
-                }
-            }, LISTEN_LIMIT);
+            armLimit(r);
         });
 
     const run = async (): Promise<string[]> => {
-        // Open the microphone ourselves first: this gives clear permission errors and the level meter.
-        if (navigator.mediaDevices?.getUserMedia) {
+        // Desktop: open the microphone ourselves first, for clear permission errors and the level
+        // meter. Never on a phone: the recogniser would then hear nothing.
+        if (!phone && navigator.mediaDevices?.getUserMedia) {
             try {
                 stream = await navigator.mediaDevices.getUserMedia({
                     audio: true,
@@ -415,7 +483,13 @@ export function listen(
         }
 
         checkStopped();
-        onstate('ready', label);
+
+        if (phone) {
+            // A recording in progress gives the microphone up first.
+            release = claimMicrophone(stop);
+        } else {
+            onstate('ready', label);
+        }
 
         try {
             return await recognise(Recognition, local);
@@ -442,21 +516,20 @@ export function listen(
         }
     };
 
+    function stop(): void {
+        stopped = true;
+
+        try {
+            rec?.stop();
+        } catch {
+            // already stopped
+        }
+    }
+
     const done = run();
     done.then(cleanup, cleanup);
 
-    return {
-        done,
-        stop: () => {
-            stopped = true;
-
-            try {
-                rec?.stop();
-            } catch {
-                // already stopped
-            }
-        },
-    };
+    return { done, stop };
 }
 
 // ---------- continuous listening (games) ----------
@@ -481,15 +554,48 @@ export interface ListeningStream {
 const QUICK_END_MS = 700;
 const MAX_QUICK_ENDS = 6;
 
+const flatText = (text: string): string =>
+    text.trim().replace(/s+/g, ' ').toLowerCase();
+
+/**
+ * The text of a continuous recognition, from the transcripts of its results. Chrome for Android
+ * delivers each result as final while holding the whole phrase so far ("one", "one two",
+ * "one two three"): a result that repeats and extends the one before replaces it, and one that
+ * only repeats (part of) it is dropped. Separate phrases are joined, as on a desktop.
+ */
+export function streamTranscript(transcripts: string[]): string {
+    const kept: string[] = [];
+
+    for (const transcript of transcripts) {
+        const text = transcript.trim();
+        const last = kept.length ? flatText(kept[kept.length - 1]) : '';
+        const now = flatText(text);
+
+        if (!now) {
+            continue;
+        }
+
+        if (last && now.startsWith(last)) {
+            kept[kept.length - 1] = text;
+        } else if (!last || !last.startsWith(now)) {
+            kept.push(text);
+        }
+    }
+
+    return kept.join(' ');
+}
+
 /**
  * Keeps listening until stop() is called. onText(text) receives everything heard since the last
- * reset(); call reset() after using it.
+ * reset(); call reset() after using it. On a phone or tablet the growing results of Android are
+ * merged (streamTranscript) and a recording in progress gives the microphone up first.
  */
 export function listenStream(
     onText: (text: string) => void,
     onstate: (...update: StreamUpdate) => void = () => {},
 ): ListeningStream {
     const Recognition = recognizerClass();
+    const phone = isMobileDevice();
     let rec: Recognizer | null = null;
     let active = true;
     let local = sttMode() === 'local';
@@ -500,6 +606,7 @@ export function listenStream(
 
     const fail = (code: string): void => {
         active = false;
+        release();
         onstate('error', micError(code));
     };
 
@@ -529,7 +636,10 @@ export function listenStream(
 
         r.onresult = (e) => {
             quickEnds = 0;
-            onText(Array.from(e.results, (x) => x[0].transcript).join(' '));
+            const transcripts = Array.from(e.results, (x) => x[0].transcript);
+            onText(
+                phone ? streamTranscript(transcripts) : transcripts.join(' '),
+            );
         };
         r.onerror = (e) => {
             err = e.error;
@@ -582,6 +692,23 @@ export function listenStream(
         }
     }
 
+    const abort = (): void => {
+        try {
+            rec?.abort();
+        } catch {
+            // not running
+        }
+    };
+
+    function stop(): void {
+        active = false;
+        release();
+        clearTimeout(restart);
+        abort();
+    }
+
+    const release = claimMicrophone(stop);
+
     void (async () => {
         if (!Recognition) {
             return fail('service-not-allowed');
@@ -599,20 +726,5 @@ export function listenStream(
         start();
     })();
 
-    const abort = (): void => {
-        try {
-            rec?.abort();
-        } catch {
-            // not running
-        }
-    };
-
-    return {
-        stop: () => {
-            active = false;
-            clearTimeout(restart);
-            abort();
-        },
-        reset: abort,
-    };
+    return { stop, reset: abort };
 }

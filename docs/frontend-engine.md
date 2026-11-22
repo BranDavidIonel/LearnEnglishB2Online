@@ -101,6 +101,34 @@ After an `await` on `listening.done`, check that the component is still mounted 
 flag set to false in `beforeUnmount`) before touching its data. The components below clean up after
 themselves.
 
+### Phones and tablets (the microphone is not shared)
+
+Desktop Chrome shares the microphone: `listen()` opens it itself (`getUserMedia`) for the
+loudness meter and clear permission errors while the recogniser listens. Chrome for Android (and
+iOS) give the microphone to **one** user at a time, and whoever opened it first keeps it: with our
+own stream open, the recogniser hears nothing. So, on a phone or tablet
+(`isMobileDevice()` in `@/utils/microphone`, decided from the user agent / client hints because
+the audio policy of the system cannot be feature-tested):
+
+- `listen()` never calls `getUserMedia`: the recogniser opens the microphone itself. There is no
+  `'level'` update (`MicPanel` and the dialogue hide their meter); `'ready'` comes when the
+  recogniser has really started (after Android's permission prompt), and the 15-second limit
+  counts from then. Errors are the recogniser's own codes, explained with phone wording
+  (permission: "tap the icon next to the address → Permissions → Microphone").
+- The recogniser and the `Recorder` take turns (`claimMicrophone()`): starting one stops the other
+  first. On a desktop nothing changes.
+- `listenStream()` keeps `continuous` recognition, but Chrome for Android delivers every result as
+  final, each holding the whole phrase so far; `streamTranscript()` merges them, so `onText`
+  gets "apple banana", not "apple apple banana".
+- `MicPanel` waits 300 ms after stopping the app's voice before it listens, so the phone has
+  switched its audio from the speaker to the microphone.
+- On-device recognition (`processLocally`, the language pack download) exists only in desktop
+  Chrome; on a phone the "network" error is final and offers the recorder.
+
+What the tests prove: `utils/microphone.test.ts` and the phone cases in
+`utils/recognition.test.ts` (faked user agent, faked `SpeechRecognition` / `getUserMedia`).
+What only a real phone proves: that Android then really hears the learner.
+
 ## 4. Components
 
 ### `ExerciseSession` — `@/components/exercise/ExerciseSession.vue`

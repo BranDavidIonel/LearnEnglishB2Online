@@ -49,7 +49,10 @@
                     >
                         🎤
                     </button>
-                    <span class="mic-level" :class="{ hidden: !mics[i].on }">
+                    <span
+                        class="mic-level"
+                        :class="{ hidden: !mics[i].on || !metered }"
+                    >
                         <i :style="{ width: `${mics[i].level}%` }" />
                     </span>
                 </div>
@@ -84,6 +87,7 @@ import Recorder from '@/components/speech/Recorder.vue';
 import SpeakButton from '@/components/speech/SpeakButton.vue';
 import { speaking } from '@/routes';
 import type { Dialogue } from '@/types';
+import { isMobileDevice } from '@/utils/microphone';
 import type { Listening } from '@/utils/recognition';
 import { canListen, isMicError, listen, MIC_FATAL } from '@/utils/recognition';
 import { canRecord } from '@/utils/recording';
@@ -135,6 +139,8 @@ export default defineComponent({
             // Changes whenever playback is started or stopped, so an old run stops by itself.
             playRun: 0,
             playTimer: undefined as ReturnType<typeof setTimeout> | undefined,
+            // Phones have no loudness meter: the recogniser keeps the microphone to itself.
+            metered: !isMobileDevice(),
             mics: this.dialogue.lines.map((): MicState => ({
                 on: false,
                 level: 0,

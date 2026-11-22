@@ -19,6 +19,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import type { Listening } from '@/utils/recognition';
+import { isMobileDevice } from '@/utils/microphone';
 import { isMicError, listen, speechEngine } from '@/utils/recognition';
 
 /**
@@ -56,10 +57,13 @@ export default defineComponent({
             this.status = this.$t('Starting the microphone…');
             const listening = listen((kind, value) => {
                 if (kind === 'ready') {
-                    this.status = this.$t(
-                        '🎙 Say something in English… (microphone: :name)',
-                        { name: value || this.$t('unknown') },
-                    );
+                    // A phone does not tell which microphone the recogniser uses.
+                    this.status = isMobileDevice()
+                        ? this.$t('🎙 Listening… say something in English.')
+                        : this.$t(
+                              '🎙 Say something in English… (microphone: :name)',
+                              { name: value || this.$t('unknown') },
+                          );
                 } else if (kind === 'interim') {
                     this.status = `„${value}”`;
                 } else if (kind === 'info') {

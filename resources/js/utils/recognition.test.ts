@@ -14,7 +14,9 @@ import {
     listenStream,
     micError,
     speechEngine,
+    streamTranscript,
 } from './recognition';
+import { startRecording } from './recording';
 
 /** A stand-in for Chrome's SpeechRecognition that the tests drive by hand. */
 class FakeRecognition {
@@ -29,6 +31,7 @@ class FakeRecognition {
     processLocally?: boolean;
     onresult: ((event: { results: unknown }) => void) | null = null;
     onerror: ((event: { error: string }) => void) | null = null;
+    onstart: (() => void) | null = null;
     onend: (() => void) | null = null;
     started = false;
     stop = vi.fn(() => this.onend?.());
@@ -40,6 +43,16 @@ class FakeRecognition {
 
     start(): void {
         this.started = true;
+        this.onstart?.();
+    }
+
+    /** Several results at once, as a continuous recognition delivers them. */
+    sayAll(transcripts: string[], isFinal = true): void {
+        this.onresult?.({
+            results: transcripts.map((transcript) =>
+                Object.assign([{ transcript }], { isFinal }),
+            ),
+        });
     }
 
     say(alternatives: string[], isFinal = true): void {
@@ -222,5 +235,142 @@ describe('errors', () => {
 
     it('knows when the browser can listen', () => {
         expect(canListen()).toBe(true);
+    });
+});
+
+// ---------- phones and tablets ----------
+
+const ANDROID =
+    'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36';
+const WINDOWS =
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+
+/** A browser with a microphone of its own; returns the getUserMedia spy and the track. */
+function browser(userAgent: string) {
+    const track = { label: 'Built-in mic', stop: vi.fn() };
+    const stream = { getAudioTracks: () => [track], getTracks: () => [track] };
+    const getUserMedia = vi.fn(async () => stream);
+    vi.stubGlobal('navigator', {
+        userAgent,
+        mediaDevices: { getUserMedia },
+    });
+
+    return { getUserMedia, track };
+}
+
+describe('listen on a phone', () => {
+    it('lets the recogniser open the microphone itself', async () => {
+        const { getUserMedia } = browser(ANDROID);
+        const states: string[] = [];
+        const session = listen((...update) => states.push(update[0]));
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+        last().say(['hello there']);
+        last().onend?.();
+
+        await expect(session.done).resolves.toEqual(['hello there']);
+        expect(getUserMedia).not.toHaveBeenCalled();
+        // 'ready' once the recogniser has started, and never a loudness level
+        expect(states).toEqual(['ready']);
+    });
+
+    it('still opens the microphone first on a desktop', async () => {
+        const { getUserMedia } = browser(WINDOWS);
+        const session = listen();
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+        last().say(['hello']);
+        last().onend?.();
+
+        await expect(session.done).resolves.toEqual(['hello']);
+        expect(getUserMedia).toHaveBeenCalledTimes(1);
+    });
+
+    it('explains the permission error of the recogniser with phone help', async () => {
+        browser(ANDROID);
+        const session = listen();
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+        last().fail('not-allowed');
+
+        const error: unknown = await session.done.catch((e: unknown) => e);
+        expect(isMicError(error) && error.code).toBe('not-allowed');
+        expect(isMicError(error) && error.text).toContain(
+            'Permissions → Microphone',
+        );
+    });
+
+    it('ends a recording before the recogniser listens', async () => {
+        const { track } = browser(ANDROID);
+        vi.stubGlobal('MediaRecorder', FakeRecorder);
+        vi.stubGlobal('URL', { createObjectURL: () => 'blob:x' });
+        const onDone = vi.fn();
+        await startRecording(onDone);
+
+        const session = listen();
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+
+        expect(track.stop).toHaveBeenCalled();
+        expect(onDone).toHaveBeenCalledWith('blob:x');
+        session.stop();
+        await session.done.catch(() => {});
+    });
+});
+
+/** A MediaRecorder that records nothing. */
+class FakeRecorder {
+    state = 'inactive';
+    ondataavailable: ((e: { data: Blob }) => void) | null = null;
+    onstop: (() => void) | null = null;
+
+    start(): void {
+        this.state = 'recording';
+    }
+
+    stop(): void {
+        this.state = 'inactive';
+        this.onstop?.();
+    }
+}
+
+describe('listenStream on a phone', () => {
+    it('merges the growing final results of Android', async () => {
+        browser(ANDROID);
+        const heard: string[] = [];
+        const stream = listenStream((text) => heard.push(text));
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+        last().sayAll(['apple']);
+        last().sayAll(['apple', 'apple banana']);
+        last().sayAll(['apple', 'apple banana', 'apple banana cherry']);
+        stream.stop();
+
+        expect(heard).toEqual(['apple', 'apple banana', 'apple banana cherry']);
+    });
+
+    it('keeps joining separate phrases on a desktop', async () => {
+        browser(WINDOWS);
+        const heard: string[] = [];
+        const stream = listenStream((text) => heard.push(text));
+        await vi.waitFor(() => expect(last()?.started).toBe(true));
+        last().sayAll(['apple', 'banana']);
+        stream.stop();
+
+        expect(heard).toEqual(['apple banana']);
+    });
+});
+
+describe('streamTranscript', () => {
+    it('replaces a result by the next one that extends it', () => {
+        expect(streamTranscript(['one', 'one two', 'One two three '])).toBe(
+            'One two three',
+        );
+    });
+
+    it('drops a result that only repeats the one before', () => {
+        expect(streamTranscript(['one two', 'one', ''])).toBe('one two');
+    });
+
+    it('joins separate phrases', () => {
+        expect(streamTranscript(['apple', 'banana', 'banana split'])).toBe(
+            'apple banana split',
+        );
+        expect(streamTranscript([])).toBe('');
     });
 });

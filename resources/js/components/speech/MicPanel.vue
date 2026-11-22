@@ -26,7 +26,10 @@
             >
                 🎤
             </button>
-            <span class="mic-level" :class="{ hidden: listening === null }">
+            <span
+                class="mic-level"
+                :class="{ hidden: listening === null || !metered }"
+            >
                 <i :style="{ width: `${loudness}%` }" />
             </span>
         </div>
@@ -41,10 +44,14 @@
 import { defineComponent } from 'vue';
 import Recorder from '@/components/speech/Recorder.vue';
 import type { Listening } from '@/utils/recognition';
+import { isMobileDevice } from '@/utils/microphone';
 import { canListen, isMicError, listen, MIC_FATAL } from '@/utils/recognition';
 import { canRecord } from '@/utils/recording';
 import { stopSpeak } from '@/utils/speech';
 import { wordOpen } from '@/utils/wordLookup';
+
+// How long a phone waits after stopping speech before it listens.
+const PHONE_SETTLE_MS = 300;
 
 /**
  * The microphone of a speaking exercise or of the word window: a big button, a loudness meter
@@ -72,6 +79,10 @@ export default defineComponent({
         return {
             recognition: canListen(),
             recordable: canRecord(),
+            // Phones have no loudness meter: the recogniser keeps the microphone to itself.
+            metered: !isMobileDevice(),
+            // Waiting a moment before listening (phones only).
+            starting: false,
             listening: null as Listening | null,
             // Loudness in percent of the meter.
             loudness: 0,
@@ -106,13 +117,32 @@ export default defineComponent({
 
         /** Listens to one sentence (does nothing without speech recognition or while listening). */
         async listenNow(): Promise<void> {
-            if (!this.recognition || !this.alive || this.listening) {
+            if (
+                !this.recognition ||
+                !this.alive ||
+                this.listening ||
+                this.starting
+            ) {
                 return;
             }
 
             stopSpeak();
             this.failed = false;
             this.status = this.$t('Starting the microphone…');
+
+            // A phone hands its audio from the speaker to the microphone a moment after the
+            // app's voice stops; starting earlier can clip the first word.
+            if (!this.metered) {
+                this.starting = true;
+                await new Promise((resolve) =>
+                    setTimeout(resolve, PHONE_SETTLE_MS),
+                );
+                this.starting = false;
+
+                if (!this.alive) {
+                    return;
+                }
+            }
 
             const listening = listen((kind, value) => {
                 if (!this.alive) {
