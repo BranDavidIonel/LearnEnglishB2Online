@@ -21,7 +21,7 @@
     { "en": "second-guess", "ro": "a pune mereu la îndoială (o decizie)", "pos": "verb", "ipa": "/ˌsek.ənd ˈɡes/", "emoji": "🤔", "ex": "Stop second-guessing every decision you made.", "exRo": "Nu mai pune la îndoială fiecare decizie pe care ai luat-o." },
     { "en": "pay off", "ro": "a da roade, a merita", "pos": "verb", "ipa": "/ˌpeɪ ˈɒf/", "emoji": "🎯", "ex": "All those evenings of studying finally paid off.", "exRo": "Toate serile acelea de studiu au dat în sfârșit roade." },
     { "en": "missed opportunity", "ro": "ocazie ratată", "pos": "noun", "ipa": "/ˌmɪst ˌɒp.əˈtʃuː.nə.ti/", "emoji": "🚪", "ex": "Not going to the conference was a missed opportunity.", "exRo": "Faptul că n-am mers la conferință a fost o ocazie ratată." },
-    { "en": "gut feeling", "ro": "presimțire, instinct", "pos": "noun", "ipa": "/ˈɡʌt ˌfiː.lɪŋ/", "emoji": "🫃", "ex": "I had a gut feeling that the client wouldn't pay on time.", "exRo": "Aveam presimțirea că clientul nu va plăti la timp." },
+    { "en": "gut feeling", "ro": "presimțire, instinct", "pos": "noun", "ipa": "/ˈɡʌt ˌfiː.lɪŋ/", "emoji": "💭", "ex": "I had a gut feeling that the client wouldn't pay on time.", "exRo": "Aveam presimțirea că clientul nu va plăti la timp." },
     { "en": "make the most of", "ro": "a profita la maximum de", "pos": "phrase", "ipa": "/ˌmeɪk ðə ˈməʊst əv/", "emoji": "🌟", "ex": "Make the most of your time in Lisbon – it goes by quickly.", "exRo": "Profită la maximum de timpul petrecut în Lisabona – trece repede." },
     { "en": "dilemma", "ro": "dilemă", "pos": "noun", "ipa": "/daɪˈlem.ə/", "emoji": "🔱", "ex": "I faced a dilemma: accept the big client or keep my free weekends.", "exRo": "Am avut o dilemă: să accept clientul mare sau să-mi păstrez weekendurile libere." }
   ],

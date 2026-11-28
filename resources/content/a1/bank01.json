@@ -43,7 +43,7 @@
     { "en": "speak", "ro": "a vorbi", "pos": "verb", "ipa": "/spiːk/", "emoji": "👄", "ex": "I speak Romanian, English and a little German.", "exRo": "Vorbesc română, engleză și puțină germană." },
     { "en": "learn", "ro": "a învăța", "pos": "verb", "ipa": "/lɜːn/", "emoji": "📚", "ex": "I learn new English words every day.", "exRo": "Învăț cuvinte noi în engleză în fiecare zi." },
     { "en": "understand", "ro": "a înțelege", "pos": "verb", "ipa": "/ˌʌn.dəˈstænd/", "emoji": "🧠", "ex": "I don't understand this error message.", "exRo": "Nu înțeleg acest mesaj de eroare." },
-    { "en": "word", "ro": "cuvânt", "pos": "noun", "ipa": "/wɜːd/", "emoji": "🔤", "ex": "This word is new for me.", "exRo": "Cuvântul acesta este nou pentru mine." },
+    { "en": "word", "ro": "cuvânt", "pos": "noun", "ipa": "/wɜːd/", "emoji": "🔤", "ex": "This word is new to me.", "exRo": "Cuvântul acesta este nou pentru mine." },
     { "en": "question", "ro": "întrebare", "pos": "noun", "ipa": "/ˈkwes.tʃən/", "emoji": "❓", "ex": "I have a question about the new design.", "exRo": "Am o întrebare despre noul design." }
   ]
 }

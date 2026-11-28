@@ -22,7 +22,7 @@
     { "en": "weakness", "ro": "punct slab", "pos": "noun", "ipa": "/ˈwiːk.nəs/", "emoji": "🩹", "ex": "My weakness is that I sometimes work too slowly.", "exRo": "Punctul meu slab este că uneori lucrez prea încet." },
     { "en": "resign", "ro": "a demisiona", "pos": "verb", "ipa": "/rɪˈzaɪn/", "emoji": "🚪", "ex": "He resigned because he wanted to work as a freelancer.", "exRo": "A demisionat pentru că voia să lucreze ca freelancer." },
     { "en": "career", "ro": "carieră", "pos": "noun", "ipa": "/kəˈrɪər/", "emoji": "🧗", "ex": "She started her career as a tester.", "exRo": "Și-a început cariera ca tester." },
-    { "en": "so far", "ro": "până acum", "pos": "phrase", "ipa": "/ˈsəʊ fɑːr/", "emoji": "🛤️", "ex": "So far, I've worked with five different clients.", "exRo": "Până acum am lucrat cu cinci clienți diferiți." },
+    { "en": "so far", "ro": "până acum", "pos": "phrase", "ipa": "/ˌsəʊ ˈfɑːr/", "emoji": "🛤️", "ex": "So far, I've worked with five different clients.", "exRo": "Până acum am lucrat cu cinci clienți diferiți." },
     { "en": "take on", "ro": "a-și asuma; a angaja", "pos": "verb", "ipa": "/ˌteɪk ˈɒn/", "emoji": "🎒", "ex": "I don't want to take on too many projects at once.", "exRo": "Nu vreau să-mi asum prea multe proiecte deodată." }
   ],
   "grammar": {

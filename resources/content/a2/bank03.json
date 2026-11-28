@@ -9,7 +9,7 @@
     { "en": "fit", "ro": "a se potrivi (ca mărime)", "pos": "verb", "ipa": "/fɪt/", "emoji": "📏", "ex": "These shoes don't fit me – they're too small.", "exRo": "Pantofii ăștia nu-mi vin bine – sunt prea mici." },
     { "en": "suit", "ro": "a-i sta bine, a-i conveni", "pos": "verb", "ipa": "/suːt/", "emoji": "👔", "ex": "That blue shirt really suits you.", "exRo": "Cămașa aceea albastră chiar îți stă bine." },
     { "en": "return", "ro": "a returna, a se întoarce", "pos": "verb", "ipa": "/rɪˈtɜːn/", "emoji": "↩️", "ex": "I returned the keyboard because it didn't work.", "exRo": "Am returnat tastatura pentru că nu funcționa." },
-    { "en": "borrow", "ro": "a împrumuta (de la cineva)", "pos": "verb", "ipa": "/ˈbɒr.əʊ/", "emoji": "🤲", "ex": "Can I borrow your charger for a few minutes?", "exRo": "Pot să-ți împrumut încărcătorul pentru câteva minute?" },
+    { "en": "borrow", "ro": "a împrumuta (de la cineva)", "pos": "verb", "ipa": "/ˈbɒr.əʊ/", "emoji": "🤲", "ex": "Can I borrow your charger for a few minutes?", "exRo": "Pot să împrumut încărcătorul tău pentru câteva minute?" },
     { "en": "lend", "ro": "a împrumuta (cuiva)", "pos": "verb", "ipa": "/lend/", "emoji": "💵", "ex": "My brother lent me some money for a new phone.", "exRo": "Fratele meu mi-a împrumutat niște bani pentru un telefon nou." },
     { "en": "save", "ro": "a economisi, a salva", "pos": "verb", "ipa": "/seɪv/", "emoji": "💰", "ex": "I'm saving a lot of money for a holiday in Japan.", "exRo": "Strâng mulți bani pentru o vacanță în Japonia." },
     { "en": "product", "ro": "produs", "pos": "noun", "ipa": "/ˈprɒd.ʌkt/", "emoji": "🛍️", "ex": "Our client sells more than two thousand products online.", "exRo": "Clientul nostru vinde online peste două mii de produse." },

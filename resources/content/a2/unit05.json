@@ -9,7 +9,7 @@
   "vocab": [
     { "en": "schedule", "ro": "program, orar", "pos": "noun", "ipa": "/ˈʃedʒ.uːl/", "emoji": "🗓️", "ex": "My schedule is very full this week.", "exRo": "Programul meu e foarte plin săptămâna aceasta." },
     { "en": "appointment", "ro": "programare (la medic etc.)", "pos": "noun", "ipa": "/əˈpɔɪnt.mənt/", "emoji": "🩺", "ex": "I have a dentist appointment on Thursday.", "exRo": "Am o programare la dentist joi." },
-    { "en": "deadline", "ro": "termen limită", "pos": "noun", "ipa": "/ˈded.laɪn/", "emoji": "⏰", "ex": "The deadline for the project is next Friday.", "exRo": "Termenul limită pentru proiect este vinerea viitoare." },
+    { "en": "deadline", "ro": "termen-limită", "pos": "noun", "ipa": "/ˈded.laɪn/", "emoji": "⏰", "ex": "The deadline for the project is next Friday.", "exRo": "Termenul-limită pentru proiect este vinerea viitoare." },
     { "en": "the day after tomorrow", "ro": "poimâine", "pos": "phrase", "ipa": "/ðə ˌdeɪ ˌɑːf.tə təˈmɒr.əʊ/", "emoji": "📆", "ex": "We're flying to Rome the day after tomorrow.", "exRo": "Zburăm la Roma poimâine." },
     { "en": "book", "ro": "a rezerva", "pos": "verb", "ipa": "/bʊk/", "emoji": "🏨", "ex": "I'm going to book a hotel room for the conference.", "exRo": "O să rezerv o cameră de hotel pentru conferință." },
     { "en": "cancel", "ro": "a anula", "pos": "verb", "ipa": "/ˈkæn.səl/", "emoji": "❌", "ex": "The client cancelled the meeting this morning.", "exRo": "Clientul a anulat ședința în dimineața aceasta." },
@@ -88,7 +88,7 @@
   "reading": {
     "title": "A busy week",
     "text": "Next week is going to be very busy for Andrei. On Monday morning, he is meeting his team to talk about a new project. In the afternoon, he has a dentist appointment – he can't cancel it again!\n\nOn Tuesday and Wednesday, he is working on the hotel CRM. The deadline is Wednesday evening, so he isn't going to see his friends this week.\n\nOn Thursday at ten, he is having a video call with Laura, his client. He is going to show her the new features. On Friday, he is flying to Berlin for a tech conference. He booked the hotel last month.\n\nAndrei is tired, but he is happy. After the conference, he is going to take a few days off and relax.",
-    "textRo": "Săptămâna viitoare va fi foarte aglomerată pentru Andrei. Luni dimineață se întâlnește cu echipa lui ca să vorbească despre un proiect nou. După-amiază are programare la dentist – nu o poate anula din nou!\n\nMarți și miercuri lucrează la CRM-ul pentru hotel. Termenul limită este miercuri seara, așa că săptămâna aceasta nu o să se vadă cu prietenii.\n\nJoi la zece are un apel video cu Laura, clienta lui. O să-i arate noile funcții. Vineri zboară la Berlin pentru o conferință de tehnologie. A rezervat hotelul luna trecută.\n\nAndrei e obosit, dar fericit. După conferință, o să-și ia câteva zile libere și o să se relaxeze.",
+    "textRo": "Săptămâna viitoare va fi foarte aglomerată pentru Andrei. Luni dimineață se întâlnește cu echipa lui ca să vorbească despre un proiect nou. După-amiază are programare la dentist – nu o poate anula din nou!\n\nMarți și miercuri lucrează la CRM-ul pentru hotel. Termenul-limită este miercuri seara, așa că săptămâna aceasta nu o să se vadă cu prietenii.\n\nJoi la zece are un apel video cu Laura, clienta lui. O să-i arate noile funcții. Vineri zboară la Berlin pentru o conferință de tehnologie. A rezervat hotelul luna trecută.\n\nAndrei e obosit, dar fericit. După conferință, o să-și ia câteva zile libere și o să se relaxeze.",
     "questions": [
       { "type": "mc", "q": "What is Andrei doing on Monday afternoon?", "options": ["Meeting his team", "Going to the dentist", "Flying to Berlin", "Having a video call"], "answer": 1, "explainRo": "„In the afternoon, he has a dentist appointment.”" },
       { "type": "mc", "q": "When is the deadline for the hotel CRM?", "options": ["Monday morning", "Thursday at ten", "Wednesday evening", "Friday"], "answer": 2, "explainRo": "„The deadline is Wednesday evening.”" },
@@ -97,7 +97,7 @@
     ]
   },
   "exercises": [
-    { "type": "match", "pairs": [["deadline", "termen limită"], ["appointment", "programare"], ["schedule", "program"], ["agenda", "ordinea de zi"], ["conference", "conferință"]] },
+    { "type": "match", "pairs": [["deadline", "termen-limită"], ["appointment", "programare"], ["schedule", "program"], ["agenda", "ordinea de zi"], ["conference", "conferință"]] },
     { "type": "mc", "q": "I'm ___ to learn Python this year.", "options": ["go", "going", "goes", "went"], "answer": 1, "explainRo": "Structura este am/is/are + going to + verb." },
     { "type": "mc", "q": "She ___ going to book the hotel tonight.", "options": ["are", "am", "is", "be"], "answer": 2, "explainRo": "Cu she folosim is: she is (she's) going to." },
     { "type": "mc", "q": "___ you going to call the client?", "options": ["Do", "Are", "Is", "Did"], "answer": 1, "explainRo": "La întrebare inversăm: Are you going to...?" },

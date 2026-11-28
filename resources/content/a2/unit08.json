@@ -20,7 +20,7 @@
     { "en": "rule", "ro": "regulă", "pos": "noun", "ipa": "/ruːl/", "emoji": "📜", "ex": "The most important rule here is: no food near the computers.", "exRo": "Cea mai importantă regulă aici este: fără mâncare lângă calculatoare." },
     { "en": "dress code", "ro": "cod vestimentar", "pos": "noun", "ipa": "/ˈdres ˌkəʊd/", "emoji": "👔", "ex": "Our office doesn't have a strict dress code.", "exRo": "Biroul nostru nu are un cod vestimentar strict." },
     { "en": "exercise", "ro": "a face mișcare, a face sport", "pos": "verb", "ipa": "/ˈek.sə.saɪz/", "emoji": "🏃", "ex": "I try to exercise three times a week.", "exRo": "Încerc să fac mișcare de trei ori pe săptămână." },
-    { "en": "stressed", "ro": "stresat", "pos": "adj", "ipa": "/strest/", "emoji": "😫", "ex": "I'm very stressed because of the deadline.", "exRo": "Sunt foarte stresat din cauza termenului limită." },
+    { "en": "stressed", "ro": "stresat", "pos": "adj", "ipa": "/strest/", "emoji": "😫", "ex": "I'm very stressed because of the deadline.", "exRo": "Sunt foarte stresat din cauza termenului-limită." },
     { "en": "sick leave", "ro": "concediu medical", "pos": "noun", "ipa": "/ˈsɪk ˌliːv/", "emoji": "🏠", "ex": "He's on sick leave this week.", "exRo": "El e în concediu medical săptămâna aceasta." },
     { "en": "safety", "ro": "siguranță, securitate", "pos": "noun", "ipa": "/ˈseɪf.ti/", "emoji": "🦺", "ex": "For your safety, you must change your password every month.", "exRo": "Pentru siguranța ta, trebuie să-ți schimbi parola în fiecare lună." }
   ],
@@ -85,7 +85,7 @@
       { "speaker": "Andrei", "en": "I have a headache, and my back hurts too.", "ro": "Mă doare capul și mă doare și spatele." },
       { "speaker": "Sofia", "en": "You should take a break. You've worked for six hours without a break!", "ro": "Ar trebui să iei o pauză. Ai lucrat șase ore fără pauză!" },
       { "speaker": "Andrei", "en": "I know, but I have to finish this feature today. The client is waiting.", "ro": "Știu, dar trebuie să termin funcția asta azi. Clientul așteaptă." },
-      { "speaker": "Sofia", "en": "You don't have to finish it today. The deadline is on Friday.", "ro": "Nu e nevoie s-o termini azi. Termenul limită e vineri." },
+      { "speaker": "Sofia", "en": "You don't have to finish it today. The deadline is on Friday.", "ro": "Nu e nevoie s-o termini azi. Termenul-limită e vineri." },
       { "speaker": "Andrei", "en": "Really? Then maybe I should go to the pharmacy and buy some medicine.", "ro": "Serios? Atunci poate ar trebui să merg la farmacie să-mi cumpăr un medicament." },
       { "speaker": "Sofia", "en": "Good idea. And you shouldn't sit at your desk all day. You should exercise more.", "ro": "Bună idee. Și n-ar trebui să stai la birou toată ziua. Ar trebui să faci mai multă mișcare." },
       { "speaker": "Andrei", "en": "You're right. Do I have to tell the manager?", "ro": "Ai dreptate. Trebuie să-i spun managerului?" },

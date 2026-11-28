@@ -35,7 +35,7 @@
     { "en": "teach", "ro": "a preda, a învăța (pe cineva)", "pos": "verb", "ipa": "/tiːtʃ/", "emoji": "👩‍🏫", "ex": "Can you teach me how to use Git?", "exRo": "Mă poți învăța cum să folosesc Git?" },
     { "en": "study", "ro": "a studia, a învăța", "pos": "verb", "ipa": "/ˈstʌd.i/", "emoji": "📚", "ex": "I study English for an hour every evening.", "exRo": "Învăț engleză o oră în fiecare seară." },
     { "en": "remember", "ro": "a-și aminti", "pos": "verb", "ipa": "/rɪˈmem.bə/", "emoji": "🧠", "ex": "I can never remember people's names.", "exRo": "Nu-mi amintesc niciodată numele oamenilor." },
-    { "en": "forget", "ro": "a uita", "pos": "verb", "ipa": "/fəˈɡet/", "emoji": "🤦", "ex": "I often forget my phone at home.", "exRo": "Îmi uit des telefonul acasă." },
+    { "en": "forget", "ro": "a uita", "pos": "verb", "ipa": "/fəˈɡet/", "emoji": "🤦", "ex": "I often forget my phone.", "exRo": "Îmi uit des telefonul." },
     { "en": "class", "ro": "curs, oră (de curs)", "pos": "noun", "ipa": "/klɑːs/", "emoji": "📝", "ex": "I have a yoga class on Tuesday evenings.", "exRo": "Am curs de yoga marțea seara." },
     { "en": "if", "ro": "dacă", "pos": "conj", "ipa": "/ɪf/", "emoji": "🔀", "ex": "If you're free, we can have a call at three.", "exRo": "Dacă ești liber, putem avea un apel la trei." },
     { "en": "maybe", "ro": "poate", "pos": "adv", "ipa": "/ˈmeɪ.bi/", "emoji": "🤷", "ex": "Maybe we can finish the project on Friday.", "exRo": "Poate reușim să terminăm proiectul vineri." },

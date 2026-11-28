@@ -196,7 +196,7 @@
         },
         {
           "say": "Good. When is the deadline?",
-          "sayRo": "Bine. Când e termenul limită?",
+          "sayRo": "Bine. Când e termenul-limită?",
           "hintRo": "Spune că termenul e vineri, dar vrei să termini joi.",
           "answers": ["It's on Friday, but I want to finish on Thursday.", "Friday. But I'm going to finish it on Thursday.", "The deadline is Friday. I hope to finish on Thursday."],
           "keywords": ["friday", "thursday"]
@@ -501,7 +501,7 @@
       "topicRo": "Planuri și termene",
       "emoji": "📅",
       "items": [
-        { "en": "When is the deadline?", "ro": "Când e termenul limită?" },
+        { "en": "When is the deadline?", "ro": "Când e termenul-limită?" },
         { "en": "I'm going to finish it this week.", "ro": "O să-l termin săptămâna aceasta." },
         { "en": "Are you available on Monday?", "ro": "Ești disponibil luni?" },
         { "en": "Can we move the meeting to Friday?", "ro": "Putem muta ședința pe vineri?" },
