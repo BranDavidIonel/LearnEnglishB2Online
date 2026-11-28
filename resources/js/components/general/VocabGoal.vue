@@ -16,7 +16,7 @@ import type { PropType } from 'vue';
 import { defineComponent } from 'vue';
 import ProgressBar from '@/components/general/ProgressBar.vue';
 
-/** "📚 Words for B1: 340 / 2000": the vocabulary goal of a level, counting the levels before it. */
+/** "📚 Words for B1: 340 / 3150": the vocabulary goal of a level, counting the levels before it. */
 export default defineComponent({
     name: 'VocabGoal',
 

@@ -44,6 +44,21 @@
     { "en": "learn", "ro": "a învăța", "pos": "verb", "ipa": "/lɜːn/", "emoji": "📚", "ex": "I learn new English words every day.", "exRo": "Învăț cuvinte noi în engleză în fiecare zi." },
     { "en": "understand", "ro": "a înțelege", "pos": "verb", "ipa": "/ˌʌn.dəˈstænd/", "emoji": "🧠", "ex": "I don't understand this error message.", "exRo": "Nu înțeleg acest mesaj de eroare." },
     { "en": "word", "ro": "cuvânt", "pos": "noun", "ipa": "/wɜːd/", "emoji": "🔤", "ex": "This word is new to me.", "exRo": "Cuvântul acesta este nou pentru mine." },
-    { "en": "question", "ro": "întrebare", "pos": "noun", "ipa": "/ˈkwes.tʃən/", "emoji": "❓", "ex": "I have a question about the new design.", "exRo": "Am o întrebare despre noul design." }
+    { "en": "question", "ro": "întrebare", "pos": "noun", "ipa": "/ˈkwes.tʃən/", "emoji": "❓", "ex": "I have a question about the new design.", "exRo": "Am o întrebare despre noul design." },
+    { "en": "start", "ro": "a începe, a porni; început", "pos": "verb", "ipa": "/stɑːt/", "emoji": "🏁", "ex": "I start work at nine every day.", "exRo": "Încep lucrul la nouă în fiecare zi." },
+    { "en": "begin", "ro": "a începe", "pos": "verb", "ipa": "/bɪˈɡɪn/", "emoji": "▶️", "ex": "The meeting begins at ten. Please don't be late.", "exRo": "Ședința începe la zece. Vă rog să nu întârziați." },
+    { "en": "finish", "ro": "a termina", "pos": "verb", "ipa": "/ˈfɪn.ɪʃ/", "emoji": "✅", "ex": "We finish work at five on Fridays.", "exRo": "Vinerea terminăm lucrul la cinci." },
+    { "en": "agree", "ro": "a fi de acord", "pos": "verb", "ipa": "/əˈɡriː/", "emoji": "🤝", "ex": "I agree with you. It's a good idea.", "exRo": "Sunt de acord cu tine. E o idee bună." },
+    { "en": "sure", "ro": "sigur", "pos": "adj", "ipa": "/ʃɔːr/", "emoji": "👍", "ex": "Are you sure? Yes, I'm sure.", "exRo": "Ești sigur? Da, sunt sigur." },
+    { "en": "true", "ro": "adevărat", "pos": "adj", "ipa": "/truː/", "emoji": "✔️", "ex": "Is it true? Is she your new boss?", "exRo": "E adevărat? Ea e noua ta șefă?" },
+    { "en": "real", "ro": "real, adevărat", "pos": "adj", "ipa": "/rɪəl/", "emoji": "💎", "ex": "Is that a real name or a username?", "exRo": "Acesta e un nume real sau un nume de utilizator?" },
+    { "en": "person", "ro": "persoană", "pos": "noun", "ipa": "/ˈpɜː.sən/", "emoji": "🧍", "ex": "Ana is a very nice person.", "exRo": "Ana e o persoană foarte drăguță." },
+    { "en": "worker", "ro": "muncitor, lucrător, angajat", "pos": "noun", "ipa": "/ˈwɜː.kər/", "emoji": "👷", "ex": "My father is a worker in a big company.", "exRo": "Tatăl meu este muncitor într-o firmă mare." },
+    { "en": "farmer", "ro": "fermier", "pos": "noun", "ipa": "/ˈfɑː.mər/", "emoji": "👨‍🌾", "wiki": "Farmer", "ex": "My uncle is a farmer. He has a lot of animals.", "exRo": "Unchiul meu e fermier. Are o mulțime de animale." },
+    { "en": "actor", "ro": "actor", "pos": "noun", "ipa": "/ˈæk.tər/", "emoji": "🎭", "ex": "He's an actor, but he also works in a café.", "exRo": "El e actor, dar lucrează și într-o cafenea." },
+    { "en": "artist", "ro": "artist", "pos": "noun", "ipa": "/ˈɑː.tɪst/", "emoji": "🎨", "ex": "My sister is an artist and a designer.", "exRo": "Sora mea e artistă și designer." },
+    { "en": "singer", "ro": "cântăreț, cântăreață", "pos": "noun", "ipa": "/ˈsɪŋ.ər/", "emoji": "🎤", "ex": "She is a singer in a small band.", "exRo": "Ea e cântăreață într-o trupă mică." },
+    { "en": "writer", "ro": "scriitor, autor", "pos": "noun", "ipa": "/ˈraɪ.tər/", "emoji": "✍️", "ex": "Is he a writer? Yes, he writes books for children.", "exRo": "El e scriitor? Da, scrie cărți pentru copii." },
+    { "en": "police", "ro": "poliție", "pos": "noun", "ipa": "/pəˈliːs/", "emoji": "🚓", "wiki": "Police", "ex": "My friend Vlad works for the police.", "exRo": "Prietenul meu Vlad lucrează la poliție." }
   ]
 }

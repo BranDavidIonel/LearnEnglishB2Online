@@ -42,6 +42,21 @@
     { "en": "outside", "ro": "afară", "pos": "adv", "ipa": "/ˌaʊtˈsaɪd/", "emoji": "🌿", "ex": "It's sunny, so let's eat outside today.", "exRo": "E soare, așa că hai să mâncăm afară azi." },
     { "en": "Wi-Fi", "ro": "Wi-Fi (internet wireless)", "pos": "noun", "ipa": "/ˈwaɪ.faɪ/", "emoji": "📶", "ex": "Is there free Wi-Fi in the flat?", "exRo": "Apartamentul are Wi-Fi gratuit?" },
     { "en": "how many", "ro": "câți, câte", "pos": "phrase", "ipa": "/ˌhaʊ ˈmen.i/", "emoji": "🔢", "ex": "How many bedrooms are there in the flat?", "exRo": "Câte dormitoare are apartamentul?" },
-    { "en": "tree", "ro": "copac", "pos": "noun", "ipa": "/triː/", "emoji": "🌳", "wiki": "Tree", "ex": "There are lots of trees in our street.", "exRo": "Pe strada noastră sunt mulți copaci." }
+    { "en": "tree", "ro": "copac", "pos": "noun", "ipa": "/triː/", "emoji": "🌳", "wiki": "Tree", "ex": "There are lots of trees in our street.", "exRo": "Pe strada noastră sunt mulți copaci." },
+    { "en": "above", "ro": "deasupra; peste", "pos": "prep", "ipa": "/əˈbʌv/", "emoji": "⬆️", "ex": "There's a clock above the door.", "exRo": "Deasupra ușii este un ceas." },
+    { "en": "below", "ro": "dedesubt, sub", "pos": "prep", "ipa": "/bɪˈləʊ/", "emoji": "⬇️", "ex": "Our flat is on the fifth floor, and my boss lives below us.", "exRo": "Apartamentul nostru e la etajul cinci, iar șeful meu locuiește sub noi." },
+    { "en": "wall", "ro": "perete, zid", "pos": "noun", "ipa": "/wɔːl/", "emoji": "🧱", "wiki": "Wall", "ex": "There are some photos on the wall.", "exRo": "Pe perete sunt câteva fotografii." },
+    { "en": "roof", "ro": "acoperiș", "pos": "noun", "ipa": "/ruːf/", "emoji": "🏠", "wiki": "Roof", "ex": "There's a cat on the roof!", "exRo": "E o pisică pe acoperiș!" },
+    { "en": "stairs", "ro": "scări", "pos": "noun", "ipa": "/steəz/", "emoji": "🪜", "wiki": "Stairs", "ex": "The bathroom is at the top of the stairs.", "exRo": "Baia este în capul scărilor." },
+    { "en": "garage", "ro": "garaj", "pos": "noun", "ipa": "/ˈɡær.ɑːʒ/", "emoji": "🚗", "wiki": "Garage (residential)", "ex": "Is there a garage next to the house?", "exRo": "Există un garaj lângă casă?" },
+    { "en": "pillow", "ro": "pernă (de dormit)", "pos": "noun", "ipa": "/ˈpɪl.əʊ/", "emoji": "🛏️", "wiki": "Pillow", "ex": "There are two pillows on the bed.", "exRo": "Pe pat sunt două perne." },
+    { "en": "blanket", "ro": "pătură", "pos": "noun", "ipa": "/ˈblæŋ.kɪt/", "emoji": "🧣", "wiki": "Blanket", "ex": "Are there any blankets in the bedroom?", "exRo": "Sunt pături în dormitor?" },
+    { "en": "plant", "ro": "plantă", "pos": "noun", "ipa": "/plɑːnt/", "emoji": "🪴", "wiki": "Plant", "ex": "There are a lot of plants in our office.", "exRo": "În biroul nostru sunt o mulțime de plante." },
+    { "en": "flower", "ro": "floare", "pos": "noun", "ipa": "/ˈflaʊ.ər/", "emoji": "🌸", "wiki": "Flower", "ex": "There are beautiful flowers in the garden.", "exRo": "În grădină sunt flori frumoase." },
+    { "en": "neighbour", "ro": "vecin, vecină", "pos": "noun", "ipa": "/ˈneɪ.bər/", "emoji": "🏘️", "ex": "Our neighbours are very friendly.", "exRo": "Vecinii noștri sunt foarte prietenoși." },
+    { "en": "centre", "ro": "centru", "pos": "noun", "ipa": "/ˈsen.tər/", "emoji": "🎯", "ex": "Our office is in the centre of Cluj.", "exRo": "Biroul nostru e în centrul Clujului." },
+    { "en": "library", "ro": "bibliotecă", "pos": "noun", "ipa": "/ˈlaɪ.brər.i/", "emoji": "📚", "wiki": "Library", "ex": "There's a big library opposite the park.", "exRo": "Vizavi de parc este o bibliotecă mare." },
+    { "en": "theatre", "ro": "teatru", "pos": "noun", "ipa": "/ˈθɪə.tər/", "emoji": "🎭", "wiki": "Theater (structure)", "ex": "Is there a theatre in your town?", "exRo": "Există un teatru în orașul tău?" },
+    { "en": "sell", "ro": "a vinde", "pos": "verb", "ipa": "/sel/", "emoji": "🏷️", "ex": "The shop on the corner sells fresh bread.", "exRo": "Magazinul de la colț vinde pâine proaspătă." }
   ]
 }

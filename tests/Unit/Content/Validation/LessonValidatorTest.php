@@ -56,7 +56,7 @@ it('catches a broken word bank', function (string $file, string $message, Severi
 })->with([
     'wrong unit' => ['a1/bank01.json', 'unit must be "a1-u01"'],
     'no words' => ['a1/bank03.json', 'needs a words[] array'],
-    'wrong number of words' => ['a1/bank01.json', 'has 5 words, expected 59 (unit total 60)', Severity::Warning],
+    'wrong number of words' => ['a1/bank01.json', 'has 5 words, expected 74 (unit total 75)', Severity::Warning],
     'word without fields' => ['a1/bank01.json', 'words[0] missing ipa'],
     'no part of speech' => ['a1/bank01.json', 'words[0] bad pos "null"'],
     'empty wiki' => ['a1/bank01.json', 'words[1] empty wiki'],

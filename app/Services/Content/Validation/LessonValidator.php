@@ -22,10 +22,10 @@ final class LessonValidator extends Validator
     private const array MIN_EXERCISES = ['mc' => 6, 'fill' => 3, 'order' => 3, 'translate' => 2, 'listen' => 2, 'match' => 1];
 
     /**
-     * Words of a unit in total (core vocabulary + word bank): 600 / 1200 / 2000 / 3000 words
+     * Words of a unit in total (core vocabulary + word bank): 750 / 1650 / 3150 / 4650 words
      * by the end of A1 / A2 / B1 / B2.
      */
-    private const array UNIT_WORDS = ['A1' => 60, 'A2' => 60, 'B1' => 80, 'B2' => 100];
+    private const array UNIT_WORDS = ['A1' => 75, 'A2' => 90, 'B1' => 150, 'B2' => 150];
 
     /** Half of every unit test is new questions, the other half comes from the unit's exercises. */
     private const int TEST_QUESTIONS = 12;

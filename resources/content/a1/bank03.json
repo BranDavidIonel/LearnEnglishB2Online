@@ -44,6 +44,21 @@
     { "en": "help", "ro": "a ajuta", "pos": "verb", "ipa": "/help/", "emoji": "🆘", "ex": "My teammates always help me with difficult bugs.", "exRo": "Colegii de echipă mă ajută mereu cu bug-urile dificile." },
     { "en": "talk", "ro": "a vorbi, a discuta", "pos": "verb", "ipa": "/tɔːk/", "emoji": "💬", "ex": "I talk to my parents every evening.", "exRo": "Vorbesc cu părinții mei în fiecare seară." },
     { "en": "all", "ro": "toți, tot", "pos": "other", "ipa": "/ɔːl/", "emoji": "👨‍👩‍👧‍👦", "ex": "All my cousins live in Sibiu.", "exRo": "Toți verii mei locuiesc în Sibiu." },
-    { "en": "both", "ro": "amândoi, ambii", "pos": "other", "ipa": "/bəʊθ/", "emoji": "✌️", "ex": "I've got two sisters. They're both teachers.", "exRo": "Am două surori. Amândouă sunt profesoare." }
+    { "en": "both", "ro": "amândoi, ambii", "pos": "other", "ipa": "/bəʊθ/", "emoji": "✌️", "ex": "I've got two sisters. They're both teachers.", "exRo": "Am două surori. Amândouă sunt profesoare." },
+    { "en": "nose", "ro": "nas", "pos": "noun", "ipa": "/nəʊz/", "emoji": "👃", "wiki": "Human nose", "ex": "My baby has got her father's nose.", "exRo": "Fetița mea are nasul tatălui ei." },
+    { "en": "mouth", "ro": "gură", "pos": "noun", "ipa": "/maʊθ/", "emoji": "👄", "wiki": "Human mouth", "ex": "Open your mouth, please. Thank you.", "exRo": "Deschide gura, te rog. Mulțumesc." },
+    { "en": "ear", "ro": "ureche", "pos": "noun", "ipa": "/ɪər/", "emoji": "👂", "wiki": "Ear", "ex": "My dog has got big ears.", "exRo": "Câinele meu are urechi mari." },
+    { "en": "tooth", "ro": "dinte (plural: teeth)", "pos": "noun", "ipa": "/tuːθ/", "emoji": "🦷", "wiki": "Tooth", "ex": "Our little girl has got her first tooth!", "exRo": "Fetița noastră are primul ei dinte!" },
+    { "en": "blonde", "ro": "blond, blondă", "pos": "adj", "ipa": "/blɒnd/", "emoji": "👱‍♀️", "ex": "My sister has got long blonde hair.", "exRo": "Sora mea are părul lung și blond." },
+    { "en": "smile", "ro": "zâmbet; a zâmbi", "pos": "noun", "ipa": "/smaɪl/", "emoji": "😊", "ex": "Our new teammate has got a lovely smile.", "exRo": "Noua noastră colegă de echipă are un zâmbet frumos." },
+    { "en": "laugh", "ro": "a râde; râs", "pos": "verb", "ipa": "/lɑːf/", "emoji": "😂", "ex": "My dad is very funny. We always laugh with him.", "exRo": "Tata e foarte amuzant. Mereu râdem cu el." },
+    { "en": "kiss", "ro": "sărut, pupic; a săruta", "pos": "noun", "ipa": "/kɪs/", "emoji": "😘", "ex": "Give Grandma a kiss, please.", "exRo": "Dă-i un pupic bunicii, te rog." },
+    { "en": "hug", "ro": "îmbrățișare; a îmbrățișa", "pos": "noun", "ipa": "/hʌɡ/", "emoji": "🫂", "ex": "My mum always gives me a big hug.", "exRo": "Mama mă îmbrățișează mereu strâns." },
+    { "en": "bird", "ro": "pasăre", "pos": "noun", "ipa": "/bɜːd/", "emoji": "🐦", "wiki": "Bird", "ex": "My grandparents have got a small yellow bird.", "exRo": "Bunicii mei au o păsărică galbenă." },
+    { "en": "horse", "ro": "cal", "pos": "noun", "ipa": "/hɔːs/", "emoji": "🐴", "wiki": "Horse", "ex": "My cousin has got a beautiful white horse.", "exRo": "Vărul meu are un cal alb frumos." },
+    { "en": "cow", "ro": "vacă", "pos": "noun", "ipa": "/kaʊ/", "emoji": "🐄", "wiki": "Cattle", "ex": "My grandmother has got two cows and a dog.", "exRo": "Bunica mea are două vaci și un câine." },
+    { "en": "sheep", "ro": "oaie, oi (același cuvânt la plural)", "pos": "noun", "ipa": "/ʃiːp/", "emoji": "🐑", "wiki": "Sheep", "ex": "There are a lot of sheep in the Carpathians.", "exRo": "În Carpați sunt o mulțime de oi." },
+    { "en": "rabbit", "ro": "iepure", "pos": "noun", "ipa": "/ˈræb.ɪt/", "emoji": "🐰", "wiki": "Rabbit", "ex": "The children have got a pet rabbit.", "exRo": "Copiii au un iepuraș de companie." },
+    { "en": "duck", "ro": "rață", "pos": "noun", "ipa": "/dʌk/", "emoji": "🦆", "wiki": "Duck", "ex": "Look! There are ducks on the lake.", "exRo": "Uite! Pe lac sunt rațe." }
   ]
 }

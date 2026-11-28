@@ -42,6 +42,21 @@
     { "en": "on foot", "ro": "pe jos", "pos": "phrase", "ipa": "/ɒn ˈfʊt/", "emoji": "🚶", "ex": "I go to the office on foot every day.", "exRo": "Merg pe jos la birou în fiecare zi." },
     { "en": "sad", "ro": "trist", "pos": "adj", "ipa": "/sæd/", "emoji": "😢", "ex": "I was sad when the holiday ended.", "exRo": "Am fost trist când s-a terminat vacanța." },
     { "en": "hope", "ro": "a spera", "pos": "verb", "ipa": "/həʊp/", "emoji": "🤞", "ex": "I hope the client likes the new design.", "exRo": "Sper să-i placă clientului designul nou." },
-    { "en": "end", "ro": "sfârșit, final", "pos": "noun", "ipa": "/end/", "emoji": "🔚", "ex": "The project finished at the end of March.", "exRo": "Proiectul s-a terminat la sfârșitul lui martie." }
+    { "en": "end", "ro": "sfârșit, final", "pos": "noun", "ipa": "/end/", "emoji": "🔚", "ex": "The project finished at the end of March.", "exRo": "Proiectul s-a terminat la sfârșitul lui martie." },
+    { "en": "last", "ro": "trecut, ultimul", "pos": "adj", "ipa": "/lɑːst/", "emoji": "⏮️", "ex": "The last day of our holiday was very sad.", "exRo": "Ultima zi a vacanței noastre a fost foarte tristă." },
+    { "en": "miss", "ro": "a pierde, a rata (trenul, avionul); a-i fi dor de", "pos": "verb", "ipa": "/mɪs/", "emoji": "🏃", "ex": "We arrived late and missed our train.", "exRo": "Am ajuns târziu și am pierdut trenul." },
+    { "en": "follow", "ro": "a urma, a urmări", "pos": "verb", "ipa": "/ˈfɒl.əʊ/", "emoji": "👣", "ex": "We followed the map and walked to the old castle.", "exRo": "Am urmat harta și am mers pe jos până la castelul vechi." },
+    { "en": "guide", "ro": "ghid", "pos": "noun", "ipa": "/ɡaɪd/", "emoji": "🧑‍🏫", "ex": "Our guide was very friendly and funny.", "exRo": "Ghidul nostru a fost foarte prietenos și amuzant." },
+    { "en": "postcard", "ro": "carte poștală, vedere", "pos": "noun", "ipa": "/ˈpəʊst.kɑːd/", "emoji": "💌", "wiki": "Postcard", "ex": "I sent a postcard to my grandmother from Rome.", "exRo": "I-am trimis bunicii mele o vedere din Roma." },
+    { "en": "bike", "ro": "bicicletă", "pos": "noun", "ipa": "/baɪk/", "emoji": "🚲", "wiki": "Bicycle", "ex": "We rented bikes and visited the old town.", "exRo": "Am închiriat biciclete și am vizitat orașul vechi." },
+    { "en": "kilometre", "ro": "kilometru", "pos": "noun", "ipa": "/kɪˈlɒm.ɪ.tər/", "emoji": "📏", "ex": "The hotel was only two kilometres from the beach.", "exRo": "Hotelul era la doar doi kilometri de plajă." },
+    { "en": "forest", "ro": "pădure", "pos": "noun", "ipa": "/ˈfɒr.ɪst/", "emoji": "🌲", "wiki": "Forest", "ex": "We walked in the forest for three hours.", "exRo": "Ne-am plimbat prin pădure trei ore." },
+    { "en": "hill", "ro": "deal", "pos": "noun", "ipa": "/hɪl/", "emoji": "⛰️", "wiki": "Hill", "ex": "The village was on a hill near the sea.", "exRo": "Satul era pe un deal, aproape de mare." },
+    { "en": "field", "ro": "câmp; domeniu", "pos": "noun", "ipa": "/fiːld/", "emoji": "🌾", "ex": "From the train we saw fields of yellow flowers.", "exRo": "Din tren am văzut câmpuri cu flori galbene." },
+    { "en": "farm", "ro": "fermă", "pos": "noun", "ipa": "/fɑːm/", "emoji": "🚜", "wiki": "Farm", "ex": "We stayed on a farm in the mountains.", "exRo": "Am stat la o fermă la munte." },
+    { "en": "special", "ro": "special, deosebit", "pos": "adj", "ipa": "/ˈspeʃ.əl/", "emoji": "✨", "ex": "It was a very special trip for us.", "exRo": "A fost o excursie foarte specială pentru noi." },
+    { "en": "fantastic", "ro": "fantastic, minunat", "pos": "adj", "ipa": "/fænˈtæs.tɪk/", "emoji": "🤩", "ex": "The weather was fantastic every day.", "exRo": "Vremea a fost minunată în fiecare zi." },
+    { "en": "exciting", "ro": "captivant, palpitant", "pos": "adj", "ipa": "/ɪkˈsaɪ.tɪŋ/", "emoji": "🎢", "ex": "My first flight was very exciting.", "exRo": "Primul meu zbor a fost foarte palpitant." },
+    { "en": "terrible", "ro": "groaznic, îngrozitor", "pos": "adj", "ipa": "/ˈter.ə.bəl/", "emoji": "😖", "ex": "The food at the hotel was terrible.", "exRo": "Mâncarea de la hotel a fost groaznică." }
   ]
 }

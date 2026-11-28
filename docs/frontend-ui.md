@@ -209,7 +209,7 @@ English never shows it.
 | `general/ChipTag` | `kind?` (`ok`, `warn`, `bad`, `now`, `lvl`), `color?`; default slot | `span.chip-tag` |
 | `general/LevelChip` | `level` (`LevelId`) | `ChipTag kind="lvl"` in the level colour |
 | `general/EmptyState` | `icon` (emoji), `title`, `text?`; slot `actions` | `div.empty` |
-| `general/VocabGoal` | `stats` (`{ learned, total }`), `level` (`{ name, color }`) | `div.to-goal`: "📚 Words for B1 · 340 / 2000" + bar |
+| `general/VocabGoal` | `stats` (`{ learned, total }`), `level` (`{ name, color }`) | `div.to-goal`: "📚 Words for B1 · 340 / 3150" + bar |
 | `general/ToastStack` | — (mounted by the layouts) | `div.toasts` |
 | `general/SessionSave` | `save` (`SaveQueue`), `keepsAnswers?` (true); emits `saved`; default slot | the slot once saved, else `SaveAlert` |
 | `general/SaveAlert` | `busy?`, `keepsAnswers?` (true); emits `retry` | `div.alert.warn`: "Your result could not be saved…" + 🔁 Try again |

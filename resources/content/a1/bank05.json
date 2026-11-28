@@ -42,6 +42,21 @@
     { "en": "before", "ro": "înainte de", "pos": "prep", "ipa": "/bɪˈfɔː/", "emoji": "⏪", "ex": "I always read a little before bed.", "exRo": "Citesc mereu puțin înainte de culcare." },
     { "en": "later", "ro": "mai târziu", "pos": "adv", "ipa": "/ˈleɪ.tə/", "emoji": "⏳", "ex": "I'm in a meeting now. Call me later, please.", "exRo": "Sunt într-o ședință acum. Sună-mă mai târziu, te rog." },
     { "en": "until", "ro": "până (la)", "pos": "prep", "ipa": "/ənˈtɪl/", "emoji": "🔚", "ex": "I work from nine until five.", "exRo": "Lucrez de la nouă până la cinci." },
-    { "en": "message", "ro": "mesaj", "pos": "noun", "ipa": "/ˈmes.ɪdʒ/", "emoji": "📩", "ex": "Sorry, I can't talk now. Send me a message.", "exRo": "Scuze, nu pot vorbi acum. Trimite-mi un mesaj." }
+    { "en": "message", "ro": "mesaj", "pos": "noun", "ipa": "/ˈmes.ɪdʒ/", "emoji": "📩", "ex": "Sorry, I can't talk now. Send me a message.", "exRo": "Scuze, nu pot vorbi acum. Trimite-mi un mesaj." },
+    { "en": "breakfast", "ro": "micul dejun", "pos": "noun", "ipa": "/ˈbrek.fəst/", "emoji": "🍳", "wiki": "Breakfast", "ex": "I usually have eggs and toast for breakfast.", "exRo": "De obicei mănânc ouă și pâine prăjită la micul dejun." },
+    { "en": "lunch", "ro": "prânz, masa de prânz", "pos": "noun", "ipa": "/lʌntʃ/", "emoji": "🥪", "wiki": "Lunch", "ex": "We have lunch with the team at one o'clock.", "exRo": "Luăm prânzul cu echipa la ora unu." },
+    { "en": "dinner", "ro": "cină", "pos": "noun", "ipa": "/ˈdɪn.ər/", "emoji": "🍽️", "wiki": "Dinner", "ex": "My wife makes dinner, and I wash the dishes.", "exRo": "Soția mea face cina, iar eu spăl vasele." },
+    { "en": "wash", "ro": "a spăla, a se spăla", "pos": "verb", "ipa": "/wɒʃ/", "emoji": "🧼", "ex": "I wash my face with cold water every morning.", "exRo": "Îmi spăl fața cu apă rece în fiecare dimineață." },
+    { "en": "brush", "ro": "a peria, a spăla (pe dinți); perie", "pos": "verb", "ipa": "/brʌʃ/", "emoji": "🪥", "ex": "She brushes her teeth after breakfast.", "exRo": "Ea se spală pe dinți după micul dejun." },
+    { "en": "toothbrush", "ro": "periuță de dinți", "pos": "noun", "ipa": "/ˈtuːθ.brʌʃ/", "emoji": "🪥", "wiki": "Toothbrush", "ex": "I always have a toothbrush in my bag.", "exRo": "Am mereu o periuță de dinți în geantă." },
+    { "en": "shower", "ro": "duș", "pos": "noun", "ipa": "/ˈʃaʊ.ər/", "emoji": "🚿", "wiki": "Shower", "ex": "The shower in our flat is very small.", "exRo": "Dușul din apartamentul nostru e foarte mic." },
+    { "en": "bath", "ro": "baie (în cadă), cadă", "pos": "noun", "ipa": "/bɑːθ/", "emoji": "🛁", "wiki": "Bathtub", "ex": "My children have a bath every evening.", "exRo": "Copiii mei fac baie în fiecare seară." },
+    { "en": "towel", "ro": "prosop", "pos": "noun", "ipa": "/ˈtaʊ.əl/", "emoji": "🧺", "wiki": "Towel", "ex": "There's a clean towel in the bathroom.", "exRo": "În baie este un prosop curat." },
+    { "en": "soap", "ro": "săpun", "pos": "noun", "ipa": "/səʊp/", "emoji": "🧼", "wiki": "Soap", "ex": "Wash your hands with soap and warm water.", "exRo": "Spală-te pe mâini cu săpun și apă caldă." },
+    { "en": "bring", "ro": "a aduce", "pos": "verb", "ipa": "/brɪŋ/", "emoji": "🎁", "ex": "I bring my lunch to work every day.", "exRo": "Îmi aduc prânzul la serviciu în fiecare zi." },
+    { "en": "half", "ro": "jumătate", "pos": "noun", "ipa": "/hɑːf/", "emoji": "🌓", "ex": "I walk to work. It takes half an hour.", "exRo": "Merg pe jos la serviciu. Durează o jumătate de oră." },
+    { "en": "moment", "ro": "moment, clipă", "pos": "noun", "ipa": "/ˈməʊ.mənt/", "emoji": "⏱️", "ex": "Just a moment, please. I'm on the phone.", "exRo": "O clipă, vă rog. Vorbesc la telefon." },
+    { "en": "quick", "ro": "rapid, scurt", "pos": "adj", "ipa": "/kwɪk/", "emoji": "⚡", "ex": "I have a quick coffee and then I start work.", "exRo": "Beau o cafea rapidă și apoi încep lucrul." },
+    { "en": "plan", "ro": "plan; a plănui", "pos": "noun", "ipa": "/plæn/", "emoji": "🗒️", "ex": "What's your plan for the weekend?", "exRo": "Care e planul tău pentru weekend?" }
   ]
 }

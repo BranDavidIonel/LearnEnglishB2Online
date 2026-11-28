@@ -100,7 +100,7 @@ it('counts learned, learning and new words', function () {
     $this->words->learn($this->user, 'goodbye');
     $this->words->learn($this->user, 'a word that left the course');
 
-    expect($this->words->counts($this->user))->toBe(['learned' => 1, 'learning' => 1, 'new' => 2944, 'total' => 2946])
+    expect($this->words->counts($this->user))->toBe(['learned' => 1, 'learning' => 1, 'new' => 4594, 'total' => 4596])
         ->and($this->words->counts($this->user, ['hello', 'name']))->toBe(['learned' => 1, 'learning' => 0, 'new' => 1, 'total' => 2]);
 });
 
@@ -120,8 +120,8 @@ it('gives the words of a unit, its bank and its level, each word once', function
         $total += count($this->words->levelWords($level));
     }
     // A word met in an earlier level counts in both levels, like the original.
-    expect($total)->toBeGreaterThanOrEqual(2946)
-        ->and($this->words->vocabTo($this->user, 'b2')['total'])->toBe(2946)
+    expect($total)->toBeGreaterThanOrEqual(4596)
+        ->and($this->words->vocabTo($this->user, 'b2')['total'])->toBe(4596)
         ->and($this->words->vocabTo($this->user, 'a1')['total'])->toBe(count($levelWords))
         ->and($this->words->vocabTo($this->user, 'c1')['total'])->toBe(0);
 });

@@ -43,6 +43,21 @@
     { "en": "try", "ro": "a încerca", "pos": "verb", "ipa": "/traɪ/", "emoji": "🧪", "ex": "Let's try the new Thai restaurant on Friday.", "exRo": "Hai să încercăm vineri restaurantul thailandez cel nou." },
     { "en": "free", "ro": "gratuit, liber", "pos": "adj", "ipa": "/friː/", "emoji": "🆓", "ex": "The coffee in our office is free.", "exRo": "Cafeaua de la biroul nostru e gratuită." },
     { "en": "idea", "ro": "idee", "pos": "noun", "ipa": "/aɪˈdɪə/", "emoji": "💡", "ex": "That's a great idea for the new app.", "exRo": "E o idee grozavă pentru aplicația nouă." },
-    { "en": "so", "ro": "așa că, deci", "pos": "conj", "ipa": "/səʊ/", "emoji": "➡️", "ex": "I'm tired, so I don't want to go out tonight.", "exRo": "Sunt obosit, așa că nu vreau să ies în seara asta." }
+    { "en": "so", "ro": "așa că, deci", "pos": "conj", "ipa": "/səʊ/", "emoji": "➡️", "ex": "I'm tired, so I don't want to go out tonight.", "exRo": "Sunt obosit, așa că nu vreau să ies în seara asta." },
+    { "en": "butter", "ro": "unt", "pos": "noun", "ipa": "/ˈbʌt.ər/", "emoji": "🧈", "wiki": "Butter", "ex": "I like bread with butter and jam.", "exRo": "Îmi place pâinea cu unt și gem." },
+    { "en": "cream", "ro": "smântână, frișcă; cremă", "pos": "noun", "ipa": "/kriːm/", "emoji": "🍦", "wiki": "Cream", "ex": "Do you want cream in your coffee?", "exRo": "Vrei frișcă în cafea?" },
+    { "en": "carrot", "ro": "morcov", "pos": "noun", "ipa": "/ˈkær.ət/", "emoji": "🥕", "wiki": "Carrot", "ex": "My son doesn't like carrots.", "exRo": "Fiului meu nu-i plac morcovii." },
+    { "en": "lemon", "ro": "lămâie", "pos": "noun", "ipa": "/ˈlem.ən/", "emoji": "🍋", "wiki": "Lemon", "ex": "I drink tea with lemon, not with milk.", "exRo": "Beau ceai cu lămâie, nu cu lapte." },
+    { "en": "sweet", "ro": "dulce", "pos": "adj", "ipa": "/swiːt/", "emoji": "🍬", "ex": "This cake is very sweet. I love it!", "exRo": "Prăjitura asta e foarte dulce. Îmi place la nebunie!" },
+    { "en": "fresh", "ro": "proaspăt", "pos": "adj", "ipa": "/freʃ/", "emoji": "🌿", "ex": "Is the fish fresh today?", "exRo": "Peștele e proaspăt azi?" },
+    { "en": "full", "ro": "plin; sătul", "pos": "adj", "ipa": "/fʊl/", "emoji": "😌", "ex": "No more pizza, thanks. I'm full.", "exRo": "Nu mai vreau pizza, mulțumesc. Sunt sătul." },
+    { "en": "plate", "ro": "farfurie", "pos": "noun", "ipa": "/pleɪt/", "emoji": "🍽️", "wiki": "Plate (dishware)", "ex": "Can I have a clean plate, please?", "exRo": "Pot să primesc o farfurie curată, vă rog?" },
+    { "en": "bowl", "ro": "bol, castron", "pos": "noun", "ipa": "/bəʊl/", "emoji": "🥣", "wiki": "Bowl", "ex": "I'd like a bowl of soup, please.", "exRo": "Aș vrea un bol de supă, vă rog." },
+    { "en": "dish", "ro": "fel de mâncare; farfurie; vase (de spălat)", "pos": "noun", "ipa": "/dɪʃ/", "emoji": "🥘", "ex": "What's your favourite Romanian dish?", "exRo": "Care e felul tău preferat de mâncare românească?" },
+    { "en": "knife", "ro": "cuțit", "pos": "noun", "ipa": "/naɪf/", "emoji": "🔪", "wiki": "Knife", "ex": "Excuse me, I haven't got a knife.", "exRo": "Scuzați-mă, nu am cuțit." },
+    { "en": "fork", "ro": "furculiță", "pos": "noun", "ipa": "/fɔːk/", "emoji": "🍴", "wiki": "Fork", "ex": "Do you eat pizza with a knife and fork?", "exRo": "Mănânci pizza cu cuțitul și furculița?" },
+    { "en": "spoon", "ro": "lingură, linguriță", "pos": "noun", "ipa": "/spuːn/", "emoji": "🥄", "wiki": "Spoon", "ex": "I need a spoon for my soup.", "exRo": "Am nevoie de o lingură pentru supă." },
+    { "en": "cut", "ro": "a tăia", "pos": "verb", "ipa": "/kʌt/", "emoji": "✂️", "ex": "Can you cut the cake, please?", "exRo": "Poți să tai tortul, te rog?" },
+    { "en": "choose", "ro": "a alege", "pos": "verb", "ipa": "/tʃuːz/", "emoji": "👉", "ex": "I always choose the fish when I eat here.", "exRo": "Aleg mereu peștele când mănânc aici." }
   ]
 }

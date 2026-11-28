@@ -42,6 +42,21 @@
     { "en": "open", "ro": "a deschide", "pos": "verb", "ipa": "/ˈəʊ.pən/", "emoji": "📂", "ex": "Open that file and look at line ten.", "exRo": "Deschide fișierul acela și uită-te la linia zece." },
     { "en": "close", "ro": "a închide", "pos": "verb", "ipa": "/kləʊz/", "emoji": "🚪", "ex": "Please close the window. It's cold in here.", "exRo": "Te rog închide fereastra. E frig aici." },
     { "en": "turn on", "ro": "a porni, a aprinde", "pos": "verb", "ipa": "/ˌtɜːn ˈɒn/", "emoji": "🔛", "ex": "Turn on your camera for the call, please.", "exRo": "Pornește-ți camera pentru apel, te rog." },
-    { "en": "turn off", "ro": "a opri, a stinge", "pos": "verb", "ipa": "/ˌtɜːn ˈɒf/", "emoji": "📴", "ex": "Please turn off the lights in the office.", "exRo": "Te rog să stingi luminile din birou." }
+    { "en": "turn off", "ro": "a opri, a stinge", "pos": "verb", "ipa": "/ˌtɜːn ˈɒf/", "emoji": "📴", "ex": "Please turn off the lights in the office.", "exRo": "Te rog să stingi luminile din birou." },
+    { "en": "shape", "ro": "formă", "pos": "noun", "ipa": "/ʃeɪp/", "emoji": "🔷", "ex": "What shape is your new desk?", "exRo": "Ce formă are biroul tău nou?" },
+    { "en": "round", "ro": "rotund; rundă", "pos": "adj", "ipa": "/raʊnd/", "emoji": "⚪", "ex": "These tables are round, and those are square.", "exRo": "Mesele acestea sunt rotunde, iar acelea sunt pătrate." },
+    { "en": "square", "ro": "pătrat; piață (în oraș)", "pos": "noun", "ipa": "/skweər/", "emoji": "🟥", "wiki": "Square", "ex": "Draw a square and a circle on the paper.", "exRo": "Desenează un pătrat și un cerc pe hârtie." },
+    { "en": "circle", "ro": "cerc", "pos": "noun", "ipa": "/ˈsɜː.kəl/", "emoji": "⭕", "wiki": "Circle", "ex": "The clock on the wall is a big white circle.", "exRo": "Ceasul de pe perete e un cerc mare și alb." },
+    { "en": "line", "ro": "linie; rând", "pos": "noun", "ipa": "/laɪn/", "emoji": "➖", "ex": "There is a red line under this word.", "exRo": "Sub acest cuvânt este o linie roșie." },
+    { "en": "gold", "ro": "aur; auriu", "pos": "noun", "ipa": "/ɡəʊld/", "emoji": "🥇", "wiki": "Gold", "ex": "Is this watch real gold? No, it's very cheap.", "exRo": "Ceasul acesta e din aur adevărat? Nu, e foarte ieftin." },
+    { "en": "silver", "ro": "argint; argintiu", "pos": "noun", "ipa": "/ˈsɪl.vər/", "emoji": "🥈", "wiki": "Silver", "ex": "My new laptop is silver and black.", "exRo": "Noul meu laptop e argintiu cu negru." },
+    { "en": "top", "ro": "partea de sus, vârf; de top", "pos": "adj", "ipa": "/tɒp/", "emoji": "🔝", "ex": "The keys are in the top drawer of my desk.", "exRo": "Cheile sunt în sertarul de sus al biroului meu." },
+    { "en": "bottom", "ro": "partea de jos, fund; de jos", "pos": "noun", "ipa": "/ˈbɒt.əm/", "emoji": "⬇️", "ex": "Your name is at the bottom of the page.", "exRo": "Numele tău este în partea de jos a paginii." },
+    { "en": "middle", "ro": "mijloc", "pos": "noun", "ipa": "/ˈmɪd.əl/", "emoji": "⏺️", "ex": "The printer is in the middle of the room.", "exRo": "Imprimanta e în mijlocul camerei." },
+    { "en": "side", "ro": "parte, latură", "pos": "noun", "ipa": "/saɪd/", "emoji": "↔️", "ex": "The charger is on the left side of the laptop.", "exRo": "Încărcătorul e în partea stângă a laptopului." },
+    { "en": "large", "ro": "mare", "pos": "adj", "ipa": "/lɑːdʒ/", "emoji": "🐘", "ex": "Can I have a large coffee, please?", "exRo": "Pot să primesc o cafea mare, vă rog?" },
+    { "en": "card", "ro": "card; carte de joc; felicitare", "pos": "noun", "ipa": "/kɑːd/", "emoji": "💳", "ex": "This is my bank card, and that is my ID.", "exRo": "Acesta e cardul meu bancar, iar acela e buletinul meu." },
+    { "en": "radio", "ro": "radio", "pos": "noun", "ipa": "/ˈreɪ.di.əʊ/", "emoji": "📻", "wiki": "Radio", "ex": "That old radio is from my grandfather.", "exRo": "Radioul acela vechi e de la bunicul meu." },
+    { "en": "television", "ro": "televizor, televiziune", "pos": "noun", "ipa": "/ˈtel.ɪ.vɪʒ.ən/", "emoji": "📺", "wiki": "Television", "ex": "Is that television new? It's very big!", "exRo": "Televizorul acela e nou? E foarte mare!" }
   ]
 }

@@ -42,6 +42,21 @@
     { "en": "art", "ro": "artă", "pos": "noun", "ipa": "/ɑːt/", "emoji": "🖼️", "ex": "We often visit art galleries at the weekend.", "exRo": "Vizităm des galerii de artă în weekend." },
     { "en": "news", "ro": "știri, vești", "pos": "noun", "ipa": "/njuːz/", "emoji": "📰", "ex": "I read the news on my phone every morning.", "exRo": "Citesc știrile pe telefon în fiecare dimineață." },
     { "en": "story", "ro": "poveste", "pos": "noun", "ipa": "/ˈstɔː.ri/", "emoji": "📖", "ex": "My kids always want a story at bedtime.", "exRo": "Copiii mei vor mereu o poveste înainte de culcare." },
-    { "en": "win", "ro": "a câștiga", "pos": "verb", "ipa": "/wɪn/", "emoji": "🏆", "ex": "Our team never wins at football, but we have fun.", "exRo": "Echipa noastră nu câștigă niciodată la fotbal, dar ne distrăm." }
+    { "en": "win", "ro": "a câștiga", "pos": "verb", "ipa": "/wɪn/", "emoji": "🏆", "ex": "Our team never wins at football, but we have fun.", "exRo": "Echipa noastră nu câștigă niciodată la fotbal, dar ne distrăm." },
+    { "en": "film", "ro": "film", "pos": "noun", "ipa": "/fɪlm/", "emoji": "🎬", "ex": "We often watch a film on Friday evening.", "exRo": "Vineri seara ne uităm des la un film." },
+    { "en": "band", "ro": "trupă (de muzică)", "pos": "noun", "ipa": "/bænd/", "emoji": "🎸", "ex": "My brother plays the guitar in a rock band.", "exRo": "Fratele meu cântă la chitară într-o trupă rock." },
+    { "en": "player", "ro": "jucător, jucătoare", "pos": "noun", "ipa": "/ˈpleɪ.ər/", "emoji": "⚽", "ex": "He's a very good tennis player.", "exRo": "E un jucător de tenis foarte bun." },
+    { "en": "ball", "ro": "minge", "pos": "noun", "ipa": "/bɔːl/", "emoji": "🏀", "wiki": "Ball", "ex": "Our dog always wants to play with a ball.", "exRo": "Câinele nostru vrea mereu să se joace cu mingea." },
+    { "en": "club", "ro": "club", "pos": "noun", "ipa": "/klʌb/", "emoji": "🏊", "ex": "Can you swim? There's a swimming club near the office.", "exRo": "Știi să înoți? E un club de înot lângă birou." },
+    { "en": "ride", "ro": "a merge (cu bicicleta, cu calul), a călări", "pos": "verb", "ipa": "/raɪd/", "emoji": "🚴", "ex": "I sometimes ride my bike to work.", "exRo": "Uneori merg cu bicicleta la serviciu." },
+    { "en": "jump", "ro": "a sări", "pos": "verb", "ipa": "/dʒʌmp/", "emoji": "🦘", "ex": "My cat can jump very high.", "exRo": "Pisica mea poate sări foarte sus." },
+    { "en": "climb", "ro": "a urca, a se cățăra", "pos": "verb", "ipa": "/klaɪm/", "emoji": "🧗", "ex": "We often climb mountains at the weekend.", "exRo": "Deseori urcăm pe munte în weekend." },
+    { "en": "lesson", "ro": "lecție", "pos": "noun", "ipa": "/ˈles.ən/", "emoji": "📘", "ex": "I have a piano lesson every Tuesday.", "exRo": "Am o lecție de pian în fiecare marți." },
+    { "en": "classroom", "ro": "sală de clasă", "pos": "noun", "ipa": "/ˈklɑːs.ruːm/", "emoji": "🏫", "wiki": "Classroom", "ex": "Our classroom has got twenty computers.", "exRo": "Sala noastră de clasă are douăzeci de calculatoare." },
+    { "en": "homework", "ro": "teme (pentru acasă)", "pos": "noun", "ipa": "/ˈhəʊm.wɜːk/", "emoji": "📓", "ex": "My daughter never does her homework on time.", "exRo": "Fiica mea nu-și face niciodată temele la timp." },
+    { "en": "exam", "ro": "examen", "pos": "noun", "ipa": "/ɪɡˈzæm/", "emoji": "📝", "ex": "I have an English exam in June.", "exRo": "Am un examen de engleză în iunie." },
+    { "en": "mistake", "ro": "greșeală", "pos": "noun", "ipa": "/mɪˈsteɪk/", "emoji": "❌", "ex": "I often make mistakes when I speak English.", "exRo": "Fac des greșeli când vorbesc engleză." },
+    { "en": "interested", "ro": "interesat", "pos": "adj", "ipa": "/ˈɪn.trəs.tɪd/", "emoji": "🧐", "ex": "Are you interested in art?", "exRo": "Te interesează arta?" },
+    { "en": "bored", "ro": "plictisit", "pos": "adj", "ipa": "/bɔːd/", "emoji": "🥱", "ex": "I'm bored. Can we play a game?", "exRo": "Mă plictisesc. Putem juca un joc?" }
   ]
 }

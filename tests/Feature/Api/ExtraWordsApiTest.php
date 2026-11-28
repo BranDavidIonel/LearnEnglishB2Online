@@ -13,7 +13,7 @@ use Illuminate\Cache\Repository;
 
 /*
 | Extra words: glossary words the learner puts into the flashcards. They are learned like
-| course words but never change the course numbers. "start" and "system" are glossary words,
+| course words but never change the course numbers. "absorb" and "chaos" are glossary words,
 | "Cluj" a name.
 */
 
@@ -39,26 +39,26 @@ function courseNumbers(User $user): array
 }
 
 it('learns a glossary word like a course word', function () {
-    expect(app(ContentRepository::class)->extraWord('start'))->not->toBeNull();
+    expect(app(ContentRepository::class)->extraWord('absorb'))->not->toBeNull();
 
-    $this->postJson(route('api.words.learn'), ['words' => ['start']])
+    $this->postJson(route('api.words.learn'), ['words' => ['absorb']])
         ->assertOk()
-        ->assertJsonPath('words.0.en', 'start')
+        ->assertJsonPath('words.0.en', 'absorb')
         ->assertJsonPath('words.0.extra', true)
         ->assertJsonPath('words.0.levelId', null)
         ->assertJsonPath('words.0.unit', null)
         ->assertJsonPath('words.0.status', 'learning')
         ->assertJsonPath('learner.due.words', 1);
 
-    $this->postJson(route('api.words.grade'), ['words' => ['start'], 'grade' => 2])->assertJsonPath('words.0.box', 1);
-    $this->postJson(route('api.words.known'), ['words' => ['system']])->assertJsonPath('words.0.status', 'learned');
-    $this->postJson(route('api.words.forget'), ['words' => ['system']])->assertJsonPath('words.0.status', 'new');
+    $this->postJson(route('api.words.grade'), ['words' => ['absorb'], 'grade' => 2])->assertJsonPath('words.0.box', 1);
+    $this->postJson(route('api.words.known'), ['words' => ['chaos']])->assertJsonPath('words.0.status', 'learned');
+    $this->postJson(route('api.words.forget'), ['words' => ['chaos']])->assertJsonPath('words.0.status', 'new');
 });
 
 it('never changes the course numbers', function () {
     $before = courseNumbers($this->user);
 
-    $this->postJson(route('api.words.known'), ['words' => ['start', 'system']])->assertOk();
+    $this->postJson(route('api.words.known'), ['words' => ['absorb', 'chaos']])->assertOk();
     $this->postJson(route('api.words.learn'), ['words' => ['hello']])->assertOk();
 
     $after = courseNumbers($this->user);
@@ -70,13 +70,13 @@ it('never changes the course numbers', function () {
 });
 
 it('shows a due extra word on the flashcards and lists the extra words', function () {
-    $this->postJson(route('api.words.learn'), ['words' => ['start']])->assertOk();
+    $this->postJson(route('api.words.learn'), ['words' => ['absorb']])->assertOk();
     $words = app(WordReviewService::class);
     app(LearnerState::class)->flush();
 
     expect($words->dueCount($this->user))->toBe(1)
-        ->and($words->due($this->user)[0])->toMatchArray(['en' => 'start', 'extra' => true, 'ex' => null, 'levelId' => null])
-        ->and(array_column($words->extraWords($this->user), 'en'))->toBe(['start'])
+        ->and($words->due($this->user)[0])->toMatchArray(['en' => 'absorb', 'extra' => true, 'ex' => null, 'levelId' => null])
+        ->and(array_column($words->extraWords($this->user), 'en'))->toBe(['absorb'])
         ->and($words->extraWords($this->user)[0]['status'])->toBe('learning');
 });
 
@@ -86,22 +86,22 @@ it('refuses names and unknown words', function () {
 });
 
 it('keeps extra words through export and import', function () {
-    $this->postJson(route('api.words.known'), ['words' => ['start']])->assertOk();
+    $this->postJson(route('api.words.known'), ['words' => ['absorb']])->assertOk();
     $exported = app(ProgressExporter::class)->toJson($this->user);
 
     $other = User::factory()->create();
     app(ProgressImporter::class)->importJson($other, $exported);
 
-    expect($other->wordReviews()->where('word', 'start')->value('known'))->toBeTrue();
+    expect($other->wordReviews()->where('word', 'absorb')->value('known'))->toBeTrue();
 });
 
 it('looks up a glossary word, a name, an expression and a word found nowhere', function () {
-    $this->postJson(route('api.words.learn'), ['words' => ['start']])->assertOk();
+    $this->postJson(route('api.words.learn'), ['words' => ['absorb']])->assertOk();
 
-    $this->getJson(route('api.words.lookup', ['word' => 'started']))
+    $this->getJson(route('api.words.lookup', ['word' => 'absorbed']))
         ->assertOk()
         ->assertJsonPath('lookup.source', 'glossary')
-        ->assertJsonPath('lookup.base', 'start')
+        ->assertJsonPath('lookup.base', 'absorb')
         ->assertJsonPath('lookup.relation', 'past')
         ->assertJsonPath('lookup.entry.levelId', null)
         ->assertJsonPath('lookup.state.status', 'learning');
@@ -151,7 +151,7 @@ it('reads the glossary: extra words leave out the course words, a missing file i
     $content = app(ContentRepository::class);
     $none = new ContentRepository(new ContentFiles(base_path('tests/Fixtures/content/none')), new Repository(new ArrayStore), 0);
 
-    expect($content->extraWord('start'))->toMatchArray(['en' => 'start', 'pos' => 'verb'])
+    expect($content->extraWord('absorb'))->toMatchArray(['en' => 'absorb', 'pos' => 'verb'])
         ->and($content->extraWord('child'))->toBeNull()
         ->and(array_column($content->glossary()['words'], 'en'))->toContain('child')
         ->and($none->glossary())->toBe(['words' => [], 'names' => []])

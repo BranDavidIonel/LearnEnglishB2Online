@@ -44,6 +44,21 @@
     { "en": "example", "ro": "exemplu", "pos": "noun", "ipa": "/ɪɡˈzɑːm.pəl/", "emoji": "📝", "ex": "Here is an example of my code.", "exRo": "Iată un exemplu din codul meu." },
     { "en": "mean", "ro": "a însemna", "pos": "verb", "ipa": "/miːn/", "emoji": "🧐", "ex": "Excuse me, what does this word mean?", "exRo": "Scuzați-mă, ce înseamnă cuvântul acesta?" },
     { "en": "information", "ro": "informații", "pos": "noun", "ipa": "/ˌɪn.fəˈmeɪ.ʃən/", "emoji": "ℹ️", "ex": "All the information is on our website.", "exRo": "Toate informațiile sunt pe site-ul nostru." },
-    { "en": "website", "ro": "site web", "pos": "noun", "ipa": "/ˈweb.saɪt/", "emoji": "🌐", "ex": "The client's new website is ready.", "exRo": "Noul site al clientului este gata." }
+    { "en": "website", "ro": "site web", "pos": "noun", "ipa": "/ˈweb.saɪt/", "emoji": "🌐", "ex": "The client's new website is ready.", "exRo": "Noul site al clientului este gata." },
+    { "en": "north", "ro": "nord", "pos": "noun", "ipa": "/nɔːθ/", "emoji": "⬆️", "ex": "Cluj is in the north of Romania.", "exRo": "Clujul este în nordul României." },
+    { "en": "south", "ro": "sud", "pos": "noun", "ipa": "/saʊθ/", "emoji": "⬇️", "ex": "Is Valencia in the south of Spain? No, it's in the east.", "exRo": "Valencia e în sudul Spaniei? Nu, e în est." },
+    { "en": "east", "ro": "est", "pos": "noun", "ipa": "/iːst/", "emoji": "➡️", "ex": "Budapest is east of Vienna.", "exRo": "Budapesta este la est de Viena." },
+    { "en": "west", "ro": "vest", "pos": "noun", "ipa": "/west/", "emoji": "⬅️", "ex": "Arad is in the west of Romania, near Hungary.", "exRo": "Aradul este în vestul României, aproape de Ungaria." },
+    { "en": "meaning", "ro": "sens, înțeles", "pos": "noun", "ipa": "/ˈmiː.nɪŋ/", "emoji": "💡", "ex": "What's the meaning of this word?", "exRo": "Care este sensul acestui cuvânt?" },
+    { "en": "spelling", "ro": "ortografie, scriere corectă", "pos": "noun", "ipa": "/ˈspel.ɪŋ/", "emoji": "🔤", "ex": "English spelling is very difficult for me.", "exRo": "Ortografia engleză este foarte grea pentru mine." },
+    { "en": "dictionary", "ro": "dicționar", "pos": "noun", "ipa": "/ˈdɪk.ʃən.ər.i/", "emoji": "📖", "wiki": "Dictionary", "ex": "I use an online dictionary every day.", "exRo": "Folosesc zilnic un dicționar online." },
+    { "en": "sentence", "ro": "propoziție, frază", "pos": "noun", "ipa": "/ˈsen.təns/", "emoji": "📝", "ex": "Please read the first sentence again.", "exRo": "Te rog să citești din nou prima propoziție." },
+    { "en": "repeat", "ro": "a repeta", "pos": "verb", "ipa": "/rɪˈpiːt/", "emoji": "🔁", "ex": "Sorry, can you repeat your surname, please?", "exRo": "Scuze, puteți repeta numele de familie, vă rog?" },
+    { "en": "form", "ro": "formular; formă, fel", "pos": "noun", "ipa": "/fɔːm/", "emoji": "📋", "ex": "Write your name and age on the form.", "exRo": "Scrie-ți numele și vârsta pe formular." },
+    { "en": "fill", "ro": "a umple; a completa (un formular)", "pos": "verb", "ipa": "/fɪl/", "emoji": "🫗", "ex": "Can you fill my glass with water, please?", "exRo": "Îmi poți umple paharul cu apă, te rog?" },
+    { "en": "list", "ro": "listă", "pos": "noun", "ipa": "/lɪst/", "emoji": "📃", "ex": "Here is a list of our new clients.", "exRo": "Iată o listă cu clienții noștri noi." },
+    { "en": "count", "ro": "a număra", "pos": "verb", "ipa": "/kaʊnt/", "emoji": "🔢", "ex": "My son can count from one to a hundred.", "exRo": "Fiul meu poate număra de la unu la o sută." },
+    { "en": "false", "ro": "fals, greșit", "pos": "adj", "ipa": "/fɒls/", "emoji": "❎", "ex": "Read the sentences. Are they true or false?", "exRo": "Citește propozițiile. Sunt adevărate sau false?" },
+    { "en": "postcode", "ro": "cod poștal", "pos": "noun", "ipa": "/ˈpəʊst.kəʊd/", "emoji": "📮", "ex": "What's your address and postcode?", "exRo": "Care este adresa și codul tău poștal?" }
   ]
 }

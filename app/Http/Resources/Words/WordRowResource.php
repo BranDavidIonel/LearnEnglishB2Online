@@ -7,7 +7,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
  * A row of "My words" (components/modules/words/types.ts "WordListRow"): only what the row,
- * the filters and the counts need, because the page gets all ~3,000 words at once (box and
+ * the filters and the counts need, because the page gets all ~4,600 words at once (box and
  * known only for the words in the deck). The rest
  * of each word comes later, for its details (WordPages::details()). Built from
  * WordReviewService::withState().

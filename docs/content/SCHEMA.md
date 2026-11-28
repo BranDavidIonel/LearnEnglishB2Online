@@ -128,10 +128,10 @@ vocabulary. Each unit has this many words in total (core `vocab` + bank):
 
 | Level | Words per unit | Cumulative by the end of the level |
 |---|---|---|
-| A1 | 60 | 600 |
-| A2 | 60 | 1,200 |
-| B1 | 80 | 2,000 |
-| B2 | 100 | 3,000 |
+| A1 | 75 | 750 |
+| A2 | 90 | 1,650 |
+| B1 | 150 | 3,150 |
+| B2 | 150 | 4,650 |
 
 ```jsonc
 {
