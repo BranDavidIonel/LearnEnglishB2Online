@@ -41,6 +41,7 @@ import {
     flashcards,
     games,
     grammar,
+    help,
     home,
     learn,
     logout,
@@ -66,6 +67,7 @@ type MenuId =
     | 'placement'
     | 'cambridge'
     | 'progress'
+    | 'help'
     | 'settings';
 
 type MenuItem = {
@@ -91,10 +93,11 @@ const SECTIONS: [RegExp, MenuId][] = [
     [/^\/games(\/|$)/, 'games'],
     [/^\/cambridge(\/|$)/, 'cambridge'],
     [/^\/progress$/, 'progress'],
+    [/^\/help(\/|$)/, 'help'],
     [/^\/settings$/, 'settings'],
 ];
 
-/** The sidebar: logo, the twelve parts of the app with their badges, Settings and Log out at the bottom. */
+/** The sidebar: logo, the twelve parts of the app with their badges, Help, then Settings and Log out at the bottom. */
 export default defineComponent({
     name: 'SideNav',
 
@@ -153,6 +156,7 @@ export default defineComponent({
                     '📊',
                     this.$t('Progress'),
                 ),
+                this.item('help', help().url, '❓', this.$t('Help')),
             ];
         },
 

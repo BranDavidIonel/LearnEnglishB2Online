@@ -53,6 +53,7 @@ class ContentBuilder
         $pieces['cambridge'] = $this->cambridge($examIds);
         $pieces['glossary'] = $this->glossary();
         $pieces['extraWords'] = $this->extraWords($pieces['glossary']['words'], $words);
+        $pieces['help'] = $this->files->json('help.json');
 
         return $pieces;
     }

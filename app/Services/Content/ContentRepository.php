@@ -226,6 +226,18 @@ class ContentRepository
     }
 
     /**
+     * The help page (help.json, keys of the file): "sounds" — the pronunciation signs by
+     * group —, "plan" — the daily plan — and "tips". Null when the file is missing.
+     *
+     * @return array<string, mixed>|null
+     */
+    public function help(): ?array
+    {
+        /** @var array<string, mixed>|null */
+        return $this->piece('help');
+    }
+
+    /**
      * The Cambridge mock exams: exam.json of each exam plus id and its tests (whole).
      *
      * @return list<array<string, mixed>>

@@ -41,11 +41,11 @@ app/
   Services/
     Content/             ContentRepository (+ Validation/ for content:validate)
     Progress/            the rules: one small service per subject
-    Course/ Home/ Words/ Verbs/ Speaking/ Cambridge/ Games/
+    Course/ Home/ Words/ Verbs/ Speaking/ Cambridge/ Games/ Help/
                          what each page shows, put together from the two above (no rules of their own)
 config/learning.php      admin account, content path, the numbers of the rules
 resources/
-  content/               the course (JSON) — a1/ a2/ b1/ b2/ cambridge/ verbs.json
+  content/               the course (JSON) — a1/ a2/ b1/ b2/ cambridge/ verbs.json glossary.json help.json
   css/                   app.css + the ported style sheet, split by subject
   js/
     api/                 progress.ts — typed calls to the JSON progress API
@@ -164,6 +164,7 @@ Names and URLs are fixed; pages link to each other with the Wayfinder helpers of
 | | `account.profile`, `account.password` | `PUT /settings/account/profile`, `…/password` | — (back to `Settings`) |
 | `web/speaking.php` | `speaking` | `GET /speaking/{mode?}/{arg?}?level=` — `talk`, `role`, `repeat`, `say`, `answer`, `pairs`, `sprint`; `arg`: a scenario, a unit or a topic; `level`: the hub's level picker (else the level worked on) | `speaking/Index`, `Talk`, `Role`, `Sentences`, `Answer`, `Pairs`, `Sprint` |
 | `web/cambridge.php` | `cambridge` | `GET /cambridge/{exam?}/{test?}/{paper?}` — `pet`, `fce`; `pet-test1` …; `reading`, `listening`, `writing`, `speaking` (another paper goes back to the exam) | `cambridge/Index`, `Exam`, `Paper`, `Writing`, `Speaking`, `Unavailable` |
+| `web/help.php` | `help` | `GET /help/{tab?}` — `sounds`, `plan`, `tips` | `Help` |
 | `web/api.php` | `api.*` | `/api/…` (JSON) | — |
 
 Route parameters with a fixed set of values are constrained (`whereIn`, or a pattern for unit ids

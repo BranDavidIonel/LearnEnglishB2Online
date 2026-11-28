@@ -31,6 +31,7 @@ original file (the order matters for the cascade):
 | `word-bank.css` | word bank rows, `words-card` |
 | `verbs.css` | irregular verbs |
 | `auth.css` | login page (`auth`, `field`, `input`) |
+| `help.css` | help page: pronunciation signs (`snd-list` > `snd-row`), plan lines (`plan-list` > `plan-row`), advice cards |
 
 Rules for new styles: use the theme variables below (never a fixed colour for text or panels), put
 them in the partial of their subject, and keep the class-name style of the original (short,
@@ -126,7 +127,7 @@ Every page gets `AppLayout` (persistent) automatically; pages under `pages/auth/
 </template>
 ```
 
-`AppLayout` = `SideNav` (`aside.side`: `BrandMark`, the twelve menu items, Settings, Log out) +
+`AppLayout` = `SideNav` (`aside.side`: `BrandMark`, the twelve menu items, Help, Settings, Log out) +
 `TopBar` (`header.top`: menu button, `LanguageSwitcher`, theme button, level / streak / XP pills) +
 `ToastStack`. The active menu item follows the URL (`/units/…`, `/exams/…` → Learn; `/words/…` →
 Words; …, see `SECTIONS` in `SideNav.vue`). Badges: Flashcards = `$learner.due.words`, Words =

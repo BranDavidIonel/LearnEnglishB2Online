@@ -29,6 +29,7 @@
 @import './styles/word-bank.css' layer(components);
 @import './styles/verbs.css' layer(components);
 @import './styles/auth.css' layer(components);
+@import './styles/help.css' layer(components);
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';

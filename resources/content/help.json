@@ -1,0 +1,128 @@
+{
+  "sounds": {
+    "introRo": "Sub fiecare cuvânt din curs e scrisă pronunția lui, între bare: **hello** /həˈləʊ/. Semnele nu sunt litere englezești, ci sunete: un semn = un singur sunet, mereu același. Mai jos e fiecare semn folosit în curs, explicat prin sunete din română, cu cuvinte din curs ca exemplu. Când ești undeva unde nu poți asculta, citește transcrierea cu ajutorul acestei pagini.",
+    "groups": [
+      {
+        "id": "marks",
+        "titleRo": "Semnele ajutătoare",
+        "noteRo": "Nu sunt sunete: îți spun cum să citești restul.",
+        "sounds": [
+          { "symbol": "/ /", "likeRo": "între bare e pronunția", "textRo": "Ce e între bare nu e ortografia, ci sunetele cuvântului, de la stânga la dreapta.", "examples": ["hello"] },
+          { "symbol": "ˈ", "likeRo": "accentul principal", "textRo": "Silaba de **după** semn se spune mai tare și mai lung. În engleză accentul face parte din cuvânt: învață-l odată cu el.", "examples": ["hotel", "about", "company"] },
+          { "symbol": "ˌ", "likeRo": "accent secundar", "textRo": "Silaba de după el e accentuată și ea, dar mai slab decât cea cu ˈ. Apare în cuvinte lungi și în expresii.", "examples": ["OK", "afternoon", "understand"] },
+          { "symbol": ".", "likeRo": "desparte silabele", "textRo": "Nu se pronunță; arată doar unde se termină o silabă. Unele cuvinte din curs sunt scrise fără puncte și se citesc la fel.", "examples": ["company", "happy"] },
+          { "symbol": "ː", "likeRo": "vocală lungă", "textRo": "Vocala dinaintea lui se ține cam de două ori mai mult. Lungimea schimbă sensul: **ship** /ʃɪp/ (vapor) — **sheep** /ʃiːp/ (oaie).", "examples": ["tea", "blue", "park"] },
+          { "symbol": "…r", "likeRo": "r la sfârșit: de obicei mut", "textRo": "În engleza britanică, un r de la sfârșitul cuvântului sau dinaintea unei consoane **nu se pronunță**; se aude doar când cuvântul următor începe cu o vocală. De aceea în curs îl vezi uneori scris, alteori nu: /ˈtiː.tʃər/ și /ˈtiː.tʃə/ se citesc la fel.", "examples": ["worker", "sure", "ear"] },
+          { "symbol": ", –", "likeRo": "mai multe pronunții sau forme", "textRo": "Virgula desparte două pronunții ale aceluiași cuvânt: forma slabă (cea obișnuită în propoziție) și forma tare. Linia desparte cele trei forme ale unui verb neregulat: /ɡəʊ/ – /went/ – /ɡɒn/.", "examples": [] }
+        ]
+      },
+      {
+        "id": "short",
+        "titleRo": "Vocale scurte",
+        "sounds": [
+          { "symbol": "ɪ", "likeRo": "un „i” scurt și relaxat, puțin spre „e”", "textRo": "Mai scurt și mai deschis decât „i” românesc. Nu-l lungi: **ship** /ʃɪp/ nu e **sheep** /ʃiːp/.", "examples": ["sister", "printer", "office"] },
+          { "symbol": "e", "likeRo": "„e” din „mere”", "textRo": "Scurt și clar, ca în română.", "examples": ["desk", "red", "yes"] },
+          { "symbol": "æ", "likeRo": "între „a” și „e”", "textRo": "Deschide gura ca pentru „a” și spune „e”. Românii îl citesc de obicei „e”, dar **bad** /bæd/ (rău) nu sună ca **bed** /bed/ (pat).", "examples": ["cat", "bag", "black"] },
+          { "symbol": "ʌ", "likeRo": "un „a” scurt și sec", "textRo": "Ca „a” din „hai!”, spus repede, cu gura puțin deschisă. Se scrie de obicei cu **u** sau **o**: cup, son, mother.", "examples": ["cup", "son", "but"] },
+          { "symbol": "ɒ", "likeRo": "un „o” scurt, cu gura deschisă", "textRo": "Între „o” și „a”: mai scurt și mai deschis decât „o” românesc.", "examples": ["dog", "hot", "coffee"] },
+          { "symbol": "ʊ", "likeRo": "un „u” scurt și relaxat", "textRo": "Buzele doar puțin rotunjite. Nu-l lungi: **full** /fʊl/ (plin) nu e **fool** /fuːl/ (prost).", "examples": ["good", "look", "put"] },
+          { "symbol": "ə", "likeRo": "„ă” românesc, scurt și slab", "textRo": "Cel mai des sunet din engleză. Apare numai în silabe **neaccentuate**: aproape orice vocală scrisă devine /ə/ când nu e accentuată.", "examples": ["about", "teacher", "doctor"] },
+          { "symbol": "i", "likeRo": "„i” scurt, la sfârșit de cuvânt", "textRo": "Ca „i” din „taxi”. Apare în silabe neaccentuate, mai ales la sfârșit, unde se scrie **y**: happy, city.", "examples": ["happy", "coffee", "taxi"] },
+          { "symbol": "u", "likeRo": "„u” scurt, neaccentuat", "textRo": "Ca „u” românesc spus scurt, în mijlocul cuvântului.", "examples": ["July", "January", "Romania"] }
+        ]
+      },
+      {
+        "id": "long",
+        "titleRo": "Vocale lungi",
+        "noteRo": "Au toate semnul ː după ele. Ține-le: o vocală lungă spusă scurt devine alt cuvânt.",
+        "sounds": [
+          { "symbol": "iː", "likeRo": "„i” lung", "textRo": "Buzele întinse, ca la zâmbet; ține sunetul.", "examples": ["tea", "key", "team"] },
+          { "symbol": "ɑː", "likeRo": "„a” lung, din fundul gurii", "textRo": "Gura larg deschisă, ca la doctor: „aaa”. Litera r de după el nu se aude: **park** /pɑːk/.", "examples": ["park", "start", "father"] },
+          { "symbol": "ɔː", "likeRo": "„o” lung, cu buzele rotunjite", "textRo": "Se scrie în multe feluri: **or**, **al**, **aw**, **our** (north, call, law, four).", "examples": ["call", "water", "north"] },
+          { "symbol": "uː", "likeRo": "„u” lung", "textRo": "Buzele rotunjite și împinse în față; ține sunetul.", "examples": ["blue", "soup", "too"] },
+          { "symbol": "ɜː", "likeRo": "un „ă” lung", "textRo": "Spui „ă” și îl ții, fără să miști gura. Se scrie **ir**, **ur**, **er**, **or**: bird, nurse, work. Atenție: **work** /wɜːk/ (a munci) nu e **walk** /wɔːk/ (a merge pe jos).", "examples": ["work", "learn", "word"] },
+          { "symbol": "ɒ̃", "likeRo": "„o” spus pe nas", "textRo": "Ca în franceză. În curs apare într-un singur cuvânt.", "examples": ["croissant"] }
+        ]
+      },
+      {
+        "id": "diphthongs",
+        "titleRo": "Diftongi (două vocale într-o silabă)",
+        "noteRo": "Prima vocală e cea tare; pe a doua doar o atingi.",
+        "sounds": [
+          { "symbol": "eɪ", "likeRo": "„ei” din „lei”", "examples": ["name", "cake", "rain"] },
+          { "symbol": "aɪ", "likeRo": "„ai” din „mai”", "examples": ["fine", "white", "drive"] },
+          { "symbol": "ɔɪ", "likeRo": "„oi” din „doi”", "examples": ["boy", "enjoy", "coin"] },
+          { "symbol": "əʊ", "likeRo": "„ău”", "textRo": "Începi cu „ă” și aluneci spre „u”. Nu e „o” curat și nu e „ou”: **no** /nəʊ/.", "examples": ["no", "cold", "know"] },
+          { "symbol": "aʊ", "likeRo": "„au” din „sau”", "examples": ["how", "brown", "about"] },
+          { "symbol": "ɪə", "likeRo": "„iă”", "textRo": "Un „i” care alunecă spre „ă”.", "examples": ["here", "beer", "really"] },
+          { "symbol": "eə", "likeRo": "„eă”", "textRo": "Un „e” lung care se stinge în „ă”.", "examples": ["chair", "where", "hair"] },
+          { "symbol": "ʊə", "likeRo": "„uă”", "examples": ["tour", "tourist", "euro"] },
+          { "symbol": "aɪə", "likeRo": "„aiă”", "textRo": "Diftongul /aɪ/ urmat de un /ə/ slab.", "examples": ["tired", "hire", "diary"] },
+          { "symbol": "aʊə", "likeRo": "„auă”", "textRo": "Diftongul /aʊ/ urmat de un /ə/ slab.", "examples": ["hour", "tower", "flour"] }
+        ]
+      },
+      {
+        "id": "same",
+        "titleRo": "Consoane ca în română",
+        "sounds": [
+          { "symbol": "p t k", "likeRo": "„p”, „t”, „c” din „casă”", "textRo": "La începutul unei silabe accentuate se aud cu un mic suflu de aer după ele: **park**, **tea**, **key**. Sunetul /k/ se scrie c, k, ck sau q.", "examples": ["park", "tea", "key"] },
+          { "symbol": "b d f v m n l", "likeRo": "exact ca în română", "examples": ["bread", "fine", "name"] },
+          { "symbol": "ɡ", "likeRo": "„g” din „gară”", "textRo": "Mereu tare, niciodată „ge” sau „gi”: **get** /ɡet/.", "examples": ["good", "dog", "bag"] },
+          { "symbol": "s z", "likeRo": "„s” și „z”", "textRo": "Ca în română, dar litera **s** se pronunță adesea /z/: **is** /ɪz/, **shoes** /ʃuːz/.", "examples": ["son", "shoes", "husband"] },
+          { "symbol": "h", "likeRo": "„h” suflat ușor", "textRo": "Mai slab decât în română: doar aer, ca atunci când aburești un geam.", "examples": ["hello", "hot", "how"] }
+        ]
+      },
+      {
+        "id": "different",
+        "titleRo": "Consoane care se citesc altfel",
+        "noteRo": "Două capcane: semnul **j** se citește „i”, iar „j”-ul românesc se scrie /ʒ/.",
+        "sounds": [
+          { "symbol": "ʃ", "likeRo": "„ș”", "examples": ["shoes", "short", "English"] },
+          { "symbol": "ʒ", "likeRo": "„j” românesc, din „joc”", "examples": ["usually", "garage", "measure"] },
+          { "symbol": "tʃ", "likeRo": "„c” din „cer”, „cine”", "examples": ["chair", "cheese", "teacher"] },
+          { "symbol": "dʒ", "likeRo": "„g” din „ger”, „girafă”", "examples": ["job", "jeans", "jacket"] },
+          { "symbol": "θ", "likeRo": "nu există în română: un „s” cu limba între dinți", "textRo": "Pune vârful limbii între dinți și suflă. Nu e „s”, nu e „t”, nu e „f”: **think** /θɪŋk/ (a gândi) nu e **sink** /sɪŋk/ (chiuvetă).", "examples": ["think", "thing", "north"] },
+          { "symbol": "ð", "likeRo": "nu există în română: un „z” cu limba între dinți", "textRo": "Același loc ca la /θ/, dar cu voce. Nu e „d” și nu e „z”. Apare în cele mai dese cuvinte: the, this, that.", "examples": ["mother", "there", "with"] },
+          { "symbol": "ŋ", "likeRo": "„n” din „bancă”", "textRo": "Un „n” spus din fundul gurii. La terminația **-ing** nu se aude niciun „g”: **sing** /sɪŋ/.", "examples": ["sing", "bank", "meeting"] },
+          { "symbol": "r", "likeRo": "„r” englezesc: limba nu vibrează", "textRo": "Vârful limbii se ridică spre cerul gurii, dar nu-l atinge și nu vibrează; buzele sunt ușor rotunjite.", "examples": ["red", "bread", "country"] },
+          { "symbol": "w", "likeRo": "„u” foarte scurt, ca în „ou”, „ziua”", "textRo": "Buzele rotunjite, apoi treci repede la vocala următoare. Nu e „v”: **west** nu sună ca „vest”.", "examples": ["water", "white", "swim"] },
+          { "symbol": "j", "likeRo": "„i” scurt din „iarnă” — nu „j” românesc!", "textRo": "Se scrie de obicei **y** (yes) sau e ascuns în **u** și **ew**: **new** /njuː/, **use** /juːz/.", "examples": ["yes", "young", "new"] }
+        ]
+      }
+    ]
+  },
+  "plan": {
+    "introRo": "Un plan pentru cineva care are și serviciu: **cam 40 de minute pe zi, în fiecare zi**. Regularitatea bate efortul — 20 de minute zilnic fac mai mult decât trei ore sâmbăta. Ordinea de mai jos contează: întâi repeți, apoi înveți ceva nou.",
+    "daily": [
+      { "emoji": "🗂️", "titleRo": "Repetă cuvintele de azi", "textRo": "Începe cu flashcards: cuvintele care trebuie repetate azi (cifra din meniu). Aplicația ți le aduce exact când ești pe cale să le uiți, așa că nu le amâna.", "minutes": 10, "link": "flashcards" },
+      { "emoji": "📖", "titleRo": "20 de cuvinte noi", "textRo": "Sortează o serie de 20 din banca de cuvinte: „le știam” sau „noi pentru mine”. Cele noi intră singure în flashcards.", "minutes": 5, "link": "words" },
+      { "emoji": "🎓", "titleRo": "Un pas din unitatea curentă", "textRo": "Vocabular → gramatică → dialog → exerciții → lectură → test. Un pas pe zi înseamnă o unitate pe săptămână.", "minutes": 15, "link": "learn" },
+      { "emoji": "🗣️", "titleRo": "Vorbește cu voce tare", "textRo": "Repetă propoziții, răspunde la întrebări sau joacă un rol. Dacă ești în public, mută pasul ăsta seara — dar nu-l sări: vorbitul nu se învață citind.", "minutes": 5, "link": "speaking" },
+      { "emoji": "🩹", "titleRo": "Greșelile și verbele neregulate", "textRo": "Când apare o cifră la „Greșelile mele” sau la verbe, rezolvă-le: sunt exact lucrurile pe care încă nu le știi.", "minutes": 5, "link": "mistakes" }
+    ],
+    "shortDayRo": "**Zi plină?** Varianta de 10 minute: doar flashcards și cele 20 de cuvinte noi. Păstrezi seria de zile și nu pierzi ce ai învățat.",
+    "weekly": [
+      { "emoji": "✅", "titleRo": "Testul unității", "textRo": "La sfârșitul săptămânii dă testul unității. Se trece de la 80%; dacă nu treci, reia pașii unde ai greșit, nu testul.", "link": "learn" },
+      { "emoji": "📝", "titleRo": "O probă Cambridge", "textRo": "În weekend, o probă de Reading sau de Listening din testele PET, cu ceasul pornit. Te obișnuiești cu formatul și cu timpul.", "link": "cambridge" },
+      { "emoji": "✍️", "titleRo": "Un text scris", "textRo": "Un e-mail de vreo 100 de cuvinte (proba Writing din PET are întrebări și un răspuns-model). Scrie-l întâi singur, apoi compară.", "link": "cambridge" },
+      { "emoji": "📐", "titleRo": "Recapitulează gramatica", "textRo": "Recitește lecția de gramatică a săptămânii și uită-te la videoclipul unității, cu subtitrare în engleză.", "link": "grammar" }
+    ],
+    "milestones": [
+      { "emoji": "🏁", "titleRo": "La sfârșitul fiecărui nivel", "textRo": "Examenul de nivel. Dacă o unitate iese slab, aplicația o trimite înapoi la recapitulare — fă-o înainte să mergi mai departe.", "link": "learn" },
+      { "emoji": "🎯", "titleRo": "Când termini B1", "textRo": "Un test PET complet, toate probele, contra cronometru. Pagina Cambridge îți arată cât de pregătit ești; ținta sigură e 70%.", "link": "cambridge" },
+      { "emoji": "📊", "titleRo": "O dată pe lună", "textRo": "Uită-te la pagina Progres: câte cuvinte ai învățat, câte zile ai lucrat, unde ai rămas în urmă.", "link": "progress" }
+    ]
+  },
+  "tips": [
+    { "emoji": "🎧", "titleRo": "Ascultă engleză adevărată, zilnic", "textRo": "10–15 minute pe zi: „6 Minute English” de la BBC Learning English sau un podcast pentru nivelul tău. Aplicația citește cu voce sintetică; urechea are nevoie de voci reale, la viteză normală." },
+    { "emoji": "🦜", "titleRo": "Repetă după vorbitor (shadowing)", "textRo": "Pune un clip scurt, oprește după fiecare propoziție și repet-o cu voce tare, imitând ritmul și accentul. Cinci minute pe zi îți schimbă pronunția mai mult decât orice teorie." },
+    { "emoji": "📺", "titleRo": "Filme cu subtitrare în engleză", "textRo": "Seriale și YouTube cu subtitrare în **engleză**, nu în română. La început alege lucruri pe care le-ai mai văzut." },
+    { "emoji": "📚", "titleRo": "Citește puțin în fiecare zi", "textRo": "Documentație tehnică, articole scurte, cărți simplificate („graded readers”) de nivel B1. Nu căuta fiecare cuvânt: doar pe cele care se repetă." },
+    { "emoji": "✍️", "titleRo": "Scrie în engleză la serviciu", "textRo": "Mesaje de commit, comentarii, notițe, liste de sarcini — în engleză. O dată pe săptămână scrie un e-mail întreg și roagă pe cineva (un profesor, un coleg sau un asistent AI) să ți-l corecteze, apoi rescrie-l corect." },
+    { "emoji": "💬", "titleRo": "Vorbește cu un om", "textRo": "O jumătate de oră pe săptămână cu un profesor sau un partener de conversație. La examenul PET proba de vorbit se dă în doi; aplicația nu poate înlocui o conversație adevărată." },
+    { "emoji": "🧪", "titleRo": "Teste oficiale înainte de examen", "textRo": "Cu o lună înainte fă 2–3 teste oficiale Cambridge B1 Preliminary, contra cronometru. Pe site-ul Cambridge English găsești teste gratuite cu răspunsuri." },
+    { "emoji": "📱", "titleRo": "Telefonul și programele în engleză", "textRo": "Schimbă limba telefonului, a sistemului și a editorului. Vezi zilnic sute de cuvinte fără niciun efort." },
+    { "emoji": "🧠", "titleRo": "Gândește în engleză lucrurile simple", "textRo": "Ce faci acum, ce urmează, ce vezi pe stradă. Când îți lipsește un cuvânt, notează-l și caută-l seara." },
+    { "emoji": "🔁", "titleRo": "Nu sări două zile la rând", "textRo": "O zi pierdută nu strică nimic. Două la rând devin obicei. În zilele grele fă varianta de 10 minute din plan." }
+  ]
+}

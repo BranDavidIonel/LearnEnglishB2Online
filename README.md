@@ -41,6 +41,7 @@ This is the Laravel rewrite of an earlier local version (plain JavaScript and No
 - **Tap a word:** wherever English is shown for reading or listening (dialogues, example sentences, reading texts, grammar examples, the speaking pages, verb examples), every word can be tapped. A small window says what it means, which word it is a form of ("alerts — plural of alert", "went — past of go"), the expression it belongs to in that sentence ("on call"), and lets you hear just that word, say it and be checked, and send it to your flashcards. The words the course vocabulary does not cover are explained by a glossary of about 1,000 words and 240 names; nothing is tappable where it would give an answer away (tests, exams, exercises before the answer).
 - **Word games** (memory, sprint, spelling), a "My mistakes" page, 23 achievements, XP, a day streak and a daily goal.
 - **Cambridge:** 2 full mock exams each for B1 Preliminary (PET) and B2 First (FCE), all four papers, with an "am I ready?" indicator.
+- **Help:** every pronunciation sign written under the words (IPA) explained through Romanian sounds, with course words to hear — for the moments when you cannot listen —, a daily plan with your distance to the B1 and B2 vocabulary, and advice for outside the app.
 - **Settings:** interface language (EN / RO, English by default), 4 colour themes, daily goal, sounds, voice and speed, and a microphone test.
 
 New in this version:
@@ -134,8 +135,8 @@ npm run test         # the front-end unit tests (Vite Plus)
 composer ci:check    # everything: front-end lint + format, vue-tsc, the front-end tests, then composer test
 ```
 
-- **Pest — 809 tests** (4,569 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
-- **Front end — 250 tests** in 22 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
+- **Pest — 820 tests** (4,673 assertions, ~25 s, an in-memory SQLite database): every rule of `app/Services/Progress` in `tests/Unit`, every page and every API route in `tests/Feature` (guests sent to the login, page props, validation, the effect on the database), the import / export round trip, the content files and the validator, the login and the account, security headers, and that every interface text has a Romanian translation with the same placeholders.
+- **Front end — 254 tests** in 23 files: answer checking, speech recognition matching, the exercise runner, saving progress with retries, the Cambridge papers and other helpers in `resources/js`.
 - **Content:** `content:validate` checks all 136 content files (units, word banks, tests, speaking, Cambridge mocks, irregular verbs, the glossary), and that every word shown where words can be tapped has an explanation.
 
 ## Adding content
@@ -149,7 +150,7 @@ verbs.json              the irregular verbs
 cambridge/pet|fce/      exam.json, test1.json, test2.json
 ```
 
-The format is described in [`docs/content/SCHEMA.md`](docs/content/SCHEMA.md) (lessons), [`SCHEMA-SPEAKING.md`](docs/content/SCHEMA-SPEAKING.md) (speaking) and [`SCHEMA-CAMBRIDGE.md`](docs/content/SCHEMA-CAMBRIDGE.md) (exams). After any change, run:
+The format is described in [`docs/content/SCHEMA.md`](docs/content/SCHEMA.md) (lessons), [`SCHEMA-SPEAKING.md`](docs/content/SCHEMA-SPEAKING.md) (speaking), [`SCHEMA-CAMBRIDGE.md`](docs/content/SCHEMA-CAMBRIDGE.md) (exams) and [`SCHEMA-HELP.md`](docs/content/SCHEMA-HELP.md) (the help page). After any change, run:
 
 ```bash
 php artisan content:validate
